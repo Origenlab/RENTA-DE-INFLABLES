@@ -33,12 +33,12 @@ const Tag = as
     <Tag class="cdetail__title">{title}</Tag>
 
     <div class="cdetail__body">
-      {body.map(p => <p class="cdetail__p">{p}</p>)}
+      {body.map((p: string) => <p class="cdetail__p">{p}</p>)}
     </div>
 
     {points.length > 0 && (
       <ul class="cdetail__features">
-        {points.map(pt => (
+        {points.map((pt: string) => (
           <li class="cdetail__feat">
             <span class="cdetail__feat-icon" aria-hidden="true">
               <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
