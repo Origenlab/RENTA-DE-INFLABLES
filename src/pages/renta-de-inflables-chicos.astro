@@ -1,0 +1,928 @@
+---
+// src/pages/renta-de-inflables-chicos.astro — L3 · Inflables Chicos · INFLAFI
+// Ruta: /renta-de-inflables-chicos
+// SEO objetivo: "inflables chicos CDMX" · "brincolin pequeño para interiores" · "inflable 1 año"
+
+import PageLayout     from '@layouts/PageLayout.astro'
+import Hero           from '@components/Hero.astro'
+import SectionHeading from '@components/SectionHeading.astro'
+import CategoryCard   from '@components/CategoryCard.astro'
+import CategoryDetail from '@components/CategoryDetail.astro'
+import CTABanner      from '@components/CTABanner.astro'
+import FAQWithContact from '@components/FAQWithContact.astro'
+import SectionMenu    from '@components/SectionMenu.astro'
+
+import { waUrl, WA_MESSAGES, CONTACT } from '@config/site'
+import type { FaqItem } from '@lib/seo'
+
+const WA_ICON = 'M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z'
+
+// ── FEATURE SPECS (3 tarjetas grandes con visual) ─────────────────────────────
+const FEATURE_SPECS = [
+  {
+    gradient: 'linear-gradient(135deg, #7c3aed 0%, #a855f7 100%)',
+    svgContent: '<circle cx="12" cy="8" r="5" stroke-width="1.5"/><path d="M3 21v-2a7 7 0 0 1 7-7h4a7 7 0 0 1 7 7v2" stroke-width="1.5"/>',
+    label: 'Edad recomendada',
+    value: '1 a 4 años',
+    detail: 'Paredes suaves y entrada de boca baja diseñadas para niños que ya caminan pero todavía necesitan supervisión constante. Los adultos pueden ver a los niños en todo momento.',
+    tag: 'Más importante',
+  },
+  {
+    gradient: 'linear-gradient(135deg, #059669 0%, #10b981 100%)',
+    svgContent: '<rect x="3" y="3" width="8" height="8" stroke-width="1.5" rx="1"/><rect x="13" y="3" width="8" height="8" stroke-width="1.5" rx="1"/><rect x="3" y="13" width="8" height="8" stroke-width="1.5" rx="1"/><rect x="13" y="13" width="8" height="8" stroke-width="1.5" rx="1"/>',
+    label: 'Dimensiones',
+    value: '2 × 2 × 2 m',
+    detail: 'El más compacto del catálogo INFLAFI. La base de 2×2 m cabe en salas, cuartos grandes y terrazas con al menos 3×3 m de espacio libre total (incluye margen para el soplador).',
+    tag: 'Cabe en interiores',
+  },
+  {
+    gradient: 'linear-gradient(135deg, #0369a1 0%, #0ea5e9 100%)',
+    svgContent: '<path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" stroke-width="1.5"/><polyline points="9 22 9 12 15 12 15 22" stroke-width="1.5"/>',
+    label: 'Instalación posible en',
+    value: 'Interior · Exterior',
+    detail: 'Sala amplia, cuarto grande, terraza techada, jardín o salón sin jardín. Con 3×3 m libres y una toma de 110 V cercana, el Micro Baby va donde los demás modelos del catálogo no llegan.',
+    tag: 'Único en su categoría',
+  },
+]
+
+// ── SECONDARY SPECS (imagen del producto + lista detallada) ───────────────────
+const SECONDARY_SPECS = [
+  {
+    svgContent: '<path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/>',
+    label: 'Capacidad',
+    value: '2–3 niños',
+    note: 'Sin riesgo de mezcla con niños mayores',
+  },
+  {
+    svgContent: '<circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/>',
+    label: 'Tiempo de montaje',
+    value: '< 5 minutos',
+    note: 'El equipo llega 30 min antes del evento',
+  },
+  {
+    svgContent: '<path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/>',
+    label: 'Soplador',
+    value: 'Incluido',
+    note: '100 W · bajo ruido · toma estándar 110 V',
+  },
+  {
+    svgContent: '<circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/>',
+    label: 'Anclas externas',
+    value: 'No requiere',
+    note: 'El peso propio lo mantiene estable',
+  },
+  {
+    svgContent: '<rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/>',
+    label: 'Espacio mínimo',
+    value: '3 × 3 m libre',
+    note: 'Incluye margen lateral para el soplador',
+  },
+  {
+    svgContent: '<circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/>',
+    label: 'Duración renta',
+    value: '4 a 6 horas',
+    note: 'Extensión posible con costo adicional',
+  },
+]
+
+// ── ESCENARIOS DE USO ─────────────────────────────────────────────────────────
+const SCENARIOS = [
+  {
+    icon: '<path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>',
+    title: 'Primer y segundo cumpleaños',
+    desc: 'El Micro Baby está dimensionado exactamente para las primeras fiestas de vida. La boca de entrada baja permite que los adultos supervisen en todo momento, y las paredes suaves evitan cualquier golpe.',
+    tag: 'El más pedido',
+  },
+  {
+    icon: '<path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/>',
+    title: 'Fiestas en departamento',
+    desc: 'El único inflable del catálogo que entra en una sala amplia, cuarto grande o terraza techada. Si no tienes jardín, el Micro Baby es tu única opción — y la correcta.',
+    tag: 'Solo este modelo',
+  },
+  {
+    icon: '<circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/>',
+    title: 'Baby shower',
+    desc: 'Cuando hay hermanos mayores de 1 a 4 años en el baby shower, el Micro Baby les da su propia zona de juego mientras los adultos disfrutan el festejo.',
+    tag: 'Favorito para baby showers',
+  },
+  {
+    icon: '<path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/>',
+    title: 'Fiesta mixta de edades',
+    desc: 'Renta el Micro Baby para los niños de 1 a 4 años y un mediano para los de 5 en adelante. Cada edad en su zona, los papás tranquilos.',
+    tag: 'Se puede combinar',
+  },
+  {
+    icon: '<rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/>',
+    title: 'Salón de fiestas sin jardín',
+    desc: 'Muchos salones de colonia tienen capacidad para recibir el Micro Baby si hay al menos 3×3 m libres. Consúltanos con las medidas y confirmamos al instante.',
+    tag: 'Verificar medidas',
+  },
+  {
+    icon: '<path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/>',
+    title: 'Bautizos y eventos formales',
+    desc: 'Cuando hay niños pequeños en un evento de adultos — bautizo, primera comunión, reunión familiar —, el Micro Baby les da entretenimiento sin interrumpir la dinámica principal.',
+    tag: 'Discreto y compacto',
+  },
+]
+
+// ── OTRAS CATEGORÍAS ──────────────────────────────────────────────────────────
+const OTRAS_CATS = [
+  {
+    label: 'Inflables Medianos',
+    href: '/renta-de-inflables-medianos',
+    image: '/images/inflables/medianos.jpg',
+    blurb: '4 metros de largo y tres diseños. El favorito de los cumpleaños de 3 a 10 años en CDMX.',
+    ctaLabel: 'Ver inflables medianos',
+    badge: undefined as string | undefined,
+  },
+  {
+    label: 'Inflables Grandes',
+    href: '/renta-de-inflables-grandes',
+    image: '/images/inflables/grandes.jpg',
+    blurb: 'Toboganes integrados y hasta 7 metros de largo. Para eventos que necesitan toda la adrenalina.',
+    ctaLabel: 'Ver inflables grandes',
+    badge: undefined as string | undefined,
+  },
+  {
+    label: 'Inflables para Niñas',
+    href: '/renta-de-inflables-para-nina',
+    image: '/images/inflables/ninas.jpg',
+    blurb: 'Castillos de princesas y unicornios. El inflable más fotografiado del catálogo.',
+    ctaLabel: 'Ver princesas',
+    badge: 'Princesas',
+  },
+  {
+    label: 'Inflables para Niños',
+    href: '/renta-de-inflables-para-ninos',
+    image: '/images/inflables/ninos.jpg',
+    blurb: 'Superhéroes, dinosaurios y aventureros. Para fiestas temáticas de 4 a 12 años.',
+    ctaLabel: 'Ver héroes',
+    badge: 'Héroes',
+  },
+  {
+    label: 'Inflables para Bodas',
+    href: '/renta-de-inflables-para-boda',
+    image: '/images/inflables/bodas.jpg',
+    blurb: 'Diseño premium blanco y dorado. El inflable elegante para bodas y XV años.',
+    ctaLabel: 'Ver para bodas',
+    badge: undefined as string | undefined,
+  },
+]
+
+// ── PREGUNTAS FRECUENTES ─────────────────────────────────────────────────────
+const FAQS: FaqItem[] = [
+  {
+    question: '¿El Micro Baby realmente cabe en un departamento o sala?',
+    answer: 'Sí, siempre que tengas al menos 3×3 metros de espacio libre y una altura de techo de 2.5 m o más. El Micro Baby tiene base de 2×2 m y 2 m de altura inflado — le damos un margen de 50 cm por lado para que el soplador quede fuera del espacio de brinco. Escríbenos con las medidas de tu sala o terraza y te confirmamos al instante.',
+  },
+  {
+    question: '¿Es seguro para bebés menores de 1 año?',
+    answer: 'No recomendamos el Micro Baby para bebés que todavía no caminan de forma estable. El inflable está diseñado para niños que ya dan sus primeros pasos y pueden mantenerse de pie solos — aproximadamente desde los 12 a 14 meses. Para un bebé menor de 1 año que no camina, el inflable no añade valor y podría ser riesgoso sin supervisión constante.',
+  },
+  {
+    question: '¿Cuánto ruido hace el soplador dentro de la casa?',
+    answer: 'El soplador del Micro Baby opera a alrededor de 65 dB — similar al volumen de una conversación normal. No es silencioso, pero tampoco molesta. En la práctica, con la música de la fiesta de fondo, la mayoría de nuestros clientes apenas lo notan. Si la fiesta es en un espacio muy pequeño o se requiere silencio total, avísanos para coordinar la ubicación del soplador lejos del área principal.',
+  },
+  {
+    question: '¿Qué pasa si llueve durante la fiesta?',
+    answer: 'Si el Micro Baby está en exterior y empieza a llover, recomendamos apagarlo y sacarlo a los niños inmediatamente — la superficie mojada se vuelve resbaladiza. Si lo tienes en interior o bajo techo, la lluvia no afecta en nada. En caso de lluvia intensa antes del evento, coordinamos reubicación o reagendamos sin costo adicional según disponibilidad.',
+  },
+  {
+    question: '¿Puedo reservar el Micro Baby para el mismo día?',
+    answer: 'Sí, siempre que haya disponibilidad. Escríbenos por WhatsApp lo antes posible — entre más anticipación, más probabilidad de confirmar. Para fechas de fin de semana (viernes, sábados y domingos) los modelos se reservan con días de anticipación. Para entre semana es más fácil conseguir última hora.',
+  },
+  {
+    question: '¿El precio incluye traslado, montaje y desmontaje?',
+    answer: 'Sí. Entrega, montaje, desmontaje y recogida están incluidos en el precio de renta. Nuestro equipo llega entre 30 y 60 minutos antes del evento para tenerlo listo. Al terminar regresan a recogerlo sin que tengas que hacer nada. El soplador y las conexiones eléctricas también corren por nuestra cuenta.',
+  },
+]
+---
+
+<PageLayout
+  title="Renta de Inflables Chicos en CDMX — Micro Baby | INFLAFI"
+  description="Renta de inflables chicos en CDMX: el Micro Baby (2×2 m) es el único que cabe en interiores. Seguro para niños de 1 a 4 años. Entrega y montaje incluidos."
+  image="/images/og/inflables-chicos.jpg"
+  pageType="category"
+  breadcrumbs={[
+    { label: 'Inflables', href: '/inflables' },
+    { label: 'Inflables Chicos', href: '/renta-de-inflables-chicos' },
+  ]}
+>
+
+  <!-- MIGAS DE PAN ─────────────────────────────────────────────────────────── -->
+  <nav class="breadcrumbs" aria-label="Migas de pan">
+    <div class="bc-inner">
+      <ol class="bc-list">
+        <li><a href="/" class="bc-link">Inicio</a></li>
+        <li aria-hidden="true" class="bc-sep">›</li>
+        <li><a href="/inflables" class="bc-link">Inflables</a></li>
+        <li aria-hidden="true" class="bc-sep">›</li>
+        <li><span class="bc-current" aria-current="page">Inflables Chicos</span></li>
+      </ol>
+    </div>
+  </nav>
+
+  <!-- HERO 2 COLUMNAS ─────────────────────────────────────────────────────── -->
+  <Hero
+    badge="1 modelo certificado · Base 2×2 m · Interior y exterior"
+    title="Inflables Chicos"
+    accent="en Renta · CDMX"
+    subtitle="El Micro Baby: el único inflable del catálogo que cabe en interiores. Paredes suaves, entrada baja y montaje en menos de 5 minutos. El más seguro para niños de 1 a 4 años."
+    descRight={[
+      "Los inflables chicos son la categoría más compacta del catálogo INFLAFI: 2×2 metros de base y 2 metros de altura. Un solo modelo — el Micro Baby — diseñado específicamente para las primeras fiestas de vida: baby showers, cumpleaños de primer y segundo año y cualquier evento donde los niños más pequeños necesiten su propio espacio seguro. Sin bordes pronunciados, sin anclas externas, con supervisión visual completa en todo momento.",
+      "A diferencia de todos los demás modelos del catálogo, el Micro Baby puede instalarse en interiores: salas amplias, cuartos grandes, terrazas techadas y salones sin jardín. El soplador de bajo ruido está incluido en la renta. Montaje en menos de 5 minutos. Reserva con el 30% de anticipo — respondemos por WhatsApp de lunes a domingo en minutos.",
+    ]}
+    ctas={[
+      { text: '¡Cotiza el Micro Baby!', href: waUrl('Hola, me interesa cotizar el inflable Micro Baby (2×2 m) para un evento en CDMX. ¿Está disponible?'), variant: 'primary', whatsapp: true },
+      { text: 'Ver ficha técnica', href: '#especificaciones', variant: 'outline' },
+    ]}
+    ariaLabel="Renta de inflables chicos INFLAFI — CDMX"
+  />
+
+  <!-- MENÚ DE SECCIONES ────────────────────────────────────────────────────── -->
+  <SectionMenu items={[
+    {
+      label: 'El Micro Baby',
+      sub: 'Descripción completa',
+      href: '#micro-baby',
+      icon: 'M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z',
+    },
+    {
+      label: 'Ficha técnica',
+      sub: 'Medidas y especificaciones',
+      href: '#especificaciones',
+      icon: 'M9 5H7a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2h-2M9 5a2 2 0 0 0 2 2h2a2 2 0 0 0 2-2M9 5a2 2 0 0 0 2-2h2a2 2 0 0 0 2 2m-6 9l2 2 4-4',
+    },
+    {
+      label: '¿Cuándo usarlo?',
+      sub: 'Casos de uso y ocasiones',
+      href: '#cuando',
+      icon: 'M8 6h13M8 12h13M8 18h13M3 6h.01M3 12h.01M3 18h.01',
+    },
+    {
+      label: 'Otras categorías',
+      sub: 'Medianos, grandes y más',
+      href: '#otras-categorias',
+      icon: 'M4 6h16M4 10h16M4 14h16M4 18h16',
+    },
+    {
+      label: 'Cotizar ahora',
+      sub: 'Respuesta en minutos',
+      href: waUrl('Hola, me interesa cotizar el inflable Micro Baby (2×2 m) para un evento en CDMX. ¿Está disponible?'),
+      icon: WA_ICON,
+      cta: true,
+    },
+  ]} />
+
+  <!-- ① EL MICRO BABY A FONDO ──────────────────────────────────────────────── -->
+  <section class="section" aria-labelledby="micro-baby-heading">
+    <div class="container">
+      <SectionHeading
+        id="micro-baby-heading"
+        eyebrow="El único modelo de la categoría"
+        title="Micro Baby"
+        titleAccent="— todo lo que necesitas saber"
+        desc="2×2 metros de base, 2 metros de altura y el único inflable del catálogo que entra en interiores."
+        layout="duo"
+        body={[
+          "El Micro Baby es la elección cuando el espacio es limitado o cuando los protagonistas tienen menos de 4 años. Con sus dimensiones compactas y diseño sin bordes pronunciados, es el modelo más seguro del catálogo para las primeras fiestas de vida.",
+          "Disponible para entrega en cualquier delegación de CDMX y zona metropolitana. El precio incluye soplador, traslado, montaje profesional y desmontaje al cierre del evento. Sin sorpresas en la factura.",
+        ]}
+      />
+      <CategoryDetail
+        id="micro-baby"
+        eyebrow="Chico · 2×2×2 m · Para niños 1–4 años"
+        category="Chico"
+        title="Micro Baby"
+        body={[
+          "El Micro Baby es el inflable más compacto y seguro del catálogo INFLAFI. Con 2×2 metros de base y 2 metros de altura, es el único modelo que puede instalarse en interiores: salas con espacio, cuartos amplios, terrazas techadas o salones sin jardín. Sus paredes son suaves y acolchadas, la entrada tiene boca baja — lo que permite a los adultos ver a los niños en todo momento — y no hay bordes pronunciados ni esquinas que puedan lastimar a los más pequeños. Todo el perímetro interior está diseñado para amortiguar caídas.",
+          "Ideal para los cumpleaños de uno y dos años, baby showers con área de juego para hermanos mayores y cualquier evento donde la audiencia principal sean niños entre 1 y 4 años. Se monta en menos de 5 minutos, no requiere anclas externas por su tamaño compacto, y el soplador de bajo ruido — incluido en la renta — mantiene la presión constante sin molestar a los invitados. Es el favorito de los papás que quieren un espacio delimitado y supervisado para los más pequeños de la fiesta.",
+        ]}
+        points={[
+          'Base 2×2 m — el más compacto del catálogo',
+          'Para niños de 1 a 4 años',
+          'Se instala en interiores: sala, cuarto o terraza',
+          'Montaje en menos de 5 minutos',
+          'Sin anclas externas requeridas',
+          'Paredes suaves, sin bordes pronunciados',
+          'Soplador de bajo ruido incluido',
+          'Entrada de boca baja — supervisión visual total',
+        ]}
+        cta={{
+          label: 'Cotizar el Micro Baby',
+          href: waUrl('Hola, me interesa cotizar el inflable Micro Baby (2×2 m) para un evento en CDMX. ¿Está disponible?'),
+          external: true,
+        }}
+        gallery={{
+          main: {
+            src: '/images/productos/micro-baby.jpg',
+            alt: 'Inflable Micro Baby — vista frontal · INFLAFI CDMX',
+          },
+          thumbs: [
+            { src: '/images/inflables/chicos.jpg',        alt: 'Micro Baby — vista lateral y acceso' },
+            { src: '/images/productos/micro-baby.jpg',    alt: 'Micro Baby — interior y paredes suaves' },
+            { src: '/images/inflables/chicos.jpg',        alt: 'Micro Baby — en uso durante fiesta' },
+          ],
+        }}
+        as="h2"
+      />
+    </div>
+  </section>
+
+  <!-- ② FICHA TÉCNICA ──────────────────────────────────────────────────────── -->
+  <section id="especificaciones" class="section section--specs" aria-labelledby="specs-heading">
+    <div class="container">
+      <SectionHeading
+        id="specs-heading"
+        eyebrow="Medidas · capacidad · lo que incluye la renta"
+        title="Conoce el Micro Baby"
+        titleAccent="al detalle"
+        desc="Verifica las dimensiones, el espacio que necesitas y todo lo que incluye la renta antes de confirmar tu fecha."
+        layout="duo"
+        body={[
+          "Antes de reservar, confirma que el espacio del evento admite los 3×3 m mínimos que requiere el Micro Baby. La base son 2×2 m — el metro extra de margen es para el soplador lateral y la circulación alrededor del inflable.",
+          "El precio que te cotizamos incluye soplador, traslado, montaje y desmontaje. Sin cargos por zona dentro de CDMX, sin costos ocultos. Reserva con el 30% de anticipo y el resto lo liquidas el día del evento.",
+        ]}
+      />
+
+      <!-- 3 Feature spec cards grandes con visual ─────────── -->
+      <div class="fspecs-grid">
+        {FEATURE_SPECS.map(spec => (
+          <div class="fspec-card">
+            <div class="fspec-card__visual" style={`background: ${spec.gradient}`}>
+              <svg width="52" height="52" viewBox="0 0 24 24" fill="none"
+                stroke="rgba(255,255,255,0.95)" stroke-linecap="round" stroke-linejoin="round"
+                aria-hidden="true" set:html={spec.svgContent}
+              />
+              <span class="fspec-card__tag">{spec.tag}</span>
+            </div>
+            <div class="fspec-card__body">
+              <p class="fspec-card__label">{spec.label}</p>
+              <strong class="fspec-card__value">{spec.value}</strong>
+              <p class="fspec-card__detail">{spec.detail}</p>
+            </div>
+          </div>
+        ))}
+      </div>
+
+      <!-- Imagen del producto + specs secundarias ──────────── -->
+      <div class="specs-panel">
+        <div class="specs-panel__img-col">
+          <div class="specs-panel__img-wrap">
+            <img
+              src="/images/productos/micro-baby.jpg"
+              alt="Inflable Micro Baby en renta CDMX — INFLAFI · 2×2×2 m para niños de 1 a 4 años"
+              width="600"
+              height="450"
+              loading="lazy"
+              decoding="async"
+              class="specs-panel__img"
+            />
+            <div class="specs-panel__img-overlay">
+              <span class="spio__badge">Micro Baby</span>
+              <div class="spio__meta">
+                <span class="spio__dims">2 × 2 × 2 m</span>
+                <span class="spio__cat">Categoría: Chico</span>
+              </div>
+            </div>
+          </div>
+          <p class="specs-panel__img-note">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+            Imagen referencial. El modelo real puede variar en color y decoración.
+          </p>
+        </div>
+
+        <div class="specs-panel__data-col">
+          <p class="specs-panel__col-title">Especificaciones técnicas completas</p>
+          <div class="sspecs-grid">
+            {SECONDARY_SPECS.map(s => (
+              <div class="sspec">
+                <span class="sspec__icon" aria-hidden="true">
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round"
+                    set:html={s.svgContent}
+                  />
+                </span>
+                <div class="sspec__info">
+                  <span class="sspec__label">{s.label}</span>
+                  <strong class="sspec__value">{s.value}</strong>
+                  <span class="sspec__note">{s.note}</span>
+                </div>
+              </div>
+            ))}
+          </div>
+          <div class="specs-panel__cta">
+            <a
+              href={waUrl('Hola, me interesa cotizar el inflable Micro Baby (2×2 m) para un evento en CDMX. ¿Está disponible?')}
+              class="specs-panel__cta-btn"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d={WA_ICON}/></svg>
+              Cotizar el Micro Baby
+            </a>
+            <span class="specs-panel__cta-note">Respondemos en minutos · Lun–Dom</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ③ CUÁNDO ELEGIR UN INFLABLE CHICO ───────────────────────────────────── -->
+  <section id="cuando" class="section" aria-labelledby="cuando-heading">
+    <div class="container">
+      <SectionHeading
+        id="cuando-heading"
+        eyebrow="6 escenarios de uso"
+        title="Los casos donde el Micro Baby"
+        titleAccent="no tiene rival"
+        layout="duo"
+        body={[
+          "El Micro Baby no compite con los modelos medianos o grandes — no tiene caso. Compite en su propio terreno: fiestas en interiores, primeros cumpleaños, baby showers y cualquier evento donde los niños de 1 a 4 años necesiten su propio espacio seguro y delimitado.",
+          "Si los niños tienen 5 años o más, o si el evento es en un jardín amplio, un modelo mediano o grande te va a dar mucho más. Pero cuando el escenario es uno de los seis de abajo, el Micro Baby es exactamente el correcto.",
+        ]}
+      />
+      <div class="scenarios-grid">
+        {SCENARIOS.map(s => (
+          <div class="scenario-card">
+            <div class="scenario-card__header">
+              <span class="scenario-card__icon" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="1.8"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <Fragment set:html={`<path d="${s.icon}"/>`} />
+                </svg>
+              </span>
+              {s.tag && <span class="scenario-card__tag">{s.tag}</span>}
+            </div>
+            <h3 class="scenario-card__title">{s.title}</h3>
+            <p class="scenario-card__desc">{s.desc}</p>
+          </div>
+        ))}
+      </div>
+
+      <div class="cuando-cta">
+        <p class="cuando-cta__text">¿Tu caso no aparece aquí? Escríbenos — tenemos solución para casi cualquier tipo de evento.</p>
+        <a
+          href={waUrl(WA_MESSAGES.cotizar)}
+          class="cuando-cta__btn"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+            <path d={WA_ICON}/>
+          </svg>
+          Consultar por WhatsApp
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ④ OTRAS CATEGORÍAS ───────────────────────────────────────────────────── -->
+  <section id="otras-categorias" class="section section--otras" aria-labelledby="otras-heading">
+    <div class="container">
+      <SectionHeading
+        id="otras-heading"
+        eyebrow="Catálogo completo INFLAFI"
+        title="¿Los niños son más grandes?"
+        titleAccent="Explora las otras categorías"
+        desc="El Micro Baby es perfecto para 1–4 años, pero tenemos 5 categorías más para todos los demás."
+        layout="duo"
+        body={[
+          "Si los niños de tu fiesta superan los 4 años, necesitas un modelo más grande. Los medianos (4 m) son el estándar para cumpleaños de 3 a 10 años; los grandes (hasta 7 m) para eventos donde el inflable es el show principal.",
+          "También tenemos modelos temáticos — castillos de princesas para niñas y figuras de superhéroes para niños — y el Castillo Blanco premium para bodas y XV años. Todo el catálogo se entrega en CDMX con montaje incluido.",
+        ]}
+      />
+      <div class="otras-grid">
+        {OTRAS_CATS.map((cat, i) => (
+          <CategoryCard
+            label={cat.label}
+            href={cat.href}
+            image={cat.image}
+            imageAlt={`${cat.label} en renta — CDMX`}
+            badge={cat.badge}
+            blurb={cat.blurb}
+            ctaLabel={cat.ctaLabel}
+            index={i}
+          />
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- ⑤ FAQ ────────────────────────────────────────────────────────────────── -->
+  <FAQWithContact
+    eyebrow="Preguntas sobre inflables chicos"
+    title="Todo lo que debes saber"
+    titleAccent="antes de reservar"
+    desc="Las 6 preguntas más comunes sobre el Micro Baby: espacio, seguridad, ruido y proceso de reserva."
+    body={[
+      "Respondemos aquí las dudas que nos llegan por WhatsApp antes de confirmar una renta del Micro Baby. Si tu pregunta no está, escríbenos — contestamos en minutos.",
+      "Atendemos de lunes a domingo. Puedes llamarnos o escribirnos por WhatsApp con la fecha, el lugar y las medidas del espacio. Te confirmamos disponibilidad y precio en el momento.",
+    ]}
+    faqs={FAQS}
+    showContact={true}
+  />
+
+  <!-- CTA BANNER ───────────────────────────────────────────────────────────── -->
+  <CTABanner
+    heading="¿El Micro Baby es para tu fiesta?"
+    desc="Confirma disponibilidad para tu fecha ahora. Reserva con el 30% de anticipo — entrega, montaje y desmontaje incluidos en CDMX."
+    variant="primary"
+    btns={[
+      { label: 'Cotizar por WhatsApp', href: waUrl('Hola, me interesa cotizar el inflable Micro Baby (2×2 m) para un evento en CDMX. ¿Está disponible?'), icon: 'wa', primary: true, external: true },
+      { label: `Llamar: ${CONTACT.phone}`, href: `tel:${CONTACT.phoneE164}`, icon: 'phone', primary: false },
+    ]}
+    badge="Entrega gratis en CDMX"
+  />
+
+</PageLayout>
+
+<style>
+  /* ── Contenedor ─────────────────────────────────────────────── */
+  .container {
+    max-width: var(--container-max, 1400px);
+    margin-inline: auto;
+    padding-inline: var(--container-px, 1.5rem);
+  }
+
+  /* ── Breadcrumbs ────────────────────────────────────────────── */
+  .breadcrumbs {
+    background: var(--c-white, #fff);
+    border-bottom: 1px solid var(--c-border, #e5e7eb);
+  }
+  .bc-inner {
+    max-width: var(--container-max, 1400px);
+    margin-inline: auto;
+    padding-inline: var(--container-px, 1.5rem);
+    padding-block: .625rem;
+  }
+  .bc-list {
+    list-style: none; margin: 0; padding: 0;
+    display: flex; align-items: center; gap: .375rem; flex-wrap: wrap;
+  }
+  .bc-link    { font-size: .8125rem; color: var(--c-primary, #7c3aed); text-decoration: none; }
+  .bc-link:hover { text-decoration: underline; }
+  .bc-sep     { font-size: .8125rem; color: var(--c-muted, #9ca3af); user-select: none; }
+  .bc-current { font-size: .8125rem; color: var(--c-ink-2, #4b5563); font-weight: 500; }
+
+  /* ── Sections ───────────────────────────────────────────────── */
+  .section {
+    padding: clamp(3.5rem, 7vw, 5.5rem) 0;
+  }
+  .section--specs  { background: #f3f4f6; }
+  .section--otras  { background: var(--c-surface, #f9fafb); }
+
+  /* ── Feature specs grid (3 tarjetas grandes) ────────────────── */
+  .fspecs-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.25rem;
+    margin-bottom: 1.5rem;
+  }
+  .fspec-card {
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    overflow: hidden;
+    border: 1px solid #e5e7eb;
+    box-shadow: 0 4px 20px rgba(0,0,0,.08);
+    background: #fff;
+  }
+  .fspec-card__visual {
+    position: relative;
+    height: 168px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .fspec-card__tag {
+    position: absolute;
+    top: .875rem;
+    right: .875rem;
+    padding: .22rem .65rem;
+    background: rgba(255,255,255,.22);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255,255,255,.3);
+    border-radius: 999px;
+    font-size: .625rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .07em;
+    color: #fff;
+    white-space: nowrap;
+  }
+  .fspec-card__body {
+    padding: 1.375rem 1.375rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    flex: 1;
+  }
+  .fspec-card__label {
+    font-size: .6875rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .08em;
+    color: #9ca3af;
+    margin: 0;
+  }
+  .fspec-card__value {
+    font-size: 1.75rem;
+    font-weight: 900;
+    color: #111827;
+    line-height: 1.1;
+    letter-spacing: -.02em;
+  }
+  .fspec-card__detail {
+    font-size: .875rem;
+    color: #4b5563;
+    line-height: 1.7;
+    margin: 0;
+  }
+
+  /* ── Specs panel (imagen + specs secundarias) ────────────────── */
+  .specs-panel {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    gap: 2.5rem;
+    align-items: start;
+    background: #fff;
+    border: 1px solid #e5e7eb;
+    border-radius: 24px;
+    padding: 2rem;
+    box-shadow: 0 2px 16px rgba(0,0,0,.06);
+  }
+  .specs-panel__img-wrap {
+    position: relative;
+    border-radius: 14px;
+    overflow: hidden;
+    box-shadow: 0 8px 32px rgba(0,0,0,.12);
+  }
+  .specs-panel__img {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 4/3;
+    object-fit: cover;
+    display: block;
+  }
+  .specs-panel__img-overlay {
+    position: absolute;
+    bottom: 0; left: 0; right: 0;
+    padding: 2rem 1rem .875rem;
+    background: linear-gradient(to top, rgba(0,0,0,.72) 0%, transparent 100%);
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: .5rem;
+  }
+  .spio__badge {
+    font-size: 1rem;
+    font-weight: 800;
+    color: #fff;
+    letter-spacing: -.01em;
+  }
+  .spio__meta {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: .125rem;
+  }
+  .spio__dims {
+    font-size: .75rem;
+    font-weight: 700;
+    color: rgba(255,255,255,.9);
+    font-family: monospace;
+    letter-spacing: .02em;
+  }
+  .spio__cat {
+    font-size: .625rem;
+    color: rgba(255,255,255,.65);
+    text-transform: uppercase;
+    letter-spacing: .06em;
+  }
+  .specs-panel__img-note {
+    display: flex;
+    align-items: center;
+    gap: .375rem;
+    margin-top: .75rem;
+    font-size: .75rem;
+    color: #9ca3af;
+    margin-bottom: 0;
+  }
+  .specs-panel__img-note svg { flex-shrink: 0; }
+
+  .specs-panel__col-title {
+    font-size: .6875rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .08em;
+    color: #9ca3af;
+    margin: 0 0 1rem;
+    padding-bottom: .75rem;
+    border-bottom: 1px solid #f3f4f6;
+  }
+  .sspecs-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: .625rem;
+    margin-bottom: 1.5rem;
+  }
+  .sspec {
+    display: flex;
+    align-items: flex-start;
+    gap: .625rem;
+    padding: .875rem .875rem .875rem .875rem;
+    background: #f9fafb;
+    border-radius: 12px;
+    border: 1px solid #f3f4f6;
+  }
+  .sspec__icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1.875rem;
+    height: 1.875rem;
+    border-radius: 8px;
+    background: #ede9fe;
+    color: #7c3aed;
+    flex-shrink: 0;
+    margin-top: .0625rem;
+  }
+  .sspec__info {
+    display: flex;
+    flex-direction: column;
+    gap: .125rem;
+    min-width: 0;
+  }
+  .sspec__label {
+    font-size: .625rem;
+    color: #9ca3af;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .06em;
+    line-height: 1.2;
+  }
+  .sspec__value {
+    font-size: .9375rem;
+    font-weight: 800;
+    color: #111827;
+    line-height: 1.2;
+  }
+  .sspec__note {
+    font-size: .6875rem;
+    color: #6b7280;
+    line-height: 1.4;
+    margin-top: .0625rem;
+  }
+  .specs-panel__cta {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+  .specs-panel__cta-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: .45rem;
+    padding: .875rem 1.375rem;
+    background: #25d366;
+    color: #fff;
+    font-weight: 700;
+    font-size: .9375rem;
+    border-radius: 10px;
+    text-decoration: none;
+    box-shadow: 0 4px 14px rgba(37,211,102,.3);
+  }
+  .specs-panel__cta-btn:hover { background: #1fba59; }
+  .specs-panel__cta-note {
+    font-size: .8125rem;
+    color: #9ca3af;
+  }
+
+  /* ── Scenarios grid ─────────────────────────────────────────── */
+  .scenarios-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.25rem;
+    margin-bottom: 2.5rem;
+  }
+  .scenario-card {
+    display: flex;
+    flex-direction: column;
+    gap: .75rem;
+    padding: 1.5rem;
+    background: #fff;
+    border: 1px solid #e5e7eb;
+    border-radius: 18px;
+    box-shadow: 0 2px 8px rgba(0,0,0,.05);
+  }
+  .scenario-card__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: .5rem;
+  }
+  .scenario-card__icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 12px;
+    background: #f3e8ff;
+    color: var(--c-primary, #7c3aed);
+    flex-shrink: 0;
+  }
+  .scenario-card__tag {
+    font-size: .625rem;
+    font-weight: 700;
+    letter-spacing: .06em;
+    text-transform: uppercase;
+    padding: .2rem .55rem;
+    background: #dcfce7;
+    color: #166534;
+    border-radius: 999px;
+    white-space: nowrap;
+  }
+  .scenario-card__title {
+    font-size: 1.0625rem;
+    font-weight: 700;
+    color: #111827;
+    line-height: 1.3;
+    margin: 0;
+  }
+  .scenario-card__desc {
+    font-size: .875rem;
+    color: #4b5563;
+    line-height: 1.7;
+    margin: 0;
+  }
+
+  /* ── Cuando CTA inline ──────────────────────────────────────── */
+  .cuando-cta {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.5rem;
+    padding: 1.5rem 2rem;
+    background: #f9fafb;
+    border: 1px solid #e5e7eb;
+    border-radius: 16px;
+    flex-wrap: wrap;
+  }
+  .cuando-cta__text {
+    font-size: 1rem;
+    color: #374151;
+    margin: 0;
+    line-height: 1.5;
+  }
+  .cuando-cta__btn {
+    display: inline-flex;
+    align-items: center;
+    gap: .5rem;
+    padding: .875rem 1.5rem;
+    background: #25d366;
+    color: #fff;
+    font-weight: 700;
+    font-size: .9375rem;
+    border-radius: 10px;
+    text-decoration: none;
+    white-space: nowrap;
+    flex-shrink: 0;
+    box-shadow: 0 4px 14px rgba(37,211,102,.3);
+  }
+  .cuando-cta__btn:hover { background: #1fba59; }
+
+  /* ── Otras categorías grid ──────────────────────────────────── */
+  .otras-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+  }
+
+  /* ── Responsive ─────────────────────────────────────────────── */
+  @media (max-width: 1024px) {
+    .specs-panel { grid-template-columns: 1fr 1.2fr; gap: 1.5rem; }
+  }
+  @media (max-width: 900px) {
+    .fspecs-grid     { grid-template-columns: 1fr 1fr; }
+    .specs-panel     { grid-template-columns: 1fr; }
+    .specs-panel__img-col { order: -1; }
+    .scenarios-grid  { grid-template-columns: repeat(2, 1fr); }
+    .otras-grid      { grid-template-columns: repeat(2, 1fr); }
+  }
+  @media (max-width: 600px) {
+    .fspecs-grid     { grid-template-columns: 1fr; }
+    .sspecs-grid     { grid-template-columns: 1fr; }
+    .scenarios-grid  { grid-template-columns: 1fr; }
+    .otras-grid      { grid-template-columns: 1fr; }
+    .cuando-cta      { flex-direction: column; align-items: flex-start; }
+    .cuando-cta__btn { width: 100%; justify-content: center; }
+    .specs-panel     { padding: 1.25rem; border-radius: 16px; }
+    .specs-panel__cta { flex-direction: column; align-items: stretch; }
+    .specs-panel__cta-btn { justify-content: center; }
+  }
+</style>

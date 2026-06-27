@@ -1,0 +1,865 @@
+---
+// src/pages/servicios.astro — Servicios adicionales INFLAFI
+// Ruta: /servicios
+// SEO objetivo: "servicios para fiestas infantiles CDMX" · "pintacaritas CDMX" · "mesa de dulces renta" · "pantalla inflable evento CDMX"
+
+import PageLayout     from '@layouts/PageLayout.astro'
+import Hero           from '@components/Hero.astro'
+import SectionHeading from '@components/SectionHeading.astro'
+import CTABanner      from '@components/CTABanner.astro'
+import FAQWithContact from '@components/FAQWithContact.astro'
+import SectionMenu    from '@components/SectionMenu.astro'
+import CategoryCard   from '@components/CategoryCard.astro'
+
+import { waUrl, WA_MESSAGES, CONTACT } from '@config/site'
+import type { FaqItem } from '@lib/seo'
+
+// ── ICONOS SVG ────────────────────────────────────────────────────────────────
+const WA_ICON = 'M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z'
+
+// ── SERVICIOS ─────────────────────────────────────────────────────────────────
+// Cada servicio tiene: id, nombre, tagline, gradient, icono, descripción,
+// lo que incluye, ideal para, combinaMejorCon, waMsg
+const SERVICIOS = [
+  {
+    id: 'pantalla-inflable',
+    label: 'Pantalla Inflable',
+    tagline: 'Cine al aire libre en tu evento',
+    gradient: 'linear-gradient(135deg, #1e1b4b 0%, #4f46e5 100%)',
+    icon: '<rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/>',
+    badge: 'Servicio estrella',
+    shortDesc: 'Pantalla inflable gigante para proyecciones HD al aire libre. Películas, partidos, videojuegos — lo que quieras en grande.',
+    desc: [
+      'La Pantalla Inflable convierte cualquier jardín, terraza o patio en un cine privado: proyección en pantalla de hasta 3 metros de diagonal, imagen HD y audio estéreo incluido. Sin instalación complicada — nuestro equipo lo monta en 20 minutos y lo recoge al cierre del evento.',
+      'Es el servicio más versátil del catálogo: funciona para noche de películas familiar, transmisión en vivo de partidos de fútbol, sesión de videojuegos en grande o como pantalla de presentación para eventos corporativos al aire libre. Después del anochecer, el impacto visual es total.',
+      'La pantalla inflable se renta habitualmente en combinación con el Barco Pirata o el Extrem: los niños brincan mientras los adultos ven la película. Es el setup favorito de las fiestas que quieren entretenimiento para todas las edades al mismo tiempo.',
+    ],
+    incluye: [
+      'Pantalla inflable hasta 3 m de diagonal',
+      'Proyector HD de 3,000 lúmenes incluido',
+      'Bocinas estéreo (2×40 W) con cable de audio y Bluetooth',
+      'Soplador silencioso para la pantalla',
+      'Cables HDMI y adaptadores estándar',
+      'Soporte con anclas incluido',
+      'Montaje y desmontaje por nuestro equipo',
+    ],
+    idealPara: 'Noche de películas familiar · transmisión de partidos · fiestas con invitados adultos · eventos corporativos al aire libre · cumpleaños adolescentes',
+    combinaCon: 'Barco Pirata o Extrem para el combo entretenimiento total — niños en el inflable, adultos en la película.',
+    waMsg: 'Hola, me interesa cotizar la Pantalla Inflable para un evento en CDMX. ¿Está disponible?',
+    menuIcon: 'M9 17H7A5 5 0 0 1 7 7h2M15 7h2a5 5 0 0 1 0 10h-2M8 12h8',
+  },
+  {
+    id: 'mobiliario-infantil',
+    label: 'Mobiliario Infantil',
+    tagline: 'Mesas y sillas a la medida de los niños',
+    gradient: 'linear-gradient(135deg, #065f46 0%, #10b981 100%)',
+    icon: '<path d="M3 3h18M3 12h18M3 21h18"/><rect x="7" y="3" width="10" height="18" rx="1"/>',
+    badge: 'Más rentado en combo',
+    shortDesc: 'Mesas y sillas proporcionales para niños de 2 a 10 años. El evento más ordenado que hayas organizado.',
+    desc: [
+      'El mobiliario infantil resuelve uno de los problemas más prácticos de una fiesta con niños: que los pequeños no quepan en las sillas de adultos, que se caigan o que no puedan comer cómodamente. Las mesas y sillas de INFLAFI están proporcionadas para niños de 2 a 10 años — la altura correcta, el tamaño correcto.',
+      'Rentamos mesas redondas de 120 cm de diámetro con capacidad para 6 niños y mesas rectangulares de 180 cm para 8 niños. Las sillas vienen en varios colores — blanco, negro, naranja, azul — que se pueden combinar con la decoración del evento. El precio incluye entrega, acomodo y recogida.',
+      'El mobiliario infantil se combina con decoración de fiestas para crear un área completamente ambientada para los niños: mesas con mantelería temática, centros de mesa y la iluminación adecuada para que el área de niños sea tan especial como la del evento principal.',
+    ],
+    incluye: [
+      'Mesas redondas (120 cm, 6 niños) o rectangulares (180 cm, 8 niños)',
+      'Sillas infantiles en colores a elegir: blanco, negro, naranja, azul',
+      'Mantelería básica incluida (color blanco)',
+      'Entrega, acomodo y alineación en el espacio indicado',
+      'Recogida al cierre del evento',
+      'Mínimo: 2 mesas + 12 sillas',
+    ],
+    idealPara: 'Cumpleaños infantiles con 10+ niños · baby showers · eventos de primera comunión · posadas escolares · fiestas temáticas donde los niños necesitan su propio espacio',
+    combinaCon: 'Decoración para Fiestas para mantelería temática y centros de mesa que van con la paleta de colores del evento.',
+    waMsg: 'Hola, me interesa cotizar Mobiliario Infantil (mesas y sillas) para una fiesta en CDMX. ¿Qué opciones tienen?',
+    menuIcon: 'M4 6h16M4 12h16M4 18h7',
+  },
+  {
+    id: 'decoracion-fiestas',
+    label: 'Decoración para Fiestas',
+    tagline: 'La temática completa, lista para sorprender',
+    gradient: 'linear-gradient(135deg, #6d28d9 0%, #c084fc 100%)',
+    icon: '<path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>',
+    badge: 'Personalizado',
+    shortDesc: 'Ambientación completa con temática personalizada: globos, arcos, mantelería, centros de mesa y props fotográficos.',
+    desc: [
+      'La decoración de INFLAFI no es un paquete genérico de globos — es una ambientación temática construida para el evento específico. Trabajamos con la paleta de colores y el motivo que elijas (personaje, tema, colores de marca, estación del año) y creamos el ambiente completo: entrada, área de mesa principal, zona de niños y rincón fotográfico.',
+      'El servicio incluye arco de globos en la entrada, centros de mesa coordinados, mantelería en colores de la temática, cortinas decorativas o telón de fondo para fotos y globos sueltos distribuidos en el espacio. El equipo llega 1.5 horas antes del evento y deja todo listo antes de que lleguen los invitados.',
+      'Una de las combinaciones más rentadas: Decoración de Fiestas + cualquier inflable temático. El Castillo de Princesas con decoración en rosa y lavanda, o el inflable de Superhéroes con decoración en los colores del personaje — todo coordinado por el mismo equipo, con una sola llamada.',
+    ],
+    incluye: [
+      'Arco de globos en entrada (mínimo 200 globos, 2 colores base)',
+      'Centros de mesa (1 por mesa, hasta 10 mesas)',
+      'Mantelería en colores de la temática',
+      'Telón de fondo fotográfico personalizado (2×2 m)',
+      'Globos decorativos en el espacio (50 unidades)',
+      'Instalación 1.5 h antes del evento',
+      'Retiro de la decoración al cierre',
+    ],
+    idealPara: 'Cumpleaños temáticos · XV años · primera comunión · baby shower · bodas civiles · eventos corporativos con branding',
+    combinaCon: 'Cualquier inflable del catálogo. La decoración se diseña para complementar la paleta de color del inflable elegido.',
+    waMsg: 'Hola, me interesa cotizar Decoración para Fiestas en CDMX. ¿Pueden hacer temáticas personalizadas?',
+    menuIcon: 'M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z',
+  },
+  {
+    id: 'pintacaritas',
+    label: 'Pintacaritas',
+    tagline: 'Maquillaje artístico profesional para niños',
+    gradient: 'linear-gradient(135deg, #9d174d 0%, #f472b6 100%)',
+    icon: '<path d="M12 20h9M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/>',
+    badge: 'El favorito de los niños',
+    shortDesc: 'Artista profesional de maquillaje artístico para niños. Pinturas atóxicas, antialérgicas y de fácil remoción.',
+    desc: [
+      'El Pintacaritas de INFLAFI no es un servicio de pintura básica — es un artista especializado en maquillaje artístico para niños, con un repertorio de más de 80 diseños: animales, superhéroes, mariposas, dragones, flores, máscaras de carnaval y diseños coordinados con la temática de la fiesta.',
+      'Todas las pinturas son atóxicas, antialérgicas, libres de látex y de fácil remoción con agua tibia. El servicio incluye artista durante 3 horas — tiempo suficiente para hasta 45-50 niños en una fiesta con ritmo fluido. Si la lista es mayor, se puede contratar un segundo artista.',
+      'El Pintacaritas es el servicio más solicitado de forma recurrente: los padres que lo contratan una vez siempre lo incluyen en la siguiente fiesta. El diseño puede coordinarse con el inflable — tigres y leopardos para los niños en el inflable de dinosaurios, mariposas y flores para las niñas en el Castillo de Princesas.',
+    ],
+    incluye: [
+      'Artista profesional certificado en maquillaje artístico infantil',
+      'Pinturas atóxicas, antialérgicas, sin látex y sin parabenos',
+      'Catálogo de más de 80 diseños + diseños temáticos personalizados',
+      'Kit completo: pinceles, esponjas, brillo y purpurina comestible',
+      'Servicio durante 3 horas (hasta 45-50 niños)',
+      'Mesa de trabajo y silla para niños incluidas',
+      'Espejos para que los niños vean el resultado',
+    ],
+    idealPara: 'Cumpleaños infantiles con 15+ niños · fiestas de jardín de niños · eventos de primera comunión · posadas · eventos escolares · cualquier fiesta donde los niños necesiten entretenimiento adicional',
+    combinaCon: 'Cualquier inflable del catálogo. El combo inflable + pintacaritas es el paquete más completo de entretenimiento infantil.',
+    waMsg: 'Hola, me interesa cotizar el servicio de Pintacaritas para una fiesta en CDMX. ¿Cuántos niños cubre?',
+    menuIcon: 'M12 20h9M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z',
+  },
+  {
+    id: 'maquina-palomitas',
+    label: 'Máquina de Palomitas',
+    tagline: 'El snack favorito recién hecho en tu evento',
+    gradient: 'linear-gradient(135deg, #92400e 0%, #f59e0b 100%)',
+    icon: '<path d="M12 2C8 2 5 5 5 8c0 .5.1 1 .2 1.5L3 22h18l-2.2-12.5c.1-.5.2-1 .2-1.5 0-3-3-6-7-6z"/><path d="M8.5 8c0-1.9 1.6-3.5 3.5-3.5"/>',
+    badge: 'Ideal para películas',
+    shortDesc: 'Máquina de palomitas profesional operada por nuestro equipo. Palomitas recién hechas durante todo el evento.',
+    desc: [
+      'La Máquina de Palomitas de INFLAFI no es una máquina desatendida — es una estación de snacks operada por uno de nuestros colaboradores durante toda la duración del evento. Eso significa palomitas recién hechas a demanda, sin que los invitados tengan que esperar o servirse solos.',
+      'La máquina produce palomitas de mantequilla clásicas o palomitas de sabores (caramelo, queso, mixtas — según el paquete elegido). El servicio incluye envases individuales para cada porción, servilletas y una pequeña estación de servicio con la presentación adecuada para el tipo de evento.',
+      'La combinación más exitosa del catálogo: Pantalla Inflable + Máquina de Palomitas. Noche de cine al aire libre con palomitas recién hechas — el concepto es tan obvio que sorprende que no se haga en todas las fiestas con pantalla. También funciona perfectamente en bodas, XV años y posadas corporativas donde un snack diferente hace la diferencia.',
+    ],
+    incluye: [
+      'Máquina de palomitas profesional (capacidad: 8 kg/hora)',
+      'Ingredientes para 100 porciones estándar (ajustable)',
+      'Operador durante toda la duración del evento (hasta 5 horas)',
+      'Envases individuales con diseño de marca o genérico',
+      'Servilletas y estación de servicio',
+      'Mesa y mantelería para la estación',
+      'Limpieza de la estación al cierre',
+    ],
+    idealPara: 'Noche de cine con Pantalla Inflable · bodas y XV años · posadas · fiestas de cumpleaños con 30+ invitados · eventos corporativos · cualquier evento de larga duración donde los invitados necesiten snacks',
+    combinaCon: 'Pantalla Inflable para la experiencia de cine completa. También con Mesa de Dulces para una estación de snacks más completa.',
+    waMsg: 'Hola, me interesa cotizar la Máquina de Palomitas para un evento en CDMX. ¿Cuántas porciones incluye?',
+    menuIcon: 'M12 2C8 2 5 5 5 8c0 .5.1 1 .2 1.5L3 22h18l-2.2-12.5c.1-.5.2-1 .2-1.5 0-3-3-6-7-6z',
+  },
+  {
+    id: 'mesa-dulces',
+    label: 'Mesa de Dulces',
+    tagline: 'El centro de atención fotográfico de tu fiesta',
+    gradient: 'linear-gradient(135deg, #be185d 0%, #fb7185 100%)',
+    icon: '<path d="M12 2a5 5 0 0 1 5 5c0 3-5 11-5 11S7 10 7 7a5 5 0 0 1 5-5z"/><circle cx="12" cy="7" r="2"/><path d="M3 22h18M6 18h12"/>',
+    badge: 'El más fotografiado',
+    shortDesc: 'Mesa dulce con temática personalizada: dulces, postres y decoración que se convierten en el punto fotográfico del evento.',
+    desc: [
+      'La Mesa de Dulces de INFLAFI no es un conjunto de platos con dulces sobre una mesa — es una instalación fotográfica diseñada con la temática del evento. El marco de fondo, los niveles, la iluminación y la selección de dulces y postres se coordinan para que el resultado sea tan impactante visualmente como es delicioso.',
+      'Cada Mesa de Dulces se diseña de forma personalizada: elegimos la paleta de colores, los tipos de dulces y postres, los contenedores y el letrero central con el nombre y la edad o el mensaje del evento. El resultado es una mesa que parece diseñada por una wedding planner — porque así es.',
+      'Las mesas de dulces son el elemento más fotografiado de cualquier fiesta: el 100% de los invitados que pasan por la mesa sacan el teléfono. Eso la convierte en la mejor inversión en términos de visibilidad para el evento — cada foto que se comparte en redes es publicidad orgánica del evento y de la persona que lo organizó.',
+    ],
+    incluye: [
+      'Diseño temático personalizado (reunión previa por WhatsApp)',
+      'Mesa con falda decorativa y mantelería coordinada',
+      'Letrero central con nombre + edad o mensaje (acrílico o cartulina premium)',
+      'Exhibidores en niveles (cake pops, macarons, dulces)',
+      'Selección de dulces y postres para 30-50 personas',
+      'Contenedores y etiquetas personalizadas',
+      'Montaje 1 h antes del evento · desmontaje al cierre',
+    ],
+    idealPara: 'Cumpleaños con temática específica · XV años · bodas civiles · primera comunión · baby shower · bautizo · fiestas donde el impacto visual y las fotos son prioritarios',
+    combinaCon: 'Decoración para Fiestas y Mobiliario Infantil para crear un área completamente coherente. Con Pintacaritas forma el paquete más completo de entretenimiento y ambientación para niños.',
+    waMsg: 'Hola, me interesa cotizar una Mesa de Dulces personalizada para una fiesta en CDMX. ¿Qué información necesitan?',
+    menuIcon: 'M3 22h18M6 18h12M12 2a5 5 0 0 1 5 5c0 3-5 11-5 11S7 10 7 7a5 5 0 0 1 5-5z',
+  },
+]
+
+// ── VALOR PROPERS — POR QUÉ COMBINAR ─────────────────────────────────────────
+const VALOR_PROPS = [
+  {
+    icon: 'M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z',
+    title: 'Un solo proveedor para todo',
+    desc: 'Inflable, decoración, mobiliario, pintacaritas y snacks con una sola llamada y una sola cotización. Sin coordinar cuatro proveedores distintos ni preocuparte por que alguno no llegue.',
+  },
+  {
+    icon: 'M9 14l6-6m-5.5.5h.01m4.99 5h.01M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16l3.5-2 3.5 2 3.5-2 3.5 2z',
+    title: 'Descuento por paquete',
+    desc: 'Cuando rentas dos o más servicios juntos con un inflable obtienes precio de paquete. Cuéntanos qué necesitas y armamos una cotización a medida — siempre más accesible que contratar todo por separado.',
+  },
+  {
+    icon: 'M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z',
+    title: 'Todo llega junto, todo sale junto',
+    desc: 'Un solo camión de entrega, un solo equipo de montaje, una sola ventana de tiempo de espera. El inflable, la decoración y el mobiliario llegan a la misma hora y lo recogen todo al cierre sin que tengas que coordinar horarios distintos.',
+  },
+]
+
+// ── INFLABLES CROSS-SELL ──────────────────────────────────────────────────────
+const INFLABLES_CATS = [
+  {
+    label: 'Inflables Medianos',
+    href: '/renta-de-inflables-medianos',
+    image: '/images/inflables/medianos.jpg',
+    imageAlt: 'Inflables medianos en renta CDMX',
+    badge: undefined as string | undefined,
+    blurb: 'Dragones Rojos, Mini Jungla y Gusanitos: el combo favorito con pintacaritas y decoración.',
+    ctaLabel: 'Ver medianos',
+  },
+  {
+    label: 'Inflables Grandes',
+    href: '/renta-de-inflables-grandes',
+    image: '/images/inflables/grandes.jpg',
+    imageAlt: 'Inflables grandes en renta CDMX',
+    badge: undefined as string | undefined,
+    blurb: 'Extrem y Barco Pirata: perfectos con Pantalla Inflable para el setup más épico.',
+    ctaLabel: 'Ver grandes',
+  },
+  {
+    label: 'Inflables para Niña',
+    href: '/renta-de-inflables-para-nina',
+    image: '/images/inflables/ninas.jpg',
+    imageAlt: 'Castillo de Princesas en renta CDMX',
+    badge: 'Princesas',
+    blurb: 'Castillo de Princesas + Mesa de Dulces + Pintacaritas: el paquete de cumpleaños de princesas más completo.',
+    ctaLabel: 'Ver princesas',
+  },
+  {
+    label: 'Inflables para Bodas',
+    href: '/renta-de-inflables-para-boda',
+    image: '/images/inflables/bodas.jpg',
+    imageAlt: 'Castillo Blanco inflable para bodas CDMX',
+    badge: undefined as string | undefined,
+    blurb: 'Castillo Blanco + Decoración premium: la combinación elegante para bodas y XV años.',
+    ctaLabel: 'Ver bodas',
+  },
+]
+
+// ── FAQ ───────────────────────────────────────────────────────────────────────
+const FAQS: FaqItem[] = [
+  {
+    question: '¿Se pueden rentar los servicios sin contratar un inflable?',
+    answer: 'Sí. Los 6 servicios se pueden rentar de forma independiente, sin necesidad de combinarlos con un inflable. Dicho eso, el precio de paquete (servicio + inflable) es siempre más conveniente que contratarlos por separado — pregúntanos por la cotización combinada antes de decidir.',
+  },
+  {
+    question: '¿Hay descuento si rento varios servicios juntos con el inflable?',
+    answer: 'Sí. El descuento exacto depende de la combinación — no tenemos una tabla fija porque cada evento es distinto. Cuéntanos qué servicios necesitas junto con el inflable y te mandamos una cotización de paquete por WhatsApp. El ahorro mínimo al combinar es del 10% respecto a contratar cada servicio por separado.',
+  },
+  {
+    question: '¿Con cuánta anticipación debo reservar los servicios?',
+    answer: 'Para fines de semana en temporada regular: 2 a 3 semanas de anticipación. Para fines de semana en temporada alta (mayo, julio, noviembre, diciembre) o eventos con servicios múltiples: 4 a 6 semanas. Si tu evento es próximo, consúltanos de todas formas — verificamos disponibilidad en tiempo real.',
+  },
+  {
+    question: '¿Cuántos niños puede atender el Pintacaritas en el tiempo contratado?',
+    answer: 'El artista puede atender entre 15 y 18 niños por hora, dependiendo de la complejidad de los diseños elegidos. Para 3 horas de servicio eso equivale a 45-50 niños. Si tu lista es mayor, recomendamos contratar un segundo artista. Cuéntanos el número estimado de niños al cotizar y te damos la recomendación correcta.',
+  },
+  {
+    question: '¿La Pantalla Inflable funciona de día o solo de noche?',
+    answer: 'La pantalla inflable funciona mejor de noche o en espacios con sombra. Con luz solar directa, la imagen del proyector se ve lavada incluso con 3,000 lúmenes. En exteriores, el horario ideal es a partir de las 7 PM. Si tu evento es de día, podemos instalar la pantalla bajo una carpa o en una zona sombreada — consúltanos las opciones.',
+  },
+  {
+    question: '¿Los dulces de la Mesa de Dulces son personalizables?',
+    answer: 'Sí, completamente. Antes del evento coordinamos la temática, los colores, los tipos de dulces y postres preferidos, y si hay restricciones alimentarias. El diseño final (letrero, contenedores, distribución) se comparte para aprobación antes del día del evento. Nada se improvisa el día de la fiesta.',
+  },
+]
+---
+
+<PageLayout
+  title="Servicios para Fiestas en CDMX — Pintacaritas, Pantalla Inflable, Mesa de Dulces | INFLAFI"
+  description="Servicios adicionales para tu fiesta en CDMX: pintacaritas profesional, pantalla inflable, decoración temática, mobiliario infantil, máquina de palomitas y mesa de dulces. Se rentan solos o en combo con inflables."
+  image="/images/og/servicios.jpg"
+  pageType="category"
+  breadcrumbs={[{ label: 'Servicios', href: '/servicios' }]}
+>
+
+  <!-- MIGAS DE PAN ─────────────────────────────────────────────────────────── -->
+  <nav class="breadcrumbs" aria-label="Migas de pan">
+    <div class="bc-inner">
+      <ol class="bc-list">
+        <li><a href="/" class="bc-link">Inicio</a></li>
+        <li aria-hidden="true" class="bc-sep">›</li>
+        <li><span class="bc-current" aria-current="page">Servicios</span></li>
+      </ol>
+    </div>
+  </nav>
+
+  <!-- HERO ────────────────────────────────────────────────────────────────── -->
+  <Hero
+    badge="6 servicios disponibles · Se rentan solos o en combo · CDMX"
+    title="Servicios Adicionales"
+    accent="para tu Fiesta"
+    subtitle="Pintacaritas profesional, pantalla inflable, decoración temática, mobiliario infantil, máquina de palomitas y mesa de dulces. Todo lo que necesitas para que tu fiesta sea memorable — con un solo proveedor."
+    descRight={[
+      "Los servicios de INFLAFI están diseñados para complementar la renta de inflables, pero también se contratan de forma independiente. Cada servicio incluye equipo y personal especializado, entrega, montaje y desmontaje. Sin sorpresas: lo que cotizas es lo que recibes.",
+      "La ventaja de contratarlo todo con INFLAFI: un solo punto de contacto, una sola logística de entrega, precio de paquete cuando combinas dos o más servicios. Cuéntanos qué necesitas para tu evento y armamos la cotización completa en minutos — de lunes a domingo por WhatsApp.",
+    ]}
+    ctas={[
+      { text: '¡Cotizar mi fiesta completa!', href: waUrl(WA_MESSAGES.paquetes), variant: 'primary', whatsapp: true },
+      { text: 'Ver todos los servicios', href: '#servicios-grid', variant: 'outline' },
+    ]}
+    ariaLabel="Servicios adicionales para fiestas CDMX — INFLAFI"
+  />
+
+  <!-- MENÚ DE SECCIONES ───────────────────────────────────────────────────── -->
+  <SectionMenu items={[
+    {
+      label: 'Pantalla Inflable',
+      sub: 'Cine al aire libre',
+      href: '#pantalla-inflable',
+      icon: 'M9 17H7A5 5 0 0 1 7 7h2M15 7h2a5 5 0 0 1 0 10h-2M8 12h8',
+    },
+    {
+      label: 'Mobiliario',
+      sub: 'Mesas y sillas infantiles',
+      href: '#mobiliario-infantil',
+      icon: 'M4 6h16M4 12h16M4 18h7',
+    },
+    {
+      label: 'Decoración',
+      sub: 'Ambientación temática',
+      href: '#decoracion-fiestas',
+      icon: 'M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z',
+    },
+    {
+      label: 'Pintacaritas',
+      sub: 'Maquillaje artístico',
+      href: '#pintacaritas',
+      icon: 'M12 20h9M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z',
+    },
+    {
+      label: 'Palomitas · Dulces',
+      sub: 'Snacks y mesa de dulces',
+      href: '#maquina-palomitas',
+      icon: 'M12 2C8 2 5 5 5 8c0 .5.1 1 .2 1.5L3 22h18l-2.2-12.5c.1-.5.2-1 .2-1.5 0-3-3-6-7-6z',
+    },
+    {
+      label: 'Cotizar combo',
+      sub: 'Precio de paquete',
+      href: waUrl(WA_MESSAGES.paquetes),
+      icon: WA_ICON,
+      cta: true,
+    },
+  ]} />
+
+  <!-- ① GRID DE 6 SERVICIOS ──────────────────────────────────────────────── -->
+  <section id="servicios-grid" class="section" aria-labelledby="svc-grid-heading">
+    <div class="container">
+      <SectionHeading
+        id="svc-grid-heading"
+        eyebrow="6 servicios disponibles en CDMX"
+        title="Todo lo que necesitas"
+        titleAccent="en un solo lugar"
+        layout="duo"
+        body={[
+          "Desde el entretenimiento infantil (pintacaritas, pantalla inflable) hasta la ambientación completa (decoración, mobiliario, mesa de dulces) — cada servicio está operado por especialistas, llega con su equipo completo y se retira sin que tengas que preocuparte por nada.",
+          "El precio de cada servicio incluye traslado, instalación y el personal necesario para operarlo durante el evento. Cuando lo combinas con un inflable recibes precio de paquete. Pregúntanos por la cotización combinada.",
+        ]}
+      />
+
+      <div class="svc-grid">
+        {SERVICIOS.map((svc) => (
+          <a href={`#${svc.id}`} class="svc-card" aria-label={`Ver detalle del servicio: ${svc.label}`}>
+            <div class="svc-card__visual" style={`background: ${svc.gradient}`}>
+              <svg width="44" height="44" viewBox="0 0 24 24" fill="none"
+                stroke="rgba(255,255,255,.95)" stroke-width="1.7"
+                stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"
+                set:html={svc.icon}
+              />
+              {svc.badge && <span class="svc-card__badge">{svc.badge}</span>}
+            </div>
+            <div class="svc-card__body">
+              <h3 class="svc-card__title">{svc.label}</h3>
+              <p class="svc-card__tagline">{svc.tagline}</p>
+              <p class="svc-card__desc">{svc.shortDesc}</p>
+              <span class="svc-card__cta" aria-hidden="true">
+                Ver detalles
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </span>
+            </div>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- ② SERVICIOS A FONDO ─────────────────────────────────────────────────── -->
+  <section class="section section--detail" aria-labelledby="detail-heading">
+    <div class="container">
+      <SectionHeading
+        id="detail-heading"
+        eyebrow="Cada servicio explicado a fondo"
+        title="Qué incluye cada servicio"
+        titleAccent="y para qué evento encaja mejor"
+        layout="duo"
+        body={[
+          "Antes de cotizar, lee los detalles de cada servicio: qué incluye exactamente, para cuántas personas está dimensionado y con qué otros servicios o inflables se complementa mejor. Sin sorpresas.",
+          "Si tienes un evento específico en mente y no sabes cuál es la combinación más adecuada, cuéntanos por WhatsApp — te decimos cuáles servicios tienen más sentido para tu espacio, tu presupuesto y el perfil de tus invitados.",
+        ]}
+      />
+
+      <div class="detail-stack">
+        {SERVICIOS.map((svc, i) => (
+          <div id={svc.id} class="svc-detail" data-index={i}>
+
+            <!-- Header del servicio -->
+            <div class="svc-detail__header">
+              <div class="svc-detail__icon-wrap" style={`background: ${svc.gradient}`} aria-hidden="true">
+                <svg width="32" height="32" viewBox="0 0 24 24" fill="none"
+                  stroke="rgba(255,255,255,.95)" stroke-width="1.8"
+                  stroke-linecap="round" stroke-linejoin="round"
+                  set:html={svc.icon}
+                />
+              </div>
+              <div class="svc-detail__title-group">
+                <h2 class="svc-detail__name">{svc.label}</h2>
+                <p class="svc-detail__tagline">{svc.tagline}</p>
+              </div>
+            </div>
+
+            <!-- Grid: descripción + incluye + metadata -->
+            <div class="svc-detail__grid">
+
+              <!-- Col izquierda: descripción + combina con -->
+              <div class="svc-detail__desc-col">
+                {svc.desc.map((p) => (
+                  <p class="svc-detail__p">{p}</p>
+                ))}
+
+                <div class="svc-detail__combina">
+                  <span class="sdcomb__label">Combina mejor con</span>
+                  <p class="sdcomb__text">{svc.combinaCon}</p>
+                </div>
+              </div>
+
+              <!-- Col derecha: incluye + ideal para + CTA -->
+              <div class="svc-detail__meta-col">
+
+                <div class="svc-detail__includes">
+                  <p class="sdmeta__title">
+                    <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+                    Qué incluye
+                  </p>
+                  <ul class="sdmeta__list">
+                    {svc.incluye.map((item) => (
+                      <li class="sdmeta__item">
+                        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+                        {item}
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+
+                <div class="svc-detail__ideal">
+                  <p class="sdmeta__title">
+                    <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                    Ideal para
+                  </p>
+                  <p class="sdmeta__ideal-text">{svc.idealPara}</p>
+                </div>
+
+                <a
+                  href={waUrl(svc.waMsg)}
+                  class="svc-detail__cta"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                    <path d={WA_ICON}/>
+                  </svg>
+                  Cotizar {svc.label}
+                </a>
+
+              </div>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- ③ POR QUÉ COMBINAR ──────────────────────────────────────────────────── -->
+  <section class="section section--valor" aria-labelledby="valor-heading">
+    <div class="container">
+      <SectionHeading
+        id="valor-heading"
+        eyebrow="La ventaja de contratar todo con INFLAFI"
+        title="Un solo proveedor para tu evento"
+        titleAccent="completo"
+        layout="duo"
+        body={[
+          "Organizar una fiesta con cinco proveedores distintos significa cinco llamadas, cinco cotizaciones, cinco horarios de llegada y cinco posibles problemas. Con INFLAFI es una sola coordinación.",
+          "No cobramos más por combinar servicios — al contrario, el precio de paquete es siempre más conveniente que contratarlos por separado. Cuéntanos qué necesitas y armamos la cotización completa.",
+        ]}
+      />
+
+      <div class="valor-grid">
+        {VALOR_PROPS.map((vp) => (
+          <div class="valor-card">
+            <div class="valor-card__icon" aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="1.8"
+                stroke-linecap="round" stroke-linejoin="round">
+                <path d={vp.icon}/>
+              </svg>
+            </div>
+            <h3 class="valor-card__title">{vp.title}</h3>
+            <p class="valor-card__desc">{vp.desc}</p>
+          </div>
+        ))}
+      </div>
+
+      <div class="valor-cta-bar">
+        <p class="valor-cta-bar__text">¿Ya tienes en mente qué servicios necesitas? Cuéntanos y armamos la cotización completa de tu fiesta.</p>
+        <a href={waUrl(WA_MESSAGES.paquetes)} class="valor-cta-bar__btn" target="_blank" rel="noopener noreferrer">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d={WA_ICON}/></svg>
+          Armar mi paquete
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ④ CATÁLOGO DE INFLABLES (cross-sell) ───────────────────────────────── -->
+  <section class="section section--inflables" aria-labelledby="inflables-heading">
+    <div class="container">
+      <SectionHeading
+        id="inflables-heading"
+        eyebrow="Combínalos con un inflable del catálogo"
+        title="Los servicios funcionan mejor"
+        titleAccent="junto con el inflable correcto"
+        layout="duo"
+        body={[
+          "Cada servicio fue diseñado pensando en que la mayoría de los eventos también incluyen un inflable. El pintacaritas con el inflable de niñas, la pantalla con el Barco Pirata, la decoración coordinada con el Castillo de Princesas — la combinación multiplica el impacto de cada elemento.",
+          "Ver el catálogo completo de inflables con dimensiones, modelos disponibles y precios.",
+        ]}
+      />
+      <div class="inflables-grid">
+        {INFLABLES_CATS.map((cat, i) => (
+          <CategoryCard
+            label={cat.label}
+            href={cat.href}
+            image={cat.image}
+            imageAlt={cat.imageAlt}
+            badge={cat.badge}
+            blurb={cat.blurb}
+            ctaLabel={cat.ctaLabel}
+            index={i}
+          />
+        ))}
+      </div>
+      <div class="inflables-all-link">
+        <a href="/inflables" class="inflables-all-btn">
+          Ver catálogo completo de inflables
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ⑤ FAQ ────────────────────────────────────────────────────────────────── -->
+  <FAQWithContact
+    eyebrow="Preguntas frecuentes sobre los servicios"
+    title="Todo lo que necesitas saber"
+    titleAccent="antes de cotizar"
+    body={[
+      "Las preguntas más comunes: si se pueden rentar solos, los descuentos por paquete, los tiempos de reserva y los detalles operativos de cada servicio.",
+      "Si tu pregunta no está aquí — o si quieres coordinar algo específico para tu evento — escríbenos por WhatsApp. Respondemos de lunes a domingo.",
+    ]}
+    faqs={FAQS}
+    showContact={true}
+  />
+
+  <!-- CTA BANNER ───────────────────────────────────────────────────────────── -->
+  <CTABanner
+    heading="Arma el paquete perfecto para tu fiesta"
+    desc="Inflable + decoración + pintacaritas + mesa de dulces — o lo que necesites. Cotización en minutos, precio de paquete, entrega incluida en CDMX."
+    variant="primary"
+    btns={[
+      { label: 'Cotizar paquete completo', href: waUrl(WA_MESSAGES.paquetes), icon: 'wa', primary: true, external: true },
+      { label: `Llamar: ${CONTACT.phone}`, href: `tel:${CONTACT.phoneE164}`, icon: 'phone', primary: false },
+    ]}
+    badge="Sin costos ocultos · Todo incluido en CDMX"
+  />
+
+</PageLayout>
+
+<style>
+  .container { max-width: var(--container-max, 1400px); margin-inline: auto; padding-inline: var(--container-px, 1.5rem); }
+
+  /* ── Breadcrumbs ─────────────────────────────────────────────── */
+  .breadcrumbs { background: var(--c-white, #fff); border-bottom: 1px solid var(--c-border, #e5e7eb); }
+  .bc-inner { max-width: var(--container-max, 1400px); margin-inline: auto; padding-inline: var(--container-px, 1.5rem); padding-block: .625rem; }
+  .bc-list { list-style: none; margin: 0; padding: 0; display: flex; align-items: center; gap: .375rem; flex-wrap: wrap; }
+  .bc-link    { font-size: .8125rem; color: var(--c-primary, #7c3aed); text-decoration: none; }
+  .bc-link:hover { text-decoration: underline; }
+  .bc-sep     { font-size: .8125rem; color: var(--c-muted, #9ca3af); user-select: none; }
+  .bc-current { font-size: .8125rem; color: var(--c-ink-2, #4b5563); font-weight: 500; }
+
+  /* ── Sections ───────────────────────────────────────────────── */
+  .section         { padding: clamp(3.5rem, 7vw, 5.5rem) 0; }
+  .section--detail { background: #f3f4f6; }
+  .section--valor  { background: var(--c-surface, #f9fafb); }
+  .section--inflables { background: var(--c-white, #fff); }
+
+  /* ══════════════════════════════════════════════════════════════
+     ① SERVICE CARDS GRID
+  ══════════════════════════════════════════════════════════════ */
+  .svc-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.25rem;
+  }
+
+  .svc-card {
+    display: flex; flex-direction: column;
+    background: #fff;
+    border: 1px solid #e5e7eb;
+    border-radius: 20px;
+    overflow: hidden;
+    text-decoration: none;
+    box-shadow: 0 2px 10px rgba(0,0,0,.06);
+  }
+  .svc-card:hover .svc-card__cta { color: var(--c-primary, #7c3aed); }
+
+  .svc-card__visual {
+    position: relative;
+    height: 140px;
+    display: flex; align-items: center; justify-content: center;
+    flex-shrink: 0;
+  }
+  .svc-card__badge {
+    position: absolute; top: .75rem; right: .75rem;
+    padding: .2rem .6rem;
+    background: rgba(255,255,255,.22);
+    backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px);
+    border: 1px solid rgba(255,255,255,.3);
+    border-radius: 999px;
+    font-size: .6rem; font-weight: 700; text-transform: uppercase;
+    letter-spacing: .07em; color: #fff; white-space: nowrap;
+  }
+  .svc-card__body {
+    display: flex; flex-direction: column; gap: .5rem;
+    padding: 1.25rem 1.25rem 1.375rem; flex: 1;
+  }
+  .svc-card__title {
+    font-size: 1.0625rem; font-weight: 800;
+    color: #111827; margin: 0; line-height: 1.2;
+  }
+  .svc-card__tagline {
+    font-size: .75rem; font-weight: 600; color: var(--c-primary, #7c3aed);
+    text-transform: uppercase; letter-spacing: .05em; margin: 0;
+  }
+  .svc-card__desc {
+    font-size: .875rem; color: #4b5563; line-height: 1.65; margin: 0; flex: 1;
+  }
+  .svc-card__cta {
+    display: inline-flex; align-items: center; gap: .35rem; margin-top: .375rem;
+    font-size: .8125rem; font-weight: 700; color: #9ca3af;
+  }
+
+  /* ══════════════════════════════════════════════════════════════
+     ② SERVICE DETAIL PANELS
+  ══════════════════════════════════════════════════════════════ */
+  .detail-stack { display: flex; flex-direction: column; gap: 2px; }
+
+  .svc-detail {
+    background: #fff;
+    border: 1px solid #e5e7eb;
+    border-radius: 20px;
+    padding: 2rem 2rem 2.25rem;
+    box-shadow: 0 2px 12px rgba(0,0,0,.05);
+    scroll-margin-top: 80px; /* offset para el SectionMenu sticky */
+  }
+
+  /* Header */
+  .svc-detail__header {
+    display: flex; align-items: center; gap: 1rem;
+    margin-bottom: 1.75rem;
+    padding-bottom: 1.25rem;
+    border-bottom: 1px solid #f3f4f6;
+  }
+  .svc-detail__icon-wrap {
+    width: 3.5rem; height: 3.5rem; border-radius: 14px;
+    display: flex; align-items: center; justify-content: center;
+    flex-shrink: 0;
+    box-shadow: 0 4px 16px rgba(0,0,0,.18);
+  }
+  .svc-detail__title-group { display: flex; flex-direction: column; gap: .2rem; }
+  .svc-detail__name {
+    font-size: 1.375rem; font-weight: 800;
+    color: #111827; margin: 0; line-height: 1.2; letter-spacing: -.02em;
+  }
+  .svc-detail__tagline {
+    font-size: .8125rem; font-weight: 600;
+    color: var(--c-primary, #7c3aed); text-transform: uppercase;
+    letter-spacing: .06em; margin: 0;
+  }
+
+  /* Grid 2 cols */
+  .svc-detail__grid {
+    display: grid;
+    grid-template-columns: 1.2fr 1fr;
+    gap: 2.5rem;
+    align-items: start;
+  }
+
+  /* Left col */
+  .svc-detail__p {
+    font-size: .9375rem; color: #374151; line-height: 1.75; margin: 0 0 1rem;
+  }
+  .svc-detail__p:last-of-type { margin-bottom: 0; }
+
+  .svc-detail__combina {
+    margin-top: 1.25rem;
+    padding: .875rem 1rem;
+    background: #f0fdf4;
+    border: 1px solid #bbf7d0;
+    border-radius: 12px;
+    display: flex; flex-direction: column; gap: .25rem;
+  }
+  .sdcomb__label {
+    font-size: .6875rem; font-weight: 700; text-transform: uppercase;
+    letter-spacing: .07em; color: #166534;
+  }
+  .sdcomb__text { font-size: .875rem; color: #15803d; line-height: 1.55; margin: 0; }
+
+  /* Right col */
+  .svc-detail__meta-col { display: flex; flex-direction: column; gap: 1.25rem; }
+
+  .svc-detail__includes,
+  .svc-detail__ideal {
+    background: #f9fafb; border: 1px solid #f3f4f6;
+    border-radius: 14px; padding: 1rem 1.125rem;
+  }
+  .sdmeta__title {
+    display: flex; align-items: center; gap: .4rem;
+    font-size: .6875rem; font-weight: 700; text-transform: uppercase;
+    letter-spacing: .08em; color: #374151;
+    margin: 0 0 .75rem; padding-bottom: .625rem;
+    border-bottom: 1px solid #e5e7eb;
+  }
+  .sdmeta__list {
+    list-style: none; margin: 0; padding: 0;
+    display: flex; flex-direction: column; gap: .45rem;
+  }
+  .sdmeta__item {
+    display: flex; align-items: flex-start; gap: .5rem;
+    font-size: .8125rem; color: #374151; line-height: 1.45;
+  }
+  .sdmeta__item svg { flex-shrink: 0; margin-top: .175rem; color: #16a34a; }
+  .sdmeta__ideal-text { font-size: .875rem; color: #4b5563; line-height: 1.6; margin: 0; }
+
+  .svc-detail__cta {
+    display: flex; align-items: center; justify-content: center; gap: .5rem;
+    padding: 1rem 1.375rem;
+    background: #25d366; color: #fff;
+    font-weight: 700; font-size: .9375rem;
+    border-radius: 12px; text-decoration: none;
+    box-shadow: 0 4px 14px rgba(37,211,102,.3);
+  }
+  .svc-detail__cta:hover { background: #1fba59; }
+
+  /* ══════════════════════════════════════════════════════════════
+     ③ VALOR PROPS
+  ══════════════════════════════════════════════════════════════ */
+  .valor-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.25rem;
+    margin-bottom: 2rem;
+  }
+  .valor-card {
+    padding: 1.75rem 1.5rem 2rem;
+    background: #fff;
+    border: 1px solid #e5e7eb;
+    border-radius: 18px;
+    box-shadow: 0 2px 10px rgba(0,0,0,.05);
+    display: flex; flex-direction: column; gap: .875rem;
+  }
+  .valor-card__icon {
+    width: 2.75rem; height: 2.75rem; border-radius: 12px;
+    background: rgba(124,58,237,.08);
+    color: var(--c-primary, #7c3aed);
+    display: flex; align-items: center; justify-content: center;
+  }
+  .valor-card__title {
+    font-size: 1.0625rem; font-weight: 800;
+    color: #111827; margin: 0; line-height: 1.25;
+  }
+  .valor-card__desc {
+    font-size: .875rem; color: #4b5563; line-height: 1.7; margin: 0;
+  }
+
+  .valor-cta-bar {
+    display: flex; align-items: center; justify-content: space-between;
+    gap: 1.5rem; flex-wrap: wrap;
+    padding: 1.375rem 1.75rem;
+    background: #fff; border: 1px solid #e5e7eb;
+    border-radius: 16px; box-shadow: 0 2px 8px rgba(0,0,0,.05);
+  }
+  .valor-cta-bar__text { font-size: 1rem; color: #374151; margin: 0; line-height: 1.5; }
+  .valor-cta-bar__btn {
+    display: inline-flex; align-items: center; gap: .45rem;
+    padding: .875rem 1.5rem; background: #25d366; color: #fff;
+    font-weight: 700; font-size: .9375rem; border-radius: 10px;
+    text-decoration: none; white-space: nowrap; flex-shrink: 0;
+    box-shadow: 0 4px 14px rgba(37,211,102,.3);
+  }
+  .valor-cta-bar__btn:hover { background: #1fba59; }
+
+  /* ══════════════════════════════════════════════════════════════
+     ④ INFLABLES CROSS-SELL
+  ══════════════════════════════════════════════════════════════ */
+  .inflables-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.25rem;
+    margin-bottom: 1.75rem;
+  }
+  .inflables-all-link { text-align: center; }
+  .inflables-all-btn {
+    display: inline-flex; align-items: center; gap: .5rem;
+    padding: .875rem 2rem;
+    border: 2px solid var(--c-primary, #7c3aed);
+    color: var(--c-primary, #7c3aed);
+    font-weight: 700; font-size: .9375rem;
+    border-radius: 10px; text-decoration: none;
+  }
+  .inflables-all-btn:hover {
+    background: var(--c-primary, #7c3aed); color: #fff;
+  }
+
+  /* ══════════════════════════════════════════════════════════════
+     RESPONSIVE
+  ══════════════════════════════════════════════════════════════ */
+  @media (max-width: 1100px) {
+    .inflables-grid { grid-template-columns: repeat(2, 1fr); }
+  }
+  @media (max-width: 900px) {
+    .svc-grid        { grid-template-columns: repeat(2, 1fr); }
+    .valor-grid      { grid-template-columns: 1fr 1fr; }
+    .svc-detail__grid { grid-template-columns: 1fr; gap: 1.5rem; }
+    .inflables-grid  { grid-template-columns: repeat(2, 1fr); }
+  }
+  @media (max-width: 640px) {
+    .svc-grid          { grid-template-columns: 1fr; }
+    .valor-grid        { grid-template-columns: 1fr; }
+    .inflables-grid    { grid-template-columns: 1fr 1fr; }
+    .valor-cta-bar     { flex-direction: column; align-items: flex-start; }
+    .valor-cta-bar__btn { width: 100%; justify-content: center; }
+    .svc-detail        { padding: 1.25rem; border-radius: 16px; }
+    .svc-detail__header { gap: .75rem; }
+    .svc-detail__icon-wrap { width: 2.75rem; height: 2.75rem; }
+    .svc-detail__name  { font-size: 1.125rem; }
+  }
+  @media (max-width: 420px) {
+    .inflables-grid { grid-template-columns: 1fr; }
+  }
+</style>

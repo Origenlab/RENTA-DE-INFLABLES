@@ -1,0 +1,657 @@
+---
+// src/pages/contacto.astro — Página de contacto INFLAFI
+// Ruta: /contacto
+// SEO: "contacto inflables CDMX" · "cotizar inflable CDMX" · "INFLAFI teléfono WhatsApp"
+
+import PageLayout     from '@layouts/PageLayout.astro'
+import Hero           from '@components/Hero.astro'
+import SectionHeading from '@components/SectionHeading.astro'
+import CTABanner      from '@components/CTABanner.astro'
+import FAQWithContact from '@components/FAQWithContact.astro'
+
+import { waUrl, WA_MESSAGES, CONTACT, SITE } from '@config/site'
+import type { FaqItem } from '@lib/seo'
+
+const WA_ICON = 'M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z'
+
+// ── TIPOS DE EVENTO para el selector ─────────────────────────────────────────
+const TIPOS_EVENTO = [
+  'Cumpleaños infantil',
+  'Boda o recepción',
+  'XV años',
+  'Bautizo o primera comunión',
+  'Evento corporativo',
+  'Posada o graduación',
+  'Otro tipo de evento',
+]
+
+// ── INFLABLES + SERVICIOS para el selector ────────────────────────────────────
+const OPCIONES_INTERES = [
+  'No lo sé aún — necesito recomendación',
+  'Inflable Chico (Micro Baby · 2×2 m)',
+  'Inflable Mediano (4 m · Dragones Rojos / Mini Jungla / Gusanitos)',
+  'Inflable Grande (Extrem o Barco Pirata · hasta 7 m)',
+  'Inflable para Niñas (Castillo de Princesas)',
+  'Inflable para Niños (Superhéroes / Dinosaurios / Ninjas)',
+  'Inflable para Boda (Castillo Blanco)',
+  'Paquete Starter',
+  'Paquete Festivo (inflable + pintacaritas)',
+  'Paquete Cumpleaños (inflable + pinta + mobiliario)',
+  'Paquete Princesas',
+  'Paquete Héroes',
+  'Paquete Grand Fiesta',
+  'Pantalla Inflable',
+  'Pintacaritas',
+  'Mesa de Dulces',
+  'Mobiliario Infantil',
+  'Otro / varios',
+]
+
+// ── MÉTODOS DE CONTACTO ───────────────────────────────────────────────────────
+const METODOS = [
+  {
+    icon: WA_ICON,
+    iconFill: true,
+    label: 'WhatsApp',
+    value: CONTACT.phone,
+    desc: 'La forma más rápida. Respondemos en minutos de lun–sáb.',
+    href: waUrl(WA_MESSAGES.default),
+    cta: 'Abrir WhatsApp',
+    color: '#25d366',
+    colorLight: '#dcfce7',
+  },
+  {
+    icon: '<path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.99 12 19.79 19.79 0 0 1 1.93 3.42 2 2 0 0 1 3.9 1h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 8.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/>',
+    iconFill: false,
+    label: 'Teléfono',
+    value: CONTACT.phone,
+    desc: 'Llámanos directamente si prefieres coordinar por voz.',
+    href: `tel:${CONTACT.phoneE164}`,
+    cta: 'Llamar ahora',
+    color: '#7c3aed',
+    colorLight: '#f5f3ff',
+  },
+  {
+    icon: '<path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/>',
+    iconFill: false,
+    label: 'Correo',
+    value: CONTACT.email,
+    desc: 'Para solicitudes detalladas o cotizaciones de eventos grandes.',
+    href: `mailto:${CONTACT.email}`,
+    cta: 'Enviar correo',
+    color: '#0369a1',
+    colorLight: '#eff6ff',
+  },
+]
+
+// ── HORARIOS ─────────────────────────────────────────────────────────────────
+const HORARIOS = [
+  { dia: 'Lunes – Viernes', hora: '9:00 – 19:00' },
+  { dia: 'Sábado',          hora: '9:00 – 17:00' },
+  { dia: 'Domingo',         hora: 'Cerrado (eventos ya confirmados: soporte disponible)' },
+]
+
+// ── ZONAS DE COBERTURA ────────────────────────────────────────────────────────
+const ZONAS = [
+  'Polanco · Lomas de Chapultepec', 'Miguel Hidalgo · Naucalpan',
+  'Benito Juárez · Coyoacán',      'Tlalpan · Xochimilco',
+  'Azcapotzalco · Cuauhtémoc',     'Tlalnepantla · Huixquilucan',
+  'Santa Fe · Álvaro Obregón',     'Gustavo A. Madero · Iztapalapa',
+]
+
+// ── FAQ ───────────────────────────────────────────────────────────────────────
+const FAQS: FaqItem[] = [
+  {
+    question: '¿Cuánto tarda en llegar la cotización?',
+    answer: 'Por WhatsApp respondemos en minutos durante el horario de atención (lun–vie 9:00–19:00, sáb 9:00–17:00). Si escribes fuera del horario, respondemos a primera hora del siguiente día hábil. Por correo el tiempo es de 2 a 4 horas en horario hábil.',
+  },
+  {
+    question: '¿Qué información necesitan para cotizar?',
+    answer: 'Con tres datos ya podemos cotizar: (1) el paquete o servicio que te interesa, (2) la fecha del evento y (3) la alcaldía o municipio del venue. Si no sabes qué modelo o paquete necesitas, cuéntanos el tipo de evento, cuántos niños habrá y el espacio disponible — te recomendamos la mejor opción.',
+  },
+  {
+    question: '¿Puedo visitar las instalaciones para ver los inflables?',
+    answer: 'Sí, con cita previa. Nuestras bodegas están en Polanco. Si quieres ver los modelos en persona antes de reservar, escríbenos por WhatsApp para agendar la visita. Preferimos cita previa para garantizar que el modelo que te interesa esté disponible para la demostración.',
+  },
+  {
+    question: '¿Atienden eventos en municipios fuera del CDMX?',
+    answer: 'Sí, cubrimos Naucalpan, Tlalnepantla, Huixquilucan, Ecatepec y otros municipios de la zona metropolitana con cargo adicional de traslado según la distancia. Para eventos más alejados consúltanos directamente — evaluamos cada caso. No cubrimos estados fuera de la zona metropolitana del Valle de México.',
+  },
+  {
+    question: '¿Tienen redes sociales donde pueda ver fotos de eventos anteriores?',
+    answer: `Sí. Puedes ver eventos reales, fotos de los inflables instalados y combinaciones de paquetes en nuestro Instagram (@inflafi) y Facebook (INFLAFI). Si quieres ver fotos específicas de algún modelo o tipo de evento, también las podemos mandar por WhatsApp directamente.`,
+  },
+]
+---
+
+<PageLayout
+  title="Contacto — Cotiza tu Inflable o Paquete en CDMX | INFLAFI"
+  description="Contacta a INFLAFI para cotizar renta de inflables y servicios para fiestas en CDMX. WhatsApp, teléfono o correo. Respondemos en minutos."
+  image="/images/og/contacto.jpg"
+  pageType="contact"
+  breadcrumbs={[{ label: 'Contacto', href: '/contacto' }]}
+>
+
+  <!-- BREADCRUMBS ─────────────────────────────────────────────────────────── -->
+  <nav class="breadcrumbs" aria-label="Migas de pan">
+    <div class="bc-inner">
+      <ol class="bc-list">
+        <li><a href="/" class="bc-link">Inicio</a></li>
+        <li aria-hidden="true" class="bc-sep">›</li>
+        <li><span class="bc-current" aria-current="page">Contacto</span></li>
+      </ol>
+    </div>
+  </nav>
+
+  <!-- HERO ────────────────────────────────────────────────────────────────── -->
+  <Hero
+    badge="Respuesta en minutos · Lun–Sáb 9:00–19:00 · CDMX"
+    title="Hablemos de"
+    accent="tu Fiesta"
+    subtitle="Cuéntanos qué necesitas — inflable, paquete, servicio adicional o una combinación. Respondemos con disponibilidad y precio en minutos por WhatsApp."
+    descRight={[
+      `WhatsApp es el canal más rápido: escríbenos con el tipo de evento, la fecha aproximada y el número de invitados. En minutos tienes cotización, disponibilidad y opciones de personalización. No necesitas saber exactamente qué quieres — con esos tres datos ya te podemos recomendar la mejor combinación.`,
+      `Si prefieres hablar por teléfono o verte en persona, también podemos. Las bodegas están en Polanco y atendemos visitas con cita previa. Para eventos grandes o corporativos con múltiples servicios, el correo también funciona para coordinar todo por escrito.`,
+    ]}
+    ctas={[
+      { text: '¡Escribir por WhatsApp!', href: waUrl(WA_MESSAGES.cotizar), variant: 'primary', whatsapp: true },
+      { text: `Llamar: ${CONTACT.phone}`, href: `tel:${CONTACT.phoneE164}`, variant: 'outline' },
+    ]}
+    ariaLabel="Contacto INFLAFI — renta de inflables CDMX"
+  />
+
+  <!-- ① MÉTODOS DE CONTACTO + HORARIOS ─────────────────────────────────── -->
+  <section class="section" aria-labelledby="metodos-heading">
+    <div class="container">
+      <SectionHeading
+        id="metodos-heading"
+        eyebrow="3 formas de contactarnos"
+        title="Elige cómo prefieres"
+        titleAccent="coordinar tu evento"
+        layout="duo"
+        body={[
+          "WhatsApp es la forma más rápida y el canal que usamos para la mayoría de las cotizaciones: es más fácil compartir fotos del espacio, mandar medidas o resolver dudas rápidas. El teléfono es ideal si prefieres coordinar por voz. El correo funciona para eventos corporativos con múltiples servicios donde conviene tener todo por escrito.",
+          "Respondemos en minutos durante el horario de atención. Si escribes fuera del horario, tienes respuesta a primera hora del siguiente día hábil. Nunca dejamos una consulta sin respuesta — si tardamos más de 30 minutos en horario hábil, por favor reenvía el mensaje.",
+        ]}
+      />
+
+      <div class="contact-layout">
+
+        <!-- Métodos de contacto -->
+        <div class="metodos-col">
+          <div class="metodos-stack">
+            {METODOS.map(m => (
+              <div class="metodo-card">
+                <div class="metodo-card__icon" style={`background: ${m.colorLight}; color: ${m.color}`}>
+                  <svg width="22" height="22" viewBox="0 0 24 24"
+                    fill={m.iconFill ? 'currentColor' : 'none'}
+                    stroke={m.iconFill ? 'none' : 'currentColor'}
+                    stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"
+                    set:html={m.icon} aria-hidden="true"
+                  />
+                </div>
+                <div class="metodo-card__info">
+                  <p class="metodo-card__label">{m.label}</p>
+                  <p class="metodo-card__value">{m.value}</p>
+                  <p class="metodo-card__desc">{m.desc}</p>
+                </div>
+                <a
+                  href={m.href}
+                  class="metodo-card__btn"
+                  style={`--btn-bg: ${m.color}`}
+                  target={m.href.startsWith('http') ? '_blank' : undefined}
+                  rel={m.href.startsWith('http') ? 'noopener noreferrer' : undefined}
+                >
+                  {m.cta}
+                  <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                </a>
+              </div>
+            ))}
+          </div>
+        </div>
+
+        <!-- Horarios + Zonas + Dirección -->
+        <div class="info-col">
+
+          <!-- Horarios -->
+          <div class="info-block">
+            <h3 class="info-block__title">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              Horario de atención
+            </h3>
+            <table class="horario-table">
+              {HORARIOS.map(h => (
+                <tr>
+                  <td class="horario-table__dia">{h.dia}</td>
+                  <td class="horario-table__hora">{h.hora}</td>
+                </tr>
+              ))}
+            </table>
+            <p class="info-block__note">Los eventos ya confirmados cuentan con soporte de WhatsApp el domingo de 9:00 a 17:00.</p>
+          </div>
+
+          <!-- Dirección -->
+          <div class="info-block">
+            <h3 class="info-block__title">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              Ubicación
+            </h3>
+            <p class="info-block__address">
+              {CONTACT.street}<br/>
+              Col. Los Morales Polanco<br/>
+              {CONTACT.city}, {CONTACT.state} {CONTACT.postalCode}
+            </p>
+            <a
+              href="https://maps.google.com/?q=Inflafi+Polanco+CDMX"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="info-block__maps-link"
+            >
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+              Ver en Google Maps
+            </a>
+            <p class="info-block__note">Visitas con cita previa. Escríbenos por WhatsApp para agendar.</p>
+          </div>
+
+          <!-- Zonas -->
+          <div class="info-block">
+            <h3 class="info-block__title">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="3 11 22 2 13 21 11 13 3 11"/></svg>
+              Zonas de cobertura
+            </h3>
+            <div class="zonas-grid">
+              {ZONAS.map(z => (
+                <span class="zona-pill">{z}</span>
+              ))}
+            </div>
+            <p class="info-block__note">También cubrimos municipios del Estado de México con cargo adicional de traslado según distancia.</p>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ② FORMULARIO DE COTIZACIÓN ──────────────────────────────────────────── -->
+  <section id="cotizar" class="section section--form" aria-labelledby="form-heading">
+    <div class="container">
+      <SectionHeading
+        id="form-heading"
+        eyebrow="Arma tu cotización en 60 segundos"
+        title="Cuéntanos los detalles"
+        titleAccent="de tu evento"
+        layout="duo"
+        body={[
+          "Completa el formulario con los detalles del evento y al final haz clic en 'Enviar por WhatsApp' — se abre WhatsApp directamente con tu mensaje ya redactado. Así no tienes que escribir nada adicional.",
+          "Todos los campos son opcionales excepto el tipo de evento. Con más información, más precisa la cotización. Si no sabes algo — fecha exacta, número de niños, modelo de inflable — déjalo en blanco y lo coordinamos en la conversación.",
+        ]}
+      />
+
+      <div class="form-layout">
+        <form id="cotiza-form" class="cotiza-form" novalidate>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label class="form-label" for="nombre">Tu nombre</label>
+              <input type="text" id="nombre" name="nombre" class="form-input" placeholder="¿Cómo te llamamos?" autocomplete="given-name"/>
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="tel">Teléfono / WhatsApp</label>
+              <input type="tel" id="tel" name="tel" class="form-input" placeholder="55 1234 5678" autocomplete="tel"/>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label class="form-label" for="tipo-evento">Tipo de evento <span class="form-required" aria-hidden="true">*</span></label>
+              <select id="tipo-evento" name="tipo-evento" class="form-select" required>
+                <option value="">Selecciona el tipo de evento</option>
+                {TIPOS_EVENTO.map(t => <option value={t}>{t}</option>)}
+              </select>
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="fecha">Fecha del evento</label>
+              <input type="date" id="fecha" name="fecha" class="form-input"/>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label class="form-label" for="ninos">Número aproximado de niños</label>
+              <input type="number" id="ninos" name="ninos" class="form-input" placeholder="Ej: 20" min="1" max="200"/>
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="interes">¿Qué te interesa rentar?</label>
+              <select id="interes" name="interes" class="form-select">
+                <option value="">No lo sé aún — necesito recomendación</option>
+                {OPCIONES_INTERES.map(o => <option value={o}>{o}</option>)}
+              </select>
+            </div>
+          </div>
+
+          <div class="form-group form-group--full">
+            <label class="form-label" for="mensaje">Detalles adicionales del evento</label>
+            <textarea
+              id="mensaje" name="mensaje" class="form-textarea" rows="4"
+              placeholder="Espacio disponible (jardín, terraza, quinta…), alcaldía o municipio, temática de la fiesta, algo que debamos saber del venue o del evento…"
+            ></textarea>
+          </div>
+
+          <div class="form-actions">
+            <button type="submit" class="form-submit" id="form-submit-btn">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d={WA_ICON}/></svg>
+              Enviar cotización por WhatsApp
+            </button>
+            <p class="form-note">
+              Al hacer clic se abre WhatsApp con tu información ya redactada — solo toca "Enviar".
+            </p>
+          </div>
+
+        </form>
+
+        <!-- Panel lateral: por qué WhatsApp -->
+        <aside class="form-aside">
+          <div class="aside-block">
+            <h3 class="aside-block__title">¿Por qué WhatsApp y no un formulario?</h3>
+            <p class="aside-block__text">Los formularios web se pierden, van a spam o tienen respuestas de 24-48 horas. En WhatsApp respondemos en minutos — y si tenemos una pregunta de vuelta, la conversación es inmediata.</p>
+          </div>
+
+          <div class="aside-checklist">
+            <p class="aside-checklist__title">Lo que recibes al cotizar</p>
+            {[
+              'Precio exacto del paquete o servicio elegido',
+              'Disponibilidad confirmada para tu fecha',
+              'Opciones de personalización para tu temática',
+              'Proceso de reserva y anticipo requerido',
+              'Número de seguimiento de tu cotización',
+            ].map(item => (
+              <div class="aside-checklist__item">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+                <span>{item}</span>
+              </div>
+            ))}
+          </div>
+
+          <div class="aside-direct">
+            <p class="aside-direct__label">O escríbenos directamente</p>
+            <a href={waUrl(WA_MESSAGES.cotizar)} class="aside-direct__btn" target="_blank" rel="noopener noreferrer">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d={WA_ICON}/></svg>
+              Abrir WhatsApp ahora
+            </a>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <!-- ③ FAQ ────────────────────────────────────────────────────────────────── -->
+  <FAQWithContact
+    eyebrow="Preguntas frecuentes sobre cómo contactarnos"
+    title="Tiempos de respuesta,"
+    titleAccent="visitas y cobertura"
+    body={[
+      "Las preguntas más comunes sobre cómo coordinamos: qué tan rápido respondemos, qué información necesitan para cotizar, si se puede visitar la bodega y qué municipios cubrimos.",
+      "Si tu pregunta es sobre inflables específicos, paquetes o precios, lo respondemos directamente por WhatsApp — más rápido que buscar en el FAQ.",
+    ]}
+    faqs={FAQS}
+    showContact={false}
+  />
+
+  <!-- CTA BANNER ───────────────────────────────────────────────────────────── -->
+  <CTABanner
+    heading="¿Listo para cotizar tu fiesta?"
+    desc="WhatsApp es el canal más rápido. Escríbenos con la fecha, el tipo de evento y el número de niños — respondemos con precio y disponibilidad en minutos."
+    variant="primary"
+    btns={[
+      { label: 'Escribir por WhatsApp', href: waUrl(WA_MESSAGES.cotizar), icon: 'wa', primary: true, external: true },
+      { label: `Llamar: ${CONTACT.phone}`, href: `tel:${CONTACT.phoneE164}`, icon: 'phone', primary: false },
+    ]}
+    badge={`${CONTACT.hours.display} · Respuesta garantizada`}
+  />
+
+</PageLayout>
+
+<!-- SCRIPT: Construir mensaje WA desde el formulario ─────────────────────────── -->
+<script>
+  const form = document.getElementById('cotiza-form') as HTMLFormElement | null
+  if (form) {
+    form.addEventListener('submit', (e) => {
+      e.preventDefault()
+      const fd = new FormData(form)
+      const nombre    = (fd.get('nombre')      as string || '').trim()
+      const tel       = (fd.get('tel')         as string || '').trim()
+      const tipo      = (fd.get('tipo-evento') as string || '').trim()
+      const fecha     = (fd.get('fecha')       as string || '').trim()
+      const ninos     = (fd.get('ninos')       as string || '').trim()
+      const interes   = (fd.get('interes')     as string || '').trim()
+      const mensaje   = (fd.get('mensaje')     as string || '').trim()
+
+      if (!tipo) {
+        const sel = document.getElementById('tipo-evento') as HTMLSelectElement | null
+        sel?.focus()
+        sel?.setCustomValidity('Por favor elige el tipo de evento.')
+        sel?.reportValidity()
+        return
+      }
+
+      let msg = 'Hola, me interesa cotizar un inflable o servicio para un evento en CDMX.'
+      if (nombre)  msg += `\n\n*Nombre:* ${nombre}`
+      if (tel)     msg += `\n*Teléfono:* ${tel}`
+      msg += `\n*Tipo de evento:* ${tipo}`
+      if (fecha)   msg += `\n*Fecha del evento:* ${fecha}`
+      if (ninos)   msg += `\n*Número de niños:* ${ninos}`
+      if (interes && interes !== 'No lo sé aún — necesito recomendación')
+                   msg += `\n*Interés:* ${interes}`
+      if (mensaje) msg += `\n\n*Detalles adicionales:*\n${mensaje}`
+
+      const wa = `https://wa.me/5215539048634?text=${encodeURIComponent(msg)}`
+      window.open(wa, '_blank', 'noopener,noreferrer')
+    })
+  }
+</script>
+
+<style>
+  .container { max-width: var(--container-max, 1400px); margin-inline: auto; padding-inline: var(--container-px, 1.5rem); }
+
+  /* Breadcrumbs */
+  .breadcrumbs { background: #fff; border-bottom: 1px solid #e5e7eb; }
+  .bc-inner { max-width: var(--container-max, 1400px); margin-inline: auto; padding-inline: var(--container-px, 1.5rem); padding-block: .625rem; }
+  .bc-list { list-style: none; margin: 0; padding: 0; display: flex; align-items: center; gap: .375rem; flex-wrap: wrap; }
+  .bc-link    { font-size: .8125rem; color: var(--c-primary, #7c3aed); text-decoration: none; }
+  .bc-link:hover { text-decoration: underline; }
+  .bc-sep     { font-size: .8125rem; color: #9ca3af; user-select: none; }
+  .bc-current { font-size: .8125rem; color: #4b5563; font-weight: 500; }
+
+  /* Sections */
+  .section      { padding: clamp(3.5rem, 7vw, 5.5rem) 0; }
+  .section--form { background: #f3f4f6; }
+
+  /* ═══════════════════════════════════════════
+     MÉTODOS DE CONTACTO + INFO
+  ═══════════════════════════════════════════ */
+  .contact-layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2.5rem;
+    align-items: start;
+  }
+
+  /* Métodos */
+  .metodos-stack { display: flex; flex-direction: column; gap: 1rem; }
+  .metodo-card {
+    display: flex; align-items: center; gap: 1.125rem;
+    padding: 1.25rem 1.375rem;
+    background: #fff; border: 1px solid #e5e7eb; border-radius: 16px;
+    box-shadow: 0 2px 8px rgba(0,0,0,.05);
+  }
+  .metodo-card__icon {
+    width: 3rem; height: 3rem; border-radius: 12px;
+    display: flex; align-items: center; justify-content: center; flex-shrink: 0;
+  }
+  .metodo-card__info { flex: 1; display: flex; flex-direction: column; gap: .2rem; min-width: 0; }
+  .metodo-card__label { font-size: .6875rem; font-weight: 700; text-transform: uppercase; letter-spacing: .07em; color: #9ca3af; margin: 0; }
+  .metodo-card__value { font-size: 1.0625rem; font-weight: 800; color: #111827; margin: 0; }
+  .metodo-card__desc  { font-size: .8125rem; color: #6b7280; line-height: 1.45; margin: 0; }
+  .metodo-card__btn {
+    display: inline-flex; align-items: center; gap: .4rem; flex-shrink: 0;
+    padding: .625rem 1rem; border-radius: 8px; text-decoration: none;
+    font-size: .8125rem; font-weight: 700; color: #fff;
+    background: var(--btn-bg, #25d366);
+    white-space: nowrap;
+  }
+  .metodo-card__btn:hover { opacity: .88; }
+
+  /* Info col: horarios, dirección, zonas */
+  .info-col { display: flex; flex-direction: column; gap: 1.25rem; }
+  .info-block {
+    background: #fff; border: 1px solid #e5e7eb; border-radius: 16px;
+    padding: 1.375rem 1.375rem 1.5rem;
+    box-shadow: 0 2px 8px rgba(0,0,0,.04);
+  }
+  .info-block__title {
+    display: flex; align-items: center; gap: .5rem;
+    font-size: .6875rem; font-weight: 700; text-transform: uppercase;
+    letter-spacing: .08em; color: #374151;
+    margin: 0 0 .875rem; padding-bottom: .625rem; border-bottom: 1px solid #f3f4f6;
+  }
+  .horario-table { width: 100%; border-collapse: collapse; }
+  .horario-table tr:not(:last-child) td { padding-bottom: .5rem; }
+  .horario-table__dia { font-size: .875rem; color: #374151; font-weight: 600; width: 55%; padding-right: .75rem; }
+  .horario-table__hora { font-size: .875rem; color: #4b5563; }
+  .info-block__note { font-size: .75rem; color: #9ca3af; margin: .75rem 0 0; line-height: 1.5; }
+  .info-block__address { font-size: .9375rem; color: #374151; line-height: 1.7; margin: 0 0 .75rem; }
+  .info-block__maps-link {
+    display: inline-flex; align-items: center; gap: .35rem;
+    font-size: .8125rem; font-weight: 600;
+    color: var(--c-primary, #7c3aed); text-decoration: none;
+  }
+  .info-block__maps-link:hover { text-decoration: underline; }
+  .zonas-grid { display: flex; flex-wrap: wrap; gap: .375rem; margin-bottom: .5rem; }
+  .zona-pill {
+    padding: .25rem .625rem;
+    background: #f5f3ff; color: var(--c-primary, #7c3aed);
+    border: 1px solid rgba(124,58,237,.18); border-radius: 999px;
+    font-size: .75rem; font-weight: 500;
+  }
+
+  /* ═══════════════════════════════════════════
+     FORMULARIO
+  ═══════════════════════════════════════════ */
+  .form-layout {
+    display: grid;
+    grid-template-columns: 1.4fr 1fr;
+    gap: 2.5rem;
+    align-items: start;
+  }
+
+  .cotiza-form {
+    background: #fff;
+    border: 1px solid #e5e7eb;
+    border-radius: 20px;
+    padding: 2rem;
+    box-shadow: 0 4px 20px rgba(0,0,0,.07);
+    display: flex; flex-direction: column; gap: 1.25rem;
+  }
+  .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+  .form-group { display: flex; flex-direction: column; gap: .375rem; }
+  .form-group--full { grid-column: 1 / -1; }
+  .form-label {
+    font-size: .8125rem; font-weight: 700; color: #374151;
+    display: flex; align-items: center; gap: .25rem;
+  }
+  .form-required { color: #ef4444; }
+
+  .form-input,
+  .form-select,
+  .form-textarea {
+    width: 100%; box-sizing: border-box;
+    padding: .75rem 1rem;
+    border: 1.5px solid #e5e7eb; border-radius: 10px;
+    font-size: .9375rem; color: #111827;
+    background: #fff;
+    outline: none;
+    font-family: inherit;
+    appearance: none; -webkit-appearance: none;
+  }
+  .form-input:focus,
+  .form-select:focus,
+  .form-textarea:focus {
+    border-color: var(--c-primary, #7c3aed);
+    box-shadow: 0 0 0 3px rgba(124,58,237,.12);
+  }
+  .form-input::placeholder,
+  .form-textarea::placeholder { color: #9ca3af; }
+  .form-select { background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%239ca3af' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'/%3E%3C/svg%3E"); background-repeat: no-repeat; background-position: right .875rem center; padding-right: 2.25rem; cursor: pointer; }
+  .form-textarea { resize: vertical; min-height: 100px; }
+
+  .form-actions { display: flex; flex-direction: column; gap: .625rem; margin-top: .375rem; }
+  .form-submit {
+    display: flex; align-items: center; justify-content: center; gap: .5rem;
+    width: 100%; padding: 1.0625rem 1.5rem;
+    background: #25d366; color: #fff;
+    font-size: 1rem; font-weight: 800; border-radius: 12px;
+    border: none; cursor: pointer; font-family: inherit;
+    box-shadow: 0 4px 16px rgba(37,211,102,.35);
+  }
+  .form-submit:hover { background: #1fba59; }
+  .form-submit:focus-visible { outline: 2px solid #25d366; outline-offset: 3px; }
+  .form-note { font-size: .8125rem; color: #9ca3af; text-align: center; margin: 0; line-height: 1.45; }
+
+  /* Aside */
+  .form-aside { display: flex; flex-direction: column; gap: 1.25rem; }
+  .aside-block {
+    background: #fff; border: 1px solid #e5e7eb; border-radius: 16px; padding: 1.375rem;
+    box-shadow: 0 2px 8px rgba(0,0,0,.05);
+  }
+  .aside-block__title { font-size: 1rem; font-weight: 700; color: #111827; margin: 0 0 .625rem; }
+  .aside-block__text  { font-size: .875rem; color: #4b5563; line-height: 1.7; margin: 0; }
+
+  .aside-checklist {
+    background: #f9fafb; border: 1px solid #f3f4f6; border-radius: 16px; padding: 1.375rem;
+  }
+  .aside-checklist__title {
+    font-size: .6875rem; font-weight: 700; text-transform: uppercase;
+    letter-spacing: .08em; color: #374151;
+    margin: 0 0 .875rem; padding-bottom: .625rem; border-bottom: 1px solid #e5e7eb;
+  }
+  .aside-checklist__item {
+    display: flex; align-items: flex-start; gap: .5rem;
+    font-size: .875rem; color: #374151; line-height: 1.5;
+    margin-bottom: .5rem;
+  }
+  .aside-checklist__item:last-child { margin-bottom: 0; }
+  .aside-checklist__item svg { flex-shrink: 0; margin-top: .175rem; color: #16a34a; }
+
+  .aside-direct {
+    background: #fff; border: 1px solid #e5e7eb; border-radius: 16px; padding: 1.375rem;
+    display: flex; flex-direction: column; gap: .75rem; align-items: flex-start;
+    box-shadow: 0 2px 8px rgba(0,0,0,.05);
+  }
+  .aside-direct__label { font-size: .8125rem; color: #6b7280; margin: 0; font-weight: 500; }
+  .aside-direct__btn {
+    display: inline-flex; align-items: center; gap: .45rem;
+    padding: .875rem 1.375rem; background: #25d366; color: #fff;
+    font-weight: 700; font-size: .9375rem; border-radius: 10px;
+    text-decoration: none; box-shadow: 0 4px 14px rgba(37,211,102,.3);
+  }
+  .aside-direct__btn:hover { background: #1fba59; }
+
+  /* ═══════════════════════════════════════════
+     RESPONSIVE
+  ═══════════════════════════════════════════ */
+  @media (max-width: 1024px) {
+    .contact-layout { grid-template-columns: 1fr; }
+    .form-layout     { grid-template-columns: 1fr; }
+    .form-aside      { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+  }
+  @media (max-width: 768px) {
+    .form-row { grid-template-columns: 1fr; }
+    .metodo-card { flex-direction: column; align-items: flex-start; gap: .75rem; }
+    .metodo-card__btn { width: 100%; justify-content: center; }
+  }
+  @media (max-width: 640px) {
+    .form-aside { grid-template-columns: 1fr; }
+    .cotiza-form { padding: 1.25rem; border-radius: 16px; }
+    .form-submit { font-size: .9375rem; padding: .9375rem 1.25rem; }
+  }
+</style>

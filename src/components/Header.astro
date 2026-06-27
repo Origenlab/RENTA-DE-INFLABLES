@@ -1,0 +1,657 @@
+---
+// Header.astro — Navegación principal DATA-DRIVEN INFLAFI.
+import { NAV, SITE, CONTACT, waUrl, telUrl, WA_MESSAGES } from '@config/site'
+
+const schedule = CONTACT.schedule?.display as string | undefined
+const navId = (s: string) =>
+  'navp-' + s.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[^a-z0-9]+/g, '-')
+const currentPath = Astro.url.pathname
+const isActive = (href: string) =>
+  href === '/' ? currentPath === '/' : currentPath === href || currentPath.startsWith(href)
+
+const WA_SVG = `<svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>`
+const PHONE_SVG = `<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 10.8a19.79 19.79 0 01-3.07-8.67A2 2 0 012 0h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 14.92v2z"/></svg>`
+const CHEVRON_SVG = `<svg class="hdr-chevron" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>`
+---
+
+<header class="site-header" role="banner">
+  <div class="hdr-inner">
+
+    <!-- Logo -->
+    <a href="/" class="hdr-logo" aria-label={`${SITE.name} — Inicio`}>
+      <img src="/images/brand/logo-inflafi.webp" alt={SITE.name} class="hdr-logo__img" width="180" height="64" />
+    </a>
+
+    <!-- Nav desktop -->
+    <nav class="hdr-nav" aria-label="Navegación principal">
+      <ul class="hdr-nav__list" role="list">
+        {NAV.map((item) => !item.panel ? (
+          <li class="hdr-nav__item">
+            <a href={item.href} class:list={['hdr-nav__link', { 'is-active': isActive(item.href) }]}>{item.label}</a>
+          </li>
+        ) : (
+          <li class="hdr-nav__item" data-dropdown={navId(item.label)}>
+            <a href={item.href}
+               class:list={['hdr-nav__link hdr-nav__link--drop', { 'is-active': isActive(item.href) }]}
+               aria-haspopup="true" aria-expanded="false">
+              {item.label}
+              <Fragment set:html={CHEVRON_SVG} />
+            </a>
+            <div class="drop-panel" id={navId(item.label)} role="region" aria-label={item.label} aria-hidden="true">
+              <div class="drop-panel__inner">
+                <a href={item.href} class="drop-panel__all">{item.allLabel ?? 'Ver todo'} →</a>
+                <div class="drop-panel__links">
+                  {(item.items ?? []).map((sub) => (
+                    <a href={sub.href} class="drop-panel__link">
+                      <span class="drop-panel__link-label">{sub.label}</span>
+                      {sub.desc && <span class="drop-panel__link-desc">{sub.desc}</span>}
+                    </a>
+                  ))}
+                </div>
+              </div>
+            </div>
+          </li>
+        ))}
+      </ul>
+    </nav>
+
+    <!-- Acciones desktop -->
+    <div class="hdr-actions">
+      <a href={telUrl()} class="hdr-phone" aria-label={`Llamar al ${CONTACT.phone}`}>
+        <Fragment set:html={PHONE_SVG} />
+        <span>{CONTACT.phone}</span>
+      </a>
+      <a href={waUrl(WA_MESSAGES.cotizacion ?? WA_MESSAGES.default)}
+         class="hdr-cta" target="_blank" rel="noopener noreferrer"
+         aria-label="Cotizar por WhatsApp">
+        <Fragment set:html={WA_SVG} />
+        <span>Cotizar gratis</span>
+      </a>
+    </div>
+
+    <!-- Burger -->
+    <button class="hdr-burger" id="hdr-burger-btn"
+            aria-label="Abrir menú" aria-expanded="false" aria-controls="hdr-mobile-nav">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- Overlay -->
+<div class="hdr-overlay" id="hdr-overlay" aria-hidden="true"></div>
+
+<!-- Mobile nav -->
+<div class="hdr-mobile-nav" id="hdr-mobile-nav" aria-hidden="true">
+  <div class="mob-scroll">
+    <nav aria-label="Navegación móvil">
+      {NAV.map((item) => item.panel ? (
+        <div class="mob-item">
+          <button class="mob-item__trigger" aria-expanded="false">
+            <span>{item.label}</span>
+            <svg class="mob-chevron" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+          </button>
+          <div class="mob-item__panel">
+            <div class="mob-item__panel-inner">
+              <a href={item.href} class="mob-item__all">{item.allLabel ?? 'Ver todo'} →</a>
+              {(item.items ?? []).map((sub) => (<a href={sub.href} class="mob-item__link">{sub.label}</a>))}
+            </div>
+          </div>
+        </div>
+      ) : (
+        <a href={item.href} class:list={['mob-direct', { 'is-active': isActive(item.href) }]}>{item.label}</a>
+      ))}
+    </nav>
+  </div>
+
+  <div class="mob-foot">
+    <a href={waUrl(WA_MESSAGES.cotizacion ?? WA_MESSAGES.default)}
+       class="mob-cta-wa" target="_blank" rel="noopener noreferrer">
+      <Fragment set:html={WA_SVG} /> Cotizar gratis por WhatsApp
+    </a>
+    <a href={telUrl()} class="mob-cta-call" aria-label={`Llamar al ${CONTACT.phone}`}>
+      <Fragment set:html={PHONE_SVG} /> {CONTACT.phone}
+    </a>
+    {schedule && <p class="mob-foot__schedule">
+      <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="9"/><polyline points="12 7 12 12 15.5 14"/></svg>
+      {schedule}
+    </p>}
+  </div>
+</div>
+
+<style>
+  /* ─── BASE ─── */
+  .site-header {
+    position: sticky;
+    top: var(--topbar-height, 36px);
+    z-index: 500;
+    background: #fff;
+    border-bottom: 1px solid var(--c-border);
+    transition: box-shadow .25s ease;
+  }
+  .site-header.is-scrolled {
+    box-shadow: 0 4px 24px rgba(0,0,0,.08);
+  }
+
+  .hdr-inner {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    height: 88px;
+    max-width: var(--container-max, 1400px);
+    margin-inline: auto;
+    padding-inline: var(--container-px, 1.5rem);
+  }
+
+  /* ─── LOGO ─── */
+  .hdr-logo {
+    flex-shrink: 0;
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+    margin-right: .5rem;
+  }
+  .hdr-logo__img {
+    height: 62px;
+    width: auto;
+    object-fit: contain;
+    display: block;
+  }
+
+  /* ─── NAV ─── */
+  .hdr-nav { margin-left: auto; }
+  .hdr-nav__list {
+    display: flex;
+    align-items: center;
+    gap: .125rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  .hdr-nav__item { position: relative; }
+
+  .hdr-nav__link {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    gap: .3rem;
+    padding: .5rem .9rem;
+    font-size: .9rem;
+    font-weight: 500;
+    color: var(--c-ink-2, #374151);
+    border-radius: 8px;
+    text-decoration: none;
+    letter-spacing: -.01em;
+    white-space: nowrap;
+    transition: color .15s ease, background .15s ease;
+  }
+  .hdr-nav__link:hover {
+    color: var(--c-primary);
+    background: rgba(124,58,237,.06);
+  }
+  .hdr-nav__link.is-active {
+    color: var(--c-primary);
+    font-weight: 600;
+  }
+  /* underline activo */
+  .hdr-nav__link.is-active::after {
+    content: '';
+    position: absolute;
+    bottom: 2px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 20px;
+    height: 2.5px;
+    border-radius: 2px;
+    background: var(--c-primary);
+  }
+  .hdr-chevron {
+    flex-shrink: 0;
+    opacity: .5;
+    transition: transform .2s ease, opacity .2s ease;
+  }
+  .hdr-nav__item.is-open .hdr-chevron { transform: rotate(180deg); opacity: .9; }
+  .hdr-nav__item.is-open > .hdr-nav__link {
+    color: var(--c-primary);
+    background: rgba(124,58,237,.06);
+  }
+  .hdr-nav__link:focus-visible {
+    outline: 2px solid var(--c-primary);
+    outline-offset: 2px;
+  }
+
+  /* ─── DROPDOWN ─── */
+  .drop-panel {
+    position: absolute;
+    top: calc(100% + 10px);
+    left: 50%;
+    transform: translateX(-50%) translateY(-6px);
+    z-index: 490;
+    background: #fff;
+    border: 1px solid var(--c-border);
+    border-radius: 14px;
+    box-shadow: 0 20px 50px rgba(0,0,0,.12), 0 4px 12px rgba(0,0,0,.06);
+    min-width: 240px;
+    max-width: 380px;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity .16s ease, transform .16s ease;
+  }
+  .drop-panel.is-open {
+    opacity: 1;
+    transform: translateX(-50%) translateY(0);
+    pointer-events: all;
+  }
+  /* flecha decorativa */
+  .drop-panel::before {
+    content: '';
+    position: absolute;
+    top: -5px;
+    left: 50%;
+    transform: translateX(-50%) rotate(45deg);
+    width: 10px;
+    height: 10px;
+    background: #fff;
+    border-left: 1px solid var(--c-border);
+    border-top: 1px solid var(--c-border);
+  }
+  .drop-panel__inner { padding: .5rem; }
+  .drop-panel__all {
+    display: block;
+    padding: .55rem .85rem;
+    font-size: .75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .07em;
+    color: var(--c-primary);
+    text-decoration: none;
+    border-bottom: 1px solid var(--c-border);
+    margin-bottom: .375rem;
+    padding-bottom: .625rem;
+  }
+  .drop-panel__links { display: flex; flex-direction: column; gap: .125rem; }
+  .drop-panel__link {
+    display: flex;
+    flex-direction: column;
+    gap: .1rem;
+    padding: .55rem .85rem;
+    border-radius: 9px;
+    text-decoration: none;
+    transition: background .14s ease, color .14s ease;
+  }
+  .drop-panel__link:hover, .drop-panel__link:focus-visible {
+    background: rgba(124,58,237,.07);
+    outline: none;
+  }
+  .drop-panel__link-label {
+    font-size: .875rem;
+    font-weight: 600;
+    color: var(--c-ink, #14181f);
+    line-height: 1.3;
+    transition: color .14s ease;
+  }
+  .drop-panel__link:hover .drop-panel__link-label { color: var(--c-primary); }
+  .drop-panel__link-desc {
+    font-size: .75rem;
+    color: var(--c-muted, #6b7280);
+    line-height: 1.4;
+  }
+
+  /* ─── ACCIONES DESKTOP ─── */
+  .hdr-actions {
+    display: flex;
+    align-items: center;
+    gap: .75rem;
+    flex-shrink: 0;
+    margin-left: 1rem;
+  }
+
+  .hdr-phone {
+    display: inline-flex;
+    align-items: center;
+    gap: .4rem;
+    padding: .5rem .9rem;
+    font-size: .875rem;
+    font-weight: 500;
+    color: var(--c-ink-2, #374151);
+    border: 1.5px solid var(--c-border);
+    border-radius: 8px;
+    text-decoration: none;
+    white-space: nowrap;
+    transition: border-color .15s ease, color .15s ease, background .15s ease;
+  }
+  .hdr-phone:hover {
+    border-color: var(--c-primary);
+    color: var(--c-primary);
+    background: rgba(124,58,237,.04);
+  }
+  .hdr-phone:focus-visible { outline: 2px solid var(--c-primary); outline-offset: 2px; }
+
+  .hdr-cta {
+    display: inline-flex;
+    align-items: center;
+    gap: .45rem;
+    padding: .6rem 1.35rem;
+    font-size: .9rem;
+    font-weight: 700;
+    color: #fff;
+    background: linear-gradient(135deg, var(--c-primary) 0%, var(--c-primary-light, #9061F9) 100%);
+    border-radius: 9px;
+    text-decoration: none;
+    white-space: nowrap;
+    letter-spacing: -.01em;
+    box-shadow: 0 4px 14px rgba(124,58,237,.35);
+    transition: filter .15s ease, transform .15s ease, box-shadow .15s ease;
+  }
+  .hdr-cta:hover {
+    filter: brightness(1.08);
+    transform: translateY(-1px);
+    box-shadow: 0 6px 18px rgba(124,58,237,.42);
+  }
+  .hdr-cta:focus-visible { outline: 2px solid var(--c-primary); outline-offset: 3px; }
+
+  /* ─── OVERLAY ─── */
+  .hdr-overlay {
+    display: none;
+    position: fixed;
+    inset: 0;
+    z-index: 480;
+    background: rgba(14,18,25,.25);
+    backdrop-filter: blur(2px);
+  }
+  .hdr-overlay.is-visible { display: block; }
+
+  /* ─── BURGER ─── */
+  .hdr-burger {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin-left: auto;
+    width: 44px;
+    height: 44px;
+    padding: 0;
+    cursor: pointer;
+    background: var(--c-surface, #f7f8fa);
+    border: 1.5px solid var(--c-border);
+    border-radius: 9px;
+    transition: border-color .15s ease, background .15s ease;
+    flex-shrink: 0;
+  }
+  .hdr-burger:hover { border-color: var(--c-primary); background: rgba(124,58,237,.06); }
+  .hdr-burger span {
+    display: block;
+    width: 20px;
+    height: 2px;
+    background: var(--c-ink-2, #374151);
+    border-radius: 2px;
+    transition: transform .25s ease, opacity .2s ease;
+    transform-origin: center;
+  }
+  .hdr-burger:focus-visible { outline: 2px solid var(--c-primary); outline-offset: 2px; }
+  .hdr-burger[aria-expanded="true"] span { background: var(--c-primary); }
+  .hdr-burger[aria-expanded="true"] span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
+  .hdr-burger[aria-expanded="true"] span:nth-child(2) { opacity: 0; transform: scaleX(0); }
+  .hdr-burger[aria-expanded="true"] span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
+  .hdr-burger[aria-expanded="true"] { border-color: var(--c-primary); background: rgba(124,58,237,.06); }
+
+  /* ─── MOBILE NAV ─── */
+  .hdr-mobile-nav {
+    position: fixed;
+    top: var(--stack-height, 100px);
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    z-index: 490;
+    border-top: 1px solid var(--c-border);
+    opacity: 0;
+    transform: translateY(-8px);
+    pointer-events: none;
+    transition: opacity .2s ease, transform .2s ease;
+    overflow: hidden;
+  }
+  .hdr-mobile-nav[aria-hidden="false"] {
+    opacity: 1;
+    transform: translateY(0);
+    pointer-events: all;
+  }
+  .mob-scroll {
+    flex: 1 1 auto;
+    overflow-y: auto;
+    overscroll-behavior: contain;
+    -webkit-overflow-scrolling: touch;
+    padding: .5rem 1rem 1rem;
+  }
+
+  /* items con panel */
+  .mob-item { border-bottom: 1px solid var(--c-border); }
+  .mob-item__trigger {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: .75rem;
+    padding: 1rem .5rem;
+    min-height: 54px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--c-ink, #14181f);
+    background: none;
+    border: none;
+    cursor: pointer;
+    text-align: left;
+    transition: color .15s ease;
+  }
+  .mob-item__trigger:hover { color: var(--c-primary); }
+  .mob-item__trigger[aria-expanded="true"] { color: var(--c-primary); }
+  .mob-item__trigger[aria-expanded="true"] .mob-chevron { transform: rotate(180deg); }
+  .mob-chevron { flex-shrink: 0; opacity: .55; transition: transform .25s ease; }
+
+  .mob-item__panel { overflow: hidden; max-height: 0; transition: max-height .3s ease; }
+  .mob-item__panel.is-open { max-height: 760px; }
+  .mob-item__panel-inner {
+    padding: .25rem .5rem 1rem;
+    background: var(--c-surface, #f7f8fa);
+    border-radius: 10px;
+    margin-bottom: .75rem;
+    display: flex;
+    flex-direction: column;
+    gap: .125rem;
+  }
+  .mob-item__all {
+    display: inline-block;
+    padding: .5rem .75rem;
+    font-size: .78rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .06em;
+    color: var(--c-primary);
+    text-decoration: none;
+    border-bottom: 1px solid var(--c-border);
+    margin-bottom: .25rem;
+  }
+  .mob-item__link {
+    display: flex;
+    align-items: center;
+    min-height: 42px;
+    padding: .4rem .75rem;
+    font-size: .9375rem;
+    color: var(--c-ink-2, #374151);
+    text-decoration: none;
+    border-radius: 7px;
+    transition: background .14s ease, color .14s ease;
+  }
+  .mob-item__link:hover, .mob-item__link:focus-visible {
+    background: rgba(124,58,237,.09);
+    color: var(--c-primary);
+    outline: none;
+  }
+
+  /* links directos */
+  .mob-direct {
+    display: flex;
+    align-items: center;
+    min-height: 54px;
+    padding: 1rem .5rem;
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--c-ink, #14181f);
+    border-bottom: 1px solid var(--c-border);
+    text-decoration: none;
+    transition: color .15s ease;
+  }
+  .mob-direct:hover, .mob-direct.is-active { color: var(--c-primary); }
+  .mob-direct.is-active {
+    border-left: 3px solid var(--c-primary);
+    padding-left: calc(.5rem - 3px);
+  }
+
+  /* footer del menú móvil */
+  .mob-foot {
+    flex: 0 0 auto;
+    border-top: 1px solid var(--c-border);
+    background: #fff;
+    padding: 1rem 1.25rem calc(1rem + env(safe-area-inset-bottom, 0px));
+    display: flex;
+    flex-direction: column;
+    gap: .625rem;
+  }
+  .mob-cta-wa {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .5rem;
+    min-height: 52px;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #fff;
+    background: linear-gradient(135deg, var(--c-primary) 0%, var(--c-primary-light, #9061F9) 100%);
+    box-shadow: 0 4px 14px rgba(124,58,237,.3);
+    text-decoration: none;
+    transition: filter .15s ease;
+  }
+  .mob-cta-wa:hover { filter: brightness(1.08); }
+  .mob-cta-call {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .5rem;
+    min-height: 46px;
+    border-radius: 10px;
+    font-size: .9375rem;
+    font-weight: 600;
+    color: var(--c-primary);
+    border: 1.5px solid var(--c-primary);
+    text-decoration: none;
+    transition: background .14s ease;
+  }
+  .mob-cta-call:hover { background: rgba(124,58,237,.06); }
+  .mob-foot__schedule {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .4rem;
+    font-size: .8125rem;
+    color: var(--c-muted, #6b7280);
+  }
+
+  /* ─── RESPONSIVE ─── */
+  @media (max-width: 1024px) {
+    .hdr-nav, .hdr-actions { display: none; }
+    .hdr-burger { display: flex; }
+    .hdr-inner { gap: 1rem; }
+  }
+  @media (max-width: 480px) {
+    .hdr-inner { height: 72px; }
+    .hdr-logo__img { height: 48px; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .hdr-mobile-nav, .mob-item__panel, .drop-panel,
+    .hdr-chevron, .mob-chevron, .site-header { transition: none; }
+  }
+</style>
+
+<script>
+  (function () {
+    const CLOSE_DELAY = 130
+    const header = document.querySelector<HTMLElement>('.site-header')
+    const overlay = document.getElementById('hdr-overlay')
+    const mobileNav = document.getElementById('hdr-mobile-nav')
+    const burgerBtn = document.getElementById('hdr-burger-btn')
+
+    /* scroll shadow */
+    const onScroll = () => header?.classList.toggle('is-scrolled', window.scrollY > 8)
+    onScroll(); window.addEventListener('scroll', onScroll, { passive: true })
+
+    /* dropdowns */
+    type DropItem = {
+      wrap: HTMLElement; link: HTMLElement; panel: HTMLElement
+      timer: ReturnType<typeof setTimeout> | null
+    }
+    const items: DropItem[] = []
+    document.querySelectorAll<HTMLElement>('[data-dropdown]').forEach((wrap) => {
+      const panel = document.getElementById(wrap.dataset.dropdown!)
+      if (!panel) return
+      const link = wrap.querySelector<HTMLElement>('.hdr-nav__link')!
+      items.push({ wrap, link, panel, timer: null })
+    })
+
+    const openItem = (item: DropItem) => {
+      if (item.timer) { clearTimeout(item.timer); item.timer = null }
+      items.forEach(o => { if (o !== item) closeNow(o) })
+      item.panel.classList.add('is-open'); item.panel.setAttribute('aria-hidden', 'false')
+      item.wrap.classList.add('is-open'); item.link.setAttribute('aria-expanded', 'true')
+      overlay?.classList.add('is-visible')
+    }
+    const schedClose = (item: DropItem) => { item.timer = setTimeout(() => closeNow(item), CLOSE_DELAY) }
+    const closeNow = (item: DropItem) => {
+      if (item.timer) { clearTimeout(item.timer); item.timer = null }
+      item.panel.classList.remove('is-open'); item.panel.setAttribute('aria-hidden', 'true')
+      item.wrap.classList.remove('is-open'); item.link.setAttribute('aria-expanded', 'false')
+      if (!items.some(i => i.panel.classList.contains('is-open'))) overlay?.classList.remove('is-visible')
+    }
+    const closeAll = () => { items.forEach(closeNow); overlay?.classList.remove('is-visible') }
+
+    items.forEach(item => {
+      item.wrap.addEventListener('mouseenter', () => openItem(item))
+      item.wrap.addEventListener('mouseleave', () => schedClose(item))
+      item.panel.addEventListener('mouseenter', () => { if (item.timer) { clearTimeout(item.timer); item.timer = null } })
+      item.panel.addEventListener('mouseleave', () => schedClose(item))
+      item.link.addEventListener('focus', () => openItem(item))
+    })
+    overlay?.addEventListener('click', closeAll)
+    document.addEventListener('keydown', e => { if (e.key === 'Escape') closeAll() })
+
+    /* mobile nav */
+    const setMenu = (open: boolean) => {
+      if (!mobileNav || !burgerBtn) return
+      mobileNav.setAttribute('aria-hidden', open ? 'false' : 'true')
+      burgerBtn.setAttribute('aria-expanded', open ? 'true' : 'false')
+      burgerBtn.setAttribute('aria-label', open ? 'Cerrar menú' : 'Abrir menú')
+      document.body.style.overflow = open ? 'hidden' : ''
+    }
+    burgerBtn?.addEventListener('click', () => setMenu(mobileNav!.getAttribute('aria-hidden') !== 'false'))
+
+    document.querySelectorAll<HTMLElement>('.mob-item__trigger').forEach(btn => {
+      const panel = btn.closest<HTMLElement>('.mob-item')!.querySelector<HTMLElement>('.mob-item__panel')!
+      btn.addEventListener('click', () => {
+        const isOpen = btn.getAttribute('aria-expanded') === 'true'
+        document.querySelectorAll<HTMLElement>('.mob-item__trigger').forEach(o => {
+          if (o !== btn) {
+            o.setAttribute('aria-expanded', 'false')
+            o.closest<HTMLElement>('.mob-item')!.querySelector<HTMLElement>('.mob-item__panel')!.classList.remove('is-open')
+          }
+        })
+        btn.setAttribute('aria-expanded', isOpen ? 'false' : 'true')
+        panel.classList.toggle('is-open', !isOpen)
+      })
+    })
+    mobileNav?.querySelectorAll('a').forEach(a => a.addEventListener('click', () => setMenu(false)))
+    window.addEventListener('resize', () => { if (window.innerWidth > 1024) { closeAll(); setMenu(false) } })
+  })()
+</script>

@@ -1,0 +1,322 @@
+---
+// CategoryDetail.astro — Inflable a fondo. Info izq · Imagen der. INFLAFI.
+export interface Props {
+  id?: string
+  eyebrow?: string
+  category?: string
+  title: string
+  body: string[]
+  points?: string[]
+  cta?: { label: string; href: string; external?: boolean }
+  gallery: {
+    main: { src: string; alt: string }
+    thumbs?: { src: string; alt: string }[]
+  }
+  as?: 'h2' | 'h3'
+}
+
+const { id, eyebrow, category, title, body, points = [], cta, gallery, as = 'h2' } = Astro.props
+const Tag = as
+---
+
+<div class="cdetail" id={id} data-cat={category}>
+  <!-- Columna izquierda: info -->
+  <div class="cdetail__info">
+
+    {eyebrow && (
+      <div class="cdetail__meta">
+        {category && <span class="cdetail__cat" data-cat={category}>{category}</span>}
+        <span class="cdetail__dims">{category ? eyebrow.replace(`${category} · `, '') : eyebrow}</span>
+      </div>
+    )}
+
+    <Tag class="cdetail__title">{title}</Tag>
+
+    <div class="cdetail__body">
+      {body.map(p => <p class="cdetail__p">{p}</p>)}
+    </div>
+
+    {points.length > 0 && (
+      <ul class="cdetail__features">
+        {points.map(pt => (
+          <li class="cdetail__feat">
+            <span class="cdetail__feat-icon" aria-hidden="true">
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+            </span>
+            {pt}
+          </li>
+        ))}
+      </ul>
+    )}
+
+    {cta && (
+      <a
+        href={cta.href}
+        class="cdetail__cta"
+        target={cta.external ? '_blank' : undefined}
+        rel={cta.external ? 'noopener noreferrer' : undefined}
+      >
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+        {cta.label}
+      </a>
+    )}
+  </div>
+
+  <!-- Columna derecha: galería -->
+  <div class="cdetail__visual">
+    <!-- Imagen principal -->
+    <div class="cdetail__img-wrap">
+      <img
+        src={gallery.main.src}
+        alt={gallery.main.alt}
+        width="800"
+        height="600"
+        loading="lazy"
+        decoding="async"
+        class="cdetail__img"
+        id={id ? `cdetail-img-${id}` : undefined}
+      />
+      {category && (
+        <span class="cdetail__img-badge" data-cat={category}>{category}</span>
+      )}
+    </div>
+
+    <!-- Miniaturas (opcionales) -->
+    {gallery.thumbs && gallery.thumbs.length > 0 && (
+      <div class="cdetail__thumbs" data-gallery-id={id}>
+        {[{ src: gallery.main.src, alt: gallery.main.alt }, ...gallery.thumbs].slice(0, 4).map((thumb, i) => (
+          <button
+            class:list={['cdetail__thumb', i === 0 && 'cdetail__thumb--active']}
+            aria-label={`Ver imagen: ${thumb.alt}`}
+            type="button"
+            data-src={thumb.src}
+            data-alt={thumb.alt}
+          >
+            <img
+              src={thumb.src}
+              alt={thumb.alt}
+              width="200"
+              height="150"
+              loading="lazy"
+              decoding="async"
+            />
+          </button>
+        ))}
+      </div>
+    )}
+  </div>
+</div>
+
+<script>
+  // Galería interactiva — cambia imagen principal al hacer click en miniatura
+  document.querySelectorAll<HTMLElement>('.cdetail__thumbs').forEach(strip => {
+    const galleryId = strip.dataset.galleryId
+    const mainImg = (galleryId
+      ? document.getElementById(`cdetail-img-${galleryId}`)
+      : strip.closest('.cdetail__visual')?.querySelector('.cdetail__img')
+    ) as HTMLImageElement | null
+
+    strip.querySelectorAll<HTMLButtonElement>('.cdetail__thumb').forEach(btn => {
+      btn.addEventListener('click', () => {
+        if (mainImg && btn.dataset.src) {
+          mainImg.src = btn.dataset.src
+          mainImg.alt = btn.dataset.alt ?? mainImg.alt
+        }
+        strip.querySelectorAll('.cdetail__thumb').forEach(b => b.classList.remove('cdetail__thumb--active'))
+        btn.classList.add('cdetail__thumb--active')
+      })
+    })
+  })
+</script>
+
+<style>
+  /* ── Layout ────────────────────────────────────────────────── */
+  .cdetail {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: clamp(2.5rem, 5vw, 5rem);
+    align-items: center;
+    background: #fff;
+    border: 1px solid #e5e7eb;
+    border-radius: 24px;
+    padding: clamp(2rem, 4vw, 3rem);
+    box-shadow: 0 2px 12px rgba(0,0,0,.05);
+  }
+
+  /* ── Meta (badge + dims) ───────────────────────────────────── */
+  .cdetail__meta { display: flex; align-items: center; gap: .625rem; flex-wrap: wrap; }
+  .cdetail__cat {
+    display: inline-block;
+    padding: .25rem .75rem;
+    border-radius: 999px;
+    font-size: .6875rem;
+    font-weight: 700;
+    letter-spacing: .05em;
+    text-transform: uppercase;
+    background: #f3e8ff;
+    color: #6b21a8;
+  }
+  .cdetail__cat[data-cat="Chico"]   { background: #dcfce7; color: #166534; }
+  .cdetail__cat[data-cat="Mediano"] { background: #dbeafe; color: #1e40af; }
+  .cdetail__cat[data-cat="Grande"]  { background: #ffedd5; color: #9a3412; }
+  .cdetail__cat[data-cat="Niñas"]   { background: #fce7f3; color: #9d174d; }
+  .cdetail__cat[data-cat="Bodas"]   { background: #f3e8ff; color: #6b21a8; }
+  .cdetail__dims {
+    font-size: .8125rem;
+    font-weight: 600;
+    color: #6b7280;
+    font-family: monospace;
+    letter-spacing: .02em;
+  }
+
+  /* ── Info column ───────────────────────────────────────────── */
+  .cdetail__info {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+  }
+  .cdetail__title {
+    font-size: clamp(1.75rem, 3vw, 2.5rem);
+    font-weight: 800;
+    line-height: 1.15;
+    letter-spacing: -.025em;
+    color: #111827;
+    margin: 0;
+  }
+  .cdetail__body { display: flex; flex-direction: column; gap: .75rem; }
+  .cdetail__p {
+    font-size: 1rem;
+    color: #4b5563;
+    line-height: 1.75;
+    margin: 0;
+  }
+
+  /* ── Features list ─────────────────────────────────────────── */
+  .cdetail__features {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: .625rem .75rem;
+    border-top: 1px solid #f3f4f6;
+    padding-top: 1.25rem;
+  }
+  .cdetail__feat {
+    display: flex;
+    align-items: flex-start;
+    gap: .5rem;
+    font-size: .875rem;
+    color: #374151;
+    line-height: 1.4;
+  }
+  .cdetail__feat-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background: #7c3aed;
+    color: #fff;
+    margin-top: 1px;
+  }
+
+  /* ── CTA ───────────────────────────────────────────────────── */
+  .cdetail__cta {
+    display: inline-flex;
+    align-items: center;
+    gap: .5rem;
+    align-self: flex-start;
+    padding: .875rem 1.625rem;
+    background: #25d366;
+    color: #fff;
+    font-weight: 700;
+    font-size: .9375rem;
+    border-radius: 10px;
+    text-decoration: none;
+    box-shadow: 0 4px 14px rgba(37, 211, 102, .35);
+    transition: background .15s ease, box-shadow .15s ease;
+  }
+  .cdetail__cta:hover {
+    background: #1fba59;
+    box-shadow: 0 6px 20px rgba(37, 211, 102, .45);
+  }
+  .cdetail__cta:focus-visible { outline: 2px solid #25d366; outline-offset: 3px; }
+
+  /* ── Visual column ─────────────────────────────────────────── */
+  .cdetail__visual { position: relative; }
+  .cdetail__img-wrap {
+    position: relative;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 16px 48px rgba(0,0,0,.14), 0 2px 8px rgba(0,0,0,.06);
+  }
+  .cdetail__img {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 4/3;
+    object-fit: cover;
+    display: block;
+  }
+  .cdetail__img-badge {
+    position: absolute;
+    bottom: .875rem;
+    left: .875rem;
+    padding: .3rem .75rem;
+    border-radius: 999px;
+    font-size: .6875rem;
+    font-weight: 700;
+    letter-spacing: .05em;
+    text-transform: uppercase;
+    backdrop-filter: blur(8px);
+    background: rgba(255,255,255,.85);
+    color: #111827;
+    box-shadow: 0 2px 8px rgba(0,0,0,.12);
+  }
+
+  /* ── Thumbnails ────────────────────────────────────────────── */
+  .cdetail__thumbs {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: .5rem;
+    margin-top: .625rem;
+  }
+  .cdetail__thumb {
+    border: 2px solid transparent;
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+    padding: 0;
+    background: none;
+    display: block;
+    opacity: .72;
+  }
+  .cdetail__thumb:hover {
+    opacity: 1;
+    border-color: #ddd6fe;
+  }
+  .cdetail__thumb--active {
+    opacity: 1;
+    border-color: var(--c-primary, #7c3aed);
+    box-shadow: 0 0 0 1px var(--c-primary, #7c3aed);
+  }
+  .cdetail__thumb img {
+    width: 100%;
+    aspect-ratio: 4/3;
+    object-fit: cover;
+    display: block;
+  }
+
+  /* ── Responsive ────────────────────────────────────────────── */
+  @media (max-width: 900px) {
+    .cdetail { grid-template-columns: 1fr; gap: 2rem; }
+    .cdetail__visual { order: -1; }
+  }
+  @media (max-width: 580px) {
+    .cdetail { padding: 1.25rem; border-radius: 16px; }
+    .cdetail__features { grid-template-columns: 1fr; }
+    .cdetail__title { font-size: 1.625rem; }
+  }
+</style>

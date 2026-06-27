@@ -1,0 +1,83 @@
+/* mobile.css — Overrides responsive de layout para INFLAFI.
+   Se importa en BaseLayout DESPUÉS de tokens.css (último en el cascade global).
+   Breakpoints canónicos: 1024 · 768 · 640 · 480 · 380 */
+
+@media (max-width: 768px) {
+  img, picture, video, canvas, svg { max-width: 100%; height: auto; }
+  pre, table { display: block; max-width: 100%; overflow-x: auto; -webkit-overflow-scrolling: touch; }
+  p, li, h1, h2, h3, h4, dd, dt, blockquote, figcaption {
+    overflow-wrap: break-word; word-break: break-word;
+  }
+}
+
+@supports (padding: max(0px)) {
+  @media (max-width: 768px) {
+    .container, .hdr-inner, .tb-inner, .hero__inner,
+    .footer__grid, .footer__cert-inner, .footer__bottom-inner, .footer__cta-inner {
+      padding-left:  max(var(--container-px), env(safe-area-inset-left))  !important;
+      padding-right: max(var(--container-px), env(safe-area-inset-right)) !important;
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .section { padding-block: 2.5rem !important; }
+  .band    { padding-top: 1.5rem !important; }
+}
+@media (max-width: 380px) {
+  .section { padding-block: 2.1rem !important; }
+}
+
+@media (max-width: 768px) {
+  .hero__inner   { grid-template-columns: 1fr !important; gap: clamp(1.5rem, 5vw, 2.25rem) !important; }
+  .hero__title   { font-size: clamp(1.9rem, 7vw, 2.6rem) !important; }
+  .hero__subtitle, .hero__desc { font-size: clamp(1rem, 4vw, 1.0625rem) !important; }
+  .hero__right   { gap: var(--sp-4, 1rem) !important; }
+}
+@media (max-width: 480px) {
+  .hero__ctas { flex-direction: column !important; width: 100%; }
+  .hero__btn  { width: 100% !important; justify-content: center !important; min-height: 48px; }
+}
+
+@media (max-width: 1024px) {
+  .mob-direct, .mob-item__trigger { min-height: 48px; }
+  .mob-item__link, .mob-item__all {
+    min-height: 44px; display: flex !important; align-items: center;
+  }
+  .hdr-burger { width: 44px; height: 44px; }
+  a, button, [role="button"], summary, label, .hdr-cta, .hero__btn {
+    -webkit-tap-highlight-color: rgba(124, 58, 237, .15);
+  }
+}
+@media (max-width: 768px) {
+  .footer__nav-link  { min-height: 40px; align-items: center; }
+  .footer__legal-link { padding: .35rem .25rem; }
+  .tb-item { min-height: 32px; }
+  .ccard__sub { min-height: 40px; display: inline-flex; align-items: center; }
+}
+
+@media (max-width: 640px) {
+  .wa-float {
+    width: 52px; height: 52px; padding: 0 !important; justify-content: center;
+    bottom: max(1rem, env(safe-area-inset-bottom)) !important;
+    right:  max(1rem, env(safe-area-inset-right))  !important;
+  }
+  .wa-float__label { display: none !important; }
+}
+
+@media (max-width: 480px) {
+  .footer__cta-actions { width: 100%; }
+  .footer__btn { flex: 1 1 100%; justify-content: center; min-height: 46px; }
+  .footer__social { justify-content: flex-start; }
+}
+
+@media (max-width: 380px) {
+  .hdr-inner { gap: .75rem !important; }
+  .hdr-logo__word { font-size: 1.05rem !important; }
+}
+
+body.menu-open { overflow: hidden; }
+body.menu-open .wa-float { display: none !important; }
+
+.prose, .post__body > *, .post__sidebar { min-width: 0; }
+.prose pre, .prose table { max-width: 100%; }

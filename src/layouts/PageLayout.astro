@@ -1,0 +1,45 @@
+---
+// PageLayout.astro — chrome estándar: TopBar + Header + <slot/> + Footer + WhatsAppFloat. INFLAFI.
+import BaseLayout from "./BaseLayout.astro";
+import TopBar from "@components/TopBar.astro";
+import Header from "@components/Header.astro";
+import Footer from "@components/Footer.astro";
+import WhatsAppFloat from "@components/WhatsAppFloat.astro";
+import type { PageType, SchemaData } from "@lib/seo";
+
+export interface Props {
+  title?: string;
+  keywords?: readonly string[];
+  description?: string;
+  canonical?: string;
+  image?: string;
+  pageType?: PageType;
+  schemaData?: SchemaData;
+  noindex?: boolean;
+  breadcrumbs?: { label: string; href?: string }[];
+}
+
+const { breadcrumbs = [], ...baseProps } = Astro.props;
+
+const schemaData: SchemaData = {
+  ...(baseProps.schemaData ?? {}),
+  ...(breadcrumbs.length > 0
+    ? {
+        breadcrumbs: [
+          { name: "Inicio", path: "/" },
+          ...breadcrumbs.map((b) => ({ name: b.label, path: b.href ?? "" })),
+        ],
+      }
+    : {}),
+};
+---
+
+<BaseLayout {...baseProps} schemaData={schemaData}>
+  <TopBar />
+  <Header />
+  <main id="main-content">
+    <slot />
+  </main>
+  <Footer />
+  <WhatsAppFloat />
+</BaseLayout>

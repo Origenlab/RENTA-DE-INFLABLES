@@ -1,0 +1,201 @@
+---
+// src/components/SectionMenu.astro
+// Franja de navegación rápida justo bajo el Hero.
+// Cada item = anchor a una sección de la misma página.
+
+interface MenuItem {
+  label: string
+  sub: string
+  href: string
+  icon: string        // SVG path d=
+  cta?: boolean       // último ítem destacado (WhatsApp)
+}
+
+interface Props {
+  items: MenuItem[]
+  ariaLabel?: string
+}
+
+const { items, ariaLabel = 'Secciones del sitio' } = Astro.props
+---
+
+<nav class="secmenu" aria-label={ariaLabel}>
+  <div class="secmenu__bar">
+    {items.map(item => (
+      <div class:list={['secmenu__cell', item.cta && 'secmenu__cell--cta']}>
+        <a
+          href={item.href}
+          class:list={['secmenu__link', item.cta && 'secmenu__link--cta']}
+          {...(item.href.startsWith('http') ? { target: '_blank', rel: 'noopener noreferrer' } : {})}
+        >
+          <span class="secmenu__icon" aria-hidden="true">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="1.8"
+              stroke-linecap="round" stroke-linejoin="round">
+              <path d={item.icon} />
+            </svg>
+          </span>
+          <span class="secmenu__text">
+            <span class="secmenu__label">{item.label}</span>
+            <span class="secmenu__sub">{item.sub}</span>
+          </span>
+          <span class="secmenu__arrow" aria-hidden="true">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2.5"
+              stroke-linecap="round" stroke-linejoin="round">
+              <path d="M5 12h14M12 5l7 7-7 7"/>
+            </svg>
+          </span>
+        </a>
+      </div>
+    ))}
+  </div>
+</nav>
+
+<style>
+  .secmenu {
+    background: var(--c-white, #fff);
+    border-top: 1px solid var(--c-border, #e5e7eb);
+    border-bottom: 1px solid var(--c-border, #e5e7eb);
+  }
+
+  .secmenu__bar {
+    display: flex;
+    flex-direction: column;
+    max-width: var(--container-max, 1400px);
+    margin-inline: auto;
+  }
+
+  .secmenu__cell {
+    display: flex;
+    border-bottom: 1px solid var(--c-border, #e5e7eb);
+  }
+  .secmenu__cell:last-child {
+    border-bottom: none;
+  }
+  .secmenu__cell--cta {
+    background: var(--c-primary, #7c3aed);
+  }
+
+  .secmenu__link {
+    display: flex;
+    align-items: center;
+    gap: .75rem;
+    width: 100%;
+    padding: .875rem var(--container-px, 1.5rem);
+    color: var(--c-ink, #111827);
+    text-decoration: none;
+    transition: background .15s ease, color .15s ease;
+  }
+  .secmenu__link:hover {
+    background: var(--c-surface, #f9fafb);
+  }
+  .secmenu__link--cta {
+    color: #fff;
+  }
+  .secmenu__link--cta:hover {
+    background: var(--c-primary-dark, #6d28d9);
+  }
+
+  .secmenu__icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 2.25rem;
+    height: 2.25rem;
+    border-radius: var(--radius-md, 8px);
+    background: var(--c-surface, #f3f4f6);
+    color: var(--c-primary, #7c3aed);
+  }
+  .secmenu__cell--cta .secmenu__icon {
+    background: rgba(255,255,255,.2);
+    color: #fff;
+  }
+
+  .secmenu__text {
+    display: flex;
+    flex-direction: column;
+    gap: .05rem;
+    flex: 1;
+  }
+
+  .secmenu__label {
+    font-size: .9375rem;
+    font-weight: var(--weight-semibold, 600);
+    line-height: 1.25;
+  }
+
+  .secmenu__sub {
+    font-size: .75rem;
+    color: var(--c-muted, #6b7280);
+    line-height: 1.3;
+  }
+  .secmenu__cell--cta .secmenu__sub {
+    color: rgba(255,255,255,.75);
+  }
+
+  .secmenu__arrow {
+    display: flex;
+    align-items: center;
+    color: var(--c-muted, #9ca3af);
+    flex-shrink: 0;
+  }
+  .secmenu__cell--cta .secmenu__arrow {
+    color: rgba(255,255,255,.7);
+  }
+
+  /* ── Desktop: fila horizontal ─────────────────────────────── */
+  @media (min-width: 768px) {
+    .secmenu__bar {
+      flex-direction: row;
+    }
+    .secmenu__cell {
+      flex: 1 1 0;
+      min-width: 0;
+      border-bottom: none;
+      border-right: 1px solid var(--c-border, #e5e7eb);
+    }
+    .secmenu__cell:last-child {
+      border-right: none;
+    }
+    .secmenu__link {
+      padding: 1rem 1.25rem;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: .5rem;
+    }
+    .secmenu__icon {
+      width: 2rem;
+      height: 2rem;
+    }
+    .secmenu__arrow {
+      display: none;
+    }
+    .secmenu__label {
+      font-size: .875rem;
+    }
+    .secmenu__sub {
+      font-size: .6875rem;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .secmenu__link {
+      padding: 1.125rem 1.5rem;
+      flex-direction: row;
+      align-items: center;
+      gap: .75rem;
+    }
+    .secmenu__arrow {
+      display: flex;
+      margin-left: auto;
+    }
+    .secmenu__label {
+      font-size: .9375rem;
+    }
+    .secmenu__sub {
+      font-size: .75rem;
+    }
+  }
+</style>

@@ -1,0 +1,621 @@
+---
+// src/pages/inflables/index.astro — L2 · Catálogo de inflables INFLAFI
+// Ruta: /inflables
+// SEO objetivo: "renta de inflables CDMX" · catálogo completo · 8 modelos · 6 categorías
+
+import PageLayout     from '@layouts/PageLayout.astro'
+import Hero           from '@components/Hero.astro'
+import SectionHeading from '@components/SectionHeading.astro'
+import CategoryCard   from '@components/CategoryCard.astro'
+import CategoryDetail from '@components/CategoryDetail.astro'
+import CTABanner      from '@components/CTABanner.astro'
+import FAQWithContact from '@components/FAQWithContact.astro'
+import SectionMenu    from '@components/SectionMenu.astro'
+
+import { waUrl, WA_MESSAGES, CONTACT } from '@config/site'
+import type { FaqItem } from '@lib/seo'
+
+// ── FAQ ────────────────────────────────────────────────────────────────────────
+const FAQS: FaqItem[] = [
+  {
+    question: '¿Cuánto tiempo dura la renta de un inflable?',
+    answer: 'Los paquetes estándar incluyen de 4 a 6 horas de uso. Podemos extender la renta con costo adicional según disponibilidad. Consúltanos por WhatsApp para coordinar el horario exacto de tu evento.',
+  },
+  {
+    question: '¿Cuál inflable es mejor para niños muy pequeños?',
+    answer: 'El Micro Baby (2×2×2 m) está diseñado específicamente para niños de 1 a 4 años: paredes suaves, entrada de boca baja y sin bordes pronunciados. Cabe en interiores amplios y se monta en menos de 5 minutos. Para niños de 3 a 5 años, la Mini Jungla es otra excelente opción.',
+  },
+  {
+    question: '¿Qué espacio necesito para instalar un inflable?',
+    answer: 'Depende del modelo: los chicos requieren ~3×3 m de área libre, los medianos 5×3.5 m, el Extrem 6×4 m y el Barco Pirata hasta 8×4 m. Al confirmar tu reserva te enviamos las medidas exactas de tu modelo para que puedas verificar el espacio con tiempo.',
+  },
+  {
+    question: '¿Los inflables se pueden poner en interior?',
+    answer: 'El Micro Baby sí — es el único modelo que cabe en interiores (cuartos amplios, salas grandes, salones con altura suficiente). Los demás modelos son exclusivos para exteriores: jardines, quintas o salones con terraza. Si tienes duda, escríbenos con las medidas de tu espacio.',
+  },
+  {
+    question: '¿Cómo hago la reserva y qué se necesita?',
+    answer: 'Escríbenos por WhatsApp o llámanos con la fecha, el modelo y tu ubicación. Pedimos un anticipo del 30% para asegurar la fecha; el saldo se paga el día del evento antes de la instalación. Respondemos en minutos de lunes a domingo.',
+  },
+  {
+    question: '¿Los inflables están limpios y son seguros para niños?',
+    answer: 'Sí. Cada inflable pasa por limpieza profunda y desinfección con productos aptos para niños antes y después de cada uso. Todos nuestros modelos cumplen con los estándares de seguridad para eventos infantiles: sin bordes cortantes, anclas incluidas y soplador de bajo ruido.',
+  },
+]
+
+// ── CATEGORÍAS (CategoryCards + CategoryDetail) ────────────────────────────────
+const CATS = [
+  {
+    slug: 'chicos',
+    label: 'Inflables Chicos',
+    href: '/renta-de-inflables-chicos',
+    image: '/images/inflables/chicos.jpg',
+    blurb: 'Base de 2×2 m: el más compacto del catálogo. Cabe en interiores y es el más seguro para niños de 1 a 4 años.',
+    ctaLabel: 'Ver inflables chicos',
+    badge: undefined as string | undefined,
+    // Detail
+    eyebrow: '1 modelo · Base 2×2 m',
+    body: [
+      'Los inflables chicos son la solución perfecta para fiestas en espacios reducidos: departamentos con terraza, cuartos amplios o jardines pequeños donde un modelo más grande simplemente no entra. Con una base de solo 2×2 metros y 2 metros de altura, el Micro Baby se monta en menos de 5 minutos y no necesita anclas externas por su tamaño compacto.',
+      'Diseñado para niños de 1 a 4 años, con paredes suaves y entrada de boca baja que permite la supervisión constante de los adultos. Es el favorito de los baby showers, cumpleaños de primero y segundo año y eventos íntimos donde la seguridad de los más pequeños es la prioridad.',
+    ],
+    points: [
+      'Base 2×2 m — cabe en interiores amplios',
+      'Para niños de 1 a 4 años',
+      'Montaje en menos de 5 minutos',
+      'Sin necesidad de anclas externas',
+      'Paredes suaves, sin bordes pronunciados',
+      'Ideal para baby showers y primeros cumpleaños',
+    ],
+  },
+  {
+    slug: 'medianos',
+    label: 'Inflables Medianos',
+    href: '/renta-de-inflables-medianos',
+    image: '/images/inflables/medianos.jpg',
+    blurb: '4 metros de largo y tres diseños irresistibles. El favorito de los cumpleaños infantiles en CDMX.',
+    ctaLabel: 'Ver inflables medianos',
+    badge: undefined as string | undefined,
+    eyebrow: '3 modelos · 4 m de largo',
+    body: [
+      'Los inflables medianos son los más rentados del catálogo: con 4 metros de largo y entre 2.5 y 3.3 metros de ancho, ofrecen una experiencia de brinco completa sin necesitar un jardín enorme. Tenemos tres modelos — Dragones Rojos, Mini Jungla y Gusanitos —, cada uno con un diseño diferente para que el inflable encaje con la temática de la fiesta.',
+      'Recomendados para niños de 3 a 10 años, con capacidad para 4 a 6 niños simultáneos. Requieren un espacio exterior mínimo de 5×3.5 metros y una toma de corriente cercana para el soplador. Son perfectos para jardines medianos, quintas y salones de fiestas con terraza.',
+    ],
+    points: [
+      '3 modelos: Dragones Rojos, Mini Jungla y Gusanitos',
+      'Para niños de 3 a 10 años',
+      'Capacidad: 4 a 6 niños simultáneos',
+      'Espacio mínimo requerido: 5×3.5 m',
+      'Soplador incluido en la renta',
+      'El Gusanitos tiene la mayor superficie de brinco',
+    ],
+  },
+  {
+    slug: 'grandes',
+    label: 'Inflables Grandes',
+    href: '/renta-de-inflables-grandes',
+    image: '/images/inflables/grandes.jpg',
+    blurb: 'Toboganes integrados y hasta 7 metros de largo. Para eventos que necesitan toda la adrenalina.',
+    ctaLabel: 'Ver inflables grandes',
+    badge: undefined as string | undefined,
+    eyebrow: '2 modelos · Hasta 7 m de largo',
+    body: [
+      'Los inflables grandes son los protagonistas absolutos del evento: desde que los ven llegar, los niños ya quieren subirse. Contamos con dos modelos — el Extrem (4.8 m con tobogán integrado) y el Barco Pirata (7 m con mástil completo) — diseñados para eventos donde el entretenimiento es la prioridad y el espacio no es un problema.',
+      'Recomendados para niños de 5 años en adelante, con capacidad para 6 a 8 niños simultáneos. Requieren jardines grandes, quintas o áreas exteriores amplias. Los coordinadores de eventos y los fotógrafos de fiestas coinciden: el Barco Pirata es el telón de fondo más impresionante que puede haber en una celebración infantil.',
+    ],
+    points: [
+      '2 modelos: Extrem (4.8 m) y Barco Pirata (7 m)',
+      'Tobogán de altura integrado en el Extrem',
+      'Para niños de 5 años en adelante',
+      'Capacidad: 6 a 8 niños simultáneos',
+      'Requiere jardín grande o quinta',
+      'Anclas y soplador incluidos',
+    ],
+  },
+  {
+    slug: 'ninas',
+    label: 'Inflables para Niñas',
+    href: '/renta-de-inflables-para-nina',
+    image: '/images/inflables/ninas.jpg',
+    blurb: 'Castillos de princesas y unicornios. El inflable más fotografiado del catálogo.',
+    ctaLabel: 'Ver inflables para niñas',
+    badge: 'Princesas',
+    eyebrow: '1 modelo · Temática princesas',
+    body: [
+      'El inflable Princesas convierte cualquier jardín en un reino de cuento: paredes rosadas, torres elegantes y coronas decorativas que hacen que las niñas no quieran salir. Con 4 metros de largo y 3.3 de ancho, tiene espacio suficiente para que varias princesas brinquen cómodamente al mismo tiempo.',
+      'Ideal para niñas de 3 a 9 años, especialmente en cumpleaños temáticos de princesas, unicornios y hadas. Uno de los inflables más fotografiados del catálogo: aparece en la mayoría de las historias de Instagram y TikTok de las fiestas donde se instala. Si la fiesta merece un castillo de verdad, este es.',
+    ],
+    points: [
+      'Diseño castillo con torres y coronas decorativas',
+      'Para niñas de 3 a 9 años',
+      'Capacidad: 4 a 5 niñas simultáneas',
+      'Colores rosa y lila — temática princesas',
+      'El más fotografiado del catálogo',
+      'Soplador incluido en la renta',
+    ],
+  },
+  {
+    slug: 'ninos',
+    label: 'Inflables para Niños',
+    href: '/renta-de-inflables-para-ninos',
+    image: '/images/inflables/ninos.jpg',
+    blurb: 'Superhéroes, dinosaurios y aventureros. Para los niños que quieren mucho más que solo brincar.',
+    ctaLabel: 'Ver inflables para niños',
+    badge: 'Héroes',
+    eyebrow: 'Modelos · Superhéroes y aventura',
+    body: [
+      'Los inflables para niños están diseñados con temáticas de acción que convierten cualquier fiesta en una aventura: dragones, dinosaurios, superhéroes y exploradores. Los modelos de esta categoría combinan diseños llamativos con las características técnicas de los medianos y grandes, así que los niños no solo brincan — viven la temática.',
+      'Perfectos para cumpleaños temáticos de 4 a 12 años donde el inflable tiene que ir con la decoración, el pastel y la invitación. Si la fiesta tiene un personaje central — un superhéroe, un dinosaurio, un explorador —, tenemos el inflable que lo completa.',
+    ],
+    points: [
+      'Temáticas: dragones, dinosaurios, superhéroes',
+      'Para niños de 4 a 12 años',
+      'Combinan diseño llamativo y espacio de brinco',
+      'Perfectos para fiestas temáticas',
+      'Complementan la decoración del evento',
+      'Soplador incluido en la renta',
+    ],
+  },
+  {
+    slug: 'bodas',
+    label: 'Inflables para Bodas',
+    href: '/renta-de-inflables-para-boda',
+    image: '/images/inflables/bodas.jpg',
+    blurb: 'Diseño premium blanco y dorado. El inflable elegante que complementa tu decoración sin distraer.',
+    ctaLabel: 'Ver inflables para bodas',
+    badge: undefined as string | undefined,
+    eyebrow: '1 modelo · Premium blanco y dorado',
+    body: [
+      'El Castillo Blanco es el único inflable del catálogo pensado específicamente para eventos formales: bodas, XV años, bautizos y fiestas de empresa donde los invitados más jóvenes también merecen su espacio. Su diseño blanco y dorado es deliberadamente neutro — no distrae de la decoración del evento, la complementa.',
+      'Con 5 metros de largo y 3.5 de alto es el más espacioso del catálogo. Pensado para adolescentes y adultos jóvenes que quieren disfrutar sin que el inflable parezca de niños. Los coordinadores de boda lo piden exactamente por eso: añade entretenimiento sin romper la estética del día más importante.',
+    ],
+    points: [
+      'Diseño premium blanco y dorado',
+      'Ideal para bodas, XV años y bautizos',
+      'Para adolescentes y adultos jóvenes',
+      'El más espacioso: 5×4 m de base',
+      'No distrae de la decoración — la complementa',
+      'Favorito de coordinadores de boda',
+    ],
+  },
+]
+
+// ── INFLABLES (catálogo completo) ──────────────────────────────────────────────
+interface InflableItem {
+  name: string; category: string; dims: string; image: string; desc: string
+}
+const INFLABLES: InflableItem[] = [
+  {
+    name: 'Micro Baby', category: 'Chico', dims: '2×2×2 m',
+    image: '/images/productos/micro-baby.jpg',
+    desc: 'El inflable ideal para los más pequeños. Base de 2×2 m, cabe en interiores, paredes suaves y entrada baja. Perfecto para niños de 1 a 4 años.',
+  },
+  {
+    name: 'Dragones Rojos', category: 'Mediano', dims: '4×2.5×2.5 m',
+    image: '/images/productos/dragones-rojos.jpg',
+    desc: 'El favorito de los cumpleaños de aventura: 4 m de largo con tobogán integrado y diseño de dragones. Para niños de 4 a 10 años.',
+  },
+  {
+    name: 'Mini Jungla', category: 'Mediano', dims: '4×2.5×2.8 m',
+    image: '/images/productos/mini-jungla.jpg',
+    desc: 'Aventura selvática con plantas y animales estampados. Rampa de subida suave apta desde los 3 años. Capacidad 4–5 niños.',
+  },
+  {
+    name: 'Gusanitos', category: 'Mediano', dims: '4×3.3×3 m',
+    image: '/images/productos/gusanitos.jpg',
+    desc: 'El mediano más ancho: diseño circular con la mayor superficie de brinco. Para 5–6 niños de 4 a 10 años.',
+  },
+  {
+    name: 'Extrem', category: 'Grande', dims: '4.8×3.3×3 m',
+    image: '/images/productos/extrem.jpg',
+    desc: 'Área de brinco amplia más tobogán de altura. El más llamativo del catálogo grande. Para niños de 5 años en adelante.',
+  },
+  {
+    name: 'Barco Pirata', category: 'Grande', dims: '7×3×3 m',
+    image: '/images/productos/barco-pirata.jpg',
+    desc: '7 metros de largo con mástil y cañones decorativos. Para 6–8 niños. El telón de fondo perfecto para fotos del evento.',
+  },
+  {
+    name: 'Princesas', category: 'Niñas', dims: '4×3.3×3 m',
+    image: '/images/productos/princesas.jpg',
+    desc: 'Castillo rosado con torres y coronas. El inflable más fotografiado del catálogo. Para niñas de 3 a 9 años.',
+  },
+  {
+    name: 'Castillo Blanco', category: 'Bodas', dims: '5×4×3.5 m',
+    image: '/images/productos/castillo-blanco.jpg',
+    desc: 'Diseño premium blanco y dorado para bodas y XV años. El más espacioso del catálogo (5×4 m). Elegante y neutro.',
+  },
+]
+
+const WA_ICON = 'M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z'
+---
+
+<PageLayout
+  title="Renta de Inflables en CDMX — Catálogo Completo 2025 | INFLAFI"
+  description="Catálogo completo de renta de inflables en CDMX: 8 modelos en 6 categorías. Castillos saltarines, toboganes, princesas, bodas y más. Entrega y montaje incluidos."
+  image="/images/og/inflables.jpg"
+  pageType="category"
+  breadcrumbs={[{ label: 'Inflables', href: '/inflables' }]}
+>
+
+  <!-- MIGAS DE PAN ─────────────────────────────────────────────────────────── -->
+  <nav class="breadcrumbs" aria-label="Migas de pan">
+    <div class="bc-inner">
+      <ol class="bc-list">
+        <li><a href="/" class="bc-link">Inicio</a></li>
+        <li aria-hidden="true" class="bc-sep">›</li>
+        <li><span class="bc-current" aria-current="page">Inflables</span></li>
+      </ol>
+    </div>
+  </nav>
+
+  <!-- HERO 2 COLUMNAS ─────────────────────────────────────────────────────── -->
+  <Hero
+    badge="8 modelos certificados · CDMX · Entrega incluida"
+    title="Renta de Inflables"
+    accent="en CDMX"
+    subtitle="Catálogo completo: castillos saltarines, toboganes y juegos inflables para fiestas infantiles, bodas y eventos. Entrega, montaje y desmontaje en toda la Ciudad de México."
+    descRight={[
+      "Contamos con 8 modelos certificados y desinfectados en 6 categorías: desde el Micro Baby de 2×2 m — perfecto para interiores y niños desde 1 año — hasta el Barco Pirata de 7 metros con mástil completo para eventos masivos. También tenemos modelos temáticos para niñas (Princesas) y el Castillo Blanco premium para bodas y XV años.",
+      "Nuestro equipo se encarga de todo: llegamos antes del evento, instalamos en 15 minutos y recogemos al cierre sin que tengas que preocuparte por nada. Soplador, anclas de seguridad y traslado incluidos en el precio. Reserva con el 30% de anticipo — respondemos por WhatsApp de lunes a domingo en minutos.",
+    ]}
+    ctas={[
+      { text: '¡Cotiza tu fiesta!', href: waUrl(WA_MESSAGES.cotizar), variant: 'primary', whatsapp: true },
+      { text: 'Ver catálogo', href: '#catalogo', variant: 'outline' },
+    ]}
+    ariaLabel="Catálogo de renta de inflables INFLAFI — CDMX"
+  />
+
+  <!-- MENÚ DE SECCIONES ────────────────────────────────────────────────────── -->
+  <SectionMenu items={[
+    {
+      label: 'Chicos',
+      sub: 'Hasta 2×2 m · interiores',
+      href: '#chicos',
+      icon: 'M12 3c-4.97 0-9 4.03-9 9s4.03 9 9 9 9-4.03 9-9-4.03-9-9-9zm0 16c-3.86 0-7-3.14-7-7s3.14-7 7-7 7 3.14 7 7-3.14 7-7 7zm1-11h-2v3H8v2h3v3h2v-3h3v-2h-3z',
+    },
+    {
+      label: 'Medianos',
+      sub: '4 m · el favorito',
+      href: '#medianos',
+      icon: 'M3 7h5v5H3zM3 14h5v5H3zM10 7h5v5h-5zM10 14h5v5h-5zM17 7h4v5h-4zM17 14h4v5h-4z',
+    },
+    {
+      label: 'Grandes',
+      sub: 'Hasta 7 m · con tobogán',
+      href: '#grandes',
+      icon: 'M5 3l14 9-14 9V3z',
+    },
+    {
+      label: 'Niñas y Niños',
+      sub: 'Temáticos · princesas y héroes',
+      href: '#ninas',
+      icon: 'M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z',
+    },
+    {
+      label: 'Bodas',
+      sub: 'Premium blanco y dorado',
+      href: '#bodas',
+      icon: 'M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z',
+    },
+    {
+      label: 'Cotizar ahora',
+      sub: 'Respuesta inmediata',
+      href: waUrl(WA_MESSAGES.cotizar),
+      icon: WA_ICON,
+      cta: true,
+    },
+  ]} />
+
+  <!-- ① CATEGORÍAS — grid de 6 CategoryCards ──────────────────────────────── -->
+  <section class="section" aria-labelledby="cats-heading">
+    <div class="container">
+      <SectionHeading
+        id="cats-heading"
+        eyebrow="6 categorías disponibles"
+        title="Elige el inflable"
+        titleAccent="perfecto para tu fiesta"
+        desc="Cada categoría agrupa modelos con dimensiones y características similares. Haz clic para ver los modelos, sus medidas y disponibilidad."
+        layout="duo"
+        body={[
+          "Desde el Micro Baby de 2×2 m para interiores hasta el Barco Pirata de 7 metros para eventos masivos. Tenemos inflables para niños pequeños, temáticos para fiestas de princesas o superhéroes, y el Castillo Blanco premium para bodas y XV años.",
+          "¿No sabes cuál elegir? Cuéntanos el espacio que tienes, la edad de los niños y el tipo de evento — te recomendamos el modelo ideal en minutos, sin compromiso.",
+        ]}
+      />
+      <div class="cats-grid">
+        {CATS.map((cat, i) => (
+          <CategoryCard
+            label={cat.label}
+            href={cat.href}
+            image={cat.image}
+            imageAlt={`${cat.label} en renta — CDMX`}
+            badge={cat.badge}
+            blurb={cat.blurb}
+            ctaLabel={cat.ctaLabel}
+            index={i}
+          />
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- ② CADA CATEGORÍA A FONDO — 6 CategoryDetail ─────────────────────────── -->
+  <section class="section section--afondo" aria-labelledby="afondo-heading">
+    <div class="container">
+      <SectionHeading
+        id="afondo-heading"
+        eyebrow="Cada categoría explicada"
+        title="Todo lo que necesitas saber"
+        titleAccent="antes de elegir"
+        desc="Dimensiones reales, capacidad, edad recomendada y para qué tipo de evento encaja mejor cada categoría."
+        layout="duo"
+        body={[
+          "Antes de reservar es importante conocer las medidas del espacio donde se instalará el inflable y la edad de los niños. Aquí encontrarás esa información para cada categoría, con todo el detalle que necesitas para tomar la mejor decisión.",
+          "Si después de leer todavía tienes dudas, escríbenos. Respondemos en minutos con una recomendación personalizada según tu espacio, tu presupuesto y la fecha de tu evento.",
+        ]}
+      />
+      <div class="afondo-grid">
+        {CATS.map(cat => (
+          <CategoryDetail
+            id={cat.slug}
+            eyebrow={cat.eyebrow}
+            category={cat.label.split(' ')[1] ?? cat.label}
+            title={cat.label}
+            body={cat.body}
+            points={cat.points}
+            cta={{
+              label: cat.ctaLabel,
+              href: cat.href,
+            }}
+            gallery={{
+              main: {
+                src: cat.image,
+                alt: `${cat.label} en renta CDMX — INFLAFI`,
+              },
+            }}
+            as="h3"
+          />
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- ③ TODOS LOS INFLABLES — 8 cards ─────────────────────────────────────── -->
+  <section id="catalogo" class="section section--catalog" aria-labelledby="catalog-heading">
+    <div class="container">
+      <SectionHeading
+        id="catalog-heading"
+        eyebrow="Catálogo completo · 8 modelos"
+        title="Todos los inflables"
+        titleAccent="disponibles en CDMX"
+        desc="Cada modelo con su categoría, dimensiones y botón directo para cotizar por WhatsApp."
+        layout="duo"
+        body={[
+          "Todos nuestros inflables están certificados, desinfectados y listos para entrega en CDMX y zona metropolitana. El precio incluye soplador, anclas de seguridad, entrega puntual, montaje profesional y desmontaje al cierre del evento.",
+          "¿Tienes dudas sobre qué modelo se adapta mejor a tu jardín, terraza o salón? Escríbenos por WhatsApp con las medidas de tu espacio — respondemos de lunes a domingo en minutos.",
+        ]}
+      />
+      <div class="catalog-grid">
+        {INFLABLES.map(p => (
+          <article class="ic">
+            <div class="ic__media">
+              <img
+                src={p.image}
+                alt={`Renta de inflable ${p.name} en CDMX — ${p.category.toLowerCase()}, ${p.dims}`}
+                width="400"
+                height="300"
+                loading="lazy"
+                decoding="async"
+                class="ic__img"
+              />
+              <div class="ic__overlay" aria-hidden="true">
+                <span class="ic__badge" data-cat={p.category}>{p.category}</span>
+                <span class="ic__dims">
+                  <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg>
+                  {p.dims}
+                </span>
+              </div>
+            </div>
+            <div class="ic__body">
+              <h3 class="ic__name">{p.name}</h3>
+              <p class="ic__desc">{p.desc}</p>
+              <a
+                href={waUrl(`Hola, me interesa cotizar el inflable ${p.name} (${p.dims}) — ¿está disponible?`)}
+                class="ic__cta"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                  <path d={WA_ICON}/>
+                </svg>
+                Cotizar por WhatsApp
+              </a>
+            </div>
+          </article>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- ④ FAQ ────────────────────────────────────────────────────────────────── -->
+  <div id="faq">
+    <FAQWithContact
+      eyebrow="Resolvemos tus dudas"
+      title="Preguntas frecuentes"
+      titleAccent="sobre inflables en renta"
+      desc="Todo lo que necesitas saber antes de reservar tu inflable en CDMX."
+      body={[
+        "Reunimos las preguntas más comunes sobre modelos, dimensiones, tiempos de renta, seguridad para niños y proceso de reserva. Léelas antes de cotizar para llegar con todo claro.",
+        "Si tu pregunta no está aquí, escríbenos por WhatsApp — respondemos de lunes a domingo. También puedes llamarnos si prefieres coordinar por teléfono.",
+      ]}
+      faqs={FAQS}
+      showContact={true}
+    />
+  </div>
+
+  <!-- CTA BANNER ───────────────────────────────────────────────────────────── -->
+  <CTABanner
+    heading="¿Ya elegiste tu inflable?"
+    desc="Cotiza ahora y asegura tu fecha con solo el 30% de anticipo. Sin costos ocultos, entrega incluida en CDMX."
+    variant="primary"
+    btns={[
+      { label: 'Cotizar por WhatsApp', href: waUrl(WA_MESSAGES.cotizar), icon: 'wa', primary: true, external: true },
+      { label: `Llamar: ${CONTACT.phone}`, href: `tel:${CONTACT.phoneE164}`, icon: 'phone', primary: false },
+    ]}
+    badge="Entrega gratis en CDMX"
+  />
+
+</PageLayout>
+
+<style>
+  /* ── Contenedor ─────────────────────────────────────────────── */
+  .container {
+    max-width: var(--container-max, 1400px);
+    margin-inline: auto;
+    padding-inline: var(--container-px, 1.5rem);
+  }
+
+  /* ── Breadcrumbs ────────────────────────────────────────────── */
+  .breadcrumbs {
+    background: var(--c-white, #fff);
+    border-bottom: 1px solid var(--c-border, #e5e7eb);
+  }
+  .bc-inner {
+    max-width: var(--container-max, 1400px);
+    margin-inline: auto;
+    padding-inline: var(--container-px, 1.5rem);
+    padding-block: .625rem;
+  }
+  .bc-list {
+    list-style: none; margin: 0; padding: 0;
+    display: flex; align-items: center; gap: .375rem; flex-wrap: wrap;
+  }
+  .bc-link { font-size: .8125rem; color: var(--c-primary, #7c3aed); text-decoration: none; }
+  .bc-link:hover { text-decoration: underline; }
+  .bc-sep  { font-size: .8125rem; color: var(--c-muted, #9ca3af); user-select: none; }
+  .bc-current { font-size: .8125rem; color: var(--c-ink-2, #4b5563); font-weight: 500; }
+
+  /* ── Sections ───────────────────────────────────────────────── */
+  .section {
+    padding: clamp(3.5rem, 7vw, 5.5rem) 0;
+  }
+  .section--afondo { background: #f3f4f6; }
+  .section--catalog { background: var(--c-surface, #f9fafb); }
+
+  /* ── CategoryCards grid ─────────────────────────────────────── */
+  .cats-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+  }
+
+  /* ── CategoryDetail stack ───────────────────────────────────── */
+  .afondo-grid {
+    display: grid;
+    gap: 1.5rem;
+  }
+
+  /* ── Catálogo grid ──────────────────────────────────────────── */
+  .catalog-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.25rem;
+  }
+
+  /* ── Inflable Card (ic) ─────────────────────────────────────── */
+  .ic {
+    background: #fff;
+    border-radius: 18px;
+    border: 1px solid rgba(0,0,0,.07);
+    box-shadow: 0 2px 10px rgba(0,0,0,.07), 0 1px 3px rgba(0,0,0,.04);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+  }
+  .ic__media {
+    position: relative;
+    overflow: hidden;
+    aspect-ratio: 4/3;
+    flex-shrink: 0;
+  }
+  .ic__img {
+    width: 100%; height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+  .ic__overlay {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: .75rem;
+    background: linear-gradient(
+      to bottom,
+      rgba(0,0,0,.42) 0%, transparent 38%,
+      transparent 55%, rgba(0,0,0,.62) 100%
+    );
+    pointer-events: none;
+  }
+  .ic__badge {
+    align-self: flex-start;
+    padding: .25rem .65rem;
+    border-radius: 999px;
+    font-size: .625rem; font-weight: 700;
+    letter-spacing: .07em; text-transform: uppercase;
+    color: #fff; background: rgba(124,58,237,.88);
+  }
+  .ic__badge[data-cat="Chico"]   { background: rgba(22,163,74,.88); }
+  .ic__badge[data-cat="Mediano"] { background: rgba(37,99,235,.88); }
+  .ic__badge[data-cat="Grande"]  { background: rgba(234,88,12,.88); }
+  .ic__badge[data-cat="Niñas"]   { background: rgba(219,39,119,.88); }
+  .ic__badge[data-cat="Bodas"]   { background: rgba(124,58,237,.88); }
+  .ic__dims {
+    align-self: flex-end;
+    display: inline-flex; align-items: center; gap: .3rem;
+    padding: .22rem .6rem;
+    background: rgba(0,0,0,.52);
+    backdrop-filter: blur(6px); -webkit-backdrop-filter: blur(6px);
+    border-radius: 999px;
+    font-size: .6875rem; font-weight: 600; color: #fff;
+  }
+  .ic__body {
+    padding: 1.125rem 1.125rem 1.25rem;
+    display: flex; flex-direction: column; gap: .625rem; flex: 1;
+  }
+  .ic__name {
+    font-size: 1.0625rem; font-weight: 700;
+    color: var(--c-ink, #111827); margin: 0; line-height: 1.25;
+  }
+  .ic__desc {
+    font-size: .8125rem; color: var(--c-ink-2, #4b5563);
+    line-height: 1.65; margin: 0;
+    display: -webkit-box;
+    -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;
+  }
+  .ic__cta {
+    display: flex; align-items: center; justify-content: center; gap: .45rem;
+    margin-top: auto;
+    padding: .75rem 1rem;
+    background: #25d366; color: #fff;
+    font-size: .8125rem; font-weight: 700;
+    border-radius: 10px; text-decoration: none;
+  }
+  .ic__cta:hover { background: #1fba59; }
+
+  /* ── Responsive ─────────────────────────────────────────────── */
+  @media (max-width: 1100px) {
+    .catalog-grid { grid-template-columns: repeat(3, 1fr); }
+  }
+  @media (max-width: 860px) {
+    .cats-grid    { grid-template-columns: repeat(2, 1fr); }
+    .catalog-grid { grid-template-columns: repeat(2, 1fr); }
+  }
+  @media (max-width: 480px) {
+    .cats-grid    { grid-template-columns: 1fr; }
+    .catalog-grid { grid-template-columns: 1fr 1fr; }
+  }
+  @media (max-width: 360px) {
+    .catalog-grid { grid-template-columns: 1fr; }
+  }
+</style>

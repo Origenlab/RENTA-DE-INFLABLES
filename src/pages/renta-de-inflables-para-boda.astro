@@ -1,0 +1,616 @@
+---
+// src/pages/renta-de-inflables-para-boda.astro — L3 · Inflables para Boda / XV Años · INFLAFI
+// Ruta: /renta-de-inflables-para-boda
+// SEO objetivo: "inflable para boda CDMX" · "castillo blanco inflable XV años" · "brincolín elegante evento CDMX"
+
+import PageLayout     from '@layouts/PageLayout.astro'
+import Hero           from '@components/Hero.astro'
+import SectionHeading from '@components/SectionHeading.astro'
+import CategoryCard   from '@components/CategoryCard.astro'
+import CategoryDetail from '@components/CategoryDetail.astro'
+import CTABanner      from '@components/CTABanner.astro'
+import FAQWithContact from '@components/FAQWithContact.astro'
+import SectionMenu    from '@components/SectionMenu.astro'
+
+import { waUrl, WA_MESSAGES, CONTACT } from '@config/site'
+import type { FaqItem } from '@lib/seo'
+
+const WA_ICON = 'M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z'
+
+const WA_MSG_BODA = 'Hola, me interesa cotizar el Castillo Blanco (inflable premium) para una boda o evento especial en CDMX. ¿Está disponible?'
+
+// ── FEATURE SPECS ─────────────────────────────────────────────────────────────
+const FEATURE_SPECS = [
+  {
+    gradient: 'linear-gradient(135deg, #78350f 0%, #d97706 100%)',
+    svgContent: '<path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" stroke-width="1.5"/>',
+    label: 'El único modelo premium del catálogo',
+    value: 'Blanco y dorado',
+    detail: 'Diseño exclusivo en blanco marfil con detalles dorados en torres, arcos y ribetes. El único inflable del catálogo INFLAFI pensado para eventos formales: no distorsiona la estética del venue, no rompe el dress code y funciona como fondo fotográfico de bodas y XV años.',
+    tag: 'Diseño exclusivo',
+  },
+  {
+    gradient: 'linear-gradient(135deg, #1e293b 0%, #475569 100%)',
+    svgContent: '<path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" stroke-width="1.5"/><circle cx="9" cy="7" r="4" stroke-width="1.5"/><path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75" stroke-width="1.5"/>',
+    label: 'Para quién está diseñado',
+    value: 'Adolescentes y adultos',
+    detail: 'Con 5×4×3.5 m es el inflable más alto del catálogo. El límite es por peso (máx. 80 kg por persona), no por edad — adolescentes, jóvenes y adultos pueden usarlo sin restricción. No se recomienda para niños menores de 8 años sin supervisión constante por la altura interior.',
+    tag: 'Para adultos y jóvenes',
+  },
+  {
+    gradient: 'linear-gradient(135deg, #831843 0%, #db2777 100%)',
+    svgContent: '<path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z" stroke-width="1.5"/>',
+    label: 'Eventos donde encaja',
+    value: 'Bodas · XV años · Bautizos',
+    detail: 'El Castillo Blanco es la elección para cualquier evento formal con celebración: bodas civiles y religiosas, recepciones de XV años, bautizos, primera comunión, graduaciones, aniversarios y posadas corporativas de alto perfil.',
+    tag: 'Eventos formales',
+  },
+]
+
+// ── SECONDARY SPECS ────────────────────────────────────────────────────────────
+const SECONDARY_SPECS = [
+  {
+    svgContent: '<path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/>',
+    label: 'Dimensiones',
+    value: '5×4×3.5 m',
+    note: 'El inflable más alto del catálogo INFLAFI',
+  },
+  {
+    svgContent: '<circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/>',
+    label: 'Tiempo de montaje',
+    value: '~20 minutos',
+    note: 'El equipo llega 45 min antes del evento',
+  },
+  {
+    svgContent: '<path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/>',
+    label: 'Soplador',
+    value: 'Incluido · 1,000 W',
+    note: '110 V estándar · silencioso · continuo',
+  },
+  {
+    svgContent: '<circle cx="12" cy="12" r="3"/><path d="M12 1v4M12 19v4M4.22 4.22l2.83 2.83M16.95 16.95l2.83 2.83M1 12h4M19 12h4M4.22 19.78l2.83-2.83M16.95 7.05l2.83-2.83"/>',
+    label: 'Anclas de seguridad',
+    value: '4 incluidas',
+    note: 'Fijación discreta, mínimo impacto visual',
+  },
+  {
+    svgContent: '<rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/>',
+    label: 'Espacio mínimo',
+    value: '7×5.5 m exterior',
+    note: 'Quinta, jardín de boda o hacienda',
+  },
+  {
+    svgContent: '<path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>',
+    label: 'Capacidad simultánea',
+    value: '6 a 8 personas',
+    note: 'Máx. 80 kg por persona · adolescentes y adultos',
+  },
+]
+
+// ── ESCENARIOS ────────────────────────────────────────────────────────────────
+const SCENARIOS = [
+  {
+    icon: 'M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z',
+    title: 'Boda con sesión de fotos',
+    desc: 'El Castillo Blanco es el único inflable del catálogo que funciona como fondo fotográfico en una boda. El blanco marfil y los detalles dorados complementan el vestido de novia sin competir con él. Muchas parejas lo usan específicamente para la sesión de fotos con los invitados al final de la recepción.',
+    tag: 'Fondo fotográfico premium',
+  },
+  {
+    icon: 'M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z',
+    title: 'Recepción de XV años',
+    desc: 'Los XV años son el evento donde más se renta el Castillo Blanco: la festejada y sus chambelanes, los primos adolescentes y los invitados jóvenes tienen un espacio de entretenimiento que encaja visualmente con la decoración formal del salón o jardín. El blanco y dorado se integra con casi cualquier paleta de colores de XV.',
+    tag: 'El más rentado para XV',
+  },
+  {
+    icon: 'M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2zM9 22V12h6v10',
+    title: 'Bautizo o primera comunión',
+    desc: 'Para eventos religiosos de celebración en jardín o quinta: el Castillo Blanco tiene la sobriedad y elegancia adecuadas para un bautizo o primera comunión sin que parezca fuera de lugar. Los niños mayores y adolescentes tienen entretenimiento sin que el inflable distorsione la atmósfera del evento.',
+    tag: 'Eventos religiosos',
+  },
+  {
+    icon: 'M22 10v6M2 10l10-5 10 5-10 5z M6 12v5c3 3 9 3 12 0v-5',
+    title: 'Graduación de preparatoria o universidad',
+    desc: 'Para la celebración de graduación en casa o quinta: el Castillo Blanco en blanco y dorado tiene la asociación visual con logros y celebración formal. Los jóvenes de 17 a 25 años son el público perfecto — lo usan con genuina diversión sin que resulte "infantil".',
+    tag: 'Jóvenes adultos',
+  },
+  {
+    icon: 'M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z',
+    title: 'Aniversario de bodas con celebración',
+    desc: 'Para los 10, 25 o 50 años de matrimonio con renovación de votos o fiesta en jardín: el Castillo Blanco es el detalle de entretenimiento que menos esperan los invitados y el que más comentan. La pareja y sus hijos y nietos lo usan con la misma emoción.',
+    tag: 'Sorpresa del evento',
+  },
+  {
+    icon: 'M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z',
+    title: 'Evento corporativo o posada empresarial',
+    desc: 'Para la posada o evento de fin de año de una empresa que busca algo distinto al karaoke o la pista de baile: el Castillo Blanco en un jardín o rooftop es el elemento que genera más conversación. Apropiado para eventos corporativos de perfil medio-alto por su estética discreta.',
+    tag: 'Eventos corporativos',
+  },
+]
+
+// ── OTRAS CATEGORÍAS ──────────────────────────────────────────────────────────
+const OTRAS_CATS = [
+  {
+    label: 'Inflables Chicos',
+    href: '/renta-de-inflables-chicos',
+    image: '/images/inflables/chicos.jpg',
+    imageAlt: 'Inflables chicos en renta CDMX',
+    badge: undefined as string | undefined,
+    blurb: 'El Micro Baby (2×2 m): cabe en interiores, seguro para niños de 1 a 4 años.',
+    ctaLabel: 'Ver inflables chicos',
+  },
+  {
+    label: 'Inflables Medianos',
+    href: '/renta-de-inflables-medianos',
+    image: '/images/inflables/medianos.jpg',
+    imageAlt: 'Inflables medianos en renta CDMX',
+    badge: undefined as string | undefined,
+    blurb: 'Dragones Rojos, Mini Jungla y Gusanitos: 4 m, la categoría más rentada de CDMX.',
+    ctaLabel: 'Ver inflables medianos',
+  },
+  {
+    label: 'Inflables Grandes',
+    href: '/renta-de-inflables-grandes',
+    image: '/images/inflables/grandes.jpg',
+    imageAlt: 'Inflables grandes en renta CDMX',
+    badge: undefined as string | undefined,
+    blurb: 'Extrem con tobogán y Barco Pirata de 7 m: el WOW factor del catálogo.',
+    ctaLabel: 'Ver inflables grandes',
+  },
+  {
+    label: 'Inflables para Niña',
+    href: '/renta-de-inflables-para-nina',
+    image: '/images/inflables/ninas.jpg',
+    imageAlt: 'Castillo de Princesas en renta CDMX',
+    badge: 'Princesas',
+    blurb: 'Castillo de Princesas: 4×3.3 m, el más fotografiado del catálogo.',
+    ctaLabel: 'Ver princesas',
+  },
+  {
+    label: 'Inflables para Niños',
+    href: '/renta-de-inflables-para-ninos',
+    image: '/images/inflables/ninos.jpg',
+    imageAlt: 'Inflables temáticos para niño en CDMX',
+    badge: 'Héroes',
+    blurb: 'Superhéroes, Dinosaurio Rex y Ninjas: 3 temáticas para fiestas de 4 a 12 años.',
+    ctaLabel: 'Ver héroes',
+  },
+]
+
+// ── FAQ ───────────────────────────────────────────────────────────────────────
+const FAQS: FaqItem[] = [
+  {
+    question: '¿El Castillo Blanco realmente funciona en una boda sin verse fuera de lugar?',
+    answer: 'Sí, siempre que se instale en el área correcta del evento. El diseño en blanco marfil y detalles dorados fue creado específicamente para no interferir con la estética de una boda. Se recomienda instalarlo en el jardín o área exterior, separado de la pista de baile y la mesa de novios, con iluminación nocturna si el evento continúa después del anochecer. En bodas al aire libre o en haciendas con jardín, el Castillo Blanco se convierte en uno de los puntos fotográficos más utilizados de la noche.',
+  },
+  {
+    question: '¿Pueden usarlo adultos? ¿Cuál es el límite de peso?',
+    answer: 'El Castillo Blanco está diseñado para adolescentes y adultos. El límite operativo es de 80 kg por persona y máximo 6 a 8 personas simultáneas. No hay límite de edad superior — adultos de cualquier edad pueden usarlo con la misma seguridad que un inflable infantil. La altura interior de 3.5 m permite que una persona de hasta 1.90 m de estatura brinque con espacio de sobra.',
+  },
+  {
+    question: '¿Cuánto espacio libre necesito para el Castillo Blanco?',
+    answer: 'El Castillo Blanco requiere 7×5.5 m de área completamente libre — más espacio que cualquier otro modelo del catálogo excepto el Barco Pirata. Eso incluye el margen perimetral para el soplador, las anclas y circulación de personas. La mayoría de los jardines de haciendas, quintas y salones de eventos con jardín en CDMX tienen espacio suficiente. Si tienes dudas sobre el espacio específico de tu venue, mándanos fotos o las medidas del jardín.',
+  },
+  {
+    question: '¿Se puede instalar en una hacienda o jardín de bodas con piso de piedra?',
+    answer: 'Sí. El Castillo Blanco puede instalarse en jardín con pasto, piso de piedra, adoquín o cualquier superficie plana y firme. Las anclas se instalan de forma diferente según el tipo de piso — en pasto con estacas, en superficies duras con sacos de arena o contrapesos. En haciendas con piso de cantera o adoquín el proceso es estándar para nuestro equipo. Confirmamos la técnica de instalación antes del evento.',
+  },
+  {
+    question: '¿Es el mismo tipo de inflable que un brincolín de fiesta infantil?',
+    answer: 'Estructuralmente, los inflables son todos del mismo tipo de material (PVC reforzado con soplador continuo). La diferencia del Castillo Blanco está en el diseño, el tamaño (5×4×3.5 m vs. 4×2.5 m de un mediano) y el segmento para el que está pensado. El Castillo Blanco fue diseñado específicamente para eventos adultos: tiene mayor altura, mayor capacidad de peso y una estética que no remite a "fiesta infantil". Dicho esto, si en el evento también hay niños de 8 años en adelante, pueden usarlo sin problema bajo supervisión.',
+  },
+  {
+    question: '¿Con cuánta anticipación debo reservar para una boda o XV años?',
+    answer: 'El Castillo Blanco es el modelo con mayor demanda para fines de semana de temporada alta (mayo, julio, noviembre, diciembre). Recomendamos reservar con al menos 4 a 6 semanas de anticipación para bodas y XV años, y con 2 a 3 semanas para eventos en temporada regular. La reserva se confirma con el 30% de anticipo. Si tu fecha es próxima, consúltanos de todas formas — verificamos disponibilidad al instante.',
+  },
+]
+---
+
+<PageLayout
+  title="Renta de Inflable para Boda y XV Años en CDMX — Castillo Blanco Premium | INFLAFI"
+  description="Renta del Castillo Blanco en CDMX: 5×4×3.5 m, blanco marfil y dorado. El único inflable premium del catálogo, diseñado para bodas, XV años, bautizos y eventos formales."
+  image="/images/og/inflables-boda.jpg"
+  pageType="category"
+  breadcrumbs={[
+    { label: 'Inflables', href: '/inflables' },
+    { label: 'Inflables para Boda', href: '/renta-de-inflables-para-boda' },
+  ]}
+>
+
+  <!-- MIGAS DE PAN ─────────────────────────────────────────────────────────── -->
+  <nav class="breadcrumbs" aria-label="Migas de pan">
+    <div class="bc-inner">
+      <ol class="bc-list">
+        <li><a href="/" class="bc-link">Inicio</a></li>
+        <li aria-hidden="true" class="bc-sep">›</li>
+        <li><a href="/inflables" class="bc-link">Inflables</a></li>
+        <li aria-hidden="true" class="bc-sep">›</li>
+        <li><span class="bc-current" aria-current="page">Inflables para Boda</span></li>
+      </ol>
+    </div>
+  </nav>
+
+  <!-- HERO ────────────────────────────────────────────────────────────────── -->
+  <Hero
+    badge="Modelo premium · 5×4×3.5 m · Para bodas · XV años · Bautizos"
+    title="Inflables para Boda"
+    accent="y Eventos Especiales"
+    subtitle="El Castillo Blanco: el único inflable del catálogo INFLAFI diseñado para eventos formales. Blanco marfil, detalles dorados y 3.5 metros de altura — entretenimiento premium que no rompe la estética de tu evento."
+    descRight={[
+      "El Castillo Blanco es la categoría más exclusiva del catálogo INFLAFI: un inflable de 5×4×3.5 m en blanco marfil y dorado diseñado para bodas, recepciones de XV años, bautizos y cualquier evento donde el entretenimiento debe estar a la altura de la decoración formal. A diferencia de un brincolín de colores, el Castillo Blanco complementa el venue sin competir con él — funciona igual de bien como fondo fotográfico que como punto de entretenimiento para adolescentes y adultos jóvenes.",
+      "Es el inflable más alto del catálogo (3.5 m de altura interior) con capacidad para 6 a 8 personas de hasta 80 kg cada una. Requiere un espacio exterior de 7×5.5 m — pensado para quintas, haciendas y jardines de bodas. El precio incluye soplador silencioso de 1,000 W, anclas de instalación discreta, traslado, montaje y desmontaje. Recomendamos reservar con al menos 4 semanas de anticipación.",
+    ]}
+    ctas={[
+      { text: '¡Cotizar el Castillo Blanco!', href: waUrl(WA_MSG_BODA), variant: 'primary', whatsapp: true },
+      { text: 'Ver ficha técnica', href: '#especificaciones', variant: 'outline' },
+    ]}
+    ariaLabel="Renta de inflable Castillo Blanco para bodas y XV años CDMX — INFLAFI"
+  />
+
+  <!-- MENÚ DE SECCIONES ───────────────────────────────────────────────────── -->
+  <SectionMenu items={[
+    {
+      label: 'Castillo Blanco',
+      sub: 'Descripción del modelo premium',
+      href: '#castillo-blanco',
+      icon: 'M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z',
+    },
+    {
+      label: 'Ficha técnica',
+      sub: 'Medidas, capacidad y espacio',
+      href: '#especificaciones',
+      icon: 'M8 6h13M8 12h13M8 18h13M3 6h.01M3 12h.01M3 18h.01',
+    },
+    {
+      label: '¿Para qué eventos?',
+      sub: 'Bodas · XV · Bautizos y más',
+      href: '#cuando',
+      icon: 'M9 5H7a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2h-2M9 5a2 2 0 0 0 2 2h2a2 2 0 0 0 2-2M9 5a2 2 0 0 0 2-2h2a2 2 0 0 0 2 2',
+    },
+    {
+      label: 'Otras opciones',
+      sub: 'Más modelos del catálogo',
+      href: '#otras-categorias',
+      icon: 'M4 6h16M4 12h16M4 18h7',
+    },
+    {
+      label: 'Cotizar ahora',
+      sub: 'Disponibilidad limitada',
+      href: waUrl(WA_MSG_BODA),
+      icon: WA_ICON,
+      cta: true,
+    },
+  ]} />
+
+  <!-- ① EL CASTILLO BLANCO A FONDO ────────────────────────────────────────── -->
+  <section class="section" aria-labelledby="modelo-heading">
+    <div class="container">
+      <SectionHeading
+        id="modelo-heading"
+        eyebrow="El único inflable premium del catálogo"
+        title="Entretenimiento que se adapta"
+        titleAccent="al nivel de tu evento"
+        layout="duo"
+        body={[
+          "Un inflable de colores brillantes en una boda genera incomodidad. El Castillo Blanco no: el blanco marfil y el dorado son los colores del lujo y la celebración formal. No hay que elegir entre tener entretenimiento para los invitados jóvenes y mantener la estética del evento — el Castillo Blanco resuelve los dos al mismo tiempo.",
+          "Con 5 metros de largo, 4 de ancho y 3.5 de altura es considerablemente más grande que cualquier inflable infantil del catálogo. Esa escala hace que se vea como una instalación decorativa de gran formato cuando está cerrado y como entretenimiento de primer nivel cuando está en uso.",
+        ]}
+      />
+
+      <CategoryDetail
+        id="castillo-blanco"
+        eyebrow="Bodas · 5×4×3.5 m · Para adolescentes y adultos"
+        category="Bodas"
+        title="Castillo Blanco"
+        body={[
+          "El Castillo Blanco tiene un diseño de castillo europeo con cuatro torres esquineras, arcos de entrada decorativos y paneles laterales con relieve de piedra en blanco marfil. Los acabados en dorado — ribetes, remates de torres y detalles de los arcos — dan el nivel de formalidad necesario para una recepción de boda o XV años sin que el inflable parezca una adaptación de un modelo infantil.",
+          "El interior tiene 3.5 metros de altura libre — suficiente para adultos de cualquier estatura. La base de 4 metros de ancho permite que 6 a 8 personas brinquen simultáneamente sin restricciones de movimiento. El soplador de 1,000 W opera de forma más silenciosa que los modelos infantiles, lo que resulta importante cuando el inflable está cerca de la música o las conversaciones del evento.",
+        ]}
+        points={[
+          'Dimensiones: 5×4×3.5 m — el más alto del catálogo',
+          'Para adolescentes y adultos (máx. 80 kg por persona)',
+          'Capacidad: 6–8 personas simultáneas',
+          'Diseño: blanco marfil con detalles dorados',
+          'Torres europeas, arcos decorativos y relieves de piedra',
+          'Soplador silencioso de 1,000 W incluido',
+          'Espacio mínimo: 7×5.5 m en exterior',
+          '4 anclas de instalación discreta incluidas',
+        ]}
+        cta={{ label: 'Cotizar el Castillo Blanco', href: waUrl(WA_MSG_BODA), external: true }}
+        gallery={{
+          main: { src: '/images/productos/castillo-blanco.jpg', alt: 'Castillo Blanco premium — inflable para bodas y XV años · INFLAFI CDMX' },
+          thumbs: [
+            { src: '/images/inflables/bodas.jpg',              alt: 'Castillo Blanco — vista nocturna con iluminación' },
+            { src: '/images/productos/castillo-blanco.jpg',    alt: 'Castillo Blanco — detalle torres y arcos dorados' },
+            { src: '/images/inflables/bodas.jpg',              alt: 'Castillo Blanco — instalado en jardín de boda' },
+          ],
+        }}
+        as="h2"
+      />
+    </div>
+  </section>
+
+  <!-- ② FICHA TÉCNICA ──────────────────────────────────────────────────────── -->
+  <section id="especificaciones" class="section section--specs" aria-labelledby="specs-heading">
+    <div class="container">
+      <SectionHeading
+        id="specs-heading"
+        eyebrow="Especificaciones · espacio requerido · incluido en la renta"
+        title="Todo lo que necesitas confirmar"
+        titleAccent="con el coordinador del venue"
+        layout="duo"
+        body={[
+          "El Castillo Blanco tiene requerimientos de espacio mayores que cualquier otro modelo del catálogo — 7×5.5 m de área libre exterior. Antes de reservar, confirma ese espacio con el coordinador de la hacienda, quinta o jardín. Si el venue tiene restricciones de ruido, el soplador silencioso de 1,000 W opera a niveles significativamente menores que los sopladores estándar de inflables infantiles.",
+          "Todos los costos están incluidos en el precio de renta: soplador, anclas, traslado al venue, montaje profesional y desmontaje al cierre del evento. Sin cargos adicionales dentro de CDMX y zona metropolitana cercana.",
+        ]}
+      />
+
+      <div class="fspecs-grid">
+        {FEATURE_SPECS.map(spec => (
+          <div class="fspec-card">
+            <div class="fspec-card__visual" style={`background: ${spec.gradient}`}>
+              <svg width="52" height="52" viewBox="0 0 24 24" fill="none"
+                stroke="rgba(255,255,255,0.95)" stroke-linecap="round" stroke-linejoin="round"
+                aria-hidden="true" set:html={spec.svgContent}
+              />
+              <span class="fspec-card__tag">{spec.tag}</span>
+            </div>
+            <div class="fspec-card__body">
+              <p class="fspec-card__label">{spec.label}</p>
+              <strong class="fspec-card__value">{spec.value}</strong>
+              <p class="fspec-card__detail">{spec.detail}</p>
+            </div>
+          </div>
+        ))}
+      </div>
+
+      <div class="specs-panel">
+        <div class="specs-panel__img-col">
+          <div class="specs-panel__img-wrap">
+            <img
+              src="/images/inflables/bodas.jpg"
+              alt="Castillo Blanco premium en renta para bodas y XV años · INFLAFI CDMX"
+              width="600" height="450" loading="lazy" decoding="async"
+              class="specs-panel__img"
+            />
+            <div class="specs-panel__img-overlay">
+              <span class="spio__badge">Castillo Blanco</span>
+              <div class="spio__meta">
+                <span class="spio__dims">5 × 4 × 3.5 m</span>
+                <span class="spio__cat">Categoría: Bodas</span>
+              </div>
+            </div>
+          </div>
+          <p class="specs-panel__img-note">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+            Imagen referencial. Confirma disponibilidad y detalles por WhatsApp.
+          </p>
+        </div>
+
+        <div class="specs-panel__data-col">
+          <p class="specs-panel__col-title">Especificaciones técnicas del Castillo Blanco</p>
+          <div class="sspecs-grid">
+            {SECONDARY_SPECS.map(s => (
+              <div class="sspec">
+                <span class="sspec__icon" aria-hidden="true">
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round"
+                    set:html={s.svgContent}
+                  />
+                </span>
+                <div class="sspec__info">
+                  <span class="sspec__label">{s.label}</span>
+                  <strong class="sspec__value">{s.value}</strong>
+                  <span class="sspec__note">{s.note}</span>
+                </div>
+              </div>
+            ))}
+          </div>
+          <div class="specs-panel__cta">
+            <a href={waUrl(WA_MSG_BODA)} class="specs-panel__cta-btn" target="_blank" rel="noopener noreferrer">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d={WA_ICON}/></svg>
+              Cotizar el Castillo Blanco
+            </a>
+            <span class="specs-panel__cta-note">Disponibilidad limitada · Reserva con anticipación</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ③ PARA QUÉ EVENTOS ──────────────────────────────────────────────────── -->
+  <section id="cuando" class="section" aria-labelledby="cuando-heading">
+    <div class="container">
+      <SectionHeading
+        id="cuando-heading"
+        eyebrow="6 tipos de evento donde el Castillo Blanco encaja"
+        title="El único inflable diseñado para eventos"
+        titleAccent="donde el detalle visual importa"
+        layout="duo"
+        body={[
+          "El Castillo Blanco se renta para eventos donde un inflable de colores estaría fuera de lugar pero un elemento de entretenimiento adicional sería bienvenido. La clave es el diseño: blanco y dorado es la combinación visual más versátil para eventos formales.",
+          "El único evento donde el Castillo Blanco no es la opción más adecuada: si todos los invitados son menores de 8 años. En ese caso, los modelos infantiles del catálogo (medianos o chicos) son más seguros y apropiados para ese rango de edad.",
+        ]}
+      />
+
+      <div class="scenarios-grid">
+        {SCENARIOS.map(s => (
+          <div class="scenario-card">
+            <div class="scenario-card__header">
+              <span class="scenario-card__icon" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="1.8"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <Fragment set:html={`<path d="${s.icon}"/>`} />
+                </svg>
+              </span>
+              {s.tag && <span class="scenario-card__tag">{s.tag}</span>}
+            </div>
+            <h3 class="scenario-card__title">{s.title}</h3>
+            <p class="scenario-card__desc">{s.desc}</p>
+          </div>
+        ))}
+      </div>
+
+      <div class="cuando-cta">
+        <p class="cuando-cta__text">¿Tu evento tiene características especiales — venue con restricciones, horario nocturno, piso de cantera? Cuéntanos los detalles y confirmamos la viabilidad antes de reservar.</p>
+        <a href={waUrl(WA_MESSAGES.cotizar)} class="cuando-cta__btn" target="_blank" rel="noopener noreferrer">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d={WA_ICON}/></svg>
+          Consultar por WhatsApp
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ④ OTRAS CATEGORÍAS ───────────────────────────────────────────────────── -->
+  <section id="otras-categorias" class="section section--otras" aria-labelledby="otras-heading">
+    <div class="container">
+      <SectionHeading
+        id="otras-heading"
+        eyebrow="Catálogo completo INFLAFI"
+        title="¿Necesitas también un inflable"
+        titleAccent="para los niños del evento?"
+        layout="duo"
+        body={[
+          "En bodas y XV años con niños invitados, la combinación más completa es el Castillo Blanco para adolescentes y adultos y un modelo infantil para los niños de 3 a 10 años. El Castillo de Princesas o cualquiera de los medianos son los más pedidos para ese combo.",
+          "Si el evento es exclusivamente para adultos o el presupuesto solo alcanza para un inflable, el Castillo Blanco cubre ambos públicos: adolescentes, jóvenes y adultos lo usan con la misma comodidad.",
+        ]}
+      />
+      <div class="otras-grid">
+        {OTRAS_CATS.map((cat, i) => (
+          <CategoryCard
+            label={cat.label}
+            href={cat.href}
+            image={cat.image}
+            imageAlt={cat.imageAlt}
+            badge={cat.badge}
+            blurb={cat.blurb}
+            ctaLabel={cat.ctaLabel}
+            index={i}
+          />
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- ⑤ FAQ ────────────────────────────────────────────────────────────────── -->
+  <FAQWithContact
+    eyebrow="Preguntas sobre el Castillo Blanco"
+    title="Lo que más nos preguntan antes"
+    titleAccent="de reservar para una boda o XV años"
+    body={[
+      "Las 6 dudas más frecuentes: si funciona en una boda sin verse fuera de lugar, el límite de peso para adultos, el espacio que necesita, la instalación en haciendas y el tiempo de anticipación recomendado.",
+      "Si tienes preguntas específicas sobre el venue de tu evento — piso, espacio, restricciones de ruido o iluminación nocturna — escríbenos con los detalles y verificamos la viabilidad antes de confirmar.",
+    ]}
+    faqs={FAQS}
+    showContact={true}
+  />
+
+  <!-- CTA BANNER ───────────────────────────────────────────────────────────── -->
+  <CTABanner
+    heading="Reserva el Castillo Blanco para tu evento especial"
+    desc="Disponibilidad limitada para fines de semana. Asegura tu fecha con el 30% de anticipo — traslado, montaje y desmontaje incluidos en CDMX y zona metropolitana."
+    variant="primary"
+    btns={[
+      { label: 'Cotizar por WhatsApp', href: waUrl(WA_MSG_BODA), icon: 'wa', primary: true, external: true },
+      { label: `Llamar: ${CONTACT.phone}`, href: `tel:${CONTACT.phoneE164}`, icon: 'phone', primary: false },
+    ]}
+    badge="Modelo premium · Disponibilidad limitada"
+  />
+
+</PageLayout>
+
+<style>
+  .container { max-width: var(--container-max, 1400px); margin-inline: auto; padding-inline: var(--container-px, 1.5rem); }
+
+  /* ── Breadcrumbs ─────────────────────────────────────────────── */
+  .breadcrumbs { background: var(--c-white, #fff); border-bottom: 1px solid var(--c-border, #e5e7eb); }
+  .bc-inner { max-width: var(--container-max, 1400px); margin-inline: auto; padding-inline: var(--container-px, 1.5rem); padding-block: .625rem; }
+  .bc-list { list-style: none; margin: 0; padding: 0; display: flex; align-items: center; gap: .375rem; flex-wrap: wrap; }
+  .bc-link    { font-size: .8125rem; color: var(--c-primary, #7c3aed); text-decoration: none; }
+  .bc-link:hover { text-decoration: underline; }
+  .bc-sep     { font-size: .8125rem; color: var(--c-muted, #9ca3af); user-select: none; }
+  .bc-current { font-size: .8125rem; color: var(--c-ink-2, #4b5563); font-weight: 500; }
+
+  /* ── Sections ───────────────────────────────────────────────── */
+  .section        { padding: clamp(3.5rem, 7vw, 5.5rem) 0; }
+  .section--specs { background: var(--c-surface, #f9fafb); }
+  .section--otras { background: var(--c-surface, #f9fafb); }
+
+  /* ── Feature specs ──────────────────────────────────────────── */
+  .fspecs-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.25rem; margin-bottom: 1.5rem; }
+  .fspec-card { display: flex; flex-direction: column; border-radius: 20px; overflow: hidden; border: 1px solid #e5e7eb; box-shadow: 0 4px 20px rgba(0,0,0,.08); background: #fff; }
+  .fspec-card__visual { position: relative; height: 168px; display: flex; align-items: center; justify-content: center; }
+  .fspec-card__tag { position: absolute; top: .875rem; right: .875rem; padding: .22rem .65rem; background: rgba(255,255,255,.22); backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px); border: 1px solid rgba(255,255,255,.3); border-radius: 999px; font-size: .625rem; font-weight: 700; text-transform: uppercase; letter-spacing: .07em; color: #fff; white-space: nowrap; }
+  .fspec-card__body { padding: 1.375rem 1.375rem 1.5rem; display: flex; flex-direction: column; gap: .5rem; flex: 1; }
+  .fspec-card__label { font-size: .6875rem; font-weight: 700; text-transform: uppercase; letter-spacing: .08em; color: #9ca3af; margin: 0; }
+  .fspec-card__value { font-size: 1.75rem; font-weight: 900; color: #111827; line-height: 1.1; letter-spacing: -.02em; }
+  .fspec-card__detail { font-size: .875rem; color: #4b5563; line-height: 1.7; margin: 0; }
+
+  /* ── Specs panel ─────────────────────────────────────────────── */
+  .specs-panel { display: grid; grid-template-columns: 1fr 1.5fr; gap: 2.5rem; align-items: start; background: #fff; border: 1px solid #e5e7eb; border-radius: 24px; padding: 2rem; box-shadow: 0 2px 16px rgba(0,0,0,.06); }
+  .specs-panel__img-wrap { position: relative; border-radius: 14px; overflow: hidden; box-shadow: 0 8px 32px rgba(0,0,0,.12); }
+  .specs-panel__img { width: 100%; height: auto; aspect-ratio: 4/3; object-fit: cover; display: block; }
+  .specs-panel__img-overlay { position: absolute; bottom: 0; left: 0; right: 0; padding: 2rem 1rem .875rem; background: linear-gradient(to top, rgba(0,0,0,.72) 0%, transparent 100%); display: flex; align-items: flex-end; justify-content: space-between; gap: .5rem; }
+  .spio__badge { font-size: 1rem; font-weight: 800; color: #fff; letter-spacing: -.01em; }
+  .spio__meta { display: flex; flex-direction: column; align-items: flex-end; gap: .125rem; }
+  .spio__dims { font-size: .75rem; font-weight: 700; color: rgba(255,255,255,.9); font-family: monospace; }
+  .spio__cat  { font-size: .625rem; color: rgba(255,255,255,.65); text-transform: uppercase; letter-spacing: .06em; }
+  .specs-panel__img-note { display: flex; align-items: center; gap: .375rem; margin-top: .75rem; font-size: .75rem; color: #9ca3af; margin-bottom: 0; }
+  .specs-panel__img-note svg { flex-shrink: 0; }
+  .specs-panel__col-title { font-size: .6875rem; font-weight: 700; text-transform: uppercase; letter-spacing: .08em; color: #9ca3af; margin: 0 0 1rem; padding-bottom: .75rem; border-bottom: 1px solid #f3f4f6; }
+  .sspecs-grid { display: grid; grid-template-columns: 1fr 1fr; gap: .625rem; margin-bottom: 1.5rem; }
+  .sspec { display: flex; align-items: flex-start; gap: .625rem; padding: .875rem; background: #f9fafb; border-radius: 12px; border: 1px solid #f3f4f6; }
+  /* Iconos en dorado — branding premium de esta categoría */
+  .sspec__icon { display: flex; align-items: center; justify-content: center; width: 1.875rem; height: 1.875rem; border-radius: 8px; background: #fef3c7; color: #92400e; flex-shrink: 0; margin-top: .0625rem; }
+  .sspec__info { display: flex; flex-direction: column; gap: .125rem; min-width: 0; }
+  .sspec__label { font-size: .625rem; color: #9ca3af; font-weight: 700; text-transform: uppercase; letter-spacing: .06em; }
+  .sspec__value { font-size: .9375rem; font-weight: 800; color: #111827; line-height: 1.2; }
+  .sspec__note  { font-size: .6875rem; color: #6b7280; line-height: 1.4; margin-top: .0625rem; }
+  .specs-panel__cta { display: flex; align-items: center; gap: 1rem; flex-wrap: wrap; }
+  .specs-panel__cta-btn { display: inline-flex; align-items: center; gap: .45rem; padding: .875rem 1.375rem; background: #25d366; color: #fff; font-weight: 700; font-size: .9375rem; border-radius: 10px; text-decoration: none; box-shadow: 0 4px 14px rgba(37,211,102,.3); }
+  .specs-panel__cta-btn:hover { background: #1fba59; }
+  .specs-panel__cta-note { font-size: .8125rem; color: #9ca3af; }
+
+  /* ── Scenarios ──────────────────────────────────────────────── */
+  .scenarios-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.25rem; margin-bottom: 2.5rem; }
+  .scenario-card { display: flex; flex-direction: column; gap: .75rem; padding: 1.5rem; background: #fff; border: 1px solid #e5e7eb; border-radius: 18px; box-shadow: 0 2px 8px rgba(0,0,0,.05); }
+  .scenario-card__header { display: flex; align-items: center; justify-content: space-between; gap: .5rem; }
+  /* Iconos y tags en dorado para branding premium */
+  .scenario-card__icon { display: flex; align-items: center; justify-content: center; width: 2.5rem; height: 2.5rem; border-radius: 12px; background: #fef3c7; color: #92400e; flex-shrink: 0; }
+  .scenario-card__tag { font-size: .625rem; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; padding: .2rem .55rem; background: #fef3c7; color: #78350f; border-radius: 999px; white-space: nowrap; }
+  .scenario-card__title { font-size: 1.0625rem; font-weight: 700; color: #111827; line-height: 1.3; margin: 0; }
+  .scenario-card__desc  { font-size: .875rem; color: #4b5563; line-height: 1.7; margin: 0; }
+
+  /* ── Cuando CTA bar — fondo cálido/dorado para la categoría premium */
+  .cuando-cta { display: flex; align-items: center; justify-content: space-between; gap: 1.5rem; padding: 1.5rem 2rem; background: #fffbeb; border: 1px solid #fde68a; border-radius: 16px; flex-wrap: wrap; }
+  .cuando-cta__text { font-size: 1rem; color: #374151; margin: 0; line-height: 1.5; }
+  .cuando-cta__btn { display: inline-flex; align-items: center; gap: .5rem; padding: .875rem 1.5rem; background: #25d366; color: #fff; font-weight: 700; font-size: .9375rem; border-radius: 10px; text-decoration: none; white-space: nowrap; flex-shrink: 0; box-shadow: 0 4px 14px rgba(37,211,102,.3); }
+  .cuando-cta__btn:hover { background: #1fba59; }
+
+  /* ── Otras grid ─────────────────────────────────────────────── */
+  .otras-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5rem; }
+
+  /* ── Responsive ─────────────────────────────────────────────── */
+  @media (max-width: 1024px) {
+    .specs-panel { grid-template-columns: 1fr 1.2fr; gap: 1.5rem; }
+  }
+  @media (max-width: 900px) {
+    .fspecs-grid    { grid-template-columns: 1fr 1fr; }
+    .specs-panel    { grid-template-columns: 1fr; }
+    .specs-panel__img-col { order: -1; }
+    .scenarios-grid { grid-template-columns: repeat(2, 1fr); }
+    .otras-grid     { grid-template-columns: repeat(2, 1fr); }
+  }
+  @media (max-width: 600px) {
+    .fspecs-grid    { grid-template-columns: 1fr; }
+    .sspecs-grid    { grid-template-columns: 1fr; }
+    .scenarios-grid { grid-template-columns: 1fr; }
+    .otras-grid     { grid-template-columns: 1fr; }
+    .cuando-cta     { flex-direction: column; align-items: flex-start; }
+    .cuando-cta__btn { width: 100%; justify-content: center; }
+    .specs-panel    { padding: 1.25rem; border-radius: 16px; }
+    .specs-panel__cta { flex-direction: column; align-items: stretch; }
+    .specs-panel__cta-btn { justify-content: center; }
+  }
+</style>

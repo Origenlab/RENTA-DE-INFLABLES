@@ -1,0 +1,1008 @@
+---
+// src/pages/renta-de-inflables-medianos.astro — L3 · Inflables Medianos · INFLAFI
+// Ruta: /renta-de-inflables-medianos
+// SEO objetivo: "inflables medianos CDMX" · "castillo saltarin 4 metros" · "brincolin para cumpleaños CDMX"
+
+import PageLayout     from '@layouts/PageLayout.astro'
+import Hero           from '@components/Hero.astro'
+import SectionHeading from '@components/SectionHeading.astro'
+import CategoryCard   from '@components/CategoryCard.astro'
+import CategoryDetail from '@components/CategoryDetail.astro'
+import CTABanner      from '@components/CTABanner.astro'
+import FAQWithContact from '@components/FAQWithContact.astro'
+import SectionMenu    from '@components/SectionMenu.astro'
+
+import { waUrl, WA_MESSAGES, CONTACT } from '@config/site'
+import type { FaqItem } from '@lib/seo'
+
+const WA_ICON = 'M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z'
+
+// ── LOS 3 MODELOS MEDIANOS ─────────────────────────────────────────────────────
+const MODELOS = [
+  {
+    id: 'dragones-rojos',
+    slug: 'dragones-rojos',
+    nombre: 'Dragones Rojos',
+    dims: '4×2.5×2.5 m',
+    category: 'Mediano',
+    eyebrow: 'Mediano · 4×2.5×2.5 m · Para niños 4–10 años',
+    color: '#dc2626',
+    colorGradient: 'linear-gradient(135deg, #dc2626 0%, #f97316 100%)',
+    tag: 'El más dinámico',
+    tagline: 'El inflable de aventura que más emociona a los niños de 4 a 10 años.',
+    body: [
+      'Los Dragones Rojos son el modelo más vistoso de la categoría mediana: cuatro metros de largo con gráficos de dragones en rojo y naranja que hacen que los niños quieran subirse antes de que termine de inflarse. Con 2.5 metros de base y 2.5 de altura, tiene el área de brinco perfecta para grupos de 4 a 6 niños de entre 4 y 10 años. La rampa de acceso tiene pendiente moderada, fácil para los niños más pequeños del rango pero suficientemente activa para los más grandes.',
+      'Es el modelo que más pedimos para fiestas con temática de aventura, dragones, piratas o simplemente para papás que quieren el inflable más "activo" del catálogo. Requiere un espacio exterior mínimo de 5×3.5 m, cuatro anclas de seguridad incluidas en la renta y una toma de 110 V para el soplador. Se monta en aproximadamente 15 minutos — nuestro equipo llega 30 minutos antes del evento para tenerlo listo.',
+    ],
+    points: [
+      'Dimensiones: 4×2.5×2.5 m',
+      'Para niños de 4 a 10 años',
+      'Capacidad: 4–5 niños simultáneos',
+      'El diseño más dinámico y llamativo',
+      'Rampa de acceso con pendiente moderada',
+      'Ideal para temáticas de aventura y acción',
+      '4 anclas de seguridad incluidas',
+      'Soplador de alta eficiencia incluido',
+    ],
+    image: '/images/productos/dragones-rojos.jpg',
+    thumbs: [
+      { src: '/images/inflables/medianos.jpg',           alt: 'Dragones Rojos — vista completa lateral' },
+      { src: '/images/productos/dragones-rojos.jpg',     alt: 'Dragones Rojos — detalle diseño frontal' },
+      { src: '/images/inflables/medianos.jpg',           alt: 'Dragones Rojos — en uso durante fiesta' },
+    ],
+    idealPara: 'Fiestas de 4 a 10 años con temática de aventura, dragones o acción.',
+    eligeSi: 'El cumpleaños tiene temática y quieres el inflable más llamativo visualmente.',
+    waMsg: 'Hola, me interesa cotizar el inflable Dragones Rojos (4×2.5×2.5 m) para un evento en CDMX. ¿Está disponible?',
+  },
+  {
+    id: 'mini-jungla',
+    slug: 'mini-jungla',
+    nombre: 'Mini Jungla',
+    dims: '4×2.5×2.8 m',
+    category: 'Mediano',
+    eyebrow: 'Mediano · 4×2.5×2.8 m · Para niños 3–10 años',
+    color: '#059669',
+    colorGradient: 'linear-gradient(135deg, #059669 0%, #10b981 100%)',
+    tag: 'El más versátil',
+    tagline: 'El modelo de mayor altura y el más versátil del catálogo mediano: apto desde los 3 años.',
+    body: [
+      'La Mini Jungla es el modelo más versátil de la categoría mediana por una razón clave: su rampa de acceso tiene la pendiente más suave de los tres modelos, lo que la hace apta desde los 3 años mientras que los Dragones Rojos y Gusanitos se recomiendan a partir de los 4. Con diseño de selva tropical — plantas estampadas, animales y follaje verde — es el inflable más "neutro" en términos de género y temática: funciona para casi cualquier fiesta.',
+      'Con 2.8 metros de altura es el más alto de los tres medianos, lo que le da más sensación de espacio interior y permite que incluso niños de 9 y 10 años brinquen cómodamente sin tocar el techo. La capacidad es de 4 a 5 niños simultáneos. Requiere el mismo espacio que los otros medianos: 5×3.5 m de área libre y exterior. El soplador incluido mantiene la presión en todo momento sin necesidad de supervisión constante del equipo.',
+    ],
+    points: [
+      'Dimensiones: 4×2.5×2.8 m — el más alto del catálogo mediano',
+      'Apto desde 3 años (rampa de acceso suave)',
+      'Capacidad: 4–5 niños simultáneos',
+      'Diseño de jungla — neutro para cualquier fiesta',
+      'La mayor altura interior: 2.8 m',
+      'El más versátil de los tres modelos',
+      'Anclas y soplador incluidos',
+      'Espacio mínimo: 5×3.5 m exterior',
+    ],
+    image: '/images/productos/mini-jungla.jpg',
+    thumbs: [
+      { src: '/images/inflables/medianos.jpg',           alt: 'Mini Jungla — vista completa lateral' },
+      { src: '/images/productos/mini-jungla.jpg',        alt: 'Mini Jungla — diseño de jungla detalle' },
+      { src: '/images/inflables/medianos.jpg',           alt: 'Mini Jungla — en uso durante cumpleaños' },
+    ],
+    idealPara: 'Cualquier cumpleaños de 3 a 10 años, especialmente sin temática definida.',
+    eligeSi: 'No tienes temática específica o quieres el modelo más seguro para niños desde 3 años.',
+    waMsg: 'Hola, me interesa cotizar el inflable Mini Jungla (4×2.5×2.8 m) para un evento en CDMX. ¿Está disponible?',
+  },
+  {
+    id: 'gusanitos',
+    slug: 'gusanitos',
+    nombre: 'Gusanitos',
+    dims: '4×3.3×3 m',
+    category: 'Mediano',
+    eyebrow: 'Mediano · 4×3.3×3 m · Para niños 4–10 años',
+    color: '#0369a1',
+    colorGradient: 'linear-gradient(135deg, #0369a1 0%, #0ea5e9 100%)',
+    tag: 'Mayor espacio de brinco',
+    tagline: 'El mediano más ancho del catálogo: 3.3 m de base dan la mayor superficie de brinco de la categoría.',
+    body: [
+      'El Gusanitos tiene la base más ancha de los tres modelos medianos: 3.3 metros de ancho contra 2.5 de los otros dos. Esto se traduce en la mayor superficie de brinco disponible en la categoría — pueden saltar 5 a 6 niños simultáneos sin apretarse. Con diseño circular y gusanos de colores vivos, es el favorito de los grupos numerosos donde varios niños quieren brincar al mismo tiempo sin cola de espera.',
+      'A diferencia de los Dragones Rojos y la Mini Jungla que tienen rampa de acceso lateral, el Gusanitos tiene acceso frontal amplio que facilita la entrada y salida incluso cuando hay varios niños adentro. Con 3 metros de altura y la distribución más eficiente del espacio de brinco de la categoría, es la elección natural cuando la prioridad es capacidad y tiempo de uso, no el diseño visual del inflable.',
+    ],
+    points: [
+      'Dimensiones: 4×3.3×3 m — el más ancho del catálogo mediano',
+      'Para niños de 4 a 10 años',
+      'Capacidad: 5–6 niños simultáneos — la mayor de los medianos',
+      'Acceso frontal amplio — sin cola de espera',
+      'Diseño circular maximiza el área de brinco',
+      'El favorito para grupos numerosos',
+      'Anclas y soplador incluidos',
+      'Requiere espacio: 5.5×4 m (más ancho que los otros)',
+    ],
+    image: '/images/productos/gusanitos.jpg',
+    thumbs: [
+      { src: '/images/inflables/medianos.jpg',           alt: 'Gusanitos — vista completa lateral' },
+      { src: '/images/productos/gusanitos.jpg',          alt: 'Gusanitos — acceso frontal y diseño' },
+      { src: '/images/inflables/medianos.jpg',           alt: 'Gusanitos — en uso con varios niños' },
+    ],
+    idealPara: 'Fiestas con muchos niños donde se necesita la mayor capacidad simultánea.',
+    eligeSi: 'Habrá más de 8 niños en la fiesta y quieres que no haya cola de espera para el inflable.',
+    waMsg: 'Hola, me interesa cotizar el inflable Gusanitos (4×3.3×3 m) para un evento en CDMX. ¿Está disponible?',
+  },
+]
+
+// ── FEATURE SPECS (3 tarjetas grandes) ────────────────────────────────────────
+const FEATURE_SPECS = [
+  {
+    gradient: 'linear-gradient(135deg, #059669 0%, #10b981 100%)',
+    svgContent: '<circle cx="12" cy="8" r="5" stroke-width="1.5"/><path d="M3 21v-2a7 7 0 0 1 7-7h4a7 7 0 0 1 7 7v2" stroke-width="1.5"/>',
+    label: 'Edad recomendada',
+    value: '3 a 10 años',
+    detail: 'El rango más amplio del catálogo compacto. La Mini Jungla entra desde los 3 años con rampa suave; Dragones Rojos y Gusanitos desde los 4. Los tres modelos admiten niños hasta 10 años.',
+    tag: 'El más solicitado en CDMX',
+  },
+  {
+    gradient: 'linear-gradient(135deg, #0369a1 0%, #0ea5e9 100%)',
+    svgContent: '<path d="M12 2v20M2 12h20" stroke-width="1.5"/><rect x="3" y="3" width="18" height="18" rx="2" stroke-width="1.5"/>',
+    label: 'Espacio mínimo requerido',
+    value: '5 × 3.5 m exterior',
+    detail: 'Los tres modelos son exclusivos para exterior: jardín, quinta o salón con terraza. A diferencia de los inflables chicos, los medianos no entran en interiores. El Gusanitos requiere 5.5×4 m por su mayor ancho.',
+    tag: 'Solo exterior',
+  },
+  {
+    gradient: 'linear-gradient(135deg, #7c3aed 0%, #a855f7 100%)',
+    svgContent: '<path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" stroke-width="1.5"/><circle cx="9" cy="7" r="4" stroke-width="1.5"/><path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75" stroke-width="1.5"/>',
+    label: 'Capacidad simultánea',
+    value: '4 a 6 niños',
+    detail: 'Dragones Rojos y Mini Jungla: 4–5 niños al mismo tiempo. Gusanitos: 5–6 por su mayor ancho de base. En una fiesta de 15–20 niños, el tiempo de espera por turno es de 10–15 minutos.',
+    tag: 'El favorito del catálogo',
+  },
+]
+
+// ── SECONDARY SPECS ────────────────────────────────────────────────────────────
+const SECONDARY_SPECS = [
+  {
+    svgContent: '<path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/>',
+    label: 'Largo (los 3 modelos)',
+    value: '4 metros',
+    note: 'Dimensión uniforme en toda la categoría',
+  },
+  {
+    svgContent: '<circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/>',
+    label: 'Tiempo de montaje',
+    value: '~15 minutos',
+    note: 'El equipo llega 30 min antes del evento',
+  },
+  {
+    svgContent: '<path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/>',
+    label: 'Soplador',
+    value: 'Incluido · 800 W',
+    note: 'Toma estándar 110 V · operación continua',
+  },
+  {
+    svgContent: '<circle cx="12" cy="12" r="3"/><path d="M12 1v4M12 19v4M4.22 4.22l2.83 2.83M16.95 16.95l2.83 2.83M1 12h4M19 12h4M4.22 19.78l2.83-2.83M16.95 7.05l2.83-2.83"/>',
+    label: 'Anclas de seguridad',
+    value: '4 incluidas',
+    note: 'Indispensables en exterior — incluidas en renta',
+  },
+  {
+    svgContent: '<rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/>',
+    label: 'Espacio mínimo',
+    value: '5 × 3.5 m libre',
+    note: 'Gusanitos: 5.5×4 m por su mayor ancho',
+  },
+  {
+    svgContent: '<circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/>',
+    label: 'Duración renta',
+    value: '4 a 6 horas',
+    note: 'Extensión posible con costo adicional',
+  },
+]
+
+// ── ESCENARIOS DE USO ─────────────────────────────────────────────────────────
+const SCENARIOS = [
+  {
+    icon: '<path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>',
+    title: 'Cumpleaños en jardín o quinta',
+    desc: 'El escenario ideal. Con 5×3.5 m de jardín libre y una toma de corriente cercana, cualquiera de los tres modelos puede instalarse. El favorito para fiestas de 3 a 10 años en CDMX y zona metropolitana.',
+    tag: '#1 en CDMX',
+  },
+  {
+    icon: '<path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/>',
+    title: 'Salón de fiestas con terraza',
+    desc: 'Si el salón tiene terraza o jardín interior de 5×3.5 m, los medianos caben perfectamente. Muchos salones de colonia en CDMX están calibrados para estos modelos. Confirma las medidas antes de reservar.',
+    tag: 'Muy común en CDMX',
+  },
+  {
+    icon: '<rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/>',
+    title: 'Fiesta temática de kínder o primaria',
+    desc: 'Para fiestas de fin de ciclo, graduaciones o eventos escolares: los tres modelos medianos tienen capacidad para rotar grupos de 10 a 15 niños en turnos de 10 minutos. Eficientes para eventos de 1–2 horas.',
+    tag: 'Eventos escolares',
+  },
+  {
+    icon: '<path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/>',
+    title: 'Fiesta grande con muchos niños',
+    desc: 'Para eventos de 20 o más niños, el Gusanitos (5–6 simultáneos) minimiza la cola de espera. Alternativamente, puedes rentar 2 medianos para cubrir simultáneamente rangos de edades diferentes.',
+    tag: 'Grupos grandes',
+  },
+  {
+    icon: '<path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/>',
+    title: 'Fiesta con temática específica',
+    desc: 'Cada modelo tiene un diseño diferente: Dragones Rojos para temáticas de aventura y acción, Mini Jungla para safari o naturaleza (también neutro si no hay temática), Gusanitos para fiestas coloridas y alegres.',
+    tag: 'Elige el diseño',
+  },
+  {
+    icon: '<path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>',
+    title: 'Combo mediano + chico para todas las edades',
+    desc: 'El plan más popular en fiestas familiares: renta el Micro Baby para los niños de 1 a 4 años y un mediano para los de 4 en adelante. Cada grupo en su zona, sin mezcla de edades y sin supervisión de seguridad constante.',
+    tag: 'El combo favorito',
+  },
+]
+
+// ── OTRAS CATEGORÍAS (las 5 restantes) ────────────────────────────────────────
+const OTRAS_CATS = [
+  {
+    label: 'Inflables Chicos',
+    href: '/renta-de-inflables-chicos',
+    image: '/images/inflables/chicos.jpg',
+    blurb: 'El Micro Baby (2×2 m): el único que cabe en interiores. Para niños de 1 a 4 años.',
+    ctaLabel: 'Ver inflables chicos',
+    badge: undefined as string | undefined,
+  },
+  {
+    label: 'Inflables Grandes',
+    href: '/renta-de-inflables-grandes',
+    image: '/images/inflables/grandes.jpg',
+    blurb: 'Extrem y Barco Pirata: toboganes integrados, hasta 7 metros. Para eventos sin límites.',
+    ctaLabel: 'Ver inflables grandes',
+    badge: undefined as string | undefined,
+  },
+  {
+    label: 'Inflables para Niñas',
+    href: '/renta-de-inflables-para-nina',
+    image: '/images/inflables/ninas.jpg',
+    blurb: 'Castillo de Princesas: el inflable más fotografiado del catálogo.',
+    ctaLabel: 'Ver princesas',
+    badge: 'Princesas',
+  },
+  {
+    label: 'Inflables para Niños',
+    href: '/renta-de-inflables-para-ninos',
+    image: '/images/inflables/ninos.jpg',
+    blurb: 'Superhéroes, dinosaurios y aventureros. Para fiestas temáticas de 4 a 12 años.',
+    ctaLabel: 'Ver héroes',
+    badge: 'Héroes',
+  },
+  {
+    label: 'Inflables para Bodas',
+    href: '/renta-de-inflables-para-boda',
+    image: '/images/inflables/bodas.jpg',
+    blurb: 'Castillo Blanco premium: elegante, discreto, para bodas y XV años.',
+    ctaLabel: 'Ver para bodas',
+    badge: undefined as string | undefined,
+  },
+]
+
+// ── FAQ ────────────────────────────────────────────────────────────────────────
+const FAQS: FaqItem[] = [
+  {
+    question: '¿Cuál de los tres medianos me conviene rentar?',
+    answer: 'Depende de tres factores: la edad de los niños, el espacio disponible y la temática de la fiesta. Mini Jungla si hay niños desde 3 años o no hay temática definida. Dragones Rojos si la fiesta tiene temática de aventura o acción y los niños son de 4 a 10 años. Gusanitos si habrá muchos niños y quieres la mayor capacidad simultánea. Si no estás seguro, escríbenos con esos tres datos y te recomendamos el modelo ideal.',
+  },
+  {
+    question: '¿Los medianos caben en interiores o solo en exterior?',
+    answer: 'Solo en exterior. Ninguno de los tres modelos medianos puede instalarse en interiores — ni en salas grandes ni en salones cerrados. Requieren jardín, terraza, patio descubierto o área verde. Si tu evento es en interior, el único modelo del catálogo que entra es el Micro Baby (2×2 m) de la categoría Chicos.',
+  },
+  {
+    question: '¿Cuánto espacio libre necesito exactamente?',
+    answer: 'Para Dragones Rojos y Mini Jungla: mínimo 5×3.5 m de área libre, más 1 m adicional para el soplador y el espacio de circulación alrededor del inflable. Para el Gusanitos, por su mayor ancho: 5.5×4 m. Al confirmar tu reserva te enviamos un diagrama de disposición para que puedas verificar el espacio exacto.',
+  },
+  {
+    question: '¿A qué edad exacta dejan de poder usarlo los niños?',
+    answer: 'El límite de peso es de 60 kg por persona, no la edad. En la práctica, niños hasta 12 años usan los medianos sin problema. Lo que sí importa es no mezclar niños muy pequeños (menos de 3 años) con niños grandes en el mismo inflable — el riesgo de golpes involuntarios es alto. Por eso recomendamos rentar el Micro Baby para los más chicos y un mediano para los mayores.',
+  },
+  {
+    question: '¿Puedo rentar dos medianos para un mismo evento?',
+    answer: 'Sí, siempre que haya disponibilidad de los dos modelos para esa fecha y el espacio del evento lo permita. Muchos papás rentan Dragones Rojos + Mini Jungla o Gusanitos + Mini Jungla para eventos grandes. El precio de cada uno es independiente. Consúltanos para confirmar disponibilidad y si hay descuento por doble renta.',
+  },
+  {
+    question: '¿Qué pasa si el jardín tiene árboles, escalones o desniveles?',
+    answer: 'El área de instalación debe ser plana, despejada y libre de objetos salientes. Árboles cercanos no son problema si hay espacio libre suficiente. Escalones o desniveles pueden dificultar el acceso con el inflable — dependiendo del caso, podemos buscar una disposición alternativa. Si tienes dudas sobre el terreno, mándanos fotos del jardín por WhatsApp y nuestro equipo evalúa antes de confirmar.',
+  },
+]
+---
+
+<PageLayout
+  title="Renta de Inflables Medianos en CDMX — Dragones Rojos, Mini Jungla, Gusanitos | INFLAFI"
+  description="Renta de inflables medianos en CDMX: Dragones Rojos, Mini Jungla y Gusanitos. 4 metros de largo, para niños de 3 a 10 años. El más rentado del catálogo. Montaje incluido."
+  image="/images/og/inflables-medianos.jpg"
+  pageType="category"
+  breadcrumbs={[
+    { label: 'Inflables', href: '/inflables' },
+    { label: 'Inflables Medianos', href: '/renta-de-inflables-medianos' },
+  ]}
+>
+
+  <!-- MIGAS DE PAN ─────────────────────────────────────────────────────────── -->
+  <nav class="breadcrumbs" aria-label="Migas de pan">
+    <div class="bc-inner">
+      <ol class="bc-list">
+        <li><a href="/" class="bc-link">Inicio</a></li>
+        <li aria-hidden="true" class="bc-sep">›</li>
+        <li><a href="/inflables" class="bc-link">Inflables</a></li>
+        <li aria-hidden="true" class="bc-sep">›</li>
+        <li><span class="bc-current" aria-current="page">Inflables Medianos</span></li>
+      </ol>
+    </div>
+  </nav>
+
+  <!-- HERO 2 COLUMNAS ─────────────────────────────────────────────────────── -->
+  <Hero
+    badge="3 modelos certificados · 4 m de largo · El más rentado en CDMX"
+    title="Inflables Medianos"
+    accent="en Renta · CDMX"
+    subtitle="Dragones Rojos, Mini Jungla y Gusanitos: tres diseños, cuatro metros de largo y capacidad para 4 a 6 niños simultáneos. El favorito del catálogo para cumpleaños de 3 a 10 años en jardines y quintas de CDMX."
+    descRight={[
+      "Los inflables medianos son la categoría más rentada del catálogo INFLAFI. Con 4 metros de largo y entre 2.5 y 3.3 metros de ancho, ofrecen la mejor relación entre espacio de brinco real y espacio requerido en el lugar del evento. Tres modelos con diseños distintos — Dragones Rojos para aventura, Mini Jungla para versatilidad y Gusanitos para máxima capacidad — para que el inflable encaje exactamente con tu fiesta.",
+      "Todos los modelos medianos son exclusivos para exterior: jardín, quinta, terraza o salón con área verde. El precio incluye soplador, cuatro anclas de seguridad, traslado, montaje profesional y desmontaje al cierre. Reserva con el 30% de anticipo — respondemos en minutos de lunes a domingo.",
+    ]}
+    ctas={[
+      { text: '¡Cotizar un mediano!', href: waUrl('Hola, me interesa cotizar un inflable mediano para un evento en CDMX. ¿Cuál está disponible?'), variant: 'primary', whatsapp: true },
+      { text: 'Ver los 3 modelos', href: '#dragones-rojos', variant: 'outline' },
+    ]}
+    ariaLabel="Renta de inflables medianos INFLAFI — CDMX"
+  />
+
+  <!-- MENÚ DE SECCIONES ────────────────────────────────────────────────────── -->
+  <SectionMenu items={[
+    {
+      label: 'Dragones Rojos',
+      sub: '4×2.5×2.5 m · aventura',
+      href: '#dragones-rojos',
+      icon: 'M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z',
+    },
+    {
+      label: 'Mini Jungla',
+      sub: '4×2.5×2.8 m · el más versátil',
+      href: '#mini-jungla',
+      icon: 'M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2zM9 22V12h6v10',
+    },
+    {
+      label: 'Gusanitos',
+      sub: '4×3.3×3 m · mayor capacidad',
+      href: '#gusanitos',
+      icon: 'M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z',
+    },
+    {
+      label: '¿Cuál elegir?',
+      sub: 'Comparación de los 3 modelos',
+      href: '#comparacion',
+      icon: 'M9 5H7a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2h-2M9 5a2 2 0 0 0 2 2h2a2 2 0 0 0 2-2M9 5a2 2 0 0 0 2-2h2a2 2 0 0 0 2 2m-6 9l2 2 4-4',
+    },
+    {
+      label: 'Ficha técnica',
+      sub: 'Medidas y especificaciones',
+      href: '#especificaciones',
+      icon: 'M8 6h13M8 12h13M8 18h13M3 6h.01M3 12h.01M3 18h.01',
+    },
+    {
+      label: 'Cotizar ahora',
+      sub: 'Respuesta en minutos',
+      href: waUrl('Hola, me interesa cotizar un inflable mediano para un evento en CDMX. ¿Cuál está disponible?'),
+      icon: WA_ICON,
+      cta: true,
+    },
+  ]} />
+
+  <!-- ① LOS 3 MODELOS A FONDO ──────────────────────────────────────────────── -->
+  <section class="section" aria-labelledby="modelos-heading">
+    <div class="container">
+      <SectionHeading
+        id="modelos-heading"
+        eyebrow="3 modelos · misma categoría · diferente propósito"
+        title="Cada modelo medianos es distinto"
+        titleAccent="— elige el correcto para tu fiesta"
+        layout="duo"
+        body={[
+          "Los tres comparten las mismas dimensiones de largo (4 m) y el mismo rango de edad (3–10 años), pero se diferencian en ancho, altura y diseño. Esas diferencias son las que determinan cuál es el correcto para tu evento específico.",
+          "Más abajo encontrarás la sección de comparación que te ayuda a decidir en 30 segundos. Si prefieres que te recomendemos nosotros, escríbenos con la edad de los niños, el número de invitados y el tipo de espacio — respondemos en minutos.",
+        ]}
+      />
+
+      <div class="modelos-stack">
+        {MODELOS.map(m => (
+          <CategoryDetail
+            id={m.id}
+            eyebrow={m.eyebrow}
+            category={m.category}
+            title={m.nombre}
+            body={m.body}
+            points={m.points}
+            cta={{
+              label: `Cotizar ${m.nombre}`,
+              href: waUrl(m.waMsg),
+              external: true,
+            }}
+            gallery={{
+              main: { src: m.image, alt: `Inflable ${m.nombre} en renta CDMX — INFLAFI · ${m.dims}` },
+              thumbs: m.thumbs,
+            }}
+            as="h2"
+          />
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- ② ¿CUÁL DE LOS 3 ELEGIR? ────────────────────────────────────────────── -->
+  <section id="comparacion" class="section section--comparacion" aria-labelledby="comparacion-heading">
+    <div class="container">
+      <SectionHeading
+        id="comparacion-heading"
+        eyebrow="Guía de decisión · 30 segundos"
+        title="Los tres medianos son buenos —"
+        titleAccent="¿cuál es el correcto para ti?"
+        layout="duo"
+        body={[
+          "La diferencia entre los tres modelos no es de calidad sino de propósito. Dragones Rojos para aventura visual, Mini Jungla para versatilidad y acceso desde los 3 años, Gusanitos para máxima capacidad simultánea.",
+          "Si después de leer todavía tienes dudas, escríbenos con la edad de los niños y el número de invitados — en menos de 2 minutos te damos una recomendación personalizada.",
+        ]}
+      />
+
+      <div class="comp-grid">
+        {MODELOS.map(m => (
+          <div class="comp-card">
+            <div class="comp-card__header" style={`background: ${m.colorGradient}`}>
+              <div class="comp-card__header-content">
+                <span class="comp-card__tag">{m.tag}</span>
+                <h3 class="comp-card__name">{m.nombre}</h3>
+                <p class="comp-card__dims">{m.dims}</p>
+              </div>
+            </div>
+            <div class="comp-card__body">
+              <p class="comp-card__tagline">{m.tagline}</p>
+
+              <div class="comp-card__rows">
+                <div class="comp-card__row">
+                  <span class="comp-card__row-label">Ideal para</span>
+                  <span class="comp-card__row-val">{m.idealPara}</span>
+                </div>
+                <div class="comp-card__row">
+                  <span class="comp-card__row-label">Elige este si</span>
+                  <span class="comp-card__row-val">{m.eligeSi}</span>
+                </div>
+              </div>
+
+              <a
+                href={waUrl(m.waMsg)}
+                class="comp-card__cta"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d={WA_ICON}/></svg>
+                Cotizar {m.nombre}
+              </a>
+            </div>
+          </div>
+        ))}
+      </div>
+
+      <!-- Tabla comparativa rápida -->
+      <div class="comp-table-wrap">
+        <p class="comp-table-title">Comparación rápida</p>
+        <table class="comp-table" aria-label="Comparación de los 3 modelos medianos">
+          <thead>
+            <tr>
+              <th scope="col">Característica</th>
+              <th scope="col" style="color: #dc2626">Dragones Rojos</th>
+              <th scope="col" style="color: #059669">Mini Jungla</th>
+              <th scope="col" style="color: #0369a1">Gusanitos</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><th scope="row">Dimensiones</th><td>4×2.5×2.5 m</td><td>4×2.5×2.8 m</td><td>4×3.3×3 m</td></tr>
+            <tr><th scope="row">Altura</th><td>2.5 m</td><td>2.8 m ★</td><td>3 m ★</td></tr>
+            <tr><th scope="row">Ancho base</th><td>2.5 m</td><td>2.5 m</td><td>3.3 m ★</td></tr>
+            <tr><th scope="row">Desde qué edad</th><td>4 años</td><td>3 años ★</td><td>4 años</td></tr>
+            <tr><th scope="row">Capacidad</th><td>4–5 niños</td><td>4–5 niños</td><td>5–6 niños ★</td></tr>
+            <tr><th scope="row">Espacio mínimo</th><td>5×3.5 m</td><td>5×3.5 m</td><td>5.5×4 m</td></tr>
+            <tr><th scope="row">Mejor para</th><td>Aventura y acción</td><td>Cualquier fiesta</td><td>Grupos numerosos</td></tr>
+          </tbody>
+        </table>
+        <p class="comp-table-note">★ = el mejor de los tres en esa categoría</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ③ FICHA TÉCNICA ──────────────────────────────────────────────────────── -->
+  <section id="especificaciones" class="section section--specs" aria-labelledby="specs-heading">
+    <div class="container">
+      <SectionHeading
+        id="specs-heading"
+        eyebrow="Medidas · capacidad · lo que incluye la renta"
+        title="Especificaciones que debes verificar"
+        titleAccent="antes de reservar"
+        layout="duo"
+        body={[
+          "El espacio es el factor más crítico para los medianos. Verifica que tienes los 5×3.5 m libres (o 5.5×4 m para el Gusanitos) antes de confirmar — sin ese espacio el inflable no puede instalarse de forma segura.",
+          "Todo lo que ves en la ficha está incluido en el precio de renta: soplador, anclas, traslado, montaje y desmontaje. Sin costos por zona dentro de CDMX y zona metropolitana cercana.",
+        ]}
+      />
+
+      <div class="fspecs-grid">
+        {FEATURE_SPECS.map(spec => (
+          <div class="fspec-card">
+            <div class="fspec-card__visual" style={`background: ${spec.gradient}`}>
+              <svg width="52" height="52" viewBox="0 0 24 24" fill="none"
+                stroke="rgba(255,255,255,0.95)" stroke-linecap="round" stroke-linejoin="round"
+                aria-hidden="true" set:html={spec.svgContent}
+              />
+              <span class="fspec-card__tag">{spec.tag}</span>
+            </div>
+            <div class="fspec-card__body">
+              <p class="fspec-card__label">{spec.label}</p>
+              <strong class="fspec-card__value">{spec.value}</strong>
+              <p class="fspec-card__detail">{spec.detail}</p>
+            </div>
+          </div>
+        ))}
+      </div>
+
+      <div class="specs-panel">
+        <div class="specs-panel__img-col">
+          <div class="specs-panel__img-wrap">
+            <img
+              src="/images/inflables/medianos.jpg"
+              alt="Inflables medianos en renta CDMX — INFLAFI · Dragones Rojos, Mini Jungla y Gusanitos"
+              width="600"
+              height="450"
+              loading="lazy"
+              decoding="async"
+              class="specs-panel__img"
+            />
+            <div class="specs-panel__img-overlay">
+              <span class="spio__badge">Categoría Medianos</span>
+              <div class="spio__meta">
+                <span class="spio__dims">4 m de largo</span>
+                <span class="spio__cat">3 modelos disponibles</span>
+              </div>
+            </div>
+          </div>
+          <p class="specs-panel__img-note">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+            Imagen referencial. El modelo real puede variar en diseño según disponibilidad.
+          </p>
+        </div>
+
+        <div class="specs-panel__data-col">
+          <p class="specs-panel__col-title">Especificaciones comunes a los 3 modelos</p>
+          <div class="sspecs-grid">
+            {SECONDARY_SPECS.map(s => (
+              <div class="sspec">
+                <span class="sspec__icon" aria-hidden="true">
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round"
+                    set:html={s.svgContent}
+                  />
+                </span>
+                <div class="sspec__info">
+                  <span class="sspec__label">{s.label}</span>
+                  <strong class="sspec__value">{s.value}</strong>
+                  <span class="sspec__note">{s.note}</span>
+                </div>
+              </div>
+            ))}
+          </div>
+          <div class="specs-panel__cta">
+            <a
+              href={waUrl('Hola, me interesa cotizar un inflable mediano para un evento en CDMX. ¿Cuál está disponible?')}
+              class="specs-panel__cta-btn"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d={WA_ICON}/></svg>
+              Consultar disponibilidad
+            </a>
+            <span class="specs-panel__cta-note">Respondemos en minutos · Lun–Dom</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ④ ESCENARIOS DE USO ─────────────────────────────────────────────────── -->
+  <section id="cuando" class="section" aria-labelledby="cuando-heading">
+    <div class="container">
+      <SectionHeading
+        id="cuando-heading"
+        eyebrow="6 escenarios donde brillan los medianos"
+        title="El inflable mediano funciona mejor"
+        titleAccent="en estos 6 casos"
+        layout="duo"
+        body={[
+          "La categoría mediana es la más demandada del catálogo por una razón simple: es la que tiene el mayor rango de utilidad. Funciona para casi cualquier cumpleaños infantil en CDMX donde haya jardín o terraza disponible.",
+          "Los únicos casos donde un mediano no es la respuesta: niños menores de 3 años (ahí va el Micro Baby), niños mayores de 10–12 años con grupos que buscan más adrenalina (ahí van los grandes), o eventos donde el inflable es el show principal del evento (Barco Pirata).",
+        ]}
+      />
+
+      <div class="scenarios-grid">
+        {SCENARIOS.map(s => (
+          <div class="scenario-card">
+            <div class="scenario-card__header">
+              <span class="scenario-card__icon" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="1.8"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <Fragment set:html={`<path d="${s.icon}"/>`} />
+                </svg>
+              </span>
+              {s.tag && <span class="scenario-card__tag">{s.tag}</span>}
+            </div>
+            <h3 class="scenario-card__title">{s.title}</h3>
+            <p class="scenario-card__desc">{s.desc}</p>
+          </div>
+        ))}
+      </div>
+
+      <div class="cuando-cta">
+        <p class="cuando-cta__text">¿Tu evento no encaja en ninguno de estos casos? Escríbenos con los detalles — encontramos el modelo correcto.</p>
+        <a href={waUrl(WA_MESSAGES.cotizar)} class="cuando-cta__btn" target="_blank" rel="noopener noreferrer">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d={WA_ICON}/></svg>
+          Consultar por WhatsApp
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ⑤ OTRAS CATEGORÍAS ───────────────────────────────────────────────────── -->
+  <section id="otras-categorias" class="section section--otras" aria-labelledby="otras-heading">
+    <div class="container">
+      <SectionHeading
+        id="otras-heading"
+        eyebrow="Catálogo completo INFLAFI"
+        title="¿Los medianos no son lo que buscas?"
+        titleAccent="Explora el resto del catálogo"
+        layout="duo"
+        body={[
+          "Si los niños son menores de 3 años, el Micro Baby (2×2 m) es la única opción segura. Si los niños ya tienen 10–12 años y quieren más adrenalina, los inflables grandes — Extrem con tobogán y Barco Pirata de 7 metros — son el siguiente nivel.",
+          "También tenemos modelos temáticos: Princesas para niñas y figuras de acción para niños, y el Castillo Blanco premium para bodas y XV años. Todo con entrega, montaje y desmontaje incluidos en CDMX.",
+        ]}
+      />
+      <div class="otras-grid">
+        {OTRAS_CATS.map((cat, i) => (
+          <CategoryCard
+            label={cat.label}
+            href={cat.href}
+            image={cat.image}
+            imageAlt={`${cat.label} en renta — CDMX`}
+            badge={cat.badge}
+            blurb={cat.blurb}
+            ctaLabel={cat.ctaLabel}
+            index={i}
+          />
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- ⑥ FAQ ────────────────────────────────────────────────────────────────── -->
+  <FAQWithContact
+    eyebrow="Preguntas sobre inflables medianos"
+    title="Resuelve tus dudas antes"
+    titleAccent="de confirmar la reserva"
+    body={[
+      "Las 6 preguntas más frecuentes sobre los medianos: cuál elegir, espacio requerido, mezcla de edades, renta doble y condiciones del terreno.",
+      "Si tu pregunta no está aquí, escríbenos — respondemos con la misma rapidez de lunes a domingo. Puedes enviarnos fotos del jardín o salón para que evaluemos antes de confirmar.",
+    ]}
+    faqs={FAQS}
+    showContact={true}
+  />
+
+  <!-- CTA BANNER ───────────────────────────────────────────────────────────── -->
+  <CTABanner
+    heading="¿Cuál mediano es para tu fiesta?"
+    desc="Reserva con el 30% de anticipo y asegura tu fecha. Dragones Rojos, Mini Jungla o Gusanitos — dinos cuál quieres y confirmamos disponibilidad al instante."
+    variant="primary"
+    btns={[
+      { label: 'Cotizar por WhatsApp', href: waUrl('Hola, me interesa cotizar un inflable mediano (Dragones Rojos, Mini Jungla o Gusanitos) para un evento en CDMX. ¿Cuál está disponible?'), icon: 'wa', primary: true, external: true },
+      { label: `Llamar: ${CONTACT.phone}`, href: `tel:${CONTACT.phoneE164}`, icon: 'phone', primary: false },
+    ]}
+    badge="Entrega gratis en CDMX"
+  />
+
+</PageLayout>
+
+<style>
+  /* ── Contenedor ─────────────────────────────────────────────── */
+  .container {
+    max-width: var(--container-max, 1400px);
+    margin-inline: auto;
+    padding-inline: var(--container-px, 1.5rem);
+  }
+
+  /* ── Breadcrumbs ────────────────────────────────────────────── */
+  .breadcrumbs { background: var(--c-white, #fff); border-bottom: 1px solid var(--c-border, #e5e7eb); }
+  .bc-inner { max-width: var(--container-max, 1400px); margin-inline: auto; padding-inline: var(--container-px, 1.5rem); padding-block: .625rem; }
+  .bc-list { list-style: none; margin: 0; padding: 0; display: flex; align-items: center; gap: .375rem; flex-wrap: wrap; }
+  .bc-link    { font-size: .8125rem; color: var(--c-primary, #7c3aed); text-decoration: none; }
+  .bc-link:hover { text-decoration: underline; }
+  .bc-sep     { font-size: .8125rem; color: var(--c-muted, #9ca3af); user-select: none; }
+  .bc-current { font-size: .8125rem; color: var(--c-ink-2, #4b5563); font-weight: 500; }
+
+  /* ── Sections ───────────────────────────────────────────────── */
+  .section { padding: clamp(3.5rem, 7vw, 5.5rem) 0; }
+  .section--comparacion { background: #f3f4f6; }
+  .section--specs       { background: var(--c-surface, #f9fafb); }
+  .section--otras       { background: var(--c-surface, #f9fafb); }
+
+  /* ── Modelos stack (CategoryDetail × 3) ─────────────────────── */
+  .modelos-stack { display: grid; gap: 1.5rem; }
+
+  /* ── Comparación grid (3 cards) ─────────────────────────────── */
+  .comp-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.25rem;
+    margin-bottom: 2rem;
+  }
+  .comp-card {
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    overflow: hidden;
+    border: 1px solid #e5e7eb;
+    box-shadow: 0 4px 20px rgba(0,0,0,.08);
+    background: #fff;
+  }
+  .comp-card__header {
+    padding: 1.75rem 1.5rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+  }
+  .comp-card__header-content { display: flex; flex-direction: column; gap: .375rem; }
+  .comp-card__tag {
+    font-size: .625rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .07em;
+    color: rgba(255,255,255,.85);
+    align-self: flex-start;
+    padding: .2rem .6rem;
+    background: rgba(255,255,255,.2);
+    border-radius: 999px;
+    border: 1px solid rgba(255,255,255,.25);
+  }
+  .comp-card__name {
+    font-size: 1.5rem;
+    font-weight: 900;
+    color: #fff;
+    margin: 0;
+    letter-spacing: -.02em;
+    line-height: 1.1;
+  }
+  .comp-card__dims {
+    font-size: .8125rem;
+    color: rgba(255,255,255,.8);
+    font-family: monospace;
+    font-weight: 600;
+    letter-spacing: .03em;
+    margin: 0;
+  }
+  .comp-card__body {
+    padding: 1.375rem 1.375rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    flex: 1;
+  }
+  .comp-card__tagline {
+    font-size: .9375rem;
+    color: #374151;
+    line-height: 1.6;
+    margin: 0;
+    font-weight: 500;
+  }
+  .comp-card__rows {
+    display: flex;
+    flex-direction: column;
+    gap: .625rem;
+    border-top: 1px solid #f3f4f6;
+    padding-top: .875rem;
+  }
+  .comp-card__row {
+    display: flex;
+    flex-direction: column;
+    gap: .2rem;
+  }
+  .comp-card__row-label {
+    font-size: .6875rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .07em;
+    color: #9ca3af;
+  }
+  .comp-card__row-val {
+    font-size: .875rem;
+    color: #374151;
+    line-height: 1.5;
+  }
+  .comp-card__cta {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .45rem;
+    margin-top: auto;
+    padding: .8rem 1rem;
+    background: #25d366;
+    color: #fff;
+    font-size: .875rem;
+    font-weight: 700;
+    border-radius: 10px;
+    text-decoration: none;
+  }
+  .comp-card__cta:hover { background: #1fba59; }
+
+  /* ── Tabla comparativa ──────────────────────────────────────── */
+  .comp-table-wrap {
+    background: #fff;
+    border: 1px solid #e5e7eb;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0,0,0,.05);
+  }
+  .comp-table-title {
+    font-size: .6875rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .08em;
+    color: #9ca3af;
+    margin: 0;
+    padding: 1rem 1.5rem .625rem;
+    border-bottom: 1px solid #f3f4f6;
+  }
+  .comp-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: .875rem;
+  }
+  .comp-table thead tr { background: #f9fafb; }
+  .comp-table th {
+    padding: .875rem 1.25rem;
+    text-align: left;
+    font-size: .75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .05em;
+    color: #6b7280;
+    border-bottom: 1px solid #e5e7eb;
+    white-space: nowrap;
+  }
+  .comp-table th[scope="col"]:not(:first-child) { text-align: center; }
+  .comp-table td {
+    padding: .75rem 1.25rem;
+    color: #374151;
+    border-bottom: 1px solid #f3f4f6;
+    text-align: center;
+  }
+  .comp-table tbody th[scope="row"] {
+    text-align: left;
+    font-weight: 600;
+    color: #111827;
+    font-size: .8125rem;
+    background: #fafafa;
+    white-space: nowrap;
+  }
+  .comp-table tbody tr:last-child td,
+  .comp-table tbody tr:last-child th { border-bottom: none; }
+  .comp-table-note {
+    font-size: .75rem;
+    color: #9ca3af;
+    margin: 0;
+    padding: .625rem 1.5rem .875rem;
+    border-top: 1px solid #f3f4f6;
+  }
+
+  /* ── Feature specs grid (3 tarjetas grandes) ────────────────── */
+  .fspecs-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.25rem;
+    margin-bottom: 1.5rem;
+  }
+  .fspec-card {
+    display: flex; flex-direction: column;
+    border-radius: 20px; overflow: hidden;
+    border: 1px solid #e5e7eb;
+    box-shadow: 0 4px 20px rgba(0,0,0,.08);
+    background: #fff;
+  }
+  .fspec-card__visual {
+    position: relative;
+    height: 168px;
+    display: flex; align-items: center; justify-content: center;
+  }
+  .fspec-card__tag {
+    position: absolute; top: .875rem; right: .875rem;
+    padding: .22rem .65rem;
+    background: rgba(255,255,255,.22);
+    backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255,255,255,.3);
+    border-radius: 999px;
+    font-size: .625rem; font-weight: 700;
+    text-transform: uppercase; letter-spacing: .07em;
+    color: #fff; white-space: nowrap;
+  }
+  .fspec-card__body { padding: 1.375rem 1.375rem 1.5rem; display: flex; flex-direction: column; gap: .5rem; flex: 1; }
+  .fspec-card__label { font-size: .6875rem; font-weight: 700; text-transform: uppercase; letter-spacing: .08em; color: #9ca3af; margin: 0; }
+  .fspec-card__value { font-size: 1.75rem; font-weight: 900; color: #111827; line-height: 1.1; letter-spacing: -.02em; }
+  .fspec-card__detail { font-size: .875rem; color: #4b5563; line-height: 1.7; margin: 0; }
+
+  /* ── Specs panel ─────────────────────────────────────────────── */
+  .specs-panel { display: grid; grid-template-columns: 1fr 1.5fr; gap: 2.5rem; align-items: start; background: #fff; border: 1px solid #e5e7eb; border-radius: 24px; padding: 2rem; box-shadow: 0 2px 16px rgba(0,0,0,.06); }
+  .specs-panel__img-wrap { position: relative; border-radius: 14px; overflow: hidden; box-shadow: 0 8px 32px rgba(0,0,0,.12); }
+  .specs-panel__img { width: 100%; height: auto; aspect-ratio: 4/3; object-fit: cover; display: block; }
+  .specs-panel__img-overlay { position: absolute; bottom: 0; left: 0; right: 0; padding: 2rem 1rem .875rem; background: linear-gradient(to top, rgba(0,0,0,.72) 0%, transparent 100%); display: flex; align-items: flex-end; justify-content: space-between; gap: .5rem; }
+  .spio__badge { font-size: 1rem; font-weight: 800; color: #fff; letter-spacing: -.01em; }
+  .spio__meta { display: flex; flex-direction: column; align-items: flex-end; gap: .125rem; }
+  .spio__dims { font-size: .75rem; font-weight: 700; color: rgba(255,255,255,.9); font-family: monospace; }
+  .spio__cat { font-size: .625rem; color: rgba(255,255,255,.65); text-transform: uppercase; letter-spacing: .06em; }
+  .specs-panel__img-note { display: flex; align-items: center; gap: .375rem; margin-top: .75rem; font-size: .75rem; color: #9ca3af; margin-bottom: 0; }
+  .specs-panel__img-note svg { flex-shrink: 0; }
+  .specs-panel__col-title { font-size: .6875rem; font-weight: 700; text-transform: uppercase; letter-spacing: .08em; color: #9ca3af; margin: 0 0 1rem; padding-bottom: .75rem; border-bottom: 1px solid #f3f4f6; }
+  .sspecs-grid { display: grid; grid-template-columns: 1fr 1fr; gap: .625rem; margin-bottom: 1.5rem; }
+  .sspec { display: flex; align-items: flex-start; gap: .625rem; padding: .875rem; background: #f9fafb; border-radius: 12px; border: 1px solid #f3f4f6; }
+  .sspec__icon { display: flex; align-items: center; justify-content: center; width: 1.875rem; height: 1.875rem; border-radius: 8px; background: #ede9fe; color: #7c3aed; flex-shrink: 0; margin-top: .0625rem; }
+  .sspec__info { display: flex; flex-direction: column; gap: .125rem; min-width: 0; }
+  .sspec__label { font-size: .625rem; color: #9ca3af; font-weight: 700; text-transform: uppercase; letter-spacing: .06em; }
+  .sspec__value { font-size: .9375rem; font-weight: 800; color: #111827; line-height: 1.2; }
+  .sspec__note { font-size: .6875rem; color: #6b7280; line-height: 1.4; margin-top: .0625rem; }
+  .specs-panel__cta { display: flex; align-items: center; gap: 1rem; flex-wrap: wrap; }
+  .specs-panel__cta-btn { display: inline-flex; align-items: center; gap: .45rem; padding: .875rem 1.375rem; background: #25d366; color: #fff; font-weight: 700; font-size: .9375rem; border-radius: 10px; text-decoration: none; box-shadow: 0 4px 14px rgba(37,211,102,.3); }
+  .specs-panel__cta-btn:hover { background: #1fba59; }
+  .specs-panel__cta-note { font-size: .8125rem; color: #9ca3af; }
+
+  /* ── Scenarios ──────────────────────────────────────────────── */
+  .scenarios-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.25rem; margin-bottom: 2.5rem; }
+  .scenario-card { display: flex; flex-direction: column; gap: .75rem; padding: 1.5rem; background: #fff; border: 1px solid #e5e7eb; border-radius: 18px; box-shadow: 0 2px 8px rgba(0,0,0,.05); }
+  .scenario-card__header { display: flex; align-items: center; justify-content: space-between; gap: .5rem; }
+  .scenario-card__icon { display: flex; align-items: center; justify-content: center; width: 2.5rem; height: 2.5rem; border-radius: 12px; background: #f3e8ff; color: var(--c-primary, #7c3aed); flex-shrink: 0; }
+  .scenario-card__tag { font-size: .625rem; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; padding: .2rem .55rem; background: #dcfce7; color: #166534; border-radius: 999px; white-space: nowrap; }
+  .scenario-card__title { font-size: 1.0625rem; font-weight: 700; color: #111827; line-height: 1.3; margin: 0; }
+  .scenario-card__desc { font-size: .875rem; color: #4b5563; line-height: 1.7; margin: 0; }
+
+  /* ── Cuando CTA bar ─────────────────────────────────────────── */
+  .cuando-cta { display: flex; align-items: center; justify-content: space-between; gap: 1.5rem; padding: 1.5rem 2rem; background: #f9fafb; border: 1px solid #e5e7eb; border-radius: 16px; flex-wrap: wrap; }
+  .cuando-cta__text { font-size: 1rem; color: #374151; margin: 0; line-height: 1.5; }
+  .cuando-cta__btn { display: inline-flex; align-items: center; gap: .5rem; padding: .875rem 1.5rem; background: #25d366; color: #fff; font-weight: 700; font-size: .9375rem; border-radius: 10px; text-decoration: none; white-space: nowrap; flex-shrink: 0; box-shadow: 0 4px 14px rgba(37,211,102,.3); }
+  .cuando-cta__btn:hover { background: #1fba59; }
+
+  /* ── Otras grid ─────────────────────────────────────────────── */
+  .otras-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5rem; }
+
+  /* ── Responsive ─────────────────────────────────────────────── */
+  @media (max-width: 1100px) {
+    .comp-table th, .comp-table td { padding: .625rem .875rem; }
+  }
+  @media (max-width: 1024px) {
+    .specs-panel { grid-template-columns: 1fr 1.2fr; gap: 1.5rem; }
+  }
+  @media (max-width: 900px) {
+    .comp-grid      { grid-template-columns: 1fr; gap: 1rem; }
+    .comp-card__header { padding: 1.375rem 1.25rem 1.25rem; }
+    .fspecs-grid    { grid-template-columns: 1fr 1fr; }
+    .specs-panel    { grid-template-columns: 1fr; }
+    .specs-panel__img-col { order: -1; }
+    .scenarios-grid { grid-template-columns: repeat(2, 1fr); }
+    .otras-grid     { grid-template-columns: repeat(2, 1fr); }
+    .comp-table-wrap { overflow-x: auto; }
+  }
+  @media (max-width: 600px) {
+    .comp-grid      { grid-template-columns: 1fr; }
+    .fspecs-grid    { grid-template-columns: 1fr; }
+    .sspecs-grid    { grid-template-columns: 1fr; }
+    .scenarios-grid { grid-template-columns: 1fr; }
+    .otras-grid     { grid-template-columns: 1fr; }
+    .cuando-cta     { flex-direction: column; align-items: flex-start; }
+    .cuando-cta__btn { width: 100%; justify-content: center; }
+    .specs-panel    { padding: 1.25rem; border-radius: 16px; }
+    .specs-panel__cta { flex-direction: column; align-items: stretch; }
+    .specs-panel__cta-btn { justify-content: center; }
+  }
+</style>

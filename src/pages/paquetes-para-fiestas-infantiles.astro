@@ -1,0 +1,702 @@
+---
+// src/pages/paquetes-para-fiestas-infantiles.astro — Paquetes INFLAFI
+// Ruta: /paquetes-para-fiestas-infantiles
+// SEO: "paquetes fiestas infantiles CDMX" · "renta inflable con pintacaritas" · "paquete cumpleaños niños CDMX"
+
+import PageLayout     from '@layouts/PageLayout.astro'
+import Hero           from '@components/Hero.astro'
+import SectionHeading from '@components/SectionHeading.astro'
+import CTABanner      from '@components/CTABanner.astro'
+import FAQWithContact from '@components/FAQWithContact.astro'
+import SectionMenu    from '@components/SectionMenu.astro'
+
+import { waUrl, WA_MESSAGES, CONTACT } from '@config/site'
+import type { FaqItem } from '@lib/seo'
+
+const WA_ICON = 'M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z'
+
+// ── PAQUETES ─────────────────────────────────────────────────────────────────
+const PAQUETES = [
+  {
+    id: 'starter',
+    nombre: 'Paquete Starter',
+    tagline: 'Para empezar sin complicaciones',
+    idealPara: '15 a 20 niños · jardín pequeño o terraza · desde 1 año',
+    gradient: 'linear-gradient(135deg, #0369a1 0%, #0ea5e9 100%)',
+    badge: 'Más accesible',
+    horas: '4 horas',
+    icon: '<path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/>',
+    incluye: [
+      'Inflable mediano a elegir (Dragones Rojos, Mini Jungla o Gusanitos)',
+      'Soplador continuo de 750 W incluido',
+      'Entrega, montaje y desmontaje en CDMX',
+      '4 anclas de seguridad',
+      '4 horas de uso ininterrumpido',
+      'Soporte inmediato ante cualquier falla técnica',
+    ],
+    addOns: ['+ Pintacaritas', '+ Mobiliario infantil', '+ Decoración'],
+    desc: 'El Starter es el punto de entrada perfecto: inflable mediano de 4 metros con todo lo necesario para que funcione perfectamente — soplador, anclas, montaje y desmontaje incluidos. Para quien ya tiene animador, música y decoración, y solo necesita el inflable con garantía de calidad.',
+    waMsg: 'Hola, me interesa cotizar el Paquete Starter (inflable mediano, 4 horas) para mi fiesta en CDMX. ¿Qué disponibilidad tienen?',
+  },
+  {
+    id: 'festivo',
+    nombre: 'Paquete Festivo',
+    tagline: 'El combo más rentado del catálogo',
+    idealPara: '20 a 30 niños · jardín mediano · de 3 a 10 años',
+    gradient: 'linear-gradient(135deg, #059669 0%, #10b981 100%)',
+    badge: 'El más pedido',
+    horas: '4 horas',
+    icon: '<path d="M12 20h9M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/>',
+    incluye: [
+      'Inflable mediano a elegir (Dragones Rojos, Mini Jungla o Gusanitos)',
+      'Pintacaritas profesional · 3 horas · hasta 45 niños',
+      'Más de 80 diseños de maquillaje artístico a elegir',
+      'Pinturas atóxicas, antialérgicas y de fácil remoción',
+      'Soplador + entrega + montaje + desmontaje',
+      '4 horas de uso para el inflable',
+    ],
+    addOns: ['+ Mobiliario infantil', '+ Decoración temática', '+ Mesa de dulces'],
+    desc: 'El Festivo es la combinación que más se repite porque funciona: inflable mediano para que los niños brinquen y pintacaritas para los que esperan turno. Las dos actividades se retroalimentan — los niños salen del inflable a pintarse y de pintarse vuelven al inflable. El evento fluye solo sin que los papás tengan que coordinar nada.',
+    waMsg: 'Hola, me interesa cotizar el Paquete Festivo (inflable mediano + pintacaritas 3h) para mi fiesta en CDMX.',
+  },
+  {
+    id: 'cumpleanos',
+    nombre: 'Paquete Cumpleaños',
+    tagline: 'El evento completo para el festejado',
+    idealPara: '25 a 40 niños · jardín mediano-grande · de 4 a 10 años',
+    gradient: 'linear-gradient(135deg, #6d28d9 0%, #c084fc 100%)',
+    badge: 'El más completo',
+    horas: '5 horas',
+    icon: '<path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>',
+    incluye: [
+      'Inflable mediano a elegir (Dragones Rojos, Mini Jungla o Gusanitos)',
+      'Pintacaritas profesional · 3 horas · hasta 45 niños',
+      'Mobiliario infantil: 4 mesas redondas + 24 sillas a escala',
+      'Mantelería blanca incluida en las mesas',
+      'Soplador + entrega + montaje + desmontaje',
+      '5 horas de uso para el inflable',
+    ],
+    addOns: ['+ Decoración temática', '+ Mesa de dulces', '+ Máquina de palomitas'],
+    desc: 'El Paquete Cumpleaños resuelve las tres necesidades principales de cualquier fiesta infantil: entretenimiento activo (inflable), entretenimiento creativo (pintacaritas) y mobiliario a escala para que los niños se sienten cómodamente a comer, abrir regalos o ver el show. Con 5 horas de uso tienes margen para todo sin prisas.',
+    waMsg: 'Hola, me interesa cotizar el Paquete Cumpleaños (inflable + pintacaritas + mobiliario para 24 niños) para una fiesta en CDMX.',
+  },
+  {
+    id: 'princesas',
+    nombre: 'Paquete Princesas',
+    tagline: 'El cumpleaños de niña más completo del catálogo',
+    idealPara: 'Niñas de 3 a 9 años · 20 a 35 invitados · cualquier jardín',
+    gradient: 'linear-gradient(135deg, #9d174d 0%, #f472b6 100%)',
+    badge: 'Favorito de niñas',
+    horas: '5 horas',
+    icon: '<path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>',
+    incluye: [
+      'Castillo de Princesas (4×3.3×3 m) — rosa y lila',
+      'Decoración temática princesas: arco de globos + centros de mesa + globos sueltos',
+      'Pintacaritas 3h · diseños de mariposas, flores, coronas y hadas',
+      'Mesa de dulces temática para 30 personas con letrero personalizado',
+      'Soplador + entrega + montaje + desmontaje',
+      '5 horas de uso para el inflable',
+    ],
+    addOns: ['+ Mobiliario infantil', '+ Telón fotográfico extra', '+ Máquina de palomitas'],
+    desc: 'El Paquete Princesas es la solución completa para el cumpleaños de niña: el Castillo de Princesas como eje del entretenimiento, decoración coordinada en rosa y lavanda, pintacaritas con diseños de mariposas y coronas, y una mesa de dulces temática con nombre y edad de la festejada. Todo coordinado por el mismo equipo — una sola llamada, un solo día de montaje, todo en rosa.',
+    waMsg: 'Hola, me interesa cotizar el Paquete Princesas (Castillo + decoración + pintacaritas + mesa de dulces) para el cumpleaños de mi hija en CDMX.',
+  },
+  {
+    id: 'heroes',
+    nombre: 'Paquete Héroes',
+    tagline: 'La aventura completa para el cumpleaños de niño',
+    idealPara: 'Niños de 4 a 12 años · 20 a 35 invitados · jardín mediano-grande',
+    gradient: 'linear-gradient(135deg, #b91c1c 0%, #1d4ed8 100%)',
+    badge: 'Favorito de niños',
+    horas: '5 horas',
+    icon: '<path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>',
+    incluye: [
+      'Inflable temático a elegir: Superhéroes, Dinosaurio Rex o Ninjas',
+      'Decoración coordinada con la temática elegida (colores + elementos)',
+      'Pintacaritas 3h · diseños temáticos (máscaras, animales, héroes)',
+      'Mobiliario infantil: 3 mesas + 18 sillas a escala',
+      'Soplador + entrega + montaje + desmontaje',
+      '5 horas de uso para el inflable',
+    ],
+    addOns: ['+ Mesa de dulces temática', '+ Pintacaritas 4h', '+ Máquina de palomitas'],
+    desc: 'El Paquete Héroes está construido para que la temática sea coherente de principio a fin: el inflable con el personaje elegido, la decoración con sus colores y elementos, el pintacaritas con los diseños de la misma historia. Todo se ve coordinado en las fotos — y los niños lo viven como si fueran parte de la aventura. Para los papás: una sola cotización, un solo equipo de montaje.',
+    waMsg: 'Hola, me interesa cotizar el Paquete Héroes (inflable temático + decoración + pintacaritas + mobiliario) para el cumpleaños de mi hijo en CDMX.',
+  },
+  {
+    id: 'grand-fiesta',
+    nombre: 'Paquete Grand Fiesta',
+    tagline: 'Para el evento que nadie va a olvidar',
+    idealPara: '40+ invitados · jardín grande o quinta · eventos especiales',
+    gradient: 'linear-gradient(135deg, #92400e 0%, #f59e0b 100%)',
+    badge: 'Máximo impacto',
+    horas: '6 horas',
+    icon: '<path d="M5 3l14 9-14 9V3z"/>',
+    incluye: [
+      'Inflable grande a elegir: Extrem (4.8 m + tobogán) o Barco Pirata (7 m)',
+      'Decoración temática completa: arco de globos + centros de mesa + telón fotográfico',
+      'Pintacaritas profesional · 4 horas · hasta 60 niños',
+      'Mobiliario infantil: 5 mesas + 30 sillas a escala con mantelería',
+      'Máquina de palomitas · 3 horas · 100+ porciones',
+      'Soplador + entrega + montaje + desmontaje',
+      '6 horas de uso para el inflable',
+    ],
+    addOns: ['+ Mesa de dulces premium', '+ 2do artista pintacaritas', '+ Pantalla inflable'],
+    desc: 'El Grand Fiesta es para el evento que no puede quedar a medias: inflable grande de hasta 7 metros, decoración temática completa, pintacaritas durante 4 horas para hasta 60 niños, mobiliario para 30 niños y máquina de palomitas durante todo el evento. Es el paquete que los papás contratan cuando quieren que su hijo hable de su fiesta durante años.',
+    waMsg: 'Hola, me interesa cotizar el Paquete Grand Fiesta (inflable grande + decoración + pintacaritas + mobiliario + palomitas) para un evento en CDMX.',
+  },
+]
+
+// ── SIEMPRE INCLUIDO ──────────────────────────────────────────────────────────
+const SIEMPRE = [
+  {
+    icon: '<path d="M5 12h14M12 5l7 7-7 7"/>',
+    label: 'Entrega puntual en CDMX',
+    desc: 'El equipo llega al venue 45 min antes del inicio del evento. Sin retrasos — o te avisamos con anticipación si hay algún contratiempo.',
+  },
+  {
+    icon: '<path d="M14.7 6.3a1 1 0 000 1.4l1.6 1.6a1 1 0 001.4 0l3.77-3.77a6 6 0 01-7.94 7.94l-6.91 6.91a2.12 2.12 0 01-3-3l6.91-6.91a6 6 0 017.94-7.94l-3.76 3.76z"/>',
+    label: 'Montaje y desmontaje profesional',
+    desc: 'Montamos en 15-20 minutos sin que tengas que mover nada. Al cierre del evento recogemos todo y dejamos el espacio como estaba.',
+  },
+  {
+    icon: '<path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/>',
+    label: 'Soplador continuo incluido',
+    desc: 'El inflable necesita soplador funcionando durante todo el evento. Lo incluimos en todos los paquetes — no es un extra oculto.',
+  },
+  {
+    icon: '<path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>',
+    label: 'Anclas de seguridad',
+    desc: 'Todos nuestros inflables se instalan con anclaje adecuado al tipo de superficie del venue. Nunca se monta un inflable sin asegurar.',
+  },
+  {
+    icon: '<path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.99 12 19.79 19.79 0 0 1 1.93 3.42 2 2 0 0 1 3.9 1h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 8.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/>',
+    label: 'Soporte durante el evento',
+    desc: 'Si algo falla durante el evento, tienes un número directo de WhatsApp para soporte inmediato. Rara vez pasa — pero si pasa, respondemos en minutos.',
+  },
+  {
+    icon: '<path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/>',
+    label: 'Limpieza y desinfección previa',
+    desc: 'Cada inflable pasa por limpieza profunda y desinfección con productos aptos para niños antes de cada evento. Sin excepciones.',
+  },
+]
+
+// ── CÓMO FUNCIONA ─────────────────────────────────────────────────────────────
+const PASOS = [
+  {
+    num: '01',
+    title: 'Cotiza por WhatsApp',
+    desc: 'Escríbenos con el paquete que te interesa, la fecha, el número estimado de niños y el municipio o alcaldía del evento. Respondemos en minutos con disponibilidad y precio exacto.',
+    icon: '<path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>',
+  },
+  {
+    num: '02',
+    title: 'Personalizamos el paquete',
+    desc: 'Te confirmamos disponibilidad y ajustamos los detalles: modelo de inflable, temática de la decoración, diseños del pintacaritas y cualquier add-on que necesites. Sin burocracia.',
+    icon: '<path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"/><path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"/>',
+  },
+  {
+    num: '03',
+    title: 'Confirmas con el 30%',
+    desc: 'El anticipo del 30% asegura tu fecha y tu paquete. El saldo se paga el día del evento antes de que el equipo empiece el montaje. Sin pagos adicionales después.',
+    icon: '<path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/>',
+  },
+  {
+    num: '04',
+    title: 'Llegamos y montamos todo',
+    desc: 'El equipo llega 45 minutos antes del inicio. Monta el inflable, instala el mobiliario, arma la decoración y deja todo listo antes de que llegue el primer invitado.',
+    icon: '<rect x="1" y="3" width="15" height="13" rx="1"/><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/>',
+  },
+]
+
+// ── FAQ ───────────────────────────────────────────────────────────────────────
+const FAQS: FaqItem[] = [
+  {
+    question: '¿Se puede personalizar el paquete o cambiar algún elemento?',
+    answer: 'Sí, todos los paquetes son un punto de partida, no una lista fija. Puedes cambiar el modelo de inflable dentro de la categoría del paquete, agregar o quitar elementos, o combinar partes de diferentes paquetes. Cuéntanos exactamente qué necesitas y armamos la cotización a medida.',
+  },
+  {
+    question: '¿Qué pasa si llueve el día del evento?',
+    answer: 'Los inflables no se pueden operar con lluvia activa por seguridad. Si el evento es en exterior y llueve, suspendemos la instalación del inflable hasta que pare. Si la lluvia impide completamente el evento, reagendamos sin penalización para la fecha más cercana disponible. La decoración y el mobiliario pueden instalarse bajo techo si el venue tiene opción.',
+  },
+  {
+    question: '¿Cuál es la política de cancelación?',
+    answer: 'Cancelación con más de 72 horas de anticipación: el anticipo del 30% se devuelve íntegro o se aplica a una nueva fecha. Cancelación con menos de 72 horas: el anticipo se retiene pero se puede aplicar a reagendar dentro de los 60 días siguientes. Cancelación el mismo día del evento: el anticipo no es reembolsable.',
+  },
+  {
+    question: '¿Puedo agregar servicios al paquete después de reservar?',
+    answer: 'Sí, siempre que haya disponibilidad del servicio adicional para tu fecha. Cuanto antes confirmes el add-on, mayor probabilidad de disponibilidad. Algunos servicios como el pintacaritas tienen agenda propia — es mejor confirmarlo junto con el paquete.',
+  },
+  {
+    question: '¿El precio del paquete incluye el IVA?',
+    answer: 'Sí, todos nuestros precios se cotizan ya con IVA incluido. El precio que recibes por WhatsApp es el precio final — sin cargos adicionales por traslado dentro de CDMX, montaje o soplador. Si el evento está fuera de CDMX o zona metropolitana cercana, puede aplicar un cargo adicional de traslado que te informamos antes de confirmar.',
+  },
+  {
+    question: '¿Hay descuento si contrato más de un paquete o si soy cliente frecuente?',
+    answer: 'Tenemos precio preferencial para clientes recurrentes y para quienes nos refieren a nuevos clientes. También manejamos descuentos para organizadores de eventos que contratan varios paquetes en el mismo mes. Consúltanos directamente — no tenemos una tabla fija porque preferimos ajustarlo caso por caso.',
+  },
+]
+---
+
+<PageLayout
+  title="Paquetes para Fiestas Infantiles CDMX — Todo Incluido | INFLAFI"
+  description="6 paquetes para fiestas infantiles en CDMX: inflable + pintacaritas + decoración + mobiliario. Starter, Festivo, Cumpleaños, Princesas, Héroes y Grand Fiesta. Precio de paquete, una sola logística."
+  image="/images/og/paquetes.jpg"
+  pageType="category"
+  breadcrumbs={[{ label: 'Paquetes', href: '/paquetes-para-fiestas-infantiles' }]}
+>
+
+  <!-- BREADCRUMBS ─────────────────────────────────────────────────────────── -->
+  <nav class="breadcrumbs" aria-label="Migas de pan">
+    <div class="bc-inner">
+      <ol class="bc-list">
+        <li><a href="/" class="bc-link">Inicio</a></li>
+        <li aria-hidden="true" class="bc-sep">›</li>
+        <li><span class="bc-current" aria-current="page">Paquetes</span></li>
+      </ol>
+    </div>
+  </nav>
+
+  <!-- HERO ────────────────────────────────────────────────────────────────── -->
+  <Hero
+    badge="6 paquetes · Todo incluido · Precio de paquete · CDMX"
+    title="Paquetes para"
+    accent="Fiestas Infantiles"
+    subtitle="Inflable + pintacaritas + decoración + mobiliario con una sola cotización y un solo equipo de entrega. Más servicios, menos coordinación — y siempre más barato que contratar todo por separado."
+    descRight={[
+      "Los paquetes INFLAFI están diseñados para quitar la carga de coordinación de los papás: un proveedor para el inflable, el pintacaritas, la decoración y el mobiliario. Todo llega junto, se monta junto y se recoge junto. El precio de paquete es siempre más conveniente que contratar cada elemento por separado.",
+      "Hay 6 paquetes: desde el Starter básico con inflable mediano hasta el Grand Fiesta con inflable grande de 7 metros, pintacaritas 4 horas, decoración completa, mobiliario para 30 niños y máquina de palomitas. Todos son personalizables — cuéntanos qué necesitas y lo ajustamos.",
+    ]}
+    ctas={[
+      { text: '¡Cotizar mi paquete!', href: waUrl(WA_MESSAGES.paquetes), variant: 'primary', whatsapp: true },
+      { text: 'Ver los paquetes', href: '#paquetes', variant: 'outline' },
+    ]}
+    ariaLabel="Paquetes para fiestas infantiles CDMX — INFLAFI"
+  />
+
+  <!-- MENÚ DE SECCIONES ───────────────────────────────────────────────────── -->
+  <SectionMenu items={[
+    { label: 'Starter',      sub: 'Inflable · 4h',                href: '#starter',      icon: 'M13 2L3 14h9l-1 8 10-12h-9l1-8z' },
+    { label: 'Festivo',      sub: 'Inflable + pintacaritas',      href: '#festivo',      icon: 'M12 20h9M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z' },
+    { label: 'Cumpleaños',   sub: 'Inflable + pinta + mobiliario',href: '#cumpleanos',   icon: 'M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z' },
+    { label: 'Princesas',    sub: 'Castillo + deco + dulces',     href: '#princesas',    icon: 'M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z' },
+    { label: 'Héroes',       sub: 'Temático + deco + pinta',      href: '#heroes',       icon: 'M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z' },
+    { label: 'Grand Fiesta', sub: 'Grande + todo incluido · 6h', href: '#grand-fiesta', icon: 'M5 3l14 9-14 9V3z' },
+    { label: 'Cotizar ya',   sub: 'Respuesta inmediata', href: waUrl(WA_MESSAGES.paquetes), icon: WA_ICON, cta: true },
+  ]} />
+
+  <!-- ① LOS 6 PAQUETES ───────────────────────────────────────────────────── -->
+  <section id="paquetes" class="section" aria-labelledby="paq-heading">
+    <div class="container">
+      <SectionHeading
+        id="paq-heading"
+        eyebrow="6 paquetes disponibles · todos personalizables"
+        title="Elige el paquete"
+        titleAccent="que se ajusta a tu fiesta"
+        layout="duo"
+        body={[
+          "Cada paquete tiene un punto de partida claro: quién es el festejado, cuántos niños asisten, cuántas horas dura el evento y qué nivel de entretenimiento necesitas. Desde el Starter básico hasta el Grand Fiesta con todo incluido.",
+          "Todos los paquetes son personalizables antes de confirmar: puedes cambiar el modelo de inflable dentro de la categoría, ajustar la temática de la decoración, agregar add-ons o combinar elementos. Cuéntanos qué necesitas y armamos la cotización exacta.",
+        ]}
+      />
+
+      <div class="paq-stack">
+        {PAQUETES.map((paq) => (
+          <div id={paq.id} class="paq-card" style={`--paq-gradient: ${paq.gradient}`}>
+
+            <!-- Header con gradiente -->
+            <div class="paq-card__header">
+              <div class="paq-card__header-left">
+                <svg class="paq-card__icon" width="28" height="28" viewBox="0 0 24 24"
+                  fill="none" stroke="rgba(255,255,255,.95)" stroke-width="1.7"
+                  stroke-linecap="round" stroke-linejoin="round"
+                  set:html={paq.icon} aria-hidden="true"
+                />
+                <div>
+                  <h2 class="paq-card__name">{paq.nombre}</h2>
+                  <p class="paq-card__tagline">{paq.tagline}</p>
+                </div>
+              </div>
+              <div class="paq-card__header-right">
+                <span class="paq-card__badge">{paq.badge}</span>
+                <span class="paq-card__horas">{paq.horas}</span>
+              </div>
+            </div>
+
+            <!-- Ideal para -->
+            <div class="paq-card__ideal">
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+              <span>Ideal para: <strong>{paq.idealPara}</strong></span>
+            </div>
+
+            <!-- Grid: descripción + incluye -->
+            <div class="paq-card__grid">
+              <div class="paq-card__desc-col">
+                <p class="paq-card__desc">{paq.desc}</p>
+
+                <!-- Add-ons disponibles -->
+                <div class="paq-card__addons">
+                  <p class="paq-card__addons-label">Add-ons disponibles para este paquete</p>
+                  <div class="paq-card__addons-pills">
+                    {paq.addOns.map(a => (
+                      <span class="paq-card__addon-pill">{a}</span>
+                    ))}
+                  </div>
+                </div>
+
+                <a
+                  href={waUrl(paq.waMsg)}
+                  class="paq-card__cta"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                    <path d={WA_ICON}/>
+                  </svg>
+                  Cotizar {paq.nombre}
+                </a>
+              </div>
+
+              <div class="paq-card__includes">
+                <p class="paq-card__includes-title">
+                  <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+                  Qué incluye
+                </p>
+                <ul class="paq-card__list">
+                  {paq.incluye.map(item => (
+                    <li class="paq-card__list-item">
+                      <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+                      {item}
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            </div>
+
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- ② CÓMO FUNCIONA ────────────────────────────────────────────────────── -->
+  <section class="section section--como" aria-labelledby="como-heading">
+    <div class="container">
+      <SectionHeading
+        id="como-heading"
+        eyebrow="Del primer mensaje al montaje — 4 pasos"
+        title="Cómo reservar tu paquete"
+        titleAccent="en INFLAFI"
+        layout="duo"
+        body={[
+          "El proceso está diseñado para ser rápido y sin burocracia: desde el primer WhatsApp hasta la confirmación de tu reserva, el tiempo promedio es menos de una hora. Sin formularios, sin esperas de 24 horas, sin cotizaciones que llegan días después.",
+          "El día del evento el equipo llega 45 minutos antes para que todo esté montado cuando llegue el primer invitado. Al cierre, recogen todo y dejan el venue como estaba — sin que tengas que preocuparte por la limpieza.",
+        ]}
+      />
+
+      <div class="pasos-grid">
+        {PASOS.map((paso) => (
+          <div class="paso-card">
+            <div class="paso-card__num">{paso.num}</div>
+            <div class="paso-card__icon" aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="1.8"
+                stroke-linecap="round" stroke-linejoin="round"
+                set:html={paso.icon}
+              />
+            </div>
+            <h3 class="paso-card__title">{paso.title}</h3>
+            <p class="paso-card__desc">{paso.desc}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- ③ SIEMPRE INCLUIDO ──────────────────────────────────────────────────── -->
+  <section class="section section--siempre" aria-labelledby="siempre-heading">
+    <div class="container">
+      <SectionHeading
+        id="siempre-heading"
+        eyebrow="La base de calidad que aplica a todos los paquetes"
+        title="Lo que siempre está incluido,"
+        titleAccent="sin importar qué paquete elijas"
+        layout="duo"
+        body={[
+          "Independientemente del paquete, hay 6 cosas que INFLAFI incluye siempre en cada renta: entrega puntual, montaje profesional, soplador continuo, anclas de seguridad, soporte durante el evento y limpieza previa. Sin excepciones, sin cargos ocultos.",
+          "La razón es simple: si algo de esto falla, el evento falla. Preferimos ser muy explícitos sobre lo que está incluido que tener la conversación incómoda de un cargo que el cliente no esperaba.",
+        ]}
+      />
+
+      <div class="siempre-grid">
+        {SIEMPRE.map((s) => (
+          <div class="siempre-card">
+            <div class="siempre-card__icon" aria-hidden="true">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="1.8"
+                stroke-linecap="round" stroke-linejoin="round"
+                set:html={s.icon}
+              />
+            </div>
+            <div class="siempre-card__content">
+              <h3 class="siempre-card__title">{s.label}</h3>
+              <p class="siempre-card__desc">{s.desc}</p>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- ④ FAQ ────────────────────────────────────────────────────────────────── -->
+  <FAQWithContact
+    eyebrow="Preguntas frecuentes sobre los paquetes"
+    title="Lo que más nos preguntan"
+    titleAccent="antes de reservar"
+    body={[
+      "Personalización, lluvia, cancelación, add-ons y precios. Las preguntas más comunes resueltas para que llegues a la cotización con todo claro.",
+      "Si tu pregunta no está aquí o tienes un evento con características especiales, escríbenos por WhatsApp — respondemos de lunes a domingo en minutos.",
+    ]}
+    faqs={FAQS}
+    showContact={true}
+  />
+
+  <!-- CTA BANNER ───────────────────────────────────────────────────────────── -->
+  <CTABanner
+    heading="¿Ya sabes qué paquete necesitas?"
+    desc="Cotiza en minutos por WhatsApp con la fecha, el número de niños y el paquete de interés. Confirmamos disponibilidad y precio de inmediato."
+    variant="primary"
+    btns={[
+      { label: 'Cotizar mi paquete', href: waUrl(WA_MESSAGES.paquetes), icon: 'wa', primary: true, external: true },
+      { label: `Llamar: ${CONTACT.phone}`, href: `tel:${CONTACT.phoneE164}`, icon: 'phone', primary: false },
+    ]}
+    badge="30% de anticipo asegura tu fecha · Sin cargos ocultos"
+  />
+
+</PageLayout>
+
+<style>
+  .container { max-width: var(--container-max, 1400px); margin-inline: auto; padding-inline: var(--container-px, 1.5rem); }
+
+  /* Breadcrumbs */
+  .breadcrumbs { background: #fff; border-bottom: 1px solid #e5e7eb; }
+  .bc-inner { max-width: var(--container-max, 1400px); margin-inline: auto; padding-inline: var(--container-px, 1.5rem); padding-block: .625rem; }
+  .bc-list { list-style: none; margin: 0; padding: 0; display: flex; align-items: center; gap: .375rem; flex-wrap: wrap; }
+  .bc-link    { font-size: .8125rem; color: var(--c-primary, #7c3aed); text-decoration: none; }
+  .bc-link:hover { text-decoration: underline; }
+  .bc-sep     { font-size: .8125rem; color: #9ca3af; user-select: none; }
+  .bc-current { font-size: .8125rem; color: #4b5563; font-weight: 500; }
+
+  /* Sections */
+  .section         { padding: clamp(3.5rem, 7vw, 5.5rem) 0; }
+  .section--como   { background: #f3f4f6; }
+  .section--siempre { background: var(--c-surface, #f9fafb); }
+
+  /* ═══════════════════════════════════════════
+     PAQUETES STACK
+  ═══════════════════════════════════════════ */
+  .paq-stack { display: flex; flex-direction: column; gap: 1.5rem; }
+
+  .paq-card {
+    background: #fff;
+    border: 1px solid #e5e7eb;
+    border-radius: 22px;
+    overflow: hidden;
+    box-shadow: 0 4px 20px rgba(0,0,0,.07);
+    scroll-margin-top: 80px;
+  }
+
+  /* Header con gradiente */
+  .paq-card__header {
+    background: var(--paq-gradient);
+    padding: 1.5rem 1.75rem;
+    display: flex; align-items: center; justify-content: space-between; gap: 1rem;
+    flex-wrap: wrap;
+  }
+  .paq-card__header-left {
+    display: flex; align-items: center; gap: .875rem;
+  }
+  .paq-card__icon { flex-shrink: 0; }
+  .paq-card__name {
+    font-size: 1.375rem; font-weight: 900; color: #fff;
+    margin: 0; line-height: 1.15; letter-spacing: -.025em;
+  }
+  .paq-card__tagline {
+    font-size: .8125rem; color: rgba(255,255,255,.78);
+    margin: .125rem 0 0; font-weight: 500;
+  }
+  .paq-card__header-right {
+    display: flex; flex-direction: column; align-items: flex-end; gap: .375rem;
+    flex-shrink: 0;
+  }
+  .paq-card__badge {
+    padding: .25rem .75rem;
+    background: rgba(255,255,255,.2);
+    backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px);
+    border: 1px solid rgba(255,255,255,.3);
+    border-radius: 999px;
+    font-size: .6875rem; font-weight: 700; letter-spacing: .07em;
+    text-transform: uppercase; color: #fff; white-space: nowrap;
+  }
+  .paq-card__horas {
+    font-size: .8125rem; font-weight: 700; color: rgba(255,255,255,.88);
+    padding: .2rem .65rem;
+    background: rgba(0,0,0,.15);
+    border-radius: 999px; white-space: nowrap;
+  }
+
+  /* Ideal para */
+  .paq-card__ideal {
+    display: flex; align-items: center; gap: .5rem;
+    padding: .875rem 1.75rem;
+    background: #f9fafb; border-bottom: 1px solid #f3f4f6;
+    font-size: .875rem; color: #374151;
+  }
+  .paq-card__ideal svg { flex-shrink: 0; color: var(--c-primary, #7c3aed); }
+  .paq-card__ideal strong { color: #111827; }
+
+  /* Grid 2 cols */
+  .paq-card__grid {
+    display: grid; grid-template-columns: 1.1fr 1fr; gap: 0;
+  }
+  .paq-card__desc-col {
+    padding: 1.75rem;
+    border-right: 1px solid #f3f4f6;
+    display: flex; flex-direction: column; gap: 1.25rem;
+  }
+  .paq-card__desc {
+    font-size: .9375rem; color: #374151; line-height: 1.75; margin: 0;
+  }
+
+  /* Add-ons */
+  .paq-card__addons {
+    background: #fafafa; border: 1px solid #f3f4f6;
+    border-radius: 12px; padding: .875rem 1rem;
+  }
+  .paq-card__addons-label {
+    font-size: .6875rem; font-weight: 700; text-transform: uppercase;
+    letter-spacing: .07em; color: #9ca3af; margin: 0 0 .5rem;
+  }
+  .paq-card__addons-pills {
+    display: flex; flex-wrap: wrap; gap: .375rem;
+  }
+  .paq-card__addon-pill {
+    padding: .25rem .65rem;
+    background: rgba(124,58,237,.07); color: var(--c-primary, #7c3aed);
+    border: 1px solid rgba(124,58,237,.18); border-radius: 999px;
+    font-size: .75rem; font-weight: 600; white-space: nowrap;
+  }
+
+  /* CTA */
+  .paq-card__cta {
+    display: flex; align-items: center; justify-content: center; gap: .5rem;
+    padding: 1rem 1.375rem; background: #25d366; color: #fff;
+    font-weight: 700; font-size: .9375rem;
+    border-radius: 12px; text-decoration: none; margin-top: auto;
+    box-shadow: 0 4px 14px rgba(37,211,102,.3);
+  }
+  .paq-card__cta:hover { background: #1fba59; }
+
+  /* Incluye col */
+  .paq-card__includes {
+    padding: 1.75rem;
+    background: #f9fafb;
+  }
+  .paq-card__includes-title {
+    display: flex; align-items: center; gap: .4rem;
+    font-size: .6875rem; font-weight: 700; text-transform: uppercase;
+    letter-spacing: .08em; color: #374151;
+    margin: 0 0 .875rem; padding-bottom: .625rem;
+    border-bottom: 1px solid #e5e7eb;
+  }
+  .paq-card__list {
+    list-style: none; margin: 0; padding: 0;
+    display: flex; flex-direction: column; gap: .5rem;
+  }
+  .paq-card__list-item {
+    display: flex; align-items: flex-start; gap: .5rem;
+    font-size: .875rem; color: #374151; line-height: 1.5;
+  }
+  .paq-card__list-item svg { flex-shrink: 0; margin-top: .175rem; color: #16a34a; }
+
+  /* ═══════════════════════════════════════════
+     CÓMO FUNCIONA — 4 pasos
+  ═══════════════════════════════════════════ */
+  .pasos-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.25rem;
+  }
+  .paso-card {
+    padding: 1.75rem 1.375rem 2rem;
+    background: #fff; border: 1px solid #e5e7eb; border-radius: 18px;
+    box-shadow: 0 2px 8px rgba(0,0,0,.05);
+    display: flex; flex-direction: column; gap: .75rem;
+    position: relative;
+  }
+  .paso-card__num {
+    font-size: 2.5rem; font-weight: 900; letter-spacing: -.04em;
+    color: rgba(124,58,237,.12); line-height: 1;
+    position: absolute; top: 1rem; right: 1.25rem;
+  }
+  .paso-card__icon {
+    width: 2.75rem; height: 2.75rem; border-radius: 12px;
+    background: rgba(124,58,237,.08); color: var(--c-primary, #7c3aed);
+    display: flex; align-items: center; justify-content: center; flex-shrink: 0;
+  }
+  .paso-card__title {
+    font-size: 1rem; font-weight: 800; color: #111827;
+    margin: 0; line-height: 1.25;
+  }
+  .paso-card__desc {
+    font-size: .875rem; color: #4b5563; line-height: 1.7; margin: 0;
+  }
+
+  /* ═══════════════════════════════════════════
+     SIEMPRE INCLUIDO
+  ═══════════════════════════════════════════ */
+  .siempre-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.125rem;
+  }
+  .siempre-card {
+    display: flex; align-items: flex-start; gap: 1rem;
+    padding: 1.375rem 1.25rem;
+    background: #fff; border: 1px solid #e5e7eb; border-radius: 16px;
+    box-shadow: 0 2px 8px rgba(0,0,0,.04);
+  }
+  .siempre-card__icon {
+    width: 2.5rem; height: 2.5rem; border-radius: 10px;
+    background: #f0fdf4; color: #16a34a;
+    display: flex; align-items: center; justify-content: center; flex-shrink: 0;
+    margin-top: .0625rem;
+  }
+  .siempre-card__content { display: flex; flex-direction: column; gap: .375rem; }
+  .siempre-card__title {
+    font-size: .9375rem; font-weight: 700; color: #111827; margin: 0; line-height: 1.25;
+  }
+  .siempre-card__desc {
+    font-size: .8125rem; color: #4b5563; line-height: 1.65; margin: 0;
+  }
+
+  /* ═══════════════════════════════════════════
+     RESPONSIVE
+  ═══════════════════════════════════════════ */
+  @media (max-width: 1024px) {
+    .pasos-grid { grid-template-columns: repeat(2, 1fr); }
+  }
+  @media (max-width: 860px) {
+    .paq-card__grid { grid-template-columns: 1fr; }
+    .paq-card__desc-col { border-right: none; border-bottom: 1px solid #f3f4f6; }
+    .siempre-grid { grid-template-columns: repeat(2, 1fr); }
+  }
+  @media (max-width: 640px) {
+    .paq-card__header { flex-direction: column; align-items: flex-start; gap: .75rem; }
+    .paq-card__header-right { align-items: flex-start; flex-direction: row; flex-wrap: wrap; }
+    .pasos-grid { grid-template-columns: 1fr; }
+    .siempre-grid { grid-template-columns: 1fr; }
+    .paq-card__desc-col { padding: 1.25rem; }
+    .paq-card__includes { padding: 1.25rem; }
+    .paq-card__ideal { padding: .75rem 1.25rem; }
+  }
+</style>

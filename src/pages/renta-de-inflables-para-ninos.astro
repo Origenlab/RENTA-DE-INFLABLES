@@ -1,0 +1,823 @@
+---
+// src/pages/renta-de-inflables-para-ninos.astro — L3 · Inflables para Niños · INFLAFI
+// Ruta: /renta-de-inflables-para-ninos
+// SEO objetivo: "inflable para niño temático CDMX" · "inflable superhéroes CDMX" · "brincolín dinosaurios CDMX"
+
+import PageLayout     from '@layouts/PageLayout.astro'
+import Hero           from '@components/Hero.astro'
+import SectionHeading from '@components/SectionHeading.astro'
+import CategoryCard   from '@components/CategoryCard.astro'
+import CategoryDetail from '@components/CategoryDetail.astro'
+import CTABanner      from '@components/CTABanner.astro'
+import FAQWithContact from '@components/FAQWithContact.astro'
+import SectionMenu    from '@components/SectionMenu.astro'
+
+import { waUrl, WA_MESSAGES, CONTACT } from '@config/site'
+import type { FaqItem } from '@lib/seo'
+
+const WA_ICON = 'M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z'
+
+// ── LOS 3 MODELOS TEMÁTICOS PARA NIÑOS ────────────────────────────────────────
+const MODELOS = [
+  {
+    id: 'superheroes',
+    nombre: 'Superhéroes',
+    dims: '4×3×2.8 m',
+    category: 'Niños',
+    eyebrow: 'Niños · 4×3×2.8 m · Para niños 4–10 años',
+    colorGradient: 'linear-gradient(135deg, #b91c1c 0%, #1d4ed8 100%)',
+    tag: 'El más popular',
+    tagline: 'El diseño más pedido de la categoría: rojo, azul y amarillo con escudos, rayos y estrellas de cómic.',
+    body: [
+      'El Superhéroes es el modelo más rentado de la categoría de niños. Con su diseño de cómic en rojo, azul y amarillo — escudos, rayos de energía, estrellas y siluetas de acción — encaja con cualquier temática de superhéroes sin importar el personaje específico: funciona igual de bien para una fiesta de Spider-Man, Batman, Avengers o superhéroes genéricos. Los niños lo reconocen al instante y quieren subirse antes de que termine de inflarse.',
+      'Con base de 3 metros y altura de 2.8 m, tiene el mayor espacio de brinco de los tres modelos y admite simultáneamente a 5 o 6 niños de 4 a 10 años. El acceso lateral con rampa moderada facilita la entrada incluso a los niños más pequeños del rango. Requiere jardín o terraza de al menos 5.5×4 m. El soplador y las 4 anclas de seguridad están incluidos en la renta.',
+    ],
+    points: [
+      'Dimensiones: 4×3×2.8 m',
+      'Para niños de 4 a 10 años',
+      'Capacidad: 5–6 niños simultáneos',
+      'Diseño de cómic: rojo, azul, amarillo',
+      'Compatible con cualquier temática de superhéroes',
+      'Base de 3 m — el más ancho de los 3 modelos',
+      'Espacio mínimo: 5.5×4 m exterior',
+      'Soplador y 4 anclas incluidos',
+    ],
+    image: '/images/productos/superheroes.jpg',
+    thumbs: [
+      { src: '/images/inflables/ninos.jpg',          alt: 'Superhéroes — vista frontal completa' },
+      { src: '/images/productos/superheroes.jpg',    alt: 'Superhéroes — detalle diseño cómic y escudos' },
+      { src: '/images/inflables/ninos.jpg',          alt: 'Superhéroes — en uso durante fiesta' },
+    ],
+    idealPara: 'Cualquier fiesta de superhéroes de 4 a 10 años, independientemente del héroe específico.',
+    eligeSi: 'La temática es de superhéroes o quieres el diseño más colorido y reconocible del catálogo.',
+    waMsg: 'Hola, me interesa cotizar el inflable Superhéroes (4×3×2.8 m) para un evento en CDMX. ¿Está disponible?',
+  },
+  {
+    id: 'dinosaurio-rex',
+    nombre: 'Dinosaurio Rex',
+    dims: '4×3×3 m',
+    category: 'Niños',
+    eyebrow: 'Niños · 4×3×3 m · Para niños 4–12 años',
+    colorGradient: 'linear-gradient(135deg, #166534 0%, #22c55e 100%)',
+    tag: 'El más alto',
+    tagline: 'El más alto de los tres modelos y el favorito de los niños de 6 a 12 años: diseño de selva jurásica con T-Rex y velocirráptores.',
+    body: [
+      'El Dinosaurio Rex es el más alto de los tres modelos temáticos para niños: 3 metros de altura interior con diseño de jungla jurásica en verde oscuro, amarillo y marrón. Las paredes exteriores tienen impresiones de T-Rex, velocirráptores y huevos de dinosaurio que crean la atmósfera perfecta para una fiesta de dinosaurios o exploración prehistórica. Es el modelo favorito de los niños de 6 a 12 años por su altura y la mayor sensación de espacio interior.',
+      'Con base de 3×4 m — igual al Superhéroes en ancho pero con 20 cm más de altura — permite que niños más altos brinquen sin tocar el techo. Capacidad simultánea de 5 a 6 niños. Es también el modelo más versátil temáticamente de los tres: el diseño de jungla encaja con fiestas de Jurassic World, aventura, exploración y naturaleza, no solo con dinosaurios específicos. Requiere espacio mínimo de 5.5×4 m en exterior.',
+    ],
+    points: [
+      'Dimensiones: 4×3×3 m — el más alto de los 3',
+      'Para niños de 4 a 12 años',
+      'Capacidad: 5–6 niños simultáneos',
+      'Diseño: T-Rex, velocirráptores, jungla jurásica',
+      'El más alto: 3 m de altura interior',
+      'Compatible con fiestas de Jurassic World y aventura',
+      'Espacio mínimo: 5.5×4 m exterior',
+      'Soplador y 4 anclas incluidos',
+    ],
+    image: '/images/productos/dinosaurio-rex.jpg',
+    thumbs: [
+      { src: '/images/inflables/ninos.jpg',              alt: 'Dinosaurio Rex — vista lateral completa' },
+      { src: '/images/productos/dinosaurio-rex.jpg',     alt: 'Dinosaurio Rex — detalle diseño T-Rex y jungla' },
+      { src: '/images/inflables/ninos.jpg',              alt: 'Dinosaurio Rex — en uso durante cumpleaños' },
+    ],
+    idealPara: 'Fiestas de dinosaurios, Jurassic World, exploración o aventura para niños de 4 a 12 años.',
+    eligeSi: 'La fiesta tiene temática de dinosaurios o quieres el modelo con mayor altura interior.',
+    waMsg: 'Hola, me interesa cotizar el inflable Dinosaurio Rex (4×3×3 m) para un evento en CDMX. ¿Está disponible?',
+  },
+  {
+    id: 'ninjas',
+    nombre: 'Ninjas',
+    dims: '4×2.5×2.5 m',
+    category: 'Niños',
+    eyebrow: 'Niños · 4×2.5×2.5 m · Para niños 5–12 años',
+    colorGradient: 'linear-gradient(135deg, #1e1b4b 0%, #4f46e5 100%)',
+    tag: 'El más temático',
+    tagline: 'El único inflable del catálogo con estética ninja: negro, verde y morado con estrellas shurikens y cinturones de dojo.',
+    body: [
+      'El Ninjas es el modelo más específico temáticamente de los tres: diseño en negro, verde y morado con estrellas shurikens, cinturones de dojo, símbolos orientales y siluetas de ninja en movimiento. Es el favorito para fiestas de karate, artes marciales, ninjas, Ninjago o cualquier temática oriental. Con una estética más oscura y "seria" que los otros dos modelos, es especialmente popular entre niños de 6 a 12 años que ya tienen gustos más definidos.',
+      'Con base de 2.5 m es el más compacto de los tres modelos temáticos para niños, lo que lo hace viable en jardines más pequeños: requiere mínimo 5×3.5 m de área libre en exterior. Capacidad de 4 a 5 niños simultáneos. La altura de 2.5 m es apropiada para el rango de edad recomendado. Es también el modelo que más sorprende visualmente por su paleta oscura e inusual en un catálogo de inflables donde dominan los colores brillantes.',
+    ],
+    points: [
+      'Dimensiones: 4×2.5×2.5 m',
+      'Para niños de 5 a 12 años',
+      'Capacidad: 4–5 niños simultáneos',
+      'Diseño: shurikens, cinturones dojo, símbolos orientales',
+      'Paleta oscura única: negro, verde y morado',
+      'El menor requerimiento de espacio de los 3: 5×3.5 m',
+      'Compatible con fiestas ninja, karate, Ninjago',
+      'Soplador y 4 anclas incluidos',
+    ],
+    image: '/images/productos/ninjas.jpg',
+    thumbs: [
+      { src: '/images/inflables/ninos.jpg',      alt: 'Ninjas — vista frontal con diseño oscuro' },
+      { src: '/images/productos/ninjas.jpg',     alt: 'Ninjas — detalle shurikens y cinturones dojo' },
+      { src: '/images/inflables/ninos.jpg',      alt: 'Ninjas — en uso durante fiesta temática' },
+    ],
+    idealPara: 'Fiestas de ninjas, karate, Ninjago o artes marciales para niños de 5 a 12 años.',
+    eligeSi: 'La fiesta tiene temática ninja o de artes marciales, o el niño prefiere diseños más oscuros e intensos.',
+    waMsg: 'Hola, me interesa cotizar el inflable Ninjas (4×2.5×2.5 m) para un evento en CDMX. ¿Está disponible?',
+  },
+]
+
+// ── FEATURE SPECS ─────────────────────────────────────────────────────────────
+const FEATURE_SPECS = [
+  {
+    gradient: 'linear-gradient(135deg, #b91c1c 0%, #1d4ed8 100%)',
+    svgContent: '<path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" stroke-width="1.5"/>',
+    label: '3 temáticas disponibles',
+    value: 'Superhéroes · Dinos · Ninjas',
+    detail: 'Cada modelo tiene un diseño radicalmente diferente al de los otros dos. La elección depende de la temática de la fiesta y la preferencia del cumpleañero — no hay un modelo "mejor" que otro, son para usos distintos.',
+    tag: 'El único catálogo temático',
+  },
+  {
+    gradient: 'linear-gradient(135deg, #166534 0%, #22c55e 100%)',
+    svgContent: '<circle cx="12" cy="8" r="5" stroke-width="1.5"/><path d="M3 21v-2a7 7 0 0 1 7-7h4a7 7 0 0 1 7 7v2" stroke-width="1.5"/>',
+    label: 'Edad recomendada',
+    value: '4 a 12 años',
+    detail: 'El rango de edad más amplio del catálogo. Superhéroes y Dinosaurio Rex desde los 4 años; Ninjas desde los 5. Los tres modelos son aptos hasta los 12 años — más tiempo útil que los modelos sin temática específica.',
+    tag: 'El rango más amplio',
+  },
+  {
+    gradient: 'linear-gradient(135deg, #1e1b4b 0%, #4f46e5 100%)',
+    svgContent: '<path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" stroke-width="1.5"/><circle cx="9" cy="7" r="4" stroke-width="1.5"/><path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75" stroke-width="1.5"/>',
+    label: 'Capacidad simultánea',
+    value: '4 a 6 niños',
+    detail: 'Superhéroes y Dinosaurio Rex: 5–6 niños por su base de 3 m. Ninjas: 4–5 niños con base de 2.5 m. En fiestas de 15–20 niños, los turnos de espera son de 10 a 15 minutos dependiendo del modelo.',
+    tag: 'Solo exterior',
+  },
+]
+
+// ── SECONDARY SPECS ────────────────────────────────────────────────────────────
+const SECONDARY_SPECS = [
+  {
+    svgContent: '<path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/>',
+    label: 'Largo (los 3 modelos)',
+    value: '4 metros',
+    note: 'Dimensión uniforme en toda la categoría',
+  },
+  {
+    svgContent: '<circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/>',
+    label: 'Tiempo de montaje',
+    value: '~15 minutos',
+    note: 'El equipo llega 30 min antes del evento',
+  },
+  {
+    svgContent: '<path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/>',
+    label: 'Soplador',
+    value: 'Incluido · 800 W',
+    note: 'Toma estándar 110 V · operación continua',
+  },
+  {
+    svgContent: '<circle cx="12" cy="12" r="3"/><path d="M12 1v4M12 19v4M4.22 4.22l2.83 2.83M16.95 16.95l2.83 2.83M1 12h4M19 12h4M4.22 19.78l2.83-2.83M16.95 7.05l2.83-2.83"/>',
+    label: 'Anclas de seguridad',
+    value: '4 incluidas',
+    note: 'Instalación segura en jardín o terraza',
+  },
+  {
+    svgContent: '<rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/>',
+    label: 'Espacio mínimo',
+    value: '5×3.5 m / 5.5×4 m',
+    note: 'Ninjas: 5×3.5 m · Superhéroes y Dinos: 5.5×4 m',
+  },
+  {
+    svgContent: '<circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/>',
+    label: 'Duración renta',
+    value: '4 a 6 horas',
+    note: 'Extensión posible con costo adicional',
+  },
+]
+
+// ── ESCENARIOS ────────────────────────────────────────────────────────────────
+const SCENARIOS = [
+  {
+    icon: 'M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z',
+    title: 'Fiesta de superhéroes o Avengers',
+    desc: 'El Superhéroes es la elección obvia: el diseño de cómic en rojo, azul y amarillo refuerza cualquier temática de Marvel, DC o superhéroes genéricos sin necesidad de licencia. Es el modelo que más vende solo con mostrárselo al cumpleañero.',
+    tag: 'Superhéroes',
+  },
+  {
+    icon: 'M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 0 0 1 1h3m10-11l2 2m-2-2v10a1 1 0 0 0-1 1h-3m-6 0a1 1 0 0 0 1-1v-4a1 1 0 0 0-1-1H9a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1m-6-10h18',
+    title: 'Fiesta de dinosaurios o Jurassic World',
+    desc: 'El Dinosaurio Rex con su diseño de jungla jurásica es el complemento perfecto para fiestas de Jurassic Park/World, exploración prehistórica o dinosaurios en general. Los niños de 6 a 12 años son el público principal — el modelo más alto del catálogo temático.',
+    tag: 'Dinosaurios',
+  },
+  {
+    icon: 'M13 2L3 14h9l-1 8 10-12h-9l1-8z',
+    title: 'Fiesta de ninjas, karate o Ninjago',
+    desc: 'El inflable Ninjas con paleta oscura negro/verde/morado es el único del catálogo que visualmente encaja con temáticas de artes marciales, ninja o Ninjago. La estética "seria" lo hace especialmente popular entre niños de 7 en adelante que prefieren algo más maduro.',
+    tag: 'Ninjas',
+  },
+  {
+    icon: 'M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75M9 7a4 4 0 1 0 0-8 4 4 0 0 0 0 8z',
+    title: 'Cumpleaños de niño de doble dígito',
+    desc: 'Para los 10, 11 y 12 años — la edad donde los inflables genéricos ya no convencen — un modelo temático específico hace la diferencia. El Dinosaurio Rex y el Ninjas son los más pedidos para cumpleañeros de 9 a 12 años que todavía disfrutan el brincolín pero quieren algo que se vea "para su edad".',
+    tag: 'Niños mayores',
+  },
+  {
+    icon: 'M4 6h16M4 12h16M4 18h7',
+    title: 'Evento escolar con temática anual',
+    desc: 'Para fiestas de fin de ciclo, kermeses o días del niño con temática específica: los tres modelos encajan con las temáticas más populares en escuelas primarias. El Superhéroes es el más polivalente para grupos mixtos; Dinosaurio Rex y Ninjas para eventos con temática definida.',
+    tag: 'Eventos escolares',
+  },
+  {
+    icon: 'M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5',
+    title: 'Combo niño + niña para fiestas de hermanos',
+    desc: 'La configuración más completa para fiestas de hermanos: el Castillo de Princesas para las niñas y cualquiera de los tres modelos temáticos para el niño. Los dos operan simultáneamente en zonas distintas del jardín — cada uno con su público y su tema.',
+    tag: 'Combo hermanos',
+  },
+]
+
+// ── OTRAS CATEGORÍAS ──────────────────────────────────────────────────────────
+const OTRAS_CATS = [
+  {
+    label: 'Inflables Chicos',
+    href: '/renta-de-inflables-chicos',
+    image: '/images/inflables/chicos.jpg',
+    imageAlt: 'Inflables chicos en renta CDMX',
+    badge: undefined as string | undefined,
+    blurb: 'El Micro Baby (2×2 m): cabe en interiores, seguro para niños de 1 a 4 años.',
+    ctaLabel: 'Ver inflables chicos',
+  },
+  {
+    label: 'Inflables Medianos',
+    href: '/renta-de-inflables-medianos',
+    image: '/images/inflables/medianos.jpg',
+    imageAlt: 'Inflables medianos en renta CDMX',
+    badge: undefined as string | undefined,
+    blurb: 'Dragones Rojos, Mini Jungla y Gusanitos: 4 m, la categoría más rentada de CDMX.',
+    ctaLabel: 'Ver inflables medianos',
+  },
+  {
+    label: 'Inflables Grandes',
+    href: '/renta-de-inflables-grandes',
+    image: '/images/inflables/grandes.jpg',
+    imageAlt: 'Inflables grandes en renta CDMX',
+    badge: undefined as string | undefined,
+    blurb: 'Extrem con tobogán y Barco Pirata de 7 m: el WOW factor del catálogo.',
+    ctaLabel: 'Ver inflables grandes',
+  },
+  {
+    label: 'Inflables para Niña',
+    href: '/renta-de-inflables-para-nina',
+    image: '/images/inflables/ninas.jpg',
+    imageAlt: 'Castillo de Princesas en renta CDMX',
+    badge: 'Princesas',
+    blurb: 'Castillo de Princesas: 4×3.3 m, el más fotografiado del catálogo.',
+    ctaLabel: 'Ver princesas',
+  },
+  {
+    label: 'Inflables para Bodas',
+    href: '/renta-de-inflables-para-boda',
+    image: '/images/inflables/bodas.jpg',
+    imageAlt: 'Inflables para bodas en CDMX',
+    badge: undefined as string | undefined,
+    blurb: 'Castillo Blanco premium: elegante y discreto para bodas y XV años.',
+    ctaLabel: 'Ver para bodas',
+  },
+]
+
+// ── FAQ ───────────────────────────────────────────────────────────────────────
+const FAQS: FaqItem[] = [
+  {
+    question: '¿Cuál de los tres modelos conviene para la fiesta de mi hijo?',
+    answer: 'Depende únicamente de la temática de la fiesta. Superhéroes si la fiesta es de Marvel, DC o superhéroes en general. Dinosaurio Rex si la temática es de dinosaurios, Jurassic World o aventura prehistórica. Ninjas si es de ninjas, karate, Ninjago o artes marciales. Si el niño no tiene preferencia de temática, el Superhéroes es el más popular en general y el que mejor encaja con grupos mixtos de niños.',
+  },
+  {
+    question: '¿Los modelos temáticos son del mismo tamaño que los medianos del catálogo?',
+    answer: 'Tienen la misma longitud (4 m) pero diseños completamente diferentes. Los medianos del catálogo (Dragones Rojos, Mini Jungla, Gusanitos) tienen diseños más neutros o de aventura genérica. Los modelos para niños (Superhéroes, Dinosaurio Rex, Ninjas) tienen temáticas específicas más intensas. En cuanto a espacio requerido, los Superhéroes y Dinosaurio Rex necesitan el mismo que los medianos más anchos; el Ninjas requiere el mismo espacio que los medianos estándar.',
+  },
+  {
+    question: '¿El inflable de Ninjas es apropiado para niños de 5 años?',
+    answer: 'Sí. La altura de 2.5 m y el bordillo de acceso son seguros para niños desde 5 años. La recomendación de 5 años (en lugar de 4 como los otros dos) es porque el diseño oscuro y la temática de artes marciales suele tener más impacto en niños que ya conocen el tema. A nivel de seguridad física, un niño de 4 años también podría usarlo, pero la experiencia es más apropiada desde los 5.',
+  },
+  {
+    question: '¿Puedo combinar un modelo de niños con el Castillo de Princesas?',
+    answer: 'Sí, y es la combinación más pedida para fiestas mixtas de hermanos o grupos con niños y niñas. El Castillo de Princesas y cualquiera de los tres modelos temáticos de niños operan simultáneamente en zonas distintas del jardín. Necesitas espacio para los dos inflables más el margen de circulación entre ellos. Consúltanos con las medidas del jardín y verificamos si entra la combinación que te interesa.',
+  },
+  {
+    question: '¿El Dinosaurio Rex funciona para una fiesta de Jurassic World con licencia?',
+    answer: 'El inflable tiene un diseño genérico de dinosaurios y jungla — no tiene logos ni personajes con copyright de Jurassic World específicamente. Es un inflable de "dinosaurios en general" que encaja perfectamente como elemento de la fiesta, pero no tiene la licencia oficial. Para la decoración con licencia oficial (banderines, platos, servilletas con el logo), esos se consiguen por separado. El inflable complementa cualquier decoración de dinosaurios sin problema.',
+  },
+  {
+    question: '¿Tienen disponibles otros diseños además de estos tres?',
+    answer: 'El catálogo actual de INFLAFI para la categoría de niños incluye estos tres modelos: Superhéroes, Dinosaurio Rex y Ninjas. Si buscas un diseño específico que no está aquí, escríbenos — en ocasiones gestionamos modelos especiales con previo aviso. También puedes consultar los inflables medianos del catálogo (Dragones Rojos, Mini Jungla, Gusanitos) que tienen diseños más neutrales pero también apropiados para niños.',
+  },
+]
+---
+
+<PageLayout
+  title="Renta de Inflables para Niños en CDMX — Superhéroes, Dinosaurios y Ninjas | INFLAFI"
+  description="Renta de inflables temáticos para niño en CDMX: Superhéroes, Dinosaurio Rex y Ninjas. 4 metros de largo, para niños de 4 a 12 años. Cada modelo con diseño único. Montaje incluido."
+  image="/images/og/inflables-ninos.jpg"
+  pageType="category"
+  breadcrumbs={[
+    { label: 'Inflables', href: '/inflables' },
+    { label: 'Inflables para Niños', href: '/renta-de-inflables-para-ninos' },
+  ]}
+>
+
+  <!-- MIGAS DE PAN ─────────────────────────────────────────────────────────── -->
+  <nav class="breadcrumbs" aria-label="Migas de pan">
+    <div class="bc-inner">
+      <ol class="bc-list">
+        <li><a href="/" class="bc-link">Inicio</a></li>
+        <li aria-hidden="true" class="bc-sep">›</li>
+        <li><a href="/inflables" class="bc-link">Inflables</a></li>
+        <li aria-hidden="true" class="bc-sep">›</li>
+        <li><span class="bc-current" aria-current="page">Inflables para Niños</span></li>
+      </ol>
+    </div>
+  </nav>
+
+  <!-- HERO ────────────────────────────────────────────────────────────────── -->
+  <Hero
+    badge="3 modelos temáticos · 4 m de largo · Para niños 4–12 años"
+    title="Inflables para Niño"
+    accent="en Renta · CDMX"
+    subtitle="Superhéroes, Dinosaurio Rex y Ninjas: tres diseños radicalmente distintos para que el inflable sea parte de la temática de la fiesta, no solo un brincolín genérico."
+    descRight={[
+      "Los inflables temáticos para niños son la categoría con mayor diferenciación de diseño del catálogo INFLAFI. Mientras los modelos medianos tienen diseños genéricos o de aventura, estos tres modelos tienen temáticas específicas e intensas: cómic de superhéroes en rojo y azul, jungla jurásica con T-Rex, y estética ninja en negro y verde. El cumpleañero elige el inflable que va con su fiesta.",
+      "Los tres modelos tienen 4 metros de largo y comparten los mismos requisitos básicos de exterior. El Superhéroes y el Dinosaurio Rex tienen base de 3 m (5.5×4 m libres); el Ninjas es más compacto (5×3.5 m). Todos incluyen soplador, anclas de seguridad, traslado, montaje y desmontaje. Reserva con el 30% de anticipo — respondemos disponibilidad en minutos.",
+    ]}
+    ctas={[
+      { text: '¡Cotizar un inflable!', href: waUrl('Hola, me interesa cotizar un inflable para niño (Superhéroes, Dinosaurio Rex o Ninjas) para un evento en CDMX. ¿Cuál está disponible?'), variant: 'primary', whatsapp: true },
+      { text: 'Ver los 3 modelos', href: '#superheroes', variant: 'outline' },
+    ]}
+    ariaLabel="Renta de inflables para niños — Superhéroes, Dinosaurios y Ninjas CDMX"
+  />
+
+  <!-- MENÚ DE SECCIONES ───────────────────────────────────────────────────── -->
+  <SectionMenu items={[
+    {
+      label: 'Superhéroes',
+      sub: '4×3×2.8 m · rojo y azul',
+      href: '#superheroes',
+      icon: 'M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z',
+    },
+    {
+      label: 'Dinosaurio Rex',
+      sub: '4×3×3 m · el más alto',
+      href: '#dinosaurio-rex',
+      icon: 'M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 0 0 1 1h3m10-11l2 2m-2-2v10a1 1 0 0 0-1 1h-3m-6 0a1 1 0 0 0 1-1v-4a1 1 0 0 0-1-1H9a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1m-6-10h18',
+    },
+    {
+      label: 'Ninjas',
+      sub: '4×2.5×2.5 m · negro y verde',
+      href: '#ninjas',
+      icon: 'M13 2L3 14h9l-1 8 10-12h-9l1-8z',
+    },
+    {
+      label: '¿Cuál elegir?',
+      sub: 'Comparación de los 3 diseños',
+      href: '#comparacion',
+      icon: 'M9 5H7a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2h-2M9 5a2 2 0 0 0 2 2h2a2 2 0 0 0 2-2M9 5a2 2 0 0 0 2-2h2a2 2 0 0 0 2 2m-6 9l2 2 4-4',
+    },
+    {
+      label: 'Ficha técnica',
+      sub: 'Medidas y especificaciones',
+      href: '#especificaciones',
+      icon: 'M8 6h13M8 12h13M8 18h13M3 6h.01M3 12h.01M3 18h.01',
+    },
+    {
+      label: 'Cotizar ahora',
+      sub: 'Respuesta en minutos',
+      href: waUrl('Hola, me interesa cotizar un inflable para niño (Superhéroes, Dinosaurio Rex o Ninjas) para un evento en CDMX. ¿Cuál está disponible?'),
+      icon: WA_ICON,
+      cta: true,
+    },
+  ]} />
+
+  <!-- ① LOS 3 MODELOS A FONDO ──────────────────────────────────────────────── -->
+  <section class="section" aria-labelledby="modelos-heading">
+    <div class="container">
+      <SectionHeading
+        id="modelos-heading"
+        eyebrow="3 temáticas · mismo tamaño · diseños radicalmente distintos"
+        title="Cada modelo es distinto en diseño —"
+        titleAccent="la temática de la fiesta manda"
+        layout="duo"
+        body={[
+          "Los tres comparten la misma longitud (4 m) y el mismo rango de edad (4–12 años), pero visualmente no tienen nada en común. La elección no es de calidad ni de capacidad — es de temática. ¿Superhéroes, dinosaurios o ninjas?",
+          "Más abajo está la sección de comparación rápida si todavía no tienes claro cuál elegir. Si el cumpleañero ya tiene su favorito, escríbenos directamente y confirmamos disponibilidad en minutos.",
+        ]}
+      />
+
+      <div class="modelos-stack">
+        {MODELOS.map(m => (
+          <CategoryDetail
+            id={m.id}
+            eyebrow={m.eyebrow}
+            category={m.category}
+            title={m.nombre}
+            body={m.body}
+            points={m.points}
+            cta={{
+              label: `Cotizar el ${m.nombre}`,
+              href: waUrl(m.waMsg),
+              external: true,
+            }}
+            gallery={{
+              main: { src: m.image, alt: `Inflable ${m.nombre} en renta CDMX — INFLAFI · ${m.dims}` },
+              thumbs: m.thumbs,
+            }}
+            as="h2"
+          />
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- ② ¿CUÁL DE LOS 3 ELEGIR? ────────────────────────────────────────────── -->
+  <section id="comparacion" class="section section--comparacion" aria-labelledby="comparacion-heading">
+    <div class="container">
+      <SectionHeading
+        id="comparacion-heading"
+        eyebrow="Guía de decisión · 30 segundos"
+        title="Los tres son buenos —"
+        titleAccent="¿cuál va con la fiesta de tu hijo?"
+        layout="duo"
+        body={[
+          "La decisión se resuelve sola con la temática: superhéroes, dinosaurios o ninjas. No hay un modelo objetivamente mejor — hay el que encaja con la fiesta.",
+          "Si la fiesta no tiene temática definida o hay niños con distintas preferencias, el Superhéroes es la opción más neutral y popular de los tres. Si el cumpleañero tiene una preferencia clara, es prácticamente imposible equivocarse.",
+        ]}
+      />
+
+      <div class="comp-grid">
+        {MODELOS.map(m => (
+          <div class="comp-card">
+            <div class="comp-card__header" style={`background: ${m.colorGradient}`}>
+              <span class="comp-card__tag">{m.tag}</span>
+              <h3 class="comp-card__name">{m.nombre}</h3>
+              <p class="comp-card__dims">{m.dims}</p>
+            </div>
+            <div class="comp-card__body">
+              <p class="comp-card__tagline">{m.tagline}</p>
+              <div class="comp-card__rows">
+                <div class="comp-card__row">
+                  <span class="comp-card__row-label">Ideal para</span>
+                  <span class="comp-card__row-val">{m.idealPara}</span>
+                </div>
+                <div class="comp-card__row">
+                  <span class="comp-card__row-label">Elige este si</span>
+                  <span class="comp-card__row-val">{m.eligeSi}</span>
+                </div>
+              </div>
+              <a href={waUrl(m.waMsg)} class="comp-card__cta" target="_blank" rel="noopener noreferrer">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d={WA_ICON}/></svg>
+                Cotizar el {m.nombre}
+              </a>
+            </div>
+          </div>
+        ))}
+      </div>
+
+      <div class="comp-table-wrap">
+        <p class="comp-table-title">Comparación rápida</p>
+        <table class="comp-table" aria-label="Comparación de los 3 modelos temáticos para niños">
+          <thead>
+            <tr>
+              <th scope="col">Característica</th>
+              <th scope="col" style="color: #b91c1c">Superhéroes</th>
+              <th scope="col" style="color: #166534">Dinosaurio Rex</th>
+              <th scope="col" style="color: #3730a3">Ninjas</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><th scope="row">Dimensiones</th><td>4×3×2.8 m</td><td>4×3×3 m</td><td>4×2.5×2.5 m</td></tr>
+            <tr><th scope="row">Altura interior</th><td>2.8 m</td><td>3 m ★</td><td>2.5 m</td></tr>
+            <tr><th scope="row">Ancho base</th><td>3 m ★</td><td>3 m ★</td><td>2.5 m</td></tr>
+            <tr><th scope="row">Desde qué edad</th><td>4 años</td><td>4 años</td><td>5 años</td></tr>
+            <tr><th scope="row">Capacidad</th><td>5–6 niños</td><td>5–6 niños</td><td>4–5 niños</td></tr>
+            <tr><th scope="row">Espacio mínimo</th><td>5.5×4 m</td><td>5.5×4 m</td><td>5×3.5 m ★</td></tr>
+            <tr><th scope="row">Colores</th><td>Rojo, azul, amarillo</td><td>Verde, marrón, amarillo</td><td>Negro, verde, morado</td></tr>
+            <tr><th scope="row">Mejor para</th><td>Cualquier temática héroe</td><td>Dinos / aventura</td><td>Ninjas / marcial</td></tr>
+          </tbody>
+        </table>
+        <p class="comp-table-note">★ = mejor de los tres en esa categoría</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ③ FICHA TÉCNICA ──────────────────────────────────────────────────────── -->
+  <section id="especificaciones" class="section section--specs" aria-labelledby="specs-heading">
+    <div class="container">
+      <SectionHeading
+        id="specs-heading"
+        eyebrow="Medidas · temáticas · lo que incluye la renta"
+        title="Todo lo que necesitas verificar"
+        titleAccent="antes de reservar el inflable"
+        layout="duo"
+        body={[
+          "Los tres modelos tienen el mismo largo (4 m) y los mismos requerimientos básicos: exterior, una toma de 110 V y espacio libre suficiente. Las diferencias están en el ancho, la altura y el espacio requerido — detallados aquí para que puedas verificar antes de reservar.",
+          "Recuerda que el precio de renta incluye traslado, montaje, desmontaje, soplador y anclas. Sin costos adicionales dentro de CDMX y zona metropolitana cercana.",
+        ]}
+      />
+
+      <div class="fspecs-grid">
+        {FEATURE_SPECS.map(spec => (
+          <div class="fspec-card">
+            <div class="fspec-card__visual" style={`background: ${spec.gradient}`}>
+              <svg width="52" height="52" viewBox="0 0 24 24" fill="none"
+                stroke="rgba(255,255,255,0.95)" stroke-linecap="round" stroke-linejoin="round"
+                aria-hidden="true" set:html={spec.svgContent}
+              />
+              <span class="fspec-card__tag">{spec.tag}</span>
+            </div>
+            <div class="fspec-card__body">
+              <p class="fspec-card__label">{spec.label}</p>
+              <strong class="fspec-card__value">{spec.value}</strong>
+              <p class="fspec-card__detail">{spec.detail}</p>
+            </div>
+          </div>
+        ))}
+      </div>
+
+      <div class="specs-panel">
+        <div class="specs-panel__img-col">
+          <div class="specs-panel__img-wrap">
+            <img
+              src="/images/inflables/ninos.jpg"
+              alt="Inflables temáticos para niño en renta CDMX — Superhéroes, Dinosaurio Rex y Ninjas · INFLAFI"
+              width="600" height="450" loading="lazy" decoding="async"
+              class="specs-panel__img"
+            />
+            <div class="specs-panel__img-overlay">
+              <span class="spio__badge">Categoría Niños</span>
+              <div class="spio__meta">
+                <span class="spio__dims">4 m de largo</span>
+                <span class="spio__cat">3 temáticas disponibles</span>
+              </div>
+            </div>
+          </div>
+          <p class="specs-panel__img-note">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+            Imagen referencial. Confirma el modelo y disponibilidad por WhatsApp.
+          </p>
+        </div>
+
+        <div class="specs-panel__data-col">
+          <p class="specs-panel__col-title">Especificaciones comunes a los 3 modelos</p>
+          <div class="sspecs-grid">
+            {SECONDARY_SPECS.map(s => (
+              <div class="sspec">
+                <span class="sspec__icon" aria-hidden="true">
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round"
+                    set:html={s.svgContent}
+                  />
+                </span>
+                <div class="sspec__info">
+                  <span class="sspec__label">{s.label}</span>
+                  <strong class="sspec__value">{s.value}</strong>
+                  <span class="sspec__note">{s.note}</span>
+                </div>
+              </div>
+            ))}
+          </div>
+          <div class="specs-panel__cta">
+            <a href={waUrl('Hola, me interesa cotizar un inflable para niño (Superhéroes, Dinosaurio Rex o Ninjas) para un evento en CDMX. ¿Cuál está disponible?')}
+              class="specs-panel__cta-btn" target="_blank" rel="noopener noreferrer">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d={WA_ICON}/></svg>
+              Consultar disponibilidad
+            </a>
+            <span class="specs-panel__cta-note">Respondemos en minutos · Lun–Dom</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ④ ESCENARIOS ────────────────────────────────────────────────────────── -->
+  <section id="cuando" class="section" aria-labelledby="cuando-heading">
+    <div class="container">
+      <SectionHeading
+        id="cuando-heading"
+        eyebrow="6 tipos de fiesta donde estos inflables brillan"
+        title="Cuándo tiene sentido un inflable"
+        titleAccent="temático en lugar de uno genérico"
+        layout="duo"
+        body={[
+          "Un inflable temático agrega algo que uno genérico no puede: inmersión. Cuando el inflable tiene el mismo diseño que el resto de la decoración, la fiesta tiene coherencia visual de principio a fin. Los niños lo notan aunque no lo verbalicen.",
+          "Si la fiesta no tiene temática definida, cualquiera de los modelos medianos genéricos del catálogo — Dragones Rojos, Mini Jungla o Gusanitos — también funciona perfectamente para niños.",
+        ]}
+      />
+
+      <div class="scenarios-grid">
+        {SCENARIOS.map(s => (
+          <div class="scenario-card">
+            <div class="scenario-card__header">
+              <span class="scenario-card__icon" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="1.8"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <Fragment set:html={`<path d="${s.icon}"/>`} />
+                </svg>
+              </span>
+              {s.tag && <span class="scenario-card__tag">{s.tag}</span>}
+            </div>
+            <h3 class="scenario-card__title">{s.title}</h3>
+            <p class="scenario-card__desc">{s.desc}</p>
+          </div>
+        ))}
+      </div>
+
+      <div class="cuando-cta">
+        <p class="cuando-cta__text">¿La temática de tu fiesta no está en esta lista? Cuéntanos el tema — te decimos cuál modelo encaja mejor o si alguno de los medianos es más adecuado.</p>
+        <a href={waUrl(WA_MESSAGES.cotizar)} class="cuando-cta__btn" target="_blank" rel="noopener noreferrer">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d={WA_ICON}/></svg>
+          Consultar por WhatsApp
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ⑤ OTRAS CATEGORÍAS ───────────────────────────────────────────────────── -->
+  <section id="otras-categorias" class="section section--otras" aria-labelledby="otras-heading">
+    <div class="container">
+      <SectionHeading
+        id="otras-heading"
+        eyebrow="Catálogo completo INFLAFI"
+        title="¿Los temáticos no son lo que buscas?"
+        titleAccent="Aquí están las demás opciones"
+        layout="duo"
+        body={[
+          "Si la fiesta no tiene una temática específica, los modelos medianos (Dragones Rojos, Mini Jungla o Gusanitos) son más versátiles y encajan con cualquier fiesta infantil. Si hay también niñas en el evento, el Castillo de Princesas es el complemento natural.",
+          "Para niños menores de 4 años, el Micro Baby (2×2 m) es la opción más segura. Para fiestas con jardín grande y niños de más de 8 años, el Extrem con tobogán o el Barco Pirata de 7 m son el siguiente nivel.",
+        ]}
+      />
+      <div class="otras-grid">
+        {OTRAS_CATS.map((cat, i) => (
+          <CategoryCard
+            label={cat.label}
+            href={cat.href}
+            image={cat.image}
+            imageAlt={cat.imageAlt}
+            badge={cat.badge}
+            blurb={cat.blurb}
+            ctaLabel={cat.ctaLabel}
+            index={i}
+          />
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- ⑥ FAQ ────────────────────────────────────────────────────────────────── -->
+  <FAQWithContact
+    eyebrow="Preguntas sobre inflables temáticos para niño"
+    title="Lo más frecuente antes"
+    titleAccent="de reservar un inflable temático"
+    body={[
+      "Las 6 preguntas más frecuentes: cómo elegir entre los tres modelos, si son del mismo tamaño que los medianos, la edad mínima para el Ninjas, combos con el Castillo de Princesas y disponibilidad de otros diseños.",
+      "Si tienes una duda específica sobre colores, medidas o temática, escríbenos — respondemos con fotos del modelo actual y disponibilidad de la fecha.",
+    ]}
+    faqs={FAQS}
+    showContact={true}
+  />
+
+  <!-- CTA BANNER ───────────────────────────────────────────────────────────── -->
+  <CTABanner
+    heading="Reserva el inflable temático para la fiesta de tu hijo"
+    desc="Superhéroes, Dinosaurio Rex o Ninjas — confirma el modelo y asegura la fecha con el 30% de anticipo. Traslado, montaje y desmontaje incluidos en CDMX."
+    variant="primary"
+    btns={[
+      { label: 'Cotizar por WhatsApp', href: waUrl('Hola, me interesa cotizar un inflable para niño (Superhéroes, Dinosaurio Rex o Ninjas) para un evento en CDMX. ¿Cuál está disponible?'), icon: 'wa', primary: true, external: true },
+      { label: `Llamar: ${CONTACT.phone}`, href: `tel:${CONTACT.phoneE164}`, icon: 'phone', primary: false },
+    ]}
+    badge="3 temáticas disponibles · Entrega gratis en CDMX"
+  />
+
+</PageLayout>
+
+<style>
+  .container { max-width: var(--container-max, 1400px); margin-inline: auto; padding-inline: var(--container-px, 1.5rem); }
+
+  /* ── Breadcrumbs ─────────────────────────────────────────────── */
+  .breadcrumbs { background: var(--c-white, #fff); border-bottom: 1px solid var(--c-border, #e5e7eb); }
+  .bc-inner { max-width: var(--container-max, 1400px); margin-inline: auto; padding-inline: var(--container-px, 1.5rem); padding-block: .625rem; }
+  .bc-list { list-style: none; margin: 0; padding: 0; display: flex; align-items: center; gap: .375rem; flex-wrap: wrap; }
+  .bc-link    { font-size: .8125rem; color: var(--c-primary, #7c3aed); text-decoration: none; }
+  .bc-link:hover { text-decoration: underline; }
+  .bc-sep     { font-size: .8125rem; color: var(--c-muted, #9ca3af); user-select: none; }
+  .bc-current { font-size: .8125rem; color: var(--c-ink-2, #4b5563); font-weight: 500; }
+
+  /* ── Sections ───────────────────────────────────────────────── */
+  .section              { padding: clamp(3.5rem, 7vw, 5.5rem) 0; }
+  .section--comparacion { background: #f3f4f6; }
+  .section--specs       { background: var(--c-surface, #f9fafb); }
+  .section--otras       { background: var(--c-surface, #f9fafb); }
+
+  /* ── Modelos stack ──────────────────────────────────────────── */
+  .modelos-stack { display: grid; gap: 1.5rem; }
+
+  /* ── Comparación ────────────────────────────────────────────── */
+  .comp-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.25rem; margin-bottom: 2rem; }
+  .comp-card { display: flex; flex-direction: column; border-radius: 20px; overflow: hidden; border: 1px solid #e5e7eb; box-shadow: 0 4px 20px rgba(0,0,0,.08); background: #fff; }
+  .comp-card__header { padding: 1.75rem 1.5rem 1.5rem; display: flex; flex-direction: column; gap: .5rem; }
+  .comp-card__tag { font-size: .625rem; font-weight: 700; text-transform: uppercase; letter-spacing: .07em; color: rgba(255,255,255,.85); align-self: flex-start; padding: .2rem .6rem; background: rgba(255,255,255,.2); border-radius: 999px; border: 1px solid rgba(255,255,255,.25); }
+  .comp-card__name { font-size: 1.5rem; font-weight: 900; color: #fff; margin: 0; letter-spacing: -.02em; line-height: 1.1; }
+  .comp-card__dims { font-size: .8125rem; color: rgba(255,255,255,.8); font-family: monospace; font-weight: 600; letter-spacing: .03em; margin: 0; }
+  .comp-card__body { padding: 1.375rem 1.375rem 1.5rem; display: flex; flex-direction: column; gap: 1rem; flex: 1; }
+  .comp-card__tagline { font-size: .9375rem; color: #374151; line-height: 1.6; margin: 0; font-weight: 500; }
+  .comp-card__rows { display: flex; flex-direction: column; gap: .625rem; border-top: 1px solid #f3f4f6; padding-top: .875rem; }
+  .comp-card__row { display: flex; flex-direction: column; gap: .2rem; }
+  .comp-card__row-label { font-size: .6875rem; font-weight: 700; text-transform: uppercase; letter-spacing: .07em; color: #9ca3af; }
+  .comp-card__row-val   { font-size: .875rem; color: #374151; line-height: 1.5; }
+  .comp-card__cta { display: flex; align-items: center; justify-content: center; gap: .45rem; margin-top: auto; padding: .8rem 1rem; background: #25d366; color: #fff; font-size: .875rem; font-weight: 700; border-radius: 10px; text-decoration: none; }
+  .comp-card__cta:hover { background: #1fba59; }
+
+  /* ── Tabla comparativa ──────────────────────────────────────── */
+  .comp-table-wrap { background: #fff; border: 1px solid #e5e7eb; border-radius: 16px; overflow: hidden; box-shadow: 0 2px 8px rgba(0,0,0,.05); }
+  .comp-table-title { font-size: .6875rem; font-weight: 700; text-transform: uppercase; letter-spacing: .08em; color: #9ca3af; margin: 0; padding: 1rem 1.5rem .625rem; border-bottom: 1px solid #f3f4f6; }
+  .comp-table { width: 100%; border-collapse: collapse; font-size: .875rem; }
+  .comp-table thead tr { background: #f9fafb; }
+  .comp-table th { padding: .875rem 1.25rem; text-align: left; font-size: .75rem; font-weight: 700; text-transform: uppercase; letter-spacing: .05em; color: #6b7280; border-bottom: 1px solid #e5e7eb; white-space: nowrap; }
+  .comp-table th[scope="col"]:not(:first-child) { text-align: center; }
+  .comp-table td { padding: .75rem 1.25rem; color: #374151; border-bottom: 1px solid #f3f4f6; text-align: center; }
+  .comp-table tbody th[scope="row"] { text-align: left; font-weight: 600; color: #111827; font-size: .8125rem; background: #fafafa; white-space: nowrap; }
+  .comp-table tbody tr:last-child td, .comp-table tbody tr:last-child th { border-bottom: none; }
+  .comp-table-note { font-size: .75rem; color: #9ca3af; margin: 0; padding: .625rem 1.5rem .875rem; border-top: 1px solid #f3f4f6; }
+
+  /* ── Feature specs ──────────────────────────────────────────── */
+  .fspecs-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.25rem; margin-bottom: 1.5rem; }
+  .fspec-card { display: flex; flex-direction: column; border-radius: 20px; overflow: hidden; border: 1px solid #e5e7eb; box-shadow: 0 4px 20px rgba(0,0,0,.08); background: #fff; }
+  .fspec-card__visual { position: relative; height: 168px; display: flex; align-items: center; justify-content: center; }
+  .fspec-card__tag { position: absolute; top: .875rem; right: .875rem; padding: .22rem .65rem; background: rgba(255,255,255,.22); backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px); border: 1px solid rgba(255,255,255,.3); border-radius: 999px; font-size: .625rem; font-weight: 700; text-transform: uppercase; letter-spacing: .07em; color: #fff; white-space: nowrap; }
+  .fspec-card__body { padding: 1.375rem 1.375rem 1.5rem; display: flex; flex-direction: column; gap: .5rem; flex: 1; }
+  .fspec-card__label { font-size: .6875rem; font-weight: 700; text-transform: uppercase; letter-spacing: .08em; color: #9ca3af; margin: 0; }
+  .fspec-card__value { font-size: 1.75rem; font-weight: 900; color: #111827; line-height: 1.1; letter-spacing: -.02em; }
+  .fspec-card__detail { font-size: .875rem; color: #4b5563; line-height: 1.7; margin: 0; }
+
+  /* ── Specs panel ─────────────────────────────────────────────── */
+  .specs-panel { display: grid; grid-template-columns: 1fr 1.5fr; gap: 2.5rem; align-items: start; background: #fff; border: 1px solid #e5e7eb; border-radius: 24px; padding: 2rem; box-shadow: 0 2px 16px rgba(0,0,0,.06); }
+  .specs-panel__img-wrap { position: relative; border-radius: 14px; overflow: hidden; box-shadow: 0 8px 32px rgba(0,0,0,.12); }
+  .specs-panel__img { width: 100%; height: auto; aspect-ratio: 4/3; object-fit: cover; display: block; }
+  .specs-panel__img-overlay { position: absolute; bottom: 0; left: 0; right: 0; padding: 2rem 1rem .875rem; background: linear-gradient(to top, rgba(0,0,0,.72) 0%, transparent 100%); display: flex; align-items: flex-end; justify-content: space-between; gap: .5rem; }
+  .spio__badge { font-size: 1rem; font-weight: 800; color: #fff; letter-spacing: -.01em; }
+  .spio__meta { display: flex; flex-direction: column; align-items: flex-end; gap: .125rem; }
+  .spio__dims { font-size: .75rem; font-weight: 700; color: rgba(255,255,255,.9); font-family: monospace; }
+  .spio__cat  { font-size: .625rem; color: rgba(255,255,255,.65); text-transform: uppercase; letter-spacing: .06em; }
+  .specs-panel__img-note { display: flex; align-items: center; gap: .375rem; margin-top: .75rem; font-size: .75rem; color: #9ca3af; margin-bottom: 0; }
+  .specs-panel__img-note svg { flex-shrink: 0; }
+  .specs-panel__col-title { font-size: .6875rem; font-weight: 700; text-transform: uppercase; letter-spacing: .08em; color: #9ca3af; margin: 0 0 1rem; padding-bottom: .75rem; border-bottom: 1px solid #f3f4f6; }
+  .sspecs-grid { display: grid; grid-template-columns: 1fr 1fr; gap: .625rem; margin-bottom: 1.5rem; }
+  .sspec { display: flex; align-items: flex-start; gap: .625rem; padding: .875rem; background: #f9fafb; border-radius: 12px; border: 1px solid #f3f4f6; }
+  .sspec__icon { display: flex; align-items: center; justify-content: center; width: 1.875rem; height: 1.875rem; border-radius: 8px; background: #ede9fe; color: #7c3aed; flex-shrink: 0; margin-top: .0625rem; }
+  .sspec__info { display: flex; flex-direction: column; gap: .125rem; min-width: 0; }
+  .sspec__label { font-size: .625rem; color: #9ca3af; font-weight: 700; text-transform: uppercase; letter-spacing: .06em; }
+  .sspec__value { font-size: .9375rem; font-weight: 800; color: #111827; line-height: 1.2; }
+  .sspec__note  { font-size: .6875rem; color: #6b7280; line-height: 1.4; margin-top: .0625rem; }
+  .specs-panel__cta { display: flex; align-items: center; gap: 1rem; flex-wrap: wrap; }
+  .specs-panel__cta-btn { display: inline-flex; align-items: center; gap: .45rem; padding: .875rem 1.375rem; background: #25d366; color: #fff; font-weight: 700; font-size: .9375rem; border-radius: 10px; text-decoration: none; box-shadow: 0 4px 14px rgba(37,211,102,.3); }
+  .specs-panel__cta-btn:hover { background: #1fba59; }
+  .specs-panel__cta-note { font-size: .8125rem; color: #9ca3af; }
+
+  /* ── Scenarios ──────────────────────────────────────────────── */
+  .scenarios-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.25rem; margin-bottom: 2.5rem; }
+  .scenario-card { display: flex; flex-direction: column; gap: .75rem; padding: 1.5rem; background: #fff; border: 1px solid #e5e7eb; border-radius: 18px; box-shadow: 0 2px 8px rgba(0,0,0,.05); }
+  .scenario-card__header { display: flex; align-items: center; justify-content: space-between; gap: .5rem; }
+  .scenario-card__icon { display: flex; align-items: center; justify-content: center; width: 2.5rem; height: 2.5rem; border-radius: 12px; background: #e0e7ff; color: #3730a3; flex-shrink: 0; }
+  .scenario-card__tag { font-size: .625rem; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; padding: .2rem .55rem; background: #dcfce7; color: #166534; border-radius: 999px; white-space: nowrap; }
+  .scenario-card__title { font-size: 1.0625rem; font-weight: 700; color: #111827; line-height: 1.3; margin: 0; }
+  .scenario-card__desc  { font-size: .875rem; color: #4b5563; line-height: 1.7; margin: 0; }
+
+  /* ── Cuando CTA bar ─────────────────────────────────────────── */
+  .cuando-cta { display: flex; align-items: center; justify-content: space-between; gap: 1.5rem; padding: 1.5rem 2rem; background: #f9fafb; border: 1px solid #e5e7eb; border-radius: 16px; flex-wrap: wrap; }
+  .cuando-cta__text { font-size: 1rem; color: #374151; margin: 0; line-height: 1.5; }
+  .cuando-cta__btn { display: inline-flex; align-items: center; gap: .5rem; padding: .875rem 1.5rem; background: #25d366; color: #fff; font-weight: 700; font-size: .9375rem; border-radius: 10px; text-decoration: none; white-space: nowrap; flex-shrink: 0; box-shadow: 0 4px 14px rgba(37,211,102,.3); }
+  .cuando-cta__btn:hover { background: #1fba59; }
+
+  /* ── Otras grid ─────────────────────────────────────────────── */
+  .otras-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5rem; }
+
+  /* ── Responsive ─────────────────────────────────────────────── */
+  @media (max-width: 1100px) {
+    .comp-table th, .comp-table td { padding: .625rem .875rem; }
+  }
+  @media (max-width: 1024px) {
+    .specs-panel { grid-template-columns: 1fr 1.2fr; gap: 1.5rem; }
+  }
+  @media (max-width: 900px) {
+    .comp-grid      { grid-template-columns: 1fr; gap: 1rem; }
+    .fspecs-grid    { grid-template-columns: 1fr 1fr; }
+    .specs-panel    { grid-template-columns: 1fr; }
+    .specs-panel__img-col { order: -1; }
+    .scenarios-grid { grid-template-columns: repeat(2, 1fr); }
+    .otras-grid     { grid-template-columns: repeat(2, 1fr); }
+    .comp-table-wrap { overflow-x: auto; }
+  }
+  @media (max-width: 600px) {
+    .comp-grid      { grid-template-columns: 1fr; }
+    .fspecs-grid    { grid-template-columns: 1fr; }
+    .sspecs-grid    { grid-template-columns: 1fr; }
+    .scenarios-grid { grid-template-columns: 1fr; }
+    .otras-grid     { grid-template-columns: 1fr; }
+    .cuando-cta     { flex-direction: column; align-items: flex-start; }
+    .cuando-cta__btn { width: 100%; justify-content: center; }
+    .specs-panel    { padding: 1.25rem; border-radius: 16px; }
+    .specs-panel__cta { flex-direction: column; align-items: stretch; }
+    .specs-panel__cta-btn { justify-content: center; }
+  }
+</style>
