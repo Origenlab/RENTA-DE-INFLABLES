@@ -4,7 +4,7 @@
 import { getCollection, render } from 'astro:content'
 import PageLayout from '@layouts/PageLayout.astro'
 import CTABanner from '@components/CTABanner.astro'
-import { TAXONOMY } from '@config/site'
+import { TAXONOMY, CONTACT, waUrl, WA_MESSAGES } from '@config/site'
 
 export async function getStaticPaths() {
   const posts = await getCollection('blog', ({ data }) => !data.draft)
@@ -46,7 +46,16 @@ const fecha = post.data.pubDate.toLocaleDateString('es-MX', {
     </div>
   </article>
 
-  <CTABanner />
+  <CTABanner
+    heading={`¿Listo para rentar el ${post.data.model}?`}
+    desc="Escríbenos por WhatsApp con la fecha, la colonia y el número de niños — respondemos con precio y disponibilidad en minutos."
+    variant="primary"
+    btns={[
+      { label: 'Escribir por WhatsApp', href: waUrl(WA_MESSAGES.cotizar), icon: 'wa', primary: true, external: true },
+      { label: `Llamar: ${CONTACT.phone}`, href: `tel:${CONTACT.phoneE164}`, icon: 'phone', primary: false },
+    ]}
+    badge={`${CONTACT.hours.display} · Respuesta garantizada`}
+  />
 </PageLayout>
 
 <style>

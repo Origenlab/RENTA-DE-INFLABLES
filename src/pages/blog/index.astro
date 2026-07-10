@@ -5,7 +5,7 @@ import { getCollection } from 'astro:content'
 import PageLayout from '@layouts/PageLayout.astro'
 import SectionHeading from '@components/SectionHeading.astro'
 import CTABanner from '@components/CTABanner.astro'
-import { TAXONOMY } from '@config/site'
+import { TAXONOMY, CONTACT, waUrl, WA_MESSAGES } from '@config/site'
 
 const posts = await getCollection('blog', ({ data }) => !data.draft)
 
@@ -67,7 +67,16 @@ const groups = MODEL_ORDER.map((model) => ({
     ))}
   </section>
 
-  <CTABanner />
+  <CTABanner
+    heading="¿No sabes qué inflable elegir?"
+    desc="Cuéntanos la edad de los niños, el espacio disponible y la fecha — te recomendamos el modelo ideal con precio y disponibilidad en minutos."
+    variant="primary"
+    btns={[
+      { label: 'Escribir por WhatsApp', href: waUrl(WA_MESSAGES.cotizar), icon: 'wa', primary: true, external: true },
+      { label: `Llamar: ${CONTACT.phone}`, href: `tel:${CONTACT.phoneE164}`, icon: 'phone', primary: false },
+    ]}
+    badge={`${CONTACT.hours.display} · Respuesta garantizada`}
+  />
 </PageLayout>
 
 <style>
