@@ -1,13 +1,10 @@
 ---
 title: "Dragones Rojos: El Inflable que Convierte un Jardín Ordinario en el Escenario de la Mejor Fiesta del Año"
-description: "Por INFLAFI — Renta de Inflables en CDMX Guía completa de INFLAFI, renta de inflables en CDMX."
+description: "Imagina esta escena: son las 11 de la mañana de un sábado, el jardín de tu casa acaba de transformarse. Hay algo rojo, imponente, vivo en medio del pasto."
 model: "Dragones Rojos"
 category: medianos
 pubDate: 2026-07-09
 draft: false
----
-*Por INFLAFI — Renta de Inflables en CDMX*
-
 ---
 
 Imagina esta escena: son las 11 de la mañana de un sábado, el jardín de tu casa acaba de transformarse. Hay algo rojo, imponente, vivo en medio del pasto. Los niños llegan, ven el inflable, y en fracción de segundo sus mochilas vuelan hacia un lado y ellos corren. No caminan. Corren. El cumpleañero los mira con una sonrisa que no cabe en su cara —esa sonrisa enorme, sin filtro, que solo tienen los niños de 7 años cuando algo los desborda de emoción. Tú, desde la orilla, con el café en la mano, observas eso y piensas: *sí. Esto era lo que quería.*

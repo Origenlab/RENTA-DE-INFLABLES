@@ -1,6 +1,6 @@
 ---
 title: "Barco Pirata: La Aventura en Alta Mar para el Cumpleaños más Épico de tu Hijo en CDMX"
-description: "Guía completa de INFLAFI, renta de inflables en CDMX."
+description: "Un barco pirata de 7 metros inflado en el jardín, con velas, cañones y bandera Jolly Roger: la fiesta de aventura en alta mar que tu hijo va a contar en la escuela el lunes. Guía de INFLAFI para organizarla en CDMX."
 model: "Barco Pirata"
 category: grandes
 pubDate: 2026-07-09

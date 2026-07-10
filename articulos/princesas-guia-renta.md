@@ -1,6 +1,6 @@
 ---
 title: "Renta del Castillo de Princesas: La Guía Completa para el Cumpleaños de Niña en CDMX"
-description: "Guía completa de INFLAFI, renta de inflables en CDMX."
+description: "El Castillo de Princesas es el inflable más solicitado y fotografiado del catálogo INFLAFI para fiestas de niña: 4×3.3×3 m en rosa, lila y morado. Guía completa para rentarlo en CDMX: specs, espacio requerido y proceso de reserva."
 model: "Princesas"
 category: ninas
 pubDate: 2026-07-09
