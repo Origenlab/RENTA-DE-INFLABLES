@@ -1,5 +1,11 @@
-# Gusanitos en CDMX: La Guía Completa del Inflable Mediano con Mayor Capacidad — Por Qué Más Espacio Cambia Toda la Fiesta
-
+---
+title: "Gusanitos en CDMX: La Guía Completa del Inflable Mediano con Mayor Capacidad — Por Qué Más Espacio Cambia Toda la Fiesta"
+description: "El momento ocurre siempre de la misma manera y siempre produce el mismo malestar: son las 3 de la tarde, la fiesta está en su mejor momento, hay veintiocho niños en el jardín, y el inflable tiene capacidad para seis."
+model: "Gusanitos"
+category: medianos
+pubDate: 2026-07-09
+draft: false
+---
 El momento ocurre siempre de la misma manera y siempre produce el mismo malestar: son las 3 de la tarde, la fiesta está en su mejor momento, hay veintiocho niños en el jardín, y el inflable tiene capacidad para seis. La cola frente a la entrada del inflable ya tiene doce niños. Tres de ellos llevan diez minutos esperando. Uno ya está llorando. Dos más están peleando por quién entra primero. Los papás que organizaron la fiesta —que pasaron semanas pensando en el pastel, en la decoración, en los recuerdos, en la lista de invitados— no anticiparon este problema específico, y ahora están corriendo para apagarlo.
 
 Este escenario no es una exageración. Es la realidad de decenas de fiestas infantiles en la CDMX cada fin de semana, y la causa casi siempre es la misma: se eligió el inflable sin hacer el cálculo correcto entre el número de niños invitados y la capacidad real del equipo. Se pensó en la temática, en el precio, en el color, pero no en la matemática básica del entretenimiento grupal. Y esa matemática tiene consecuencias directas en la experiencia de los niños, en el estrés de los adultos y en la calidad del evento completo.
@@ -60,6 +66,8 @@ Esta tabla va más allá de las especificaciones básicas. Incluye métricas cal
 
 *Nota sobre m² por niño: la diferencia parece pequeña en el papel (1.25 vs. 1.32 m²), pero se amplifica cuando se traduce a niños reales brincando. La diferencia de 3.3 metros vs. 2.5 metros de ancho significa que los Gusanitos admiten movimiento lateral genuino; los otros medianos no.*
 
+> Si quieres el análisis completo de la categoría —con matriz de decisión por edad, espacio y número de niños—, la [comparativa Gusanitos vs. Dragones Rojos vs. Mini Jungla](/blog/gusanitos-vs-medianos-comparativa) pone los tres medianos frente a frente, y el duelo directo con el otro mediano estrella está en [Mini Jungla vs. Gusanitos](/blog/mini-jungla-vs-gusanitos).
+
 ---
 
 ## El cálculo de eficiencia: cuántos niños atiende por hora en diferentes formatos de evento
@@ -81,7 +89,7 @@ Esta tabla responde la pregunta que los papás organizadores realmente necesitan
 
 ## Para qué eventos son ideales los Gusanitos
 
-**Kermés escolares.** Este es el evento para el que los Gusanitos son, sin exageración, la opción perfecta. Una kermés escolar de primaria en CDMX puede tener entre 80 y 300 niños asistentes. Con rotación de grupos de 9 niños en turnos de 10 minutos, los Gusanitos pueden procesar cerca de 54 niños por hora de manera ordenada. La clave está en la gestión de turnos —que esta guía detalla más adelante— pero el inflable provee la capacidad base para que esa gestión sea viable. Un inflable de menor capacidad convierte la kermés en un caos de colas inmanejables.
+**Kermés escolares.** Este es el evento para el que los Gusanitos son, sin exageración, la opción perfecta. Una kermés escolar de primaria en CDMX puede tener entre 80 y 300 niños asistentes. Con rotación de grupos de 9 niños en turnos de 10 minutos, los Gusanitos pueden procesar cerca de 54 niños por hora de manera ordenada. La clave está en la gestión de turnos —que esta guía detalla más adelante— pero el inflable provee la capacidad base para que esa gestión sea viable. Un inflable de menor capacidad convierte la kermés en un caos de colas inmanejables. Si organizas un evento de plantel, la [guía operativa de los Gusanitos en kermeses y eventos escolares](/blog/gusanitos-kermes-eventos-escolares) baja todo al detalle: boletos, requisitos del plantel, corriente eléctrica y tabla de planeación completa.
 
 **Posadas familiares grandes.** Las posadas en México tienen una característica que los papás conocen bien: la lista de invitados crece sola. Una posada "de 40 personas" termina siendo de 55. Y de esas 55 personas, hay entre 15 y 25 niños de distintas edades que necesitan entretenimiento activo durante horas. Los Gusanitos son el ancla de entretenimiento infantil que mantiene a los niños ocupados, seguros y felices durante toda la posada, liberando a los adultos para disfrutar el evento.
 
@@ -113,7 +121,7 @@ La mayoría de los consejos sobre inflables están escritos para fiestas de cump
 
 **Necesitas una zona de espera con actividad.** Los niños que esperan su turno en el inflable sin tener algo que hacer se vuelven impacientes y conflictivos en 5 minutos. Si tienes una zona de espera con actividad —brinco de cuerda, juegos de mesa, manualidades— la espera se vuelve tolerable y los niños llegan al inflable con mejor disposición.
 
-**El adulto de supervisión del inflable es un rol de tiempo completo.** En eventos grandes, la persona que supervisa el inflable no puede ser la misma que atiende el buffet, habla con los invitados y organiza las otras actividades. Es un rol dedicado que requiere atención constante: contar niños, verificar que nadie sobrepase el límite, asistir a los que salen, preparar el siguiente grupo.
+**El adulto de supervisión del inflable es un rol de tiempo completo.** En eventos grandes, la persona que supervisa el inflable no puede ser la misma que atiende el buffet, habla con los invitados y organiza las otras actividades. Es un rol dedicado que requiere atención constante: contar niños, verificar que nadie sobrepase el límite, asistir a los que salen, preparar el siguiente grupo. La descripción completa de ese puesto —con el protocolo por fases, el manejo del clima y el checklist imprimible— está en la [guía de seguridad de los Gusanitos](/blog/gusanitos-guia-seguridad).
 
 ---
 
@@ -227,6 +235,17 @@ No. Ese es el espacio mínimo de seguridad requerido para una instalación corre
 
 **¿Cuánto tiempo antes del evento debo reservar para una kermés escolar?**
 Para eventos institucionales o de comunidad, reserva con mínimo dos semanas de anticipación. Para fechas de alta demanda —últimas semanas de noviembre, primera de diciembre para posadas; mayo y junio para fiestas de fin de ciclo escolar— tres semanas o más es lo prudente.
+
+---
+
+## Artículos relacionados
+
+- [Gusanitos para grupos grandes: la matemática de los turnos](/blog/gusanitos-grupos-grandes)
+- [Guía de seguridad de los Gusanitos: densidad, turnos y protocolo](/blog/gusanitos-guia-seguridad)
+- [Gusanitos en kermeses y eventos escolares: la guía operativa](/blog/gusanitos-kermes-eventos-escolares)
+- [¿Qué mediano rentar? Gusanitos vs. Dragones Rojos vs. Mini Jungla](/blog/gusanitos-vs-medianos-comparativa)
+- [Mini Jungla vs. Gusanitos: el duelo de los medianos](/blog/mini-jungla-vs-gusanitos)
+- [Extrem: la guía del grande con tobogán de altura](/blog/extrem-guia-renta)
 
 ---
 

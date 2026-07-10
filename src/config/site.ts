@@ -176,6 +176,7 @@ export const NAV: readonly NavItem[] = [
     ],
   },
   { label: 'Paquetes', href: '/paquetes-para-fiestas-infantiles' },
+  { label: 'Blog', href: '/blog' },
   { label: 'Contacto', href: '/contacto' },
 ];
 

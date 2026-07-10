@@ -78,4 +78,24 @@ const zonas = defineCollection({
     .strict(),
 });
 
-export const collections = { inflables, servicios, zonas };
+// ── Colección: blog ──────────────────────────────────────────────────────────
+const blog = defineCollection({
+  loader: glob({ pattern: '**/*.md', base: './articulos' }),
+  schema: z
+    .object({
+      title: z.string().min(10).max(160),
+      description: z.string().min(50).max(300),
+      model: z.string(),
+      category: z.enum([
+        'chicos', 'medianos', 'grandes', 'ninas', 'ninos', 'bodas',
+      ]),
+      pubDate: z.coerce.date(),
+      draft: z.boolean().default(false),
+      seoTitle: z.string().max(60).optional(),
+      seoDescription: z.string().max(160).optional(),
+      noindex: z.boolean().default(false),
+    })
+    .strict(),
+});
+
+export const collections = { inflables, servicios, zonas, blog };
