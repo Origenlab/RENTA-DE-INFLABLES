@@ -37,3 +37,4 @@ pnpm-debug.log*
 
 # Vite cache
 node_modules/.vite/
+.wrangler
