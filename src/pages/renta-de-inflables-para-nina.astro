@@ -2,6 +2,8 @@
 // src/pages/renta-de-inflables-para-nina.astro — L3 · Inflables para Niña · INFLAFI
 // Ruta: /renta-de-inflables-para-nina
 // SEO objetivo: "inflable para niña CDMX" · "castillo de princesas inflable CDMX" · "brincolín rosa CDMX"
+// F7.1: el contenido vive en src/content/categorias/renta-de-inflables-para-nina.md
+// (colección `categorias`). Esta página conserva su esqueleto y su CSS temático.
 
 import PageLayout     from '@layouts/PageLayout.astro'
 import Hero           from '@components/Hero.astro'
@@ -12,207 +14,24 @@ import CTABanner      from '@components/CTABanner.astro'
 import FAQWithContact from '@components/FAQWithContact.astro'
 import SectionMenu    from '@components/SectionMenu.astro'
 
+import { getEntry } from 'astro:content'
 import { waUrl, WA_MESSAGES, CONTACT } from '@config/site'
-import type { FaqItem } from '@lib/seo'
 
 const WA_ICON = 'M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z'
 
-const WA_MSG_PRINCESAS = 'Hola, me interesa cotizar el inflable Castillo de Princesas (4×3.3×3 m) para un evento en CDMX. ¿Está disponible?'
-
-// ── FEATURE SPECS ─────────────────────────────────────────────────────────────
-const FEATURE_SPECS = [
-  {
-    gradient: 'linear-gradient(135deg, #be185d 0%, #f472b6 100%)',
-    svgContent: '<path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" stroke-width="1.5"/>',
-    label: 'El más fotografiado',
-    value: 'Torres y coronas',
-    detail: 'El Castillo de Princesas es el inflable más fotografiado del catálogo INFLAFI. Las torres rosadas con coronas doradas crean el fondo perfecto para la sesión de fotos del evento — muchos papás lo rentan específicamente por las fotos.',
-    tag: 'Favorito en Instagram',
-  },
-  {
-    gradient: 'linear-gradient(135deg, #7c3aed 0%, #a855f7 100%)',
-    svgContent: '<circle cx="12" cy="8" r="5" stroke-width="1.5"/><path d="M3 21v-2a7 7 0 0 1 7-7h4a7 7 0 0 1 7 7v2" stroke-width="1.5"/>',
-    label: 'Edad recomendada',
-    value: '3 a 9 años',
-    detail: 'Rango de edad amplio que cubre el grueso de las fiestas infantiles de niña. La entrada tiene un bordillo bajo de acceso fácil desde los 3 años. Las niñas de hasta 9–10 años disfrutan el espacio sin problema.',
-    tag: 'El rango más popular',
-  },
-  {
-    gradient: 'linear-gradient(135deg, #9d174d 0%, #db2777 100%)',
-    svgContent: '<path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" stroke-width="1.5"/><circle cx="9" cy="7" r="4" stroke-width="1.5"/><path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75" stroke-width="1.5"/>',
-    label: 'Capacidad simultánea',
-    value: '5 a 6 niñas',
-    detail: 'Con 3.3 m de base — el ancho más grande de la categoría mediana — el Castillo de Princesas permite que 5 a 6 niñas brinquen al mismo tiempo sin apretarse. En una fiesta de 15 niñas, los turnos de espera son breves.',
-    tag: 'Base extra ancha · 3.3 m',
-  },
-]
-
-// ── SECONDARY SPECS ────────────────────────────────────────────────────────────
-const SECONDARY_SPECS = [
-  {
-    svgContent: '<path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/>',
-    label: 'Dimensiones',
-    value: '4×3.3×3 m',
-    note: 'El inflable más ancho de la categoría mediana',
-  },
-  {
-    svgContent: '<circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/>',
-    label: 'Tiempo de montaje',
-    value: '~15 minutos',
-    note: 'El equipo llega 30 min antes del evento',
-  },
-  {
-    svgContent: '<path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/>',
-    label: 'Soplador',
-    value: 'Incluido · 800 W',
-    note: 'Toma estándar 110 V · operación continua',
-  },
-  {
-    svgContent: '<circle cx="12" cy="12" r="3"/><path d="M12 1v4M12 19v4M4.22 4.22l2.83 2.83M16.95 16.95l2.83 2.83M1 12h4M19 12h4M4.22 19.78l2.83-2.83M16.95 7.05l2.83-2.83"/>',
-    label: 'Anclas de seguridad',
-    value: '4 incluidas',
-    note: 'Instalación segura en jardín o terraza',
-  },
-  {
-    svgContent: '<rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/>',
-    label: 'Espacio mínimo',
-    value: '5.5×4 m exterior',
-    note: 'El ancho de 3.3 m requiere algo más de margen',
-  },
-  {
-    svgContent: '<circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/>',
-    label: 'Duración renta',
-    value: '4 a 6 horas',
-    note: 'Extensión posible con costo adicional',
-  },
-]
-
-// ── ESCENARIOS ────────────────────────────────────────────────────────────────
-const SCENARIOS = [
-  {
-    icon: 'M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z',
-    title: 'Fiesta de princesas o cuento de hadas',
-    desc: 'La aplicación más obvia y la más efectiva. El Castillo de Princesas transforma cualquier jardín en un escenario de cuento — las niñas llegan y lo primero que hacen es señalarlo. La temática de princesas se vende sola con el inflable presente.',
-    tag: 'El match perfecto',
-  },
-  {
-    icon: 'M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z',
-    title: 'Fiesta de Barbie o temática rosa',
-    desc: 'Con la tendencia Barbie en su punto máximo, el Castillo de Princesas en rosa y morado es el elemento decorativo que más impacto visual genera. Muchas mamás coordinan el color del inflable con el resto de la decoración — funciona a la perfección.',
-    tag: 'Tendencia 2024–2025',
-  },
-  {
-    icon: 'M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2zM9 22V12h6v10',
-    title: 'Cumpleaños en jardín con sesión de fotos',
-    desc: 'El Castillo de Princesas es el favorito de los fotógrafos de eventos infantiles en CDMX. Las torres y coronas crean el fondo perfecto sin que sean necesarios backdrops adicionales. Muchos clientes programan la sesión de fotos junto al inflable antes de que empiece el brinco.',
-    tag: 'El más fotografiado',
-  },
-  {
-    icon: 'M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z',
-    title: 'Fiesta morada, lila o pastel',
-    desc: 'No todas las fiestas de niña son de princesas, pero casi todas las fiestas con paleta de colores pastel — morado, lila, rosa palo — encajan visualmente con el Castillo. Es el inflable más versátil en cuanto a compatibilidad con paletas de color femeninas.',
-    tag: 'Colores pasteles',
-  },
-  {
-    icon: 'M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75M9 7a4 4 0 1 0 0-8 4 4 0 0 0 0 8z',
-    title: 'XV años con zona infantil para niñas pequeñas',
-    desc: 'En los XV años con primos pequeños, el Castillo de Princesas es la solución para mantener ocupadas a las niñas de 3 a 9 años mientras los adolescentes y adultos disfrutan el evento. Les da su propio espacio de diversión coordinado visualmente con la fiesta.',
-    tag: 'Para primas pequeñas',
-  },
-  {
-    icon: 'M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5',
-    title: 'Fiesta mixta: Princesas + inflable de niños',
-    desc: 'La combinación más pedida en fiestas mixtas de hermanos: el Castillo de Princesas para las niñas y cualquiera de los modelos medianos con diseño más neutro o activo para los niños. Los dos inflables operan en zonas distintas del jardín sin interferir.',
-    tag: 'Combo hermanos',
-  },
-]
-
-// ── OTRAS CATEGORÍAS ──────────────────────────────────────────────────────────
-const OTRAS_CATS = [
-  {
-    label: 'Inflables Chicos',
-    href: '/renta-de-inflables-chicos',
-    image: '/images/inflables/chicos.jpg',
-    imageAlt: 'Inflables chicos en renta CDMX',
-    badge: undefined as string | undefined,
-    blurb: 'El Micro Baby (2×2 m): cabe en interiores, seguro para niños de 1 a 4 años.',
-    ctaLabel: 'Ver inflables chicos',
-  },
-  {
-    label: 'Inflables Medianos',
-    href: '/renta-de-inflables-medianos',
-    image: '/images/inflables/medianos.jpg',
-    imageAlt: 'Inflables medianos en renta CDMX',
-    badge: undefined as string | undefined,
-    blurb: 'Dragones Rojos, Mini Jungla y Gusanitos: 4 m de largo, el más rentado de CDMX.',
-    ctaLabel: 'Ver inflables medianos',
-  },
-  {
-    label: 'Inflables Grandes',
-    href: '/renta-de-inflables-grandes',
-    image: '/images/inflables/grandes.jpg',
-    imageAlt: 'Inflables grandes en renta CDMX',
-    badge: undefined as string | undefined,
-    blurb: 'Extrem con tobogán y Barco Pirata de 7 m: el WOW factor del catálogo.',
-    ctaLabel: 'Ver inflables grandes',
-  },
-  {
-    label: 'Inflables para Niños',
-    href: '/renta-de-inflables-para-ninos',
-    image: '/images/inflables/ninos.jpg',
-    imageAlt: 'Inflables para niños en renta CDMX',
-    badge: 'Héroes',
-    blurb: 'Superhéroes, dinosaurios y aventureros. Para fiestas temáticas de 4 a 12 años.',
-    ctaLabel: 'Ver héroes',
-  },
-  {
-    label: 'Inflables para Bodas',
-    href: '/renta-de-inflables-para-boda',
-    image: '/images/inflables/bodas.jpg',
-    imageAlt: 'Inflables para bodas y eventos',
-    badge: undefined as string | undefined,
-    blurb: 'Castillo Blanco premium: elegante, discreto, para bodas y XV años.',
-    ctaLabel: 'Ver para bodas',
-  },
-]
-
-// ── FAQ ───────────────────────────────────────────────────────────────────────
-const FAQS: FaqItem[] = [
-  {
-    question: '¿El Castillo de Princesas cabe en un interior?',
-    answer: 'No. Con 4×3.3×3 m de dimensiones, el Castillo de Princesas es del mismo tamaño que los inflables medianos y requiere exterior: jardín, terraza descubierta o quinta. El único modelo del catálogo INFLAFI que entra en interiores es el Micro Baby (2×2 m) de la categoría Chicos.',
-  },
-  {
-    question: '¿Cuánto espacio libre necesito en el jardín?',
-    answer: 'Mínimo 5.5×4 m de área completamente libre, más 1 metro de margen perimetral para circulación y el soplador. El ancho de 3.3 m del Castillo de Princesas es mayor que el de los modelos medianos estándar (2.5 m), por lo que requiere un poco más de espacio lateral. Si no estás segura de las medidas, mándanos fotos del jardín y verificamos antes de confirmar.',
-  },
-  {
-    question: '¿Pueden brincar también los niños en el Castillo de Princesas?',
-    answer: 'Estructuralmente sí, el inflable es un castillo estándar y cualquier niño puede usarlo. La distinción es puramente de diseño y temática: rosa, morado, torres y coronas. En fiestas mixtas donde el diseño no importa, funciona sin problema. Para fiestas donde el niño prefiere no estar en un inflable rosa, los modelos de la categoría Niños o los medianos son más adecuados.',
-  },
-  {
-    question: '¿Funciona para una fiesta de Barbie?',
-    answer: 'Perfecto. La paleta de colores del Castillo de Princesas — rosa intenso, morado, detalles dorados — encaja directamente con la estética Barbie. Es el inflable más pedido para fiestas de Barbie en CDMX. Si la temática lleva globos, manteles o decoración en rosa y lila, el Castillo se integra visualmente sin esfuerzo.',
-  },
-  {
-    question: '¿Cuántas niñas pueden brincar al mismo tiempo?',
-    answer: 'Entre 5 y 6 niñas simultáneamente, gracias a la base de 3.3 m — el ancho más grande de la categoría mediana. En una fiesta de 15 niñas, el tiempo de espera por turno es de aproximadamente 10 minutos. Recomendamos que un adulto coordine los turnos cuando hay muchas niñas pequeñas para mantener el orden y evitar sobrecarga del inflable.',
-  },
-  {
-    question: '¿Puedo combinar el Castillo de Princesas con otro inflable para los niños?',
-    answer: 'Sí, y es de hecho la configuración más popular en fiestas con hermanos o primos de ambos géneros. El Castillo de Princesas para las niñas y cualquiera de los modelos medianos (Dragones Rojos, Mini Jungla o Gusanitos) para los niños. Los dos inflan y operan simultáneamente sin interferir entre sí, siempre que el espacio del evento lo permita.',
-  },
-]
+const entry = await getEntry('categorias', 'renta-de-inflables-para-nina')
+if (!entry) throw new Error('Falta src/content/categorias/renta-de-inflables-para-nina.md')
+const d = entry.data
 ---
 
 <PageLayout
-  title="Renta de Inflables para Niña en CDMX — Castillo de Princesas | INFLAFI"
-  description="Renta del Castillo de Princesas en CDMX: 4×3.3×3 m, torres rosadas y coronas doradas. El inflable más fotografiado del catálogo. Para niñas de 3 a 9 años. Montaje incluido."
-  image="/images/og/inflables-nina.jpg"
+  title={d.title}
+  description={d.description}
+  image={d.image}
   pageType="category"
   breadcrumbs={[
     { label: 'Inflables', href: '/inflables' },
-    { label: 'Inflables para Niña', href: '/renta-de-inflables-para-nina' },
+    { label: d.breadcrumbLabel, href: `/${entry.id}` },
   ]}
 >
 
@@ -224,106 +43,63 @@ const FAQS: FaqItem[] = [
         <li aria-hidden="true" class="bc-sep">›</li>
         <li><a href="/inflables" class="bc-link">Inflables</a></li>
         <li aria-hidden="true" class="bc-sep">›</li>
-        <li><span class="bc-current" aria-current="page">Inflables para Niña</span></li>
+        <li><span class="bc-current" aria-current="page">{d.breadcrumbLabel}</span></li>
       </ol>
     </div>
   </nav>
 
   <!-- HERO ────────────────────────────────────────────────────────────────── -->
   <Hero
-    badge="1 modelo icónico · 4×3.3×3 m · El más fotografiado del catálogo"
-    title="Inflables para Niña"
-    accent="en Renta · CDMX"
-    subtitle="El Castillo de Princesas: cuatro metros de largo, torres rosadas y coronas doradas. El inflable más fotografiado del catálogo INFLAFI y el favorito para fiestas de niñas de 3 a 9 años en CDMX."
-    descRight={[
-      "El Castillo de Princesas es el modelo más reconocible del catálogo INFLAFI: diseño de castillo medieval con torres en rosa intenso, detalles morados y coronas doradas que transforman cualquier jardín en un escenario de cuento. Con 4 metros de largo y 3.3 metros de base — el ancho más grande de la categoría mediana — tiene espacio para que 5 a 6 niñas brinquen simultáneamente sin apretarse.",
-      "Es el inflable más fotografiado porque hace innecesario cualquier otro elemento de decoración de gran formato: llega al jardín y ya es el centro visual del evento. Compatible con fiestas de princesas, Barbie, unicornios, colores pasteles y cualquier temática con paleta rosa o morada. Requiere espacio exterior mínimo de 5.5×4 m. El precio incluye soplador, anclas, traslado, montaje y desmontaje.",
-    ]}
+    badge={d.hero.badge}
+    title={d.hero.title}
+    accent={d.hero.accent}
+    subtitle={d.hero.subtitle}
+    descRight={d.hero.descRight}
     ctas={[
-      { text: '¡Cotizar el Castillo!', href: waUrl(WA_MSG_PRINCESAS), variant: 'primary', whatsapp: true },
+      { text: d.hero.ctaText, href: waUrl(d.waMessage), variant: 'primary', whatsapp: true },
       { text: 'Ver ficha técnica', href: '#especificaciones', variant: 'outline' },
     ]}
-    ariaLabel="Renta de inflables para niña — Castillo de Princesas INFLAFI CDMX"
+    ariaLabel={d.hero.ariaLabel}
   />
 
   <!-- MENÚ DE SECCIONES ───────────────────────────────────────────────────── -->
   <SectionMenu items={[
+    ...d.menuItems,
     {
-      label: 'Castillo de Princesas',
-      sub: 'Descripción completa del modelo',
-      href: '#castillo-princesas',
-      icon: 'M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z',
-    },
-    {
-      label: 'Ficha técnica',
-      sub: 'Medidas, capacidad y espacio',
-      href: '#especificaciones',
-      icon: 'M8 6h13M8 12h13M8 18h13M3 6h.01M3 12h.01M3 18h.01',
-    },
-    {
-      label: '¿Cuándo usarlo?',
-      sub: '6 tipos de fiesta que funciona',
-      href: '#cuando',
-      icon: 'M9 5H7a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2h-2M9 5a2 2 0 0 0 2 2h2a2 2 0 0 0 2-2M9 5a2 2 0 0 0 2-2h2a2 2 0 0 0 2 2',
-    },
-    {
-      label: 'Otras opciones',
-      sub: 'Más modelos del catálogo',
-      href: '#otras-categorias',
-      icon: 'M4 6h16M4 12h16M4 18h7',
-    },
-    {
-      label: 'Cotizar ahora',
-      sub: 'Respuesta en minutos',
-      href: waUrl(WA_MSG_PRINCESAS),
+      label: d.menuCta.label,
+      sub: d.menuCta.sub,
+      href: waUrl(d.waMessage),
       icon: WA_ICON,
       cta: true,
     },
   ]} />
 
   <!-- ① EL CASTILLO DE PRINCESAS A FONDO ──────────────────────────────────── -->
-  <section class="section" aria-labelledby="modelo-heading">
+  <section class="section" aria-labelledby={d.introHeadingId}>
     <div class="container">
       <SectionHeading
-        id="modelo-heading"
-        eyebrow="El único modelo temático para niñas del catálogo"
-        title="Un castillo que convierte el jardín"
-        titleAccent="en el escenario de la fiesta"
+        id={d.introHeadingId}
+        eyebrow={d.intro.eyebrow}
+        title={d.intro.title}
+        titleAccent={d.intro.titleAccent}
+        desc={d.intro.desc}
         layout="duo"
-        body={[
-          "El Castillo de Princesas no es un brincolín con un diseño más bonito — es el elemento decorativo más impactante que puedes llevar a una fiesta de niñas. Cuando llega al jardín, los demás elementos decorativos pasan a segundo plano. Los globos, el mantel y el pastel complementan el castillo; no al revés.",
-          "Con 3.3 metros de base es el inflable más ancho de la categoría mediana del catálogo — más ancho incluso que el Gusanitos. Eso se traduce en capacidad real para 5–6 niñas simultáneas y en una presencia visual imponente desde cualquier ángulo del jardín.",
-        ]}
+        body={d.intro.body}
       />
 
       <CategoryDetail
-        id="castillo-princesas"
-        eyebrow="Niñas · 4×3.3×3 m · Para niñas 3–9 años"
-        category="Niñas"
-        title="Castillo de Princesas"
-        body={[
-          "El Castillo de Princesas tiene un diseño de galeón medieval con cuatro torres esquineras en rosa intenso, coronas doradas en las puntas y paneles laterales con estampados de estrellas y flores en morado y lila. La entrada tiene un arco decorativo de acceso amplio y un bordillo de altura moderada fácil de cruzar desde los 3 años.",
-          "La base de 3.3 metros — la más ancha de los inflables medianos — maximiza el área de brinco real. A diferencia de modelos con diseño más estrecho, el Castillo permite que múltiples niñas brinquen sin estorbarse entre sí. La altura interior de 3 metros es suficiente para que niñas de hasta 9–10 años brinquen sin tocar el techo.",
-        ]}
-        points={[
-          'Dimensiones: 4×3.3×3 m',
-          'Para niñas de 3 a 9 años',
-          'Capacidad: 5–6 niñas simultáneas',
-          'Diseño: torres rosadas, coronas doradas, flores moradas',
-          'La base más ancha de la categoría mediana',
-          'Arco de entrada decorativo y acceso fácil desde los 3 años',
-          'Solo exterior: jardín, terraza o quinta',
-          'Soplador 800 W y 4 anclas de seguridad incluidos',
-        ]}
-        cta={{ label: 'Cotizar el Castillo de Princesas', href: waUrl(WA_MSG_PRINCESAS), external: true }}
-        gallery={{
-          main: { src: '/images/productos/castillo-princesas.jpg', alt: 'Castillo de Princesas — vista frontal completa con torres · INFLAFI CDMX' },
-          thumbs: [
-            { src: '/images/inflables/ninas.jpg',                 alt: 'Castillo de Princesas — vista lateral y acceso' },
-            { src: '/images/productos/castillo-princesas.jpg',    alt: 'Castillo de Princesas — detalle coronas y torres' },
-            { src: '/images/inflables/ninas.jpg',                 alt: 'Castillo de Princesas — en uso durante fiesta' },
-          ],
+        id={d.detail.id}
+        eyebrow={d.detail.eyebrow}
+        category={d.detail.category}
+        title={d.detail.title}
+        body={d.detail.body}
+        points={d.detail.points}
+        cta={{
+          label: d.detail.ctaLabel,
+          href: waUrl(d.waMessage),
+          external: true,
         }}
+        gallery={d.detail.gallery}
         as="h2"
       />
     </div>
@@ -334,18 +110,16 @@ const FAQS: FaqItem[] = [
     <div class="container">
       <SectionHeading
         id="specs-heading"
-        eyebrow="Medidas · espacio requerido · lo que incluye la renta"
-        title="Lo que necesitas verificar"
-        titleAccent="antes de confirmar tu reserva"
+        eyebrow={d.specsHeading.eyebrow}
+        title={d.specsHeading.title}
+        titleAccent={d.specsHeading.titleAccent}
+        desc={d.specsHeading.desc}
         layout="duo"
-        body={[
-          "El Castillo de Princesas requiere exterior con al menos 5.5×4 m libres — su base de 3.3 m es la más ancha de los inflables medianos. Verifica este espacio antes de reservar; es el único requisito crítico del modelo.",
-          "Todo lo demás está incluido en el precio: soplador de 800 W, cuatro anclas de seguridad, traslado al lugar del evento, montaje profesional y desmontaje al cierre. Sin sorpresas en el precio final.",
-        ]}
+        body={d.specsHeading.body}
       />
 
       <div class="fspecs-grid">
-        {FEATURE_SPECS.map(spec => (
+        {d.featureSpecs.map(spec => (
           <div class="fspec-card">
             <div class="fspec-card__visual" style={`background: ${spec.gradient}`}>
               <svg width="52" height="52" viewBox="0 0 24 24" fill="none"
@@ -367,8 +141,8 @@ const FAQS: FaqItem[] = [
         <div class="specs-panel__img-col">
           <div class="specs-panel__img-wrap">
             <img
-              src="/images/inflables/ninas.jpg"
-              alt="Castillo de Princesas en renta CDMX — INFLAFI"
+              src={d.panel.src}
+              alt={d.panel.alt}
               width="600"
               height="450"
               loading="lazy"
@@ -376,23 +150,23 @@ const FAQS: FaqItem[] = [
               class="specs-panel__img"
             />
             <div class="specs-panel__img-overlay">
-              <span class="spio__badge">Castillo de Princesas</span>
+              <span class="spio__badge">{d.panel.badge}</span>
               <div class="spio__meta">
-                <span class="spio__dims">4 × 3.3 × 3 m</span>
-                <span class="spio__cat">Categoría: Niñas</span>
+                <span class="spio__dims">{d.panel.dims}</span>
+                <span class="spio__cat">{d.panel.cat}</span>
               </div>
             </div>
           </div>
           <p class="specs-panel__img-note">
             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
-            Imagen referencial. Confirma diseño y disponibilidad por WhatsApp.
+            {d.panel.note}
           </p>
         </div>
 
         <div class="specs-panel__data-col">
-          <p class="specs-panel__col-title">Especificaciones técnicas completas</p>
+          <p class="specs-panel__col-title">{d.panel.colTitle}</p>
           <div class="sspecs-grid">
-            {SECONDARY_SPECS.map(s => (
+            {d.secondarySpecs.map(s => (
               <div class="sspec">
                 <span class="sspec__icon" aria-hidden="true">
                   <svg width="15" height="15" viewBox="0 0 24 24" fill="none"
@@ -410,11 +184,11 @@ const FAQS: FaqItem[] = [
             ))}
           </div>
           <div class="specs-panel__cta">
-            <a href={waUrl(WA_MSG_PRINCESAS)} class="specs-panel__cta-btn" target="_blank" rel="noopener noreferrer">
+            <a href={waUrl(d.waMessage)} class="specs-panel__cta-btn" target="_blank" rel="noopener noreferrer">
               <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d={WA_ICON}/></svg>
-              Cotizar el Castillo de Princesas
+              {d.panel.ctaLabel}
             </a>
-            <span class="specs-panel__cta-note">Respondemos en minutos · Lun–Dom</span>
+            <span class="specs-panel__cta-note">{d.panel.ctaNote}</span>
           </div>
         </div>
       </div>
@@ -426,18 +200,15 @@ const FAQS: FaqItem[] = [
     <div class="container">
       <SectionHeading
         id="cuando-heading"
-        eyebrow="6 tipos de fiesta donde encaja perfectamente"
-        title="El Castillo de Princesas brilla más"
-        titleAccent="en estas 6 ocasiones"
+        eyebrow={d.cuandoHeading.eyebrow}
+        title={d.cuandoHeading.title}
+        titleAccent={d.cuandoHeading.titleAccent}
         layout="duo"
-        body={[
-          "El Castillo de Princesas es el inflable más versátil para fiestas de niña: encaja con cualquier temática que use paleta de colores rosa, morado o pastel — no solo con fiestas de princesas literales.",
-          "El único caso donde no recomendamos este modelo: niñas menores de 3 años (el Micro Baby es más seguro para ese rango) o fiestas donde la temática visual es completamente neutral y los papás prefieren un diseño más genérico.",
-        ]}
+        body={d.cuandoHeading.body}
       />
 
       <div class="scenarios-grid">
-        {SCENARIOS.map(s => (
+        {d.scenarios.map(s => (
           <div class="scenario-card">
             <div class="scenario-card__header">
               <span class="scenario-card__icon" aria-hidden="true">
@@ -456,7 +227,7 @@ const FAQS: FaqItem[] = [
       </div>
 
       <div class="cuando-cta">
-        <p class="cuando-cta__text">¿Tu fiesta tiene una temática especial y no estás segura de que encaje con el Castillo? Escríbenos con el tema y te confirmamos en minutos.</p>
+        <p class="cuando-cta__text">{d.cuandoCtaText}</p>
         <a href={waUrl(WA_MESSAGES.cotizar)} class="cuando-cta__btn" target="_blank" rel="noopener noreferrer">
           <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d={WA_ICON}/></svg>
           Consultar por WhatsApp
@@ -470,17 +241,15 @@ const FAQS: FaqItem[] = [
     <div class="container">
       <SectionHeading
         id="otras-heading"
-        eyebrow="Catálogo completo INFLAFI"
-        title="¿Necesitas algo diferente al Castillo?"
-        titleAccent="Aquí están el resto de opciones"
+        eyebrow={d.otrasHeading.eyebrow}
+        title={d.otrasHeading.title}
+        titleAccent={d.otrasHeading.titleAccent}
+        desc={d.otrasHeading.desc}
         layout="duo"
-        body={[
-          "Si la fiesta también tiene niños pequeños, el Micro Baby (2×2 m) es el complemento perfecto para los de 1 a 4 años. Si los niños son mayores o la fiesta tiene una temática sin género específico, los inflables medianos o grandes son mejores opciones.",
-          "También tenemos inflables temáticos para niños — superhéroes, dinosaurios — y el Castillo Blanco premium para eventos formales como bodas o XV años. Cada modelo con traslado, montaje y desmontaje incluidos.",
-        ]}
+        body={d.otrasHeading.body}
       />
       <div class="otras-grid">
-        {OTRAS_CATS.map((cat, i) => (
+        {d.otrasCats.map((cat, i) => (
           <CategoryCard
             label={cat.label}
             href={cat.href}
@@ -498,27 +267,25 @@ const FAQS: FaqItem[] = [
 
   <!-- ⑤ FAQ ────────────────────────────────────────────────────────────────── -->
   <FAQWithContact
-    eyebrow="Preguntas sobre el Castillo de Princesas"
-    title="Lo que más nos preguntan"
-    titleAccent="antes de reservar el Castillo"
-    body={[
-      "Las 6 dudas más frecuentes: espacio requerido, si pueden usar el inflable también los niños, compatibilidad con temática Barbie y la opción de combinarlo con otro modelo.",
-      "Si tienes alguna duda adicional sobre colores, diseño o disponibilidad, escríbenos directamente — respondemos con fotos del modelo actual y disponibilidad de la fecha en minutos.",
-    ]}
-    faqs={FAQS}
+    eyebrow={d.faqHeading.eyebrow}
+    title={d.faqHeading.title}
+    titleAccent={d.faqHeading.titleAccent}
+    desc={d.faqHeading.desc}
+    body={d.faqHeading.body}
+    faqs={d.faqs}
     showContact={true}
   />
 
   <!-- CTA BANNER ───────────────────────────────────────────────────────────── -->
   <CTABanner
-    heading="Reserva el Castillo de Princesas para la fiesta de tu hija"
-    desc="Asegura la fecha con el 30% de anticipo. Torres rosadas, coronas doradas y 5–6 niñas brincando al mismo tiempo — respondemos y confirmamos disponibilidad en minutos."
+    heading={d.banner.heading}
+    desc={d.banner.desc}
     variant="primary"
     btns={[
-      { label: 'Cotizar por WhatsApp', href: waUrl(WA_MSG_PRINCESAS), icon: 'wa', primary: true, external: true },
+      { label: 'Cotizar por WhatsApp', href: waUrl(d.waMessage), icon: 'wa', primary: true, external: true },
       { label: `Llamar: ${CONTACT.phone}`, href: `tel:${CONTACT.phoneE164}`, icon: 'phone', primary: false },
     ]}
-    badge="Montaje y desmontaje incluidos · CDMX"
+    badge={d.banner.badge}
   />
 
 </PageLayout>
