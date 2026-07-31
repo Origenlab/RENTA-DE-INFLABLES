@@ -42,7 +42,7 @@ export const SITE = {
     name: 'DENFLAB',
     legalName: 'DENFLAB Renta de Inflables',
     slogan: 'Más de 30 años de experiencia en renta de inflables',
-    logo: '/images/brand/logo.webp',
+    logo: '/images/brand/isotipo-denflab.png',
     foundingDate: '1995',
     sameAs: [] as string[],
   },

@@ -3,12 +3,28 @@
    Paleta festiva y vibrante para inflables y fiestas infantiles. */
 
 :root {
-  /* ---------- COLOR (marca DENFLAB) ---------- */
-  --c-primary: #7C3AED;          /* violeta festivo */
-  --c-primary-light: #9061F9;
-  --c-primary-dark: #6D28D9;
-  --c-accent: #F59E0B;           /* dorado/ámbar festivo */
-  --c-primary-rgb: 124, 58, 237;
+  /* ---------- COLOR (marca DENFLAB) ----------
+     Paleta tomada del logotipo oficial DENFLAB.
+     Azul = color de marca · amarillo/rojo/teal = acentos del wordmark. */
+  --c-primary: #015CF1;          /* azul DENFLAB (mascota + letra D) */
+  --c-primary-light: #3D82FF;
+  --c-primary-dark: #0043C4;
+  --c-primary-rgb: 1, 92, 241;
+  --c-accent: #FDC402;           /* amarillo DENFLAB (estrella) */
+  --c-accent-rgb: 253, 196, 2;
+
+  /* Acentos secundarios del logotipo */
+  --c-brand-blue: #015CF1;
+  --c-brand-yellow: #FDC402;
+  --c-brand-red: #F8494A;
+  --c-brand-teal: #01BDB9;
+  --c-brand-navy: #02184C;
+  --c-brand-gradient: linear-gradient(90deg, #015CF1 0%, #01BDB9 45%, #FDC402 100%);
+
+  /* Fondos oscuros de marca (hero, footer) */
+  --c-dark-1: #01081C;
+  --c-dark-2: #032061;
+  --c-dark-3: #010D26;
 
   /* ---------- COLOR (tinta / neutros) ---------- */
   --c-ink: #14181f;

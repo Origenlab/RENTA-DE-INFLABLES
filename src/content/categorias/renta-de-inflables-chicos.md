@@ -81,7 +81,7 @@ specsHeading:
     - 'Antes de reservar, confirma que el espacio del evento admite los 3×3 m mínimos que requiere el Micro Baby. La base son 2×2 m — el metro extra de margen es para el soplador lateral y la circulación alrededor del inflable.'
     - 'El precio que te cotizamos incluye soplador, traslado, montaje y desmontaje. Sin cargos por zona dentro de CDMX, sin costos ocultos. Reserva con el 30% de anticipo y el resto lo liquidas el día del evento.'
 featureSpecs:
-  - gradient: 'linear-gradient(135deg, #7c3aed 0%, #a855f7 100%)'
+  - gradient: 'linear-gradient(135deg, #015CF1 0%, #3D82FF 100%)'
     svgContent: '<circle cx="12" cy="8" r="5" stroke-width="1.5"/><path d="M3 21v-2a7 7 0 0 1 7-7h4a7 7 0 0 1 7 7v2" stroke-width="1.5"/>'
     label: 'Edad recomendada'
     value: '1 a 4 años'

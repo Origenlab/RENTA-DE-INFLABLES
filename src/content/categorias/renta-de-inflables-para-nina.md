@@ -85,7 +85,7 @@ featureSpecs:
     value: 'Torres y coronas'
     detail: 'El Castillo de Princesas es el inflable más fotografiado del catálogo DENFLAB. Las torres rosadas con coronas doradas crean el fondo perfecto para la sesión de fotos del evento — muchos papás lo rentan específicamente por las fotos.'
     tag: 'Favorito en Instagram'
-  - gradient: 'linear-gradient(135deg, #7c3aed 0%, #a855f7 100%)'
+  - gradient: 'linear-gradient(135deg, #015CF1 0%, #3D82FF 100%)'
     svgContent: '<circle cx="12" cy="8" r="5" stroke-width="1.5"/><path d="M3 21v-2a7 7 0 0 1 7-7h4a7 7 0 0 1 7 7v2" stroke-width="1.5"/>'
     label: 'Edad recomendada'
     value: '3 a 9 años'

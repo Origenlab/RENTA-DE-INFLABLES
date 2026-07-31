@@ -46,7 +46,7 @@
   }
   .hdr-burger { width: 44px; height: 44px; }
   a, button, [role="button"], summary, label, .hdr-cta, .hero__btn {
-    -webkit-tap-highlight-color: rgba(124, 58, 237, .15);
+    -webkit-tap-highlight-color: rgba(1, 92, 241, .15);
   }
 }
 @media (max-width: 768px) {
@@ -73,7 +73,7 @@
 
 @media (max-width: 380px) {
   .hdr-inner { gap: .75rem !important; }
-  .hdr-logo__mark { font-size: 1.25rem !important; }
+  .hdr-logo__img { width: 128px !important; }
   .hdr-logo__sub { display: none !important; }
 }
 
@@ -82,3 +82,10 @@ body.menu-open .wa-float { display: none !important; }
 
 .prose, .post__body > *, .post__sidebar { min-width: 0; }
 .prose pre, .prose table { max-width: 100%; }
+
+/* ── Logo DENFLAB en móvil ────────────────────────────────────────────────── */
+@media (max-width: 640px) {
+  .hdr-logo__img { width: 148px !important; }
+  .hdr-logo__sub { display: none !important; }
+  .sf-wordmark__img { width: 210px !important; }
+}

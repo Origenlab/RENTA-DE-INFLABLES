@@ -15,7 +15,14 @@ const SERVICIOS_COL = TAXONOMY.services ?? []
     <div class="sf-inner">
       <div class="sf-brand">
         <a href="/" class="sf-wordmark" aria-label={`${SITE.name} — Inicio`}>
-          <span class="sf-wordmark__text">DENFLAB</span>
+          <img
+            src="/images/brand/logo-denflab-dark.webp"
+            srcset="/images/brand/logo-denflab-dark.webp 900w, /images/brand/logo-denflab-dark@2x.webp 1800w"
+            sizes="260px"
+            alt={`${SITE.name} — renta de inflables en CDMX`}
+            class="sf-wordmark__img"
+            width="900" height="311" loading="lazy" decoding="async"
+          />
         </a>
         <p class="sf-since">{EXPERIENCE.badge}</p>
         <p class="sf-tagline">{EXPERIENCE.sentence}</p>
@@ -93,7 +100,7 @@ const SERVICIOS_COL = TAXONOMY.services ?? []
 
 <style>
   .site-footer {
-    background: linear-gradient(185deg, #13002C 0%, #1A0038 55%, #0C0020 100%);
+    background: linear-gradient(185deg, #021438 0%, #04225E 55%, #010D26 100%);
     color: rgba(255,255,255,.75);
     margin-top: auto;
     border-top: 2px solid transparent;
@@ -105,7 +112,7 @@ const SERVICIOS_COL = TAXONOMY.services ?? []
     position: absolute;
     top: 0; left: 0; right: 0;
     height: 2px;
-    background: linear-gradient(90deg, #7c3aed 0%, #a855f7 40%, #ec4899 100%);
+    background: var(--c-brand-gradient, linear-gradient(90deg, #015CF1 0%, #01BDB9 45%, #FDC402 100%));
   }
 
   .sf-inner { max-width: var(--container-max, 1400px); margin-inline: auto; padding-inline: var(--container-px, 1.5rem); }
@@ -114,27 +121,20 @@ const SERVICIOS_COL = TAXONOMY.services ?? []
 
   .sf-brand { display: flex; flex-direction: column; gap: 1.1rem; }
   .sf-wordmark { display: inline-flex; text-decoration: none; width: fit-content; }
-  .sf-wordmark__text {
-    font-family: var(--font-heading);
-    font-weight: var(--weight-black, 900);
-    font-size: 2rem;
-    letter-spacing: .06em;
-    text-transform: uppercase;
-    background: linear-gradient(120deg, #fff 30%, rgba(168,120,255,.85) 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    line-height: 1;
+  .sf-wordmark__img {
+    display: block;
+    width: 260px;
+    height: auto;
+    transition: transform .18s ease, filter .18s ease;
   }
-  .sf-wordmark:hover .sf-wordmark__text {
-    background: linear-gradient(120deg, #fff 0%, #c084fc 100%);
-    -webkit-background-clip: text;
-    background-clip: text;
+  .sf-wordmark:hover .sf-wordmark__img {
+    transform: translateY(-1px);
+    filter: drop-shadow(0 6px 18px rgba(1, 92, 241, .45));
   }
   .sf-since {
     font-size: .7rem; font-weight: var(--weight-bold, 700);
     letter-spacing: .1em; text-transform: uppercase;
-    color: rgba(192,132,252,.95); margin: 0;
+    color: var(--c-brand-yellow, #FDC402); margin: 0;
   }
   .sf-tagline { font-size: var(--text-sm, .875rem); color: rgba(255,255,255,.45); line-height: 1.65; margin: 0; max-width: 32ch; }
   .sf-contact-ctas { display: flex; flex-direction: column; gap: .6rem; margin-top: .5rem; }
