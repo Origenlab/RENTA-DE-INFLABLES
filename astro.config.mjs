@@ -34,6 +34,11 @@ export default defineConfig({
   site: 'https://renta-de-inflables.com',
   output: 'static',
   trailingSlash: 'never',
+  // format: 'file' emite /contacto.html en vez de /contacto/index.html.
+  // Sin esto, Cloudflare Pages responde 308 de /contacto -> /contacto/ y la
+  // URL servida deja de coincidir con el canonical y el sitemap (que no llevan
+  // barra final). Mismo patron que SEGURIDADPRIVADA en el portafolio.
+  build: { format: 'file' },
   prefetch: { defaultStrategy: 'hover' },
 
   fonts: [
