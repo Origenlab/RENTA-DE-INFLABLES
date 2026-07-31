@@ -67,6 +67,7 @@ export default defineConfig({
     resolve: {
       alias: {
         '@config': r('./src/config'),
+        '@data': r('./src/data'),
         '@lib': r('./src/lib'),
         '@layouts': r('./src/layouts'),
         '@components': r('./src/components'),

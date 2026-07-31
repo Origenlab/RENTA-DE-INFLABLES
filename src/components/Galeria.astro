@@ -1,0 +1,258 @@
+---
+// Galeria.astro — galería de fotos reales con lightbox accesible, sin dependencias.
+// Uso:
+//   import Galeria from '@components/Galeria.astro'
+//   import fototeca from '@data/fototeca.json'
+//   <Galeria items={fototeca['dragones-rojos']} label="Dragones Rojos" />
+//
+// Las imágenes son AVIF en 3 tamaños (sm 400w / md 800w / lg 1600w) generados
+// desde la fototeca real de DENFLAB. El lightbox carga el tamaño lg bajo demanda.
+
+export interface FotoItem {
+  lg: string
+  md: string
+  sm: string
+  w: number
+  h: number
+  alt?: string
+}
+
+export interface Props {
+  items: FotoItem[]
+  label: string
+  /** Cuántas fotos se muestran antes del botón "Ver más". 0 = todas. */
+  initial?: number
+  /** Columnas en escritorio. */
+  columns?: 3 | 4 | 5
+  id?: string
+}
+
+const { items = [], label, initial = 12, columns = 4, id } = Astro.props
+
+const galleryId = id ?? `gal-${label.toLowerCase().replace(/[^a-z0-9]+/g, '-')}`
+const total = items.length
+const hasMore = initial > 0 && total > initial
+---
+
+{total > 0 && (
+  <div class="gal" id={galleryId} data-total={total} data-initial={initial} style={`--gal-cols:${columns}`}>
+    <ul class="gal__grid" role="list">
+      {items.map((it, i) => (
+        <li class="gal__item" data-idx={i} hidden={hasMore && i >= initial}>
+          <button
+            type="button"
+            class="gal__btn"
+            data-lg={it.lg}
+            data-alt={it.alt ?? `${label} — renta de inflables en CDMX`}
+            aria-label={`Ampliar foto ${i + 1} de ${total}: ${it.alt ?? label}`}
+          >
+            <img
+              src={it.sm}
+              srcset={`${it.sm} 400w, ${it.md} 800w`}
+              sizes="(max-width: 480px) 45vw, (max-width: 900px) 30vw, 22vw"
+              width={it.w}
+              height={it.h}
+              alt={it.alt ?? `${label} — renta de inflables en CDMX`}
+              loading="lazy"
+              decoding="async"
+              class="gal__img"
+            />
+          </button>
+        </li>
+      ))}
+    </ul>
+
+    {hasMore && (
+      <div class="gal__more-wrap">
+        <button type="button" class="gal__more">
+          Ver las {total} fotos de {label}
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>
+        </button>
+      </div>
+    )}
+  </div>
+)}
+
+<div class="lbx" id="lbx" hidden aria-hidden="true">
+  <div class="lbx__backdrop" data-close></div>
+  <div class="lbx__dialog" role="dialog" aria-modal="true" aria-label="Foto ampliada">
+    <button type="button" class="lbx__close" data-close aria-label="Cerrar">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M18 6 6 18M6 6l12 12"/></svg>
+    </button>
+    <button type="button" class="lbx__nav lbx__nav--prev" data-prev aria-label="Foto anterior">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg>
+    </button>
+    <figure class="lbx__figure">
+      <img class="lbx__img" src="" alt="" decoding="async" />
+      <figcaption class="lbx__cap"><span class="lbx__txt"></span><span class="lbx__count"></span></figcaption>
+    </figure>
+    <button type="button" class="lbx__nav lbx__nav--next" data-next aria-label="Foto siguiente">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18l6-6-6-6"/></svg>
+    </button>
+  </div>
+</div>
+
+<style>
+  .gal { margin-top: 1.5rem; }
+
+  .gal__grid {
+    list-style: none; margin: 0; padding: 0;
+    display: grid;
+    grid-template-columns: repeat(var(--gal-cols, 4), 1fr);
+    gap: .625rem;
+  }
+  .gal__item { margin: 0; }
+  .gal__item[hidden] { display: none; }
+
+  .gal__btn {
+    display: block; width: 100%; padding: 0; border: 0; cursor: zoom-in;
+    background: #e5e7eb; border-radius: 12px; overflow: hidden;
+    aspect-ratio: 4 / 3; line-height: 0;
+  }
+  .gal__img {
+    width: 100%; height: 100%; object-fit: cover; display: block;
+    transition: transform .35s ease;
+  }
+  .gal__btn:hover .gal__img { transform: scale(1.045); }
+  .gal__btn:focus-visible { outline: 3px solid var(--c-primary, #7c3aed); outline-offset: 2px; }
+
+  .gal__more-wrap { text-align: center; margin-top: 1.25rem; }
+  .gal__more {
+    display: inline-flex; align-items: center; gap: .45rem;
+    padding: .75rem 1.5rem; cursor: pointer;
+    background: #fff; border: 2px solid var(--c-primary, #7c3aed);
+    color: var(--c-primary, #7c3aed);
+    font-weight: 700; font-size: .875rem; border-radius: 10px;
+  }
+  .gal__more:hover { background: var(--c-primary, #7c3aed); color: #fff; }
+
+  /* ── Lightbox ─────────────────────────────────────────────── */
+  .lbx { position: fixed; inset: 0; z-index: 9999; }
+  .lbx[hidden] { display: none; }
+  .lbx__backdrop { position: absolute; inset: 0; background: rgba(9, 9, 11, .93); }
+  .lbx__dialog {
+    position: relative; height: 100%;
+    display: flex; align-items: center; justify-content: center;
+    padding: clamp(1rem, 4vw, 3rem);
+  }
+  .lbx__figure { margin: 0; max-width: min(1400px, 92vw); max-height: 88vh; display: flex; flex-direction: column; gap: .625rem; }
+  .lbx__img {
+    max-width: 100%; max-height: 80vh; width: auto; height: auto;
+    border-radius: 10px; display: block; margin-inline: auto;
+    background: #18181b;
+  }
+  .lbx__cap {
+    display: flex; align-items: center; justify-content: space-between; gap: 1rem;
+    color: #d4d4d8; font-size: .8125rem; line-height: 1.4;
+  }
+  .lbx__count { color: #a1a1aa; white-space: nowrap; font-variant-numeric: tabular-nums; }
+
+  .lbx__close, .lbx__nav {
+    position: absolute; z-index: 2; cursor: pointer;
+    display: flex; align-items: center; justify-content: center;
+    background: rgba(255,255,255,.1); color: #fff;
+    border: 1px solid rgba(255,255,255,.18); border-radius: 999px;
+    backdrop-filter: blur(6px); -webkit-backdrop-filter: blur(6px);
+  }
+  .lbx__close { top: 1rem; right: 1rem; width: 2.75rem; height: 2.75rem; }
+  .lbx__nav { top: 50%; transform: translateY(-50%); width: 3rem; height: 3rem; }
+  .lbx__nav--prev { left: 1rem; }
+  .lbx__nav--next { right: 1rem; }
+  .lbx__close:hover, .lbx__nav:hover { background: rgba(255,255,255,.2); }
+
+  @media (max-width: 1100px) { .gal__grid { grid-template-columns: repeat(3, 1fr); } }
+  @media (max-width: 700px)  { .gal__grid { grid-template-columns: repeat(2, 1fr); gap: .5rem; } }
+  @media (max-width: 520px) {
+    .lbx__nav { width: 2.5rem; height: 2.5rem; }
+    .lbx__nav--prev { left: .375rem; }
+    .lbx__nav--next { right: .375rem; }
+    .gal__more { width: 100%; justify-content: center; }
+  }
+</style>
+
+<script is:inline>
+  (() => {
+    if (window.__galInit) return
+    window.__galInit = true
+
+    const lbx = document.getElementById('lbx')
+    if (!lbx) return
+    const img = lbx.querySelector('.lbx__img')
+    const txt = lbx.querySelector('.lbx__txt')
+    const cnt = lbx.querySelector('.lbx__count')
+
+    let group = []
+    let index = 0
+    let lastFocus = null
+
+    function render() {
+      const b = group[index]
+      if (!b) return
+      img.src = b.dataset.lg
+      img.alt = b.dataset.alt || ''
+      txt.textContent = b.dataset.alt || ''
+      cnt.textContent = `${index + 1} / ${group.length}`
+      // precarga vecinos
+      ;[index - 1, index + 1].forEach((j) => {
+        const n = group[(j + group.length) % group.length]
+        if (n) { const p = new Image(); p.src = n.dataset.lg }
+      })
+    }
+
+    function open(btn) {
+      const root = btn.closest('.gal')
+      group = Array.from(root.querySelectorAll('.gal__btn'))
+      index = group.indexOf(btn)
+      lastFocus = btn
+      lbx.hidden = false
+      lbx.setAttribute('aria-hidden', 'false')
+      document.body.style.overflow = 'hidden'
+      render()
+      lbx.querySelector('.lbx__close').focus()
+    }
+
+    function close() {
+      lbx.hidden = true
+      lbx.setAttribute('aria-hidden', 'true')
+      document.body.style.overflow = ''
+      img.src = ''
+      if (lastFocus) lastFocus.focus()
+    }
+
+    const step = (d) => { index = (index + d + group.length) % group.length; render() }
+
+    document.addEventListener('click', (e) => {
+      const btn = e.target.closest('.gal__btn')
+      if (btn) { e.preventDefault(); open(btn); return }
+
+      const more = e.target.closest('.gal__more')
+      if (more) {
+        const root = more.closest('.gal')
+        root.querySelectorAll('.gal__item[hidden]').forEach((li) => li.removeAttribute('hidden'))
+        more.closest('.gal__more-wrap').remove()
+        return
+      }
+
+      if (e.target.closest('[data-close]')) { close(); return }
+      if (e.target.closest('[data-prev]')) { step(-1); return }
+      if (e.target.closest('[data-next]')) { step(1); return }
+    })
+
+    document.addEventListener('keydown', (e) => {
+      if (lbx.hidden) return
+      if (e.key === 'Escape') close()
+      else if (e.key === 'ArrowLeft') step(-1)
+      else if (e.key === 'ArrowRight') step(1)
+    })
+
+    // swipe en móvil
+    let x0 = null
+    lbx.addEventListener('touchstart', (e) => { x0 = e.changedTouches[0].clientX }, { passive: true })
+    lbx.addEventListener('touchend', (e) => {
+      if (x0 === null) return
+      const dx = e.changedTouches[0].clientX - x0
+      if (Math.abs(dx) > 45) step(dx < 0 ? 1 : -1)
+      x0 = null
+    }, { passive: true })
+  })()
+</script>
