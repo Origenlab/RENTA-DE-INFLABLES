@@ -4,15 +4,25 @@
 import { getCollection, render } from 'astro:content'
 import PageLayout from '@layouts/PageLayout.astro'
 import CTABanner from '@components/CTABanner.astro'
+import Galeria from '@components/Galeria.astro'
 import { TAXONOMY, CONTACT, EXPERIENCE, waUrl, WA_MESSAGES } from '@config/site'
+import { buildCoverMap, coverAlt, ownPhotos } from '@lib/blogPhotos'
 
 export async function getStaticPaths() {
   const posts = await getCollection('blog', ({ data }) => !data.draft)
-  return posts.map((post) => ({ params: { slug: post.id }, props: { post } }))
+  // Misma colección y mismo filtro que el índice → misma foto en ambas rutas.
+  const covers = buildCoverMap(posts)
+  return posts.map((post) => ({
+    params: { slug: post.id },
+    props: { post, cover: covers.get(post.id) },
+  }))
 }
 
-const { post } = Astro.props
+const { post, cover } = Astro.props
 const { Content } = await render(post)
+
+// Fotos propias del modelo (vacío en Micro Baby y Castillo Blanco).
+const galeria = ownPhotos(post.data.model).slice(0, 8)
 
 const cat = TAXONOMY.categories.find((c) => c.slug === post.data.category)
 const fecha = post.data.pubDate.toLocaleDateString('es-MX', {
@@ -23,6 +33,7 @@ const fecha = post.data.pubDate.toLocaleDateString('es-MX', {
 <PageLayout
   title={post.data.seoTitle ?? post.data.title}
   description={post.data.seoDescription ?? post.data.description}
+  image={cover?.lg}
   pageType="article"
   noindex={post.data.noindex}
   breadcrumbs={[
@@ -41,9 +52,37 @@ const fecha = post.data.pubDate.toLocaleDateString('es-MX', {
       <p class="post__byline">Publicado por <strong>DENFLAB</strong> · Renta de Inflables CDMX · {EXPERIENCE.label}</p>
     </header>
 
+    {cover && (
+      <figure class="post__cover">
+        <img
+          class="post__cover-img"
+          src={cover.lg}
+          srcset={`${cover.md} 800w, ${cover.lg} 1600w`}
+          sizes="(max-width: 780px) 100vw, 720px"
+          width={cover.w}
+          height={cover.h}
+          alt={coverAlt(cover, post.data.model)}
+          loading="eager"
+          fetchpriority="high"
+          decoding="async"
+        />
+        <figcaption class="post__cover-cap">{coverAlt(cover, post.data.model)}</figcaption>
+      </figure>
+    )}
+
     <div class="post__body prose">
       <Content />
     </div>
+
+    {galeria.length > 0 && (
+      <section class="post__gal" aria-labelledby="fotos-modelo">
+        <h2 class="post__gal-title" id="fotos-modelo">Fotos reales de {post.data.model}</h2>
+        <p class="post__gal-desc">
+          Montajes de DENFLAB en fiestas de la Ciudad de México. Toca una foto para verla en grande.
+        </p>
+        <Galeria items={galeria} label={post.data.model} initial={0} columns={4} />
+      </section>
+    )}
   </article>
 
   <CTABanner
@@ -88,9 +127,39 @@ const fecha = post.data.pubDate.toLocaleDateString('es-MX', {
   .post__byline {
     color: var(--c-muted, #6b7280);
     font-size: var(--text-sm, .9rem);
-    margin: 0 0 var(--sp-8, 2rem);
+    margin: 0 0 var(--sp-6, 1.5rem);
     padding-bottom: var(--sp-5, 1.25rem);
     border-bottom: 1px solid var(--c-border, #e5e7eb);
+  }
+
+  /* ── Imagen destacada (LCP): foto real de la fototeca DENFLAB ── */
+  .post__cover { margin: 0 0 var(--sp-8, 2rem); }
+  .post__cover-img {
+    width: 100%; height: auto;
+    aspect-ratio: 16 / 10; object-fit: cover;
+    display: block;
+    border-radius: var(--radius-lg, 12px);
+    background: var(--c-surface, #f3f4f6);
+  }
+  .post__cover-cap {
+    margin-top: var(--sp-2, .5rem);
+    font-size: var(--text-xs, .8125rem); line-height: 1.5;
+    color: var(--c-muted, #6b7280);
+  }
+
+  /* ── Galería del modelo, antes del CTA ── */
+  .post__gal {
+    margin-top: var(--sp-10, 2.5rem);
+    padding-top: var(--sp-8, 2rem);
+    border-top: 1px solid var(--c-border, #e5e7eb);
+  }
+  .post__gal-title {
+    font-size: var(--text-xl, 1.4rem); font-weight: 700; line-height: 1.3;
+    color: var(--c-ink, #111827); margin: 0 0 var(--sp-2, .5rem);
+  }
+  .post__gal-desc {
+    font-size: var(--text-sm, .9rem); line-height: 1.6;
+    color: var(--c-muted, #6b7280); margin: 0;
   }
 
   /* ── Prose (markdown renderizado) ── */

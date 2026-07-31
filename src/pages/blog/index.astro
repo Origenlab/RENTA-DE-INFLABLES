@@ -6,8 +6,12 @@ import PageLayout from '@layouts/PageLayout.astro'
 import SectionHeading from '@components/SectionHeading.astro'
 import CTABanner from '@components/CTABanner.astro'
 import { TAXONOMY, CONTACT, waUrl, WA_MESSAGES } from '@config/site'
+import { buildCoverMap, coverAlt } from '@lib/blogPhotos'
 
 const posts = await getCollection('blog', ({ data }) => !data.draft)
+
+// Portadas reales de la fototeca DENFLAB, derivadas del campo `model`.
+const covers = buildCoverMap(posts)
 
 // Orden de modelos = orden del catálogo
 const MODEL_ORDER = [
@@ -32,6 +36,9 @@ const groups = MODEL_ORDER.map((model) => ({
     .filter((p) => p.data.model === model)
     .sort((a, b) => a.id.localeCompare(b.id)),
 })).filter((g) => g.posts.length > 0)
+
+// Las 2 primeras portadas del listado se cargan eager; el resto lazy.
+const eagerIds = new Set(groups.flatMap((g) => g.posts).slice(0, 2).map((p) => p.id))
 ---
 
 <PageLayout
@@ -54,14 +61,34 @@ const groups = MODEL_ORDER.map((model) => ({
           {g.cat && <a class="blog__group-link" href={g.cat.href}>{g.cat.label} →</a>}
         </div>
         <div class="blog__grid">
-          {g.posts.map((p) => (
-            <a class="card" href={`/blog/${p.id}`}>
-              <span class="card__tag">{postTag(p.id)}</span>
-              <h3 class="card__title">{p.data.title}</h3>
-              <p class="card__desc">{p.data.description}</p>
-              <span class="card__cta">Leer artículo →</span>
-            </a>
-          ))}
+          {g.posts.map((p) => {
+            const foto = covers.get(p.id)
+            return (
+              <a class="card" href={`/blog/${p.id}`}>
+                {foto && (
+                  <div class="card__media">
+                    <img
+                      class="card__img"
+                      src={foto.md}
+                      srcset={`${foto.sm} 400w, ${foto.md} 800w`}
+                      sizes="(max-width: 700px) 92vw, (max-width: 1100px) 44vw, 30vw"
+                      width={foto.w}
+                      height={foto.h}
+                      alt={coverAlt(foto, g.model)}
+                      loading={eagerIds.has(p.id) ? 'eager' : 'lazy'}
+                      decoding="async"
+                    />
+                  </div>
+                )}
+                <div class="card__body">
+                  <span class="card__tag">{postTag(p.id)}</span>
+                  <h3 class="card__title">{p.data.title}</h3>
+                  <p class="card__desc">{p.data.description}</p>
+                  <span class="card__cta">Leer artículo →</span>
+                </div>
+              </a>
+            )
+          })}
         </div>
       </div>
     ))}
@@ -109,11 +136,11 @@ const groups = MODEL_ORDER.map((model) => ({
     gap: var(--sp-5, 1.25rem);
   }
   .card {
-    display: flex; flex-direction: column; gap: var(--sp-3, .75rem);
-    padding: var(--sp-5, 1.25rem);
+    display: flex; flex-direction: column;
     background: var(--c-white, #fff);
     border: 1px solid var(--c-border, #e5e7eb);
     border-radius: var(--radius-lg, 12px);
+    overflow: hidden;
     text-decoration: none;
     transition: box-shadow .18s ease, transform .18s ease, border-color .18s ease;
   }
@@ -121,6 +148,26 @@ const groups = MODEL_ORDER.map((model) => ({
     border-color: var(--c-primary);
     box-shadow: 0 8px 24px rgba(0, 0, 0, .08);
     transform: translateY(-2px);
+  }
+
+  /* Portada: foto real de la fototeca DENFLAB */
+  .card__media {
+    aspect-ratio: 16 / 10;
+    background: var(--c-surface, #f3f4f6);
+    overflow: hidden;
+    line-height: 0;
+  }
+  .card__img {
+    width: 100%; height: 100%;
+    object-fit: cover; display: block;
+    transition: transform .35s ease;
+  }
+  .card:hover .card__img { transform: scale(1.045); }
+
+  .card__body {
+    display: flex; flex-direction: column; gap: var(--sp-3, .75rem);
+    flex: 1;
+    padding: var(--sp-5, 1.25rem);
   }
   .card__tag {
     align-self: flex-start;
