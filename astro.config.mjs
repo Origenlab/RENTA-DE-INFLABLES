@@ -19,7 +19,7 @@ const sitemapOptions = {
     if (url === 'https://renta-de-inflables.com/') {
       item.priority = 1.0;
       item.changefreq = /** @type {any} */ ('weekly');
-    } else if (/\/(renta-de-inflables-|pantalla-inflable|mobiliario|decoracion|pintacaritas|palomitas|dulces|paquetes)/.test(url)) {
+    } else if (/\/(renta-de-inflables-|pantalla-inflable|mobiliario|decoracion|pintacaritas|palomitas|dulces|paquetes|galeria)/.test(url)) {
       item.priority = 0.9;
       item.changefreq = /** @type {any} */ ('monthly');
     } else {

@@ -1,6 +1,6 @@
 ---
 // src/pages/index.astro — Home DENFLAB · renta-de-inflables.com
-// 6 secciones: Hero | Categorías | Servicios | Paquetes | FAQ | CTA
+// Secciones: Hero | Catálogo | Categorías | Servicios | Paquetes | Reseñas | Eventos reales | FAQ | CTA
 
 import PageLayout from '@layouts/PageLayout.astro'
 import Hero from '@components/Hero.astro'
@@ -11,7 +11,9 @@ import CTABanner from '@components/CTABanner.astro'
 import FAQWithContact from '@components/FAQWithContact.astro'
 import CategoryDetail from '@components/CategoryDetail.astro'
 import SectionMenu from '@components/SectionMenu.astro'
+import Galeria from '@components/Galeria.astro'
 
+import fototeca from '@data/fototeca.json'
 import { CONTACT, waUrl, WA_MESSAGES } from '@config/site'
 import type { FaqItem } from '@lib/seo'
 
@@ -552,7 +554,34 @@ const INFLABLES: InflableItem[] = [
     </div>
   </section>
 
-  <!-- ⑥ FAQ ───────────────────────────────────────────────────────────────── -->
+  <!-- ⑥ EVENTOS REALES — fototeca DENFLAB ──────────────────────────────────── -->
+  <section id="eventos-reales" class="section section--eventos" aria-labelledby="eventos-heading">
+    <div class="container">
+      <SectionHeading
+        id="eventos-heading"
+        eyebrow="Fototeca DENFLAB"
+        title="Eventos reales"
+        titleAccent="montados en CDMX"
+        desc="Fotos de fiestas y eventos con nuestros inflables ya instalados. Sin renders ni imágenes de catálogo."
+        layout="duo"
+        body={[
+          "Antes de decidir, mira cómo se ve el inflable armado en un jardín, una terraza o un patio normal de la ciudad: el espacio que ocupa, cómo queda con el resto del montaje y qué aspecto tiene el día de la fiesta.",
+          "Estas son solo ocho fotos de la fototeca completa. En la galería están todas las que hemos tomado en cumpleaños, fiestas en jardín, kermeses escolares y eventos familiares en CDMX.",
+        ]}
+      />
+
+      <Galeria items={fototeca.eventos.slice(0, 8)} label="eventos reales" initial={0} columns={4} id="gal-home-eventos" />
+
+      <div class="eventos-link">
+        <a href="/galeria" class="eventos-btn">
+          Ver la galería completa de eventos
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ⑦ FAQ ───────────────────────────────────────────────────────────────── -->
   <FAQWithContact
     eyebrow="Resolvemos tus dudas"
     title="Preguntas"
@@ -566,7 +595,7 @@ const INFLABLES: InflableItem[] = [
     showContact={true}
   />
 
-  <!-- ⑥ CTA BANNER ─────────────────────────────────────────────────────────── -->
+  <!-- ⑧ CTA BANNER ─────────────────────────────────────────────────────────── -->
   <CTABanner
     heading="¿Listo para hacer tu fiesta inolvidable?"
     desc="Escríbenos ahora y te cotizamos en minutos. Sin costos ocultos, con entrega incluida en CDMX."
@@ -586,6 +615,22 @@ const INFLABLES: InflableItem[] = [
   .container { max-width: var(--container-max, 1400px); margin-inline: auto; padding-inline: var(--container-px, 1.5rem); }
   .section--svcs { background: var(--c-surface); }
   .section--pkgs { background: #faf5ff; }
+
+  /* ── Eventos reales (fototeca) ──────────────────────────────── */
+  .section--eventos { background: var(--c-surface, #f9fafb); }
+  .eventos-link { text-align: center; margin-top: 1.75rem; }
+  .eventos-btn {
+    display: inline-flex; align-items: center; gap: .5rem;
+    padding: .875rem 2rem;
+    border: 2px solid var(--c-primary, #015CF1);
+    color: var(--c-primary, #015CF1);
+    font-weight: 700; font-size: .9375rem;
+    border-radius: 10px; text-decoration: none;
+  }
+  .eventos-btn:hover { background: var(--c-primary, #015CF1); color: #fff; }
+  @media (max-width: 520px) {
+    .eventos-btn { width: 100%; justify-content: center; }
+  }
 
   /* ── Inflables a fondo ──────────────────────────────────────── */
   .section--afondo { background: #f3f4f6; }

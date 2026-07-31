@@ -11,7 +11,9 @@ import CategoryDetail from '@components/CategoryDetail.astro'
 import CTABanner      from '@components/CTABanner.astro'
 import FAQWithContact from '@components/FAQWithContact.astro'
 import SectionMenu    from '@components/SectionMenu.astro'
+import Galeria        from '@components/Galeria.astro'
 
+import fototeca from '@data/fototeca.json'
 import { waUrl, WA_MESSAGES, CONTACT } from '@config/site'
 import type { FaqItem } from '@lib/seo'
 
@@ -227,6 +229,43 @@ const INFLABLES: InflableItem[] = [
   },
 ]
 
+// ── FOTOTECA — fotos reales por modelo ─────────────────────────────────────────
+// Solo los modelos que tienen fotos propias en src/data/fototeca.json.
+// Micro Baby y Castillo Blanco todavía no están en la fototeca: no se listan aquí.
+const FOTOS_MODELOS = [
+  {
+    nombre: 'Dragones Rojos',
+    nota: 'Mediano de 4×2.5×2.5 m con tobogán integrado. Fotos de montajes en jardines, quintas y salones de CDMX.',
+    items: fototeca['dragones-rojos'],
+  },
+  {
+    nombre: 'Mini Jungla',
+    nota: 'Mediano de 4×2.5×2.8 m con rampa de subida suave. Aquí se aprecia bien el estampado de la selva y el estado de la lona.',
+    items: fototeca['mini-jungla'],
+  },
+  {
+    nombre: 'Gusanitos',
+    nota: 'Mediano de 4×3.3×3 m, el más ancho de su categoría. En las fotos se nota la superficie de brinco frente a los otros medianos.',
+    items: fototeca['gusanitos'],
+  },
+  {
+    nombre: 'Extrem',
+    nota: 'Grande de 4.8×3.3×3 m con tobogán de altura. Varias tomas muestran el inflable armado junto a niños, para dimensionar la altura real.',
+    items: fototeca['extrem'],
+  },
+  {
+    nombre: 'Barco Pirata',
+    nota: 'Grande de 7×3×3 m con mástil y cañones decorativos. Las fotos dan idea del espacio que ocupa a lo largo.',
+    items: fototeca['barco-pirata'],
+  },
+  {
+    nombre: 'Princesas',
+    nota: 'Castillo de 4×3.3×3 m con torres y coronas. Colores rosa y lila tal como se ven montados en el evento.',
+    items: fototeca['princesas'],
+  },
+]
+const TOTAL_FOTOS = FOTOS_MODELOS.reduce((n, m) => n + m.items.length, 0)
+
 const WA_ICON = 'M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z'
 ---
 
@@ -437,7 +476,44 @@ const WA_ICON = 'M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.
     </div>
   </section>
 
-  <!-- ④ FAQ ────────────────────────────────────────────────────────────────── -->
+  <!-- ④ FOTOS REALES POR MODELO ───────────────────────────────────────────── -->
+  <section id="fotos" class="section section--fotos" aria-labelledby="fotos-heading">
+    <div class="container">
+      <SectionHeading
+        id="fotos-heading"
+        eyebrow={`Fototeca DENFLAB · ${TOTAL_FOTOS} fotos`}
+        title="Fotos reales de nuestros inflables"
+        titleAccent="modelo por modelo"
+        desc="Nada de renders ni catálogos de fábrica: estas son fotos de nuestros propios inflables, tomadas en eventos que montamos en CDMX."
+        layout="duo"
+        body={[
+          "Reunimos las fotos por modelo para que veas cómo se ve cada inflable ya armado: colores reales, estado de la lona y el tamaño comparado con los niños y con el espacio del evento.",
+          "Haz clic en cualquier foto para verla en grande. Si quieres más ángulos de un modelo en particular, pídelos por WhatsApp y te los mandamos antes de que reserves.",
+        ]}
+      />
+
+      <div class="fotos-stack">
+        {FOTOS_MODELOS.map(m => (
+          <div class="fotos-modelo">
+            <div class="fotos-modelo__head">
+              <div class="fotos-modelo__intro">
+                <h3 class="fotos-modelo__title">{m.nombre}</h3>
+                <p class="fotos-modelo__nota">{m.nota}</p>
+              </div>
+              <span class="fotos-modelo__count">{m.items.length} fotos</span>
+            </div>
+            <Galeria items={m.items} label={m.nombre} initial={8} columns={4} />
+          </div>
+        ))}
+      </div>
+
+      <p class="fotos-nota">
+        Micro Baby y Castillo Blanco todavía no tienen fotos publicadas aquí. Si te interesa alguno de esos dos, escríbenos y te enviamos fotos actuales por WhatsApp.
+      </p>
+    </div>
+  </section>
+
+  <!-- ⑤ FAQ ────────────────────────────────────────────────────────────────── -->
   <div id="faq">
     <FAQWithContact
       eyebrow="Resolvemos tus dudas"
@@ -501,6 +577,43 @@ const WA_ICON = 'M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.
   }
   .section--afondo { background: #f3f4f6; }
   .section--catalog { background: var(--c-surface, #f9fafb); }
+  .section--fotos { background: var(--c-white, #fff); }
+
+  /* ── Fotos reales por modelo ────────────────────────────────── */
+  .fotos-stack { display: grid; gap: clamp(2.25rem, 4vw, 3.25rem); }
+  .fotos-modelo__head {
+    display: flex; align-items: flex-start; justify-content: space-between;
+    gap: 1rem; padding-bottom: .875rem;
+    border-bottom: 1px solid var(--c-border, #e5e7eb);
+  }
+  .fotos-modelo__intro { min-width: 0; }
+  .fotos-modelo__title {
+    font-size: 1.375rem; font-weight: 800; letter-spacing: -.01em;
+    color: var(--c-ink, #111827); margin: 0; line-height: 1.25;
+  }
+  .fotos-modelo__nota {
+    font-size: .875rem; color: var(--c-ink-2, #4b5563);
+    line-height: 1.65; margin: .375rem 0 0; max-width: 68ch;
+  }
+  .fotos-modelo__count {
+    flex-shrink: 0;
+    padding: .28rem .7rem; border-radius: 999px;
+    background: var(--c-surface, #f9fafb);
+    border: 1px solid var(--c-border, #e5e7eb);
+    font-size: .6875rem; font-weight: 700;
+    text-transform: uppercase; letter-spacing: .06em;
+    color: var(--c-muted, #6b7280); white-space: nowrap;
+  }
+  .fotos-nota {
+    margin: 2.25rem 0 0; padding: 1rem 1.25rem;
+    background: var(--c-surface, #f9fafb);
+    border: 1px solid var(--c-border, #e5e7eb);
+    border-radius: 14px;
+    font-size: .875rem; color: var(--c-ink-2, #4b5563); line-height: 1.65;
+  }
+  @media (max-width: 600px) {
+    .fotos-modelo__head { flex-direction: column; gap: .625rem; }
+  }
 
   /* ── CategoryCards grid ─────────────────────────────────────── */
   .cats-grid {

@@ -73,25 +73,6 @@ const hasMore = initial > 0 && total > initial
   </div>
 )}
 
-<div class="lbx" id="lbx" hidden aria-hidden="true">
-  <div class="lbx__backdrop" data-close></div>
-  <div class="lbx__dialog" role="dialog" aria-modal="true" aria-label="Foto ampliada">
-    <button type="button" class="lbx__close" data-close aria-label="Cerrar">
-      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M18 6 6 18M6 6l12 12"/></svg>
-    </button>
-    <button type="button" class="lbx__nav lbx__nav--prev" data-prev aria-label="Foto anterior">
-      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg>
-    </button>
-    <figure class="lbx__figure">
-      <img class="lbx__img" src="" alt="" decoding="async" />
-      <figcaption class="lbx__cap"><span class="lbx__txt"></span><span class="lbx__count"></span></figcaption>
-    </figure>
-    <button type="button" class="lbx__nav lbx__nav--next" data-next aria-label="Foto siguiente">
-      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18l6-6-6-6"/></svg>
-    </button>
-  </div>
-</div>
-
 <style>
   .gal { margin-top: 1.5rem; }
 
@@ -126,7 +107,16 @@ const hasMore = initial > 0 && total > initial
   }
   .gal__more:hover { background: var(--c-primary, #7c3aed); color: #fff; }
 
-  /* ── Lightbox ─────────────────────────────────────────────── */
+  @media (max-width: 1100px) { .gal__grid { grid-template-columns: repeat(3, 1fr); } }
+  @media (max-width: 700px)  { .gal__grid { grid-template-columns: repeat(2, 1fr); gap: .5rem; } }
+  @media (max-width: 520px)  { .gal__more { width: 100%; justify-content: center; } }
+</style>
+
+<!-- El lightbox se inyecta UNA sola vez desde el script, aunque haya varias
+     galerías en la página. Sus estilos van globales porque el nodo se crea
+     fuera del árbol con scope del componente. -->
+<style is:global>
+  /* ── Lightbox de la galería ───────────────────────────────── */
   .lbx { position: fixed; inset: 0; z-index: 9999; }
   .lbx[hidden] { display: none; }
   .lbx__backdrop { position: absolute; inset: 0; background: rgba(9, 9, 11, .93); }
@@ -160,23 +150,44 @@ const hasMore = initial > 0 && total > initial
   .lbx__nav--next { right: 1rem; }
   .lbx__close:hover, .lbx__nav:hover { background: rgba(255,255,255,.2); }
 
-  @media (max-width: 1100px) { .gal__grid { grid-template-columns: repeat(3, 1fr); } }
-  @media (max-width: 700px)  { .gal__grid { grid-template-columns: repeat(2, 1fr); gap: .5rem; } }
   @media (max-width: 520px) {
     .lbx__nav { width: 2.5rem; height: 2.5rem; }
     .lbx__nav--prev { left: .375rem; }
     .lbx__nav--next { right: .375rem; }
-    .gal__more { width: 100%; justify-content: center; }
   }
 </style>
 
-<script is:inline>
+<!-- Sin is:inline: Astro lo empaqueta y lo sirve UNA vez por página aunque el
+     componente se use varias veces. -->
+<script>
+  // @ts-nocheck
   (() => {
     if (window.__galInit) return
     window.__galInit = true
 
-    const lbx = document.getElementById('lbx')
-    if (!lbx) return
+    const ICON_CLOSE = '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M18 6 6 18M6 6l12 12"/></svg>'
+    const ICON_PREV  = '<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg>'
+    const ICON_NEXT  = '<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18l6-6-6-6"/></svg>'
+
+    // Un solo lightbox por documento, aunque la página tenga varias galerías.
+    const lbx = document.createElement('div')
+    lbx.className = 'lbx'
+    lbx.id = 'lbx'
+    lbx.hidden = true
+    lbx.setAttribute('aria-hidden', 'true')
+    lbx.innerHTML =
+      '<div class="lbx__backdrop" data-close></div>' +
+      '<div class="lbx__dialog" role="dialog" aria-modal="true" aria-label="Foto ampliada">' +
+        '<button type="button" class="lbx__close" data-close aria-label="Cerrar">' + ICON_CLOSE + '</button>' +
+        '<button type="button" class="lbx__nav lbx__nav--prev" data-prev aria-label="Foto anterior">' + ICON_PREV + '</button>' +
+        '<figure class="lbx__figure">' +
+          '<img class="lbx__img" src="" alt="" decoding="async" />' +
+          '<figcaption class="lbx__cap"><span class="lbx__txt"></span><span class="lbx__count"></span></figcaption>' +
+        '</figure>' +
+        '<button type="button" class="lbx__nav lbx__nav--next" data-next aria-label="Foto siguiente">' + ICON_NEXT + '</button>' +
+      '</div>'
+    document.body.appendChild(lbx)
+
     const img = lbx.querySelector('.lbx__img')
     const txt = lbx.querySelector('.lbx__txt')
     const cnt = lbx.querySelector('.lbx__count')

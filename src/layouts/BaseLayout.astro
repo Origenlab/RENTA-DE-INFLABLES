@@ -29,7 +29,13 @@ const {
   noindex = false,
 } = Astro.props;
 
-const path = canonical ?? Astro.url.pathname;
+// Con `build.format: 'file'` Astro.url.pathname llega como '/contacto.html'
+// e '/index.html'. El canonical, el og:url y el sitemap tienen que coincidir
+// con la URL que sirve Cloudflare (sin extensión y sin barra final), así que
+// se normaliza aquí. Ver astro.config.mjs (trailingSlash 'never').
+const cleanPath = (p: string) =>
+  p.replace(/\/index\.html$/, '/').replace(/\.html$/, '').replace(/(.+)\/$/, '$1') || '/';
+const path = canonical ?? cleanPath(Astro.url.pathname);
 const ogType = pageType === "article" ? "article" : "website";
 const hasKw = Array.isArray(keywords) && keywords.length > 0;
 const resolvedTitle = hasKw ? buildKeywordTitle(keywords!) : title;

@@ -1,0 +1,226 @@
+---
+// src/pages/galeria.astro — Galería de eventos reales DENFLAB
+// Ruta: /galeria
+// SEO objetivo: "renta de inflables CDMX" · "fiestas infantiles" · "eventos reales"
+// Fuente de las fotos: src/data/fototeca.json (fototeca real de la empresa, AVIF).
+
+import PageLayout     from '@layouts/PageLayout.astro'
+import Hero           from '@components/Hero.astro'
+import SectionHeading from '@components/SectionHeading.astro'
+import CTABanner      from '@components/CTABanner.astro'
+import FAQWithContact from '@components/FAQWithContact.astro'
+import Galeria        from '@components/Galeria.astro'
+
+import fototeca from '@data/fototeca.json'
+import { CONTACT, EXPERIENCE, TAXONOMY, waUrl, WA_MESSAGES } from '@config/site'
+import type { FaqItem } from '@lib/seo'
+
+// ── FOTOTECA ─────────────────────────────────────────────────────────────────
+const FOTOS = fototeca.eventos
+const TOTAL = FOTOS.length
+const OG_IMAGE = FOTOS[0]?.lg ?? '/images/og/default.jpg'
+
+// ── CATEGORÍAS (cross-link, data-driven desde site.ts) ───────────────────────
+const CATEGORIAS = TAXONOMY.categories
+
+// ── MENSAJE DE WHATSAPP PROPIO DE LA GALERÍA ─────────────────────────────────
+const WA_GALERIA = 'Hola, vi la galería de eventos en su sitio y quiero cotizar un inflable para mi fiesta en CDMX.'
+
+// ── FAQ ──────────────────────────────────────────────────────────────────────
+const FAQS: FaqItem[] = [
+  {
+    question: '¿Las fotos de esta galería son de eventos reales?',
+    answer: 'Sí. Todas las fotos de esta página salieron de montajes que hicimos en fiestas y eventos de la Ciudad de México. No son renders ni imágenes de catálogo: es el inflable ya instalado, en el espacio del cliente y listo para usarse.',
+  },
+  {
+    question: '¿Puedo pedir un montaje como el de alguna foto?',
+    answer: 'Sí. Abre la foto que te gustó, guárdala y mándanosla por WhatsApp. Con la imagen identificamos el modelo, te decimos cuánto espacio necesita y confirmamos si está disponible en tu fecha.',
+  },
+  {
+    question: '¿Qué inflables aparecen en las fotos?',
+    answer: 'Los 8 modelos del catálogo DENFLAB: Micro Baby, Dragones Rojos, Mini Jungla, Gusanitos, Extrem, Barco Pirata, Princesas y Castillo Blanco. En las páginas de categoría puedes ver cada modelo con sus medidas, capacidad y espacio mínimo requerido.',
+  },
+  {
+    question: '¿En qué tipo de eventos se montaron?',
+    answer: 'Cumpleaños infantiles, fiestas en jardín, kermeses escolares y eventos corporativos familiares, en jardines, salones, terrazas y patios de CDMX y zona metropolitana. La entrega, el montaje y el desmontaje están incluidos en la renta.',
+  },
+]
+---
+
+<PageLayout
+  title="Galería de Eventos Reales con Inflables en CDMX | DENFLAB"
+  description="Fotos reales de fiestas y eventos con inflables DENFLAB montados en CDMX: cumpleaños, jardines, kermeses y eventos familiares. Míralas antes de cotizar."
+  image={OG_IMAGE}
+  pageType="category"
+  breadcrumbs={[{ label: 'Galería', href: '/galeria' }]}
+>
+
+  <!-- MIGAS DE PAN ─────────────────────────────────────────────────────────── -->
+  <nav class="breadcrumbs" aria-label="Migas de pan">
+    <div class="bc-inner">
+      <ol class="bc-list">
+        <li><a href="/" class="bc-link">Inicio</a></li>
+        <li aria-hidden="true" class="bc-sep">›</li>
+        <li><span class="bc-current" aria-current="page">Galería</span></li>
+      </ol>
+    </div>
+  </nav>
+
+  <!-- HERO ────────────────────────────────────────────────────────────────── -->
+  <Hero
+    badge={`DENFLAB · ${EXPERIENCE.short} · ${TOTAL} fotos de eventos reales`}
+    title="Galería de"
+    accent="Eventos Reales"
+    subtitle={`${TOTAL} fotos de fiestas y eventos con inflables DENFLAB montados en la Ciudad de México. Sin renders ni fotos de catálogo: así se ve el inflable ya instalado.`}
+    descRight={[
+      'Elegir un inflable por una ficha técnica no es lo mismo que verlo montado. En esta galería están las fotos que tomamos en los eventos: el inflable armado en el jardín, en la terraza o en el patio del cliente, con el espacio real que ocupa y el aspecto que tiene el día de la fiesta.',
+      'Son cumpleaños infantiles, fiestas en jardín, kermeses escolares y eventos corporativos familiares en CDMX y zona metropolitana. Si una foto te resuelve la duda de cómo quedaría en tu espacio, mándanosla por WhatsApp y te decimos qué modelo es, cuánto espacio necesita y si está libre en tu fecha.',
+    ]}
+    ctas={[
+      { text: '¡Cotizar mi fiesta!', href: waUrl(WA_MESSAGES.cotizar), variant: 'primary', whatsapp: true },
+      { text: 'Ver las fotos', href: '#fototeca', variant: 'outline' },
+    ]}
+    ariaLabel="Galería de eventos reales con inflables en CDMX — DENFLAB"
+  />
+
+  <!-- ① INTRODUCCIÓN + GALERÍA ────────────────────────────────────────────── -->
+  <section id="fototeca" class="section" aria-labelledby="fototeca-heading">
+    <div class="container">
+      <SectionHeading
+        id="fototeca-heading"
+        eyebrow={`${TOTAL} fotos de eventos montados en CDMX`}
+        title="Así se ve un inflable DENFLAB"
+        titleAccent="el día de la fiesta"
+        layout="duo"
+        body={[
+          'Las fotos están tal cual salieron del evento: el inflable anclado y funcionando, el espacio que ocupa en un jardín o una terraza normal, y el resto del montaje alrededor. Es la referencia más honesta para calcular si cabe en tu espacio y cómo se va a ver en tus fotos.',
+          'Toca cualquier imagen para ampliarla y navega con las flechas o deslizando en el celular. Cargamos las primeras 36 fotos y el resto se abre con un clic para que la página no se haga pesada en datos móviles.',
+        ]}
+      />
+
+      <Galeria items={FOTOS} label="eventos reales" initial={36} columns={4} id="gal-eventos" />
+    </div>
+  </section>
+
+  <!-- ② VER EL CATÁLOGO POR CATEGORÍA ─────────────────────────────────────── -->
+  <section class="section section--cats" aria-labelledby="cats-heading">
+    <div class="container">
+      <SectionHeading
+        id="cats-heading"
+        eyebrow="¿Ya viste el que te gusta?"
+        title="Encuentra ese inflable"
+        titleAccent="en el catálogo"
+        layout="duo"
+        body={[
+          'Las fotos muestran los 8 modelos del catálogo: Micro Baby, Dragones Rojos, Mini Jungla, Gusanitos, Extrem, Barco Pirata, Princesas y Castillo Blanco. En cada página de categoría vienen las medidas exactas, la capacidad y el espacio mínimo que necesita cada uno.',
+          'Si no identificas el modelo de una foto, no pasa nada: mándanos la imagen por WhatsApp y te decimos cuál es y si está disponible en tu fecha.',
+        ]}
+      />
+
+      <ul class="cats-links" role="list">
+        {CATEGORIAS.map((cat) => (
+          <li>
+            <a href={cat.href} class="cats-link">
+              <span class="cats-link__label">{cat.label}</span>
+              {cat.badge && <span class="cats-link__badge">{cat.badge}</span>}
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+          </li>
+        ))}
+      </ul>
+
+      <div class="cats-all">
+        <a href="/inflables" class="cats-all__btn">
+          Ver catálogo completo de inflables
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ③ FAQ ───────────────────────────────────────────────────────────────── -->
+  <FAQWithContact
+    eyebrow="Preguntas sobre la galería"
+    title="Dudas frecuentes"
+    titleAccent="sobre estas fotos"
+    body={[
+      'Las preguntas que más nos hacen cuando alguien llega desde la galería: si las fotos son reales, cómo pedir un montaje parecido y qué modelo aparece en cada imagen.',
+      'Si tu pregunta no está aquí, mándanos la foto por WhatsApp con tu fecha y la zona del evento. Respondemos de lunes a domingo.',
+    ]}
+    faqs={FAQS}
+    showContact={true}
+  />
+
+  <!-- CTA BANNER ──────────────────────────────────────────────────────────── -->
+  <CTABanner
+    heading="¿Ya viste el inflable que quieres para tu fiesta?"
+    desc="Mándanos la foto por WhatsApp con la fecha y la zona de tu evento. Te confirmamos modelo, espacio necesario y disponibilidad."
+    variant="primary"
+    btns={[
+      { label: 'Cotizar por WhatsApp', href: waUrl(WA_GALERIA), icon: 'wa', primary: true, external: true },
+      { label: `Llamar: ${CONTACT.phone}`, href: `tel:${CONTACT.phoneE164}`, icon: 'phone', primary: false },
+    ]}
+    badge="Entrega, montaje y desmontaje incluidos en CDMX"
+  />
+
+</PageLayout>
+
+<style>
+  .container { max-width: var(--container-max, 1400px); margin-inline: auto; padding-inline: var(--container-px, 1.5rem); }
+
+  /* ── Breadcrumbs ─────────────────────────────────────────────── */
+  .breadcrumbs { background: var(--c-white, #fff); border-bottom: 1px solid var(--c-border, #e5e7eb); }
+  .bc-inner { max-width: var(--container-max, 1400px); margin-inline: auto; padding-inline: var(--container-px, 1.5rem); padding-block: .625rem; }
+  .bc-list { list-style: none; margin: 0; padding: 0; display: flex; align-items: center; gap: .375rem; flex-wrap: wrap; }
+  .bc-link    { font-size: .8125rem; color: var(--c-primary, #015CF1); text-decoration: none; }
+  .bc-link:hover { text-decoration: underline; }
+  .bc-sep     { font-size: .8125rem; color: var(--c-muted, #9ca3af); user-select: none; }
+  .bc-current { font-size: .8125rem; color: var(--c-ink-2, #4b5563); font-weight: 500; }
+
+  /* ── Sections ───────────────────────────────────────────────── */
+  .section       { padding: clamp(3.5rem, 7vw, 5.5rem) 0; }
+  .section--cats { background: var(--c-surface, #f9fafb); }
+
+  /* ── Links de categoría ─────────────────────────────────────── */
+  .cats-links {
+    list-style: none; margin: 0 0 1.75rem; padding: 0;
+    display: grid; grid-template-columns: repeat(3, 1fr); gap: .75rem;
+  }
+  .cats-link {
+    display: flex; align-items: center; gap: .5rem;
+    padding: 1rem 1.125rem;
+    background: #fff; border: 1px solid #e5e7eb; border-radius: 14px;
+    text-decoration: none; color: var(--c-ink, #111827);
+    font-weight: 700; font-size: .9375rem;
+    box-shadow: 0 2px 8px rgba(0,0,0,.05);
+    transition: border-color .15s ease, color .15s ease;
+  }
+  .cats-link:hover { border-color: var(--c-primary, #015CF1); color: var(--c-primary, #015CF1); }
+  .cats-link__label { flex: 1; }
+  .cats-link__badge {
+    padding: .15rem .5rem; border-radius: 999px;
+    background: rgba(1,92,241,.08); color: var(--c-primary, #015CF1);
+    font-size: .625rem; font-weight: 700; text-transform: uppercase; letter-spacing: .06em;
+  }
+  .cats-link svg { flex-shrink: 0; color: var(--c-primary, #015CF1); }
+
+  .cats-all { text-align: center; }
+  .cats-all__btn {
+    display: inline-flex; align-items: center; gap: .5rem;
+    padding: .875rem 2rem;
+    border: 2px solid var(--c-primary, #015CF1);
+    color: var(--c-primary, #015CF1);
+    font-weight: 700; font-size: .9375rem;
+    border-radius: 10px; text-decoration: none;
+  }
+  .cats-all__btn:hover { background: var(--c-primary, #015CF1); color: #fff; }
+
+  /* ── Responsive ─────────────────────────────────────────────── */
+  @media (max-width: 900px) {
+    .cats-links { grid-template-columns: repeat(2, 1fr); }
+  }
+  @media (max-width: 520px) {
+    .cats-links { grid-template-columns: 1fr; }
+    .cats-all__btn { width: 100%; justify-content: center; }
+  }
+</style>
