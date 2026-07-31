@@ -62,12 +62,12 @@ detail:
   ctaLabel: 'Cotizar el Castillo de Princesas'
   gallery:
     main:
-      src: '/images/productos/castillo-princesas.jpg'
+      src: '/images/productos/princesas.jpg'
       alt: 'Castillo de Princesas — vista frontal completa con torres · DENFLAB CDMX'
     thumbs:
       - src: '/images/inflables/ninas.jpg'
         alt: 'Castillo de Princesas — vista lateral y acceso'
-      - src: '/images/productos/castillo-princesas.jpg'
+      - src: '/images/productos/princesas.jpg'
         alt: 'Castillo de Princesas — detalle coronas y torres'
       - src: '/images/inflables/ninas.jpg'
         alt: 'Castillo de Princesas — en uso durante fiesta'
@@ -195,9 +195,9 @@ otrasCats:
     href: '/renta-de-inflables-para-ninos'
     image: '/images/inflables/ninos.jpg'
     imageAlt: 'Inflables para niños en renta CDMX'
-    badge: 'Héroes'
-    blurb: 'Superhéroes, dinosaurios y aventureros. Para fiestas temáticas de 4 a 12 años.'
-    ctaLabel: 'Ver héroes'
+    badge: 'Aventura'
+    blurb: 'Dragones Rojos, Extrem y Barco Pirata. Para fiestas temáticas de 4 a 12 años.'
+    ctaLabel: 'Ver inflables para niños'
   - label: 'Inflables para Bodas'
     href: '/renta-de-inflables-para-boda'
     image: '/images/inflables/bodas.jpg'

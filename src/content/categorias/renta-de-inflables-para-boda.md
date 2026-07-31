@@ -202,9 +202,9 @@ otrasCats:
     href: '/renta-de-inflables-para-ninos'
     image: '/images/inflables/ninos.jpg'
     imageAlt: 'Inflables temáticos para niño en CDMX'
-    badge: 'Héroes'
-    blurb: 'Superhéroes, Dinosaurio Rex y Ninjas: 3 temáticas para fiestas de 4 a 12 años.'
-    ctaLabel: 'Ver héroes'
+    badge: 'Aventura'
+    blurb: 'Dragones Rojos, Extrem y Barco Pirata. Para fiestas temáticas de 4 a 12 años.'
+    ctaLabel: 'Ver inflables para niños'
 faqHeading:
   eyebrow: 'Preguntas sobre el Castillo Blanco'
   title: 'Lo que más nos preguntan antes'

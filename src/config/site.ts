@@ -133,7 +133,7 @@ export const TAXONOMY = {
     { slug: 'medianos', label: 'Inflables Medianos',       badge: undefined, href: '/renta-de-inflables-medianos' },
     { slug: 'grandes',  label: 'Inflables Grandes',        badge: undefined, href: '/renta-de-inflables-grandes' },
     { slug: 'ninas',    label: 'Inflables para Niñas',     badge: 'Princesas', href: '/renta-de-inflables-para-nina' },
-    { slug: 'ninos',    label: 'Inflables para Niños',     badge: 'Héroes', href: '/renta-de-inflables-para-ninos' },
+    { slug: 'ninos',    label: 'Inflables para Niños',     badge: 'Aventura', href: '/renta-de-inflables-para-ninos' },
     { slug: 'bodas',    label: 'Inflables para Bodas',     badge: undefined, href: '/renta-de-inflables-para-boda' },
   ],
   services: [
@@ -186,7 +186,7 @@ export const NAV: readonly NavItem[] = [
     panel: 'dropdown',
     allLabel: 'Ver todos los servicios',
     items: [
-      ...SERVICES.map((s) => ({ label: s.label, href: `/${s.id}`, desc: s.desc })),
+      ...SERVICES.map((s) => ({ label: s.label, href: `/servicios#${s.id}`, desc: s.desc })),
     ],
   },
   { label: 'Paquetes', href: '/paquetes-para-fiestas-infantiles' },
@@ -205,7 +205,7 @@ export const SOCIAL: { network: SocialNetwork; label: string; url: string }[] = 
 
 // ── LEGAL — enlaces legales del Footer ────────────────────────────────────────
 export const LEGAL: { label: string; href: string }[] = [
-  { label: 'Aviso de privacidad', href: '/privacidad' },
+  { label: 'Aviso de privacidad', href: '/aviso-de-privacidad' },
   { label: 'Mapa del sitio', href: '/sitemap-index.xml' },
 ];
 

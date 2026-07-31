@@ -44,7 +44,7 @@ const SERVICIOS_COL = TAXONOMY.services ?? []
           <h3 class="sf-col__heading">Servicios</h3>
           <ul class="sf-col__list">
             {SERVICIOS_COL.map(svc => (
-              <li><a href={`/servicios/${svc.id}`}>{svc.label}</a></li>
+              <li><a href={`/servicios#${svc.id}`}>{svc.label}</a></li>
             ))}
           </ul>
         </div>

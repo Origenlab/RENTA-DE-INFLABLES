@@ -30,7 +30,7 @@ const CATS: Array<{ slug: string; label: string; href: string; badge?: string; i
   { slug: 'medianos', label: 'Inflables Medianos',     href: '/renta-de-inflables-medianos',   image: '/images/inflables/medianos.jpg', blurb: 'Diversión máxima en un tamaño versátil. El favorito de las fiestas.' },
   { slug: 'grandes',  label: 'Inflables Grandes',      href: '/renta-de-inflables-grandes',    image: '/images/inflables/grandes.jpg',  blurb: 'Para eventos grandes que requieren toda la emoción y la adrenalina.' },
   { slug: 'ninas',    label: 'Para Niñas',             href: '/renta-de-inflables-para-nina',  image: '/images/inflables/ninas.jpg',    blurb: 'Castillos de princesas y unicornios para las fiestas más especiales.', badge: 'Princesas' },
-  { slug: 'ninos',    label: 'Para Niños',             href: '/renta-de-inflables-para-ninos', image: '/images/inflables/ninos.jpg',    blurb: 'Superhéroes, dinosaurios y mucho más para que los niños vuelen alto.', badge: 'Héroes' },
+  { slug: 'ninos',    label: 'Para Niños',             href: '/renta-de-inflables-para-ninos', image: '/images/inflables/ninos.jpg',    blurb: 'Dragones Rojos, Extrem y Barco Pirata para que los niños vuelen alto.', badge: 'Aventura' },
   { slug: 'bodas',    label: 'Para Bodas',             href: '/renta-de-inflables-para-boda',  image: '/images/inflables/bodas.jpg',    blurb: 'Opción elegante para sorprender a tus invitados en el día más especial.' },
 ]
 
@@ -446,7 +446,7 @@ const INFLABLES: InflableItem[] = [
         {SVCS.map((svc, i) => (
           <ServiceCard
             label={svc.label}
-            href={`/servicios/${svc.id}`}
+            href={`/servicios#${svc.id}`}
             image={svc.image}
             imageAlt={`${svc.label} para fiestas en CDMX`}
             desc={svc.desc}

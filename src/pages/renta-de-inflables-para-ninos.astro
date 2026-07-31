@@ -1,7 +1,7 @@
 ---
 // src/pages/renta-de-inflables-para-ninos.astro — L3 · Inflables para Niños · DENFLAB
 // Ruta: /renta-de-inflables-para-ninos
-// SEO objetivo: "inflable para niño temático CDMX" · "inflable superhéroes CDMX" · "brincolín dinosaurios CDMX"
+// SEO objetivo: "inflable para niño CDMX" · "renta inflable con tobogán CDMX" · "brincolín barco pirata CDMX"
 
 import PageLayout     from '@layouts/PageLayout.astro'
 import Hero           from '@components/Hero.astro'
@@ -17,133 +17,133 @@ import type { FaqItem } from '@lib/seo'
 
 const WA_ICON = 'M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z'
 
-// ── LOS 3 MODELOS TEMÁTICOS PARA NIÑOS ────────────────────────────────────────
+// ── LOS 3 MODELOS PARA NIÑOS (catálogo real DENFLAB) ─────────────────────────
 const MODELOS = [
   {
-    id: 'superheroes',
-    nombre: 'Superhéroes',
-    dims: '4×3×2.8 m',
-    category: 'Niños',
-    eyebrow: 'Niños · 4×3×2.8 m · Para niños 4–10 años',
-    colorGradient: 'linear-gradient(135deg, #b91c1c 0%, #1d4ed8 100%)',
-    tag: 'El más popular',
-    tagline: 'El diseño más pedido de la categoría: rojo, azul y amarillo con escudos, rayos y estrellas de cómic.',
-    body: [
-      'El Superhéroes es el modelo más rentado de la categoría de niños. Con su diseño de cómic en rojo, azul y amarillo — escudos, rayos de energía, estrellas y siluetas de acción — encaja con cualquier temática de superhéroes sin importar el personaje específico: funciona igual de bien para una fiesta de Spider-Man, Batman, Avengers o superhéroes genéricos. Los niños lo reconocen al instante y quieren subirse antes de que termine de inflarse.',
-      'Con base de 3 metros y altura de 2.8 m, tiene el mayor espacio de brinco de los tres modelos y admite simultáneamente a 5 o 6 niños de 4 a 10 años. El acceso lateral con rampa moderada facilita la entrada incluso a los niños más pequeños del rango. Requiere jardín o terraza de al menos 5.5×4 m. El soplador y las 4 anclas de seguridad están incluidos en la renta.',
-    ],
-    points: [
-      'Dimensiones: 4×3×2.8 m',
-      'Para niños de 4 a 10 años',
-      'Capacidad: 5–6 niños simultáneos',
-      'Diseño de cómic: rojo, azul, amarillo',
-      'Compatible con cualquier temática de superhéroes',
-      'Base de 3 m — el más ancho de los 3 modelos',
-      'Espacio mínimo: 5.5×4 m exterior',
-      'Soplador y 4 anclas incluidos',
-    ],
-    image: '/images/productos/superheroes.jpg',
-    thumbs: [
-      { src: '/images/inflables/ninos.jpg',          alt: 'Superhéroes — vista frontal completa' },
-      { src: '/images/productos/superheroes.jpg',    alt: 'Superhéroes — detalle diseño cómic y escudos' },
-      { src: '/images/inflables/ninos.jpg',          alt: 'Superhéroes — en uso durante fiesta' },
-    ],
-    idealPara: 'Cualquier fiesta de superhéroes de 4 a 10 años, independientemente del héroe específico.',
-    eligeSi: 'La temática es de superhéroes o quieres el diseño más colorido y reconocible del catálogo.',
-    waMsg: 'Hola, me interesa cotizar el inflable Superhéroes (4×3×2.8 m) para un evento en CDMX. ¿Está disponible?',
-  },
-  {
-    id: 'dinosaurio-rex',
-    nombre: 'Dinosaurio Rex',
-    dims: '4×3×3 m',
-    category: 'Niños',
-    eyebrow: 'Niños · 4×3×3 m · Para niños 4–12 años',
-    colorGradient: 'linear-gradient(135deg, #166534 0%, #22c55e 100%)',
-    tag: 'El más alto',
-    tagline: 'El más alto de los tres modelos y el favorito de los niños de 6 a 12 años: diseño de selva jurásica con T-Rex y velocirráptores.',
-    body: [
-      'El Dinosaurio Rex es el más alto de los tres modelos temáticos para niños: 3 metros de altura interior con diseño de jungla jurásica en verde oscuro, amarillo y marrón. Las paredes exteriores tienen impresiones de T-Rex, velocirráptores y huevos de dinosaurio que crean la atmósfera perfecta para una fiesta de dinosaurios o exploración prehistórica. Es el modelo favorito de los niños de 6 a 12 años por su altura y la mayor sensación de espacio interior.',
-      'Con base de 3×4 m — igual al Superhéroes en ancho pero con 20 cm más de altura — permite que niños más altos brinquen sin tocar el techo. Capacidad simultánea de 5 a 6 niños. Es también el modelo más versátil temáticamente de los tres: el diseño de jungla encaja con fiestas de Jurassic World, aventura, exploración y naturaleza, no solo con dinosaurios específicos. Requiere espacio mínimo de 5.5×4 m en exterior.',
-    ],
-    points: [
-      'Dimensiones: 4×3×3 m — el más alto de los 3',
-      'Para niños de 4 a 12 años',
-      'Capacidad: 5–6 niños simultáneos',
-      'Diseño: T-Rex, velocirráptores, jungla jurásica',
-      'El más alto: 3 m de altura interior',
-      'Compatible con fiestas de Jurassic World y aventura',
-      'Espacio mínimo: 5.5×4 m exterior',
-      'Soplador y 4 anclas incluidos',
-    ],
-    image: '/images/productos/dinosaurio-rex.jpg',
-    thumbs: [
-      { src: '/images/inflables/ninos.jpg',              alt: 'Dinosaurio Rex — vista lateral completa' },
-      { src: '/images/productos/dinosaurio-rex.jpg',     alt: 'Dinosaurio Rex — detalle diseño T-Rex y jungla' },
-      { src: '/images/inflables/ninos.jpg',              alt: 'Dinosaurio Rex — en uso durante cumpleaños' },
-    ],
-    idealPara: 'Fiestas de dinosaurios, Jurassic World, exploración o aventura para niños de 4 a 12 años.',
-    eligeSi: 'La fiesta tiene temática de dinosaurios o quieres el modelo con mayor altura interior.',
-    waMsg: 'Hola, me interesa cotizar el inflable Dinosaurio Rex (4×3×3 m) para un evento en CDMX. ¿Está disponible?',
-  },
-  {
-    id: 'ninjas',
-    nombre: 'Ninjas',
+    id: 'dragones-rojos',
+    nombre: 'Dragones Rojos',
     dims: '4×2.5×2.5 m',
     category: 'Niños',
-    eyebrow: 'Niños · 4×2.5×2.5 m · Para niños 5–12 años',
-    colorGradient: 'linear-gradient(135deg, #1e1b4b 0%, #4f46e5 100%)',
-    tag: 'El más temático',
-    tagline: 'El único inflable del catálogo con estética ninja: negro, verde y morado con estrellas shurikens y cinturones de dojo.',
+    eyebrow: 'Niños · 4×2.5×2.5 m · Para niños 4–10 años',
+    colorGradient: 'linear-gradient(135deg, #b91c1c 0%, #ef4444 100%)',
+    tag: 'El más compacto',
+    tagline: 'El favorito de los cumpleaños de aventura: 4 metros de largo con tobogán integrado y diseño de dragones.',
     body: [
-      'El Ninjas es el modelo más específico temáticamente de los tres: diseño en negro, verde y morado con estrellas shurikens, cinturones de dojo, símbolos orientales y siluetas de ninja en movimiento. Es el favorito para fiestas de karate, artes marciales, ninjas, Ninjago o cualquier temática oriental. Con una estética más oscura y "seria" que los otros dos modelos, es especialmente popular entre niños de 6 a 12 años que ya tienen gustos más definidos.',
-      'Con base de 2.5 m es el más compacto de los tres modelos temáticos para niños, lo que lo hace viable en jardines más pequeños: requiere mínimo 5×3.5 m de área libre en exterior. Capacidad de 4 a 5 niños simultáneos. La altura de 2.5 m es apropiada para el rango de edad recomendado. Es también el modelo que más sorprende visualmente por su paleta oscura e inusual en un catálogo de inflables donde dominan los colores brillantes.',
+      'El Dragones Rojos es el punto de entrada perfecto a la categoría de niños: 4 metros de largo, tobogán integrado y un diseño de dragones que funciona con prácticamente cualquier fiesta de aventura, caballeros, criaturas o acción. Los niños no necesitan que les expliques la temática — ven el inflable y ya saben de qué va. Es el modelo que más rápido convence al cumpleañero cuando le enseñas la foto.',
+      'Con base de 2.5 metros y 2.5 de altura es el más compacto de los tres modelos de esta página, lo que lo vuelve viable en jardines donde el Extrem o el Barco Pirata simplemente no entran: necesita un mínimo de 5×3.5 m de área libre en exterior. Admite de 4 a 6 niños simultáneos de 4 a 10 años. La renta incluye traslado, montaje, desmontaje, soplador y anclas de seguridad.',
     ],
     points: [
       'Dimensiones: 4×2.5×2.5 m',
-      'Para niños de 5 a 12 años',
-      'Capacidad: 4–5 niños simultáneos',
-      'Diseño: shurikens, cinturones dojo, símbolos orientales',
-      'Paleta oscura única: negro, verde y morado',
-      'El menor requerimiento de espacio de los 3: 5×3.5 m',
-      'Compatible con fiestas ninja, karate, Ninjago',
-      'Soplador y 4 anclas incluidos',
+      'Para niños de 4 a 10 años',
+      'Capacidad: 4–6 niños simultáneos',
+      'Tobogán integrado en el propio inflable',
+      'Diseño de dragones — temática de aventura',
+      'El que menos espacio requiere de los 3',
+      'Espacio mínimo: 5×3.5 m exterior',
+      'Soplador y anclas de seguridad incluidos',
     ],
-    image: '/images/productos/ninjas.jpg',
+    image: '/images/productos/dragones-rojos.jpg',
     thumbs: [
-      { src: '/images/inflables/ninos.jpg',      alt: 'Ninjas — vista frontal con diseño oscuro' },
-      { src: '/images/productos/ninjas.jpg',     alt: 'Ninjas — detalle shurikens y cinturones dojo' },
-      { src: '/images/inflables/ninos.jpg',      alt: 'Ninjas — en uso durante fiesta temática' },
+      { src: '/images/inflables/ninos.jpg',            alt: 'Dragones Rojos — vista frontal completa' },
+      { src: '/images/productos/dragones-rojos.jpg',   alt: 'Dragones Rojos — detalle del diseño de dragones y tobogán' },
+      { src: '/images/inflables/ninos.jpg',            alt: 'Dragones Rojos — en uso durante fiesta infantil' },
     ],
-    idealPara: 'Fiestas de ninjas, karate, Ninjago o artes marciales para niños de 5 a 12 años.',
-    eligeSi: 'La fiesta tiene temática ninja o de artes marciales, o el niño prefiere diseños más oscuros e intensos.',
-    waMsg: 'Hola, me interesa cotizar el inflable Ninjas (4×2.5×2.5 m) para un evento en CDMX. ¿Está disponible?',
+    idealPara: 'Fiestas de aventura, dragones o acción para niños de 4 a 10 años en jardines medianos.',
+    eligeSi: 'Tienes un jardín mediano o quieres tobogán sin necesitar un inflable de gran formato.',
+    waMsg: 'Hola, me interesa cotizar el inflable Dragones Rojos (4×2.5×2.5 m) para un evento en CDMX. ¿Está disponible?',
+  },
+  {
+    id: 'extrem',
+    nombre: 'Extrem',
+    dims: '4.8×3.3×3 m',
+    category: 'Niños',
+    eyebrow: 'Niños · 4.8×3.3×3 m · Desde los 5 años',
+    colorGradient: 'linear-gradient(135deg, #c2410c 0%, #f59e0b 100%)',
+    tag: 'Tobogán de altura',
+    tagline: 'Área de brinco amplia más tobogán de altura: el modelo más llamativo del catálogo grande de DENFLAB.',
+    body: [
+      'El Extrem es el salto de nivel dentro de la categoría: 4.8 metros de largo, 3.3 de ancho y 3 de alto, con un área de brinco amplia y un tobogán de altura integrado que es exactamente lo que buscan los niños que ya se aburrieron de "solo brincar". Es el más llamativo del catálogo grande y el que cambia por completo la energía de la fiesta desde que se termina de inflar.',
+      'Está recomendado para niños de 5 años en adelante y admite de 6 a 8 niños simultáneos, así que absorbe muy bien las fiestas con muchos invitados: menos turnos de espera y menos niños aburridos en la fila. Necesita un espacio libre de al menos 6×4 m en exterior — jardín amplio, quinta o terraza grande. Traslado, montaje, desmontaje, soplador y anclas de seguridad van incluidos en la renta.',
+    ],
+    points: [
+      'Dimensiones: 4.8×3.3×3 m',
+      'Para niños de 5 años en adelante',
+      'Capacidad: 6–8 niños simultáneos',
+      'Tobogán de altura integrado',
+      'La base más ancha de los 3: 3.3 m',
+      'El más llamativo del catálogo grande',
+      'Espacio mínimo: 6×4 m exterior',
+      'Soplador y anclas de seguridad incluidos',
+    ],
+    image: '/images/productos/extrem.jpg',
+    thumbs: [
+      { src: '/images/inflables/ninos.jpg',        alt: 'Extrem — vista lateral completa' },
+      { src: '/images/productos/extrem.jpg',       alt: 'Extrem — detalle del tobogán de altura y área de brinco' },
+      { src: '/images/inflables/ninos.jpg',        alt: 'Extrem — en uso durante cumpleaños infantil' },
+    ],
+    idealPara: 'Fiestas con muchos invitados y niños de 5 años en adelante que quieren tobogán y adrenalina.',
+    eligeSi: 'Tienes jardín amplio y quieres el modelo con más movimiento y mayor capacidad simultánea.',
+    waMsg: 'Hola, me interesa cotizar el inflable Extrem (4.8×3.3×3 m) para un evento en CDMX. ¿Está disponible?',
+  },
+  {
+    id: 'barco-pirata',
+    nombre: 'Barco Pirata',
+    dims: '7×3×3 m',
+    category: 'Niños',
+    eyebrow: 'Niños · 7×3×3 m · Desde los 5 años',
+    colorGradient: 'linear-gradient(135deg, #0c4a6e 0%, #0ea5e9 100%)',
+    tag: 'El más grande',
+    tagline: '7 metros de largo con mástil y cañones decorativos: el telón de fondo perfecto para las fotos del evento.',
+    body: [
+      'El Barco Pirata es el modelo más grande del catálogo DENFLAB y el que se roba la fiesta sin competencia: 7 metros de largo con mástil completo y cañones decorativos que lo convierten en una escenografía, no solo en un juego. Es el inflable que aparece en todas las fotos del cumpleaños porque funciona como telón de fondo natural para el pastel, la mesa de dulces y las fotos de grupo.',
+      'Recomendado para niños de 5 años en adelante, con capacidad de 6 a 8 niños simultáneos. Por sus 7 metros de largo necesita el mayor espacio de los tres modelos: al menos 8×4 m libres en exterior, así que va mejor en jardines grandes, quintas y salones con área exterior amplia. Como el resto del catálogo, la renta incluye traslado, montaje, desmontaje, soplador y anclas de seguridad.',
+    ],
+    points: [
+      'Dimensiones: 7×3×3 m — el más grande',
+      'Para niños de 5 años en adelante',
+      'Capacidad: 6–8 niños simultáneos',
+      'Mástil completo y cañones decorativos',
+      'El mejor telón de fondo para fotos del evento',
+      'Ideal para jardines grandes y quintas',
+      'Espacio mínimo: 8×4 m exterior',
+      'Soplador y anclas de seguridad incluidos',
+    ],
+    image: '/images/productos/barco-pirata.jpg',
+    thumbs: [
+      { src: '/images/inflables/ninos.jpg',            alt: 'Barco Pirata — vista frontal con mástil completo' },
+      { src: '/images/productos/barco-pirata.jpg',     alt: 'Barco Pirata — detalle del mástil y los cañones decorativos' },
+      { src: '/images/inflables/ninos.jpg',            alt: 'Barco Pirata — en uso durante fiesta infantil' },
+    ],
+    idealPara: 'Fiestas de piratas, aventura marinera o eventos grandes donde el inflable es el centro de las fotos.',
+    eligeSi: 'Tienes jardín grande y quieres el modelo con más presencia visual del catálogo.',
+    waMsg: 'Hola, me interesa cotizar el inflable Barco Pirata (7×3×3 m) para un evento en CDMX. ¿Está disponible?',
   },
 ]
 
 // ── FEATURE SPECS ─────────────────────────────────────────────────────────────
 const FEATURE_SPECS = [
   {
-    gradient: 'linear-gradient(135deg, #b91c1c 0%, #1d4ed8 100%)',
+    gradient: 'linear-gradient(135deg, #b91c1c 0%, #ef4444 100%)',
     svgContent: '<path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" stroke-width="1.5"/>',
-    label: '3 temáticas disponibles',
-    value: 'Superhéroes · Dinos · Ninjas',
-    detail: 'Cada modelo tiene un diseño radicalmente diferente al de los otros dos. La elección depende de la temática de la fiesta y la preferencia del cumpleañero — no hay un modelo "mejor" que otro, son para usos distintos.',
-    tag: 'El único catálogo temático',
+    label: '3 modelos para niños',
+    value: 'Dragones · Extrem · Pirata',
+    detail: 'Tres formatos distintos dentro de una misma categoría: el Dragones Rojos (4 m) para jardines medianos, el Extrem (4.8 m) con tobogán de altura y el Barco Pirata (7 m) para eventos grandes. La elección depende del espacio disponible y de cuánta presencia quieres que tenga el inflable.',
+    tag: 'Del mediano al gran formato',
   },
   {
-    gradient: 'linear-gradient(135deg, #166534 0%, #22c55e 100%)',
+    gradient: 'linear-gradient(135deg, #c2410c 0%, #f59e0b 100%)',
     svgContent: '<circle cx="12" cy="8" r="5" stroke-width="1.5"/><path d="M3 21v-2a7 7 0 0 1 7-7h4a7 7 0 0 1 7 7v2" stroke-width="1.5"/>',
     label: 'Edad recomendada',
     value: '4 a 12 años',
-    detail: 'El rango de edad más amplio del catálogo. Superhéroes y Dinosaurio Rex desde los 4 años; Ninjas desde los 5. Los tres modelos son aptos hasta los 12 años — más tiempo útil que los modelos sin temática específica.',
+    detail: 'El Dragones Rojos está recomendado para niños de 4 a 10 años; el Extrem y el Barco Pirata, de 5 años en adelante. Entre los tres cubren todo el rango de una fiesta infantil, desde los preescolares hasta los cumpleañeros de doble dígito.',
     tag: 'El rango más amplio',
   },
   {
-    gradient: 'linear-gradient(135deg, #1e1b4b 0%, #4f46e5 100%)',
+    gradient: 'linear-gradient(135deg, #0c4a6e 0%, #0ea5e9 100%)',
     svgContent: '<path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" stroke-width="1.5"/><circle cx="9" cy="7" r="4" stroke-width="1.5"/><path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75" stroke-width="1.5"/>',
     label: 'Capacidad simultánea',
-    value: '4 a 6 niños',
-    detail: 'Superhéroes y Dinosaurio Rex: 5–6 niños por su base de 3 m. Ninjas: 4–5 niños con base de 2.5 m. En fiestas de 15–20 niños, los turnos de espera son de 10 a 15 minutos dependiendo del modelo.',
+    value: '4 a 8 niños',
+    detail: 'El Dragones Rojos admite de 4 a 6 niños; el Extrem y el Barco Pirata, de 6 a 8. En fiestas con muchos invitados, los dos modelos grandes reducen bastante los turnos de espera respecto a un inflable mediano.',
     tag: 'Solo exterior',
   },
 ]
@@ -152,9 +152,9 @@ const FEATURE_SPECS = [
 const SECONDARY_SPECS = [
   {
     svgContent: '<path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/>',
-    label: 'Largo (los 3 modelos)',
-    value: '4 metros',
-    note: 'Dimensión uniforme en toda la categoría',
+    label: 'Largo (según modelo)',
+    value: '4 a 7 metros',
+    note: 'Dragones 4 m · Extrem 4.8 m · Pirata 7 m',
   },
   {
     svgContent: '<circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/>',
@@ -165,20 +165,20 @@ const SECONDARY_SPECS = [
   {
     svgContent: '<path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/>',
     label: 'Soplador',
-    value: 'Incluido · 800 W',
+    value: 'Incluido en la renta',
     note: 'Toma estándar 110 V · operación continua',
   },
   {
     svgContent: '<circle cx="12" cy="12" r="3"/><path d="M12 1v4M12 19v4M4.22 4.22l2.83 2.83M16.95 16.95l2.83 2.83M1 12h4M19 12h4M4.22 19.78l2.83-2.83M16.95 7.05l2.83-2.83"/>',
     label: 'Anclas de seguridad',
-    value: '4 incluidas',
-    note: 'Instalación segura en jardín o terraza',
+    value: 'Incluidas',
+    note: 'Instalación segura en jardín o quinta',
   },
   {
     svgContent: '<rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/>',
     label: 'Espacio mínimo',
-    value: '5×3.5 m / 5.5×4 m',
-    note: 'Ninjas: 5×3.5 m · Superhéroes y Dinos: 5.5×4 m',
+    value: 'De 5×3.5 m a 8×4 m',
+    note: 'Dragones 5×3.5 m · Extrem 6×4 m · Pirata 8×4 m',
   },
   {
     svgContent: '<circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/>',
@@ -192,38 +192,38 @@ const SECONDARY_SPECS = [
 const SCENARIOS = [
   {
     icon: 'M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z',
-    title: 'Fiesta de superhéroes o Avengers',
-    desc: 'El Superhéroes es la elección obvia: el diseño de cómic en rojo, azul y amarillo refuerza cualquier temática de Marvel, DC o superhéroes genéricos sin necesidad de licencia. Es el modelo que más vende solo con mostrárselo al cumpleañero.',
-    tag: 'Superhéroes',
+    title: 'Fiesta de aventura, dragones o caballeros',
+    desc: 'El Dragones Rojos es la elección obvia: su diseño de dragones refuerza cualquier temática de aventura, caballeros o criaturas fantásticas, y el tobogán integrado mantiene a los niños ocupados toda la tarde. Es el modelo que más rápido convence al cumpleañero cuando le enseñas la foto.',
+    tag: 'Dragones Rojos',
   },
   {
     icon: 'M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 0 0 1 1h3m10-11l2 2m-2-2v10a1 1 0 0 0-1 1h-3m-6 0a1 1 0 0 0 1-1v-4a1 1 0 0 0-1-1H9a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1m-6-10h18',
-    title: 'Fiesta de dinosaurios o Jurassic World',
-    desc: 'El Dinosaurio Rex con su diseño de jungla jurásica es el complemento perfecto para fiestas de Jurassic Park/World, exploración prehistórica o dinosaurios en general. Los niños de 6 a 12 años son el público principal — el modelo más alto del catálogo temático.',
-    tag: 'Dinosaurios',
+    title: 'Fiesta de piratas o aventura marinera',
+    desc: 'Aquí no hay discusión: el Barco Pirata con su mástil completo y sus cañones decorativos es la escenografía de la fiesta. Siete metros de largo que funcionan como telón de fondo para el pastel, la mesa de dulces y las fotos de grupo. Necesitas jardín grande, pero el efecto lo vale.',
+    tag: 'Barco Pirata',
   },
   {
     icon: 'M13 2L3 14h9l-1 8 10-12h-9l1-8z',
-    title: 'Fiesta de ninjas, karate o Ninjago',
-    desc: 'El inflable Ninjas con paleta oscura negro/verde/morado es el único del catálogo que visualmente encaja con temáticas de artes marciales, ninja o Ninjago. La estética "seria" lo hace especialmente popular entre niños de 7 en adelante que prefieren algo más maduro.',
-    tag: 'Ninjas',
+    title: 'Fiesta con temática de superhéroes o dinosaurios',
+    desc: 'Para estos temas la decoración manda (banderines, pastel, mesa de dulces) y el inflable aporta la acción. El Extrem es el que mejor funciona: su tobogán de altura y el área de brinco amplia dan el nivel de adrenalina que esas fiestas piden, y su diseño no compite con la decoración que ya elegiste.',
+    tag: 'Extrem',
   },
   {
     icon: 'M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75M9 7a4 4 0 1 0 0-8 4 4 0 0 0 0 8z',
     title: 'Cumpleaños de niño de doble dígito',
-    desc: 'Para los 10, 11 y 12 años — la edad donde los inflables genéricos ya no convencen — un modelo temático específico hace la diferencia. El Dinosaurio Rex y el Ninjas son los más pedidos para cumpleañeros de 9 a 12 años que todavía disfrutan el brincolín pero quieren algo que se vea "para su edad".',
+    desc: 'Para los 10, 11 y 12 años — la edad donde un brincolín pequeño ya no convence — el tamaño es lo que hace la diferencia. El Extrem con su tobogán de altura y el Barco Pirata de 7 metros son los más pedidos para cumpleañeros mayores que todavía disfrutan el inflable pero quieren algo que se vea "para su edad".',
     tag: 'Niños mayores',
   },
   {
     icon: 'M4 6h16M4 12h16M4 18h7',
-    title: 'Evento escolar con temática anual',
-    desc: 'Para fiestas de fin de ciclo, kermeses o días del niño con temática específica: los tres modelos encajan con las temáticas más populares en escuelas primarias. El Superhéroes es el más polivalente para grupos mixtos; Dinosaurio Rex y Ninjas para eventos con temática definida.',
+    title: 'Evento escolar, kermés o día del niño',
+    desc: 'Cuando hay decenas de niños esperando turno, la capacidad simultánea es lo que importa. El Extrem y el Barco Pirata mueven de 6 a 8 niños a la vez y hacen que la fila avance; el Dragones Rojos es la opción cuando el patio o el jardín de la escuela no da para un inflable de gran formato.',
     tag: 'Eventos escolares',
   },
   {
     icon: 'M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5',
     title: 'Combo niño + niña para fiestas de hermanos',
-    desc: 'La configuración más completa para fiestas de hermanos: el Castillo de Princesas para las niñas y cualquiera de los tres modelos temáticos para el niño. Los dos operan simultáneamente en zonas distintas del jardín — cada uno con su público y su tema.',
+    desc: 'La configuración más completa para fiestas de hermanos: el inflable Princesas para las niñas y cualquiera de estos tres modelos para el niño. Los dos operan simultáneamente en zonas distintas del jardín — cada uno con su público. Solo necesitas confirmar que el espacio alcanza para ambos más el margen de circulación.',
     tag: 'Combo hermanos',
   },
 ]
@@ -281,34 +281,34 @@ const OTRAS_CATS = [
 const FAQS: FaqItem[] = [
   {
     question: '¿Cuál de los tres modelos conviene para la fiesta de mi hijo?',
-    answer: 'Depende únicamente de la temática de la fiesta. Superhéroes si la fiesta es de Marvel, DC o superhéroes en general. Dinosaurio Rex si la temática es de dinosaurios, Jurassic World o aventura prehistórica. Ninjas si es de ninjas, karate, Ninjago o artes marciales. Si el niño no tiene preferencia de temática, el Superhéroes es el más popular en general y el que mejor encaja con grupos mixtos de niños.',
+    answer: 'La decisión se resuelve casi siempre por espacio y edad. El Dragones Rojos (4×2.5×2.5 m) es el más compacto: entra en jardines medianos con 5×3.5 m libres y está pensado para niños de 4 a 10 años. El Extrem (4.8×3.3×3 m) suma tobogán de altura y mayor capacidad, para niños de 5 años en adelante y jardines con al menos 6×4 m. El Barco Pirata (7×3×3 m) es el más grande y el de mayor impacto visual, pero necesita hasta 8×4 m libres. Si el espacio no es problema, el Barco Pirata es el que más impresiona; si el jardín es justo, el Dragones Rojos.',
   },
   {
-    question: '¿Los modelos temáticos son del mismo tamaño que los medianos del catálogo?',
-    answer: 'Tienen la misma longitud (4 m) pero diseños completamente diferentes. Los medianos del catálogo (Dragones Rojos, Mini Jungla, Gusanitos) tienen diseños más neutros o de aventura genérica. Los modelos para niños (Superhéroes, Dinosaurio Rex, Ninjas) tienen temáticas específicas más intensas. En cuanto a espacio requerido, los Superhéroes y Dinosaurio Rex necesitan el mismo que los medianos más anchos; el Ninjas requiere el mismo espacio que los medianos estándar.',
+    question: '¿Qué espacio necesito para cada uno de los tres modelos?',
+    answer: 'El Dragones Rojos requiere un mínimo de 5×3.5 m de área libre; el Extrem, 6×4 m; y el Barco Pirata, hasta 8×4 m. Esas medidas ya contemplan el margen de seguridad alrededor del inflable, no solo su base. Los tres son para exterior — jardín, quinta o terraza amplia — y necesitan una toma de corriente de 110 V cercana para el soplador. Si tienes dudas, mándanos las medidas de tu espacio por WhatsApp y te confirmamos cuál entra.',
   },
   {
-    question: '¿El inflable de Ninjas es apropiado para niños de 5 años?',
-    answer: 'Sí. La altura de 2.5 m y el bordillo de acceso son seguros para niños desde 5 años. La recomendación de 5 años (en lugar de 4 como los otros dos) es porque el diseño oscuro y la temática de artes marciales suele tener más impacto en niños que ya conocen el tema. A nivel de seguridad física, un niño de 4 años también podría usarlo, pero la experiencia es más apropiada desde los 5.',
+    question: '¿A partir de qué edad puede usarlos un niño?',
+    answer: 'El Dragones Rojos está recomendado para niños de 4 a 10 años. El Extrem y el Barco Pirata, por su tamaño y por el tobogán de altura del Extrem, están recomendados de 5 años en adelante. Si en la fiesta hay niños más pequeños, el Micro Baby (2×2×2 m) es el modelo diseñado específicamente para el rango de 1 a 4 años y puede rentarse en paralelo para que los más chicos tengan su propio espacio seguro.',
   },
   {
-    question: '¿Puedo combinar un modelo de niños con el Castillo de Princesas?',
-    answer: 'Sí, y es la combinación más pedida para fiestas mixtas de hermanos o grupos con niños y niñas. El Castillo de Princesas y cualquiera de los tres modelos temáticos de niños operan simultáneamente en zonas distintas del jardín. Necesitas espacio para los dos inflables más el margen de circulación entre ellos. Consúltanos con las medidas del jardín y verificamos si entra la combinación que te interesa.',
+    question: '¿Puedo combinar uno de estos modelos con el inflable Princesas?',
+    answer: 'Sí, y es la combinación más pedida para fiestas mixtas de hermanos o grupos con niños y niñas. El inflable Princesas (4×3.3×3 m) y cualquiera de estos tres modelos operan simultáneamente en zonas distintas del jardín. Necesitas espacio para ambos inflables más el margen de circulación entre ellos. Consúltanos con las medidas del jardín y verificamos si entra la combinación que te interesa.',
   },
   {
-    question: '¿El Dinosaurio Rex funciona para una fiesta de Jurassic World con licencia?',
-    answer: 'El inflable tiene un diseño genérico de dinosaurios y jungla — no tiene logos ni personajes con copyright de Jurassic World específicamente. Es un inflable de "dinosaurios en general" que encaja perfectamente como elemento de la fiesta, pero no tiene la licencia oficial. Para la decoración con licencia oficial (banderines, platos, servilletas con el logo), esos se consiguen por separado. El inflable complementa cualquier decoración de dinosaurios sin problema.',
+    question: 'La fiesta es de superhéroes (o de dinosaurios). ¿Qué inflable me recomiendan?',
+    answer: 'En esas fiestas el tema lo marca la decoración — banderines, pastel, mesa de dulces, invitaciones — y el inflable aporta la acción. Nuestra recomendación es el Extrem: el tobogán de altura y el área de brinco amplia dan el nivel de energía que ese tipo de fiestas pide, y su diseño no compite con la decoración que ya elegiste. Si el jardín es más chico, el Dragones Rojos cumple la misma función en menos espacio. No rentamos inflables con personajes de licencia oficial.',
   },
   {
-    question: '¿Tienen disponibles otros diseños además de estos tres?',
-    answer: 'El catálogo actual de DENFLAB para la categoría de niños incluye estos tres modelos: Superhéroes, Dinosaurio Rex y Ninjas. Si buscas un diseño específico que no está aquí, escríbenos — en ocasiones gestionamos modelos especiales con previo aviso. También puedes consultar los inflables medianos del catálogo (Dragones Rojos, Mini Jungla, Gusanitos) que tienen diseños más neutrales pero también apropiados para niños.',
+    question: '¿Tienen otros modelos además de estos tres?',
+    answer: 'Sí. El catálogo completo de DENFLAB son 8 modelos: además del Dragones Rojos, el Extrem y el Barco Pirata que ves en esta página, tenemos el Micro Baby (2×2×2 m) para los más pequeños, la Mini Jungla y el Gusanitos entre los medianos, el Princesas para niñas y el Castillo Blanco para bodas y XV años. Si no encuentras lo que buscas, escríbenos y te decimos qué modelo encaja mejor con tu evento y tu espacio.',
   },
 ]
 ---
 
 <PageLayout
-  title="Renta de Inflables para Niños en CDMX — Superhéroes, Dinosaurios y Ninjas | DENFLAB"
-  description="Renta de inflables temáticos para niño en CDMX: Superhéroes, Dinosaurio Rex y Ninjas. 4 metros de largo, para niños de 4 a 12 años. Cada modelo con diseño único. Montaje incluido."
+  title="Renta de Inflables para Niños en CDMX — 3 Modelos | DENFLAB"
+  description="Renta de inflables para niño en CDMX: Dragones Rojos, Extrem con tobogán y Barco Pirata de 7 m. De 4 a 12 años. Montaje incluido."
   image="/images/og/inflables-ninos.jpg"
   pageType="category"
   breadcrumbs={[
@@ -332,44 +332,44 @@ const FAQS: FaqItem[] = [
 
   <!-- HERO ────────────────────────────────────────────────────────────────── -->
   <Hero
-    badge="DENFLAB · +30 años · 3 modelos temáticos para niños 4–12 años"
+    badge="DENFLAB · +30 años · 3 modelos para niños de 4 a 12 años"
     title="Inflables para Niño"
     accent="en Renta · CDMX"
-    subtitle="Superhéroes, Dinosaurio Rex y Ninjas: tres diseños radicalmente distintos para que el inflable sea parte de la temática de la fiesta, no solo un brincolín genérico."
+    subtitle="Dragones Rojos, Extrem y Barco Pirata: tres formatos distintos — del mediano con tobogán al gran formato de 7 metros — para que el inflable esté a la altura de la fiesta."
     descRight={[
-      "Los inflables temáticos para niños son la categoría con mayor diferenciación de diseño del catálogo DENFLAB, una marca con más de 30 años rentando inflables en CDMX. Mientras los modelos medianos tienen diseños genéricos o de aventura, estos tres modelos tienen temáticas específicas e intensas: cómic de superhéroes en rojo y azul, jungla jurásica con T-Rex, y estética ninja en negro y verde. El cumpleañero elige el inflable que va con su fiesta.",
-      "Los tres modelos tienen 4 metros de largo y comparten los mismos requisitos básicos de exterior. El Superhéroes y el Dinosaurio Rex tienen base de 3 m (5.5×4 m libres); el Ninjas es más compacto (5×3.5 m). Todos incluyen soplador, anclas de seguridad, traslado, montaje y desmontaje. Reserva con el 30% de anticipo — respondemos disponibilidad en minutos.",
+      "Los inflables para niños son la categoría con más acción del catálogo DENFLAB, una marca con más de 30 años rentando inflables en CDMX. Aquí no se trata solo de brincar: el Dragones Rojos trae tobogán integrado y diseño de dragones, el Extrem suma un tobogán de altura sobre un área de brinco amplia, y el Barco Pirata levanta 7 metros de escenografía con mástil y cañones decorativos. Tres niveles para tres tipos de fiesta.",
+      "El Dragones Rojos mide 4×2.5×2.5 m y necesita 5×3.5 m libres; el Extrem mide 4.8×3.3×3 m y pide 6×4 m; el Barco Pirata mide 7×3×3 m y requiere hasta 8×4 m. Los tres son para exterior e incluyen soplador, anclas de seguridad, traslado, montaje y desmontaje. Reserva con el 30% de anticipo — respondemos disponibilidad en minutos.",
     ]}
     ctas={[
-      { text: '¡Cotizar un inflable!', href: waUrl('Hola, me interesa cotizar un inflable para niño (Superhéroes, Dinosaurio Rex o Ninjas) para un evento en CDMX. ¿Cuál está disponible?'), variant: 'primary', whatsapp: true },
-      { text: 'Ver los 3 modelos', href: '#superheroes', variant: 'outline' },
+      { text: '¡Cotizar un inflable!', href: waUrl('Hola, me interesa cotizar un inflable para niño (Dragones Rojos, Extrem o Barco Pirata) para un evento en CDMX. ¿Cuál está disponible?'), variant: 'primary', whatsapp: true },
+      { text: 'Ver los 3 modelos', href: '#dragones-rojos', variant: 'outline' },
     ]}
-    ariaLabel="Renta de inflables para niños — Superhéroes, Dinosaurios y Ninjas CDMX"
+    ariaLabel="Renta de inflables para niños — Dragones Rojos, Extrem y Barco Pirata CDMX"
   />
 
   <!-- MENÚ DE SECCIONES ───────────────────────────────────────────────────── -->
   <SectionMenu items={[
     {
-      label: 'Superhéroes',
-      sub: '4×3×2.8 m · rojo y azul',
-      href: '#superheroes',
+      label: 'Dragones Rojos',
+      sub: '4×2.5×2.5 m · con tobogán',
+      href: '#dragones-rojos',
       icon: 'M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z',
     },
     {
-      label: 'Dinosaurio Rex',
-      sub: '4×3×3 m · el más alto',
-      href: '#dinosaurio-rex',
+      label: 'Extrem',
+      sub: '4.8×3.3×3 m · tobogán de altura',
+      href: '#extrem',
       icon: 'M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 0 0 1 1h3m10-11l2 2m-2-2v10a1 1 0 0 0-1 1h-3m-6 0a1 1 0 0 0 1-1v-4a1 1 0 0 0-1-1H9a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1m-6-10h18',
     },
     {
-      label: 'Ninjas',
-      sub: '4×2.5×2.5 m · negro y verde',
-      href: '#ninjas',
+      label: 'Barco Pirata',
+      sub: '7×3×3 m · el más grande',
+      href: '#barco-pirata',
       icon: 'M13 2L3 14h9l-1 8 10-12h-9l1-8z',
     },
     {
       label: '¿Cuál elegir?',
-      sub: 'Comparación de los 3 diseños',
+      sub: 'Comparación de los 3 modelos',
       href: '#comparacion',
       icon: 'M9 5H7a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2h-2M9 5a2 2 0 0 0 2 2h2a2 2 0 0 0 2-2M9 5a2 2 0 0 0 2-2h2a2 2 0 0 0 2 2m-6 9l2 2 4-4',
     },
@@ -382,7 +382,7 @@ const FAQS: FaqItem[] = [
     {
       label: 'Cotizar ahora',
       sub: 'Respuesta en minutos',
-      href: waUrl('Hola, me interesa cotizar un inflable para niño (Superhéroes, Dinosaurio Rex o Ninjas) para un evento en CDMX. ¿Cuál está disponible?'),
+      href: waUrl('Hola, me interesa cotizar un inflable para niño (Dragones Rojos, Extrem o Barco Pirata) para un evento en CDMX. ¿Cuál está disponible?'),
       icon: WA_ICON,
       cta: true,
     },
@@ -393,13 +393,13 @@ const FAQS: FaqItem[] = [
     <div class="container">
       <SectionHeading
         id="modelos-heading"
-        eyebrow="3 temáticas · mismo tamaño · diseños radicalmente distintos"
-        title="Cada modelo es distinto en diseño —"
-        titleAccent="la temática de la fiesta manda"
+        eyebrow="3 modelos · de 4 a 7 metros · tres niveles de fiesta"
+        title="Cada modelo juega en otra liga —"
+        titleAccent="el espacio y la edad mandan"
         layout="duo"
         body={[
-          "Los tres comparten la misma longitud (4 m) y el mismo rango de edad (4–12 años), pero visualmente no tienen nada en común. La elección no es de calidad ni de capacidad — es de temática. ¿Superhéroes, dinosaurios o ninjas?",
-          "Más abajo está la sección de comparación rápida si todavía no tienes claro cuál elegir. Si el cumpleañero ya tiene su favorito, escríbenos directamente y confirmamos disponibilidad en minutos.",
+          "Los tres son inflables para niños, pero no son intercambiables: el Dragones Rojos mide 4 metros y entra en un jardín mediano, el Extrem mide 4.8 y suma tobogán de altura, y el Barco Pirata llega a 7 metros de puro impacto visual. La elección se resuelve con dos datos: cuánto espacio tienes y qué edad tienen los niños.",
+          "Más abajo está la sección de comparación rápida si todavía no tienes claro cuál elegir. Si ya sabes cuál quieres, escríbenos directamente y confirmamos disponibilidad en minutos.",
         ]}
       />
 
@@ -438,8 +438,8 @@ const FAQS: FaqItem[] = [
         titleAccent="¿cuál va con la fiesta de tu hijo?"
         layout="duo"
         body={[
-          "La decisión se resuelve sola con la temática: superhéroes, dinosaurios o ninjas. No hay un modelo objetivamente mejor — hay el que encaja con la fiesta.",
-          "Si la fiesta no tiene temática definida o hay niños con distintas preferencias, el Superhéroes es la opción más neutral y popular de los tres. Si el cumpleañero tiene una preferencia clara, es prácticamente imposible equivocarse.",
+          "La decisión se resuelve con dos preguntas: cuántos metros libres tienes en el jardín y qué edad tienen los niños. No hay un modelo objetivamente mejor — hay el que cabe y el que corresponde a la edad.",
+          "Si el espacio es justo o los niños son pequeños, el Dragones Rojos es la apuesta segura. Si tienes jardín amplio y quieres tobogán, el Extrem. Si el jardín es grande y quieres que el inflable sea el centro de todas las fotos, el Barco Pirata.",
         ]}
       />
 
@@ -474,24 +474,25 @@ const FAQS: FaqItem[] = [
 
       <div class="comp-table-wrap">
         <p class="comp-table-title">Comparación rápida</p>
-        <table class="comp-table" aria-label="Comparación de los 3 modelos temáticos para niños">
+        <table class="comp-table" aria-label="Comparación de los 3 modelos para niños">
           <thead>
             <tr>
               <th scope="col">Característica</th>
-              <th scope="col" style="color: #b91c1c">Superhéroes</th>
-              <th scope="col" style="color: #166534">Dinosaurio Rex</th>
-              <th scope="col" style="color: #3730a3">Ninjas</th>
+              <th scope="col" style="color: #b91c1c">Dragones Rojos</th>
+              <th scope="col" style="color: #c2410c">Extrem</th>
+              <th scope="col" style="color: #0c4a6e">Barco Pirata</th>
             </tr>
           </thead>
           <tbody>
-            <tr><th scope="row">Dimensiones</th><td>4×3×2.8 m</td><td>4×3×3 m</td><td>4×2.5×2.5 m</td></tr>
-            <tr><th scope="row">Altura interior</th><td>2.8 m</td><td>3 m ★</td><td>2.5 m</td></tr>
-            <tr><th scope="row">Ancho base</th><td>3 m ★</td><td>3 m ★</td><td>2.5 m</td></tr>
-            <tr><th scope="row">Desde qué edad</th><td>4 años</td><td>4 años</td><td>5 años</td></tr>
-            <tr><th scope="row">Capacidad</th><td>5–6 niños</td><td>5–6 niños</td><td>4–5 niños</td></tr>
-            <tr><th scope="row">Espacio mínimo</th><td>5.5×4 m</td><td>5.5×4 m</td><td>5×3.5 m ★</td></tr>
-            <tr><th scope="row">Colores</th><td>Rojo, azul, amarillo</td><td>Verde, marrón, amarillo</td><td>Negro, verde, morado</td></tr>
-            <tr><th scope="row">Mejor para</th><td>Cualquier temática héroe</td><td>Dinos / aventura</td><td>Ninjas / marcial</td></tr>
+            <tr><th scope="row">Dimensiones</th><td>4×2.5×2.5 m</td><td>4.8×3.3×3 m</td><td>7×3×3 m</td></tr>
+            <tr><th scope="row">Largo</th><td>4 m</td><td>4.8 m</td><td>7 m ★</td></tr>
+            <tr><th scope="row">Ancho base</th><td>2.5 m</td><td>3.3 m ★</td><td>3 m</td></tr>
+            <tr><th scope="row">Altura</th><td>2.5 m</td><td>3 m ★</td><td>3 m ★</td></tr>
+            <tr><th scope="row">Desde qué edad</th><td>4 años ★</td><td>5 años</td><td>5 años</td></tr>
+            <tr><th scope="row">Capacidad</th><td>4–6 niños</td><td>6–8 niños ★</td><td>6–8 niños ★</td></tr>
+            <tr><th scope="row">Espacio mínimo</th><td>5×3.5 m ★</td><td>6×4 m</td><td>8×4 m</td></tr>
+            <tr><th scope="row">Tobogán</th><td>Integrado</td><td>De altura ★</td><td>Sin tobogán</td></tr>
+            <tr><th scope="row">Mejor para</th><td>Jardines medianos</td><td>Adrenalina y grupos</td><td>Impacto visual y fotos</td></tr>
           </tbody>
         </table>
         <p class="comp-table-note">★ = mejor de los tres en esa categoría</p>
@@ -504,12 +505,12 @@ const FAQS: FaqItem[] = [
     <div class="container">
       <SectionHeading
         id="specs-heading"
-        eyebrow="Medidas · temáticas · lo que incluye la renta"
+        eyebrow="Medidas · capacidad · lo que incluye la renta"
         title="Todo lo que necesitas verificar"
         titleAccent="antes de reservar el inflable"
         layout="duo"
         body={[
-          "Los tres modelos tienen el mismo largo (4 m) y los mismos requerimientos básicos: exterior, una toma de 110 V y espacio libre suficiente. Las diferencias están en el ancho, la altura y el espacio requerido — detallados aquí para que puedas verificar antes de reservar.",
+          "Los tres modelos comparten los mismos requerimientos básicos: exterior, una toma de 110 V cerca y espacio libre suficiente. Las diferencias están en el largo, el ancho y el área que necesitas dejar libre — todo detallado aquí para que puedas medir tu jardín antes de reservar.",
           "Recuerda que el precio de renta incluye traslado, montaje, desmontaje, soplador y anclas. Sin costos adicionales dentro de CDMX y zona metropolitana cercana.",
         ]}
       />
@@ -538,15 +539,15 @@ const FAQS: FaqItem[] = [
           <div class="specs-panel__img-wrap">
             <img
               src="/images/inflables/ninos.jpg"
-              alt="Inflables temáticos para niño en renta CDMX — Superhéroes, Dinosaurio Rex y Ninjas · DENFLAB"
+              alt="Inflables para niño en renta CDMX — Dragones Rojos, Extrem y Barco Pirata · DENFLAB"
               width="600" height="450" loading="lazy" decoding="async"
               class="specs-panel__img"
             />
             <div class="specs-panel__img-overlay">
               <span class="spio__badge">Categoría Niños</span>
               <div class="spio__meta">
-                <span class="spio__dims">4 m de largo</span>
-                <span class="spio__cat">3 temáticas disponibles</span>
+                <span class="spio__dims">De 4 a 7 m de largo</span>
+                <span class="spio__cat">3 modelos disponibles</span>
               </div>
             </div>
           </div>
@@ -577,7 +578,7 @@ const FAQS: FaqItem[] = [
             ))}
           </div>
           <div class="specs-panel__cta">
-            <a href={waUrl('Hola, me interesa cotizar un inflable para niño (Superhéroes, Dinosaurio Rex o Ninjas) para un evento en CDMX. ¿Cuál está disponible?')}
+            <a href={waUrl('Hola, me interesa cotizar un inflable para niño (Dragones Rojos, Extrem o Barco Pirata) para un evento en CDMX. ¿Cuál está disponible?')}
               class="specs-panel__cta-btn" target="_blank" rel="noopener noreferrer">
               <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d={WA_ICON}/></svg>
               Consultar disponibilidad
@@ -595,12 +596,12 @@ const FAQS: FaqItem[] = [
       <SectionHeading
         id="cuando-heading"
         eyebrow="6 tipos de fiesta donde estos inflables brillan"
-        title="Cuándo tiene sentido un inflable"
-        titleAccent="temático en lugar de uno genérico"
+        title="Cuándo conviene cada uno"
+        titleAccent="según el tipo de evento"
         layout="duo"
         body={[
-          "Un inflable temático agrega algo que uno genérico no puede: inmersión. Cuando el inflable tiene el mismo diseño que el resto de la decoración, la fiesta tiene coherencia visual de principio a fin. Los niños lo notan aunque no lo verbalicen.",
-          "Si la fiesta no tiene temática definida, cualquiera de los modelos medianos genéricos del catálogo — Dragones Rojos, Mini Jungla o Gusanitos — también funciona perfectamente para niños.",
+          "Un inflable bien elegido hace algo que uno cualquiera no puede: encaja con el espacio, con la edad de los niños y con el tipo de fiesta. Aquí están los seis escenarios que más nos piden y el modelo que recomendamos para cada uno.",
+          "Si tu evento no está en esta lista, cuéntanos cómo es y con cuánto espacio cuentas — a veces la mejor recomendación está en otra categoría del catálogo, como la Mini Jungla o el Gusanitos entre los medianos.",
         ]}
       />
 
@@ -624,7 +625,7 @@ const FAQS: FaqItem[] = [
       </div>
 
       <div class="cuando-cta">
-        <p class="cuando-cta__text">¿La temática de tu fiesta no está en esta lista? Cuéntanos el tema — te decimos cuál modelo encaja mejor o si alguno de los medianos es más adecuado.</p>
+        <p class="cuando-cta__text">¿Tu evento no está en esta lista? Cuéntanos cómo es la fiesta y cuánto espacio tienes — te decimos cuál de los tres encaja mejor o si algún otro modelo del catálogo es más adecuado.</p>
         <a href={waUrl(WA_MESSAGES.cotizar)} class="cuando-cta__btn" target="_blank" rel="noopener noreferrer">
           <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d={WA_ICON}/></svg>
           Consultar por WhatsApp
@@ -639,12 +640,12 @@ const FAQS: FaqItem[] = [
       <SectionHeading
         id="otras-heading"
         eyebrow="Catálogo completo DENFLAB"
-        title="¿Los temáticos no son lo que buscas?"
+        title="¿Estos tres no son lo que buscas?"
         titleAccent="Aquí están las demás opciones"
         layout="duo"
         body={[
-          "Si la fiesta no tiene una temática específica, los modelos medianos (Dragones Rojos, Mini Jungla o Gusanitos) son más versátiles y encajan con cualquier fiesta infantil. Si hay también niñas en el evento, el Castillo de Princesas es el complemento natural.",
-          "Para niños menores de 4 años, el Micro Baby (2×2 m) es la opción más segura. Para fiestas con jardín grande y niños de más de 8 años, el Extrem con tobogán o el Barco Pirata de 7 m son el siguiente nivel.",
+          "El catálogo DENFLAB tiene 8 modelos en total. Si ninguno de los tres de esta página encaja con tu espacio o con la edad de los niños, la Mini Jungla y el Gusanitos son los otros medianos disponibles, y encajan con cualquier fiesta infantil. Si hay también niñas en el evento, el inflable Princesas es el complemento natural.",
+          "Para niños menores de 4 años, el Micro Baby (2×2×2 m) es la opción más segura y la única que cabe en interiores. Para bodas, XV años y eventos formales, el Castillo Blanco premium es el modelo pensado para esa ocasión.",
         ]}
       />
       <div class="otras-grid">
@@ -666,12 +667,12 @@ const FAQS: FaqItem[] = [
 
   <!-- ⑥ FAQ ────────────────────────────────────────────────────────────────── -->
   <FAQWithContact
-    eyebrow="Preguntas sobre inflables temáticos para niño"
+    eyebrow="Preguntas sobre inflables para niño"
     title="Lo más frecuente antes"
-    titleAccent="de reservar un inflable temático"
+    titleAccent="de reservar tu inflable"
     body={[
-      "Las 6 preguntas más frecuentes: cómo elegir entre los tres modelos, si son del mismo tamaño que los medianos, la edad mínima para el Ninjas, combos con el Castillo de Princesas y disponibilidad de otros diseños.",
-      "Si tienes una duda específica sobre colores, medidas o temática, escríbenos — respondemos con fotos del modelo actual y disponibilidad de la fecha.",
+      "Las 6 preguntas más frecuentes: cómo elegir entre los tres modelos, cuánto espacio necesita cada uno, desde qué edad se pueden usar, combos con el inflable Princesas y qué otros modelos tiene el catálogo.",
+      "Si tienes una duda específica sobre medidas, capacidad o disponibilidad, escríbenos — respondemos con fotos del modelo actual y confirmamos tu fecha.",
     ]}
     faqs={FAQS}
     showContact={true}
@@ -679,14 +680,14 @@ const FAQS: FaqItem[] = [
 
   <!-- CTA BANNER ───────────────────────────────────────────────────────────── -->
   <CTABanner
-    heading="Reserva el inflable temático para la fiesta de tu hijo"
-    desc="Superhéroes, Dinosaurio Rex o Ninjas — confirma el modelo y asegura la fecha con el 30% de anticipo. Traslado, montaje y desmontaje incluidos en CDMX."
+    heading="Reserva el inflable para la fiesta de tu hijo"
+    desc="Dragones Rojos, Extrem o Barco Pirata — confirma el modelo y asegura la fecha con el 30% de anticipo. Traslado, montaje y desmontaje incluidos en CDMX."
     variant="primary"
     btns={[
-      { label: 'Cotizar por WhatsApp', href: waUrl('Hola, me interesa cotizar un inflable para niño (Superhéroes, Dinosaurio Rex o Ninjas) para un evento en CDMX. ¿Cuál está disponible?'), icon: 'wa', primary: true, external: true },
+      { label: 'Cotizar por WhatsApp', href: waUrl('Hola, me interesa cotizar un inflable para niño (Dragones Rojos, Extrem o Barco Pirata) para un evento en CDMX. ¿Cuál está disponible?'), icon: 'wa', primary: true, external: true },
       { label: `Llamar: ${CONTACT.phone}`, href: `tel:${CONTACT.phoneE164}`, icon: 'phone', primary: false },
     ]}
-    badge="3 temáticas disponibles · Entrega gratis en CDMX"
+    badge="3 modelos disponibles · Entrega gratis en CDMX"
   />
 
 </PageLayout>

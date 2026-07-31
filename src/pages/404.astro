@@ -1,0 +1,109 @@
+---
+// src/pages/404.astro — Página de error 404 DENFLAB
+import PageLayout from '@layouts/PageLayout.astro'
+import { waUrl, WA_MESSAGES, CONTACT, PRODUCT_CATEGORIES } from '@config/site'
+
+const WA_ICON = 'M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z'
+---
+
+<PageLayout
+  title="Página no encontrada (404) | DENFLAB"
+  description="La página que buscas no existe o cambió de dirección. Explora el catálogo de inflables en renta para CDMX o escríbenos por WhatsApp."
+  noindex={true}
+>
+  <section class="nf">
+    <div class="nf__inner">
+      <span class="nf__code" aria-hidden="true">404</span>
+      <h1 class="nf__title">Esta página se desinfló</h1>
+      <p class="nf__lead">
+        La dirección que buscas no existe o cambió de lugar. Pero el catálogo completo sigue
+        aquí — y tu fiesta también.
+      </p>
+
+      <div class="nf__ctas">
+        <a href="/inflables" class="nf__btn nf__btn--primary">Ver catálogo de inflables</a>
+        <a href={waUrl(WA_MESSAGES.default)} class="nf__btn nf__btn--wa" target="_blank" rel="noopener noreferrer">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d={WA_ICON}/></svg>
+          Escribir por WhatsApp
+        </a>
+      </div>
+
+      <nav class="nf__links" aria-label="Páginas principales">
+        <p class="nf__links-title">O ve directo a lo que buscabas:</p>
+        <ul class="nf__list">
+          <li><a href="/">Inicio</a></li>
+          {PRODUCT_CATEGORIES.map((c) => (
+            <li><a href={c.href}>{c.label}</a></li>
+          ))}
+          <li><a href="/servicios">Servicios</a></li>
+          <li><a href="/paquetes-para-fiestas-infantiles">Paquetes</a></li>
+          <li><a href="/blog">Blog</a></li>
+          <li><a href="/contacto">Contacto</a></li>
+        </ul>
+      </nav>
+
+      <p class="nf__phone">
+        ¿Prefieres llamar? <a href={`tel:${CONTACT.phoneE164}`}>{CONTACT.phone}</a> · {CONTACT.hours.display}
+      </p>
+    </div>
+  </section>
+</PageLayout>
+
+<style>
+  .nf {
+    padding: clamp(3.5rem, 10vw, 7rem) 1.5rem;
+    background: var(--c-surface, #f9fafb);
+  }
+  .nf__inner {
+    max-width: 720px; margin-inline: auto; text-align: center;
+    display: flex; flex-direction: column; align-items: center; gap: 1rem;
+  }
+  .nf__code {
+    font-size: clamp(4rem, 14vw, 7rem); font-weight: 800; line-height: 1;
+    color: var(--c-primary, #7c3aed); opacity: .18; letter-spacing: -.04em;
+  }
+  .nf__title {
+    font-size: clamp(1.5rem, 4.5vw, 2.25rem); font-weight: 800;
+    color: #111827; margin: 0; line-height: 1.15; letter-spacing: -.02em;
+  }
+  .nf__lead {
+    font-size: 1rem; color: #4b5563; line-height: 1.7; margin: 0; max-width: 52ch;
+  }
+  .nf__ctas {
+    display: flex; gap: .75rem; flex-wrap: wrap; justify-content: center; margin-top: .75rem;
+  }
+  .nf__btn {
+    display: inline-flex; align-items: center; gap: .45rem;
+    padding: .875rem 1.5rem; border-radius: 10px;
+    font-weight: 700; font-size: .9375rem; text-decoration: none;
+  }
+  .nf__btn--primary {
+    background: var(--c-primary, #7c3aed); color: #fff;
+    box-shadow: 0 4px 14px rgba(124,58,237,.28);
+  }
+  .nf__btn--wa { background: #25d366; color: #fff; box-shadow: 0 4px 14px rgba(37,211,102,.3); }
+
+  .nf__links { margin-top: 1.5rem; }
+  .nf__links-title {
+    font-size: .75rem; font-weight: 700; text-transform: uppercase;
+    letter-spacing: .08em; color: #6b7280; margin: 0 0 .75rem;
+  }
+  .nf__list {
+    list-style: none; margin: 0; padding: 0;
+    display: flex; flex-wrap: wrap; gap: .5rem; justify-content: center;
+  }
+  .nf__list a {
+    display: inline-block; padding: .45rem .875rem;
+    background: #fff; border: 1px solid #e5e7eb; border-radius: 999px;
+    font-size: .8125rem; color: #374151; text-decoration: none;
+  }
+  .nf__list a:hover { border-color: var(--c-primary, #7c3aed); color: var(--c-primary, #7c3aed); }
+
+  .nf__phone { font-size: .875rem; color: #6b7280; margin: 1.25rem 0 0; }
+  .nf__phone a { color: var(--c-primary, #7c3aed); font-weight: 600; text-decoration: none; }
+
+  @media (max-width: 480px) {
+    .nf__ctas { flex-direction: column; width: 100%; }
+    .nf__btn  { width: 100%; justify-content: center; }
+  }
+</style>

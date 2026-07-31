@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://renta-de-inflables.com/sitemap-index.xml
