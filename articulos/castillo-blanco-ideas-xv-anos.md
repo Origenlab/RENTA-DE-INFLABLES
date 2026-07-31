@@ -8,7 +8,7 @@ draft: false
 ---
 En todos los XV años hay un momento que ningún cronograma imprime pero que siempre llega: el vals terminó hace una hora, el banquete va por el postre, los adultos entraron en modo sobremesa — y los primos de la quinceañera, esa tribu de niños de cinco a doce años que llegó impecable a la iglesia, ya se aflojó las corbatas de moño y empezó a inventar juegos con las sillas del salón. Al mismo tiempo, en el otro extremo del jardín, la quinceañera y sus amigas viven su noche perfecta, hasta que alguien propone la idea que a los quince años suena irresistible precisamente porque es "de niños": brincar en el castillo. Y entonces pasa algo que nadie planeó pero que termina en las mejores fotos del álbum — la quinceañera, con su vestido de tul recogido en las manos y descalza, muerta de risa en la entrada de un castillo blanco y dorado que combina con su vestido como si el diseñador de ambos hubiera sido el mismo.
 
-Esa escena no es hipotética: es lo que pasa, con variaciones mínimas, cada vez que el Castillo Blanco de INFLAFI se instala en unos XV años. Y es la razón por la que este inflable — 5 × 4 × 3.5 metros de blanco y dorado, el más espacioso del catálogo — se ha vuelto una pieza recurrente en los quince de la Ciudad de México: es el único inflable que puede convivir con un vestido de quinceañera, una decoración formal y un fotógrafo profesional sin desentonar en un solo encuadre, y al mismo tiempo resuelve el problema real de la fiesta, que es qué hacen los invitados de menos de trece años durante las seis horas que dura la celebración.
+Esa escena no es hipotética: es lo que pasa, con variaciones mínimas, cada vez que el Castillo Blanco de DENFLAB se instala en unos XV años. Y es la razón por la que este inflable — 5 × 4 × 3.5 metros de blanco y dorado, el más espacioso del catálogo — se ha vuelto una pieza recurrente en los quince de la Ciudad de México: es el único inflable que puede convivir con un vestido de quinceañera, una decoración formal y un fotógrafo profesional sin desentonar en un solo encuadre, y al mismo tiempo resuelve el problema real de la fiesta, que es qué hacen los invitados de menos de trece años durante las seis horas que dura la celebración.
 
 Esta guía junta todo lo que una familia (o una quinceañera con opiniones claras, que son la mayoría) necesita para integrar el Castillo Blanco a unos XV: por qué funciona con la estética del evento, cómo acomodar el momento del inflable respecto al vals y el protocolo, las fotos que hay que planear, la convivencia entre niños y adolescentes, y un cronograma tipo con tabla de plan. La logística fina con el salón o jardín de eventos — montaje, corriente, layout — tiene su propia guía en [Castillo Blanco en venues de eventos](/blog/castillo-blanco-guia-eventos); aquí nos concentramos en el diseño de la experiencia.
 
@@ -78,7 +78,7 @@ Cada familia ajusta los tiempos a su protocolo, pero esta estructura probada mue
 
 | Hora | Momento del evento | El castillo | Contexto práctico |
 |---|---|---|---|
-| **-3:00** | Ventana de proveedores del venue | Montaje, anclaje y revisión | Coordinado entre INFLAFI y el venue o planner; listo antes del primer invitado |
+| **-3:00** | Ventana de proveedores del venue | Montaje, anclaje y revisión | Coordinado entre DENFLAB y el venue o planner; listo antes del primer invitado |
 | **0:00** | Llegada de invitados, cóctel de bienvenida | Abierto — turnos de niños por edad | Los niños se instalan en su territorio desde el minuto uno; los papás lo agradecen ya en el cóctel |
 | **1:00** | Entrada triunfal de la quinceañera y su corte | Pausa total | Anuncio del MC cinco minutos antes; todos los ojos donde deben estar |
 | **1:20** | Vals con papás y chambelanes, brindis | Pausa total | El bloque de protocolo completo se protege de principio a fin |
@@ -87,7 +87,7 @@ Cada familia ajusta los tiempos a su protocolo, pero esta estructura probada mue
 | **4:15** | Ceremonias: cambio de zapatillas, última muñeca | Pausa | Momentos emotivos con silencio de fondo |
 | **4:45** | Pista libre, fiesta | Abierto — bloques alternados niños / adolescentes | El bloque adolescente suele darse solo; el MC lo formaliza y todos ganan |
 | **5:30** | Última llamada del castillo, anunciada por micrófono | Cierre del juego | "El castillo cierra sus puertas" — treinta minutos antes del desmontaje |
-| **6:00** | Cierre del evento | Desmontaje por el equipo de INFLAFI | Coordinado con el horario límite del venue; tú no gestionas nada |
+| **6:00** | Cierre del evento | Desmontaje por el equipo de DENFLAB | Coordinado con el horario límite del venue; tú no gestionas nada |
 
 > **Cómo adaptar el cronograma a tu protocolo:** los bloques del castillo son elásticos; los del protocolo, no. Mueve libremente los horarios de apertura y cierre del inflable, pero conserva las dos invariantes — pausa total durante vals, brindis y ceremonias, y última llamada anunciada media hora antes del desmontaje. Con esas dos fijas, cualquier variante del cronograma funciona.
 
@@ -112,13 +112,13 @@ El Castillo Blanco llega neutro a propósito — y esa neutralidad es un lienzo.
 | Letrero personalizado | Bajo | Medio, pero une la identidad gráfica | Encargarlo junto con el resto de la papelería del evento |
 | Camino de pasto sintético | Bajo | Medio | La función práctica (pies limpios, zapatos ordenados) vale más que la estética |
 
-> **Regla de oro de la ambientación:** todo recurso decorativo vive alrededor del castillo, a distancia segura del área de brinco, y nada se adhiere ni se cuelga del inflable. El vinilo blanco no necesita intervención — necesita buen vecindario. Si tu decoradora tiene dudas sobre distancias, el equipo de INFLAFI se las resuelve directamente durante la coordinación del layout.
+> **Regla de oro de la ambientación:** todo recurso decorativo vive alrededor del castillo, a distancia segura del área de brinco, y nada se adhiere ni se cuelga del inflable. El vinilo blanco no necesita intervención — necesita buen vecindario. Si tu decoradora tiene dudas sobre distancias, el equipo de DENFLAB se las resuelve directamente durante la coordinación del layout.
 
 ---
 
 ## Tips para unos XV con Castillo Blanco Redondos
 
-- **Decide el color de la iluminación del área del castillo con tu proveedor de luz.** Un wash suave del color del vestido sobre el vinilo blanco — lila, rosa, azul — personaliza el inflable a la paleta de la quinceañera sin costo adicional de INFLAFI: el blanco recibe cualquier color que le proyecten.
+- **Decide el color de la iluminación del área del castillo con tu proveedor de luz.** Un wash suave del color del vestido sobre el vinilo blanco — lila, rosa, azul — personaliza el inflable a la paleta de la quinceañera sin costo adicional de DENFLAB: el blanco recibe cualquier color que le proyecten.
 - **Incluye el castillo en la invitación con elegancia.** "Habrá área de juegos para los pequeños" tranquiliza a las familias con niños; no hace falta decir que es un inflable — la sorpresa al llegar juega a favor.
 - **Nombra un "capitán del castillo" adulto por bloque.** Igual que en cualquier evento: la supervisión de los niños es de los adultos de la fiesta, y funciona mejor asignada por horarios que difusa entre todos.
 - **Prevé calcetines para la corte.** Si la sesión de fotos con chambelanes está planeada, unos calcetines limpios para los muchachos de traje evitan el dilema calcetín-de-vestir-sudado y la foto sale impecable.
@@ -134,9 +134,9 @@ El Castillo Blanco llega neutro a propósito — y esa neutralidad es un lienzo.
 
 Si la lectura completa quedó para después y necesitas la ruta ejecutiva, estos seis pasos condensan todo el proceso del castillo en unos XV.
 
-1. **Confirma fecha y venue primero, castillo inmediatamente después.** El Castillo Blanco compite por los mismos sábados que las bodas de temporada; con la fecha del venue en la mano, el siguiente WhatsApp es a INFLAFI.
+1. **Confirma fecha y venue primero, castillo inmediatamente después.** El Castillo Blanco compite por los mismos sábados que las bodas de temporada; con la fecha del venue en la mano, el siguiente WhatsApp es a DENFLAB.
 2. **Manda fotos del área exterior del venue al cotizar.** El equipo confirma que los 5 × 4 × 3.5 metros del castillo caben con margen de seguridad, y de una vez sugiere la mejor ubicación en el layout.
-3. **Reserva con el 30% y conecta a INFLAFI con tu coordinador.** A partir de ese momento, la logística técnica — montaje, corriente, desmontaje — deja de ser tu tema.
+3. **Reserva con el 30% y conecta a DENFLAB con tu coordinador.** A partir de ese momento, la logística técnica — montaje, corriente, desmontaje — deja de ser tu tema.
 4. **Diseña los bloques del cronograma con tu maestro de ceremonias.** Castillo abierto en cóctel y banquete, cerrado en protocolo, reservado para la sesión de fotos, bloques alternados de niños y adolescentes en la fiesta libre.
 5. **Suma el castillo al plan de luz y a la shot list del fotógrafo.** El wash del color del vestido y las cinco tomas planeadas de esta guía son los dos multiplicadores baratos del resultado.
 6. **El día del evento, designa al adulto del área infantil y suéltalo todo lo demás.** El montaje ocurre antes del primer invitado; el desmontaje, dentro del cierre del venue. La familia organizadora también tiene derecho a bailar.
@@ -154,12 +154,12 @@ Los XV se planean con meses; el castillo debe entrar a ese calendario en el mome
 | **Se define fecha y venue (6+ meses antes)** | Consultar disponibilidad del Castillo Blanco por WhatsApp | La fecha del castillo compite con las bodas de la misma temporada; consultar no cuesta nada |
 | **Se aparta el venue (4–6 meses)** | Reservar el castillo con el 30% de anticipo | Con venue y fecha firmes, congelar el castillo evita la decepción de temporada alta |
 | **Se contrata luz, sonido y decoración (2–3 meses)** | Avisar al iluminador del wash de color sobre el castillo | El recurso de ambientación más potente se coordina aquí, cuando se arma el plan de luz |
-| **Se cierra el layout con el venue (1 mes)** | Definir ubicación: visible desde mesas, lejos de bocinas | INFLAFI habla directo con el coordinador o planner; tú solo apruebas el plano |
+| **Se cierra el layout con el venue (1 mes)** | Definir ubicación: visible desde mesas, lejos de bocinas | DENFLAB habla directo con el coordinador o planner; tú solo apruebas el plano |
 | **Se imprime papelería (1 mes)** | Incluir "área de juegos para los pequeños" en la invitación y encargar el letrero del castillo | Dos líneas que mejoran la asistencia de las familias con niños |
 | **Semana del evento** | Confirmación final de horarios de montaje y desmontaje | El equipo reconfirma todo proactivamente; tu pendiente es designar al adulto del área infantil |
 | **El gran día** | Nada — disfrutar | Montaje antes del primer invitado, operación autónoma, desmontaje al cierre |
 
-> **Sobre los precios:** como todo el catálogo INFLAFI, el Castillo Blanco se cotiza de forma personalizada por WhatsApp según fecha, zona de la CDMX y duración — sin listas públicas que envejezcan mal. Llega a la conversación con esos tres datos y la cotización sale el mismo día, con entrega, montaje y desmontaje ya incluidos en el número que te den.
+> **Sobre los precios:** como todo el catálogo DENFLAB, el Castillo Blanco se cotiza de forma personalizada por WhatsApp según fecha, zona de la CDMX y duración — sin listas públicas que envejezcan mal. Llega a la conversación con esos tres datos y la cotización sale el mismo día, con entrega, montaje y desmontaje ya incluidos en el número que te den.
 
 ---
 
@@ -219,7 +219,7 @@ Es la objeción inicial más común — a los quince, nada suena peor que algo "
 
 ## Los XV Se Planean una Vez: Que el Castillo Ya Esté Apartado
 
-Si la fecha de los XV ya existe, el Castillo Blanco debería estar en la misma lista que el venue y el vestido — porque compite por los mismos sábados. Escríbenos por WhatsApp con la fecha, el venue y el número aproximado de niños invitados, y el equipo de INFLAFI te confirma disponibilidad y cotización el mismo día.
+Si la fecha de los XV ya existe, el Castillo Blanco debería estar en la misma lista que el venue y el vestido — porque compite por los mismos sábados. Escríbenos por WhatsApp con la fecha, el venue y el número aproximado de niños invitados, y el equipo de DENFLAB te confirma disponibilidad y cotización el mismo día.
 
 **[Quiero el Castillo Blanco para mis XV años — WhatsApp](https://wa.me/5215539048634?text=Hola%2C%20estoy%20organizando%20unos%20XV%20a%C3%B1os%20y%20quiero%20cotizar%20el%20Castillo%20Blanco)**
 
@@ -229,4 +229,4 @@ Si la fecha de los XV ya existe, el Castillo Blanco debería estar en la misma l
 
 ---
 
-*INFLAFI — Renta de inflables en CDMX. El único castillo que combina con el vestido; entrega, montaje y desmontaje incluidos siempre.*
+*DENFLAB — Renta de inflables en CDMX. El único castillo que combina con el vestido; entrega, montaje y desmontaje incluidos siempre.*

@@ -1,4 +1,4 @@
-// astro.config.mjs — config Astro 6 SSG para INFLAFI / renta-de-inflables.com
+// astro.config.mjs — config Astro 6 SSG para DENFLAB / renta-de-inflables.com
 // @ts-check
 import { defineConfig, fontProviders } from 'astro/config';
 import { fileURLToPath } from 'node:url';

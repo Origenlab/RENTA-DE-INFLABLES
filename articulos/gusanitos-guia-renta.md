@@ -10,13 +10,13 @@ El momento ocurre siempre de la misma manera y siempre produce el mismo malestar
 
 Este escenario no es una exageración. Es la realidad de decenas de fiestas infantiles en la CDMX cada fin de semana, y la causa casi siempre es la misma: se eligió el inflable sin hacer el cálculo correcto entre el número de niños invitados y la capacidad real del equipo. Se pensó en la temática, en el precio, en el color, pero no en la matemática básica del entretenimiento grupal. Y esa matemática tiene consecuencias directas en la experiencia de los niños, en el estrés de los adultos y en la calidad del evento completo.
 
-Los Gusanitos existen para resolver exactamente ese problema. Son el inflable mediano más ancho —3.3 metros— y más alto —3 metros— del catálogo de INFLAFI, y su capacidad de 8 a 10 niños simultáneos los convierte en la única opción correcta cuando el número de invitados es grande y la prioridad es que todos los niños tengan acceso real al inflable sin esperas desesperantes. Esta guía te explica todo: por qué los Gusanitos son una categoría aparte dentro de los medianos, para qué tipo de eventos son la elección obvia, y cómo sacarles el máximo provecho.
+Los Gusanitos existen para resolver exactamente ese problema. Son el inflable mediano más ancho —3.3 metros— y más alto —3 metros— del catálogo de DENFLAB, y su capacidad de 8 a 10 niños simultáneos los convierte en la única opción correcta cuando el número de invitados es grande y la prioridad es que todos los niños tengan acceso real al inflable sin esperas desesperantes. Esta guía te explica todo: por qué los Gusanitos son una categoría aparte dentro de los medianos, para qué tipo de eventos son la elección obvia, y cómo sacarles el máximo provecho.
 
 ---
 
 ## Los Gusanitos: el mediano que juega en otra liga
 
-Cuando INFLAFI habla de inflables medianos, habla de una categoría que comparte el largo de cuatro metros pero donde las diferencias de ancho y altura son decisivas para la experiencia real del evento. Los Gusanitos son el extremo superior de esa categoría: los más anchos, los más altos y los de mayor capacidad de todos los medianos del catálogo.
+Cuando DENFLAB habla de inflables medianos, habla de una categoría que comparte el largo de cuatro metros pero donde las diferencias de ancho y altura son decisivas para la experiencia real del evento. Los Gusanitos son el extremo superior de esa categoría: los más anchos, los más altos y los de mayor capacidad de todos los medianos del catálogo.
 
 Con **3.3 metros de ancho** —frente a los 2.5 metros de la Mini Jungla y los Dragones Rojos— el interior de los Gusanitos tiene un 32% más de superficie de juego. Eso no es un número abstracto: en la práctica significa que dos niños pueden brincar en paralelo sin interferirse, que hay espacio real para movimiento lateral, que los grupos de tres o cuatro amigos pueden jugar juntos sin que el espacio los fuerce a una sola línea de rebote.
 
@@ -196,13 +196,13 @@ El proceso de renta de los Gusanitos para un evento grande tiene algunas conside
 
 **Paso 1 — Verificar disponibilidad con anticipación suficiente.** Para eventos grandes —kermés, posadas, días comunitarios— se recomienda reservar con al menos dos semanas de anticipación. Los inflables de mayor capacidad tienen mayor demanda en fechas de eventos institucionales.
 
-**Paso 2 — Compartir el detalle del evento.** Al contactar a INFLAFI, comparte no solo la fecha y la colonia sino también el tipo de evento, el número estimado de niños y el formato de uso esperado (turnos organizados, uso libre, zona de un evento más grande). Esto permite al equipo de INFLAFI dar recomendaciones específicas para tu caso.
+**Paso 2 — Compartir el detalle del evento.** Al contactar a DENFLAB, comparte no solo la fecha y la colonia sino también el tipo de evento, el número estimado de niños y el formato de uso esperado (turnos organizados, uso libre, zona de un evento más grande). Esto permite al equipo de DENFLAB dar recomendaciones específicas para tu caso.
 
 **Paso 3 — Confirmar el espacio con medidas exactas.** Los Gusanitos requieren 5.5 × 4.8 metros de espacio libre. Verifica esta medida con cinta métrica, no a ojo. Un error en este paso puede resultar en que el inflable no quepa en el área planificada el día del evento.
 
 **Paso 4 — Reservar con anticipo del 30%.** Una vez confirmadas las especificaciones, el 30% del total asegura la fecha y el inflable.
 
-**Paso 5 — Coordinación de logística para evento grande.** Para kermés o eventos institucionales, el equipo de INFLAFI puede coordinar el horario de llegada para asegurar que el inflable esté instalado con suficiente antelación antes del inicio del evento.
+**Paso 5 — Coordinación de logística para evento grande.** Para kermés o eventos institucionales, el equipo de DENFLAB puede coordinar el horario de llegada para asegurar que el inflable esté instalado con suficiente antelación antes del inicio del evento.
 
 **Paso 6 — Montaje y verificación (10–15 minutos).** El equipo instala el inflable y verifica el funcionamiento. En eventos grandes, se recomienda solicitar la instalación con al menos 45 minutos de anticipación al inicio.
 
@@ -265,6 +265,6 @@ Horario de atención: **Lunes a Viernes 9:00–19:00 | Sábados 9:00–17:00**
 
 ---
 
-*Los Gusanitos requieren un espacio mínimo de 5.5 × 4.8 metros libres, superficie plana exterior y acceso a corriente eléctrica de 110 V. Montaje, soplador y desmontaje siempre incluidos. Anticipo del 30% para reservar, saldo del 70% el día del evento. INFLAFI opera en toda la CDMX: Polanco, Lomas, Santa Fe, Miguel Hidalgo, Coyoacán, Del Valle, Tlalpan, Nápoles, Pedregal, Satélite y zonas aledañas.*
+*Los Gusanitos requieren un espacio mínimo de 5.5 × 4.8 metros libres, superficie plana exterior y acceso a corriente eléctrica de 110 V. Montaje, soplador y desmontaje siempre incluidos. Anticipo del 30% para reservar, saldo del 70% el día del evento. DENFLAB opera en toda la CDMX: Polanco, Lomas, Santa Fe, Miguel Hidalgo, Coyoacán, Del Valle, Tlalpan, Nápoles, Pedregal, Satélite y zonas aledañas.*
 
-[**Reservar los Gusanitos — disponibilidad limitada →**](https://wa.me/5215539048634?text=Quiero%20reservar%20los%20Gusanitos%20de%20INFLAFI.%20Mi%20evento%20es%20el%20d%C3%ADa%20__%20en%20la%20colonia%20__%20y%20esperamos%20aproximadamente%20__%20ni%C3%B1os.%20%C2%BFEst%C3%A1%20disponible%3F)
+[**Reservar los Gusanitos — disponibilidad limitada →**](https://wa.me/5215539048634?text=Quiero%20reservar%20los%20Gusanitos%20de%20DENFLAB.%20Mi%20evento%20es%20el%20d%C3%ADa%20__%20en%20la%20colonia%20__%20y%20esperamos%20aproximadamente%20__%20ni%C3%B1os.%20%C2%BFEst%C3%A1%20disponible%3F)

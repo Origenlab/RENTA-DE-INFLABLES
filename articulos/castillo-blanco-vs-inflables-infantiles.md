@@ -8,7 +8,7 @@ draft: false
 ---
 La primera vez que un wedding planner ve el Castillo Blanco montado en un jardín de eventos, suele hacer la misma pregunta que quizás tú te estás haciendo ahora: ¿por qué alguien diseñaría un inflable sin colores? Los inflables, después de todo, son criaturas de colores primarios — rojos de dragón, rosas de princesa, azules de océano pirata. Un inflable blanco y dorado parece, a primera vista, un contrasentido comercial: el producto menos llamativo de una industria construida sobre llamar la atención. Y sin embargo, ese mismo planner, tres horas después, cuando la luz cálida de la recepción cae sobre el vinilo blanco y el castillo aparece en el fondo de las fotos del banquete como si fuera parte del mobiliario del venue, entiende exactamente por qué existe. El Castillo Blanco no fue diseñado para llamar la atención. Fue diseñado para no robarla.
 
-Esa es la diferencia de fondo entre el Castillo Blanco y todos los demás inflables del catálogo INFLAFI, y es la diferencia que este artículo va a desmenuzar. Porque la pregunta "¿qué inflable rento?" tiene una respuesta distinta según quién sea el protagonista del evento. Cuando el protagonista es un niño — su cumpleaños, su fiesta, sus amigos — el inflable correcto es uno temático que lo emocione: un [Barco Pirata](/blog/barco-pirata-guia-renta) de siete metros, un castillo rosado de princesas, unos dragones rojos con tobogán. Pero cuando los protagonistas son adultos — una boda, unos XV años, un bautizo con banquete — y los niños son invitados a los que hay que atender sin que su entretenimiento se coma la estética del evento, se necesita otra cosa. Se necesita, literalmente, otra categoría de producto.
+Esa es la diferencia de fondo entre el Castillo Blanco y todos los demás inflables del catálogo DENFLAB, y es la diferencia que este artículo va a desmenuzar. Porque la pregunta "¿qué inflable rento?" tiene una respuesta distinta según quién sea el protagonista del evento. Cuando el protagonista es un niño — su cumpleaños, su fiesta, sus amigos — el inflable correcto es uno temático que lo emocione: un [Barco Pirata](/blog/barco-pirata-guia-renta) de siete metros, un castillo rosado de princesas, unos dragones rojos con tobogán. Pero cuando los protagonistas son adultos — una boda, unos XV años, un bautizo con banquete — y los niños son invitados a los que hay que atender sin que su entretenimiento se coma la estética del evento, se necesita otra cosa. Se necesita, literalmente, otra categoría de producto.
 
 Esta guía compara el Castillo Blanco contra los inflables infantiles del catálogo — el Castillo de Princesas como su contraparte natural, y los medianos como referencia de tamaño — para que entiendas no solo cuál elegir, sino por qué la elección importa más de lo que parece cuando hay un fotógrafo profesional cobrando por hora.
 
@@ -18,7 +18,7 @@ Esta guía compara el Castillo Blanco contra los inflables infantiles del catál
 
 Durante años, la renta de inflables en CDMX operó con una sola lógica: los inflables son para fiestas infantiles, y si un evento de adultos quería entretener niños, rentaba un inflable infantil y aceptaba las consecuencias visuales. Las consecuencias eran predecibles — un castillo rosa chicle o un dragón rojo brillante plantado en medio de una recepción con paleta champagne, apareciendo en cada foto panorámica como una intrusión de feria en un evento de autor.
 
-El Castillo Blanco de INFLAFI nació para cerrar esa brecha. Sus decisiones de diseño solo tienen sentido leídas desde la lógica del evento formal: paleta blanca con acentos dorados que dialoga con las paletas clásicas de bodas y XV años mexicanos; cero personajes, cero temática infantil reconocible, cero colores que compitan con la decoración; y las dimensiones más generosas del catálogo — 5 × 4 × 3.5 metros, el más espacioso de toda la línea — porque un evento formal no tiene un grupo de amiguitos de la misma edad, tiene a todos los niños de todas las familias invitadas, desde el sobrino de cuatro años hasta la prima de doce.
+El Castillo Blanco de DENFLAB nació para cerrar esa brecha. Sus decisiones de diseño solo tienen sentido leídas desde la lógica del evento formal: paleta blanca con acentos dorados que dialoga con las paletas clásicas de bodas y XV años mexicanos; cero personajes, cero temática infantil reconocible, cero colores que compitan con la decoración; y las dimensiones más generosas del catálogo — 5 × 4 × 3.5 metros, el más espacioso de toda la línea — porque un evento formal no tiene un grupo de amiguitos de la misma edad, tiene a todos los niños de todas las familias invitadas, desde el sobrino de cuatro años hasta la prima de doce.
 
 Es una categoría con reglas propias. Un inflable infantil se evalúa por cuánta emoción genera en el niño festejado. Un inflable para eventos formales se evalúa por tres criterios completamente distintos: cómo se ve en la fotografía profesional del evento, qué tan bien atiende a un grupo heterogéneo de niños invitados durante muchas horas, y cuánta carga logística le quita (o le suma) a los anfitriones y su wedding planner. En los tres criterios, el diseño del Castillo Blanco es la respuesta a una pregunta que los inflables temáticos nunca tuvieron que hacerse.
 
@@ -35,7 +35,7 @@ La comparación más ilustrativa es contra el otro castillo del catálogo, porqu
 | **Público de diseño** | Niños invitados de eventos de adultos | Niñas de 3 a 9 años | El Princesas emociona a su dueña; el Blanco atiende a los hijos de todos los invitados |
 | **Evento natural** | Boda, XV años, bautizo, comunión | Cumpleaños infantil de niña | La pregunta clave: ¿el festejado tiene menos de 10 años? |
 | **En fotografía profesional** | Neutro — se integra a la paleta del evento | Protagonista — el más fotografiado del catálogo | Protagonismo es virtud en un cumpleaños y defecto en una boda |
-| **Coordinación** | Con venue y wedding planner si lo hay | Directa con la familia | INFLAFI coordina horarios y ubicación con el planner en eventos formales |
+| **Coordinación** | Con venue y wedding planner si lo hay | Directa con la familia | DENFLAB coordina horarios y ubicación con el planner en eventos formales |
 | **Comportamiento nocturno** | Refleja la luz cálida en tonos champagne | Pensado para fiestas de día | Las recepciones formales son largas y nocturnas; el blanco trabaja con la iluminación del venue |
 
 > **Cómo leer la tabla:** ninguna columna describe un producto mejor que otro. El Castillo de Princesas en su contexto — un cumpleaños de niña — es imbatible, y de hecho es el inflable más fotografiado del catálogo precisamente porque en su contexto es la estrella. La tabla describe dos herramientas afiladas para trabajos distintos.
@@ -85,12 +85,12 @@ Cuando la decisión avanza, la conversación cambia de "por qué" a "cómo", y a
 
 | Especificación | Dato | Contexto práctico |
 |---|---|---|
-| **Dimensiones** | 5 × 4 × 3.5 m (largo × ancho × alto) | El más espacioso del catálogo INFLAFI; confirma el área del venue antes de reservar |
+| **Dimensiones** | 5 × 4 × 3.5 m (largo × ancho × alto) | El más espacioso del catálogo DENFLAB; confirma el área del venue antes de reservar |
 | **Categoría** | Inflable para bodas y XV años | Diseño creado específicamente para eventos formales |
 | **Estética** | Blanco y dorado premium, elegante y neutro | Sin personajes ni licencias; compatible con paletas cream, champagne y pastel |
 | **Instalación** | Exterior: césped, concreto o loseta | Anclaje con estacas o sacos de arena según superficie, sin dañar el piso del venue |
 | **Requerimiento eléctrico** | Contacto estándar de 110 V para el soplador | Idealmente en circuito independiente del equipo de sonido |
-| **Coordinación** | Directa con venue y wedding planner si existe | INFLAFI cierra horarios, ubicación y requerimientos con tu coordinador |
+| **Coordinación** | Directa con venue y wedding planner si existe | DENFLAB cierra horarios, ubicación y requerimientos con tu coordinador |
 | **Servicio incluido** | Entrega, montaje, revisión y desmontaje | Siempre, sin cargos ocultos; el desmontaje se ajusta al horario límite del venue |
 | **Reserva** | Anticipo del 30%, saldo el día del evento | Cotización personalizada por WhatsApp según fecha, zona y duración |
 
@@ -106,7 +106,7 @@ La comparación abstracta se vuelve concreta cuando la sigues a lo largo de un e
 
 **El banquete.** Aquí la diferencia es de capacidad y edades: el mosaico completo de niños del evento — de los 3 a los 12 — quiere usar el inflable durante las dos horas de mesa. El espacio extra del inflable más grande del catálogo absorbe esa demanda con turnos holgados; un mediano genera fila, y la fila genera niños deambulando entre las mesas, que era el problema original.
 
-**El cierre.** A medianoche, con el venue apurando el desmontaje de todos los proveedores, la coordinación previa entre INFLAFI y el coordinador — estándar en el formato de eventos formales — hace que el retiro del castillo sea un elemento más del timeline y no una negociación de último minuto. Los inflables rentados "como para fiesta infantil", sin esa coordinación, son los que protagonizan los cierres caóticos.
+**El cierre.** A medianoche, con el venue apurando el desmontaje de todos los proveedores, la coordinación previa entre DENFLAB y el coordinador — estándar en el formato de eventos formales — hace que el retiro del castillo sea un elemento más del timeline y no una negociación de último minuto. Los inflables rentados "como para fiesta infantil", sin esa coordinación, son los que protagonizan los cierres caóticos.
 
 ---
 
@@ -145,7 +145,7 @@ Aunque las bodas y los XV años concentran la demanda del Castillo Blanco, la ca
 - **Preséntaselo a tu planner como "mobiliario del evento", no como "brincolín".** El encuadre importa: los planners que ven el Castillo Blanco como pieza del layout lo ubican y lo iluminan mejor que los que lo tratan como juego infantil accesorio.
 - **Avisa a las familias con niños en la invitación.** Una línea — "habrá área de juegos para los pequeños" — cambia la disposición con la que llegan los papás y hasta su decisión de asistir.
 - **Ubícalo visible desde las mesas familiares, lejos de las bocinas.** La línea de vista es lo que permite a los papás relajarse; la distancia de los altavoces protege la convivencia acústica.
-- **Coordina el montaje antes de la llegada de invitados.** El equipo de INFLAFI trabaja con el horario del venue para que el castillo esté listo, revisado y limpio antes de la primera foto.
+- **Coordina el montaje antes de la llegada de invitados.** El equipo de DENFLAB trabaja con el horario del venue para que el castillo esté listo, revisado y limpio antes de la primera foto.
 - **Pídele al fotógrafo dos tomas del área infantil.** Los niños de la familia jugando con el castillo blanco de fondo suelen ser de las fotos más entrañables del álbum — pero solo si el fotógrafo sabe que existen.
 - **Si el evento es de una quinceañera, lee primero el caso específico.** Los XV tienen dinámicas propias — vals, vestido, adolescentes — que tratamos en la guía de [ideas para XV años con el Castillo Blanco](/blog/castillo-blanco-ideas-xv-anos).
 - **No dejes que el castillo sea sorpresa para el fotógrafo y el DJ.** Los dos proveedores que más interactúan con él — uno con la cámara, otro con el volumen — trabajan mejor sabiéndolo desde la planeación.
@@ -163,7 +163,7 @@ Aunque las bodas y los XV años concentran la demanda del Castillo Blanco, la ca
 
 **"Con la mesa de dulces y el pintacaritas es suficiente."** Las estaciones pasivas entretienen a los niños entre diez y veinte minutos cada una; un evento formal dura seis horas. La aritmética no cierra, y el resto del tiempo lo llenan la pista de baile, los manteles y los arreglos florales — con los niños como protagonistas involuntarios. El inflable es la única estación con capacidad de retención de horas, no de minutos.
 
-**"Es una complicación logística más."** Es la menor de todas las que ya tienes: INFLAFI coordina directamente con el venue y el wedding planner, monta en la ventana de proveedores, opera de forma autónoma toda la noche y desmonta dentro del timeline de cierre. De la lista de proveedores de un evento formal, suele ser el que menos mensajes genera.
+**"Es una complicación logística más."** Es la menor de todas las que ya tienes: DENFLAB coordina directamente con el venue y el wedding planner, monta en la ventana de proveedores, opera de forma autónoma toda la noche y desmonta dentro del timeline de cierre. De la lista de proveedores de un evento formal, suele ser el que menos mensajes genera.
 
 ---
 
@@ -203,7 +203,7 @@ No — su neutralidad está diseñada para funcionar sola en la mayoría de los 
 
 ### ¿Qué opina normalmente el wedding planner de esta propuesta?
 
-Los planners con experiencia suelen ser los primeros aliados de la idea, porque conocen de memoria el problema que resuelve: los papás en modo supervisión y los niños sueltos en el salón son dos de los factores que más degradan la experiencia de una recepción. Lo que el planner necesita para sumarse es información técnica temprana — medidas, corriente, horarios de montaje — y eso INFLAFI se lo entrega directamente. Si tu planner nunca ha trabajado con inflables de evento formal, ponlo en contacto con el equipo: la conversación de veinte minutos entre profesionales despeja todas las dudas.
+Los planners con experiencia suelen ser los primeros aliados de la idea, porque conocen de memoria el problema que resuelve: los papás en modo supervisión y los niños sueltos en el salón son dos de los factores que más degradan la experiencia de una recepción. Lo que el planner necesita para sumarse es información técnica temprana — medidas, corriente, horarios de montaje — y eso DENFLAB se lo entrega directamente. Si tu planner nunca ha trabajado con inflables de evento formal, ponlo en contacto con el equipo: la conversación de veinte minutos entre profesionales despeja todas las dudas.
 
 ---
 
@@ -220,7 +220,7 @@ Los planners con experiencia suelen ser los primeros aliados de la idea, porque 
 
 ## Tu Evento Formal Merece la Categoría Correcta
 
-Si tu boda, XV años o bautizo tendrá niños invitados y ya invertiste en que todo se vea impecable, el Castillo Blanco es la pieza que resuelve el entretenimiento sin costo estético. Escríbenos por WhatsApp con la fecha y el venue, y el equipo de INFLAFI te confirma disponibilidad, revisa tu espacio con fotos y te cotiza el mismo día.
+Si tu boda, XV años o bautizo tendrá niños invitados y ya invertiste en que todo se vea impecable, el Castillo Blanco es la pieza que resuelve el entretenimiento sin costo estético. Escríbenos por WhatsApp con la fecha y el venue, y el equipo de DENFLAB te confirma disponibilidad, revisa tu espacio con fotos y te cotiza el mismo día.
 
 **[Quiero el Castillo Blanco para mi evento formal — WhatsApp](https://wa.me/5215539048634?text=Hola%2C%20tengo%20un%20evento%20formal%20con%20ni%C3%B1os%20invitados%20y%20quiero%20cotizar%20el%20Castillo%20Blanco)**
 
@@ -230,4 +230,4 @@ Si tu boda, XV años o bautizo tendrá niños invitados y ya invertiste en que t
 
 ---
 
-*INFLAFI — Renta de inflables en CDMX. Del cumpleaños en casa a la hacienda de bodas, con entrega, montaje y desmontaje incluidos siempre.*
+*DENFLAB — Renta de inflables en CDMX. Del cumpleaños en casa a la hacienda de bodas, con entrega, montaje y desmontaje incluidos siempre.*

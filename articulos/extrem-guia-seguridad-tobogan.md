@@ -10,7 +10,7 @@ La escena ocurre en un jardín de Tlalpan, veinte minutos después de que el Ext
 
 Esa transición — del nervio inicial a la confianza total — no ocurre por suerte. Ocurre porque el tobogán de altura del Extrem está diseñado para ser seguro y porque alguien, antes del primer turno, se tomó tres minutos para explicar las reglas. Esa es la tesis completa de esta guía: un tobogán inflable de altura bien gestionado es una de las actividades más seguras que puede tener una fiesta infantil, y uno mal gestionado es una fuente de sustos perfectamente evitables. La diferencia entre ambos escenarios no está en el inflable — está en el protocolo.
 
-En INFLAFI hemos montado el Extrem en cientos de eventos por toda la CDMX, y la estadística que más nos enorgullece es la más aburrida: en los eventos donde el anfitrión aplica el protocolo que vas a leer aquí, los incidentes son prácticamente inexistentes. Esta guía reúne todo lo que necesitas: postura de bajada, orden de subida, edades, supervisión, clima, viento y anclaje. Léela completa antes de tu evento — son diez minutos que valen toda la tranquilidad de la tarde.
+En DENFLAB hemos montado el Extrem en cientos de eventos por toda la CDMX, y la estadística que más nos enorgullece es la más aburrida: en los eventos donde el anfitrión aplica el protocolo que vas a leer aquí, los incidentes son prácticamente inexistentes. Esta guía reúne todo lo que necesitas: postura de bajada, orden de subida, edades, supervisión, clima, viento y anclaje. Léela completa antes de tu evento — son diez minutos que valen toda la tranquilidad de la tarde.
 
 ---
 
@@ -34,11 +34,11 @@ Entender esta anatomía es el 80% del trabajo de seguridad. El 20% restante es a
 | **Edad mínima** | 5 años | Antes de esa edad faltan la coordinación para subir la rampa y la comprensión de instrucciones |
 | **Uso** | Solo exterior | El soplador necesita ventilación y la estructura requiere altura libre |
 | **Soplador** | 110 V, encendido continuo | Un inflable que pierde presión pierde firmeza; el soplador jamás se apaga con niños adentro |
-| **Anclaje** | Perimetral completo en el montaje | Lo realiza el equipo de INFLAFI; nunca se improvisa ni se modifica durante el evento |
+| **Anclaje** | Perimetral completo en el montaje | Lo realiza el equipo de DENFLAB; nunca se improvisa ni se modifica durante el evento |
 | **Clima** | Se suspende con lluvia o viento fuerte | La superficie mojada se vuelve resbalosa y el viento compromete la estabilidad de la estructura |
 | **Supervisión** | Mínimo 1 adulto dedicado | En grupos numerosos o de edades mixtas, lo ideal son 2: uno en plataforma, uno en la salida |
 
-> **Nota importante:** la capacidad simultánea recomendada del Extrem depende de la edad y el tamaño de los niños de tu grupo. Al momento de reservar por WhatsApp, el equipo de INFLAFI te indica el número adecuado para tu caso específico. Lo que nunca cambia es el principio: la capacidad recomendada es un límite de seguridad, no una sugerencia negociable "porque están chiquitos".
+> **Nota importante:** la capacidad simultánea recomendada del Extrem depende de la edad y el tamaño de los niños de tu grupo. Al momento de reservar por WhatsApp, el equipo de DENFLAB te indica el número adecuado para tu caso específico. Lo que nunca cambia es el principio: la capacidad recomendada es un límite de seguridad, no una sugerencia negociable "porque están chiquitos".
 
 ---
 
@@ -72,7 +72,7 @@ El Extrem está recomendado desde los 5 años, y ese piso no es arbitrario. Para
 
 Igual de importante que la edad mínima es la gestión de la mezcla de tamaños. Un niño de 12 años y uno de 5 pueden convivir en el Extrem, pero no revueltos en la misma tanda de brinco intenso: la diferencia de masa hace que los rebotes del grande arrastren al chico. La solución que aplican los anfitriones con experiencia es separar turnos por bloques de edad — quince minutos para los de 5 a 7, quince para los de 8 en adelante — o establecer la regla de "brinco suave cuando hay pequeños adentro". Ambas funcionan; lo que no funciona es dejar que la selección natural del jardín lo resuelva sola.
 
-Si tu lista de invitados incluye varios menores de 5 años, la respuesta correcta no es hacer excepciones con el Extrem sino darles su propio espacio: un inflable chico o mediano del catálogo de [inflables INFLAFI](/inflables) mantiene a los pequeños felices y seguros mientras los grandes tienen su tobogán sin restricciones. Es la configuración que recomendamos siempre para fiestas multigeneracionales.
+Si tu lista de invitados incluye varios menores de 5 años, la respuesta correcta no es hacer excepciones con el Extrem sino darles su propio espacio: un inflable chico o mediano del catálogo de [inflables DENFLAB](/inflables) mantiene a los pequeños felices y seguros mientras los grandes tienen su tobogán sin restricciones. Es la configuración que recomendamos siempre para fiestas multigeneracionales.
 
 ---
 
@@ -82,7 +82,7 @@ Si la plataforma es el punto crítico evidente, la salida del tobogán es el pun
 
 El protocolo correcto asigna la salida como zona de vigilancia prioritaria. El supervisor se coloca a un costado del área de aterrizaje — nunca frente al canal — y su instrucción a cada niño que baja es la misma: "aterrizas, te levantas, sales por el lado". Tres verbos, en ese orden, repetidos hasta que el flujo se vuelve automático. En eventos con dos adultos disponibles, la división ideal es uno gestionando la fila y la plataforma, y otro fijo en la salida. En eventos con uno solo, el adulto se planta donde ve ambas cosas: en diagonal, entre la salida del tobogán y la vista de la plataforma.
 
-Hay un detalle adicional que los anfitriones agradecen conocer de antemano: la salida del tobogán debe apuntar hacia espacio abierto, no hacia una barda, una mesa o la alberca. Esa orientación se define en el montaje, y el equipo de INFLAFI la resuelve al instalar — pero si tu jardín tiene una configuración particular, coméntalo al reservar para que el plano de instalación lo contemple desde el principio.
+Hay un detalle adicional que los anfitriones agradecen conocer de antemano: la salida del tobogán debe apuntar hacia espacio abierto, no hacia una barda, una mesa o la alberca. Esa orientación se define en el montaje, y el equipo de DENFLAB la resuelve al instalar — pero si tu jardín tiene una configuración particular, coméntalo al reservar para que el plano de instalación lo contemple desde el principio.
 
 ---
 
@@ -92,9 +92,9 @@ Todo lo anterior gestiona el comportamiento de los usuarios. Esta sección gesti
 
 **Lluvia.** La regla es binaria: con lluvia activa, el tobogán no se usa. Punto. Una superficie de vinilo mojada multiplica la velocidad de descenso y elimina la tracción en la rampa de subida; lo que en seco es un juego controlado, en mojado se vuelve impredecible. Si cae un chubasco vespertino típico, se saca a los niños, se espera a que pase, y el equipo evalúa si la superficie puede secarse para reanudar. Muchos aguaceros de la ciudad duran menos de una hora — la fiesta no se arruina, solo hace pausa.
 
-**Viento.** Menos intuitivo que la lluvia pero igual de serio. Un inflable de 3 metros de altura presenta una superficie considerable al viento, y las rachas fuertes comprometen la estabilidad de cualquier estructura inflable, por bien anclada que esté. El protocolo de INFLAFI establece la suspensión del uso cuando el viento se vuelve fuerte y sostenido — en la práctica, si las ramas de los árboles se agitan con violencia y los manteles se vuelan, es momento de vaciar el inflable y esperar. La decisión conservadora siempre es la correcta: ningún turno de tobogán vale un riesgo estructural.
+**Viento.** Menos intuitivo que la lluvia pero igual de serio. Un inflable de 3 metros de altura presenta una superficie considerable al viento, y las rachas fuertes comprometen la estabilidad de cualquier estructura inflable, por bien anclada que esté. El protocolo de DENFLAB establece la suspensión del uso cuando el viento se vuelve fuerte y sostenido — en la práctica, si las ramas de los árboles se agitan con violencia y los manteles se vuelan, es momento de vaciar el inflable y esperar. La decisión conservadora siempre es la correcta: ningún turno de tobogán vale un riesgo estructural.
 
-**Anclaje.** El Extrem se ancla perimetralmente durante el montaje, y ese sistema lo instala y verifica el equipo de INFLAFI antes de entregar el inflable listo. Las reglas para el anfitrión son tres: no mover ni "ajustar" ningún punto de anclaje durante el evento, no colgar decoración pesada de la estructura, y avisar de inmediato si algún elemento del anclaje se ve suelto o desplazado. El anclaje no es la parte glamorosa del inflable, pero es la que sostiene todo lo demás — literalmente.
+**Anclaje.** El Extrem se ancla perimetralmente durante el montaje, y ese sistema lo instala y verifica el equipo de DENFLAB antes de entregar el inflable listo. Las reglas para el anfitrión son tres: no mover ni "ajustar" ningún punto de anclaje durante el evento, no colgar decoración pesada de la estructura, y avisar de inmediato si algún elemento del anclaje se ve suelto o desplazado. El anclaje no es la parte glamorosa del inflable, pero es la que sostiene todo lo demás — literalmente.
 
 ---
 
@@ -156,7 +156,7 @@ Después de cientos de eventos, los errores de supervisión que vemos repetirse 
 - [ ] Pronóstico del clima revisado esa mañana; plan B definido si hay probabilidad de lluvia
 - [ ] Botiquín básico ubicado y a la mano
 - [ ] Regla de cierre durante pastel/piñata acordada con los demás adultos
-- [ ] Contacto de INFLAFI guardado en el celular para cualquier eventualidad técnica
+- [ ] Contacto de DENFLAB guardado en el celular para cualquier eventualidad técnica
 
 ---
 
@@ -195,7 +195,7 @@ Se vacía el inflable de inmediato y se espera a que pase la lluvia. No es negoc
 
 ### ¿El anclaje aguanta si hay viento?
 
-El anclaje perimetral que instala INFLAFI está diseñado para las condiciones normales de operación, y el protocolo establece suspender el uso cuando el viento se vuelve fuerte precisamente para no llevar el sistema a sus límites con niños adentro. Si durante el evento notas cualquier punto de anclaje suelto o desplazado, saca a los niños y repórtalo de inmediato — es un ajuste rápido, pero debe hacerse sin usuarios en la estructura.
+El anclaje perimetral que instala DENFLAB está diseñado para las condiciones normales de operación, y el protocolo establece suspender el uso cuando el viento se vuelve fuerte precisamente para no llevar el sistema a sus límites con niños adentro. Si durante el evento notas cualquier punto de anclaje suelto o desplazado, saca a los niños y repórtalo de inmediato — es un ajuste rápido, pero debe hacerse sin usuarios en la estructura.
 
 ### ¿El tobogán es seguro para niñas con vestido de fiesta?
 
@@ -220,14 +220,14 @@ La diferencia es de énfasis, no de nivel. En el Extrem, el protocolo gira alred
 
 ## Renta el Extrem con el Protocolo Completo Incluido
 
-La seguridad del Extrem empieza antes de la fiesta: con un montaje profesional, un anclaje verificado y un equipo que te explica el protocolo en sitio. Todo eso está incluido en la renta con INFLAFI, junto con la entrega y el desmontaje. Tú pones el jardín, el supervisor y los tres minutos de briefing — nosotros ponemos todo lo demás.
+La seguridad del Extrem empieza antes de la fiesta: con un montaje profesional, un anclaje verificado y un equipo que te explica el protocolo en sitio. Todo eso está incluido en la renta con DENFLAB, junto con la entrega y el desmontaje. Tú pones el jardín, el supervisor y los tres minutos de briefing — nosotros ponemos todo lo demás.
 
-[**Quiero rentar el Extrem con asesoría de seguridad →**](https://wa.me/5215539048634?text=Hola%20INFLAFI%2C%20quiero%20rentar%20el%20Extrem%20con%20tobog%C3%A1n%20para%20mi%20evento%20en%20CDMX%20y%20me%20gustar%C3%ADa%20confirmar%20el%20protocolo%20de%20seguridad%20y%20la%20disponibilidad%20de%20mi%20fecha.%20%C2%BFMe%20dan%20informes%3F)
+[**Quiero rentar el Extrem con asesoría de seguridad →**](https://wa.me/5215539048634?text=Hola%20DENFLAB%2C%20quiero%20rentar%20el%20Extrem%20con%20tobog%C3%A1n%20para%20mi%20evento%20en%20CDMX%20y%20me%20gustar%C3%ADa%20confirmar%20el%20protocolo%20de%20seguridad%20y%20la%20disponibilidad%20de%20mi%20fecha.%20%C2%BFMe%20dan%20informes%3F)
 
-**INFLAFI** · WhatsApp: 52 1 55 3904 8634 · contacto@renta-de-inflables.com
+**DENFLAB** · WhatsApp: 52 1 55 3904 8634 · contacto@renta-de-inflables.com
 Horario de atención: Lunes a Viernes 9:00–19:00 | Sábado 9:00–17:00
 Cobertura en toda la CDMX: Polanco, Lomas, Santa Fe, Coyoacán, Del Valle, Tlalpan, Nápoles, Pedregal y colonias aledañas.
 
-*Un tobogán de altura bien gestionado es diversión pura. Esta guía es la mitad del protocolo; el montaje profesional de INFLAFI es la otra mitad.*
+*Un tobogán de altura bien gestionado es diversión pura. Esta guía es la mitad del protocolo; el montaje profesional de DENFLAB es la otra mitad.*
 
-*Entrega, montaje, anclaje verificado y desmontaje incluidos siempre en toda renta del catálogo INFLAFI.*
+*Entrega, montaje, anclaje verificado y desmontaje incluidos siempre en toda renta del catálogo DENFLAB.*

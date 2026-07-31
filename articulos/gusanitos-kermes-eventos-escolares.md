@@ -8,7 +8,7 @@ draft: false
 ---
 La junta del comité de la kermés empezó a las 7:30 de la noche en el aula de tercero, con nueve mamás, dos papás y la maestra coordinadora alrededor de un pizarrón donde ya estaban anotados los puestos de comida, la rifa y el sonido. Entonces alguien dijo la palabra "inflable" y la junta se partió en dos. La mitad recordaba la kermés de hace tres años, cuando el inflable fue el puesto más exitoso del evento y recaudó más que la venta de tacos. La otra mitad recordaba la del año pasado en otra escuela: la cola interminable, los niños llorando, el papá improvisado de guardia que terminó rebasado. Las dos mitades tenían razón. Un inflable en una kermés es la mejor atracción del evento o su principal dolor de cabeza — y la diferencia no está en el inflable, sino en la operación.
 
-Los Gusanitos de INFLAFI son el inflable mediano que más kermeses y ferias escolares atiende en CDMX, y no por casualidad. Con 4 × 3.3 × 3 metros son el mediano más ancho del catálogo; su diseño circular produce la mayor superficie de brinco de la categoría; reciben de 5 a 6 niños simultáneos de 4 a 10 años —el rango casi exacto de una primaria—; y su diseño de colores vivos sin personajes no compite con la identidad gráfica del evento ni excluye a ningún niño por gustos o edad. Son, en términos operativos, el inflable diseñado para procesar flujo continuo de niños durante horas.
+Los Gusanitos de DENFLAB son el inflable mediano que más kermeses y ferias escolares atiende en CDMX, y no por casualidad. Con 4 × 3.3 × 3 metros son el mediano más ancho del catálogo; su diseño circular produce la mayor superficie de brinco de la categoría; reciben de 5 a 6 niños simultáneos de 4 a 10 años —el rango casi exacto de una primaria—; y su diseño de colores vivos sin personajes no compite con la identidad gráfica del evento ni excluye a ningún niño por gustos o edad. Son, en términos operativos, el inflable diseñado para procesar flujo continuo de niños durante horas.
 
 Esta guía convierte la experiencia de decenas de eventos escolares en un manual accionable: cómo funciona el flujo continuo con boletos y turnos, qué requisitos debe cumplir el plantel, cómo resolver la corriente eléctrica —el punto que más kermeses complica—, la tabla de planeación completa del evento, y las respuestas a las preguntas que los comités hacen siempre. Es el documento para llevar impreso a la próxima junta de las 7:30.
 
@@ -20,7 +20,7 @@ Una kermés no es una fiesta grande: es otro animal. En una fiesta, los invitado
 
 Bajo esa lógica, las virtudes de los Gusanitos dejan de ser características y se vuelven requisitos. La mayor superficie de brinco de los medianos significa que cada turno de 5 a 6 niños es un turno de calidad, sin apretujones, lo que permite turnos más cortos sin quejas — y turnos más cortos significan más niños procesados por hora, que en una kermés con boletos es también más recaudación. El rango de 4 a 10 años cubre de preescolar a quinto de primaria sin cambiar de reglas. Y el diseño sin personajes evita el fenómeno clásico de los inflables temáticos en escuelas: los de sexto que no se suben "porque es de bebés" y los de primero que no conocen al personaje.
 
-Hay una virtud más, silenciosa: la previsibilidad. Un evento escolar necesita proveedores que lleguen a la hora pactada, instalen en minutos y dejen todo funcionando antes de que abra la kermés. El montaje de los Gusanitos toma 10 a 15 minutos en manos del equipo de INFLAFI, con anclaje completo y prueba de funcionamiento incluidos, y el desmontaje al cierre es igual de ágil. Para el director que firma el permiso, eso importa tanto como el inflable mismo. La ficha completa del modelo está en la [guía de renta de los Gusanitos](/blog/gusanitos-guia-renta).
+Hay una virtud más, silenciosa: la previsibilidad. Un evento escolar necesita proveedores que lleguen a la hora pactada, instalen en minutos y dejen todo funcionando antes de que abra la kermés. El montaje de los Gusanitos toma 10 a 15 minutos en manos del equipo de DENFLAB, con anclaje completo y prueba de funcionamiento incluidos, y el desmontaje al cierre es igual de ágil. Para el director que firma el permiso, eso importa tanto como el inflable mismo. La ficha completa del modelo está en la [guía de renta de los Gusanitos](/blog/gusanitos-guia-renta).
 
 ---
 
@@ -35,10 +35,10 @@ Esta tabla es el plan maestro. Cada fila es una etapa con sus decisiones, respon
 | **Diseño del sistema de boletos** | 2–3 semanas antes | Definir precio del turno en boletos de la kermés; imprimir boletos o usar los generales del evento | Integrar el inflable al sistema de boletos general simplifica todo: un solo punto de venta, cero efectivo en el puesto |
 | **Asignación de roles** | 2 semanas antes | Nombrar operador de turnos, control de fila y relevos por bloques de una hora | Los voluntarios por bloques de 1 hora se consiguen; el voluntario de 5 horas corrido, no |
 | **Comunicación a familias** | 1 semana antes | Avisar edades (4–10), reglas básicas y sistema de turnos en la circular o el grupo | Los papás que conocen las reglas antes no las discuten en la fila |
-| **Verificación técnica** | 2–3 días antes | Confirmar horario de montaje con INFLAFI; probar el contacto eléctrico designado y la extensión | El contacto que "sí sirve" pero nadie probó es el villano recurrente de las kermeses |
+| **Verificación técnica** | 2–3 días antes | Confirmar horario de montaje con DENFLAB; probar el contacto eléctrico designado y la extensión | El contacto que "sí sirve" pero nadie probó es el villano recurrente de las kermeses |
 | **Día del evento — montaje** | 60–90 min antes de abrir | Recibir al equipo, supervisar ubicación, dejar el inflable probado y acordonado | El inflable inflado antes de que entren las familias es publicidad andante para el puesto |
 | **Día del evento — operación** | Durante la kermés | Turnos de 8–10 min, grupos por edad, hidratación, relevos puntuales | Con ciclos de 10–12 minutos, los Gusanitos procesan de 30 a 36 niños por hora de forma ordenada |
-| **Cierre** | Última hora | Anunciar último turno; desalojo; desmontaje por el equipo de INFLAFI | El "último turno" anunciado 15 minutos antes evita la fila fantasma que nunca alcanzará lugar |
+| **Cierre** | Última hora | Anunciar último turno; desalojo; desmontaje por el equipo de DENFLAB | El "último turno" anunciado 15 minutos antes evita la fila fantasma que nunca alcanzará lugar |
 
 ---
 
@@ -73,7 +73,7 @@ Para la fila, dos trucos de operador experimentado. Primero, fila por rangos de 
 
 **Altura libre.** Con 3 metros de altura inflada, hay que verificar lo que hay arriba: lonarias, cables tendidos entre edificios, ramas de los árboles del patio. Es el requisito que nadie revisa hasta que el equipo de instalación señala el cable de la lona a 2.8 metros. Un vistazo hacia arriba en la visita de planeación ahorra reacomodos de último minuto.
 
-**Acceso.** El inflable llega enrollado en un bulto que se transporta rodando o cargado entre el equipo. Portones vehiculares o peatonales amplios no tienen problema; si el único acceso al patio es por escaleras o pasillos estrechos, hay que avisarlo al cotizar para que el equipo de INFLAFI llegue preparado. La regla es simple: describe el acceso real al reservar y no habrá sorpresas.
+**Acceso.** El inflable llega enrollado en un bulto que se transporta rodando o cargado entre el equipo. Portones vehiculares o peatonales amplios no tienen problema; si el único acceso al patio es por escaleras o pasillos estrechos, hay que avisarlo al cotizar para que el equipo de DENFLAB llegue preparado. La regla es simple: describe el acceso real al reservar y no habrá sorpresas.
 
 **Permisos y seguros internos.** Cada plantel tiene su protocolo: autorización de la dirección, visto bueno de la sociedad de padres, y en escuelas incorporadas a veces un formato del área administrativa. Adelanta esos trámites con la ficha técnica del inflable y el esquema de operación de esta guía. Los comités que llegan a la dirección con el plan completo obtienen el sí en una junta; los que llegan con "queremos un inflable" lo obtienen en tres.
 
@@ -91,14 +91,14 @@ Las cuatro reglas de oro de la electricidad en kermés: primero, designa para el
 
 ## Guía paso a paso del día del evento
 
-1. **90 minutos antes de abrir:** recibe al equipo de INFLAFI en el acceso acordado. El montaje toma 10 a 15 minutos; deja el inflable inflado, anclado y probado con margen de sobra.
+1. **90 minutos antes de abrir:** recibe al equipo de DENFLAB en el acceso acordado. El montaje toma 10 a 15 minutos; deja el inflable inflado, anclado y probado con margen de sobra.
 2. **60 minutos antes:** acordona el perímetro, monta el letrero de reglas y precios, coloca la mesa del operador con los boletos de muestra y el garrafón de agua.
 3. **30 minutos antes:** briefing de cinco minutos con los voluntarios del primer bloque: máximo 6 niños, turnos por edad, aviso al minuto 9 en cada turno, bolsillos vacíos y sin zapatos como boleto de entrada.
 4. **Apertura:** arranca con un bloque de turnos para los más pequeños (4–6 años). Llegan temprano con sus papás, brincan frescos y liberan la demanda antes de la hora pico.
 5. **Operación continua:** ciclos de 10–12 minutos, cambio grupal completo, agua en cada salida. El operador cuenta niños de forma permanente; el control de fila administra boletos y bloques de edad.
 6. **Relevos cada hora:** el cambio de voluntarios se hace en el cambio de turno, nunca a mitad de uno, con veinte segundos de traspaso: cuántos turnos van, qué grupo sigue, alguna incidencia.
 7. **Última hora:** anuncia el último bloque con letrero y voz. Cierra la venta de boletos del inflable en taquilla 30 minutos antes del fin del evento.
-8. **Cierre:** desalojo completo, conteo de boletos recaudados, y el equipo de INFLAFI desmonta y retira todo. El patio queda libre para la clausura del evento.
+8. **Cierre:** desalojo completo, conteo de boletos recaudados, y el equipo de DENFLAB desmonta y retira todo. El patio queda libre para la clausura del evento.
 
 ---
 
@@ -128,7 +128,7 @@ Todo lo que esta guía describe para el patio escolar aplica, con ajustes menore
 
 Los eventos de empresa con zona infantil son el caso más cómodo: asistencia conocida de antemano, presupuesto centralizado y por lo general un responsable de recursos humanos que agradece recibir el esquema de operación completo de esta guía. En todos estos formatos, la ventaja estructural de los Gusanitos es la misma que en el plantel: capacidad para procesar filas largas, rango de edad amplio y un diseño que no le pertenece a ningún personaje ni a ninguna fiesta en particular.
 
-La diferencia práctica más importante fuera del plantel es la electricidad: en parques y explanadas no siempre hay contacto disponible, y ese punto debe resolverse antes de reservar — con la toma de un local vecino, la instalación del evento o una planta de luz contratada por el comité. Menciona el tipo de sede al cotizar y el equipo de INFLAFI te orienta sobre lo que ha funcionado en eventos similares.
+La diferencia práctica más importante fuera del plantel es la electricidad: en parques y explanadas no siempre hay contacto disponible, y ese punto debe resolverse antes de reservar — con la toma de un local vecino, la instalación del evento o una planta de luz contratada por el comité. Menciona el tipo de sede al cotizar y el equipo de DENFLAB te orienta sobre lo que ha funcionado en eventos similares.
 
 ---
 
@@ -164,7 +164,7 @@ Con turnos de 8 a 10 minutos, grupos de 5 a 6 niños y cambios ágiles, los Gusa
 
 ### ¿Qué necesita firmar o autorizar la dirección del plantel?
 
-Depende del régimen de cada escuela, pero el paquete que acelera cualquier autorización es el mismo: ficha técnica del inflable (dimensiones, edades, requisitos eléctricos), esquema de operación con roles y turnos, y los datos del proveedor. INFLAFI proporciona la información técnica al cotizar y las condiciones del servicio se establecen con claridad en el contrato de renta, que es justo el documento que las direcciones quieren ver.
+Depende del régimen de cada escuela, pero el paquete que acelera cualquier autorización es el mismo: ficha técnica del inflable (dimensiones, edades, requisitos eléctricos), esquema de operación con roles y turnos, y los datos del proveedor. DENFLAB proporciona la información técnica al cotizar y las condiciones del servicio se establecen con claridad en el contrato de renta, que es justo el documento que las direcciones quieren ver.
 
 ### ¿El inflable puede operar toda la kermés sin descanso?
 
@@ -172,7 +172,7 @@ El equipo sí: el soplador está diseñado para operación continua durante hora
 
 ### ¿Qué pasa si llueve el día de la kermés?
 
-Con llovizna ligera y sin actividad eléctrica el uso puede pausarse y reanudarse secando la superficie; con lluvia fuerte o tormenta, el protocolo es desalojo, apagado y desconexión, y la estación se reabre solo si el clima lo permite. Para eventos escolares conviene acordar desde la reserva la política de reprogramación por clima con INFLAFI y tener decidido con la dirección el plan del evento completo: la kermés que tiene plan B anunciado no entra en pánico con el pronóstico.
+Con llovizna ligera y sin actividad eléctrica el uso puede pausarse y reanudarse secando la superficie; con lluvia fuerte o tormenta, el protocolo es desalojo, apagado y desconexión, y la estación se reabre solo si el clima lo permite. Para eventos escolares conviene acordar desde la reserva la política de reprogramación por clima con DENFLAB y tener decidido con la dirección el plan del evento completo: la kermés que tiene plan B anunciado no entra en pánico con el pronóstico.
 
 ### ¿Los papás pueden entrar al inflable con sus hijos pequeños?
 
@@ -193,7 +193,7 @@ Los Gusanitos están diseñados para 4 a 10 años, y los adolescentes —por pes
 **Tres semanas antes:**
 
 - [ ] Autorización de dirección con ficha técnica entregada
-- [ ] Reserva confirmada con INFLAFI (fecha, horario, anticipo)
+- [ ] Reserva confirmada con DENFLAB (fecha, horario, anticipo)
 - [ ] Ubicación del inflable definida en el plano de la kermés, visible desde la entrada
 
 **Una semana antes:**
@@ -206,7 +206,7 @@ Los Gusanitos están diseñados para 4 a 10 años, y los adolescentes —por pes
 
 **El día del evento:**
 
-- [ ] Recepción del equipo de INFLAFI 90 minutos antes de abrir
+- [ ] Recepción del equipo de DENFLAB 90 minutos antes de abrir
 - [ ] Perímetro acordonado, letrero de reglas y bloques de edad colocados
 - [ ] Mesa del operador con agua, cronómetro y botiquín básico
 - [ ] Briefing de cinco minutos con los voluntarios del primer bloque
@@ -232,7 +232,7 @@ La diferencia entre el inflable que recaudó más que los tacos y el que rebasó
 
 [**Cotizar los Gusanitos para nuestra kermés →**](https://wa.me/5215539048634?text=Hola%2C%20somos%20el%20comit%C3%A9%20organizador%20de%20una%20kerm%C3%A9s%20escolar%20en%20CDMX%20y%20queremos%20rentar%20los%20Gusanitos.%20%C2%BFMe%20pueden%20dar%20disponibilidad%2C%20precio%20y%20requisitos%20para%20un%20evento%20escolar%3F)
 
-Comparte la fecha, el plantel, el horario del evento y el número aproximado de alumnos: el equipo de INFLAFI te manda la información técnica para la dirección y te orienta sobre la logística completa.
+Comparte la fecha, el plantel, el horario del evento y el número aproximado de alumnos: el equipo de DENFLAB te manda la información técnica para la dirección y te orienta sobre la logística completa.
 
 **Teléfono:** 55 3904 8634 | **Correo:** contacto@renta-de-inflables.com
 
@@ -240,4 +240,4 @@ Horario de atención: **Lunes a Viernes 9:00–19:00 | Sábados 9:00–17:00**
 
 ---
 
-*Los Gusanitos (4 × 3.3 × 3 m, diseño circular, mayor superficie de brinco de los medianos, 5–6 niños simultáneos, 4 a 10 años) requieren superficie plana, espacio perimetral libre y corriente de 110 V. Montaje con anclaje, soplador y desmontaje siempre incluidos. INFLAFI atiende escuelas y eventos comunitarios en toda la CDMX y zonas aledañas.*
+*Los Gusanitos (4 × 3.3 × 3 m, diseño circular, mayor superficie de brinco de los medianos, 5–6 niños simultáneos, 4 a 10 años) requieren superficie plana, espacio perimetral libre y corriente de 110 V. Montaje con anclaje, soplador y desmontaje siempre incluidos. DENFLAB atiende escuelas y eventos comunitarios en toda la CDMX y zonas aledañas.*

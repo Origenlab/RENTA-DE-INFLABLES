@@ -12,7 +12,7 @@ Y entonces alguien te habla del Micro Baby.
 
 La primera vez que lo ves instalado, la reacción más común es una mezcla de alivio y sorpresa. Es compacto, pero no diminuto. Es colorido sin ser abrumador. Los niños de uno, dos, tres años lo ven y corren hacia él con una determinación que pocas cosas en el mundo logran despertar en un ser humano de esa estatura. Cabe. De verdad cabe. Y mientras el soplador trabaja en silencio y los niños saltan dentro —seguros, supervisados, completamente absortos— tú finalmente puedes ocuparte de los adultos, del pastel, de las fotos, de todo lo demás. El Micro Baby no es solo un inflable pequeño. Es la solución a un problema que muchas familias urbanas de la CDMX enfrentan cada fin de semana: cómo hacer una fiesta de verdad cuando el espacio no sobra.
 
-Esta guía te va a decir todo lo que necesitas saber antes de reservar: las especificaciones reales, los escenarios donde funciona mejor, los errores que cometen otros papás (y cómo evitarlos), y el proceso exacto de renta con INFLAFI. Nada de relleno, nada de lenguaje de ventas vacío. Solo información útil, honesta y completa.
+Esta guía te va a decir todo lo que necesitas saber antes de reservar: las especificaciones reales, los escenarios donde funciona mejor, los errores que cometen otros papás (y cómo evitarlos), y el proceso exacto de renta con DENFLAB. Nada de relleno, nada de lenguaje de ventas vacío. Solo información útil, honesta y completa.
 
 ---
 
@@ -20,7 +20,7 @@ Esta guía te va a decir todo lo que necesitas saber antes de reservar: las espe
 
 Para entender por qué el Micro Baby tiene sentido, hay que entender el problema que resuelve. La Ciudad de México es una ciudad de departamentos, de salones rentados sin jardín, de terrazas donde mides cada centímetro antes de comprar un mueble. El mercado de renta de inflables en CDMX históricamente ha servido a familias con acceso a espacios exteriores amplios: jardines en Coyoacán, patios en casas de Tlalpan, áreas comunes en fraccionamientos del Estado de México. Para las familias que viven en colonias de alta densidad urbana —Polanco, Lomas, Nápoles, Del Valle, Condesa, Roma— el inflable tradicional simplemente no era una opción.
 
-El Micro Baby nació para cerrar esa brecha. Con una base de **2×2 metros** y **2 metros de altura**, es el único modelo en el catálogo completo de INFLAFI que está diseñado y certificado para uso en interiores. Eso significa que entra por puertas estándar, no compromete techos normales, no requiere anclaje al suelo o a paredes, y opera con una toma de corriente de 110 V estándar —la misma que tienes en cualquier sala de cualquier departamento de la ciudad.
+El Micro Baby nació para cerrar esa brecha. Con una base de **2×2 metros** y **2 metros de altura**, es el único modelo en el catálogo completo de DENFLAB que está diseñado y certificado para uso en interiores. Eso significa que entra por puertas estándar, no compromete techos normales, no requiere anclaje al suelo o a paredes, y opera con una toma de corriente de 110 V estándar —la misma que tienes en cualquier sala de cualquier departamento de la ciudad.
 
 Pero la magia del Micro Baby no está solo en sus dimensiones. Está en sus proporciones. El rango de edad recomendado —1 a 4 años— no es arbitrario. La altura de las paredes laterales, la profundidad de la zona de salto, la anchura de la entrada: todo está calibrado para que un niño que acaba de aprender a caminar pueda entrar solo, saltar con seguridad, y salir sin ayuda. Un adulto puede supervisar desde afuera sin tener que agacharse en posiciones incómodas. Los materiales son PVC reforzado con costuras dobles, sin esquinas duras, sin bordes que puedan raspar. Es, en el sentido más literal del término, un inflable diseñado para bebés.
 
@@ -37,7 +37,7 @@ La capacidad de 4 a 6 niños simultáneos es un dato que vale la pena entender b
 | Espacio mínimo necesario | 3 × 3 m | El margen de 50 cm por cada lado es para el soplador, el acceso y que los niños puedan salir sin tropezar con las paredes del cuarto. |
 | Edad recomendada | 1 a 4 años | Niños que ya caminan de forma estable. No apto para bebés que no caminan solos todavía. |
 | Capacidad operativa | 4–6 niños | Simultáneos, con supervisión adulta. Es el rango confortable, no el límite estructural. |
-| Montaje | Interior y exterior | El único modelo del catálogo INFLAFI apto para ambos ambientes. En exterior también funciona sin anclas. |
+| Montaje | Interior y exterior | El único modelo del catálogo DENFLAB apto para ambos ambientes. En exterior también funciona sin anclas. |
 | Tiempo de montaje | Menos de 5 minutos | Desde que el equipo abre la caja hasta que el inflable está listo para usarse. |
 | Potencia del soplador | 100 W | Consumo menor que un secador de cabello. No dispara el medidor ni sobrecarga circuitos domésticos normales. |
 | Nivel de ruido | ~65 dB | Similar a una conversación normal o al volumen bajo de un televisor. Con música de fiesta, prácticamente no se escucha. |
@@ -49,7 +49,7 @@ La capacidad de 4 a 6 niños simultáneos es un dato que vale la pena entender b
 
 ## El único inflable que cabe en interiores: por qué eso cambia todo para familias en CDMX
 
-Cuando dices "inflable de fiesta" en Ciudad de México, la mayoría de la gente imagina un jardín. Un jardín verde, amplio, con luz natural y niños corriendo por todos lados. Esa imagen existe —y INFLAFI la cubre con varios modelos del catálogo— pero no refleja la realidad de la mayoría de las familias que viven dentro de la ciudad.
+Cuando dices "inflable de fiesta" en Ciudad de México, la mayoría de la gente imagina un jardín. Un jardín verde, amplio, con luz natural y niños corriendo por todos lados. Esa imagen existe —y DENFLAB la cubre con varios modelos del catálogo— pero no refleja la realidad de la mayoría de las familias que viven dentro de la ciudad.
 
 Un departamento promedio en colonias como Nápoles, Escandon, Portales o Del Valle tiene sala-comedor integrado de 20 a 30 metros cuadrados. Una sala de fiestas rentada en un edificio residencial suele tener entre 40 y 80 metros cuadrados, sin jardín. Una terraza de departamento de gama media tiene entre 10 y 25 metros cuadrados. En todos estos escenarios, un inflable mediano —que requiere mínimo 5×5 m— no tiene cabida física. Pero el Micro Baby sí.
 
@@ -65,13 +65,13 @@ El hecho de que no requiera anclas externas es crucial para el uso en interiores
 
 | Opción | Costo aprox. | Espacio requerido | Funciona en interior | Nivel de entretenimiento | Requiere armado propio | Riesgo/Edad 1–4 años |
 |---|---|---|---|---|---|---|
-| **Micro Baby (INFLAFI)** | Consultar | 3×3 m | ✅ Sí | Alto — movimiento físico real | No (INFLAFI lo instala) | Bajo — diseñado para esta edad |
+| **Micro Baby (DENFLAB)** | Consultar | 3×3 m | ✅ Sí | Alto — movimiento físico real | No (DENFLAB lo instala) | Bajo — diseñado para esta edad |
 | Pelotero portátil | $500–$1,500 compra | 2×2 m | ✅ Sí | Medio — las pelotas son el juego | Sí (papás lo arman) | Bajo, pero las pelotas se dispersan |
 | Área de juegos plástica | $2,000–$8,000 compra | 3×4 m | Parcialmente | Medio — juego variado | Sí (papás lo arman) | Medio — resbaladillas en interiores |
 | Salón de kermés / bouncehouse | $3,000–$8,000 renta | 6×6 m mínimo | ❌ No | Alto | No (el salón lo tiene fijo) | Medio — mezcla de edades frecuente |
-| Inflable mediano (otros modelos) | Consultar | 5×5 m mínimo | ❌ No | Alto | No (INFLAFI lo instala) | Medio — mejor para 4+ años |
+| Inflable mediano (otros modelos) | Consultar | 5×5 m mínimo | ❌ No | Alto | No (DENFLAB lo instala) | Medio — mejor para 4+ años |
 
-**Nota:** El Micro Baby no compite con alternativas de compra en costo total de propiedad —tiene la ventaja de que no necesitas guardarlo, mantenerlo ni repararlo. Lo rentas, lo disfrutas, y INFLAFI se lo lleva. Para una fiesta anual o semestral, la ecuación económica es claramente favorable a la renta.
+**Nota:** El Micro Baby no compite con alternativas de compra en costo total de propiedad —tiene la ventaja de que no necesitas guardarlo, mantenerlo ni repararlo. Lo rentas, lo disfrutas, y DENFLAB se lo lleva. Para una fiesta anual o semestral, la ecuación económica es claramente favorable a la renta.
 
 ---
 
@@ -115,7 +115,7 @@ Todos los proveedores dicen que sus inflables son "silenciosos". La verdad concr
 
 ### Cómo medir tu espacio de forma correcta
 
-El error más común: medir el cuarto y concluir que cabe porque el cuarto mide 3.5×4 m. El problema es lo que hay *en* ese cuarto: el sofá que no te vas a llevar, la mesa de centro, el buro, la planta. El espacio *libre* real puede ser considerablemente menor. La manera correcta de medir es despejar el área donde va el inflable, medir el espacio limpio resultante, y confirmar que tienes al menos **3×3 metros completamente libres**. Si tienes dudas, escríbele a INFLAFI con las medidas y fotos: el equipo puede confirmar antes de que hagas la reserva.
+El error más común: medir el cuarto y concluir que cabe porque el cuarto mide 3.5×4 m. El problema es lo que hay *en* ese cuarto: el sofá que no te vas a llevar, la mesa de centro, el buro, la planta. El espacio *libre* real puede ser considerablemente menor. La manera correcta de medir es despejar el área donde va el inflable, medir el espacio limpio resultante, y confirmar que tienes al menos **3×3 metros completamente libres**. Si tienes dudas, escríbele a DENFLAB con las medidas y fotos: el equipo puede confirmar antes de que hagas la reserva.
 
 ### Qué pasa si llueve (y nadie te lo dice completo)
 
@@ -123,7 +123,7 @@ Si el evento es en interior, la lluvia no cambia absolutamente nada. El inflable
 
 ### El soplador necesita estar encendido todo el tiempo
 
-Este es un malentendido frecuente: el soplador no infla el brincolín y se apaga. Funciona continuamente para mantener la presión. Si lo apagas —aunque sea unos minutos— el inflable empieza a desinflarse. Asegúrate de que el cable del soplador llegue cómodamente a una toma de corriente sin tensión y sin que cruce por donde pasan los niños. INFLAFI siempre revisa esto al momento de la instalación.
+Este es un malentendido frecuente: el soplador no infla el brincolín y se apaga. Funciona continuamente para mantener la presión. Si lo apagas —aunque sea unos minutos— el inflable empieza a desinflarse. Asegúrate de que el cable del soplador llegue cómodamente a una toma de corriente sin tensión y sin que cruce por donde pasan los niños. DENFLAB siempre revisa esto al momento de la instalación.
 
 ### La temperatura ambiente importa más de lo que crees
 
@@ -131,7 +131,7 @@ En interiores en verano, un inflable puede acumular calor. Si tu departamento no
 
 ### El orden de llegada del equipo importa para tu logística
 
-El equipo de INFLAFI llega 30 minutos antes del horario del evento. Eso significa que si tu fiesta empieza a las 12:00, el equipo llega a las 11:30 y el inflable estará listo antes de que lleguen los primeros invitados. Coordina que esos 30 minutos estén libres: sin decoradores trabajando en el mismo espacio, sin familia llegando antes, sin último minuto de acomodo de muebles. Esos 30 minutos son los que hacen que todo salga fluido.
+El equipo de DENFLAB llega 30 minutos antes del horario del evento. Eso significa que si tu fiesta empieza a las 12:00, el equipo llega a las 11:30 y el inflable estará listo antes de que lleguen los primeros invitados. Coordina que esos 30 minutos estén libres: sin decoradores trabajando en el mismo espacio, sin familia llegando antes, sin último minuto de acomodo de muebles. Esos 30 minutos son los que hacen que todo salga fluido.
 
 ---
 
@@ -147,7 +147,7 @@ La capacidad del Micro Baby es 4-6 niños, independientemente del tamaño de tu 
 El Micro Baby es perfecto para 1 a 4 años. Si tu evento también tiene niños de 5, 6, 7 años, esos niños van a querer usar el inflable, y la mezcla puede ser riesgosa para los más pequeños. La solución es o supervisión estricta o rentar adicionalmente un inflable mediano para los mayores. Si estás en esa disyuntiva, nuestra [comparativa entre el Micro Baby y los inflables medianos](/blog/micro-baby-vs-inflables-medianos) te ayuda a decidir con tablas por edad, espacio y tipo de evento.
 
 **Error 4: Olvidar el acceso eléctrico**
-El soplador necesita una toma de 110 V a menos de 5 metros del inflable. Si la toma más cercana está lejos, necesitas una extensión adecuada (calibre suficiente, sin empalmes). Menciona esto al equipo de INFLAFI al momento de la cotización y ellos te orientan.
+El soplador necesita una toma de 110 V a menos de 5 metros del inflable. Si la toma más cercana está lejos, necesitas una extensión adecuada (calibre suficiente, sin empalmes). Menciona esto al equipo de DENFLAB al momento de la cotización y ellos te orientan.
 
 **Error 5: Reservar sin anticipo y asumir que la fecha está guardada**
 La fecha no queda reservada hasta que se liquida el anticipo del 30%. En temporadas altas —diciembre, verano, vacaciones de Semana Santa— los fines de semana se llenan con semanas de anticipación. Si tienes una fecha fija, reserva cuanto antes.
@@ -156,7 +156,7 @@ La fecha no queda reservada hasta que se liquida el anticipo del 30%. En tempora
 El Micro Baby es seguro, pero no es autónomo. Los niños de 1 a 4 años necesitan al menos un adulto supervisando cerca en todo momento. No porque el inflable sea peligroso, sino porque esa edad requiere supervisión para cualquier actividad física. Planea quién va a ser el adulto responsable de esa zona durante la fiesta — y si quieres el protocolo completo con checklist imprimible y tabla de reglas por edad, está en nuestra [guía de seguridad del Micro Baby para bebés](/blog/micro-baby-guia-seguridad-bebes).
 
 **Error 7: Pensar que el desmontaje es problema suyo**
-INFLAFI incluye entrega, montaje y desmontaje en el precio. No tienes que desinflar, doblar ni cargar nada. El equipo llega, lo instala y al terminar el tiempo contratado regresa a retirarlo. Si no estás seguro de los tiempos, confirma con el equipo al inicio del evento para que el desmontaje no te tome por sorpresa.
+DENFLAB incluye entrega, montaje y desmontaje en el precio. No tienes que desinflar, doblar ni cargar nada. El equipo llega, lo instala y al terminar el tiempo contratado regresa a retirarlo. Si no estás seguro de los tiempos, confirma con el equipo al inicio del evento para que el desmontaje no te tome por sorpresa.
 
 ---
 
@@ -164,21 +164,21 @@ INFLAFI incluye entrega, montaje y desmontaje en el precio. No tienes que desinf
 
 ### Paso 1: Primera consulta (5-10 minutos)
 
-Escríbele a INFLAFI por WhatsApp con la información básica: fecha del evento, colonia donde se realiza, si el espacio es interior o exterior, y el número aproximado de niños que van a usarlo. El equipo responde en el mismo día en horario de oficina (Lun–Vie 9:00–19:00 | Sáb 9:00–17:00).
+Escríbele a DENFLAB por WhatsApp con la información básica: fecha del evento, colonia donde se realiza, si el espacio es interior o exterior, y el número aproximado de niños que van a usarlo. El equipo responde en el mismo día en horario de oficina (Lun–Vie 9:00–19:00 | Sáb 9:00–17:00).
 
 **[Cotiza tu Micro Baby por WhatsApp ahora →](https://wa.me/5215539048634?text=Hola%2C%20me%20interesa%20cotizar%20el%20Micro%20Baby%20para%20mi%20evento.%20%C2%BFMe%20pueden%20dar%20informaci%C3%B3n%20de%20disponibilidad%20y%20precio%3F)**
 
 ### Paso 2: Confirmación de disponibilidad (misma hora o siguientes minutos)
 
-Una vez que INFLAFI confirma disponibilidad para tu fecha, te comparte el costo total y los datos de pago para el anticipo.
+Una vez que DENFLAB confirma disponibilidad para tu fecha, te comparte el costo total y los datos de pago para el anticipo.
 
 ### Paso 3: Anticipo del 30% (tiempo variable, pero rápido)
 
-La transferencia del 30% puede hacerse inmediatamente por SPEI o CoDi. Una vez confirmado el pago, la fecha queda bloqueada en el calendario de INFLAFI. Recibirás confirmación por escrito vía WhatsApp.
+La transferencia del 30% puede hacerse inmediatamente por SPEI o CoDi. Una vez confirmado el pago, la fecha queda bloqueada en el calendario de DENFLAB. Recibirás confirmación por escrito vía WhatsApp.
 
 ### Paso 4: Coordinación logística (1-2 días antes)
 
-El equipo de INFLAFI confirma el horario exacto de llegada y te hace preguntas logísticas si hay algún punto que resolver: estacionamiento, acceso al edificio, elevador vs. escaleras, etcétera.
+El equipo de DENFLAB confirma el horario exacto de llegada y te hace preguntas logísticas si hay algún punto que resolver: estacionamiento, acceso al edificio, elevador vs. escaleras, etcétera.
 
 ### Paso 5: Llegada del equipo (30 minutos antes del evento)
 
@@ -190,7 +190,7 @@ El 70% restante se liquida antes del inicio del uso, el día del evento. Puede s
 
 ### Paso 7: Uso y disfrute (4 horas)
 
-El soplador permanece encendido durante toda la renta. El equipo de INFLAFI te explica el uso correcto, las recomendaciones de seguridad y el protocolo en caso de lluvia si es un evento exterior.
+El soplador permanece encendido durante toda la renta. El equipo de DENFLAB te explica el uso correcto, las recomendaciones de seguridad y el protocolo en caso de lluvia si es un evento exterior.
 
 ### Paso 8: Desmontaje y retiro (al terminar el tiempo contratado)
 
@@ -201,7 +201,7 @@ El equipo regresa, desinfla, dobla y retira el inflable. Tú no haces nada. El e
 ## Preguntas Frecuentes (FAQ)
 
 **¿El Micro Baby realmente cabe en mi departamento?**
-Si tienes 3×3 metros de espacio libre —con el mobiliario que vas a mantener durante la fiesta— sí cabe. El inflable mismo mide 2×2 m; el metro extra por cada lado es para el soplador y para que los niños puedan entrar y salir sin chocar con las paredes del cuarto. Si tienes dudas con tus medidas específicas, escríbele al equipo de INFLAFI con fotos y dimensiones del espacio: hacen la evaluación sin costo y sin compromiso.
+Si tienes 3×3 metros de espacio libre —con el mobiliario que vas a mantener durante la fiesta— sí cabe. El inflable mismo mide 2×2 m; el metro extra por cada lado es para el soplador y para que los niños puedan entrar y salir sin chocar con las paredes del cuarto. Si tienes dudas con tus medidas específicas, escríbele al equipo de DENFLAB con fotos y dimensiones del espacio: hacen la evaluación sin costo y sin compromiso.
 
 **¿Desde qué edad exactamente se puede usar?**
 El Micro Baby está diseñado para niños que ya caminan de forma estable, lo que en la mayoría de los casos ocurre entre los 12 y 14 meses. No es adecuado para bebés que aún no caminan solos, independientemente de su peso. El criterio no es la edad en el papel, sino la capacidad de moverse de forma autónoma y segura dentro del inflable.
@@ -210,7 +210,7 @@ El Micro Baby está diseñado para niños que ya caminan de forma estable, lo qu
 El soplador opera a aproximadamente 65 dB, lo que equivale a una conversación normal entre dos personas. En un evento con música, risas y voces, es prácticamente imperceptible. No va a disparar una queja de vecinos en circunstancias normales. En un departamento con paredes delgadas y vecinos abajo que trabajan en silencio, es algo a considerar, pero la experiencia de cientos de eventos en la CDMX indica que no es un problema real.
 
 **¿Qué pasa si se desinfla durante la fiesta?**
-La única razón por la que el Micro Baby se desinflaría durante el evento es que el soplador se apague (por un corte de luz, porque alguien jale el cable sin querer, o porque el circuito se sature). Si eso ocurre, el inflable se desinfla gradualmente en 2-3 minutos —no de golpe, lo cual da tiempo para sacar a los niños con calma. El equipo de INFLAFI te explica el protocolo al inicio del evento para que sepas exactamente qué hacer si pasa.
+La única razón por la que el Micro Baby se desinflaría durante el evento es que el soplador se apague (por un corte de luz, porque alguien jale el cable sin querer, o porque el circuito se sature). Si eso ocurre, el inflable se desinfla gradualmente en 2-3 minutos —no de golpe, lo cual da tiempo para sacar a los niños con calma. El equipo de DENFLAB te explica el protocolo al inicio del evento para que sepas exactamente qué hacer si pasa.
 
 **¿Puedo usarlo en terraza descubierta si hay riesgo de lluvia?**
 Sí, con la consideración de que si llueve hay que apagar el soplador y sacar a los niños mientras la superficie está mojada. El equipo no se daña con la lluvia; el cuidado es por la seguridad de los niños en superficie húmeda. Cuando para de llover y la lona se seca (15-20 minutos en condiciones normales), el inflable puede volver a usarse.
@@ -225,16 +225,16 @@ El proceso es: (1) cotización y confirmación de disponibilidad vía WhatsApp, 
 Para fines de semana en temporada normal (enero–marzo, agosto–octubre), con 2-3 semanas de anticipación suele ser suficiente. Para temporadas altas —diciembre, Semana Santa, puentes de mayo, julio y agosto en colonias con muchas fiestas infantiles— se recomienda reservar con 4-6 semanas de anticipación. Para eventos entre semana, la disponibilidad es casi siempre inmediata.
 
 **¿Qué incluye exactamente el precio de renta?**
-El precio incluye: traslado del equipo a tu domicilio, montaje completo, 4 horas de uso, supervisión inicial con instrucciones de seguridad, y desmontaje y retiro al terminar. No hay costos ocultos de instalación, ni cargo por el soplador, ni pago adicional por el desmontaje. Lo que INFLAFI te cotiza es lo que pagas.
+El precio incluye: traslado del equipo a tu domicilio, montaje completo, 4 horas de uso, supervisión inicial con instrucciones de seguridad, y desmontaje y retiro al terminar. No hay costos ocultos de instalación, ni cargo por el soplador, ni pago adicional por el desmontaje. Lo que DENFLAB te cotiza es lo que pagas.
 
 **¿Atienden eventos de lunes a viernes o solo fines de semana?**
-INFLAFI atiende eventos todos los días, incluyendo entre semana. El horario de atención por WhatsApp es Lun–Vie 9:00–19:00 | Sáb 9:00–17:00. Si tu evento es un domingo, coordina la logística el sábado anterior.
+DENFLAB atiende eventos todos los días, incluyendo entre semana. El horario de atención por WhatsApp es Lun–Vie 9:00–19:00 | Sáb 9:00–17:00. Si tu evento es un domingo, coordina la logística el sábado anterior.
 
 ---
 
 ## Zonas de cobertura: dónde operamos en CDMX
 
-INFLAFI tiene cobertura en toda la Ciudad de México, con entrega, montaje y desmontaje siempre incluidos sin costo adicional dentro de la zona metropolitana central. Estas son algunas de las colonias y alcaldías donde operamos con más frecuencia:
+DENFLAB tiene cobertura en toda la Ciudad de México, con entrega, montaje y desmontaje siempre incluidos sin costo adicional dentro de la zona metropolitana central. Estas son algunas de las colonias y alcaldías donde operamos con más frecuencia:
 
 **Alcaldía Miguel Hidalgo:** Polanco, Lomas de Chapultepec, Bosques de las Lomas, San Miguel Chapultepec, Observatorio, Popotla.
 
@@ -260,7 +260,7 @@ INFLAFI tiene cobertura en toda la Ciudad de México, con entrega, montaje y des
 
 ## ¿Listo para reservar tu Micro Baby?
 
-Si llegaste hasta aquí, ya tienes toda la información que necesitas para tomar una decisión con confianza. El siguiente paso es simple: escríbele a INFLAFI por WhatsApp con la fecha de tu evento y los datos básicos del espacio. El equipo te confirma disponibilidad y precio ese mismo día.
+Si llegaste hasta aquí, ya tienes toda la información que necesitas para tomar una decisión con confianza. El siguiente paso es simple: escríbele a DENFLAB por WhatsApp con la fecha de tu evento y los datos básicos del espacio. El equipo te confirma disponibilidad y precio ese mismo día.
 
 **Para cotizar el Micro Baby para tu primer cumpleaños o fiesta en departamento:**
 
@@ -273,9 +273,9 @@ Si llegaste hasta aquí, ya tienes toda la información que necesitas para tomar
 | Etapa | Qué sucede | Tiempo estimado |
 |---|---|---|
 | Primer contacto por WhatsApp | Envías fecha, colonia y tipo de espacio | Inmediato (tú) |
-| Respuesta de INFLAFI | Confirmación de disponibilidad + precio | Mismo día en horario de atención |
+| Respuesta de DENFLAB | Confirmación de disponibilidad + precio | Mismo día en horario de atención |
 | Pago del anticipo | Transferencia del 30% vía SPEI/CoDi | Lo que tú tardes en hacer la transferencia |
-| Confirmación de reserva | INFLAFI confirma por escrito vía WhatsApp | 5-10 minutos después del pago |
+| Confirmación de reserva | DENFLAB confirma por escrito vía WhatsApp | 5-10 minutos después del pago |
 | Coordinación logística previa | Confirmación de horario, acceso, detalles | 1-2 días antes del evento |
 | Llegada del equipo | 30 minutos antes del inicio del evento | Puntual según lo acordado |
 | Montaje | Inflable listo para uso | Menos de 5 minutos |
@@ -290,14 +290,14 @@ Si llegaste hasta aquí, ya tienes toda la información que necesitas para tomar
 
 ---
 
-## Datos de contacto INFLAFI
+## Datos de contacto DENFLAB
 
 - **WhatsApp:** [55 3904 8634](https://wa.me/5215539048634)
 - **Correo:** contacto@renta-de-inflables.com
 - **Horario de atención:** Lun–Vie 9:00–19:00 | Sáb 9:00–17:00
 - **Cobertura:** Ciudad de México · Naucalpan · Tlalnepantla
 
-*INFLAFI — Entrega, montaje y desmontaje siempre incluidos. Sin sorpresas, sin cargos ocultos.*
+*DENFLAB — Entrega, montaje y desmontaje siempre incluidos. Sin sorpresas, sin cargos ocultos.*
 
 ---
 

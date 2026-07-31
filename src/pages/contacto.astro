@@ -1,7 +1,7 @@
 ---
-// src/pages/contacto.astro — Página de contacto INFLAFI
+// src/pages/contacto.astro — Página de contacto DENFLAB
 // Ruta: /contacto
-// SEO: "contacto inflables CDMX" · "cotizar inflable CDMX" · "INFLAFI teléfono WhatsApp"
+// SEO: "contacto inflables CDMX" · "cotizar inflable CDMX" · "DENFLAB teléfono WhatsApp"
 
 import PageLayout     from '@layouts/PageLayout.astro'
 import Hero           from '@components/Hero.astro'
@@ -118,15 +118,15 @@ const FAQS: FaqItem[] = [
     answer: 'Sí, cubrimos Naucalpan, Tlalnepantla, Huixquilucan, Ecatepec y otros municipios de la zona metropolitana con cargo adicional de traslado según la distancia. Para eventos más alejados consúltanos directamente — evaluamos cada caso. No cubrimos estados fuera de la zona metropolitana del Valle de México.',
   },
   {
-    question: '¿Tienen redes sociales donde pueda ver fotos de eventos anteriores?',
-    answer: `Sí. Puedes ver eventos reales, fotos de los inflables instalados y combinaciones de paquetes en nuestro Instagram (@inflafi) y Facebook (INFLAFI). Si quieres ver fotos específicas de algún modelo o tipo de evento, también las podemos mandar por WhatsApp directamente.`,
+    question: '¿Puedo ver fotos de eventos anteriores?',
+    answer: `Sí. En más de 30 años DENFLAB ha montado inflables en miles de fiestas en CDMX y tenemos fotos de eventos reales de cada modelo del catálogo. Pídenos por WhatsApp las fotos del inflable o del paquete que te interesa y te las mandamos al momento, junto con las dimensiones y el espacio que necesitas.`,
   },
 ]
 ---
 
 <PageLayout
-  title="Contacto — Cotiza tu Inflable o Paquete en CDMX | INFLAFI"
-  description="Contacta a INFLAFI para cotizar renta de inflables y servicios para fiestas en CDMX. WhatsApp, teléfono o correo. Respondemos en minutos."
+  title="Contacto — Cotiza tu Inflable o Paquete en CDMX | DENFLAB"
+  description="Contacta a DENFLAB para cotizar renta de inflables y servicios para fiestas en CDMX. WhatsApp, teléfono o correo. Respondemos en minutos."
   image="/images/og/contacto.jpg"
   pageType="page"
   breadcrumbs={[{ label: 'Contacto', href: '/contacto' }]}
@@ -145,7 +145,7 @@ const FAQS: FaqItem[] = [
 
   <!-- HERO ────────────────────────────────────────────────────────────────── -->
   <Hero
-    badge="Respuesta en minutos · Lun–Sáb 9:00–19:00 · CDMX"
+    badge="DENFLAB · +30 años de experiencia · Respuesta en minutos"
     title="Hablemos de"
     accent="tu Fiesta"
     subtitle="Cuéntanos qué necesitas — inflable, paquete, servicio adicional o una combinación. Respondemos con disponibilidad y precio en minutos por WhatsApp."
@@ -157,7 +157,7 @@ const FAQS: FaqItem[] = [
       { text: '¡Escribir por WhatsApp!', href: waUrl(WA_MESSAGES.cotizar), variant: 'primary', whatsapp: true },
       { text: `Llamar: ${CONTACT.phone}`, href: `tel:${CONTACT.phoneE164}`, variant: 'outline' },
     ]}
-    ariaLabel="Contacto INFLAFI — renta de inflables CDMX"
+    ariaLabel="Contacto DENFLAB — renta de inflables CDMX"
   />
 
   <!-- ① MÉTODOS DE CONTACTO + HORARIOS ─────────────────────────────────── -->
@@ -242,7 +242,7 @@ const FAQS: FaqItem[] = [
               {CONTACT.city}, {CONTACT.state} {CONTACT.postalCode}
             </p>
             <a
-              href="https://maps.google.com/?q=Inflafi+Polanco+CDMX"
+              href="https://maps.google.com/?q=DENFLAB+Polanco+CDMX"
               target="_blank"
               rel="noopener noreferrer"
               class="info-block__maps-link"

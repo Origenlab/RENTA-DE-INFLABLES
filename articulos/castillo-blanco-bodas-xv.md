@@ -53,13 +53,13 @@ La siguiente tabla compara de manera objetiva las alternativas disponibles para 
 | Animador / payaso | $3,000–$6,000 | Muy baja (disruptiva) | Moderada | Moderado | Disruptivo | Alta |
 | Área de juegos exterior | Variable | Sin impacto (fuera del salón) | Alta | Alto (pero niños fuera de vista) | Neutral | Alta |
 | Inflable genérico de colores | $1,500–$3,500 | Muy baja | Alta | Alto | Muy negativo | Baja |
-| **Castillo Blanco INFLAFI** | **Precio según cotización** | **Alta (neutra/complementaria)** | **Alta** | **Muy alto** | **Positivo o neutro** | **Muy baja (INFLAFI lo maneja)** |
+| **Castillo Blanco DENFLAB** | **Precio según cotización** | **Alta (neutra/complementaria)** | **Alta** | **Muy alto** | **Positivo o neutro** | **Muy baja (DENFLAB lo maneja)** |
 
 *Nota 1: El costo de la niñera individual se multiplica por número de niños, haciendo que eventos con 8 o más menores sean significativamente más caros que cualquier alternativa de entretenimiento grupal.*
 
 *Nota 2: "Impacto fotográfico negativo" implica que el elemento aparece en imágenes del evento de manera visualmente discordante con la estética general, algo que no puede corregirse en edición si el objeto ocupa parte importante del encuadre.*
 
-*Nota 3: "Requiere coordinación especial" se refiere a gestión adicional que recae sobre los novios o el wedding planner el día del evento. INFLAFI incluye entrega, montaje y desmontaje, lo que elimina prácticamente toda la carga logística.*
+*Nota 3: "Requiere coordinación especial" se refiere a gestión adicional que recae sobre los novios o el wedding planner el día del evento. DENFLAB incluye entrega, montaje y desmontaje, lo que elimina prácticamente toda la carga logística.*
 
 ---
 
@@ -189,7 +189,7 @@ Las bodas nocturnas plantean un reto específico para cualquier elemento de entr
 
 Bajo iluminación ambiental cálida de salón de bodas —el estándar de la mayoría de los venues de lujo en CDMX—, el Castillo Blanco adquiere un tono dorado suave que lo integra al ambiente general de manera natural. No requiere iluminación especial para funcionar visualmente: el ambiente del venue lo trabaja por él.
 
-Sin embargo, cuando se quiere maximizar la integración nocturna, hay opciones específicas que los wedding planners y los coordinadores de INFLAFI pueden discutir:
+Sin embargo, cuando se quiere maximizar la integración nocturna, hay opciones específicas que los wedding planners y los coordinadores de DENFLAB pueden discutir:
 
 **Uplighting perimetral**: Una barra de LED dirigida hacia la base del castillo en el color de la paleta de la boda —dorado, rosa, azul marino, verde— transforma el castillo en un elemento que activamente contribuye al ambiente visual de la recepción nocturna.
 
@@ -223,7 +223,7 @@ El objetivo de esta comunicación no es hacer publicidad del castillo. Es reduci
 
 La planeación de una boda tiene cientos de decisiones. La mayoría son sobre lo que los novios van a vivir. Esta es una de las pocas decisiones que también es sobre lo que van a vivir sus invitados. Y específicamente, sobre si los invitados que tienen hijos van a poder estar presentes de verdad.
 
-El Castillo Blanco de INFLAFI está disponible para bodas, XV años, bautizos y primeras comuniones en la Ciudad de México: Polanco, Lomas, Santa Fe, Miguel Hidalgo, Coyoacán, Del Valle, Tlalpan, Nápoles, Pedregal y zonas aledañas. La entrega, montaje y desmontaje están incluidos siempre. La reserva se asegura con un anticipo del 30%, y el 70% restante se cubre el día del evento.
+El Castillo Blanco de DENFLAB está disponible para bodas, XV años, bautizos y primeras comuniones en la Ciudad de México: Polanco, Lomas, Santa Fe, Miguel Hidalgo, Coyoacán, Del Valle, Tlalpan, Nápoles, Pedregal y zonas aledañas. La entrega, montaje y desmontaje están incluidos siempre. La reserva se asegura con un anticipo del 30%, y el 70% restante se cubre el día del evento.
 
 **[Cotiza el Castillo Blanco para tu boda ahora](https://wa.me/5215539048634?text=Hola%2C%20quiero%20cotizar%20el%20Castillo%20Blanco%20para%20mi%20boda)** — respuesta en horario de atención, sin compromiso.
 
@@ -257,4 +257,4 @@ Si la respuesta a la última pregunta es "ya veremos", el Castillo Blanco no es 
 
 ---
 
-*INFLAFI — Renta de inflables de calidad para eventos en CDMX. Entrega, montaje y desmontaje incluidos en cada servicio. Atención personalizada para bodas, XV años, bautizos, primeras comuniones y eventos corporativos.*
+*DENFLAB — Renta de inflables de calidad para eventos en CDMX. Entrega, montaje y desmontaje incluidos en cada servicio. Atención personalizada para bodas, XV años, bautizos, primeras comuniones y eventos corporativos.*

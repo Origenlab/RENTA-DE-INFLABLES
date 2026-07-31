@@ -1,6 +1,6 @@
 ---
 title: "Barco Pirata: La Aventura en Alta Mar para el Cumpleaños más Épico de tu Hijo en CDMX"
-description: "Un barco pirata de 7 metros inflado en el jardín, con velas, cañones y bandera Jolly Roger: la fiesta de aventura en alta mar que tu hijo va a contar en la escuela el lunes. Guía de INFLAFI para organizarla en CDMX."
+description: "Un barco pirata de 7 metros inflado en el jardín, con velas, cañones y bandera Jolly Roger: la fiesta de aventura en alta mar que tu hijo va a contar en la escuela el lunes. Guía de DENFLAB para organizarla en CDMX."
 model: "Barco Pirata"
 category: grandes
 pubDate: 2026-07-09
@@ -8,7 +8,7 @@ draft: false
 ---
 ## El Barco Ha Llegado al Puerto
 
-Son las 10 de la mañana del sábado. La camioneta de INFLAFI entra al jardín. Los niños que ya llegaron a la fiesta se asoman desde la terraza. El equipo empieza a desdoblar el vinilo. En 20 minutos, hay un barco pirata de 7 metros inflado en el jardín, con velas, cañones y la bandera Jolly Roger en la popa.
+Son las 10 de la mañana del sábado. La camioneta de DENFLAB entra al jardín. Los niños que ya llegaron a la fiesta se asoman desde la terraza. El equipo empieza a desdoblar el vinilo. En 20 minutos, hay un barco pirata de 7 metros inflado en el jardín, con velas, cañones y la bandera Jolly Roger en la popa.
 
 El cumpleañero no necesita decoración adicional. El Barco Pirata es la decoración.
 
@@ -55,7 +55,7 @@ Esconde "monedas de oro" (fichas doradas) por el jardín con pistas en pergamino
 Con globos de agua como "cañonazos", los niños se dividen en dos equipos y juegan mientras esperan su turno en el Barco Pirata.
 
 #### 3. Pintacaritas con Diseños de Piratas
-Un artista con diseños de parches, calaveras y tatuajes piratas que complementa perfectamente la temática. INFLAFI puede coordinar el servicio de pintacaritas como complemento a la renta del Barco.
+Un artista con diseños de parches, calaveras y tatuajes piratas que complementa perfectamente la temática. DENFLAB puede coordinar el servicio de pintacaritas como complemento a la renta del Barco.
 
 #### 4. Concurso de Grito de Pirata
 ¿Quién da el mejor "¡Aargh!"? El animador organiza el concurso y el ganador recibe el primer turno en el Barco Pirata.
@@ -120,7 +120,7 @@ El Barco Pirata es el inflable de mayor demanda del catálogo para fiestas con g
 📧 **Correo:** contacto@renta-de-inflables.com
 🌐 **Web:** renta-de-inflables.com
 
-*INFLAFI — Castillos saltarines, toboganes e inflables para tu fiesta en CDMX. Entrega, montaje y desmontaje incluidos.*
+*DENFLAB — Castillos saltarines, toboganes e inflables para tu fiesta en CDMX. Entrega, montaje y desmontaje incluidos.*
 
 ---
 

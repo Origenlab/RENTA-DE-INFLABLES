@@ -1,6 +1,6 @@
 ---
-// Header.astro — Navegación principal DATA-DRIVEN INFLAFI.
-import { NAV, SITE, CONTACT, waUrl, telUrl, WA_MESSAGES } from '@config/site'
+// Header.astro — Navegación principal DATA-DRIVEN DENFLAB.
+import { NAV, SITE, CONTACT, EXPERIENCE, waUrl, telUrl, WA_MESSAGES } from '@config/site'
 
 const schedule = CONTACT.schedule?.display as string | undefined
 const navId = (s: string) =>
@@ -19,7 +19,8 @@ const CHEVRON_SVG = `<svg class="hdr-chevron" width="13" height="13" viewBox="0 
 
     <!-- Logo -->
     <a href="/" class="hdr-logo" aria-label={`${SITE.name} — Inicio`}>
-      <img src="/images/brand/logo-inflafi.webp" alt={SITE.name} class="hdr-logo__img" width="180" height="64" />
+      <span class="hdr-logo__mark">{SITE.name}</span>
+      <span class="hdr-logo__sub">{EXPERIENCE.short} de experiencia</span>
     </a>
 
     <!-- Nav desktop -->
@@ -146,16 +147,32 @@ const CHEVRON_SVG = `<svg class="hdr-chevron" width="13" height="13" viewBox="0 
   .hdr-logo {
     flex-shrink: 0;
     display: inline-flex;
-    align-items: center;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: .1rem;
     text-decoration: none;
     margin-right: .5rem;
+    line-height: 1;
   }
-  .hdr-logo__img {
-    height: 62px;
-    width: auto;
-    object-fit: contain;
-    display: block;
+  .hdr-logo__mark {
+    font-family: var(--font-heading);
+    font-weight: var(--weight-black, 900);
+    font-size: 1.9rem;
+    letter-spacing: .06em;
+    text-transform: uppercase;
+    color: var(--c-primary);
+    line-height: 1;
   }
+  .hdr-logo__sub {
+    font-size: .68rem;
+    font-weight: var(--weight-semibold, 600);
+    letter-spacing: .12em;
+    text-transform: uppercase;
+    color: var(--c-text-muted, #6b7280);
+    white-space: nowrap;
+  }
+  .hdr-logo:hover .hdr-logo__mark { color: var(--c-primary-dark, var(--c-primary)); }
 
   /* ─── NAV ─── */
   .hdr-nav { margin-left: auto; }
@@ -568,7 +585,8 @@ const CHEVRON_SVG = `<svg class="hdr-chevron" width="13" height="13" viewBox="0 
   }
   @media (max-width: 480px) {
     .hdr-inner { height: 72px; }
-    .hdr-logo__img { height: 48px; }
+    .hdr-logo__mark { font-size: 1.5rem; }
+    .hdr-logo__sub { font-size: .6rem; letter-spacing: .1em; }
   }
   @media (prefers-reduced-motion: reduce) {
     .hdr-mobile-nav, .mob-item__panel, .drop-panel,

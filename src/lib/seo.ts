@@ -1,5 +1,5 @@
 /* ============================================================================
- * src/lib/seo.ts — Librería SEO canónica para INFLAFI / renta-de-inflables.com
+ * src/lib/seo.ts — Librería SEO canónica para DENFLAB / renta-de-inflables.com
  * Copiada y adaptada desde EJEMPLOS (sistema Master). Sin modificaciones al contrato.
  * ========================================================================== */
 
@@ -181,6 +181,7 @@ export function orgSchema() {
     '@id': ORG_ID,
     name: SITE.organization?.name ?? SITE.name,
     ...(SITE.organization?.legalName ? { legalName: SITE.organization.legalName } : {}),
+    ...((SITE.organization as { slogan?: string })?.slogan ? { slogan: (SITE.organization as { slogan?: string }).slogan } : {}),
     url: SITE.url,
     logo: { '@type': 'ImageObject', '@id': LOGO_ID, url: absImage(SITE.organization?.logo) ?? `${SITE.url}/logo.png` },
     image: { '@id': LOGO_ID },

@@ -1,5 +1,5 @@
 ---
-// src/pages/blog/index.astro — Índice del blog INFLAFI
+// src/pages/blog/index.astro — Índice del blog DENFLAB
 // Ruta: /blog — 40 artículos agrupados por modelo de inflable
 import { getCollection } from 'astro:content'
 import PageLayout from '@layouts/PageLayout.astro'
@@ -35,16 +35,16 @@ const groups = MODEL_ORDER.map((model) => ({
 ---
 
 <PageLayout
-  title="Blog de Renta de Inflables CDMX — Guías, Comparativas y Tips | INFLAFI"
+  title="Blog de Renta de Inflables CDMX — Guías, Comparativas y Tips | DENFLAB"
   description="Guías completas, comparativas y tips de seguridad para rentar inflables en CDMX: Micro Baby, Dragones Rojos, Mini Jungla, Gusanitos, Extrem, Barco Pirata, Princesas y Castillo Blanco."
   breadcrumbs={[{ label: 'Blog' }]}
 >
   <section class="blog">
     <SectionHeading
-      eyebrow="Blog INFLAFI"
+      eyebrow="Blog DENFLAB"
       title="Guías y consejos para rentar inflables"
       titleAccent="en CDMX"
-      desc="Todo lo que los papás con experiencia ya saben: guías de renta por modelo, comparativas honestas, protocolos de seguridad e ideas para que la fiesta salga perfecta."
+      desc="Más de 30 años de oficio DENFLAB, escritos: guías de renta por modelo, comparativas honestas, protocolos de seguridad e ideas para que la fiesta salga perfecta."
     />
 
     {groups.map((g) => (

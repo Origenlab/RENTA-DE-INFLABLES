@@ -8,7 +8,7 @@ draft: false
 ---
 Hay dos tipos de fiestas de princesas. En la primera, la mamá compró globos rosas, un mantel rosa, platos rosas y un letrero de "Feliz cumpleaños" — y en algún rincón del jardín hay un inflable que se rentó aparte, como quien renta sillas. En la segunda, todo el jardín parece diseñado por la misma persona: el castillo rosado de tres metros preside el espacio como si el terreno le perteneciera, la mesa de dulces repite sus tonos, el arco de globos enmarca la vista hacia él, y cada foto que sale de esa tarde parece portada de revista de fiestas infantiles. Las dos fiestas costaron prácticamente lo mismo. La diferencia no fue el presupuesto: fue entender que el Castillo de Princesas no es un elemento más de la decoración — es la decoración, y todo lo demás se diseña a partir de él.
 
-Esa es la tesis de esta guía. El Castillo de Princesas de INFLAFI — 4 × 3.3 × 3 metros de castillo rosado con torres y coronas — es el inflable más fotografiado de todo el catálogo, y no por accidente: sus tres metros de altura entran completos en el encuadre vertical de cualquier celular, su paleta funciona con la luz de tarde de la CDMX, y su silueta de castillo convierte cualquier jardín en escenario de cuento. Cuando la decoración de la fiesta se construye alrededor de él en lugar de competir contra él, el resultado se multiplica sin gastar un peso más.
+Esa es la tesis de esta guía. El Castillo de Princesas de DENFLAB — 4 × 3.3 × 3 metros de castillo rosado con torres y coronas — es el inflable más fotografiado de todo el catálogo, y no por accidente: sus tres metros de altura entran completos en el encuadre vertical de cualquier celular, su paleta funciona con la luz de tarde de la CDMX, y su silueta de castillo convierte cualquier jardín en escenario de cuento. Cuando la decoración de la fiesta se construye alrededor de él en lugar de competir contra él, el resultado se multiplica sin gastar un peso más.
 
 Aquí encontrarás la paleta correcta, el plan de mesa de dulces, la estrategia de fotos, los juegos temáticos que aprovechan el castillo y un cronograma probado de fiesta. Todo es DIY y proveedor-agnóstico: tú decides qué haces en casa y qué encargas. Lo único que esta guía asume es que el castillo ya está reservado — y si no, ese es el paso uno, porque los fines de semana de temporada vuelan.
 
@@ -53,7 +53,7 @@ Y un detalle de colocación que casi nadie considera: si el espacio lo permite, 
 
 ## La Estrategia de Fotos: Exprimir al Más Fotografiado del Catálogo
 
-Que el Princesas sea el inflable más fotografiado del catálogo INFLAFI es un dato — pero las mejores fotos no salen solas, salen de tres decisiones tomadas antes de la fiesta.
+Que el Princesas sea el inflable más fotografiado del catálogo DENFLAB es un dato — pero las mejores fotos no salen solas, salen de tres decisiones tomadas antes de la fiesta.
 
 **La luz.** La mayoría de las fiestas infantiles en CDMX ocurren entre las 14:00 y las 18:00. Si puedes elegir la orientación del castillo, evita que su entrada mire directamente al poniente: el sol de la tarde de frente aplana el rosado y hace que las niñas salgan con los ojos cerrados en todas las fotos. Luz lateral suave es la meta.
 
@@ -106,7 +106,7 @@ No todas las tareas DIY valen lo mismo. Algunas producen un resultado casi profe
 
 **Encárgalo siempre:** el pastel de fondant, las galletas decoradas y los macarons. La repostería temática casera es la trampa clásica — consume la víspera completa y compite en la mesa contra productos de gente que hace esto todos los días.
 
-**Delégalo completo si tu semana no da:** existe el Paquete Princesas de INFLAFI precisamente para esto — castillo, decoración coordinada, pintacaritas y mesa de dulces en una sola contratación. La versión DIY de esta guía y el paquete completo llegan al mismo lugar; la diferencia es cuántas tardes tuyas cuesta el trayecto. Pregunta por él al cotizar por WhatsApp.
+**Delégalo completo si tu semana no da:** existe el Paquete Princesas de DENFLAB precisamente para esto — castillo, decoración coordinada, pintacaritas y mesa de dulces en una sola contratación. La versión DIY de esta guía y el paquete completo llegan al mismo lugar; la diferencia es cuántas tardes tuyas cuesta el trayecto. Pregunta por él al cotizar por WhatsApp.
 
 ---
 
@@ -127,7 +127,7 @@ El último contacto de cada invitada con la fiesta es el recuerdo que se lleva a
 
 | Hora | Actividad | Contexto práctico |
 |---|---|---|
-| **-2:00** | Llega el equipo de INFLAFI; montaje del castillo | El montaje toma poco tiempo, pero pedirlo con margen te da colchón para decorar la zona ya con el castillo puesto |
+| **-2:00** | Llega el equipo de DENFLAB; montaje del castillo | El montaje toma poco tiempo, pero pedirlo con margen te da colchón para decorar la zona ya con el castillo puesto |
 | **-1:30** | Decoración fina: banderines, canasta de entrada, mesa de dulces | Decorar con el castillo ya inflado permite ajustar todo a su escala y sus tonos |
 | **-0:15** | Fotos de producción del jardín limpio | Diez minutos que valen el álbum completo |
 | **0:00** | Llegan las invitadas; arco de entrada, primer brinco libre por turnos | La primera hora es la de máxima energía: turnos cortos de 10 minutos |
@@ -137,7 +137,7 @@ El último contacto de cada invitada con la fiesta es el recuerdo que se lleva a
 | **2:45** | Cuento del reino y comida de las niñas | Digestión antes de volver a brincar — regla no negociable |
 | **3:15** | Último bloque de brinco libre | El favorito de las niñas: ya en confianza, ya sin zapatos desde hace horas |
 | **3:50** | Entrega de recuerdos ("cartas del reino") y despedida | Cada invitada se va con su corona de papel y su carta |
-| **4:00+** | Desmontaje por el equipo de INFLAFI | Tú no desmontas nada; el equipo regresa y se lleva todo |
+| **4:00+** | Desmontaje por el equipo de DENFLAB | Tú no desmontas nada; el equipo regresa y se lleva todo |
 
 > **Cómo usar este cronograma:** no como reloj suizo sino como esqueleto. Las fiestas reales se corren quince minutos aquí y allá, y no pasa nada — lo que el cronograma protege son las tres reglas duras: el castillo montado antes de la primera invitada, la pausa de brinco durante pastel y comida, y el área despejada para el desmontaje. Todo lo demás es flexible.
 
@@ -182,7 +182,7 @@ No es recomendable pegar ni amarrar nada directamente sobre el inflable: los adh
 
 ### ¿Qué hago si mi jardín es pequeño y el castillo domina todo el espacio?
 
-Aprovéchalo: en jardines compactos, la decoración correcta es minimalista porque el castillo ya llena la vista. Concentra el esfuerzo en una sola mesa de dulces bien curada y en la canasta de entrada, y usa la pared del fondo para un letrero del reino. Menos elementos en un espacio chico se ve más elegante que una fiesta apretada. Eso sí: confirma con el equipo de INFLAFI que tus medidas acomodan el castillo con sus márgenes de seguridad antes de reservar.
+Aprovéchalo: en jardines compactos, la decoración correcta es minimalista porque el castillo ya llena la vista. Concentra el esfuerzo en una sola mesa de dulces bien curada y en la canasta de entrada, y usa la pared del fondo para un letrero del reino. Menos elementos en un espacio chico se ve más elegante que una fiesta apretada. Eso sí: confirma con el equipo de DENFLAB que tus medidas acomodan el castillo con sus márgenes de seguridad antes de reservar.
 
 ### ¿La decoración funciona igual si la fiesta es en salón de fiestas en lugar de jardín?
 
@@ -190,7 +190,7 @@ El Castillo de Princesas es de instalación exterior, así que aplica para salon
 
 ### ¿Vale la pena contratar la decoración o hacerla yo misma?
 
-Las dos rutas funcionan; la pregunta real es cuánto tiempo tienes la semana de la fiesta. Todo lo de esta guía es realizable en casa por una persona con ayuda de otra el día del evento. Si prefieres delegar el paquete completo — inflable, decoración coordinada, pintacaritas y mesa de dulces en una sola contratación —, pregunta por el Paquete Princesas de INFLAFI al cotizar: existe precisamente para las mamás que quieren el resultado sin las tres tardes de manualidades.
+Las dos rutas funcionan; la pregunta real es cuánto tiempo tienes la semana de la fiesta. Todo lo de esta guía es realizable en casa por una persona con ayuda de otra el día del evento. Si prefieres delegar el paquete completo — inflable, decoración coordinada, pintacaritas y mesa de dulces en una sola contratación —, pregunta por el Paquete Princesas de DENFLAB al cotizar: existe precisamente para las mamás que quieren el resultado sin las tres tardes de manualidades.
 
 ### ¿Qué colores debo evitar por completo?
 
@@ -219,7 +219,7 @@ Antes de la decoración fina, siempre. El cronograma ideal pide el montaje del i
 
 ## El Reino Empieza con el Castillo: Resérvalo Hoy
 
-Toda la decoración de esta guía se construye alrededor de una sola pieza, y esa pieza se reserva por fecha. Si ya tienes el día del cumpleaños, escríbenos por WhatsApp: el equipo de INFLAFI te confirma disponibilidad del Castillo de Princesas, resuelve tus dudas de espacio y te cotiza el mismo día — con el Paquete Princesas completo si quieres delegarlo todo.
+Toda la decoración de esta guía se construye alrededor de una sola pieza, y esa pieza se reserva por fecha. Si ya tienes el día del cumpleaños, escríbenos por WhatsApp: el equipo de DENFLAB te confirma disponibilidad del Castillo de Princesas, resuelve tus dudas de espacio y te cotiza el mismo día — con el Paquete Princesas completo si quieres delegarlo todo.
 
 **[Quiero el Castillo de Princesas para decorar mi fiesta — WhatsApp](https://wa.me/5215539048634?text=Hola%2C%20estoy%20planeando%20la%20decoraci%C3%B3n%20de%20una%20fiesta%20de%20princesas%20y%20quiero%20cotizar%20el%20Castillo%20de%20Princesas)**
 
@@ -229,4 +229,4 @@ Toda la decoración de esta guía se construye alrededor de una sola pieza, y es
 
 ---
 
-*INFLAFI — Renta de inflables en CDMX. El castillo pone el reino; tú pones a la princesa.*
+*DENFLAB — Renta de inflables en CDMX. El castillo pone el reino; tú pones a la princesa.*

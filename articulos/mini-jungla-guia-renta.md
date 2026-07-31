@@ -1,5 +1,5 @@
 ---
-title: "Mini Jungla en CDMX: La Guía Definitiva para Rentar el Inflable Mediano Más Fotogénico del Catálogo INFLAFI"
+title: "Mini Jungla en CDMX: La Guía Definitiva para Rentar el Inflable Mediano Más Fotogénico del Catálogo DENFLAB"
 description: "Hay un momento que los papás que han vivido esa fiesta recuerdan con claridad fotográfica: el instante en que el soplador arranca, el vinilo verde comienza a tomar forma, y de la nada emerge una selva compacta y vibrante en medio del jardín."
 model: "Mini Jungla"
 category: medianos
@@ -8,7 +8,7 @@ draft: false
 ---
 Hay un momento que los papás que han vivido esa fiesta recuerdan con claridad fotográfica: el instante en que el soplador arranca, el vinilo verde comienza a tomar forma, y de la nada emerge una selva compacta y vibrante en medio del jardín. Los niños dejan lo que estaban haciendo. Los más pequeños se acercan despacio, con los ojos abiertos. Los más grandes ya están corriendo. En cuestión de quince minutos, ese espacio que antes era solo pasto o piso de concreto se convierte en territorio de aventura, en la frontera entre el mundo de los adultos y el universo privado de los niños donde los leones rugen esta mañana y los monos trepan por lianas invisibles.
 
-La Mini Jungla de INFLAFI no es simplemente un inflable mediano con una imagen impresa. Es un escenario. Un portal. El tipo de objeto que convierte una reunión en una experiencia, que da a los niños el permiso narrativo para inventar mundos. Y en una ciudad como la Ciudad de México —donde los jardines son escasos, donde los departamentos tienen terrazas y los fraccionamientos tienen áreas comunes pero pocas veces tienen magia— ese portal verde con animales de selva se convierte en algo que los niños y sus papás no olvidan fácilmente.
+La Mini Jungla de DENFLAB no es simplemente un inflable mediano con una imagen impresa. Es un escenario. Un portal. El tipo de objeto que convierte una reunión en una experiencia, que da a los niños el permiso narrativo para inventar mundos. Y en una ciudad como la Ciudad de México —donde los jardines son escasos, donde los departamentos tienen terrazas y los fraccionamientos tienen áreas comunes pero pocas veces tienen magia— ese portal verde con animales de selva se convierte en algo que los niños y sus papás no olvidan fácilmente.
 
 Esta guía existe para que tomes la decisión correcta: no la más barata ni la más vistosa por defecto, sino la que mejor se adapta a tu espacio, a tu número de invitados y a la visión que tienes para la fiesta. Aquí encontrarás todo lo que necesitas saber sobre la Mini Jungla: sus medidas reales, sus ventajas sobre los otros medianos del catálogo, para qué eventos es la elección natural, cómo decorar alrededor sin gastar de más, y los errores que los papás cometen con más frecuencia al rentar inflables medianos en CDMX.
 
@@ -18,7 +18,7 @@ Esta guía existe para que tomes la decisión correcta: no la más barata ni la 
 
 Cuando los papás comparan inflables medianos, el primer número que miran es el largo. Cuatro metros. Esa cifra es la misma en la Mini Jungla, en los Dragones Rojos y en los Gusanitos. Y ahí es donde muchos se equivocan: asumen que todos los medianos de cuatro metros de largo son equivalentes. No lo son.
 
-La Mini Jungla tiene **2.8 metros de altura**: el inflable mediano más alto del catálogo de INFLAFI. Para contextualizar ese número: la estatura promedio de un adulto en México ronda los 1.65–1.70 metros. La Mini Jungla supera ese número por más de un metro. Vista desde afuera, no parece un accesorio de fiesta sino una instalación volumétrica. Vista desde adentro, es un espacio donde los niños de hasta diez años brincan sin sentir que el techo los aplasta, donde hay expansión vertical genuina y donde el rebote se siente generoso y libre.
+La Mini Jungla tiene **2.8 metros de altura**: el inflable mediano más alto del catálogo de DENFLAB. Para contextualizar ese número: la estatura promedio de un adulto en México ronda los 1.65–1.70 metros. La Mini Jungla supera ese número por más de un metro. Vista desde afuera, no parece un accesorio de fiesta sino una instalación volumétrica. Vista desde adentro, es un espacio donde los niños de hasta diez años brincan sin sentir que el techo los aplasta, donde hay expansión vertical genuina y donde el rebote se siente generoso y libre.
 
 Esa altura también explica su impacto visual en el jardín. Un inflable de 2.8 metros en un espacio abierto de CDMX es visible desde la calle, desde la ventana del departamento de enfrente, desde el otro extremo del área común de un fraccionamiento. Se convierte automáticamente en el punto focal del evento. Los invitados que llegan y lo ven al fondo ya saben que están en el lugar correcto.
 
@@ -39,7 +39,7 @@ La siguiente tabla reúne todos los datos técnicos de la Mini Jungla con notas 
 | **Edad recomendada** | 4 a 10 años | El rango más versátil de los medianos: funciona tanto para preescolar como para primaria baja y media sin mezclar edades extremas. |
 | **Capacidad simultánea** | 6 a 8 niños | El número óptimo para que el brinco sea seguro y disfrutable. Más de 8 niños reduce el espacio por niño a niveles incómodos y eleva el riesgo de golpes. |
 | **Uso** | Solo exterior | Requiere superficie plana: pasto, cemento o piso de concreto. No apto para interior sin techo con altura libre mínima de 3.5 m. |
-| **Tiempo de montaje** | 10 a 15 minutos | INFLAFI se encarga del montaje completo. El anfitrión no toca nada: solo designa el espacio. |
+| **Tiempo de montaje** | 10 a 15 minutos | DENFLAB se encarga del montaje completo. El anfitrión no toca nada: solo designa el espacio. |
 | **Soplador** | Incluido, 110 V | Requiere acceso a contacto eléctrico estándar. El soplador permanece encendido durante todo el tiempo de uso. |
 | **Diseño** | Verde, animales de selva | Leones, jirafas, elefantes, monos. Impresión de alta resolución en vinilo de PVC resistente a uso intensivo. |
 
@@ -47,7 +47,7 @@ La siguiente tabla reúne todos los datos técnicos de la Mini Jungla con notas 
 
 ## Comparativa exhaustiva: Mini Jungla vs. Dragones Rojos vs. Gusanitos
 
-Los tres inflables medianos del catálogo INFLAFI comparten el mismo largo de cuatro metros y rangos de precio comparables, pero sus diferencias son sustanciales y cambian radicalmente la experiencia del evento. Esta tabla está diseñada para elegir con información real, no con suposiciones.
+Los tres inflables medianos del catálogo DENFLAB comparten el mismo largo de cuatro metros y rangos de precio comparables, pero sus diferencias son sustanciales y cambian radicalmente la experiencia del evento. Esta tabla está diseñada para elegir con información real, no con suposiciones.
 
 | Característica | Mini Jungla | Dragones Rojos | Gusanitos |
 |---|---|---|---|
@@ -127,7 +127,7 @@ Hay información que solo se aprende después de haber organizado docenas de eve
 
 **El sol de CDMX en verano calienta el vinilo.** En julio y agosto, a las 2 de la tarde, la superficie exterior del inflable puede estar muy caliente al tacto. Esto no daña el material, pero puede ser incómodo para los niños pequeños que entran descalzos. La recomendación práctica: programar el uso del inflable en la mañana —entre las 10 y las 12— o esperar las 4–5 PM cuando el sol baja de intensidad. Instalar el inflable en una zona con sombra parcial natural también ayuda significativamente.
 
-**El piso importa más de lo que crees.** Una superficie con piedras, tornillos, fragmentos de material o raíces superficiales puede dañar el fondo del inflable. Antes de la instalación, recorre el área y retira cualquier objeto que pueda perforar el vinilo. INFLAFI lleva los anclajes necesarios para fijar el inflable correctamente, pero el estado del piso es responsabilidad del anfitrión. Tres minutos de revisión previa evitan incidentes innecesarios.
+**El piso importa más de lo que crees.** Una superficie con piedras, tornillos, fragmentos de material o raíces superficiales puede dañar el fondo del inflable. Antes de la instalación, recorre el área y retira cualquier objeto que pueda perforar el vinilo. DENFLAB lleva los anclajes necesarios para fijar el inflable correctamente, pero el estado del piso es responsabilidad del anfitrión. Tres minutos de revisión previa evitan incidentes innecesarios.
 
 ---
 
@@ -135,7 +135,7 @@ Hay información que solo se aprende después de haber organizado docenas de eve
 
 **Error 1: Elegir el inflable más grande por defecto.** "Más grande es mejor" es una lógica que no siempre aplica. Si tu espacio disponible es justo, la Mini Jungla —con su ancho de 2.5 m frente a los 3.3 m de los Gusanitos— puede ser la única opción viable para jardines estrechos. Forzar un inflable más ancho en un espacio insuficiente compromete la seguridad y la comodidad del evento completo.
 
-**Error 2: No medir el acceso al área del evento.** Un inflable de 4 metros necesita entrar al jardín por algún lugar. El inflable se transporta desinflado y se arma en el lugar, así que no es el volumen final lo que importa sino el peso y las dimensiones del paquete enrollado. Si hay escaleras empinadas, un pasillo muy estrecho, una reja de acceso ajustada o algún obstáculo fijo, conviene mencionarlo al reservar para que el equipo de INFLAFI llegue preparado con el equipo adecuado.
+**Error 2: No medir el acceso al área del evento.** Un inflable de 4 metros necesita entrar al jardín por algún lugar. El inflable se transporta desinflado y se arma en el lugar, así que no es el volumen final lo que importa sino el peso y las dimensiones del paquete enrollado. Si hay escaleras empinadas, un pasillo muy estrecho, una reja de acceso ajustada o algún obstáculo fijo, conviene mencionarlo al reservar para que el equipo de DENFLAB llegue preparado con el equipo adecuado.
 
 **Error 3: Ignorar la temática cuando la hay.** Si la fiesta tiene una temática muy específica y eliges la Mini Jungla sin integrarla conscientemente a la decoración, el inflable puede parecer un elemento ajeno. No es un error catastrófico, pero sí una oportunidad perdida. Siempre es mejor elegir el inflable que complementa mejor la temática general, o adaptar la decoración para que el inflable sea el protagonista y no un extra.
 
@@ -157,7 +157,7 @@ El letrero de bienvenida de madera o cartón es el detalle que más fotografías
 
 ---
 
-## Combinaciones recomendadas con otros servicios de INFLAFI
+## Combinaciones recomendadas con otros servicios de DENFLAB
 
 La Mini Jungla es excelente por sí sola, pero alcanza su máximo potencial combinada con servicios que complementan la experiencia de selva y crean zonas diferenciadas en el evento.
 
@@ -171,15 +171,15 @@ La Mini Jungla es excelente por sí sola, pero alcanza su máximo potencial comb
 
 ## Proceso de renta paso a paso con tiempos reales
 
-Rentar la Mini Jungla con INFLAFI es un proceso diseñado para no complicarle la vida a los papás. Así funciona en la práctica, con los tiempos reales de cada paso:
+Rentar la Mini Jungla con DENFLAB es un proceso diseñado para no complicarle la vida a los papás. Así funciona en la práctica, con los tiempos reales de cada paso:
 
-**Paso 1 — Verificar disponibilidad (10 minutos).** Contacta a INFLAFI vía WhatsApp o teléfono con la fecha del evento, la colonia y el tipo de espacio disponible. El equipo confirma disponibilidad en el mismo día en horario hábil.
+**Paso 1 — Verificar disponibilidad (10 minutos).** Contacta a DENFLAB vía WhatsApp o teléfono con la fecha del evento, la colonia y el tipo de espacio disponible. El equipo confirma disponibilidad en el mismo día en horario hábil.
 
-**Paso 2 — Confirmar el espacio (mismo día o día siguiente).** El equipo de INFLAFI te preguntará las medidas del área disponible. Ten a la mano una cinta métrica. El espacio mínimo requerido es 5.5 × 4 metros libres con acceso a contacto eléctrico estándar de 110 V.
+**Paso 2 — Confirmar el espacio (mismo día o día siguiente).** El equipo de DENFLAB te preguntará las medidas del área disponible. Ten a la mano una cinta métrica. El espacio mínimo requerido es 5.5 × 4 metros libres con acceso a contacto eléctrico estándar de 110 V.
 
 **Paso 3 — Reservar con anticipo del 30%.** Una vez confirmado el inflable y el horario, se paga el 30% del total para asegurar la fecha. Este pago garantiza la disponibilidad del equipo y del inflable específico elegido.
 
-**Paso 4 — Coordinación logística (2–3 días antes del evento).** El equipo de INFLAFI confirma el horario exacto de llegada. La entrega se coordina para llegar 1–1.5 horas antes del inicio de la fiesta, dejando el inflable listo y funcionando cuando lleguen los primeros invitados.
+**Paso 4 — Coordinación logística (2–3 días antes del evento).** El equipo de DENFLAB confirma el horario exacto de llegada. La entrega se coordina para llegar 1–1.5 horas antes del inicio de la fiesta, dejando el inflable listo y funcionando cuando lleguen los primeros invitados.
 
 **Paso 5 — Montaje el día del evento (10–15 minutos).** El equipo llega, verifica el espacio, instala el inflable y el soplador, y hace la prueba de funcionamiento. El anfitrión no toca nada.
 
@@ -191,7 +191,7 @@ Rentar la Mini Jungla con INFLAFI es un proceso diseñado para no complicarle la
 
 ## Checklist del espacio para el día del evento
 
-Antes de que llegue el equipo de INFLAFI, revisa esta lista para asegurar una instalación sin contratiempos:
+Antes de que llegue el equipo de DENFLAB, revisa esta lista para asegurar una instalación sin contratiempos:
 
 - [ ] El área disponible mide al menos **5.5 × 4 metros** libres de muebles, macetas y obstáculos
 - [ ] El piso está limpio de piedras, clavos, fragmentos metálicos, raíces o cualquier objeto que pueda perforar el vinilo
@@ -207,28 +207,28 @@ Antes de que llegue el equipo de INFLAFI, revisa esta lista para asegurar una in
 ## FAQ: Las preguntas que los papás hacen — y las que no se atreven a hacer
 
 **¿Cuánto cuesta rentar la Mini Jungla en CDMX?**
-El precio varía según la duración del evento, la colonia y la fecha. Escribe a INFLAFI vía WhatsApp para obtener la cotización exacta para tu evento. Los medianos tienen precios altamente competitivos dentro del catálogo y el precio incluye siempre montaje, soplador y desmontaje.
+El precio varía según la duración del evento, la colonia y la fecha. Escribe a DENFLAB vía WhatsApp para obtener la cotización exacta para tu evento. Los medianos tienen precios altamente competitivos dentro del catálogo y el precio incluye siempre montaje, soplador y desmontaje.
 
 **¿Es seguro para niños de 3 años?**
 La edad recomendada es desde los 4 años. Un niño de 3 años bien desarrollado puede usarlo con supervisión directa de un adulto, pero lo ideal es que los más pequeños usen la alberca de pelotas, diseñada específicamente para su grupo de edad. Mezclar niños de 3 y 9 años en el mismo espacio crea diferencias de peso y tamaño que pueden resultar en accidentes involuntarios. Las reglas por edad, el uso de la rampa y el checklist completo de supervisión están en la [guía de seguridad de la Mini Jungla](/blog/mini-jungla-guia-seguridad).
 
 **¿Qué pasa si llueve el día del evento?**
-La Mini Jungla es de uso exterior únicamente. Si hay lluvia ligera sin riesgo eléctrico puede continuar operando. Con lluvia fuerte o tormenta eléctrica, debe apagarse y desconectarse por seguridad. INFLAFI tiene políticas claras de cancelación y reprogramación por clima adverso: consúltalas al momento de reservar.
+La Mini Jungla es de uso exterior únicamente. Si hay lluvia ligera sin riesgo eléctrico puede continuar operando. Con lluvia fuerte o tormenta eléctrica, debe apagarse y desconectarse por seguridad. DENFLAB tiene políticas claras de cancelación y reprogramación por clima adverso: consúltalas al momento de reservar.
 
 **¿Puedo instalarlo en el estacionamiento de mi edificio?**
 Sí, siempre que el piso sea plano, el área sea suficiente (5.5 × 4 m) y haya acceso a corriente eléctrica. Los estacionamientos techados con techo bajo no son viables por la altura de 2.8 metros del inflable inflado. Un estacionamiento al aire libre o con techo libre a más de 3.5 metros funciona perfectamente.
 
 **¿Cuánto tiempo puedo tener el inflable?**
-El tiempo estándar de renta cubre el día del evento. Si necesitas un horario extendido o mayor flexibilidad, consúltalo con INFLAFI al momento de reservar: existen opciones para distintas duraciones.
+El tiempo estándar de renta cubre el día del evento. Si necesitas un horario extendido o mayor flexibilidad, consúltalo con DENFLAB al momento de reservar: existen opciones para distintas duraciones.
 
 **¿El soplador hace mucho ruido?**
 El soplador tiene un nivel de ruido comparable al de un ventilador de pie doméstico: audible pero no molesto. No interfiere con la música de la fiesta ni con las conversaciones normales. Está diseñado para funcionar de forma continua sin interrupciones durante horas.
 
 **¿Puedo mover el inflable una vez instalado?**
-No es recomendable. El inflable se ancla al piso durante la instalación para garantizar la estabilidad. Moverlo requeriría desinflarlo, relocalizarlo y volver a inflarlo. Si tienes dudas sobre la ubicación ideal, discútela con el equipo de INFLAFI antes del montaje: es mucho más eficiente.
+No es recomendable. El inflable se ancla al piso durante la instalación para garantizar la estabilidad. Moverlo requeriría desinflarlo, relocalizarlo y volver a inflarlo. Si tienes dudas sobre la ubicación ideal, discútela con el equipo de DENFLAB antes del montaje: es mucho más eficiente.
 
 **¿Qué pasa si el inflable se daña durante el evento?**
-Los inflables de INFLAFI están fabricados en PVC de alta resistencia y soportan el uso intensivo durante eventos normales. Si ocurre un daño accidental por mal uso —objetos punzocortantes, sobrecapacidad extrema— las condiciones de responsabilidad se establecen claramente en el contrato de renta. La supervisión adulta constante es la mejor prevención.
+Los inflables de DENFLAB están fabricados en PVC de alta resistencia y soportan el uso intensivo durante eventos normales. Si ocurre un daño accidental por mal uso —objetos punzocortantes, sobrecapacidad extrema— las condiciones de responsabilidad se establecen claramente en el contrato de renta. La supervisión adulta constante es la mejor prevención.
 
 **¿Necesito contratar algo más o el inflable solo es suficiente?**
 La Mini Jungla por sí sola es suficiente para entretener a los niños durante toda una fiesta. Los servicios adicionales —alberca de pelotas, pintacaritas, mesas y sillas— multiplican la experiencia y crean zonas diferenciadas, pero no son obligatorios. El inflable solo ya garantiza entretenimiento activo de calidad.
@@ -248,7 +248,7 @@ La Mini Jungla por sí sola es suficiente para entretener a los niños durante t
 
 ## Reserva tu Mini Jungla hoy
 
-Si llegaste hasta aquí, ya tienes todo lo que necesitas para tomar la mejor decisión. La Mini Jungla es el inflable mediano más fotogénico, más alto y más versátil del catálogo de INFLAFI. Es la pieza que convierte un cumpleaños ordinario en una expedición que los niños recuerdan.
+Si llegaste hasta aquí, ya tienes todo lo que necesitas para tomar la mejor decisión. La Mini Jungla es el inflable mediano más fotogénico, más alto y más versátil del catálogo de DENFLAB. Es la pieza que convierte un cumpleaños ordinario en una expedición que los niños recuerdan.
 
 **La disponibilidad en fines de semana es limitada.** Los inflables medianos tienen alta demanda en temporada de fiestas. Reservar con al menos una semana de anticipación garantiza el inflable y el horario que necesitas.
 
@@ -260,6 +260,6 @@ Horario de atención: **Lunes a Viernes 9:00–19:00 | Sábados 9:00–17:00**
 
 ---
 
-*La Mini Jungla requiere un espacio mínimo de 5.5 × 4 metros libres, superficie plana exterior y acceso a corriente eléctrica de 110 V. Montaje, soplador y desmontaje siempre incluidos en el precio. Anticipo del 30% para reservar, saldo del 70% el día del evento. INFLAFI atiende toda la CDMX: Polanco, Lomas de Chapultepec, Santa Fe, Miguel Hidalgo, Coyoacán, Del Valle, Tlalpan, Nápoles, Pedregal, Satélite y zonas aledañas.*
+*La Mini Jungla requiere un espacio mínimo de 5.5 × 4 metros libres, superficie plana exterior y acceso a corriente eléctrica de 110 V. Montaje, soplador y desmontaje siempre incluidos en el precio. Anticipo del 30% para reservar, saldo del 70% el día del evento. DENFLAB atiende toda la CDMX: Polanco, Lomas de Chapultepec, Santa Fe, Miguel Hidalgo, Coyoacán, Del Valle, Tlalpan, Nápoles, Pedregal, Satélite y zonas aledañas.*
 
-[**Reservar ahora — disponibilidad limitada →**](https://wa.me/5215539048634?text=Quiero%20reservar%20la%20Mini%20Jungla%20de%20INFLAFI.%20Mi%20evento%20es%20el%20d%C3%ADa%20__%20en%20la%20colonia%20__.%20%C2%BFEst%C3%A1%20disponible%3F)
+[**Reservar ahora — disponibilidad limitada →**](https://wa.me/5215539048634?text=Quiero%20reservar%20la%20Mini%20Jungla%20de%20DENFLAB.%20Mi%20evento%20es%20el%20d%C3%ADa%20__%20en%20la%20colonia%20__.%20%C2%BFEst%C3%A1%20disponible%3F)

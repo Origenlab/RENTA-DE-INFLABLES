@@ -56,7 +56,7 @@ Si tu fiesta tiene bebés de 1 año y niños de 4 —perfectamente normal—, la
 
 ### 4. La superficie y el entorno se preparan antes del primer brinco
 
-En interiores, despeja un metro alrededor del inflable: nada de mesas con esquinas, sillas o macetas en la zona donde los niños salen con impulso. En exteriores, el equipo de INFLAFI verifica que la superficie sea plana y estable al momento de la instalación. El cable del soplador debe correr por donde no camina nadie, idealmente pegado a la pared y fuera de la ruta de los niños. Zapatos afuera siempre — y también lentes, juguetes duros, collares y cualquier cosa con punta en los bolsillos.
+En interiores, despeja un metro alrededor del inflable: nada de mesas con esquinas, sillas o macetas en la zona donde los niños salen con impulso. En exteriores, el equipo de DENFLAB verifica que la superficie sea plana y estable al momento de la instalación. El cable del soplador debe correr por donde no camina nadie, idealmente pegado a la pared y fuera de la ruta de los niños. Zapatos afuera siempre — y también lentes, juguetes duros, collares y cualquier cosa con punta en los bolsillos.
 
 ### 5. El clima se respeta sin negociar
 
@@ -116,7 +116,7 @@ El ritmo correcto de una fiesta de bebés no es continuo: es de oleadas. Este pl
 
 ## Protocolo Paso a Paso para el Día del Evento
 
-1. **Recibe la instalación con atención.** El equipo de INFLAFI monta el Micro Baby en menos de cinco minutos y te explica el manejo del soplador. Pregunta ahí mismo cualquier duda: es el momento con el técnico enfrente.
+1. **Recibe la instalación con atención.** El equipo de DENFLAB monta el Micro Baby en menos de cinco minutos y te explica el manejo del soplador. Pregunta ahí mismo cualquier duda: es el momento con el técnico enfrente.
 2. **Haz la inspección de un minuto.** Superficie firme e inflada de manera uniforme, cable acomodado, entrada despejada, nada punzante en el perímetro.
 3. **Abre el inflable con una "función demo".** Antes de la avalancha, deja entrar a dos o tres niños tranquilos para que los demás vean cómo se usa. Los niños de esta edad aprenden por imitación mucho más que por instrucciones.
 4. **Anuncia las reglas a los adultos, no a los bebés.** Los papás son quienes deben saber el máximo de niños, los turnos por edad y quién supervisa. Un letrero o mensaje en el grupo de WhatsApp de la fiesta hace maravillas.
@@ -156,11 +156,11 @@ Con 15 niños de 1 a 4 años, el mínimo operativo es dos adultos dedicados: uno
 
 ### ¿Qué pasa si un niño se marea o vomita adentro?
 
-Sácalo con calma, dale agua en sorbos pequeños y siéntalo a la sombra; el mareo por brincos y calor es común y pasa rápido. Si hubo vómito, el inflable se cierra, se limpia la superficie con un paño húmedo y jabón neutro suave, y se deja secar antes de reabrir. Avísale al equipo de INFLAFI por WhatsApp si tienes dudas sobre la limpieza correcta del material: responder eso en tiempo real es parte del servicio.
+Sácalo con calma, dale agua en sorbos pequeños y siéntalo a la sombra; el mareo por brincos y calor es común y pasa rápido. Si hubo vómito, el inflable se cierra, se limpia la superficie con un paño húmedo y jabón neutro suave, y se deja secar antes de reabrir. Avísale al equipo de DENFLAB por WhatsApp si tienes dudas sobre la limpieza correcta del material: responder eso en tiempo real es parte del servicio.
 
 ### ¿El Micro Baby necesita anclas o se puede mover durante el uso?
 
-En interiores no requiere anclaje: su propio peso con el soplador operando lo mantiene estable, y esa es precisamente una de sus ventajas para departamentos y salones. Lo que sí importa es que nadie lo empuje ni intente reacomodarlo con niños adentro. Si necesitas moverlo de lugar, se hace con el inflable vacío y de preferencia con orientación del equipo de INFLAFI.
+En interiores no requiere anclaje: su propio peso con el soplador operando lo mantiene estable, y esa es precisamente una de sus ventajas para departamentos y salones. Lo que sí importa es que nadie lo empuje ni intente reacomodarlo con niños adentro. Si necesitas moverlo de lugar, se hace con el inflable vacío y de preferencia con orientación del equipo de DENFLAB.
 
 ### ¿Es seguro usarlo toda la fiesta, cuatro horas seguidas?
 
@@ -208,7 +208,7 @@ La seguridad de la fiesta empieza en la reserva, no en el montaje. Así se ve el
 
 ## Zonas de Cobertura en CDMX
 
-INFLAFI atiende toda la Ciudad de México con entrega, montaje y desmontaje incluidos. Las zonas de mayor demanda para fiestas de bebés: Polanco, Lomas de Chapultepec, Del Valle, Nápoles, Narvarte, Roma Norte y Sur, Condesa, Coyoacán, Pedregal, Tlalpan, Santa Fe y las alcaldías Miguel Hidalgo, Benito Juárez y Cuauhtémoc. Naucalpan, Tlalnepantla, Huixquilucan y Atizapán se cubren bajo consulta con posible cargo por distancia.
+DENFLAB atiende toda la Ciudad de México con entrega, montaje y desmontaje incluidos. Las zonas de mayor demanda para fiestas de bebés: Polanco, Lomas de Chapultepec, Del Valle, Nápoles, Narvarte, Roma Norte y Sur, Condesa, Coyoacán, Pedregal, Tlalpan, Santa Fe y las alcaldías Miguel Hidalgo, Benito Juárez y Cuauhtémoc. Naucalpan, Tlalnepantla, Huixquilucan y Atizapán se cubren bajo consulta con posible cargo por distancia.
 
 Si tu colonia no aparece, escríbenos igual: la lista refleja demanda, no límites. Y si tu evento es en salón rentado, avísanos desde la cotización para coordinar con el administrador del lugar los detalles de acceso y corriente.
 
@@ -229,6 +229,6 @@ Si tu colonia no aparece, escríbenos igual: la lista refleja demanda, no límit
 
 Un inflable seguro empieza desde la reserva: con el modelo correcto para la edad de tus niños, la instalación profesional incluida y un equipo que te explica el protocolo en tu propia sala. Si tu fiesta es de bebés de 1 a 4 años, el Micro Baby es el modelo diseñado exactamente para ellos.
 
-**[Quiero rentar el Micro Baby con toda la información de seguridad →](https://wa.me/5215539048634?text=Hola%20INFLAFI%2C%20quiero%20rentar%20el%20Micro%20Baby%20para%20una%20fiesta%20con%20beb%C3%A9s%20de%201%20a%204%20a%C3%B1os.%20Le%C3%AD%20su%20gu%C3%ADa%20de%20seguridad%20y%20tengo%20algunas%20preguntas.)**
+**[Quiero rentar el Micro Baby con toda la información de seguridad →](https://wa.me/5215539048634?text=Hola%20DENFLAB%2C%20quiero%20rentar%20el%20Micro%20Baby%20para%20una%20fiesta%20con%20beb%C3%A9s%20de%201%20a%204%20a%C3%B1os.%20Le%C3%AD%20su%20gu%C3%ADa%20de%20seguridad%20y%20tengo%20algunas%20preguntas.)**
 
-*INFLAFI — Renta de Inflables CDMX. Instalación profesional, protocolo de seguridad explicado en sitio, y el único inflable del catálogo diseñado para bebés.*
+*DENFLAB — Renta de Inflables CDMX. Instalación profesional, protocolo de seguridad explicado en sitio, y el único inflable del catálogo diseñado para bebés.*

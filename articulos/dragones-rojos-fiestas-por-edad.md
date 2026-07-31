@@ -124,7 +124,7 @@ Toda fiesta tiene sus quince minutos huecos — el pastel que se retrasa, la pi�
 3. **Coloca el pico del inflable donde la energía está alta:** primera hora para los chicos, segunda hora para los medianos, después de comer para los grandes.
 4. **Intercala las pausas fijas:** hidratación cada 20–30 minutos para 4–5 años, entre pruebas para 6–8, entre rondas para 9–10. El inflable cierra siempre durante pastel y piñata.
 5. **Asigna los roles adultos:** narrador/supervisor (4–5), árbitro (6–8) o juez-comentarista (9–10), más un portero si esperas 15 invitados o más.
-6. **Confirma la renta con anticipación** e indica la edad del grupo al reservar: el equipo de INFLAFI te da recomendaciones específicas de capacidad y manejo para tu franja. Los paquetes con extras para fiestas están en [paquetes para fiestas infantiles](/paquetes-para-fiestas-infantiles).
+6. **Confirma la renta con anticipación** e indica la edad del grupo al reservar: el equipo de DENFLAB te da recomendaciones específicas de capacidad y manejo para tu franja. Los paquetes con extras para fiestas están en [paquetes para fiestas infantiles](/paquetes-para-fiestas-infantiles).
 
 ---
 
@@ -154,7 +154,7 @@ Al contrario, y es un hallazgo que sorprende a los papás: las dinámicas estruc
 
 ### ¿El inflable se renta con animador o los juegos los organizo yo?
 
-INFLAFI entrega, monta, mantiene el soplador operando y desmonta; las dinámicas corren por cuenta de la fiesta. La buena noticia: como muestra esta guía, no necesitas animador profesional — necesitas un plan por edad y un adulto con ganas (el tío cuentacuentos, la tía competitiva: todos tenemos uno). Si prefieres delegar todo, pregunta por opciones y combinaciones al cotizar.
+DENFLAB entrega, monta, mantiene el soplador operando y desmonta; las dinámicas corren por cuenta de la fiesta. La buena noticia: como muestra esta guía, no necesitas animador profesional — necesitas un plan por edad y un adulto con ganas (el tío cuentacuentos, la tía competitiva: todos tenemos uno). Si prefieres delegar todo, pregunta por opciones y combinaciones al cotizar.
 
 ### ¿Puedo hacer la fiesta de 9–10 años en la tarde-noche?
 
@@ -236,6 +236,6 @@ Para kermeses y eventos escolares con grupos grandes de edades mixtas, menciona 
 
 Ya tienes el plan por franja, los juegos y el cronograma. Falta el dragón. Escríbenos con tu fecha, tu colonia y —muy importante— la edad de tus invitados: te confirmamos disponibilidad de los Dragones Rojos y te damos las recomendaciones específicas para tu grupo.
 
-**[Quiero los Dragones Rojos para mi fiesta — los niños tienen esta edad →](https://wa.me/5215539048634?text=Hola%20INFLAFI%2C%20quiero%20rentar%20los%20Dragones%20Rojos.%20Los%20ni%C3%B1os%20de%20mi%20fiesta%20tienen%20entre%20____%20y%20____%20a%C3%B1os%20y%20el%20evento%20es%20el%20d%C3%ADa%20______.%20%C2%BFMe%20confirman%20disponibilidad%3F)**
+**[Quiero los Dragones Rojos para mi fiesta — los niños tienen esta edad →](https://wa.me/5215539048634?text=Hola%20DENFLAB%2C%20quiero%20rentar%20los%20Dragones%20Rojos.%20Los%20ni%C3%B1os%20de%20mi%20fiesta%20tienen%20entre%20____%20y%20____%20a%C3%B1os%20y%20el%20evento%20es%20el%20d%C3%ADa%20______.%20%C2%BFMe%20confirman%20disponibilidad%3F)**
 
-*INFLAFI — Renta de Inflables CDMX. Un solo dragón rojo, tres fiestas distintas: la clave está en conocer a tus invitados.*
+*DENFLAB — Renta de Inflables CDMX. Un solo dragón rojo, tres fiestas distintas: la clave está en conocer a tus invitados.*

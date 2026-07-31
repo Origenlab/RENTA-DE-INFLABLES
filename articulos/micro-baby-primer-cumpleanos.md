@@ -10,7 +10,7 @@ Hay un momento que ningún papá ni ninguna mamá olvida: cuando te das cuenta d
 
 La verdad, que muy pocos te dirán abiertamente, es que el primer cumpleaños es un rito de paso para los papás. Es la forma en que la familia procesa un año entero de amor desmedido, de noches sin dormir, de aprender a ser personas nuevas. Es la fiesta en la que los abuelos lloran, los tíos se reúnen después de meses, y tú te permites por primera vez mirar a tu hijo y sentir que llegaste al otro lado. Merece ser perfecta. O al menos, merece no tener los problemas equivocados.
 
-Uno de esos problemas — pequeño pero sorprendentemente común — es elegir mal el entretenimiento para los niños. Un inflable demasiado grande para un bebé de un año no es solo inapropiado: puede ser un dolor de cabeza logístico y, en el peor caso, un riesgo. El Micro Baby de INFLAFI existe exactamente para ese espacio: el inflable que fue diseñado desde cero para los más pequeños, que cabe en interiores, que se monta en menos de cinco minutos y que, invariablemente, termina siendo el rincón más fotografiado de toda la fiesta.
+Uno de esos problemas — pequeño pero sorprendentemente común — es elegir mal el entretenimiento para los niños. Un inflable demasiado grande para un bebé de un año no es solo inapropiado: puede ser un dolor de cabeza logístico y, en el peor caso, un riesgo. El Micro Baby de DENFLAB existe exactamente para ese espacio: el inflable que fue diseñado desde cero para los más pequeños, que cabe en interiores, que se monta en menos de cinco minutos y que, invariablemente, termina siendo el rincón más fotografiado de toda la fiesta.
 
 ---
 
@@ -40,7 +40,7 @@ Cada una de esas decisiones de diseño tiene una razón de seguridad. No son car
 
 | Opción | Costo aproximado | Seguridad para 1–4 años | Espacio requerido | Adecuación por edad | Montaje / logística | Nota clave |
 |---|---|---|---|---|---|---|
-| **Micro Baby (INFLAFI)** | Incluido en renta | Alta — diseño específico para la edad | 3×3 m mínimo (funciona en interiores) | Óptima (1–4 años) | 5 min, incluido en el servicio | Único modelo apto para interiores del catálogo |
+| **Micro Baby (DENFLAB)** | Incluido en renta | Alta — diseño específico para la edad | 3×3 m mínimo (funciona en interiores) | Óptima (1–4 años) | 5 min, incluido en el servicio | Único modelo apto para interiores del catálogo |
 | **Inflable estándar / castillo mediano** | Precio similar o mayor | Baja para menores de 4 años | 6×6 m o más, solo exteriores | Diseñado para 5+ años | 20–40 min, requiere anclas y espacio abierto | Riesgo real por rebote y visibilidad limitada |
 | **Pelotero de plástico rentado** | Similar | Media — depende del mantenimiento | 2×2 m | Aceptable para 1–3 años | Sin montaje, solo colocación | Bolas difíciles de higienizar; no dinámico |
 | **Área de juegos de foam / tapetes** | Más bajo | Alta — sin movimiento | Variable | Buena para 0–2 años | Simple, sin instalación | Pasivo; los niños pierden interés rápido |
@@ -55,7 +55,7 @@ Cada una de esas decisiones de diseño tiene una razón de seguridad. No son car
 
 Cuando un papá o una mamá ve el Micro Baby por primera vez, la reacción más común es: "Es adorable, pero ¿es seguro?" La pregunta es completamente válida, y la respuesta está en los detalles de construcción que no siempre son visibles a primera vista.
 
-**El material.** El lona de PVC de alta densidad que se usa en inflables de calidad no es el mismo material de los inflables de alberca que compras en el supermercado. Es una tela estructural con costuras de triple refuerzo que soporta presión constante y temperatura variable. El Micro Baby, como todos los modelos de INFLAFI, está fabricado con materiales que cumplen estándares de resistencia pensados para uso comercial repetido, no para un solo uso doméstico.
+**El material.** El lona de PVC de alta densidad que se usa en inflables de calidad no es el mismo material de los inflables de alberca que compras en el supermercado. Es una tela estructural con costuras de triple refuerzo que soporta presión constante y temperatura variable. El Micro Baby, como todos los modelos de DENFLAB, está fabricado con materiales que cumplen estándares de resistencia pensados para uso comercial repetido, no para un solo uso doméstico.
 
 **El soplador continuo.** A diferencia de los inflables de agua que se inflan una sola vez y se sellan, los inflables de salto mantienen su estructura mediante un flujo de aire constante. Esto significa que una pequeña rasgadura no produce un colapso súbito: el inflable simplemente pierde presión de forma gradual y visible. El soplador del Micro Baby opera a 100 W de forma continua durante toda la renta de 4 horas.
 
@@ -81,7 +81,7 @@ Cuando un papá o una mamá ve el Micro Baby por primera vez, la reacción más 
 | Toma eléctrica requerida | 110 V estándar | Cualquier contacto doméstico. Sin extensiones industriales |
 | Anclas externas | No requeridas | Ideal para piso de mármol, madera, tapete o cualquier interior |
 | Duración estándar de renta | 4 horas | Cubre el arco completo de una fiesta infantil: llegada, juego, pastel, despedida |
-| Uso en interiores | Permitido y recomendado | Único modelo del catálogo INFLAFI apto para interiores |
+| Uso en interiores | Permitido y recomendado | Único modelo del catálogo DENFLAB apto para interiores |
 
 ---
 
@@ -105,17 +105,17 @@ Las bodas largas — aquellas que empiezan a mediodía y terminan a medianoche �
 
 ### 5. La Fiesta con Mezcla de Edades: El Gran Reto Logístico
 
-Cuando los niños invitados tienen entre 1 y 10 años, el desafío es diseñar el entretenimiento para que cada rango de edad tenga algo apropiado. El Micro Baby resuelve el extremo inferior: los más pequeños tienen su espacio exclusivo, a su escala, con sus reglas. Los niños mayores entienden rápidamente que ese inflable "no es para ellos" porque no caben cómodamente — la escala del diseño comunica el límite de edad sin que el adulto tenga que repetirlo constantemente. Se puede complementar con otro inflable del catálogo INFLAFI para los niños de 5 años en adelante; la [comparativa Micro Baby vs. inflables medianos](/blog/micro-baby-vs-inflables-medianos) explica exactamente cuándo conviene cada configuración.
+Cuando los niños invitados tienen entre 1 y 10 años, el desafío es diseñar el entretenimiento para que cada rango de edad tenga algo apropiado. El Micro Baby resuelve el extremo inferior: los más pequeños tienen su espacio exclusivo, a su escala, con sus reglas. Los niños mayores entienden rápidamente que ese inflable "no es para ellos" porque no caben cómodamente — la escala del diseño comunica el límite de edad sin que el adulto tenga que repetirlo constantemente. Se puede complementar con otro inflable del catálogo DENFLAB para los niños de 5 años en adelante; la [comparativa Micro Baby vs. inflables medianos](/blog/micro-baby-vs-inflables-medianos) explica exactamente cuándo conviene cada configuración.
 
 ### 6. El Primer Cumpleaños en Salón Rentado
 
-Cuando la fiesta es en un salón de eventos, el Micro Baby es el detalle que separa una fiesta bien pensada de una fiesta genérica. Los salones tienen espacio, pero rara vez tienen entretenimiento activo para los más pequeños incluido en el paquete base. Rentar el Micro Baby y llevarlo al salón es sencillo: el equipo de INFLAFI se coordina con el staff del salón, lo ubica en la zona infantil designada y lo retira al final. El salón gana, los papás ganan, los niños ganan.
+Cuando la fiesta es en un salón de eventos, el Micro Baby es el detalle que separa una fiesta bien pensada de una fiesta genérica. Los salones tienen espacio, pero rara vez tienen entretenimiento activo para los más pequeños incluido en el paquete base. Rentar el Micro Baby y llevarlo al salón es sencillo: el equipo de DENFLAB se coordina con el staff del salón, lo ubica en la zona infantil designada y lo retira al final. El salón gana, los papás ganan, los niños ganan.
 
 ---
 
 ## La Experiencia del Día: Cómo Transcurre una Fiesta con el Micro Baby
 
-Las 10:30 de la mañana. Llegan dos personas del equipo de INFLAFI con el Micro Baby doblado en una bolsa de transporte. Buscan el contacto eléctrico más cercano al área designada, colocan el inflable en el piso, conectan el soplador y en menos de cinco minutos el Micro Baby está completamente inflado y listo. Todo esto sucede mientras tú todavía estás acomodando los centros de mesa y antes de que llegue el primer invitado.
+Las 10:30 de la mañana. Llegan dos personas del equipo de DENFLAB con el Micro Baby doblado en una bolsa de transporte. Buscan el contacto eléctrico más cercano al área designada, colocan el inflable en el piso, conectan el soplador y en menos de cinco minutos el Micro Baby está completamente inflado y listo. Todo esto sucede mientras tú todavía estás acomodando los centros de mesa y antes de que llegue el primer invitado.
 
 A las 11:30, cuando empiezan a llegar los primeros primos pequeños, el Micro Baby ya lleva una hora inflado. Los niños de 2 y 3 años lo ven desde la entrada y, sin que nadie les diga nada, caminan directamente hacia él. La primera reacción siempre es la misma: ponen una mano sobre la superficie para sentir la textura, luego meten la cabeza por la entrada, luego el cuerpo completo. En menos de un minuto, el primer niño ya está adentro saltando.
 
@@ -125,7 +125,7 @@ Durante las siguientes dos o tres horas, el Micro Baby funciona como un imán na
 
 Cuando llega el momento del pastel, el soplador del Micro Baby sigue funcionando silenciosamente en el fondo. No interrumpe las mañanitas, no compite con la música, no distrae de las fotos del pastel. Es un mueble más de la fiesta, excepto que este mueble hace felices a todos los niños.
 
-Al final del evento, el equipo de INFLAFI regresa, desconecta el soplador, el inflable pierde aire en cuestión de minutos, lo doblan, lo guardan en la bolsa y se van. Tú ni siquiera tienes que estar pendiente de eso: el equipo sabe exactamente qué hacer y lo hace solo.
+Al final del evento, el equipo de DENFLAB regresa, desconecta el soplador, el inflable pierde aire en cuestión de minutos, lo doblan, lo guardan en la bolsa y se van. Tú ni siquiera tienes que estar pendiente de eso: el equipo sabe exactamente qué hacer y lo hace solo.
 
 ---
 
@@ -152,9 +152,9 @@ Esta es la tabla más honesta del artículo. Son las dudas reales, las que apare
 | La pregunta real | La respuesta honesta |
 |---|---|
 | "¿Y si mi bebé le tiene miedo?" | Es completamente normal. Algunos bebés necesitan 5 minutos de observación antes de entrar. Siéntate con él en la entrada, métete tú primero si es necesario. En el 95% de los casos, cuando ven a otro niño adentro, entran solos. |
-| "¿Qué pasa si el bebé vomita adentro?" | Sucede. El material es impermeable y limpiable. El equipo de INFLAFI lo sabe y no es ningún drama. Si pasa, avísale a quien coordina el servicio ese día. |
+| "¿Qué pasa si el bebé vomita adentro?" | Sucede. El material es impermeable y limpiable. El equipo de DENFLAB lo sabe y no es ningún drama. Si pasa, avísale a quien coordina el servicio ese día. |
 | "¿Puedo meter al bebé aunque todavía no camina?" | Sí, con supervisión directa. Un bebé que gatea puede estar adentro si hay un adulto sentado junto a él en todo momento. El espacio es pequeño y seguro para eso. |
-| "¿Qué pasa si el inflable se desinfla?" | El soplador mantiene el inflado de forma continua. Si hubiera algún problema con el equipo, el inflable pierde presión gradualmente — nunca colapsa de golpe. INFLAFI tiene protocolo de atención el mismo día. |
+| "¿Qué pasa si el inflable se desinfla?" | El soplador mantiene el inflado de forma continua. Si hubiera algún problema con el equipo, el inflable pierde presión gradualmente — nunca colapsa de golpe. DENFLAB tiene protocolo de atención el mismo día. |
 | "¿Se puede mojar con agua de lluvia?" | El Micro Baby es para uso en interiores preferentemente. Si hay lluvia, hay que retirarlo o cubrirlo. El equipo te da las indicaciones al momento de montaje. |
 | "¿Los niños más grandes van a querer meterse y hacerle algo al bebé?" | Es el escenario que más preocupa y el más fácil de resolver: un adulto asignado a la zona del Micro Baby con instrucción clara de que es solo para los pequeños. El tamaño del inflable ayuda: los niños de 6+ años no caben cómodamente. |
 | "¿Vale la pena si el bebé solo va a estar 20 minutos adentro?" | El Micro Baby no es solo para el homenajeado. Es para todos los niños de 1 a 4 años que vengan a la fiesta. Si hay 4 niños en ese rango, el inflable va a estar ocupado durante 2 horas seguidas. |
@@ -174,7 +174,7 @@ Aquí van los consejos de insider que solo salen de haber organizado muchas fies
 
 **Saca fotos también cuando está vacío.** Un Micro Baby vacío y perfectamente inflado, con la decoración de la fiesta alrededor, es una foto hermosa para el álbum. Tómala antes de que empiecen los niños.
 
-**El horario de entrega es con margen.** El equipo de INFLAFI llega con tiempo antes del inicio de la fiesta para que el inflable esté listo cuando lleguen los primeros invitados. Coordina la hora de llegada al momento de confirmar.
+**El horario de entrega es con margen.** El equipo de DENFLAB llega con tiempo antes del inicio de la fiesta para que el inflable esté listo cuando lleguen los primeros invitados. Coordina la hora de llegada al momento de confirmar.
 
 ---
 
@@ -182,7 +182,7 @@ Aquí van los consejos de insider que solo salen de haber organizado muchas fies
 
 **Alejandra R. — Colonia Narvarte, CDMX**
 
-"Estábamos completamente perdidos con el primer cumpleaños de Mateo. Rentamos un departamento grande en Narvarte, teníamos como 15 niños de distintas edades y no sabíamos qué hacer con los más chiquitos. Mi cuñada me recomendó el Micro Baby de INFLAFI. Honestamente, lo que más me sorprendió fue el montaje: llegaron, conectaron y en cuatro minutos estaba listo. Mateo tardó como diez minutos en animarse a entrar, pero cuando entró su prima Sofía, que tiene tres años, él fue solito. Esa foto de los dos adentro juntos es mi fondo de pantalla desde ese día."
+"Estábamos completamente perdidos con el primer cumpleaños de Mateo. Rentamos un departamento grande en Narvarte, teníamos como 15 niños de distintas edades y no sabíamos qué hacer con los más chiquitos. Mi cuñada me recomendó el Micro Baby de DENFLAB. Honestamente, lo que más me sorprendió fue el montaje: llegaron, conectaron y en cuatro minutos estaba listo. Mateo tardó como diez minutos en animarse a entrar, pero cuando entró su prima Sofía, que tiene tres años, él fue solito. Esa foto de los dos adentro juntos es mi fondo de pantalla desde ese día."
 
 **Carlos y Daniela M. — Colonia Polanco, CDMX**
 
@@ -194,11 +194,11 @@ Aquí van los consejos de insider que solo salen de haber organizado muchas fies
 
 ---
 
-## Cómo Combinar el Micro Baby con Otros Servicios INFLAFI
+## Cómo Combinar el Micro Baby con Otros Servicios DENFLAB
 
 El Micro Baby no tiene que ser el único elemento de entretenimiento. Estas combinaciones funcionan especialmente bien:
 
-**Micro Baby + inflable mediano para niños mayores.** Si tu lista de invitados incluye niños de 5 a 10 años, un segundo inflable del catálogo INFLAFI para ese rango de edad resuelve la ecuación completa. Cada rango tiene su espacio, nadie compite, los papás están tranquilos.
+**Micro Baby + inflable mediano para niños mayores.** Si tu lista de invitados incluye niños de 5 a 10 años, un segundo inflable del catálogo DENFLAB para ese rango de edad resuelve la ecuación completa. Cada rango tiene su espacio, nadie compite, los papás están tranquilos.
 
 **Micro Baby como zona designada dentro de un evento mayor.** En bodas o quince años con muchos niños pequeños, el Micro Baby puede ser la "zona baby" oficial del evento, delimitada con tapetes de foam alrededor para suavizar el perímetro.
 
@@ -220,7 +220,7 @@ Tu hijo merece el inflable correcto. Y los papás que ya investigaron saben que 
 
 ## Reserva tu Micro Baby para el Primer Cumpleaños
 
-El equipo de INFLAFI está disponible para resolver todas tus dudas, confirmar disponibilidad en tu fecha y coordinar todos los detalles de entrega, montaje y desmontaje — incluidos en el servicio, sin costo adicional.
+El equipo de DENFLAB está disponible para resolver todas tus dudas, confirmar disponibilidad en tu fecha y coordinar todos los detalles de entrega, montaje y desmontaje — incluidos en el servicio, sin costo adicional.
 
 **Anticipo del 30% para reservar tu fecha. El 70% restante el día del evento.**
 
@@ -256,4 +256,4 @@ Cuéntanos la fecha, la colonia y cuántos niños pequeños esperan. El equipo t
 
 ---
 
-*INFLAFI — Renta de Inflables CDMX | Entrega, montaje y desmontaje siempre incluidos*
+*DENFLAB — Renta de Inflables CDMX | Entrega, montaje y desmontaje siempre incluidos*

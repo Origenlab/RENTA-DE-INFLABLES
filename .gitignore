@@ -79,3 +79,4 @@ node_modules/.vite/
 # worktrees: copias de trabajo, nunca se versionan
 .worktrees/
 .claude/worktrees/
+_to_delete/

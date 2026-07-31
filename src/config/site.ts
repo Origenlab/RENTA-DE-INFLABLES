@@ -1,19 +1,19 @@
-// site.ts — SSoT (Single Source of Truth) de INFLAFI / renta-de-inflables.com
+// site.ts — SSoT (Single Source of Truth) de DENFLAB / renta-de-inflables.com
 // ============================================================================
 // FUENTE ÚNICA DE VERDAD. Todo dato que aparezca en más de una página vive aquí.
 // Contrato canónico: interoperable con src/lib/seo.ts, layouts y componentes.
 // ============================================================================
 
 export const SITE = {
-  name: 'INFLAFI',
-  brand: 'INFLAFI',
-  tagline: 'Castillos saltarines, toboganes e inflables para tu fiesta en CDMX',
+  name: 'DENFLAB',
+  brand: 'DENFLAB',
+  tagline: 'DENFLAB · Más de 30 años rentando inflables para fiestas en CDMX',
   domain: 'renta-de-inflables.com',
   url: 'https://renta-de-inflables.com',
   lang: 'es-MX',
   locale: 'es-MX',
   description:
-    'Renta de inflables en CDMX — castillos saltarines, toboganes y juegos inflables para fiestas infantiles, bodas y eventos corporativos. Entrega, montaje y desmontaje incluidos.',
+    'DENFLAB — más de 30 años de experiencia en renta de inflables en CDMX. Castillos saltarines, toboganes y juegos inflables para fiestas infantiles, bodas y eventos corporativos. Entrega, montaje y desmontaje incluidos.',
   defaultImage: '/images/og/default.jpg',
 
   trailingSlash: 'never' as 'never' | 'always',
@@ -21,9 +21,9 @@ export const SITE = {
   allowSelfReviews: false,
 
   seo: {
-    title: 'Renta de inflables CDMX | castillos saltarines | toboganes',
+    title: 'Renta de inflables CDMX | +30 años | DENFLAB',
     description:
-      'Renta de inflables en CDMX — castillos saltarines, toboganes y juegos inflables para fiestas infantiles, bodas y eventos. Entrega y montaje incluidos.',
+      'DENFLAB: más de 30 años rentando inflables en CDMX. Castillos saltarines, toboganes y juegos inflables para fiestas, bodas y eventos. Entrega y montaje incluidos.',
     image: '/images/og/default.jpg',
     titleMaxLength: 60,
     descriptionMaxLength: 160,
@@ -32,17 +32,18 @@ export const SITE = {
 
   social: {
     twitter: undefined as string | undefined,
-    facebook: 'https://www.facebook.com/inflafi' as string | undefined,
-    instagram: 'https://www.instagram.com/inflafi' as string | undefined,
+    facebook: undefined as string | undefined,
+    instagram: undefined as string | undefined,
     linkedin: undefined as string | undefined,
     youtube: undefined as string | undefined,
   },
 
   organization: {
-    name: 'INFLAFI',
-    legalName: 'INFLAFI Renta de Inflables',
+    name: 'DENFLAB',
+    legalName: 'DENFLAB Renta de Inflables',
+    slogan: 'Más de 30 años de experiencia en renta de inflables',
     logo: '/images/brand/logo.webp',
-    foundingDate: '2020',
+    foundingDate: '1995',
     sameAs: [] as string[],
   },
 
@@ -81,6 +82,19 @@ export const KEYWORDS = [
   'castillos saltarines',        // kw2 · secundaria
   'inflables para fiestas',      // kw3 · variante / long-tail
 ] as const;
+
+// ── EXPERIENCE — trayectoria de marca (SSoT del claim de antigüedad) ─────────
+// REGLA DURA: nunca hardcodear "30 años" en una página. Siempre EXPERIENCE.*
+export const EXPERIENCE = {
+  since: 1995,
+  years: 30,
+  short: '+30 años',
+  label: 'Más de 30 años de experiencia',
+  claim: 'Más de 30 años de experiencia en la renta de inflables',
+  sentence:
+    'DENFLAB lleva más de 30 años rentando inflables para fiestas en la Ciudad de México — desde 1995.',
+  badge: 'Desde 1995 · +30 años de experiencia',
+} as const;
 
 // ── CONTACT — NAP ─────────────────────────────────────────────────────────────
 export const CONTACT = {
@@ -186,8 +200,7 @@ export const BRANCHES: { label: string; address: string; mapsUrl?: string }[] = 
 // ── SOCIAL — redes sociales ───────────────────────────────────────────────────
 export type SocialNetwork = 'instagram' | 'facebook' | 'linkedin' | 'youtube' | 'x' | 'tiktok';
 export const SOCIAL: { network: SocialNetwork; label: string; url: string }[] = [
-  { network: 'facebook',  label: 'Facebook',  url: 'https://www.facebook.com/inflafi' },
-  { network: 'instagram', label: 'Instagram', url: 'https://www.instagram.com/inflafi' },
+  // Pendiente: perfiles oficiales DENFLAB. No publicar URLs hasta que existan.
 ];
 
 // ── LEGAL — enlaces legales del Footer ────────────────────────────────────────

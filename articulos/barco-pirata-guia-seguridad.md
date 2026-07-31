@@ -1,5 +1,5 @@
 ---
-title: "Guía de Seguridad del Barco Pirata: Cómo Operar el Inflable Más Grande de INFLAFI en CDMX"
+title: "Guía de Seguridad del Barco Pirata: Cómo Operar el Inflable Más Grande de DENFLAB en CDMX"
 description: "El momento más peligroso de una fiesta con el Barco Pirata no es el que te imaginas. No es un niño brincando demasiado fuerte, ni una bajada torpe, ni un tropiezo en la entrada."
 model: "Barco Pirata"
 category: grandes
@@ -33,12 +33,12 @@ La regla operativa que resuelve la paradoja es simple y hay que decidirla antes 
 | **Elementos decorativos** | Mástil y cañones integrados | Son parte de la estructura inflada: no se cuelga nada de ellos ni se usan para trepar por fuera |
 | **Categoría** | Grande | Requiere holgura perimetral libre en todo el contorno para circulación y evacuación rápida |
 | **Uso** | Solo exterior | La altura y el soplador lo hacen inviable en interiores; superficie plana y despejada |
-| **Anclaje** | Múltiple, perimetral | Instalado y verificado por el equipo de INFLAFI; más puntos de sujeción que los formatos menores |
+| **Anclaje** | Múltiple, perimetral | Instalado y verificado por el equipo de DENFLAB; más puntos de sujeción que los formatos menores |
 | **Soplador** | 110 V, encendido continuo | La firmeza de la superficie depende de presión constante; toma de corriente accesible obligatoria |
 | **Clima** | Suspensión con lluvia o viento fuerte | Sus 7 metros presentan más superficie al viento que ningún otro modelo: el protocolo de viento es estricto |
 | **Supervisión recomendada** | 2 adultos en eventos numerosos | Uno gestiona entrada y turnos, otro vigila el interior y el perímetro |
 
-> **Nota sobre la fuente de estos datos:** la capacidad de 6 a 8 niños es la especificación oficial de catálogo del Barco Pirata. Si encuentras referencias con cifras mayores, quédate con esta: es la que corresponde al modelo actual y la que el protocolo de seguridad de INFLAFI aplica. En seguridad infantil, ante dos números, siempre gana el conservador.
+> **Nota sobre la fuente de estos datos:** la capacidad de 6 a 8 niños es la especificación oficial de catálogo del Barco Pirata. Si encuentras referencias con cifras mayores, quédate con esta: es la que corresponde al modelo actual y la que el protocolo de seguridad de DENFLAB aplica. En seguridad infantil, ante dos números, siempre gana el conservador.
 
 ---
 
@@ -54,7 +54,7 @@ Dos reglas hacen que cualquier sistema de turnos funcione. Primera: el turno ter
 
 ## Holgura Perimetral: el Espacio Alrededor Es Parte del Inflable
 
-Cuando el equipo de INFLAFI dice que el Barco Pirata necesita más espacio que sus 7 × 3 metros, no está siendo exigente por deporte: está describiendo cómo funciona la seguridad de un inflable en uso. El perímetro libre alrededor de la estructura cumple tres funciones simultáneas que desaparecen cuando el barco se instala "al ras" de bardas y muebles.
+Cuando el equipo de DENFLAB dice que el Barco Pirata necesita más espacio que sus 7 × 3 metros, no está siendo exigente por deporte: está describiendo cómo funciona la seguridad de un inflable en uso. El perímetro libre alrededor de la estructura cumple tres funciones simultáneas que desaparecen cuando el barco se instala "al ras" de bardas y muebles.
 
 Primera función: **amortiguar las salidas**. Los niños no salen del inflable caminando con compostura — salen en carrera, emocionados, a veces de espaldas gritándole algo a un amigo que sigue adentro. Ese medio metro largo de trayectoria de frenado necesita estar libre de macetas, sillas y aristas. Segunda: **permitir la vuelta completa del supervisor**. Un adulto debe poder caminar alrededor del barco entero sin obstáculos, porque los siete metros de eslora crean zonas ciegas si solo se vigila desde un punto — lo que ocurre del otro lado del casco simplemente no se ve. Tercera: **despejar la ruta de evacuación rápida**. En el escenario improbable de que haya que vaciar el inflable con urgencia (un chubasco repentino, un niño golpeado adentro), el perímetro libre es lo que permite sacar a ocho niños en segundos y sin tropiezos.
 
@@ -64,9 +64,9 @@ La verificación práctica es sencilla: después del montaje, camina tú mismo l
 
 ## Anclaje Múltiple: la Ingeniería Silenciosa que Sostiene la Fiesta
 
-De todos los componentes de seguridad del Barco Pirata, el anclaje es el que menos se ve y el que más trabaja. Un inflable de 7 metros con niños corriendo adentro genera fuerzas dinámicas considerables — cada arrancón colectivo hacia la proa empuja la estructura, cada racha de viento la carga de lado — y el sistema de anclaje múltiple existe para convertir todas esas fuerzas en nada. El equipo de INFLAFI instala más puntos de sujeción perimetral en este modelo que en los formatos menores, precisamente porque la longitud de la estructura reparte los esfuerzos en más frentes, y verifica el sistema completo antes de entregar el inflable operando.
+De todos los componentes de seguridad del Barco Pirata, el anclaje es el que menos se ve y el que más trabaja. Un inflable de 7 metros con niños corriendo adentro genera fuerzas dinámicas considerables — cada arrancón colectivo hacia la proa empuja la estructura, cada racha de viento la carga de lado — y el sistema de anclaje múltiple existe para convertir todas esas fuerzas en nada. El equipo de DENFLAB instala más puntos de sujeción perimetral en este modelo que en los formatos menores, precisamente porque la longitud de la estructura reparte los esfuerzos en más frentes, y verifica el sistema completo antes de entregar el inflable operando.
 
-Lo que el anfitrión debe saber del anclaje cabe en tres reglas. **Regla uno: no se toca.** Ningún punto de sujeción se afloja, se "mejora" ni se reubica durante el evento, aunque parezca estorbar para pasar una mesa. Si algo estorba, se mueve la mesa. **Regla dos: no se carga.** El mástil y la estructura del barco no son postes para colgar piñatas, series de luces ni lonas de "Feliz Cumpleaños" — cualquier carga externa altera la distribución de fuerzas para la que el anclaje fue calculado. La decoración pirata va alrededor del inflable, nunca sobre él (hay un capítulo entero sobre cómo hacerlo bien en la [guía de decoración de fiesta pirata](/blog/barco-pirata-decoracion-fiesta)). **Regla tres: se reporta.** Si en cualquier momento un punto de anclaje se ve suelto, desplazado o deformado, se vacía el inflable y se llama a INFLAFI. El ajuste suele ser cuestión de minutos, pero se hace sin niños adentro, siempre.
+Lo que el anfitrión debe saber del anclaje cabe en tres reglas. **Regla uno: no se toca.** Ningún punto de sujeción se afloja, se "mejora" ni se reubica durante el evento, aunque parezca estorbar para pasar una mesa. Si algo estorba, se mueve la mesa. **Regla dos: no se carga.** El mástil y la estructura del barco no son postes para colgar piñatas, series de luces ni lonas de "Feliz Cumpleaños" — cualquier carga externa altera la distribución de fuerzas para la que el anclaje fue calculado. La decoración pirata va alrededor del inflable, nunca sobre él (hay un capítulo entero sobre cómo hacerlo bien en la [guía de decoración de fiesta pirata](/blog/barco-pirata-decoracion-fiesta)). **Regla tres: se reporta.** Si en cualquier momento un punto de anclaje se ve suelto, desplazado o deformado, se vacía el inflable y se llama a DENFLAB. El ajuste suele ser cuestión de minutos, pero se hace sin niños adentro, siempre.
 
 ---
 
@@ -99,20 +99,20 @@ Un apunte sobre el relevo, que es donde los buenos esquemas fallan: cuatro horas
 | **Cubierta / interior** | Capacidad respetada; sin trepar el mástil ni los cañones | Colisiones en carrera y caídas desde elementos decorativos | Supervisor de perímetro | Mástil y cañones son escenografía inflada, no juegos de escalada |
 | **Popa (extremo lejano)** | Vigilancia móvil con pasadas frecuentes | Zona ciega: juegos bruscos sin testigos adultos | Supervisor de perímetro | Los 7 metros crean el punto ciego más grande del catálogo: caminarlo es la única solución |
 | **Perímetro completo** | Despejado en todo el contorno; ronda cada 30–60 min | Golpes en salidas de carrera y obstáculos de evacuación | Supervisor de perímetro | Sillas y mochilas migran hacia el inflable durante la fiesta: hay que regresarlas |
-| **Anclaje** | No se toca, no se carga, se reporta | Pérdida de estabilidad estructural | Ambos supervisores | Cualquier punto suelto: inflable vacío primero, llamada a INFLAFI después |
+| **Anclaje** | No se toca, no se carga, se reporta | Pérdida de estabilidad estructural | Ambos supervisores | Cualquier punto suelto: inflable vacío primero, llamada a DENFLAB después |
 | **Cielo y clima** | Lluvia activa o viento fuerte = inflable vacío | Superficie resbalosa y carga de viento sobre 7 m de estructura | Primer adulto que lo detecte | En este modelo el protocolo de viento no se negocia: es el de mayor superficie expuesta |
 
 ---
 
 ## Puesta en Marcha: los 7 Pasos del Anfitrión el Día del Evento
 
-1. **Recibe el montaje y camina la verificación con el equipo.** El equipo de INFLAFI instala, ancla y verifica; acompáñalos en la vuelta final. Es el momento de preguntar todo y de conocer los puntos de anclaje que después vas a vigilar.
+1. **Recibe el montaje y camina la verificación con el equipo.** El equipo de DENFLAB instala, ancla y verifica; acompáñalos en la vuelta final. Es el momento de preguntar todo y de conocer los puntos de anclaje que después vas a vigilar.
 2. **Camina tú solo la vuelta perimetral completa.** Si pasas sin esquivar nada, el perímetro está listo. Lo que estorbe ahora, estorbará más con veinte niños corriendo.
 3. **Define los dos puestos de supervisión y el calendario de relevos.** Nombres, horarios, traspasos. Cinco minutos de organización que gobiernan cuatro horas de fiesta.
 4. **Coloca la infraestructura de apoyo:** canasta de zapatos junto a la entrada, mesa de agua a unos metros de la salida, silbato colgado del cuello del supervisor de entrada.
 5. **Haz el briefing con los niños frente al barco, antes del primer turno.** Las reglas del barco en cuatro frases: se entra por turnos y sin zapatos, no se trepa el mástil ni los cañones, no se empuja en cubierta, y cuando suena el silbato se cambia de tripulación. Pídeles el "¡Aargh!" de aceptación — con temática pirata, hasta el briefing puede ser parte del juego.
 6. **Arranca los turnos con la lista hablada.** El primer turno define la cultura del resto de la tarde: hazlo impecable — grupo contado, cambio completo, señal clara — y todos los siguientes se administran casi solos.
-7. **Cierra el inflable durante pastel y piñata, y antes del desmontaje.** El barco se declara "anclado en puerto" cuando la fiesta se concentra en otra parte, y la tripulación desembarca completa antes de que llegue el equipo de INFLAFI a desmontar.
+7. **Cierra el inflable durante pastel y piñata, y antes del desmontaje.** El barco se declara "anclado en puerto" cuando la fiesta se concentra en otra parte, y la tripulación desembarca completa antes de que llegue el equipo de DENFLAB a desmontar.
 
 ---
 
@@ -152,7 +152,7 @@ Para aterrizar el sistema de turnos en números concretos, este es un cronograma
 
 ### Antes del evento
 
-- [ ] Medidas del jardín confirmadas con INFLAFI al reservar (largo real con holgura)
+- [ ] Medidas del jardín confirmadas con DENFLAB al reservar (largo real con holgura)
 - [ ] Toma de corriente de 110 V verificada cerca del punto de instalación
 - [ ] Dos supervisores designados y calendario de relevos armado
 - [ ] Silbato, canasta de zapatos y "armería pirata" para accesorios duros preparados
@@ -160,7 +160,7 @@ Para aterrizar el sistema de turnos en números concretos, este es un cronograma
 
 ### Tras el montaje
 
-- [ ] Verificación final acompañada con el equipo de INFLAFI
+- [ ] Verificación final acompañada con el equipo de DENFLAB
 - [ ] Vuelta perimetral completa caminada sin obstáculos
 - [ ] Lista de turnos armada por grupos de 6–8 (y por edades si el rango es amplio)
 
@@ -201,7 +201,7 @@ Para fiestas de hasta 15 niños, un adulto dedicado bien posicionado es suficien
 
 ### ¿Qué hago exactamente si se levanta viento a media fiesta?
 
-Se aplica el protocolo sin deliberación: el primer adulto que detecte viento fuerte y sostenido (ramas medianas agitándose con violencia, manteles volando) anuncia el cambio de turno final, se vacía el inflable completo y se espera. El Barco Pirata es el modelo con mayor superficie expuesta al viento del catálogo y su protocolo es deliberadamente el más estricto. Cuando el viento baja, se verifica visualmente el anclaje y se reanudan los turnos. Ante cualquier duda, una llamada a INFLAFI resuelve en minutos.
+Se aplica el protocolo sin deliberación: el primer adulto que detecte viento fuerte y sostenido (ramas medianas agitándose con violencia, manteles volando) anuncia el cambio de turno final, se vacía el inflable completo y se espera. El Barco Pirata es el modelo con mayor superficie expuesta al viento del catálogo y su protocolo es deliberadamente el más estricto. Cuando el viento baja, se verifica visualmente el anclaje y se reanudan los turnos. Ante cualquier duda, una llamada a DENFLAB resuelve en minutos.
 
 ### ¿El Barco Pirata es seguro para niños de 4 años?
 
@@ -228,9 +228,9 @@ En el énfasis. El protocolo del Barco Pirata gira alrededor de tres particulari
 
 La seguridad del inflable más grande del catálogo empieza con un montaje profesional: anclaje múltiple instalado y verificado, orientación correcta en tu espacio y un equipo que te explica el protocolo en sitio antes de entregarte el barco listo. Todo incluido en la renta, junto con la entrega y el desmontaje. Tú pones los turnos, los dos supervisores y el briefing con "¡Aargh!" incluido.
 
-[**Quiero rentar el Barco Pirata con asesoría de seguridad →**](https://wa.me/5215539048634?text=Hola%20INFLAFI%2C%20quiero%20rentar%20el%20Barco%20Pirata%20en%20CDMX%20y%20me%20gustar%C3%ADa%20confirmar%20las%20medidas%20de%20mi%20jard%C3%ADn%2C%20el%20protocolo%20de%20seguridad%20y%20la%20disponibilidad%20de%20mi%20fecha.%20%C2%BFMe%20dan%20informes%3F)
+[**Quiero rentar el Barco Pirata con asesoría de seguridad →**](https://wa.me/5215539048634?text=Hola%20DENFLAB%2C%20quiero%20rentar%20el%20Barco%20Pirata%20en%20CDMX%20y%20me%20gustar%C3%ADa%20confirmar%20las%20medidas%20de%20mi%20jard%C3%ADn%2C%20el%20protocolo%20de%20seguridad%20y%20la%20disponibilidad%20de%20mi%20fecha.%20%C2%BFMe%20dan%20informes%3F)
 
-**INFLAFI** · WhatsApp: 52 1 55 3904 8634 · contacto@renta-de-inflables.com
+**DENFLAB** · WhatsApp: 52 1 55 3904 8634 · contacto@renta-de-inflables.com
 Cobertura en toda la CDMX: Polanco, Lomas, Santa Fe, Coyoacán, Del Valle, Tlalpan, Nápoles, Pedregal y colonias aledañas.
 
 *Siete metros de aventura pirata operados con método: turnos de 6 a 8, supervisión doble y protocolo de viento. Así se ve una fiesta grande sin un solo susto.*

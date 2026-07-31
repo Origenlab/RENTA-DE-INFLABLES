@@ -11,7 +11,7 @@ Hay una tarde que ningún papá olvida. Tu hijo tenía cinco años, quizás seis
 
 Pero los niños crecen. Y con el crecimiento llega algo que los adultos muchas veces subestimamos: la necesidad de ser desafiados. No de manera peligrosa ni irresponsable, sino genuinamente — con riesgo calculado, con una sensación de logro real, con la adrenalina que solo surge cuando uno se lanza a algo que da un poco de miedo y sale victorioso. Alrededor de los siete u ocho años, el simple brinco deja de ser suficiente. Los niños empiezan a buscar la altura, la velocidad, el obstáculo que superar, la prueba que pasar. Y si la fiesta no les da eso, simplemente la abandonan.
 
-El Extrem nació exactamente de esa brecha. Es el inflable más completo del catálogo INFLAFI, el único modelo grande que integra tobogán real, y está diseñado para niños que ya dejaron atrás la maravilla de solo flotar — niños que ahora quieren volar.
+El Extrem nació exactamente de esa brecha. Es el inflable más completo del catálogo DENFLAB, el único modelo grande que integra tobogán real, y está diseñado para niños que ya dejaron atrás la maravilla de solo flotar — niños que ahora quieren volar.
 
 ---
 
@@ -132,7 +132,7 @@ En eventos institucionales, el Extrem funciona de manera diferente a una fiesta 
 
 **Zona de espera activa:** Crea una zona delimitada para los niños que esperan turno, a no más de 3 metros del inflable. Si los dejas deambular, la fila se desorganiza y los regresos son caóticos. Un perímetro simple con conos o banderines basta.
 
-**Coordinación con INFLAFI:** Para eventos institucionales, es importante coordinar con anticipación el horario de montaje (mínimo 45-60 minutos antes del inicio del evento) y el desmontaje (al final, no durante). El equipo de INFLAFI entrega, instala y retira — ese servicio está incluido en la renta, sin costo adicional.
+**Coordinación con DENFLAB:** Para eventos institucionales, es importante coordinar con anticipación el horario de montaje (mínimo 45-60 minutos antes del inicio del evento) y el desmontaje (al final, no durante). El equipo de DENFLAB entrega, instala y retira — ese servicio está incluido en la renta, sin costo adicional.
 
 ---
 
@@ -180,7 +180,7 @@ Para capturar ese momento, el fotógrafo (o el papá con el celular) necesita po
 > *"Llevábamos tres años rentando inflables para el cumpleaños de Eduardo, y este año con el Extrem fue completamente diferente. El año pasado los niños estaban dentro del inflable máximo cuarenta minutos y luego ya andaban dispersos por el jardín. Con el Extrem, una hora y media después todavía había fila en el tobogán. Eduardo me dijo que fue 'la mejor fiesta que he tenido', y tiene once años. Algo hicimos bien."*
 > — **Fernanda R., Coyoacán** — Cumpleaños de Eduardo, 11 años
 
-> *"Lo renté para la kermés de fin de año de la escuela de mis hijos, en Pedregal. Fue el inflable más grande que tuvimos ese día y también el que tuvo más fila. El equipo de INFLAFI llegó puntual, lo instalaron en menos de una hora, y cuando todo terminó se llevaron todo sin que yo tuviera que hacer nada. Perfecto para eventos donde uno ya tiene suficiente en qué pensar."*
+> *"Lo renté para la kermés de fin de año de la escuela de mis hijos, en Pedregal. Fue el inflable más grande que tuvimos ese día y también el que tuvo más fila. El equipo de DENFLAB llegó puntual, lo instalaron en menos de una hora, y cuando todo terminó se llevaron todo sin que yo tuviera que hacer nada. Perfecto para eventos donde uno ya tiene suficiente en qué pensar."*
 > — **Rodrigo M., Pedregal** — Kermés escolar, ~180 niños
 
 > *"Mi hija cumplió 9 años y quería una fiesta de aventureros. Pusimos el Extrem en el jardín de la casa en Lomas de Chapultepec, lo decoramos con banderines de colores fuertes y unas mesas con mapas del tesoro. El tobogán encajó perfecto con el tema — los niños lo llamaban 'la catarata del tesoro'. Lo que más me sorprendió fue que las niñas usaron el tobogán tanto como los niños, sin ninguna diferencia. Fue un hit total."*
@@ -202,7 +202,7 @@ La diferencia de precio entre un inflable mediano y el Extrem es de unos cuantos
 
 ---
 
-## Combinaciones Premium con Otros Servicios INFLAFI
+## Combinaciones Premium con Otros Servicios DENFLAB
 
 El Extrem funciona extraordinariamente bien como pieza central de un paquete más amplio. Estas son las combinaciones más solicitadas y más efectivas:
 
@@ -212,7 +212,7 @@ El Extrem funciona extraordinariamente bien como pieza central de un paquete má
 
 **Extrem + Castillo Blanco:** Para eventos mixtos en espacios muy grandes (jardines de más de 200 m²), donde quieres una zona activa de alta intensidad (Extrem) y una zona más tranquila y festiva (Castillo Blanco, que funciona bien para decoración y para niños más pequeños que acompañan a hermanos mayores). Si en lugar de combinar estás decidiendo entre los formatos grandes del catálogo, la comparativa [Extrem vs Barco Pirata](/blog/extrem-vs-barco-pirata) resuelve el empate más frecuente.
 
-Para cualquier combinación, el equipo de INFLAFI asesora sobre la distribución óptima del espacio y el flujo de usuarios entre inflables. La coordinación de entrega y montaje de múltiples piezas se hace en una sola visita.
+Para cualquier combinación, el equipo de DENFLAB asesora sobre la distribución óptima del espacio y el flujo de usuarios entre inflables. La coordinación de entrega y montaje de múltiples piezas se hace en una sola visita.
 
 ---
 
@@ -271,4 +271,4 @@ El Extrem es el inflable que los niños de 6 a 14 años recuerdan. La fiesta que
 
 ---
 
-*INFLAFI — Renta de Inflables CDMX. Entrega, montaje y desmontaje incluidos siempre.*
+*DENFLAB — Renta de Inflables CDMX. Entrega, montaje y desmontaje incluidos siempre.*

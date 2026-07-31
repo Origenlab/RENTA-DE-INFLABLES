@@ -11,7 +11,7 @@ Imagina esta escena: son las 11 de la mañana de un sábado, el jardín de tu ca
 
 Eso es lo que compras cuando rentas un inflable de calidad. No metros cuadrados de vinilo inflado. Compras esa fracción de segundo. Compras la cara de tu hijo. Compras el recuerdo que él va a narrar el lunes en la escuela con una precisión que jamás usó para contarte lo que aprendió en clase. "Teníamos un dragón gigante rojo, y podíamos brincar adentro, y era así de grande..." —y sus brazos se abren todo lo que pueden.
 
-En la era del contenido, donde cada fiesta queda documentada en historias y reels, el escenario lo es todo. Pero más allá de la fotografía, hay una verdad que los papás más atentos ya saben: **el escenario define la experiencia**, y la experiencia define el recuerdo. Los Dragones Rojos de INFLAFI no son solo un inflable mediano con buenas dimensiones. Son la pieza central alrededor de la cual se construye una narrativa de aventura, camaradería y magia que los niños de 5 a 10 años no olvidan fácilmente.
+En la era del contenido, donde cada fiesta queda documentada en historias y reels, el escenario lo es todo. Pero más allá de la fotografía, hay una verdad que los papás más atentos ya saben: **el escenario define la experiencia**, y la experiencia define el recuerdo. Los Dragones Rojos de DENFLAB no son solo un inflable mediano con buenas dimensiones. Son la pieza central alrededor de la cual se construye una narrativa de aventura, camaradería y magia que los niños de 5 a 10 años no olvidan fácilmente.
 
 ---
 
@@ -21,7 +21,7 @@ Hay un error que cometen muchos papás al planear un cumpleaños: diseñarlo par
 
 Los niños de 5 a 10 años están en una etapa de desarrollo fascinante. Su cerebro está hambriento de movimiento, de reto físico, de narrativa. No quieren contemplar. Quieren *hacer*. Quieren saltar, trepar, caer, volver a saltar. Quieren un contexto —un "¿de qué es esta historia?"— dentro del cual sus cuerpos puedan explorar sin límites. El juego físico en grupo durante esta etapa no es solo diversión: es aprendizaje social activo. Los niños negocian turnos, establecen reglas propias, se cuidan entre sí, ríen juntos. El inflable no es un entretenimiento pasivo. Es un laboratorio social con trampolín.
 
-Lo que un niño de 7 años recuerda de su fiesta no es el mantel. No es el color de los platos biodegradables. Es si tuvo un momento de *epicidad* —de algo que lo hizo sentir que su cumpleaños era especial de una manera que no se repite en cualquier tarde de martes. El Dragones Rojos de INFLAFI crea ese momento. Y lo sostiene durante horas.
+Lo que un niño de 7 años recuerda de su fiesta no es el mantel. No es el color de los platos biodegradables. Es si tuvo un momento de *epicidad* —de algo que lo hizo sentir que su cumpleaños era especial de una manera que no se repite en cualquier tarde de martes. El Dragones Rojos de DENFLAB crea ese momento. Y lo sostiene durante horas.
 
 ---
 
@@ -93,7 +93,7 @@ El inflable no es una atracción aislada. Es el núcleo de energía alrededor de
 | 1:45 — Comida | Lunch o snacks | El inflable sigue inflado pero cerrado temporalmente durante la comida |
 | 2:15 — Pastel y festejo | Mañanitas, velitas, fotografías | El inflable al fondo da un contexto visual espectacular en todas las fotos |
 | 2:45 — Actividad final / inflable | Última ronda libre | Los niños más energéticos tendrán su segunda vida aquí |
-| 3:30 — Cierre | Despedida, recuerdos | INFLAFI llega en este momento para el desmontaje |
+| 3:30 — Cierre | Despedida, recuerdos | DENFLAB llega en este momento para el desmontaje |
 
 > **Nota del insider:** Pedir a los niños que "descansen" directamente es una batalla perdida. La clave es alternar el inflable con actividades que requieran energía diferente: sentarse a decorar algo, comer, escuchar una historia. Cuando vuelven al inflable después de 30 minutos, lo viven con energía completamente nueva. Si quieres cronogramas y dinámicas ya armados según la edad exacta de tus invitados, la guía de [fiestas con Dragones Rojos por edad](/blog/dragones-rojos-fiestas-por-edad) trae planes completos para 4–5, 6–8 y 9–10 años.
 
@@ -132,10 +132,10 @@ La conversación sobre seguridad en inflables está llena de extremos: o los pap
 | Quitar zapatos siempre | Evita raspones en otros niños y daños a la lona | Zona de zapatos marcada junto a la entrada del inflable |
 | Sin comida ni bebida adentro | Riesgo de atragantamiento y daño al material | Pausas programadas para hidratación afuera, con agua fresca disponible |
 | Espacio libre de 1.5 m alrededor | Para caídas accidentales fuera del inflable | Revisar el área antes del montaje, mover macetas y muebles |
-| No brincar si hay lluvia intensa | Superficie mojada se convierte en resbaladera | INFLAFI orienta sobre protocolo de clima el día del evento |
+| No brincar si hay lluvia intensa | Superficie mojada se convierte en resbaladera | DENFLAB orienta sobre protocolo de clima el día del evento |
 | Supervisión adulta constante | Un adulto dedicado, no el que revisa el teléfono | Turnarse entre adultos disponibles en bloques de 30 minutos |
 
-**Lo que los papás NO deben obsesionarse:** El inflable no se va a desinflar de repente. El soplador eléctrico que incluye INFLAFI trabaja de manera continua durante todo el evento —no es un globo que se infla una vez y pierde aire. El soplador permanece encendido todo el tiempo que el inflable está en uso, manteniendo la presión constante. El único escenario de "desinflado" es un corte de luz momentáneo, que se resuelve en segundos reconectando. El Dragones Rojos opera con soplador de **110 V estándar** —el mismo voltaje de cualquier contacto doméstico. No requiere instalación especial ni extensión industrial. Un contacto disponible en el jardín o cerca de la ventana más próxima es suficiente.
+**Lo que los papás NO deben obsesionarse:** El inflable no se va a desinflar de repente. El soplador eléctrico que incluye DENFLAB trabaja de manera continua durante todo el evento —no es un globo que se infla una vez y pierde aire. El soplador permanece encendido todo el tiempo que el inflable está en uso, manteniendo la presión constante. El único escenario de "desinflado" es un corte de luz momentáneo, que se resuelve en segundos reconectando. El Dragones Rojos opera con soplador de **110 V estándar** —el mismo voltaje de cualquier contacto doméstico. No requiere instalación especial ni extensión industrial. Un contacto disponible en el jardín o cerca de la ventana más próxima es suficiente.
 
 ---
 
@@ -143,7 +143,7 @@ La conversación sobre seguridad en inflables está llena de extremos: o los pap
 
 **Error 1: Poner el inflable en un espacio demasiado justo.** El Dragones Rojos necesita un área de 5.5 × 4 metros —no para el inflable en sí, sino incluyendo el espacio de seguridad perimetral. Mide con cinta métrica antes de confirmar la reserva. Un jardín que "se ve grande" a veces tiene columnas, macetas o muebles que reducen el área disponible a menos de lo necesario.
 
-**Error 2: Inflarlo con demasiada anticipación antes de que lleguen los niños.** INFLAFI llega con tiempo calculado para que el montaje (10-15 minutos) termine justo antes de la llegada de los invitados. Inflarlo una hora antes no añade nada —los niños no están presentes para el "momento wow" de verlo ya listo esperándolos.
+**Error 2: Inflarlo con demasiada anticipación antes de que lleguen los niños.** DENFLAB llega con tiempo calculado para que el montaje (10-15 minutos) termine justo antes de la llegada de los invitados. Inflarlo una hora antes no añade nada —los niños no están presentes para el "momento wow" de verlo ya listo esperándolos.
 
 **Error 3: No tener supervisor dedicado.** Los papás anfitriones tienen decenas de cosas en qué pensar el día del evento. Designa a un familiar específico —tío, primo mayor, amigo sin hijos pequeños— como supervisor exclusivo del inflable. Su único trabajo es estar junto al inflable, contando niños y asegurando que se respeten las reglas. Eso libera al papá y a la mamá anfitriones para atender el resto de la fiesta sin angustia.
 
@@ -156,13 +156,13 @@ La conversación sobre seguridad en inflables está llena de extremos: o los pap
 ## Voces de Papás Reales: Testimonios que Cuentan la Historia Completa
 
 **Rodrigo, papá de Mateo (7 años), Colonia Del Valle:**
-*"Yo era escéptico. Me parecía que un inflable era algo genérico, que todos hacen lo mismo. Pedí el Dragones Rojos casi sin expectativas. Lo que no esperaba era que Mateo, cuando lo vio desde el coche antes de bajarse, dijera literalmente 'papá, tenemos un dragón'. Esa frase me llegó en el pecho. El equipo de INFLAFI llegó puntualísimo, montó en menos de lo que tardé en acomodar las mesas, y cuando se fueron al final de la fiesta solo me dijeron 'que sigan los recuerdos'. Eso lo resume todo."*
+*"Yo era escéptico. Me parecía que un inflable era algo genérico, que todos hacen lo mismo. Pedí el Dragones Rojos casi sin expectativas. Lo que no esperaba era que Mateo, cuando lo vio desde el coche antes de bajarse, dijera literalmente 'papá, tenemos un dragón'. Esa frase me llegó en el pecho. El equipo de DENFLAB llegó puntualísimo, montó en menos de lo que tardé en acomodar las mesas, y cuando se fueron al final de la fiesta solo me dijeron 'que sigan los recuerdos'. Eso lo resume todo."*
 
 **Claudia, mamá de Sofía y organizadora de su fiesta grupal, Polanco:**
-*"Lo usamos para una fiesta de fin de ciclo de un grupo de niñas y niños de primero de primaria, como 18 invitados. Pedí el Dragones Rojos junto con otro inflable de INFLAFI para rotar grupos. La coordinación fue perfecta —llegaron con ambos, los montaron en paralelo, nos explicaron el protocolo de supervisión y se quedaron disponibles por teléfono toda la tarde. Ningún niño lloró. Ninguno se lastimó. Todos se fueron con los cachetes rojos de tanto brincar. Eso, para una mamá que organizó sola una fiesta de 18 niños, es el éxito absoluto."*
+*"Lo usamos para una fiesta de fin de ciclo de un grupo de niñas y niños de primero de primaria, como 18 invitados. Pedí el Dragones Rojos junto con otro inflable de DENFLAB para rotar grupos. La coordinación fue perfecta —llegaron con ambos, los montaron en paralelo, nos explicaron el protocolo de supervisión y se quedaron disponibles por teléfono toda la tarde. Ningún niño lloró. Ninguno se lastimó. Todos se fueron con los cachetes rojos de tanto brincar. Eso, para una mamá que organizó sola una fiesta de 18 niños, es el éxito absoluto."*
 
 **Ernesto, papá de Diego (9 años), Santa Fe:**
-*"Lo que más me sorprendió fue la calidad del vinilo. He visto inflables baratos que se ven desinflados a medias y deformes después de una hora. El Dragones Rojos mantuvo su forma perfecta las cinco horas que lo tuvimos. Mi hijo me preguntó si podíamos tenerlo toda la semana. INFLAFI llegó puntual al final, desmontó todo en veinte minutos y se llevaron hasta el último detalle. No dejaron nada sucio ni desordenado. Eso, en una fiesta donde ya tienes suficiente desorden propio, vale muchísimo."*
+*"Lo que más me sorprendió fue la calidad del vinilo. He visto inflables baratos que se ven desinflados a medias y deformes después de una hora. El Dragones Rojos mantuvo su forma perfecta las cinco horas que lo tuvimos. Mi hijo me preguntó si podíamos tenerlo toda la semana. DENFLAB llegó puntual al final, desmontó todo en veinte minutos y se llevaron hasta el último detalle. No dejaron nada sucio ni desordenado. Eso, en una fiesta donde ya tienes suficiente desorden propio, vale muchísimo."*
 
 ---
 
@@ -177,7 +177,7 @@ El Dragones Rojos es un núcleo de energía perfecto, pero una fiesta con más i
 | Dragones Rojos solo | Grupos de 10-16 niños, jardín mediano | El formato más eficiente: una atracción bien dimensionada para el grupo |
 | Dragones Rojos + alberca de pelotas | Días calurosos, rango de edad amplio (3-10 años) | El contraste de actividades sostiene la energía durante 4-5 horas sin saturar |
 
-**El paquete de INFLAFI siempre incluye, sin excepción:**
+**El paquete de DENFLAB siempre incluye, sin excepción:**
 - Entrega en tu domicilio en la hora acordada
 - Montaje completo por el equipo (10-15 minutos para Dragones Rojos)
 - Soplador eléctrico de 110V incluido y en funcionamiento
@@ -201,7 +201,7 @@ Los momentos emocionalmente intensos —los de alegría física, los de sorpresa
 
 Eso no es un gasto de evento. Es una inversión en el inventario de recuerdos buenos que tu hijo va a cargar toda su vida. Los recuerdos de infancia son la arquitectura emocional sobre la que se construye la adultez. Un cumpleaños extraordinario —con un escenario a la altura de la imaginación de un niño de 7 años— no es un lujo desconsiderado. Es un acto de amor muy concreto y muy calculado.
 
-Cuando rentas el Dragones Rojos de INFLAFI, no estás pagando por vinilo inflado. Estás pagando por la cara de tu hijo cuando lo ve por primera vez. Estás pagando por la historia que va a contar el lunes con una emoción que no fabricó. Estás pagando por el video que tu pareja va a encontrar en el teléfono tres años después —ese video borroso, grabado a prisa, donde el festejado brinca y grita con una felicidad sin mediaciones— y que los va a hacer llorar de ternura.
+Cuando rentas el Dragones Rojos de DENFLAB, no estás pagando por vinilo inflado. Estás pagando por la cara de tu hijo cuando lo ve por primera vez. Estás pagando por la historia que va a contar el lunes con una emoción que no fabricó. Estás pagando por el video que tu pareja va a encontrar en el teléfono tres años después —ese video borroso, grabado a prisa, donde el festejado brinca y grita con una felicidad sin mediaciones— y que los va a hacer llorar de ternura.
 
 Eso tiene un valor que ninguna hoja de cálculo puede capturar del todo. Pero cualquier papá que lo ha vivido una vez entiende de inmediato de qué se trata.
 
@@ -239,7 +239,7 @@ Polanco · Lomas de Chapultepec · Santa Fe · Miguel Hidalgo · Coyoacán · De
 
 El jardín ordinario está a un inflable de distancia de convertirse en el escenario de la mejor fiesta del año. Los Dragones Rojos están listos —rojos, imponentes, con dragones que esperan a los niños que van a inventar su propia historia adentro. La pregunta es solamente cuándo pones la fecha.
 
-**[Escribir a INFLAFI por WhatsApp y reservar →](https://wa.me/5215539048634?text=Quiero%20reservar%20el%20inflable%20Dragones%20Rojos%20de%20INFLAFI.%20%C2%BFTienen%20disponibilidad%3F)**
+**[Escribir a DENFLAB por WhatsApp y reservar →](https://wa.me/5215539048634?text=Quiero%20reservar%20el%20inflable%20Dragones%20Rojos%20de%20DENFLAB.%20%C2%BFTienen%20disponibilidad%3F)**
 
 ---
 
@@ -254,4 +254,4 @@ El jardín ordinario está a un inflable de distancia de convertirse en el escen
 
 ---
 
-*INFLAFI — Renta de Inflables en CDMX | Entrega, montaje y desmontaje siempre incluidos*
+*DENFLAB — Renta de Inflables en CDMX | Entrega, montaje y desmontaje siempre incluidos*

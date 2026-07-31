@@ -19,7 +19,7 @@ Esta guía no es para convencerte de rentar un inflable. Es para que, si ya deci
 
 Hay una diferencia fundamental entre una fiesta que tiene un castillo inflable y una fiesta que *transcurre* en un castillo. La primera es decoración. La segunda es teatro.
 
-El Castillo de Princesas de INFLAFI —con sus tres metros de altura, sus torretas rosadas y lilas, sus coronas y estrellas bordadas en vinilo de alta calidad— no es solo una estructura para brincar. Es el elemento arquitectónico que ancla toda la narrativa del evento. Cuando está en el jardín, el jardín deja de ser un jardín. Se convierte en los terrenos del reino. La mesa de dulces se convierte en el banquete real. El pintacaritas se convierte en la sala de preparación de princesas. El pastel es la celebración del reino.
+El Castillo de Princesas de DENFLAB —con sus tres metros de altura, sus torretas rosadas y lilas, sus coronas y estrellas bordadas en vinilo de alta calidad— no es solo una estructura para brincar. Es el elemento arquitectónico que ancla toda la narrativa del evento. Cuando está en el jardín, el jardín deja de ser un jardín. Se convierte en los terrenos del reino. La mesa de dulces se convierte en el banquete real. El pintacaritas se convierte en la sala de preparación de princesas. El pastel es la celebración del reino.
 
 Esto no es fantasía de adulto proyectada en los niños. Las niñas de tres a ocho años viven en lo que los psicólogos del juego llaman "juego simbólico de roles": el período en que la imaginación puede transformar cualquier espacio físico en un mundo completo. Un castillo de tres metros de altura con diseño de cuento de hadas no necesita mucho trabajo de imaginación. El escenario hace el trabajo solo. La niña solo necesita entrar.
 
@@ -107,7 +107,7 @@ La temática define la paleta, el vestuario, la música y los elementos gráfico
 
 ## La Estrategia de la Foto Perfecta con el Castillo de Princesas
 
-El Castillo de Princesas de INFLAFI es, objetivamente, el backdrop más fotogénico del mercado de inflables en CDMX. Sus tres metros de altura entran completos en cualquier encuadre vertical de smartphone moderno. La paleta rosa-lila-dorado trabaja bien con la luz de tarde. Esto no es accidente: es diseño.
+El Castillo de Princesas de DENFLAB es, objetivamente, el backdrop más fotogénico del mercado de inflables en CDMX. Sus tres metros de altura entran completos en cualquier encuadre vertical de smartphone moderno. La paleta rosa-lila-dorado trabaja bien con la luz de tarde. Esto no es accidente: es diseño.
 
 Para aprovechar ese potencial al máximo:
 
@@ -121,7 +121,7 @@ Para aprovechar ese potencial al máximo:
 
 ---
 
-## El Paquete Princesas de INFLAFI: Qué Es y Qué Resuelve
+## El Paquete Princesas de DENFLAB: Qué Es y Qué Resuelve
 
 El Paquete Princesas existe porque las mamás que planean fiestas de niñas saben bien cuánto tiempo consume coordinar proveedores distintos: el inflable con uno, la decoración con otro, el pintacaritas con un tercero, la mesa de dulces con un cuarto. Cuatro contratos, cuatro whatsapps, cuatro horarios, cuatro pagos.
 
@@ -133,11 +133,11 @@ El Paquete Princesas es una sola llamada.
 | Decoración coordinada | Ambientación temática en rosa y lavanda para el área del festejo |
 | Pintacaritas profesional | Artista con diseños de princesas: tiaras, mariposas, flores, estrellas |
 | Mesa de dulces temática | Personalizada con nombre y edad de la festejada |
-| Logística completa | Entrega, montaje, desmontaje y coordinación de tiempos a cargo de INFLAFI |
+| Logística completa | Entrega, montaje, desmontaje y coordinación de tiempos a cargo de DENFLAB |
 
 **Sin costo extra de maniobra. Sin sorpresas el día del evento.**
 
-El equipo INFLAFI llega con anticipación calculada al inicio del festejo, monta todo coordinadamente y desmonta al cierre. La mamá no supervisa nada del montaje: ese tiempo lo usa para arreglarse, recibir a los primeros invitados o simplemente respirar antes de que empiece la tarde.
+El equipo DENFLAB llega con anticipación calculada al inicio del festejo, monta todo coordinadamente y desmonta al cierre. La mamá no supervisa nada del montaje: ese tiempo lo usa para arreglarse, recibir a los primeros invitados o simplemente respirar antes de que empiece la tarde.
 
 ---
 
@@ -149,7 +149,7 @@ El equipo INFLAFI llega con anticipación calculada al inicio del festejo, monta
 
 **Mariana G., mamá de Renata, 7 años — Del Valle**
 
-*"Renata es muy exigente para su edad — sabe exactamente cómo quiere las cosas. Escogió la temática Frozen, y yo honestamente dudaba de que el Castillo de Princesas en rosa funcionara con Frozen en azul. Lo que hicimos fue agregar globos en azul hielo alrededor del castillo y cambiar los detalles de la mesa de dulces a azul y plateado. El resultado fue precioso. El equipo de INFLAFI me sugirió esa solución desde la primera llamada. No tuve que pensarla yo. Solo decir que sí."*
+*"Renata es muy exigente para su edad — sabe exactamente cómo quiere las cosas. Escogió la temática Frozen, y yo honestamente dudaba de que el Castillo de Princesas en rosa funcionara con Frozen en azul. Lo que hicimos fue agregar globos en azul hielo alrededor del castillo y cambiar los detalles de la mesa de dulces a azul y plateado. El resultado fue precioso. El equipo de DENFLAB me sugirió esa solución desde la primera llamada. No tuve que pensarla yo. Solo decir que sí."*
 
 **Sofía T., mamá de Camila, 6 años — Polanco**
 
@@ -195,7 +195,7 @@ Los cuentos de hadas no esperan el momento perfecto. El momento perfecto se plan
 
 Si ya sabes que quieres un cumpleaños de princesas que ella recuerde, el primer paso es confirmar la fecha del Castillo de Princesas. A partir de ahí, todo lo demás — la paleta, la decoración, el paquete completo o los elementos que elijas — se construye con calma y con amor.
 
-El equipo INFLAFI puede orientarte desde la primera llamada: qué temática va mejor con el espacio que tienes, qué elementos del Paquete Princesas te convienen, cómo coordinar los tiempos para que todo esté listo antes de que llegue el primer invitado.
+El equipo DENFLAB puede orientarte desde la primera llamada: qué temática va mejor con el espacio que tienes, qué elementos del Paquete Princesas te convienen, cómo coordinar los tiempos para que todo esté listo antes de que llegue el primer invitado.
 
 **Escríbenos hoy por WhatsApp y cuéntanos de tu princesa:**
 
@@ -203,7 +203,7 @@ El equipo INFLAFI puede orientarte desde la primera llamada: qué temática va m
 
 ---
 
-## Información de Contacto INFLAFI
+## Información de Contacto DENFLAB
 
 | Canal | Dato |
 |---|---|
@@ -237,4 +237,4 @@ El equipo INFLAFI puede orientarte desde la primera llamada: qué temática va m
 
 ---
 
-*INFLAFI — Castillos saltarines, toboganes e inflables para fiestas en CDMX. Magia real para cumpleaños reales.*
+*DENFLAB — Castillos saltarines, toboganes e inflables para fiestas en CDMX. Magia real para cumpleaños reales.*

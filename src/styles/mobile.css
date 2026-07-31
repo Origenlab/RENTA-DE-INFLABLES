@@ -1,4 +1,4 @@
-/* mobile.css — Overrides responsive de layout para INFLAFI.
+/* mobile.css — Overrides responsive de layout para DENFLAB.
    Se importa en BaseLayout DESPUÉS de tokens.css (último en el cascade global).
    Breakpoints canónicos: 1024 · 768 · 640 · 480 · 380 */
 
@@ -73,7 +73,8 @@
 
 @media (max-width: 380px) {
   .hdr-inner { gap: .75rem !important; }
-  .hdr-logo__word { font-size: 1.05rem !important; }
+  .hdr-logo__mark { font-size: 1.25rem !important; }
+  .hdr-logo__sub { display: none !important; }
 }
 
 body.menu-open { overflow: hidden; }

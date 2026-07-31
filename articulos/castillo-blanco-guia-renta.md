@@ -10,7 +10,7 @@ Hay un momento específico en la planeación de una boda que casi ningún libro 
 
 El resultado suele ser siempre el mismo: pequeños merodeando las mesas de adultos, interrumpiendo conversaciones importantes, tocando los arreglos florales, corriendo entre los meseros con charolas de cristal, o —en el mejor de los casos— sentados frente a una tablet con audífonos en un rincón que nadie fotografió intencionalmente pero que aparece en el fondo de cada imagen del banquete. No hay culpa en esto; simplemente no existe, dentro de la oferta tradicional de entretenimiento para eventos formales, una solución que sea simultáneamente segura para los niños, visualmente coherente con la estética del evento, y completamente autónoma para que los adultos puedan disfrutar su celebración sin convertirse en supervisores improvisados.
 
-Aquí es donde el Castillo Blanco de INFLAFI cambia la ecuación por completo. No es simplemente un inflable de colores pastel adaptado a una boda. Es el único inflable del catálogo —y muy probablemente de la oferta en CDMX— diseñado desde su concepción para integrarse a eventos formales de adultos: blanco y dorado, sin estampados de personajes animados, sin colores brillantes que choquen con la paleta del venue, con proporciones que permiten ubicarlo estratégicamente dentro o junto al espacio de la celebración. Es, en todos los sentidos prácticos, una pieza de entretenimiento que respeta la inversión que hiciste en la estética de tu evento.
+Aquí es donde el Castillo Blanco de DENFLAB cambia la ecuación por completo. No es simplemente un inflable de colores pastel adaptado a una boda. Es el único inflable del catálogo —y muy probablemente de la oferta en CDMX— diseñado desde su concepción para integrarse a eventos formales de adultos: blanco y dorado, sin estampados de personajes animados, sin colores brillantes que choquen con la paleta del venue, con proporciones que permiten ubicarlo estratégicamente dentro o junto al espacio de la celebración. Es, en todos los sentidos prácticos, una pieza de entretenimiento que respeta la inversión que hiciste en la estética de tu evento.
 
 ---
 
@@ -20,7 +20,7 @@ Dentro del mundo de la renta de inflables, existe una distinción fundamental qu
 
 El Castillo Blanco nació de esta necesidad. Su diseño blanco y dorado no es un accidente comercial; es una decisión deliberada de posicionamiento. La ausencia de personajes con licencia —sin princesas de franquicia, sin superhéroes, sin animales de caricatura— lo libera de cualquier asociación de marca que pueda chocar con la identidad visual del evento. Esto importa más de lo que parece: un inflable con un personaje de caricatura en medio de una boda de autor con paleta cream y terracota es una disonancia visual que ningún filtro de edición puede corregir.
 
-Además, el Castillo Blanco es el inflable más alto y más ancho del catálogo de INFLAFI: 3.5 metros de altura y 4 metros de ancho, con 5 metros de largo. Estas dimensiones no son solo una especificación técnica — son una declaración de presencia. Un inflable que apenas llega a la cintura de un adulto puede parecer un añadido improvisado. Uno que alcanza casi el techo de una carpa o que tiene presencia visual propia dentro de un jardín dice algo completamente distinto: que fue planeado, que pertenece ahí, que es parte del evento.
+Además, el Castillo Blanco es el inflable más alto y más ancho del catálogo de DENFLAB: 3.5 metros de altura y 4 metros de ancho, con 5 metros de largo. Estas dimensiones no son solo una especificación técnica — son una declaración de presencia. Un inflable que apenas llega a la cintura de un adulto puede parecer un añadido improvisado. Uno que alcanza casi el techo de una carpa o que tiene presencia visual propia dentro de un jardín dice algo completamente distinto: que fue planeado, que pertenece ahí, que es parte del evento.
 
 ---
 
@@ -30,7 +30,7 @@ Antes de avanzar a la logística de coordinación con tu venue, conviene tener c
 
 | Especificación | Detalle | Nota práctica |
 |---|---|---|
-| **Dimensiones del inflable** | 5 m (largo) × 4 m (ancho) × 3.5 m (alto) | El más alto y ancho del catálogo INFLAFI |
+| **Dimensiones del inflable** | 5 m (largo) × 4 m (ancho) × 3.5 m (alto) | El más alto y ancho del catálogo DENFLAB |
 | **Espacio mínimo requerido** | 6.5 m × 5.5 m | Incluye margen de seguridad alrededor del inflable |
 | **Altura libre necesaria** | Mínimo 4 m | Considerar estructuras de carpa, pérgolas, árboles |
 | **Capacidad simultánea** | 8 a 10 niños | Rango seguro para uso continuo durante el evento |
@@ -111,19 +111,19 @@ Hay verdades incómodas sobre los niños en eventos formales que los libros de e
 
 ## Cómo Coordinar el Castillo Blanco con el Venue, el Wedding Planner y el Fotógrafo
 
-La coordinación es la clave que separa un inflable bien integrado de uno que parece un añadido improvisado de último minuto. INFLAFI ha desarrollado un protocolo específico para eventos formales que incluye tres niveles de coordinación. Si quieres el manual logístico completo — horarios de montaje por tipo de evento, ubicación en el layout, corriente, clima y un checklist listo para reenviar a tu coordinador — está en la [guía del Castillo Blanco en jardines de eventos, salones y haciendas](/blog/castillo-blanco-guia-eventos).
+La coordinación es la clave que separa un inflable bien integrado de uno que parece un añadido improvisado de último minuto. DENFLAB ha desarrollado un protocolo específico para eventos formales que incluye tres niveles de coordinación. Si quieres el manual logístico completo — horarios de montaje por tipo de evento, ubicación en el layout, corriente, clima y un checklist listo para reenviar a tu coordinador — está en la [guía del Castillo Blanco en jardines de eventos, salones y haciendas](/blog/castillo-blanco-guia-eventos).
 
 ### Con el Venue
 
 Lo primero es confirmar que el venue tiene el espacio exterior necesario. Los 6.5 × 5.5 m mínimos deben medirse en el área real disponible, considerando que no interfieran con las rutas de circulación de meseros, la entrada de invitados, ni el área de cena al aire libre si la hay. También es indispensable confirmar:
 
 - **Acceso eléctrico:** El soplador de 110 V necesita un contacto a no más de 20 metros. Si el venue no tiene contactos al exterior, se necesita extensión o coordinación previa.
-- **Tipo de piso:** El sistema de anclas incluido funciona con estacas en césped y sacos de arena en concreto o mármol. El equipo de INFLAFI llega preparado para ambas superficies, pero es útil confirmarlo antes.
+- **Tipo de piso:** El sistema de anclas incluido funciona con estacas en césped y sacos de arena en concreto o mármol. El equipo de DENFLAB llega preparado para ambas superficies, pero es útil confirmarlo antes.
 - **Restricciones del venue:** Algunos venues históricos o de alto perfil tienen políticas sobre estructuras adicionales. Verificar esto con meses de anticipación evita sorpresas el día del evento.
 
 ### Con el Wedding Planner
 
-El wedding planner es el aliado natural para la integración del Castillo Blanco. Puede coordinar su ubicación dentro del plano general del evento, decidir si se coloca visible desde la zona de adultos o en un área más discreta, y organizarlo dentro del timeline del día. INFLAFI puede comunicarse directamente con el planner para confirmar:
+El wedding planner es el aliado natural para la integración del Castillo Blanco. Puede coordinar su ubicación dentro del plano general del evento, decidir si se coloca visible desde la zona de adultos o en un área más discreta, y organizarlo dentro del timeline del día. DENFLAB puede comunicarse directamente con el planner para confirmar:
 
 - Hora de llegada del equipo de montaje (generalmente 2-3 horas antes del evento, o según el acceso que permita el venue)
 - Ubicación específica acordada con medidas
@@ -140,10 +140,10 @@ Comparte con tu fotógrafo la referencia del Castillo Blanco y la ubicación pla
 
 ## Errores Frecuentes al Incluir Entretenimiento Infantil en Eventos Formales
 
-Estos son los errores que el equipo de INFLAFI ha visto repetirse en eventos formales. Conocerlos de antemano es la diferencia entre una integración impecable y una experiencia que recuerdas con incomodidad.
+Estos son los errores que el equipo de DENFLAB ha visto repetirse en eventos formales. Conocerlos de antemano es la diferencia entre una integración impecable y una experiencia que recuerdas con incomodidad.
 
 **Error 1: Confirmar el inflable sin medir el espacio real.**
-El plano del venue se ve diferente en papel que en realidad. Hay árboles, macetas, escalones, muebles de jardín. Antes de confirmar la reserva, mide físicamente el espacio disponible o pídele a tu wedding planner que lo haga. El equipo de INFLAFI puede asesorarte remotamente con fotos del área.
+El plano del venue se ve diferente en papel que en realidad. Hay árboles, macetas, escalones, muebles de jardín. Antes de confirmar la reserva, mide físicamente el espacio disponible o pídele a tu wedding planner que lo haga. El equipo de DENFLAB puede asesorarte remotamente con fotos del área.
 
 **Error 2: No avisar al venue con anticipación.**
 Algunos venues interpretan el contrato de renta como exclusivo de sus propios proveedores. Llegar el día del evento con un inflable sin haberlo coordinado antes puede resultar en una negativa de entrada. Siempre solicita autorización por escrito.
@@ -155,7 +155,7 @@ El soplador necesita corriente continua durante todo el evento. Una extensión i
 El Castillo Blanco está diseñado para ser autónomo en términos de entretenimiento, pero no exime a los adultos de supervisión. Designar a uno o dos familiares —o contratar a una animadora infantil— para estar en la zona del inflable permite que el resto de los padres disfruten el evento sin preocupaciones.
 
 **Error 5: Reservar sin confirmar el headcount infantil.**
-La capacidad es de 8-10 niños simultáneos. Si tu evento tiene 20 o 25 niños, el inflable puede generar frustración por turnos. En ese caso, el equipo de INFLAFI puede orientarte sobre dinámicas de rotación o sobre opciones complementarias.
+La capacidad es de 8-10 niños simultáneos. Si tu evento tiene 20 o 25 niños, el inflable puede generar frustración por turnos. En ese caso, el equipo de DENFLAB puede orientarte sobre dinámicas de rotación o sobre opciones complementarias.
 
 **Error 6: Ignorar el desmontaje en el timeline.**
 El desmontaje toma 15-20 minutos y requiere que el área esté despejada. Si el venue tiene un horario estricto de salida, el desmontaje del inflable debe planificarse dentro del timeline general del evento, no como un afterthought.
@@ -180,7 +180,7 @@ Este checklist está diseñado para ser compartido directamente con tu wedding p
 - [ ] Autorización del venue recibida por escrito o correo
 - [ ] Ubicación específica definida en el plano del evento
 - [ ] Requerimiento eléctrico comunicado al coordinador de técnica del venue
-- [ ] Hora de llegada del equipo de INFLAFI confirmada con el coordinador del venue
+- [ ] Hora de llegada del equipo de DENFLAB confirmada con el coordinador del venue
 - [ ] Fotógrafo informado de la ubicación y la estética del Castillo Blanco
 - [ ] Adulto responsable de la zona infantil designado
 - [ ] Hora de desmontaje confirmada dentro del timeline del evento
@@ -210,7 +210,7 @@ La renta del Castillo Blanco para eventos formales sigue un proceso diseñado pa
 
 ### Paso 1: Consulta inicial
 
-Comunícate con el equipo de INFLAFI vía WhatsApp o teléfono. En esta primera conversación se confirma disponibilidad para la fecha, se revisan las dimensiones del espacio con base en la información que proporciones (fotos, planos, medidas aproximadas), y se orienta sobre la coordinación con el venue.
+Comunícate con el equipo de DENFLAB vía WhatsApp o teléfono. En esta primera conversación se confirma disponibilidad para la fecha, se revisan las dimensiones del espacio con base en la información que proporciones (fotos, planos, medidas aproximadas), y se orienta sobre la coordinación con el venue.
 
 [Escríbenos por WhatsApp para consultar disponibilidad](https://wa.me/5215539048634?text=Hola%2C%20me%20interesa%20el%20Castillo%20Blanco%20para%20mi%20evento)
 
@@ -222,11 +222,11 @@ Una vez confirmados los detalles, se realiza el anticipo del 30% del costo total
 
 ### Paso 3: Coordinación pre-evento
 
-Aproximadamente dos semanas antes del evento, el equipo de INFLAFI hace contacto para confirmar datos exactos del venue, hora de llegada del equipo de montaje, y cualquier cambio en los requerimientos del espacio. Si lo prefieres, coordinamos directamente con tu wedding planner.
+Aproximadamente dos semanas antes del evento, el equipo de DENFLAB hace contacto para confirmar datos exactos del venue, hora de llegada del equipo de montaje, y cualquier cambio en los requerimientos del espacio. Si lo prefieres, coordinamos directamente con tu wedding planner.
 
 ### Paso 4: Día del evento
 
-El equipo de INFLAFI llega en el tiempo acordado, monta el Castillo Blanco en 15-20 minutos y hace una revisión de seguridad completa antes de retirarse. El soplador permanece encendido durante todo el evento. Al finalizar, el equipo regresa para el desmontaje y retiro del equipo, coordinado con el timeline del venue.
+El equipo de DENFLAB llega en el tiempo acordado, monta el Castillo Blanco en 15-20 minutos y hace una revisión de seguridad completa antes de retirarse. El soplador permanece encendido durante todo el evento. Al finalizar, el equipo regresa para el desmontaje y retiro del equipo, coordinado con el timeline del venue.
 
 ### Paso 5: Liquidación el día del evento
 
@@ -238,11 +238,11 @@ El 70% restante se liquida el día del evento, antes o durante el montaje, segú
 
 ### ¿El Castillo Blanco puede usarse en interiores?
 
-No. El Castillo Blanco es exclusivamente para uso en exterior. Sus dimensiones (5 × 4 × 3.5 m) y los requerimientos del soplador hacen inviable su uso en espacios cerrados. Si tu venue no tiene un área exterior adecuada, el equipo de INFLAFI puede orientarte sobre alternativas.
+No. El Castillo Blanco es exclusivamente para uso en exterior. Sus dimensiones (5 × 4 × 3.5 m) y los requerimientos del soplador hacen inviable su uso en espacios cerrados. Si tu venue no tiene un área exterior adecuada, el equipo de DENFLAB puede orientarte sobre alternativas.
 
 ### ¿Qué pasa si llueve el día del evento?
 
-El Castillo Blanco no debe usarse bajo lluvia intensa o viento fuerte. En caso de lluvia, el equipo de INFLAFI evalúa las condiciones y coordina contigo la decisión de montar o no. La política de cancelación por condiciones climáticas se define en el contrato de renta.
+El Castillo Blanco no debe usarse bajo lluvia intensa o viento fuerte. En caso de lluvia, el equipo de DENFLAB evalúa las condiciones y coordina contigo la decisión de montar o no. La política de cancelación por condiciones climáticas se define en el contrato de renta.
 
 ### ¿El soplador hace mucho ruido? ¿Va a interferir con la música del evento?
 
@@ -262,7 +262,7 @@ El Castillo Blanco puede funcionar sin animadora para grupos de niños entre 5 y
 
 ### ¿El Castillo Blanco incluye entrega, montaje y desmontaje?
 
-Sí, siempre. INFLAFI incluye entrega, montaje y desmontaje en todos sus servicios, sin excepciones. No hay cargos ocultos por estos conceptos. Lo que se cotiza es lo que pagas.
+Sí, siempre. DENFLAB incluye entrega, montaje y desmontaje en todos sus servicios, sin excepciones. No hay cargos ocultos por estos conceptos. Lo que se cotiza es lo que pagas.
 
 ### ¿Con cuánta anticipación debo reservar para una boda o XV años?
 
@@ -270,7 +270,7 @@ Para eventos formales, se recomienda reservar con un mínimo de 4-6 semanas de a
 
 ### ¿Pueden coordinarse directamente con mi wedding planner?
 
-Sí. INFLAFI puede coordinar directamente con tu wedding planner o coordinador de venue todos los detalles logísticos: horario de llegada, acceso al venue, ubicación en el plano del evento, requerimientos eléctricos. Muchos planners aprecian este nivel de coordinación porque simplifica su gestión de proveedores el día del evento.
+Sí. DENFLAB puede coordinar directamente con tu wedding planner o coordinador de venue todos los detalles logísticos: horario de llegada, acceso al venue, ubicación en el plano del evento, requerimientos eléctricos. Muchos planners aprecian este nivel de coordinación porque simplifica su gestión de proveedores el día del evento.
 
 ---
 
@@ -278,7 +278,7 @@ Sí. INFLAFI puede coordinar directamente con tu wedding planner o coordinador d
 
 Tu boda o XV años merece una solución de entretenimiento infantil que esté a la altura de todo lo demás que has planeado. El Castillo Blanco no es un inflable que tolerarás en tus fotos — es uno que orgullosamente incluirás en tu álbum.
 
-El equipo de INFLAFI está listo para asesorarte sobre disponibilidad, coordinación con tu venue y todos los detalles logísticos. La consulta inicial es completamente sin compromiso.
+El equipo de DENFLAB está listo para asesorarte sobre disponibilidad, coordinación con tu venue y todos los detalles logísticos. La consulta inicial es completamente sin compromiso.
 
 **Escríbenos ahora por WhatsApp:**
 
@@ -306,4 +306,4 @@ Los fines de semana de temporada alta de bodas se agotan con semanas de anticipa
 
 ---
 
-*INFLAFI — Entretenimiento inflable premium para eventos en CDMX. Entrega, montaje y desmontaje incluidos siempre.*
+*DENFLAB — Entretenimiento inflable premium para eventos en CDMX. Entrega, montaje y desmontaje incluidos siempre.*

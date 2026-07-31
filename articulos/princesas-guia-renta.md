@@ -1,6 +1,6 @@
 ---
 title: "Renta del Castillo de Princesas: La Guía Completa para el Cumpleaños de Niña en CDMX"
-description: "El Castillo de Princesas es el inflable más solicitado y fotografiado del catálogo INFLAFI para fiestas de niña: 4×3.3×3 m en rosa, lila y morado. Guía completa para rentarlo en CDMX: specs, espacio requerido y proceso de reserva."
+description: "El Castillo de Princesas es el inflable más solicitado y fotografiado del catálogo DENFLAB para fiestas de niña: 4×3.3×3 m en rosa, lila y morado. Guía completa para rentarlo en CDMX: specs, espacio requerido y proceso de reserva."
 model: "Princesas"
 category: ninas
 pubDate: 2026-07-09
@@ -8,7 +8,7 @@ draft: false
 ---
 ## El Castillo de Princesas: El Inflable Más Fotografiado del Catálogo
 
-El Castillo de Princesas (modelo Princesas) es el inflable más solicitado del catálogo INFLAFI para fiestas de niña. Con **4 metros de largo, 3.3 metros de ancho y 3 metros de altura**, sus colores rosa, lila y morado con coronas, estrellas y siluetas de castillo hacen de él el elemento más visual de cualquier fiesta de niñas.
+El Castillo de Princesas (modelo Princesas) es el inflable más solicitado del catálogo DENFLAB para fiestas de niña. Con **4 metros de largo, 3.3 metros de ancho y 3 metros de altura**, sus colores rosa, lila y morado con coronas, estrellas y siluetas de castillo hacen de él el elemento más visual de cualquier fiesta de niñas.
 
 Es literalmente el inflable más fotografiado del catálogo — aparece en más historias de Instagram y álbumes de cumpleaños que cualquier otro modelo.
 
@@ -39,8 +39,8 @@ El Castillo de Princesas no es solo un elemento de entretenimiento — es parte 
 ### Características destacadas:
 - **Diseño 100% temático.** Específicamente diseñado para fiestas de princesas, unicornios, hadas y reinas.
 - **Alta capacidad para su tamaño.** 6 a 8 niñas simultáneas con amplio espacio de brinco.
-- **Altamente fotogénico.** El inflable más documentado en redes sociales del catálogo INFLAFI.
-- **Combinable con el Paquete Princesas.** INFLAFI ofrece un paquete completo que incluye el inflable + decoración + pintacaritas + mesa de dulces.
+- **Altamente fotogénico.** El inflable más documentado en redes sociales del catálogo DENFLAB.
+- **Combinable con el Paquete Princesas.** DENFLAB ofrece un paquete completo que incluye el inflable + decoración + pintacaritas + mesa de dulces.
 - **Ideal para el rango 3–10 años.** Funciona desde las primeras fiestas hasta los 10 años.
 
 ---
@@ -77,7 +77,7 @@ El Castillo de Princesas no es solo un elemento de entretenimiento — es parte 
 
 ## El Paquete Princesas: La Solución Completa
 
-Si quieres delegar toda la logística de entretenimiento y decoración, INFLAFI ofrece el **Paquete Princesas**, que incluye:
+Si quieres delegar toda la logística de entretenimiento y decoración, DENFLAB ofrece el **Paquete Princesas**, que incluye:
 
 - ✅ Castillo de Princesas (4×3.3×3 m) — rosa y lila
 - ✅ Decoración coordinada en rosa y lavanda
@@ -145,4 +145,4 @@ Para niñas de 1–3 años, el Micro Baby es una mejor opción de seguridad. Par
 📧 **Correo:** contacto@renta-de-inflables.com
 🕐 **Horario:** Lun–Vie 9:00–19:00 | Sáb 9:00–17:00
 
-*INFLAFI — Entrega, montaje y desmontaje incluidos en toda la CDMX.*
+*DENFLAB — Entrega, montaje y desmontaje incluidos en toda la CDMX.*

@@ -1,5 +1,5 @@
 ---
-title: "Extrem para Niños Grandes: la Fiesta de 8 a 12 Años que No los Aburre (Guía INFLAFI CDMX)"
+title: "Extrem para Niños Grandes: la Fiesta de 8 a 12 Años que No los Aburre (Guía DENFLAB CDMX)"
 description: "Todos los papás de un niño de 10 años conocen esta escena, o están a punto de conocerla. Le preguntas qué quiere para su cumpleaños y la respuesta llega con ese encogimiento de hombros que solo dominan los preadolescentes: \"no sé..."
 model: "Extrem"
 category: grandes
@@ -8,7 +8,7 @@ draft: false
 ---
 Todos los papás de un niño de 10 años conocen esta escena, o están a punto de conocerla. Le preguntas qué quiere para su cumpleaños y la respuesta llega con ese encogimiento de hombros que solo dominan los preadolescentes: "no sé... pero castillo inflable no, eso es de bebés". Y ahí está el problema en una frase. El mismo niño que a los 5 años gritó de felicidad al ver un inflable en el jardín, hoy lo considera — con la crueldad taxonómica de su edad — cosa de chiquitos. No es capricho: es desarrollo. A partir de los 8 años, los niños dejan de buscar estimulación y empiezan a buscar desafío. Quieren medirse, competir, lograr cosas que den un poquito de miedo. Y una fiesta que no ofrece nada de eso los pierde en la primera media hora, directo al celular o a la esquina del jardín con cara de "cuánto falta".
 
-El Extrem existe exactamente para ese niño. Con sus 4.8 × 3.3 × 3 metros, su área de brinco amplia y sobre todo su tobogán de altura, es el inflable del catálogo INFLAFI diseñado para niños de 5 años en adelante — y su punto dulce, el rango donde ningún otro modelo lo alcanza, es la franja de los 8 a los 12. La razón es simple: el tobogán no es un juego, es un reto. Subes por tu propio esfuerzo, decides lanzarte desde la altura, y bajas con una descarga de adrenalina que pide repetición inmediata. Esa estructura — esfuerzo, decisión, recompensa — es exactamente el lenguaje que los preadolescentes entienden y respetan.
+El Extrem existe exactamente para ese niño. Con sus 4.8 × 3.3 × 3 metros, su área de brinco amplia y sobre todo su tobogán de altura, es el inflable del catálogo DENFLAB diseñado para niños de 5 años en adelante — y su punto dulce, el rango donde ningún otro modelo lo alcanza, es la franja de los 8 a los 12. La razón es simple: el tobogán no es un juego, es un reto. Subes por tu propio esfuerzo, decides lanzarte desde la altura, y bajas con una descarga de adrenalina que pide repetición inmediata. Esa estructura — esfuerzo, decisión, recompensa — es exactamente el lenguaje que los preadolescentes entienden y respetan.
 
 Pero hay que decir la verdad completa: el inflable correcto es la mitad de la fórmula. La otra mitad es cómo lo usas. Un Extrem parado en el jardín "para que jueguen" funciona bien; un Extrem convertido en el eje de retos, torneos y dinámicas diseñadas para esa edad funciona de manera espectacular. Esta guía te da las dos mitades: el porqué del inflable y el cómo de la fiesta — dinámicas por edad, cronograma probado y los trucos para que hasta el invitado más "ya estoy grande para esto" termine formado en la fila del tobogán.
 
@@ -34,10 +34,10 @@ Ahí es donde el Extrem cambia el partido. Su diseño no tiene temática infanti
 | **Categoría** | Grande | El formato con presencia suficiente para impresionar a un público difícil de impresionar |
 | **Uso** | Solo exterior | Jardín, patio amplio o explanada; el soplador de 110 V permanece encendido todo el evento |
 | **Diseño** | Neutro, sin temática infantil | No hay princesas ni animalitos que un niño de 11 pueda vetar; combina con cualquier decoración |
-| **Montaje y desmontaje** | Incluidos siempre | El equipo de INFLAFI instala, ancla, verifica y retira; el anfitrión solo pone el espacio |
+| **Montaje y desmontaje** | Incluidos siempre | El equipo de DENFLAB instala, ancla, verifica y retira; el anfitrión solo pone el espacio |
 | **Capacidad por turno** | Según edades del grupo | Se confirma al reservar por WhatsApp; con preadolescentes conviene ser conservador por su masa corporal |
 
-> **Nota para papás de esta franja:** los niños de 10 a 12 años pesan y empujan como pequeños adultos. La capacidad recomendada por turno con este público es menor que con niños de 6, y respetarla no es exceso de celo: es lo que mantiene el circuito fluido y el juego divertido. El número exacto para tu grupo te lo confirma el equipo de INFLAFI al cotizar.
+> **Nota para papás de esta franja:** los niños de 10 a 12 años pesan y empujan como pequeños adultos. La capacidad recomendada por turno con este público es menor que con niños de 6, y respetarla no es exceso de celo: es lo que mantiene el circuito fluido y el juego divertido. El número exacto para tu grupo te lo confirma el equipo de DENFLAB al cotizar.
 
 ---
 
@@ -86,7 +86,7 @@ Este es el guion de tarde que mejor resultado ha dado en fiestas reales con el E
 6. **Hora 3:30 — Torneo de estilo y últimas bajadas.** El cierre con risas: jurado de papás, calificaciones absurdas, video en cámara lenta. Las últimas bajadas de la tarde son las que más se recuerdan y las que más se comparten en el chat familiar.
 7. **Hora 4:00 — Premiación y despedida.** Entrega de premios del contrarreloj y del torneo de estilo (medallas de a peso, diplomas impresos en casa: el valor está en el ritual, no en el objeto). Los invitados se van con un logro, no solo con bolsita de dulces.
 
-> **Nota sobre el desmontaje:** coordina con INFLAFI que el desmontaje sea después de la hora de salida de los invitados, no antes. Ver desinflarse el inflable a media fiesta tiene un efecto psicológico devastador sobre la moral del grupo — es el equivalente preadolescente de que enciendan las luces en la pista de baile.
+> **Nota sobre el desmontaje:** coordina con DENFLAB que el desmontaje sea después de la hora de salida de los invitados, no antes. Ver desinflarse el inflable a media fiesta tiene un efecto psicológico devastador sobre la moral del grupo — es el equivalente preadolescente de que enciendan las luces en la pista de baile.
 
 > **Nota sobre la variante corta:** si tu evento es de solo 2 o 3 horas (por ejemplo, un festejo después de clases entre semana), comprime el guion eliminando la fase 5 y reduciendo los relevos a una sola ronda larga. La estructura contrarreloj + relevo + cierre con estilo cabe perfectamente en dos horas y media sin sentirse apurada.
 
@@ -147,7 +147,7 @@ Y hay un beneficiario secundario del que se habla poco: el propio festejado fren
 
 ### Una semana antes
 
-- [ ] Espacio del jardín medido y confirmado con INFLAFI al reservar
+- [ ] Espacio del jardín medido y confirmado con DENFLAB al reservar
 - [ ] Convocatoria enviada con código de vestimenta (ropa cómoda y calcetines)
 - [ ] Cartulina del contrarreloj diseñada e impresa
 - [ ] Premios de las tres categorías comprados (velocidad, equipo, estilo)
@@ -157,7 +157,7 @@ Y hay un beneficiario secundario del que se habla poco: el propio festejado fren
 
 - [ ] Pronóstico del clima revisado y plan B bajo techo definido
 - [ ] Cronograma de la fiesta impreso o guardado en el celular
-- [ ] Horario de llegada del equipo de INFLAFI confirmado
+- [ ] Horario de llegada del equipo de DENFLAB confirmado
 - [ ] Mesa de hidratación planeada cerca de la salida del inflable
 
 ### El día del evento
@@ -202,7 +202,7 @@ Sí, aunque con una advertencia de experiencia: cualquier atracción que compita
 
 ### ¿Qué pasa si el día de la fiesta hace mucho calor?
 
-El vinilo del inflable se calienta bajo el sol directo de mediodía, sobre todo en abril y mayo. Las tres medidas que funcionan: programa los torneos intensos en la mañana o después de las 4, refuerza la hidratación entre rondas, y si tu jardín lo permite, aprovecha las horas en que el área del inflable recibe sombra natural. El equipo de INFLAFI puede orientarte sobre la mejor orientación del montaje según tu espacio al momento de instalar.
+El vinilo del inflable se calienta bajo el sol directo de mediodía, sobre todo en abril y mayo. Las tres medidas que funcionan: programa los torneos intensos en la mañana o después de las 4, refuerza la hidratación entre rondas, y si tu jardín lo permite, aprovecha las horas en que el área del inflable recibe sombra natural. El equipo de DENFLAB puede orientarte sobre la mejor orientación del montaje según tu espacio al momento de instalar.
 
 ---
 
@@ -221,9 +221,9 @@ El vinilo del inflable se calienta bajo el sol directo de mediodía, sobre todo 
 
 Tu hijo ya no quiere un castillo de bebés — quiere un reto. El Extrem, con su tobogán de altura y el guion de torneos de esta guía, es la fiesta que un niño de 8 a 12 años cuenta el lunes en la escuela. Las fechas de fin de semana se agotan con semanas de anticipación, así que si ya tienes la fecha, este es el momento.
 
-[**Quiero el Extrem para una fiesta de niños grandes →**](https://wa.me/5215539048634?text=Hola%20INFLAFI%2C%20busco%20un%20inflable%20para%20una%20fiesta%20de%20ni%C3%B1os%20de%208%20a%2012%20a%C3%B1os%20en%20CDMX%20y%20me%20interesa%20el%20Extrem.%20%C2%BFMe%20dan%20disponibilidad%20y%20precio%3F)
+[**Quiero el Extrem para una fiesta de niños grandes →**](https://wa.me/5215539048634?text=Hola%20DENFLAB%2C%20busco%20un%20inflable%20para%20una%20fiesta%20de%20ni%C3%B1os%20de%208%20a%2012%20a%C3%B1os%20en%20CDMX%20y%20me%20interesa%20el%20Extrem.%20%C2%BFMe%20dan%20disponibilidad%20y%20precio%3F)
 
-**INFLAFI** · WhatsApp: 52 1 55 3904 8634 · contacto@renta-de-inflables.com
+**DENFLAB** · WhatsApp: 52 1 55 3904 8634 · contacto@renta-de-inflables.com
 Horario de atención: Lunes a Viernes 9:00–19:00 | Sábado 9:00–17:00
 Cobertura en toda la CDMX: Polanco, Lomas, Santa Fe, Coyoacán, Del Valle, Tlalpan, Nápoles, Pedregal y colonias aledañas.
 

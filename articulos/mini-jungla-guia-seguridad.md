@@ -8,7 +8,7 @@ draft: false
 ---
 La escena se repite en jardines de toda la CDMX cada fin de semana: la Mini Jungla ya está inflada, verde y magnífica, y hacia ella corren al mismo tiempo un niño de 3 años que apenas suelta la mano de su mamá y un primo de 9 que llega en carrera desde el otro extremo del jardín. Los dos tienen el mismo derecho a brincar. Los dos van a entrar por la misma rampa. Y la diferencia entre una tarde perfecta y un llanto evitable está en algo que nadie improvisa bien sobre la marcha: las reglas que el adulto anfitrión definió —o no definió— antes de que el soplador arrancara.
 
-La Mini Jungla tiene una característica única dentro de los medianos de INFLAFI: es el inflable de la categoría con la edad de entrada más baja, apto desde los 3 años gracias a su rampa de subida suave. Esa virtud es también su responsabilidad particular. Un inflable que recibe desde los 3 años convive, en la práctica, con invitados de hasta 9 o 10, y esa mezcla de edades —de pesos, de estaturas, de niveles de control corporal— es el factor de riesgo número uno de cualquier fiesta con inflable. No el equipo, no el clima, no el anclaje: la convivencia de un niño de 14 kilos con uno de 35 en la misma superficie elástica.
+La Mini Jungla tiene una característica única dentro de los medianos de DENFLAB: es el inflable de la categoría con la edad de entrada más baja, apto desde los 3 años gracias a su rampa de subida suave. Esa virtud es también su responsabilidad particular. Un inflable que recibe desde los 3 años convive, en la práctica, con invitados de hasta 9 o 10, y esa mezcla de edades —de pesos, de estaturas, de niveles de control corporal— es el factor de riesgo número uno de cualquier fiesta con inflable. No el equipo, no el clima, no el anclaje: la convivencia de un niño de 14 kilos con uno de 35 en la misma superficie elástica.
 
 La buena noticia es que ese riesgo se gestiona por completo con reglas simples, aplicadas con constancia, por un adulto que sabe qué mirar. Esta guía reúne todo lo que necesitas: las reglas por edad, el uso correcto de la rampa, el protocolo de supervisión, el manejo del clima y el anclaje, y un checklist final para imprimir o guardar en el teléfono. Si vas a rentar la Mini Jungla —o ya la reservaste—, estos veinte minutos de lectura son la mejor inversión de toda la organización de tu fiesta.
 
@@ -60,9 +60,9 @@ Hay una tarea adicional que casi nadie menciona: vigilar el cansancio. Los accid
 
 ---
 
-## Clima y anclaje: lo que INFLAFI hace y lo que te toca a ti
+## Clima y anclaje: lo que DENFLAB hace y lo que te toca a ti
 
-La instalación segura de la Mini Jungla es responsabilidad del equipo de INFLAFI, y llega resuelta: anclaje perimetral completo sobre la superficie, soplador de 110 V probado en sitio, y verificación de funcionamiento antes de entregar el inflable listo. Lo que corresponde al anfitrión es el contexto: elegir bien la ubicación y saber reaccionar ante el clima.
+La instalación segura de la Mini Jungla es responsabilidad del equipo de DENFLAB, y llega resuelta: anclaje perimetral completo sobre la superficie, soplador de 110 V probado en sitio, y verificación de funcionamiento antes de entregar el inflable listo. Lo que corresponde al anfitrión es el contexto: elegir bien la ubicación y saber reaccionar ante el clima.
 
 Sobre la ubicación, tres criterios: superficie plana y libre de piedras, tornillos o raíces que puedan dañar el fondo; distancia de ramas bajas, cables y tendederos considerando los 2.8 metros de altura del inflable; y un contacto eléctrico confiable a distancia razonable, con extensión de buen calibre si hace falta. Todo eso se decide antes del montaje, idealmente cuando confirmas la reserva.
 
@@ -75,12 +75,12 @@ Sobre el clima, el protocolo es claro y conviene conocerlo de memoria. Con lluvi
 Esta secuencia numerada resume la operación segura de la Mini Jungla de principio a fin de la fiesta. Síguela en orden y la seguridad deja de depender de la memoria o la improvisación.
 
 1. **Antes del montaje:** recorre el área y retira piedras, juguetes, mangueras y cualquier objeto punzante. Verifica que el espacio libre alrededor del punto de instalación permita circular caminando por todo el perímetro.
-2. **Durante el montaje:** pregunta al equipo de INFLAFI dónde queda el soplador y el cable, y acuerda cómo proteger ese tramo del paso de los niños. Confirma dónde apagar el soplador en caso necesario.
+2. **Durante el montaje:** pregunta al equipo de DENFLAB dónde queda el soplador y el cable, y acuerda cómo proteger ese tramo del paso de los niños. Confirma dónde apagar el soplador en caso necesario.
 3. **Antes del primer turno:** reúne a todos los niños frente a la rampa y explica las reglas en un minuto, en positivo: brincamos sin zapatos, subimos caminando, bajamos sentados, sin luchitas, y cuando el adulto dice cambio, salimos contentos porque volvemos a entrar al rato.
 4. **Arranca con el turno de los pequeños:** los niños de 3 a 5 años estrenan el inflable cuando están frescos y el ambiente está tranquilo. Dejar su turno para el final, cuando están cansados y los grandes dominan el territorio, es la receta clásica del berrinche de las 6 PM.
 5. **Rota turnos de 10 minutos por rango de edad:** el supervisor avisa al minuto 9, cambia al grupo completo en el 10, y ofrece agua a los que salen. Constancia amable, cero excepciones.
 6. **Pausa activa a mitad de fiesta:** aprovecha el pastel o la piñata para dar descanso al grupo. Los niños regresan al inflable con energía renovada y mejor coordinación.
-7. **Cierre ordenado:** anuncia el "último turno" con claridad para evitar la estampida final. Cuando el equipo de INFLAFI llegue al desmontaje, el área ya debe estar sin niños.
+7. **Cierre ordenado:** anuncia el "último turno" con claridad para evitar la estampida final. Cuando el equipo de DENFLAB llegue al desmontaje, el área ya debe estar sin niños.
 
 ---
 
@@ -123,7 +123,7 @@ Imprime o guarda esta lista y márcala el día del evento:
 - [ ] Plan de clima claro: ante lluvia fuerte o viento, desalojar primero, apagar después
 - [ ] Zona de zapatos definida junto a la rampa para evitar el caos de tenis perdidos
 - [ ] Toallas a la mano por si hay que secar la superficie tras una llovizna
-- [ ] Teléfono de INFLAFI guardado para cualquier duda técnica durante el evento
+- [ ] Teléfono de DENFLAB guardado para cualquier duda técnica durante el evento
 
 > **El checklist en una frase:** si puedes caminar alrededor del inflable, ves al supervisor en su puesto, los turnos están escritos y el agua está junto a la rampa, tu fiesta ya está en el percentil más seguro de todas las de este sábado en CDMX.
 
@@ -173,7 +173,7 @@ Aun con el mejor protocolo, en una fiesta con niños pasan cosas. La diferencia 
 
 ### ¿De verdad un niño de 3 años puede usar la Mini Jungla con seguridad?
 
-Sí: es precisamente el inflable mediano del catálogo INFLAFI diseñado para recibir desde los 3 años, y la rampa de subida suave existe para eso. La condición es el contexto: turnos con niños de edad similar, máximo 4–5 simultáneos y un adulto atento junto a la rampa. Un niño de 3 años en esas condiciones brinca seguro; el mismo niño mezclado con primos de 9 años en un turno libre, no.
+Sí: es precisamente el inflable mediano del catálogo DENFLAB diseñado para recibir desde los 3 años, y la rampa de subida suave existe para eso. La condición es el contexto: turnos con niños de edad similar, máximo 4–5 simultáneos y un adulto atento junto a la rampa. Un niño de 3 años en esas condiciones brinca seguro; el mismo niño mezclado con primos de 9 años en un turno libre, no.
 
 ### ¿Cuántos adultos necesito para supervisar bien?
 
@@ -185,11 +185,11 @@ Primero, reglas en positivo y de frente: "tu turno es el que sigue, y va a ser e
 
 ### ¿La Mini Jungla se puede usar mojada después de una llovizna?
 
-Lo prudente es pausar, escurrir y secar la superficie con toallas antes de reanudar. El vinilo mojado es resbaloso y cambia por completo la física del juego, sobre todo en la rampa. Después de una llovizna breve, diez minutos de secado devuelven el inflable a condiciones normales. Tras lluvia fuerte, consulta al equipo de INFLAFI antes de reanudar el uso.
+Lo prudente es pausar, escurrir y secar la superficie con toallas antes de reanudar. El vinilo mojado es resbaloso y cambia por completo la física del juego, sobre todo en la rampa. Después de una llovizna breve, diez minutos de secado devuelven el inflable a condiciones normales. Tras lluvia fuerte, consulta al equipo de DENFLAB antes de reanudar el uso.
 
 ### ¿El soplador representa algún riesgo para los niños?
 
-El soplador es un equipo seguro y probado, pero debe tratarse como cualquier aparato eléctrico en exterior: los niños no lo tocan, el cable va protegido o fuera de las rutas de paso, y la conexión se mantiene alejada de charcos o zonas de salpicadura. Durante el montaje, pide al equipo de INFLAFI que te muestre cómo apagarlo: es información que probablemente no usarás y que conviene tener.
+El soplador es un equipo seguro y probado, pero debe tratarse como cualquier aparato eléctrico en exterior: los niños no lo tocan, el cable va protegido o fuera de las rutas de paso, y la conexión se mantiene alejada de charcos o zonas de salpicadura. Durante el montaje, pide al equipo de DENFLAB que te muestre cómo apagarlo: es información que probablemente no usarás y que conviene tener.
 
 ### ¿Qué señales me indican que debo detener el juego de inmediato?
 
@@ -218,7 +218,7 @@ La seguridad de un inflable no es un motivo de preocupación: es una lista corta
 
 [**Cotizar la Mini Jungla por WhatsApp →**](https://wa.me/5215539048634?text=Hola%2C%20quiero%20rentar%20la%20Mini%20Jungla%20para%20una%20fiesta%20con%20ni%C3%B1os%20peque%C3%B1os%20en%20CDMX.%20%C2%BFMe%20pueden%20dar%20disponibilidad%20y%20recomendaciones%20de%20seguridad%20para%20mi%20evento%3F)
 
-Cuéntale al equipo de INFLAFI las edades de tus invitados: te orientan sobre turnos, capacidad y la combinación ideal de inflables para tu grupo.
+Cuéntale al equipo de DENFLAB las edades de tus invitados: te orientan sobre turnos, capacidad y la combinación ideal de inflables para tu grupo.
 
 La disponibilidad de fines de semana es limitada, especialmente en temporada de fiestas. Reservar con una semana de anticipación asegura tu fecha y te da tiempo de sobra para preparar el checklist con calma.
 
@@ -230,4 +230,4 @@ Horario de atención: **Lunes a Viernes 9:00–19:00 | Sábados 9:00–17:00**
 
 ---
 
-*La Mini Jungla (4 × 2.5 × 2.8 m, desde 3 años, 4–5 niños simultáneos) requiere superficie plana exterior y corriente de 110 V. Montaje con anclaje completo, soplador y desmontaje siempre incluidos. INFLAFI atiende toda la CDMX y zonas aledañas.*
+*La Mini Jungla (4 × 2.5 × 2.8 m, desde 3 años, 4–5 niños simultáneos) requiere superficie plana exterior y corriente de 110 V. Montaje con anclaje completo, soplador y desmontaje siempre incluidos. DENFLAB atiende toda la CDMX y zonas aledañas.*

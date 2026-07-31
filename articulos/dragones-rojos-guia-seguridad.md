@@ -55,7 +55,7 @@ La solución no es prohibir, es alternar. **Turnos por franja de edad**: 10 minu
 
 ## Anclaje, Clima y Entorno: lo que se Resuelve Antes del Primer Brinco
 
-**El anclaje lo hace INFLAFI, y no se toca.** Los Dragones Rojos se instalan con estacas de jardín sobre pasto o sacos de arena sobre concreto y adoquín, siempre incluidos en el servicio. El equipo evalúa el terreno al llegar y deja el inflable fijo. Lo que corresponde al anfitrión es simple: no mover el inflable, no aflojar anclas "para acomodarlo tantito", y avisar por WhatsApp si nota cualquier ancla suelta durante el evento. Un inflable mediano bien anclado no se mueve ni con el jardín lleno; uno al que le quitaron dos estacas es otra historia.
+**El anclaje lo hace DENFLAB, y no se toca.** Los Dragones Rojos se instalan con estacas de jardín sobre pasto o sacos de arena sobre concreto y adoquín, siempre incluidos en el servicio. El equipo evalúa el terreno al llegar y deja el inflable fijo. Lo que corresponde al anfitrión es simple: no mover el inflable, no aflojar anclas "para acomodarlo tantito", y avisar por WhatsApp si nota cualquier ancla suelta durante el evento. Un inflable mediano bien anclado no se mueve ni con el jardín lleno; uno al que le quitaron dos estacas es otra historia.
 
 **El clima manda, especialmente el viento.** La lluvia es el riesgo evidente —superficie mojada resbalosa, sobre todo en la pendiente del tobogán—, pero el viento es el subestimado: rachas fuertes sobre una estructura de 2.5 metros con paredes son razón para desalojar y apagar el soplador, sin negociación. El protocolo ante lluvia: niños afuera, soplador apagado, esperar a que escampe, secar la superficie del tobogán con toallas (es la parte que más importa, por la pendiente) y reanudar. En temporada de lluvias de la CDMX —mayo a octubre—, concentra el uso intensivo del inflable en las primeras horas de la fiesta; los aguaceros capitalinos aman las 5 de la tarde.
 
@@ -92,7 +92,7 @@ Con menos de 10 niños, supervisor y portero pueden ser la misma persona sin per
 
 ## Guía Paso a Paso: del Montaje al Desmontaje
 
-1. **Recibe al equipo de INFLAFI 30 minutos antes de la fiesta.** El montaje toma 10 a 15 minutos e incluye anclaje completo. Pide que te muestren dónde quedaron las anclas y cómo opera el soplador: son dos minutos de inducción que valen oro.
+1. **Recibe al equipo de DENFLAB 30 minutos antes de la fiesta.** El montaje toma 10 a 15 minutos e incluye anclaje completo. Pide que te muestren dónde quedaron las anclas y cómo opera el soplador: son dos minutos de inducción que valen oro.
 2. **Haz el recorrido del entorno.** Cable seguro, ramas lejos, salida del tobogán despejada, caja para zapatos lista junto a la entrada.
 3. **Nombra a los supervisores por nombre y turno.** Antes del primer invitado, no después. "Todos vigilamos" significa "nadie vigila".
 4. **Inaugura con demostración.** Los primeros dos o tres niños hacen el circuito completo —escalera, deslizada sentados, despeje— mientras los demás miran. Los niños copian lo que ven mucho mejor de lo que obedecen lo que escuchan.
@@ -100,7 +100,7 @@ Con menos de 10 niños, supervisor y portero pueden ser la misma persona sin per
 6. **Corre los turnos con timer.** Por franja de edad si el grupo es mixto. El teléfono con alarma es el árbitro que no se discute.
 7. **Pausa colectiva cada 45–60 minutos.** Cinco minutos de inflable vacío: hidratación, revisión visual de presión y anclas, y reinicio.
 8. **Cierra el inflable durante pastel y piñata.** Pancitas llenas y brincos no se combinan; además concentra a todos en el momento estelar de la fiesta.
-9. **Última ronda anunciada y desmontaje.** "Últimos 15 minutos de dragón" evita el drama del cierre sorpresa. El equipo de INFLAFI llega al horario acordado, desancla, desinfla y se lleva todo.
+9. **Última ronda anunciada y desmontaje.** "Últimos 15 minutos de dragón" evita el drama del cierre sorpresa. El equipo de DENFLAB llega al horario acordado, desancla, desinfla y se lleva todo.
 
 ---
 
@@ -134,7 +134,7 @@ Bienvenido al clásico de los clásicos. Tres capas de solución: primera, la de
 
 ### ¿El inflable puede voltearse o moverse con el viento?
 
-Bien anclado —que es como INFLAFI lo entrega siempre, con estacas en pasto o sacos de arena en superficies duras—, un mediano como los Dragones Rojos permanece firme en condiciones normales de viento de la CDMX. El protocolo de suspensión existe para rachas fuertes: si ves que las copas de los árboles se agitan con violencia o hay tolvanera, niños afuera y soplador apagado hasta que pase. Es un escenario poco frecuente, pero la regla existe precisamente para ese día.
+Bien anclado —que es como DENFLAB lo entrega siempre, con estacas en pasto o sacos de arena en superficies duras—, un mediano como los Dragones Rojos permanece firme en condiciones normales de viento de la CDMX. El protocolo de suspensión existe para rachas fuertes: si ves que las copas de los árboles se agitan con violencia o hay tolvanera, niños afuera y soplador apagado hasta que pase. Es un escenario poco frecuente, pero la regla existe precisamente para ese día.
 
 ### ¿Se puede usar el inflable mojado si lo secamos "más o menos"?
 
@@ -160,8 +160,8 @@ Ningún protocolo elimina el cien por ciento de los raspones — para eso los ni
 | Niño que cae mal al final del tobogán | Sale del inflable, se revisa articulación por articulación con calma | Dolor al apoyar, inflamación visible o negativa a mover una extremidad | La calma del adulto define la reacción del niño |
 | Sangrado de nariz por brinco | Cabeza ligeramente adelante (nunca atrás), presión suave, reposo a la sombra | Si no cede en 15 minutos | Común y aparatoso, casi nunca grave |
 | Niño mareado o con náusea | Sombra, agua en sorbos, reposo sentado | Vómito repetido o confusión | Suele ser calor + brincos + refresco; se previene con pausas |
-| Soplador se apaga (corte de luz, cable) | Todos afuera con calma: el desinflado toma 2–3 min, hay tiempo | Si al reconectar la presión no se recupera, WhatsApp a INFLAFI | El inflable nunca colapsa de golpe; no hay razón para pánico |
-| Ancla visiblemente floja | Niños afuera, no tocar el anclaje, foto y WhatsApp a INFLAFI | Siempre — el anclaje solo lo ajusta el equipo | Detectarla temprano es parte de la ronda visual de cada hora |
+| Soplador se apaga (corte de luz, cable) | Todos afuera con calma: el desinflado toma 2–3 min, hay tiempo | Si al reconectar la presión no se recupera, WhatsApp a DENFLAB | El inflable nunca colapsa de golpe; no hay razón para pánico |
+| Ancla visiblemente floja | Niños afuera, no tocar el anclaje, foto y WhatsApp a DENFLAB | Siempre — el anclaje solo lo ajusta el equipo | Detectarla temprano es parte de la ronda visual de cada hora |
 | Ráfagas de viento fuerte repentinas | Desalojo inmediato y soplador apagado hasta que pase | Si el viento no cede, se termina el uso por ese día | La regla existe para el día raro; ese día se aplica sin negociar |
 
 > **El botiquín de la fiesta:** curitas, gasas, solución antiséptica, bolsa de gel frío y el teléfono del pediatra de confianza. En diez años de fiestas, la mayoría de los anfitriones solo usa las curitas — pero el que lo tiene completo duerme mejor la noche anterior.
@@ -172,7 +172,7 @@ Ningún protocolo elimina el cien por ciento de los raspones — para eso los ni
 
 **Antes de abrir el inflable:**
 
-- [ ] Anclaje verificado visualmente (lo instaló INFLAFI; solo confirmar que nada se movió)
+- [ ] Anclaje verificado visualmente (lo instaló DENFLAB; solo confirmar que nada se movió)
 - [ ] Cable del soplador fuera de rutas de paso
 - [ ] Salida del tobogán despejada en un radio de 1.5 m
 - [ ] Caja de zapatos lista junto a la entrada
@@ -199,7 +199,7 @@ Ningún protocolo elimina el cien por ciento de los raspones — para eso los ni
 - [ ] Última ronda anunciada 15 minutos antes ("últimos brincos del dragón")
 - [ ] Inflable vacío y verificado antes de la llegada del equipo de desmontaje
 - [ ] Zapatos devueltos a sus dueños desde la caja rotulada
-- [ ] Cualquier incidencia o detalle del equipo reportado a INFLAFI en el momento
+- [ ] Cualquier incidencia o detalle del equipo reportado a DENFLAB en el momento
 - [ ] Área perimetral despejada para facilitar el retiro
 
 ---
@@ -227,6 +227,6 @@ El tipo de suelo de tu jardín define el sistema de anclaje (estacas en pasto, s
 
 La seguridad de los Dragones Rojos empieza con una instalación profesional —anclaje completo, soplador calibrado, inducción en sitio— y se completa con las reglas de esta guía. Si tu fiesta es de niños de 4 a 10 años y quieres el tobogán que van a recordar todo el año, escríbenos con tu fecha y resolvemos cualquier duda de seguridad en la misma conversación.
 
-**[Quiero rentar los Dragones Rojos con asesoría de seguridad →](https://wa.me/5215539048634?text=Hola%20INFLAFI%2C%20quiero%20rentar%20los%20Dragones%20Rojos%20para%20ni%C3%B1os%20de%204%20a%2010%20a%C3%B1os.%20Le%C3%AD%20la%20gu%C3%ADa%20de%20seguridad%20del%20tobog%C3%A1n%20y%20quiero%20confirmar%20disponibilidad.)**
+**[Quiero rentar los Dragones Rojos con asesoría de seguridad →](https://wa.me/5215539048634?text=Hola%20DENFLAB%2C%20quiero%20rentar%20los%20Dragones%20Rojos%20para%20ni%C3%B1os%20de%204%20a%2010%20a%C3%B1os.%20Le%C3%AD%20la%20gu%C3%ADa%20de%20seguridad%20del%20tobog%C3%A1n%20y%20quiero%20confirmar%20disponibilidad.)**
 
-*INFLAFI — Renta de Inflables CDMX. Anclaje profesional incluido, protocolo explicado en sitio, y un dragón rojo que se porta bien cuando los adultos saben las reglas.*
+*DENFLAB — Renta de Inflables CDMX. Anclaje profesional incluido, protocolo explicado en sitio, y un dragón rojo que se porta bien cuando los adultos saben las reglas.*

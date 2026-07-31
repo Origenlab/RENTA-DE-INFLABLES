@@ -1,19 +1,19 @@
 ---
-title: 'Renta de Inflable para Boda y XV Años en CDMX — Castillo Blanco Premium | INFLAFI'
+title: 'Renta de Inflable para Boda y XV Años en CDMX — Castillo Blanco Premium | DENFLAB'
 description: 'Renta del Castillo Blanco en CDMX: 5×4×3.5 m, blanco marfil y dorado. El único inflable premium del catálogo, diseñado para bodas, XV años, bautizos y eventos formales.'
 image: '/images/og/inflables-boda.jpg'
 breadcrumbLabel: 'Inflables para Boda'
 waMessage: 'Hola, me interesa cotizar el Castillo Blanco (inflable premium) para una boda o evento especial en CDMX. ¿Está disponible?'
 hero:
-  badge: 'Modelo premium · 5×4×3.5 m · Para bodas · XV años · Bautizos'
+  badge: 'DENFLAB · +30 años · Modelo premium 5×4×3.5 m para bodas y XV años'
   title: 'Inflables para Boda'
   accent: 'y Eventos Especiales'
-  subtitle: 'El Castillo Blanco: el único inflable del catálogo INFLAFI diseñado para eventos formales. Blanco marfil, detalles dorados y 3.5 metros de altura — entretenimiento premium que no rompe la estética de tu evento.'
+  subtitle: 'El Castillo Blanco: el único inflable del catálogo DENFLAB diseñado para eventos formales. Blanco marfil, detalles dorados y 3.5 metros de altura — entretenimiento premium que no rompe la estética de tu evento.'
   descRight:
-    - 'El Castillo Blanco es la categoría más exclusiva del catálogo INFLAFI: un inflable de 5×4×3.5 m en blanco marfil y dorado diseñado para bodas, recepciones de XV años, bautizos y cualquier evento donde el entretenimiento debe estar a la altura de la decoración formal. A diferencia de un brincolín de colores, el Castillo Blanco complementa el venue sin competir con él — funciona igual de bien como fondo fotográfico que como punto de entretenimiento para adolescentes y adultos jóvenes.'
+    - 'El Castillo Blanco es la categoría más exclusiva del catálogo DENFLAB — más de 30 años rentando inflables en CDMX: un inflable de 5×4×3.5 m en blanco marfil y dorado diseñado para bodas, recepciones de XV años, bautizos y cualquier evento donde el entretenimiento debe estar a la altura de la decoración formal. A diferencia de un brincolín de colores, el Castillo Blanco complementa el venue sin competir con él — funciona igual de bien como fondo fotográfico que como punto de entretenimiento para adolescentes y adultos jóvenes.'
     - 'Es el inflable más alto del catálogo (3.5 m de altura interior) con capacidad para 6 a 8 personas de hasta 80 kg cada una. Requiere un espacio exterior de 7×5.5 m — pensado para quintas, haciendas y jardines de bodas. El precio incluye soplador silencioso de 1,000 W, anclas de instalación discreta, traslado, montaje y desmontaje. Recomendamos reservar con al menos 4 semanas de anticipación.'
   ctaText: '¡Cotizar el Castillo Blanco!'
-  ariaLabel: 'Renta de inflable Castillo Blanco para bodas y XV años CDMX — INFLAFI'
+  ariaLabel: 'Renta de inflable Castillo Blanco para bodas y XV años CDMX — DENFLAB'
 menuItems:
   - label: 'Castillo Blanco'
     sub: 'Descripción del modelo premium'
@@ -63,7 +63,7 @@ detail:
   gallery:
     main:
       src: '/images/productos/castillo-blanco.jpg'
-      alt: 'Castillo Blanco premium — inflable para bodas y XV años · INFLAFI CDMX'
+      alt: 'Castillo Blanco premium — inflable para bodas y XV años · DENFLAB CDMX'
     thumbs:
       - src: '/images/inflables/bodas.jpg'
         alt: 'Castillo Blanco — vista nocturna con iluminación'
@@ -83,7 +83,7 @@ featureSpecs:
     svgContent: '<path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" stroke-width="1.5"/>'
     label: 'El único modelo premium del catálogo'
     value: 'Blanco y dorado'
-    detail: 'Diseño exclusivo en blanco marfil con detalles dorados en torres, arcos y ribetes. El único inflable del catálogo INFLAFI pensado para eventos formales: no distorsiona la estética del venue, no rompe el dress code y funciona como fondo fotográfico de bodas y XV años.'
+    detail: 'Diseño exclusivo en blanco marfil con detalles dorados en torres, arcos y ribetes. El único inflable del catálogo DENFLAB pensado para eventos formales: no distorsiona la estética del venue, no rompe el dress code y funciona como fondo fotográfico de bodas y XV años.'
     tag: 'Diseño exclusivo'
   - gradient: 'linear-gradient(135deg, #1e293b 0%, #475569 100%)'
     svgContent: '<path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" stroke-width="1.5"/><circle cx="9" cy="7" r="4" stroke-width="1.5"/><path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75" stroke-width="1.5"/>'
@@ -99,7 +99,7 @@ featureSpecs:
     tag: 'Eventos formales'
 panel:
   src: '/images/inflables/bodas.jpg'
-  alt: 'Castillo Blanco premium en renta para bodas y XV años · INFLAFI CDMX'
+  alt: 'Castillo Blanco premium en renta para bodas y XV años · DENFLAB CDMX'
   badge: 'Castillo Blanco'
   dims: '5 × 4 × 3.5 m'
   cat: 'Categoría: Bodas'
@@ -111,7 +111,7 @@ secondarySpecs:
   - svgContent: '<path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/>'
     label: 'Dimensiones'
     value: '5×4×3.5 m'
-    note: 'El inflable más alto del catálogo INFLAFI'
+    note: 'El inflable más alto del catálogo DENFLAB'
   - svgContent: '<circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/>'
     label: 'Tiempo de montaje'
     value: '~20 minutos'
@@ -166,7 +166,7 @@ scenarios:
     tag: 'Eventos corporativos'
 cuandoCtaText: '¿Tu evento tiene características especiales — venue con restricciones, horario nocturno, piso de cantera? Cuéntanos los detalles y confirmamos la viabilidad antes de reservar.'
 otrasHeading:
-  eyebrow: 'Catálogo completo INFLAFI'
+  eyebrow: 'Catálogo completo DENFLAB'
   title: '¿Necesitas también un inflable'
   titleAccent: 'para los niños del evento?'
   body:

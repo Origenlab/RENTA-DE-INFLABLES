@@ -1,19 +1,19 @@
 ---
-title: 'Renta de Inflables Chicos en CDMX — Micro Baby | INFLAFI'
+title: 'Renta de Inflables Chicos en CDMX — Micro Baby | DENFLAB'
 description: 'Renta de inflables chicos en CDMX: el Micro Baby (2×2 m) es el único que cabe en interiores. Seguro para niños de 1 a 4 años. Entrega y montaje incluidos.'
 image: '/images/og/inflables-chicos.jpg'
 breadcrumbLabel: 'Inflables Chicos'
 waMessage: 'Hola, me interesa cotizar el inflable Micro Baby (2×2 m) para un evento en CDMX. ¿Está disponible?'
 hero:
-  badge: '1 modelo certificado · Base 2×2 m · Interior y exterior'
+  badge: 'DENFLAB · +30 años · Base 2×2 m · Interior y exterior'
   title: 'Inflables Chicos'
   accent: 'en Renta · CDMX'
   subtitle: 'El Micro Baby: el único inflable del catálogo que cabe en interiores. Paredes suaves, entrada baja y montaje en menos de 5 minutos. El más seguro para niños de 1 a 4 años.'
   descRight:
-    - 'Los inflables chicos son la categoría más compacta del catálogo INFLAFI: 2×2 metros de base y 2 metros de altura. Un solo modelo — el Micro Baby — diseñado específicamente para las primeras fiestas de vida: baby showers, cumpleaños de primer y segundo año y cualquier evento donde los niños más pequeños necesiten su propio espacio seguro. Sin bordes pronunciados, sin anclas externas, con supervisión visual completa en todo momento.'
+    - 'Los inflables chicos son la categoría más compacta de los más de 30 años de catálogo DENFLAB: 2×2 metros de base y 2 metros de altura. Un solo modelo — el Micro Baby — diseñado específicamente para las primeras fiestas de vida: baby showers, cumpleaños de primer y segundo año y cualquier evento donde los niños más pequeños necesiten su propio espacio seguro. Sin bordes pronunciados, sin anclas externas, con supervisión visual completa en todo momento.'
     - 'A diferencia de todos los demás modelos del catálogo, el Micro Baby puede instalarse en interiores: salas amplias, cuartos grandes, terrazas techadas y salones sin jardín. El soplador de bajo ruido está incluido en la renta. Montaje en menos de 5 minutos. Reserva con el 30% de anticipo — respondemos por WhatsApp de lunes a domingo en minutos.'
   ctaText: '¡Cotiza el Micro Baby!'
-  ariaLabel: 'Renta de inflables chicos INFLAFI — CDMX'
+  ariaLabel: 'Renta de inflables chicos DENFLAB — CDMX'
 menuItems:
   - label: 'El Micro Baby'
     sub: 'Descripción completa'
@@ -49,7 +49,7 @@ detail:
   category: 'Chico'
   title: 'Micro Baby'
   body:
-    - 'El Micro Baby es el inflable más compacto y seguro del catálogo INFLAFI. Con 2×2 metros de base y 2 metros de altura, es el único modelo que puede instalarse en interiores: salas con espacio, cuartos amplios, terrazas techadas o salones sin jardín. Sus paredes son suaves y acolchadas, la entrada tiene boca baja — lo que permite a los adultos ver a los niños en todo momento — y no hay bordes pronunciados ni esquinas que puedan lastimar a los más pequeños. Todo el perímetro interior está diseñado para amortiguar caídas.'
+    - 'El Micro Baby es el inflable más compacto y seguro del catálogo DENFLAB. Con 2×2 metros de base y 2 metros de altura, es el único modelo que puede instalarse en interiores: salas con espacio, cuartos amplios, terrazas techadas o salones sin jardín. Sus paredes son suaves y acolchadas, la entrada tiene boca baja — lo que permite a los adultos ver a los niños en todo momento — y no hay bordes pronunciados ni esquinas que puedan lastimar a los más pequeños. Todo el perímetro interior está diseñado para amortiguar caídas.'
     - 'Ideal para los cumpleaños de uno y dos años, baby showers con área de juego para hermanos mayores y cualquier evento donde la audiencia principal sean niños entre 1 y 4 años. Se monta en menos de 5 minutos, no requiere anclas externas por su tamaño compacto, y el soplador de bajo ruido — incluido en la renta — mantiene la presión constante sin molestar a los invitados. Es el favorito de los papás que quieren un espacio delimitado y supervisado para los más pequeños de la fiesta.'
   points:
     - 'Base 2×2 m — el más compacto del catálogo'
@@ -64,7 +64,7 @@ detail:
   gallery:
     main:
       src: '/images/productos/micro-baby.jpg'
-      alt: 'Inflable Micro Baby — vista frontal · INFLAFI CDMX'
+      alt: 'Inflable Micro Baby — vista frontal · DENFLAB CDMX'
     thumbs:
       - src: '/images/inflables/chicos.jpg'
         alt: 'Micro Baby — vista lateral y acceso'
@@ -91,7 +91,7 @@ featureSpecs:
     svgContent: '<rect x="3" y="3" width="8" height="8" stroke-width="1.5" rx="1"/><rect x="13" y="3" width="8" height="8" stroke-width="1.5" rx="1"/><rect x="3" y="13" width="8" height="8" stroke-width="1.5" rx="1"/><rect x="13" y="13" width="8" height="8" stroke-width="1.5" rx="1"/>'
     label: 'Dimensiones'
     value: '2 × 2 × 2 m'
-    detail: 'El más compacto del catálogo INFLAFI. La base de 2×2 m cabe en salas, cuartos grandes y terrazas con al menos 3×3 m de espacio libre total (incluye margen para el soplador).'
+    detail: 'El más compacto del catálogo DENFLAB. La base de 2×2 m cabe en salas, cuartos grandes y terrazas con al menos 3×3 m de espacio libre total (incluye margen para el soplador).'
     tag: 'Cabe en interiores'
   - gradient: 'linear-gradient(135deg, #0369a1 0%, #0ea5e9 100%)'
     svgContent: '<path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" stroke-width="1.5"/><polyline points="9 22 9 12 15 12 15 22" stroke-width="1.5"/>'
@@ -101,7 +101,7 @@ featureSpecs:
     tag: 'Único en su categoría'
 panel:
   src: '/images/productos/micro-baby.jpg'
-  alt: 'Inflable Micro Baby en renta CDMX — INFLAFI · 2×2×2 m para niños de 1 a 4 años'
+  alt: 'Inflable Micro Baby en renta CDMX — DENFLAB · 2×2×2 m para niños de 1 a 4 años'
   badge: 'Micro Baby'
   dims: '2 × 2 × 2 m'
   cat: 'Categoría: Chico'
@@ -168,7 +168,7 @@ scenarios:
     tag: 'Discreto y compacto'
 cuandoCtaText: '¿Tu caso no aparece aquí? Escríbenos — tenemos solución para casi cualquier tipo de evento.'
 otrasHeading:
-  eyebrow: 'Catálogo completo INFLAFI'
+  eyebrow: 'Catálogo completo DENFLAB'
   title: '¿Los niños son más grandes?'
   titleAccent: 'Explora las otras categorías'
   desc: 'El Micro Baby es perfecto para 1–4 años, pero tenemos 5 categorías más para todos los demás.'

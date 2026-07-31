@@ -1,9 +1,9 @@
-/* tokens.css — FUENTE ÚNICA de design tokens de INFLAFI.
+/* tokens.css — FUENTE ÚNICA de design tokens de DENFLAB.
    Importar UNA sola vez en BaseLayout.
    Paleta festiva y vibrante para inflables y fiestas infantiles. */
 
 :root {
-  /* ---------- COLOR (marca INFLAFI) ---------- */
+  /* ---------- COLOR (marca DENFLAB) ---------- */
   --c-primary: #7C3AED;          /* violeta festivo */
   --c-primary-light: #9061F9;
   --c-primary-dark: #6D28D9;

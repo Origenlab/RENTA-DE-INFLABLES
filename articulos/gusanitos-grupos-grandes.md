@@ -10,7 +10,7 @@ Imagina la escena: es el sábado de la posada de la empresa de tu esposo, o el v
 
 Este escenario no es una excepción. Es la norma en los eventos donde se elige el inflable por temática, por precio o por inercia, sin hacer el cálculo fundamental: ¿cuántos niños reales necesito entretener, y cuánto tiempo tengo para hacerlo? Es el error que los organizadores profesionales de eventos en CDMX nunca cometen, y que los papás primerizos cometen casi siempre. No porque sean descuidados, sino porque nadie les dijo que la capacidad del inflable es, en muchos contextos, la variable más importante de toda la decisión.
 
-Los Gusanitos de INFLAFI existen para resolver exactamente ese problema. No son el inflable más fotogénico del catálogo ni el que tiene la temática más emocionante. Son el inflable mediano más eficiente: el más ancho, el más alto, el de mayor capacidad. Y en los eventos donde el número de niños supera lo que cualquier inflable estándar puede manejar con dignidad, los Gusanitos son la diferencia entre una tarde que fluye y una tarde que se apaga. Esta guía está escrita para el papá organizador metódico, para el director de primaria que planea la kermés anual, para la familia que tiene la posada de cuarenta niños. Para quien necesita que las cosas funcionen, no solo que se vean bien.
+Los Gusanitos de DENFLAB existen para resolver exactamente ese problema. No son el inflable más fotogénico del catálogo ni el que tiene la temática más emocionante. Son el inflable mediano más eficiente: el más ancho, el más alto, el de mayor capacidad. Y en los eventos donde el número de niños supera lo que cualquier inflable estándar puede manejar con dignidad, los Gusanitos son la diferencia entre una tarde que fluye y una tarde que se apaga. Esta guía está escrita para el papá organizador metódico, para el director de primaria que planea la kermés anual, para la familia que tiene la posada de cuarenta niños. Para quien necesita que las cosas funcionen, no solo que se vean bien.
 
 ---
 
@@ -62,7 +62,7 @@ Una kermés escolar bien organizada con los Gusanitos puede ser una de las mejor
 ### Cronograma modelo para kermés de 3 horas con 80 niños
 
 **8:00–8:30 AM — Preparación del espacio.**
-El equipo de INFLAFI llega y realiza el montaje. El coordinador del evento designa y equipa la zona de espera con actividades. Se establece la mesa de registro de llegadas.
+El equipo de DENFLAB llega y realiza el montaje. El coordinador del evento designa y equipa la zona de espera con actividades. Se establece la mesa de registro de llegadas.
 
 **8:30–9:00 AM — Registro y asignación de grupos.**
 A medida que los niños llegan con sus familias, reciben una pulsera de color que los asigna a un grupo numerado. Con 80 niños y grupos de 9, tienes 9 grupos. Se recomienda mezclar las edades dentro de los grupos para evitar que los más grandes acaparen el inflable en los primeros turnos.
@@ -74,7 +74,7 @@ El Grupo 1 entra al inflable. El coordinador inicia el temporizador. Los Grupos 
 Con grupos de 9 niños y ciclos de 12 minutos (10 de brinco + 2 de transición), en 3 horas completas 15 ciclos, para 135 niños-turno. Con 80 niños, cada niño tiene en promedio 1.7 turnos. Si el inflable opera a máxima eficiencia, los niños más rápidos para regresar a la cola pueden completar 2 o 3 turnos.
 
 **12:00 PM — Cierre de operaciones del inflable.**
-El Grupo final completa su turno. El equipo de INFLAFI inicia el desmontaje.
+El Grupo final completa su turno. El equipo de DENFLAB inicia el desmontaje.
 
 ### Roles operativos necesarios
 
@@ -185,7 +185,7 @@ La seguridad de un inflable con 8 niños es manejable para cualquier adulto aten
 
 **Diana P., mamá organizadora de cumpleaños, Del Valle:** "El cumpleaños de mi hija Sofía invité a toda su generación del kinder: 32 niños. Sé que suena exagerado pero en nuestra familia así son las fiestas. Un amigo que renta eventos me dijo que pidiera los Gusanitos porque son los que aguantan grupos grandes. Hice un sistema de turnos simple con pulseras de cuatro colores y funcionó perfecto. Ningún niño estuvo más de 8 minutos esperando su turno. Mi esposo que es muy analítico quedó impresionado: 'hiciste la logística como una profesional', me dijo. La verdad es que el inflable correcto hace la mitad del trabajo."
 
-**Ing. Marco A., responsable de eventos de empresa, Santa Fe:** "Organizamos el día de campo anual de la empresa con zona infantil para los hijos de los empleados. Eran 45 niños de entre 3 y 12 años. Elegimos los Gusanitos porque el equipo de INFLAFI nos orientó sobre la capacidad y nos explicó el sistema de turnos. El resultado fue que los niños estuvieron contentos durante cuatro horas sin que ningún padre tuviera que acercarse a quejarse del inflable. Para un evento de empresa, eso es exactamente lo que necesitas: que las cosas funcionen sin drama."
+**Ing. Marco A., responsable de eventos de empresa, Santa Fe:** "Organizamos el día de campo anual de la empresa con zona infantil para los hijos de los empleados. Eran 45 niños de entre 3 y 12 años. Elegimos los Gusanitos porque el equipo de DENFLAB nos orientó sobre la capacidad y nos explicó el sistema de turnos. El resultado fue que los niños estuvieron contentos durante cuatro horas sin que ningún padre tuviera que acercarse a quejarse del inflable. Para un evento de empresa, eso es exactamente lo que necesitas: que las cosas funcionen sin drama."
 
 ---
 
@@ -234,9 +234,9 @@ La diferencia entre un evento de 40 niños que fluye y uno que genera caos no es
 
 Los Gusanitos son la respuesta a esa matemática cuando el grupo es grande. No son el inflable más vistoso del catálogo. Son el inflable que hace que todos los niños brinquen, que ninguno espere desesperado y que el organizador pueda disfrutar el evento en lugar de apagarlo.
 
-[**Cotizar los Gusanitos para tu evento grande →**](https://wa.me/5215539048634?text=Hola%2C%20estoy%20organizando%20un%20evento%20con%20varios%20ni%C3%B1os%20y%20me%20interesa%20rentar%20los%20Gusanitos%20de%20INFLAFI.%20El%20evento%20es%20el%20d%C3%ADa%20__%20en%20la%20colonia%20__%20y%20esperamos%20aproximadamente%20__%20ni%C3%B1os.%20%C2%BFEst%C3%A1%20disponible%3F)
+[**Cotizar los Gusanitos para tu evento grande →**](https://wa.me/5215539048634?text=Hola%2C%20estoy%20organizando%20un%20evento%20con%20varios%20ni%C3%B1os%20y%20me%20interesa%20rentar%20los%20Gusanitos%20de%20DENFLAB.%20El%20evento%20es%20el%20d%C3%ADa%20__%20en%20la%20colonia%20__%20y%20esperamos%20aproximadamente%20__%20ni%C3%B1os.%20%C2%BFEst%C3%A1%20disponible%3F)
 
-¿Organizas una kermés escolar, una posada grande o un evento institucional? Cuéntanos el detalle de tu evento. El equipo de INFLAFI tiene experiencia con eventos de todos los tamaños y puede orientarte sobre el sistema de turnos, los requerimientos de espacio y la logística completa.
+¿Organizas una kermés escolar, una posada grande o un evento institucional? Cuéntanos el detalle de tu evento. El equipo de DENFLAB tiene experiencia con eventos de todos los tamaños y puede orientarte sobre el sistema de turnos, los requerimientos de espacio y la logística completa.
 
 **Teléfono:** 55 3904 8634 | **Correo:** contacto@renta-de-inflables.com
 
@@ -244,6 +244,6 @@ Horario de atención: **Lunes a Viernes 9:00–19:00 | Sábados 9:00–17:00**
 
 ---
 
-*Los Gusanitos requieren un espacio mínimo de 5.5 × 4.8 metros libres, superficie plana exterior y acceso a corriente eléctrica de 110 V. Montaje, soplador y desmontaje siempre incluidos en el precio. Anticipo del 30% para reservar, saldo del 70% el día del evento. INFLAFI opera en toda la CDMX: Polanco, Lomas de Chapultepec, Santa Fe, Miguel Hidalgo, Coyoacán, Del Valle, Tlalpan, Nápoles, Pedregal, Satélite y zonas aledañas.*
+*Los Gusanitos requieren un espacio mínimo de 5.5 × 4.8 metros libres, superficie plana exterior y acceso a corriente eléctrica de 110 V. Montaje, soplador y desmontaje siempre incluidos en el precio. Anticipo del 30% para reservar, saldo del 70% el día del evento. DENFLAB opera en toda la CDMX: Polanco, Lomas de Chapultepec, Santa Fe, Miguel Hidalgo, Coyoacán, Del Valle, Tlalpan, Nápoles, Pedregal, Satélite y zonas aledañas.*
 
-[**Reservar los Gusanitos — disponibilidad limitada en fines de semana →**](https://wa.me/5215539048634?text=Quiero%20reservar%20los%20Gusanitos%20de%20INFLAFI%20para%20un%20evento%20grande.%20Tenemos%20aproximadamente%20__%20ni%C3%B1os%20y%20el%20evento%20es%20el%20d%C3%ADa%20__%20en%20__%20colonia.%20%C2%BFEst%C3%A1%20disponible%3F)
+[**Reservar los Gusanitos — disponibilidad limitada en fines de semana →**](https://wa.me/5215539048634?text=Quiero%20reservar%20los%20Gusanitos%20de%20DENFLAB%20para%20un%20evento%20grande.%20Tenemos%20aproximadamente%20__%20ni%C3%B1os%20y%20el%20evento%20es%20el%20d%C3%ADa%20__%20en%20__%20colonia.%20%C2%BFEst%C3%A1%20disponible%3F)

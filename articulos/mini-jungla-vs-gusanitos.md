@@ -16,7 +16,7 @@ Esta guía existe para resolver esa duda de una vez. Vamos a poner los dos infla
 
 ## Dos medianos que no compiten: se reparten el mercado
 
-Lo primero que hay que entender es que INFLAFI no tiene dos inflables medianos parecidos por accidente. La Mini Jungla y los Gusanitos existen en el mismo catálogo porque atienden necesidades que casi nunca se superponen, aunque desde afuera parezcan intercambiables.
+Lo primero que hay que entender es que DENFLAB no tiene dos inflables medianos parecidos por accidente. La Mini Jungla y los Gusanitos existen en el mismo catálogo porque atienden necesidades que casi nunca se superponen, aunque desde afuera parezcan intercambiables.
 
 La Mini Jungla es el inflable mediano con la edad de entrada más baja del catálogo: está pensado desde los 3 años. Su rampa de subida suave es la razón: un niño de tres años que todavía no domina escalones altos puede entrar y salir por su propio pie, sin que un adulto tenga que cargarlo. Su temática de selva —animales, verde intenso, narrativa visual— lo convierte además en el mediano más fotogénico y el que mejor sostiene una fiesta temática. Su formato es compacto: 4 metros de largo por 2.5 de ancho, con 2.8 metros de altura, y una capacidad cómoda de 4 a 5 niños simultáneos.
 
@@ -28,7 +28,7 @@ En resumen: la Mini Jungla gana cuando el grupo incluye niños muy pequeños o c
 
 ## Tabla comparativa completa: especificación por especificación
 
-Esta tabla pone los dos inflables lado a lado con los datos del catálogo INFLAFI y una columna de contexto práctico que traduce cada número a lo que significa el día de la fiesta.
+Esta tabla pone los dos inflables lado a lado con los datos del catálogo DENFLAB y una columna de contexto práctico que traduce cada número a lo que significa el día de la fiesta.
 
 | Variable | Mini Jungla | Gusanitos | Contexto práctico |
 |---|---|---|---|
@@ -68,7 +68,7 @@ El rango de edad de 4 a 10 años también dice algo importante: los Gusanitos es
 
 ## Escenarios de decisión: ¿cuál renta alguien como tú?
 
-Las especificaciones son necesarias pero abstractas. Estos son los seis escenarios más comunes que INFLAFI atiende en CDMX, con la recomendación directa para cada uno.
+Las especificaciones son necesarias pero abstractas. Estos son los seis escenarios más comunes que DENFLAB atiende en CDMX, con la recomendación directa para cada uno.
 
 | Escenario del evento | Recomendación | Por qué |
 |---|---|---|
@@ -85,19 +85,19 @@ Las especificaciones son necesarias pero abstractas. Estos son los seis escenari
 
 ## Guía paso a paso para tomar la decisión en 15 minutos
 
-Si después de todo lo anterior sigues indeciso, este proceso de cinco pasos resuelve la elección de manera sistemática. Es el mismo orden de preguntas que el equipo de INFLAFI usa cuando un cliente pide orientación.
+Si después de todo lo anterior sigues indeciso, este proceso de cinco pasos resuelve la elección de manera sistemática. Es el mismo orden de preguntas que el equipo de DENFLAB usa cuando un cliente pide orientación.
 
 1. **Mide el ancho libre de tu espacio.** Si tienes menos de 4.5 metros de ancho disponibles contando perímetro de seguridad, la decisión ya está tomada: Mini Jungla. No sigas al paso dos hasta tener este dato con cinta métrica, no a ojo.
 2. **Revisa la edad del niño más pequeño de la lista.** Si hay invitados de 3 años que van a querer brincar —y siempre quieren—, la Mini Jungla es el único de los dos que los recibe. Si el más pequeño tiene 4 o más, ambos siguen en la mesa.
 3. **Cuenta a los niños del rango 7–10 años.** Si son más de la mitad de la lista, los Gusanitos van a dar mejor experiencia: más espacio de rebote, turnos con un niño más, y un diseño que los grandes no perciben como infantil.
 4. **Define si la fiesta tiene temática.** Selva, safari, animales, dinosaurios, El Rey León: Mini Jungla sin dudarlo, porque el inflable hace el 60% de la decoración. Sin temática o con temática ajena a la naturaleza: los Gusanitos combinan con todo.
-5. **Confirma disponibilidad de los dos.** En temporada alta —mayo, junio, diciembre— la disponibilidad puede decidir por ti. Escribe a INFLAFI con tu fecha y los dos modelos en mente: si ambos están libres, aplica los pasos anteriores; si solo uno, la decisión se simplificó.
+5. **Confirma disponibilidad de los dos.** En temporada alta —mayo, junio, diciembre— la disponibilidad puede decidir por ti. Escribe a DENFLAB con tu fecha y los dos modelos en mente: si ambos están libres, aplica los pasos anteriores; si solo uno, la decisión se simplificó.
 
 ---
 
 ## Tips concretos para cualquiera de los dos que elijas
 
-**Reserva con una semana de anticipación como mínimo.** Los dos medianos están entre los inflables más rentados del catálogo de INFLAFI y los sábados de temporada se agotan. Dos semanas es lo prudente en mayo, junio y diciembre.
+**Reserva con una semana de anticipación como mínimo.** Los dos medianos están entre los inflables más rentados del catálogo de DENFLAB y los sábados de temporada se agotan. Dos semanas es lo prudente en mayo, junio y diciembre.
 
 **Prepara la extensión eléctrica antes del día del evento.** Ambos inflables usan soplador de 110 V que permanece encendido durante todo el uso. Ten una extensión de buen calibre ya tendida y ubica el tablero eléctrico de la casa por si un circuito se protege.
 
@@ -105,7 +105,7 @@ Si después de todo lo anterior sigues indeciso, este proceso de cinco pasos res
 
 **Programa el brinco fuera del sol de mediodía en verano.** El vinilo se calienta entre las 13:00 y las 15:00 en julio y agosto. Usa el inflable en la mañana o después de las 4 PM, o instálalo en semisombra.
 
-**Revisa el piso antes del montaje.** Piedras, tornillos, raíces superficiales: tres minutos de inspección protegen el inflable y evitan interrupciones. El equipo de INFLAFI ancla el equipo, pero el estado del piso es del anfitrión.
+**Revisa el piso antes del montaje.** Piedras, tornillos, raíces superficiales: tres minutos de inspección protegen el inflable y evitan interrupciones. El equipo de DENFLAB ancla el equipo, pero el estado del piso es del anfitrión.
 
 **Deja el perímetro de seguridad libre de mesas y decoración.** El espacio alrededor del inflable es zona de circulación y anclaje, no de mobiliario. Planea la distribución del jardín con el inflable primero y todo lo demás después.
 
@@ -119,7 +119,7 @@ Si quieres ver cómo se comparan estos dos contra el tercer mediano del catálog
 
 ## Compatibilidad por tipo de evento: la tabla de los diez casos
 
-Para cerrar la comparación desde el ángulo del evento —y no solo del inflable—, esta tabla recorre los diez formatos de fiesta más comunes que INFLAFI atiende en CDMX y califica el ajuste de cada modelo.
+Para cerrar la comparación desde el ángulo del evento —y no solo del inflable—, esta tabla recorre los diez formatos de fiesta más comunes que DENFLAB atiende en CDMX y califica el ajuste de cada modelo.
 
 | Tipo de evento | Mini Jungla | Gusanitos | Contexto práctico |
 |---|---|---|---|
@@ -150,7 +150,7 @@ Para cerrar la comparación desde el ángulo del evento —y no solo del inflabl
 
 ## El proceso de renta, idéntico para los dos
 
-Sea cual sea tu elección, el proceso con INFLAFI es el mismo y está diseñado para no complicarte la vida:
+Sea cual sea tu elección, el proceso con DENFLAB es el mismo y está diseñado para no complicarte la vida:
 
 1. **Contacto por WhatsApp** con fecha, colonia y tipo de espacio. El equipo confirma disponibilidad de los dos modelos el mismo día en horario hábil.
 2. **Verificación del espacio:** compartes las medidas de tu área libre —con cinta métrica, no a ojo— y el equipo confirma qué modelo cabe con perímetro de seguridad completo.
@@ -168,7 +168,7 @@ Sea cual sea tu elección, el proceso con INFLAFI es el mismo y está diseñado 
 
 ### ¿Cuál de los dos es más barato de rentar?
 
-Los dos pertenecen a la categoría de inflables medianos de INFLAFI y manejan rangos de precio comparables. El precio exacto depende de la fecha, la colonia y la duración del evento, así que la única cotización real es la que te da el equipo por WhatsApp. Lo importante: el precio casi nunca debería ser el criterio de decisión entre estos dos — el espacio, las edades y el formato de la fiesta pesan mucho más.
+Los dos pertenecen a la categoría de inflables medianos de DENFLAB y manejan rangos de precio comparables. El precio exacto depende de la fecha, la colonia y la duración del evento, así que la única cotización real es la que te da el equipo por WhatsApp. Lo importante: el precio casi nunca debería ser el criterio de decisión entre estos dos — el espacio, las edades y el formato de la fiesta pesan mucho más.
 
 ### ¿Un niño de 3 años puede usar los Gusanitos si va acompañado?
 
@@ -200,7 +200,7 @@ En temporada regular, una semana de anticipación suele bastar para cualquiera d
 
 ### ¿El montaje y el desmontaje son iguales en los dos?
 
-Idénticos en proceso y en tiempos: el equipo de INFLAFI llega, despliega, infla, ancla y prueba en 10 a 15 minutos, y al final del evento desmonta y retira todo sin que el anfitrión toque nada. La única diferencia práctica es el espacio de maniobra: los Gusanitos, por su bulto y su huella mayores, agradecen un acceso un poco más holgado — si tu jardín se alcanza por un pasillo estrecho, menciónalo al reservar.
+Idénticos en proceso y en tiempos: el equipo de DENFLAB llega, despliega, infla, ancla y prueba en 10 a 15 minutos, y al final del evento desmonta y retira todo sin que el anfitrión toque nada. La única diferencia práctica es el espacio de maniobra: los Gusanitos, por su bulto y su huella mayores, agradecen un acceso un poco más holgado — si tu jardín se alcanza por un pasillo estrecho, menciónalo al reservar.
 
 ---
 
@@ -221,7 +221,7 @@ Ya tienes el criterio completo: la Mini Jungla para pequeños, temáticas y jard
 
 [**Cotizar Mini Jungla y Gusanitos por WhatsApp →**](https://wa.me/5215539048634?text=Hola%2C%20estoy%20decidiendo%20entre%20la%20Mini%20Jungla%20y%20los%20Gusanitos%20para%20una%20fiesta%20en%20CDMX.%20%C2%BFMe%20pueden%20decir%20disponibilidad%20y%20precio%20de%20los%20dos%20para%20mi%20fecha%3F)
 
-Comparte la fecha, la colonia y las edades de los niños: el equipo de INFLAFI te confirma cuál de los dos —o si la combinación de ambos— es la mejor opción para tu evento.
+Comparte la fecha, la colonia y las edades de los niños: el equipo de DENFLAB te confirma cuál de los dos —o si la combinación de ambos— es la mejor opción para tu evento.
 
 **Teléfono:** 55 3904 8634 | **Correo:** contacto@renta-de-inflables.com
 
@@ -229,4 +229,4 @@ Horario de atención: **Lunes a Viernes 9:00–19:00 | Sábados 9:00–17:00**
 
 ---
 
-*La Mini Jungla (4 × 2.5 × 2.8 m, desde 3 años) y los Gusanitos (4 × 3.3 × 3 m, 4 a 10 años) requieren superficie plana exterior y corriente eléctrica de 110 V. Montaje, soplador y desmontaje siempre incluidos. INFLAFI atiende toda la CDMX: Polanco, Lomas de Chapultepec, Santa Fe, Coyoacán, Del Valle, Tlalpan, Nápoles, Pedregal, Satélite y zonas aledañas.*
+*La Mini Jungla (4 × 2.5 × 2.8 m, desde 3 años) y los Gusanitos (4 × 3.3 × 3 m, 4 a 10 años) requieren superficie plana exterior y corriente eléctrica de 110 V. Montaje, soplador y desmontaje siempre incluidos. DENFLAB atiende toda la CDMX: Polanco, Lomas de Chapultepec, Santa Fe, Coyoacán, Del Valle, Tlalpan, Nápoles, Pedregal, Satélite y zonas aledañas.*

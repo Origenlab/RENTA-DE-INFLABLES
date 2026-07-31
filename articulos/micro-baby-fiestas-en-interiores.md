@@ -8,7 +8,7 @@ draft: false
 ---
 Son las 4 de la tarde de un sábado de julio en la colonia Nápoles. Afuera, el cielo de la Ciudad de México hace lo que hace todos los sábados de julio a las 4 de la tarde: se pone negro y suelta un aguacero de proporciones bíblicas. En tres jardines de la ciudad, tres fiestas infantiles se están mudando de emergencia bajo techo, con papás cargando mesas y niños desconcertados. Pero en un departamento del quinto piso, a dos cuadras de ahí, hay una fiesta de dos años donde nadie ha volteado siquiera a ver la ventana. En la sala, entre el comedor arrimado a la pared y el sillón cubierto con una manta de colores, un inflable de dos por dos metros lleva una hora recibiendo bebés en calcetines. La lluvia es, literalmente, el problema de otros.
 
-Esa es la propuesta de valor del [Micro Baby](/blog/micro-baby-guia-renta) en su versión más pura: es el único inflable del catálogo INFLAFI —y uno de los muy pocos en toda la CDMX— genuinamente apto para interiores. Con 2×2 metros de base y 2 metros de altura, entra por puertas estándar, opera bajo techos normales, no requiere anclaje al piso y funciona con la misma toma de corriente donde conectas la aspiradora. Para una ciudad donde la mayoría de las familias vive en departamento y donde el jardín propio es un lujo estadístico, eso no es un detalle técnico: es la diferencia entre poder tener fiesta con inflable o no poder.
+Esa es la propuesta de valor del [Micro Baby](/blog/micro-baby-guia-renta) en su versión más pura: es el único inflable del catálogo DENFLAB —y uno de los muy pocos en toda la CDMX— genuinamente apto para interiores. Con 2×2 metros de base y 2 metros de altura, entra por puertas estándar, opera bajo techos normales, no requiere anclaje al piso y funciona con la misma toma de corriente donde conectas la aspiradora. Para una ciudad donde la mayoría de las familias vive en departamento y donde el jardín propio es un lujo estadístico, eso no es un detalle técnico: es la diferencia entre poder tener fiesta con inflable o no poder.
 
 Pero "apto para interiores" no significa "apto para cualquier interior". Hay salones donde funciona de maravilla y salas donde honestamente no cabe, techos que sobran y techos que rozan, sopladores que nadie escucha y vecinos que sí. Esta guía recorre cada escenario real de la CDMX —departamento, salón de fiestas, salón de usos múltiples de condominio, terraza techada— con las medidas, los requisitos y los trucos que hacen que la fiesta bajo techo salga impecable.
 
@@ -102,7 +102,7 @@ La conclusión práctica: en temporada de lluvias, el interior gana casi siempre
 2. **Mide con cinta métrica y mira hacia arriba.** Piso: mínimo 3×3 libres tras mover muebles. Techo: nada colgando a menos de 2.3 metros sobre la zona del inflable.
 3. **Localiza la toma de corriente.** Debe estar a menos de 5 metros del punto elegido. Si vas a usar extensión, que sea de buen calibre y que el cable corra pegado a la pared, nunca cruzando la zona de paso de los niños.
 4. **Confirma permisos si el espacio no es tuyo.** Salón de fiestas, salón de condominio, roof garden: pide la autorización por escrito (un WhatsApp del administrador basta) antes de pagar el anticipo.
-5. **Reserva con INFLAFI indicando que es interior.** Ese dato ayuda al equipo a preparar la logística: acceso al edificio, elevador o escaleras, piso del departamento y horario del montaje.
+5. **Reserva con DENFLAB indicando que es interior.** Ese dato ayuda al equipo a preparar la logística: acceso al edificio, elevador o escaleras, piso del departamento y horario del montaje.
 6. **El día del evento, despeja antes de que llegue el equipo.** El equipo llega 30 minutos antes de tu hora de inicio; si los muebles ya están arrimados, el montaje completo toma menos de 5 minutos.
 7. **Prepara ventilación y zona de descanso.** Ventana abierta o ventilador cerca, agua para los niños y un espacio suave donde el bebé agotado pueda desconectarse del brinco.
 8. **Al terminar, no hagas nada.** El equipo regresa, desinfla, dobla y se lleva todo. Tu sala vuelve a ser sala en diez minutos.
@@ -115,7 +115,7 @@ La conclusión práctica: en temporada de lluvias, el interior gana casi siempre
 - **La manta sobre los sillones no es decoración:** es la frontera visual que les dice a los niños "esto no es zona de juego". Funciona mejor que cualquier regaño.
 - **Cuida la temperatura en verano:** seis bebés brincando generan un calor sorprendente; ventilador de pedestal apuntando por encima del inflable (nunca directo a los niños) y pausas de hidratación cada 20–30 minutos, como detalla nuestra [guía de seguridad para bebés](/blog/micro-baby-guia-seguridad-bebes).
 - **Protege lo irremplazable, no todo:** guarda el jarrón de la abuela y los portarretratos; lo demás sobrevive. Las fiestas interiores con Micro Baby son mucho menos destructivas de lo que los papás temen, porque el caos queda contenido *dentro* del inflable.
-- **Piensa en el elevador para la logística del pastel:** si el equipo de INFLAFI, el pastel y los primeros invitados llegan a la misma hora, el elevador de tu edificio se vuelve el cuello de botella. Escalona los horarios: equipo 30 minutos antes, pastel después del montaje.
+- **Piensa en el elevador para la logística del pastel:** si el equipo de DENFLAB, el pastel y los primeros invitados llegan a la misma hora, el elevador de tu edificio se vuelve el cuello de botella. Escalona los horarios: equipo 30 minutos antes, pastel después del montaje.
 - **Si es primer cumpleaños, revisa nuestras ideas específicas** en la guía del [Micro Baby para primer cumpleaños](/blog/micro-baby-primer-cumpleanos) — el formato interior y el primer año son la pareja perfecta.
 - **Define la "zona de carriolas" desde antes:** en fiestas de bebés en departamento, las carriolas apiladas en el recibidor se comen medio pasillo. Un letrero y un rincón asignado resuelven el embotellamiento.
 - **El baño más cercano al inflable gana:** a esta edad, las emergencias de pañal y de "ya no aguanto" son parte del programa. Deja esa ruta despejada toda la fiesta.
@@ -145,11 +145,11 @@ Si el techo de la terraza cubre por completo el área del inflable y la lluvia n
 
 ### ¿Los salones de fiestas aceptan que lleve mi propio inflable?
 
-La mayoría sí, especialmente los salones infantiles que no tienen inflable propio para la edad de 1 a 4 años. Los requisitos habituales del salón: que el proveedor instale y retire (INFLAFI lo hace siempre), que haya toma de corriente disponible y, a veces, una carta o dato del proveedor. Confírmalo con el salón por escrito al momento de apartar la fecha, y si el salón necesita algún documento del proveedor, escríbenos y lo resolvemos.
+La mayoría sí, especialmente los salones infantiles que no tienen inflable propio para la edad de 1 a 4 años. Los requisitos habituales del salón: que el proveedor instale y retire (DENFLAB lo hace siempre), que haya toma de corriente disponible y, a veces, una carta o dato del proveedor. Confírmalo con el salón por escrito al momento de apartar la fecha, y si el salón necesita algún documento del proveedor, escríbenos y lo resolvemos.
 
 ### ¿Qué pasa si se va la luz en el edificio a media fiesta?
 
-El inflable se desinfla gradualmente en dos o tres minutos — no de golpe—, tiempo de sobra para sacar a los niños con calma y sin sustos. Cuando regresa la corriente, el soplador lo levanta de nuevo en un par de minutos y la fiesta continúa. Es un escenario poco frecuente pero vale la pena saber el protocolo: el equipo de INFLAFI te lo explica al momento de la instalación.
+El inflable se desinfla gradualmente en dos o tres minutos — no de golpe—, tiempo de sobra para sacar a los niños con calma y sin sustos. Cuando regresa la corriente, el soplador lo levanta de nuevo en un par de minutos y la fiesta continúa. Es un escenario poco frecuente pero vale la pena saber el protocolo: el equipo de DENFLAB te lo explica al momento de la instalación.
 
 ### ¿Hay otros inflables del catálogo que funcionen bajo techo?
 
@@ -159,13 +159,13 @@ En interiores residenciales, no: el Micro Baby es el único, por altura, anclaje
 
 ## Proceso de Renta para Eventos en Interior
 
-El proceso general de INFLAFI aplica igual bajo techo, pero hay tres datos extra que conviene dar desde el primer mensaje cuando el evento es en interior:
+El proceso general de DENFLAB aplica igual bajo techo, pero hay tres datos extra que conviene dar desde el primer mensaje cuando el evento es en interior:
 
 **1. Contacto inicial por WhatsApp con el "kit interior".** Además de fecha y colonia, incluye: piso del departamento o nivel del salón, si hay elevador o escaleras, y el tipo de espacio (sala, salón de fiestas, salón de condominio, terraza techada). Con eso el equipo planea el acceso completo.
 
 **2. Verificación de medidas.** Manda las medidas del espacio libre (mínimo 3×3 m) y la altura del techo sobre el punto elegido. Ante cualquier duda, dos fotos del espacio con una silla como referencia resuelven la evaluación en minutos, sin costo.
 
-**3. Permisos de terceros, si aplican.** Salón rentado o área común de condominio: consigue la autorización por escrito antes de pagar el anticipo. Si el lugar pide datos o carta del proveedor, INFLAFI te los facilita.
+**3. Permisos de terceros, si aplican.** Salón rentado o área común de condominio: consigue la autorización por escrito antes de pagar el anticipo. Si el lugar pide datos o carta del proveedor, DENFLAB te los facilita.
 
 **4. Reserva con anticipo del 30%.** Fecha bloqueada al confirmar la transferencia. Para interiores no hay riesgo de clima, así que la única variable que corre es la disponibilidad del calendario.
 
@@ -201,13 +201,13 @@ El proceso general de INFLAFI aplica igual bajo techo, pero hay tres datos extra
 - [ ] Pausas de hidratación cada 20–30 minutos si hace calor
 - [ ] Mesa de dulces en el otro extremo del espacio
 - [ ] Ruta al baño más cercano despejada durante toda la fiesta
-- [ ] WhatsApp de INFLAFI a la mano para cualquier duda en tiempo real
+- [ ] WhatsApp de DENFLAB a la mano para cualquier duda en tiempo real
 
 ---
 
 ## Zonas de Cobertura: Toda la CDMX, Edificio por Edificio
 
-INFLAFI entrega en toda la Ciudad de México, y la experiencia en interiores se concentra donde la ciudad es más vertical: Polanco, Nápoles, Del Valle, Roma Norte y Sur, Condesa, Narvarte, Escandón, Portales, Santa Fe e Interlomas encabezan la lista de fiestas en departamento. También cubrimos casas y salones en Coyoacán, Tlalpan, Pedregal, Miguel Hidalgo, Benito Juárez, Azcapotzalco e Iztapalapa. Naucalpan, Tlalnepantla, Huixquilucan y Atizapán, bajo consulta con posible cargo por distancia.
+DENFLAB entrega en toda la Ciudad de México, y la experiencia en interiores se concentra donde la ciudad es más vertical: Polanco, Nápoles, Del Valle, Roma Norte y Sur, Condesa, Narvarte, Escandón, Portales, Santa Fe e Interlomas encabezan la lista de fiestas en departamento. También cubrimos casas y salones en Coyoacán, Tlalpan, Pedregal, Miguel Hidalgo, Benito Juárez, Azcapotzalco e Iztapalapa. Naucalpan, Tlalnepantla, Huixquilucan y Atizapán, bajo consulta con posible cargo por distancia.
 
 El equipo conoce la logística real de los edificios capitalinos —guardias, elevadores, horarios de proveedores, reglamentos de condominio— así que menciona cualquier particularidad de tu edificio al reservar y llega resuelta, no improvisada.
 
@@ -228,6 +228,6 @@ El equipo conoce la logística real de los edificios capitalinos —guardias, el
 
 Si vives en departamento, si tu salón no tiene jardín, o si simplemente no quieres apostarle al clima de la CDMX en temporada de lluvias, el Micro Baby es tu inflable. Escríbenos con la fecha, la colonia y el tipo de espacio (departamento, salón, terraza techada) y te confirmamos disponibilidad el mismo día, junto con cualquier duda de medidas que tengas.
 
-**[Quiero el Micro Baby para mi fiesta en interior →](https://wa.me/5215539048634?text=Hola%20INFLAFI%2C%20quiero%20rentar%20el%20Micro%20Baby%20para%20una%20fiesta%20en%20interior%20%28departamento%2Fsal%C3%B3n%29.%20%C2%BFMe%20confirman%20disponibilidad%20y%20requisitos%3F)**
+**[Quiero el Micro Baby para mi fiesta en interior →](https://wa.me/5215539048634?text=Hola%20DENFLAB%2C%20quiero%20rentar%20el%20Micro%20Baby%20para%20una%20fiesta%20en%20interior%20%28departamento%2Fsal%C3%B3n%29.%20%C2%BFMe%20confirman%20disponibilidad%20y%20requisitos%3F)**
 
-*INFLAFI — Renta de Inflables CDMX. El único inflable del catálogo apto para interiores. Entrega, montaje y desmontaje incluidos, llueva o truene — literalmente.*
+*DENFLAB — Renta de Inflables CDMX. El único inflable del catálogo apto para interiores. Entrega, montaje y desmontaje incluidos, llueva o truene — literalmente.*

@@ -1,5 +1,5 @@
 ---
-title: "Decoración de Fiesta Pirata en CDMX: el Barco Pirata de INFLAFI como Pieza Central"
+title: "Decoración de Fiesta Pirata en CDMX: el Barco Pirata de DENFLAB como Pieza Central"
 description: "Hay dos maneras de organizar una fiesta pirata en un jardín de la Ciudad de México. La primera es la habitual: compras platos con calaveras, globos negros, una piñata de barco, y esperas que la suma de accesorios convenza a los invitados de que…"
 model: "Barco Pirata"
 category: grandes
@@ -8,7 +8,7 @@ draft: false
 ---
 Hay dos maneras de organizar una fiesta pirata en un jardín de la Ciudad de México. La primera es la habitual: compras platos con calaveras, globos negros, una piñata de barco, y esperas que la suma de accesorios convenza a los invitados de que están en altamar. La segunda — la que este artículo desarrolla — invierte la lógica: plantas un barco pirata de verdad en medio del jardín, siete metros de eslora con mástil y cañones, y a partir de esa presencia gigante construyes todo lo demás. En la primera versión, la decoración trabaja cuesta arriba para crear una fantasía. En la segunda, la fantasía ya está inflada y anclada en el pasto a las diez de la mañana, y la decoración solo tiene que acompañarla.
 
-Esa es la ventaja injusta del Barco Pirata de INFLAFI como pieza central de decoración: es el único elemento de fiesta que es al mismo tiempo la atracción principal, la escenografía completa y el fondo de todas las fotos. Ningún arco de globos compite contra un barco de 7 × 3 × 3 metros con velas y bandera. Y eso tiene una consecuencia presupuestal que las familias descubren con gusto: cuando la pieza central es tan contundente, el resto de la decoración puede ser sencilla, hecha en casa y sorprendentemente barata, porque su trabajo ya no es impresionar — es rimar con el barco.
+Esa es la ventaja injusta del Barco Pirata de DENFLAB como pieza central de decoración: es el único elemento de fiesta que es al mismo tiempo la atracción principal, la escenografía completa y el fondo de todas las fotos. Ningún arco de globos compite contra un barco de 7 × 3 × 3 metros con velas y bandera. Y eso tiene una consecuencia presupuestal que las familias descubren con gusto: cuando la pieza central es tan contundente, el resto de la decoración puede ser sencilla, hecha en casa y sorprendentemente barata, porque su trabajo ya no es impresionar — es rimar con el barco.
 
 Esta guía es el manual completo de esa segunda manera de hacer las cosas: la paleta y la decoración zona por zona (mesa, dulceros, señalización), una tabla de plan y presupuesto DIY realista, la búsqueda del tesoro paso a paso con el barco como campamento base, la estrategia de fotos, y el cronograma completo de una fiesta pirata que fluye sola. Todo probado en jardines reales de la CDMX, todo pensado para papás y mamás sin talento especial para las manualidades — el talento lo pone el barco.
 
@@ -34,7 +34,7 @@ Del principio rector se deriva también la paleta. El Barco Pirata trae su propi
 | **Capacidad de juego** | 6–8 niños por turno | La decoración perimetral entretiene a los que esperan turno: esa es su segunda función |
 | **Paleta que trae de fábrica** | Colores pirata clásicos | Rojo, negro, dorado, beige y azul marino: tu lista de compras de papelería ya está definida |
 | **Restricción clave** | Nada colgado ni recargado sobre el inflable | Toda la decoración es perimetral: banderines aéreos entre árboles, señalización en estacas |
-| **Montaje** | Lo realiza INFLAFI el día del evento | Decora el jardín antes de la llegada del equipo, dejando libre el rectángulo del inflable |
+| **Montaje** | Lo realiza DENFLAB el día del evento | Decora el jardín antes de la llegada del equipo, dejando libre el rectángulo del inflable |
 
 > **Tip de coordinación:** pregunta al reservar el horario aproximado de montaje y planea tu decoración en dos tiempos — todo el perímetro y la mesa la noche anterior o temprano, y los detalles junto al inflable (señalización de fila, armería pirata) en los veinte minutos posteriores al montaje. Así el equipo trabaja sin esquivar guirnaldas y tú rematas la escena con el barco ya inflado.
 
@@ -103,7 +103,7 @@ Una fiesta temática bien decorada puede morir de desorden si el tiempo no tiene
 
 | Hora | Capítulo | Qué sucede | Contexto práctico |
 |---|---|---|---|
-| **–1:00** | Preparativos finales | Decoración perimetral lista; INFLAFI monta el barco | Los detalles junto al inflable se rematan tras el montaje |
+| **–1:00** | Preparativos finales | Decoración perimetral lista; DENFLAB monta el barco | Los detalles junto al inflable se rematan tras el montaje |
 | **0:00–0:30** | El embarque | Llegada, utilería de fotos, foto grupal frente al barco | La foto grupal temprana: invitados completos y peinados |
 | **0:30–1:30** | Abordaje libre | Turnos de 6–8 en el barco; juego libre en zonas señalizadas | El sistema de turnos arranca impecable desde el primer grupo |
 | **1:30–2:10** | La búsqueda del tesoro | Pistas en cadena con turnos de barco entre pista y pista | El juego administra los turnos del inflable por sí solo |
@@ -133,7 +133,7 @@ Una fiesta temática bien decorada puede morir de desorden si el tiempo no tiene
 
 ### Dos semanas antes
 
-- [ ] Barco Pirata reservado con INFLAFI (fecha, horario y medidas del jardín confirmadas)
+- [ ] Barco Pirata reservado con DENFLAB (fecha, horario y medidas del jardín confirmadas)
 - [ ] Invitaciones enviadas con la consigna de disfraz pirata
 - [ ] Paleta anotada y lista de compras de papelería armada con la tabla DIY
 
@@ -152,7 +152,7 @@ Una fiesta temática bien decorada puede morir de desorden si el tiempo no tiene
 
 ### El día del evento
 
-- [ ] Decoración perimetral instalada antes de la llegada del equipo de INFLAFI
+- [ ] Decoración perimetral instalada antes de la llegada del equipo de DENFLAB
 - [ ] Rectángulo del inflable despejado para el montaje
 - [ ] Detalles junto al barco rematados tras el montaje (fila del muelle, armería)
 - [ ] Ángulo fotográfico de 3/4 verificado y despejado
@@ -205,7 +205,7 @@ Con la misma anticipación que el resto de las fechas de alta demanda: dos a tre
 
 ### ¿Puedo contratar la decoración o algún paquete en lugar de hacerla yo?
 
-INFLAFI se especializa en los inflables y su operación completa — entrega, montaje, desmontaje —, y esta guía existe justamente para que la decoración quede en manos de la familia con presupuesto controlado. Dicho eso, si quieres armar el evento completo con menos logística de tu lado, pregunta por los [paquetes para fiestas infantiles](/paquetes-para-fiestas-infantiles) al cotizar: es la vía para resolver la fiesta entera con un solo proveedor coordinando los tiempos.
+DENFLAB se especializa en los inflables y su operación completa — entrega, montaje, desmontaje —, y esta guía existe justamente para que la decoración quede en manos de la familia con presupuesto controlado. Dicho eso, si quieres armar el evento completo con menos logística de tu lado, pregunta por los [paquetes para fiestas infantiles](/paquetes-para-fiestas-infantiles) al cotizar: es la vía para resolver la fiesta entera con un solo proveedor coordinando los tiempos.
 
 ---
 
@@ -224,9 +224,9 @@ INFLAFI se especializa en los inflables y su operación completa — entrega, mo
 
 Toda la decoración de esta guía cuesta menos que una piñata fina y funciona por una sola razón: la pieza central ya hace el trabajo pesado. Un barco pirata de 7 metros inflado en tu jardín convierte cualquier tarde en aventura, y las fechas de fin de semana — sobre todo en temporada de fiestas — se agotan con semanas de anticipación.
 
-[**Quiero el Barco Pirata como pieza central de mi fiesta →**](https://wa.me/5215539048634?text=Hola%20INFLAFI%2C%20estoy%20organizando%20una%20fiesta%20pirata%20en%20CDMX%20con%20el%20Barco%20Pirata%20como%20pieza%20central.%20%C2%BFMe%20dan%20disponibilidad%20y%20precio%20para%20mi%20fecha%3F)
+[**Quiero el Barco Pirata como pieza central de mi fiesta →**](https://wa.me/5215539048634?text=Hola%20DENFLAB%2C%20estoy%20organizando%20una%20fiesta%20pirata%20en%20CDMX%20con%20el%20Barco%20Pirata%20como%20pieza%20central.%20%C2%BFMe%20dan%20disponibilidad%20y%20precio%20para%20mi%20fecha%3F)
 
-**INFLAFI** · WhatsApp: 52 1 55 3904 8634 · contacto@renta-de-inflables.com
+**DENFLAB** · WhatsApp: 52 1 55 3904 8634 · contacto@renta-de-inflables.com
 Cobertura en toda la CDMX: Polanco, Lomas, Santa Fe, Coyoacán, Del Valle, Tlalpan, Nápoles, Pedregal y colonias aledañas.
 
 *Entrega, montaje y desmontaje incluidos siempre. Tú pon las monedas de chocolate; el galeón lo ponemos nosotros.*

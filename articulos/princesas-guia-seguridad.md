@@ -8,7 +8,7 @@ draft: false
 ---
 La escena se repite en casi todas las fiestas de princesas: son las cinco de la tarde, el Castillo de Princesas lleva dos horas inflado en el jardín, y adentro hay una niña de tres años con vestido de tul hasta los tobillos, una de siete con corona de plástico rígido que se niega a quitarse, y dos de nueve que descubrieron que si brincan al mismo tiempo pueden lanzar a las demás por los aires. Ninguna mamá está viendo en ese momento exacto, porque todas están en la mesa de dulces resolviendo el tema del pastel. Y aunque en la enorme mayoría de los casos no pasa absolutamente nada — el inflable es un entorno mucho más blando y seguro que cualquier resbaladilla de parque — ese es precisamente el momento en el que las cosas pueden pasar.
 
-Esta guía existe para que ese momento nunca llegue en tu fiesta. No desde el miedo, sino desde la experiencia: el equipo de INFLAFI ha instalado el Castillo de Princesas en cientos de cumpleaños por toda la Ciudad de México, y las reglas que siguen no salieron de un manual genérico traducido del inglés, sino de lo que realmente ocurre cuando juntas a quince niñas de entre 3 y 9 años, les pones vestidos de princesa, y las sueltas en un castillo inflable rosado de tres metros de altura. La buena noticia: la seguridad en un inflable no requiere vigilancia militar ni arruinar la diversión. Requiere cinco o seis reglas claras, un adulto designado, y diez minutos de organización antes de que llegue la primera invitada.
+Esta guía existe para que ese momento nunca llegue en tu fiesta. No desde el miedo, sino desde la experiencia: el equipo de DENFLAB ha instalado el Castillo de Princesas en cientos de cumpleaños por toda la Ciudad de México, y las reglas que siguen no salieron de un manual genérico traducido del inglés, sino de lo que realmente ocurre cuando juntas a quince niñas de entre 3 y 9 años, les pones vestidos de princesa, y las sueltas en un castillo inflable rosado de tres metros de altura. La buena noticia: la seguridad en un inflable no requiere vigilancia militar ni arruinar la diversión. Requiere cinco o seis reglas claras, un adulto designado, y diez minutos de organización antes de que llegue la primera invitada.
 
 Léela completa antes de la fiesta, compártela con quien te vaya a ayudar ese día, y guárdala para la próxima. Las reglas no cambian; las niñas que las necesitan, tampoco.
 
@@ -16,11 +16,11 @@ Léela completa antes de la fiesta, compártela con quien te vaya a ayudar ese d
 
 ## El Punto de Partida: Qué Es y Qué No Es el Castillo de Princesas
 
-El Castillo de Princesas de INFLAFI mide 4 × 3.3 metros de base y 3 metros de altura, con diseño de castillo rosado con torres y coronas. Está pensado para niñas de 3 a 9 años, y esa recomendación de edad no es decorativa: define el rango en el que el tamaño de las usuarias, su coordinación motriz y la dinámica de brinco del inflable son compatibles entre sí. Es una zona de brinco amplia — no tiene tobogán ni obstáculos internos — lo que lo convierte en uno de los inflables más predecibles y fáciles de supervisar del catálogo. Puedes ver todas sus especificaciones en la [guía completa de renta del Castillo de Princesas](/blog/princesas-guia-renta).
+El Castillo de Princesas de DENFLAB mide 4 × 3.3 metros de base y 3 metros de altura, con diseño de castillo rosado con torres y coronas. Está pensado para niñas de 3 a 9 años, y esa recomendación de edad no es decorativa: define el rango en el que el tamaño de las usuarias, su coordinación motriz y la dinámica de brinco del inflable son compatibles entre sí. Es una zona de brinco amplia — no tiene tobogán ni obstáculos internos — lo que lo convierte en uno de los inflables más predecibles y fáciles de supervisar del catálogo. Puedes ver todas sus especificaciones en la [guía completa de renta del Castillo de Princesas](/blog/princesas-guia-renta).
 
 Lo que no es: no es una guardería inflable donde las niñas se cuidan solas, no es apto para bebés menores de 3 años (para ellas existe el Micro Baby, del que hablamos más adelante), y no es indestructible ante el mal uso — aunque el vinilo es de alta resistencia, los objetos puntiagudos que entran escondidos en un disfraz pueden dañarlo y, más importante, lastimar a otra niña.
 
-El equipo de INFLAFI entrega el castillo inflado, anclado y revisado, con el soplador de 110 V funcionando de manera continua. A partir de ahí, la seguridad durante la fiesta depende de tres factores que están en tus manos: cómo organizas las edades, qué entra y qué no entra al inflable, y quién está mirando.
+El equipo de DENFLAB entrega el castillo inflado, anclado y revisado, con el soplador de 110 V funcionando de manera continua. A partir de ahí, la seguridad durante la fiesta depende de tres factores que están en tus manos: cómo organizas las edades, qué entra y qué no entra al inflable, y quién está mirando.
 
 ---
 
@@ -82,7 +82,7 @@ El Castillo de Princesas es de uso exterior, y en CDMX eso significa convivir co
 
 Con sol intenso, el vinilo de las zonas expuestas puede calentarse. Si la fiesta es entre las 12 y las 16 horas en un jardín sin sombra, revisa la temperatura de la superficie de la entrada con la mano antes de cada turno; si está caliente, una lona de sombra o simplemente esperar al turno de la tarde resuelve. La hidratación entre turnos no es opcional: quince minutos de brinco equivalen a una clase de deporte.
 
-Con viento fuerte, el protocolo es del equipo de INFLAFI, no tuyo: el inflable se instala con anclaje completo de estacas o sacos de arena, y si las condiciones de viento superan los límites de seguridad, el equipo te indicará suspender el uso. Con lluvia, la regla es inmediata: niñas afuera al primer chubasco, soplador protegido, y se reanuda cuando escampa y la superficie se seca (el equipo te explica el procedimiento en el montaje). Un inflable mojado es una resbaladilla involuntaria — nunca se brinca sobre vinilo húmedo.
+Con viento fuerte, el protocolo es del equipo de DENFLAB, no tuyo: el inflable se instala con anclaje completo de estacas o sacos de arena, y si las condiciones de viento superan los límites de seguridad, el equipo te indicará suspender el uso. Con lluvia, la regla es inmediata: niñas afuera al primer chubasco, soplador protegido, y se reanuda cuando escampa y la superficie se seca (el equipo te explica el procedimiento en el montaje). Un inflable mojado es una resbaladilla involuntaria — nunca se brinca sobre vinilo húmedo.
 
 ---
 
@@ -90,18 +90,18 @@ Con viento fuerte, el protocolo es del equipo de INFLAFI, no tuyo: el inflable s
 
 | Momento | Qué revisar | Contexto práctico |
 |---|---|---|
-| **Al montaje (antes de invitadas)** | Anclaje, soplador conectado, área perimetral libre | El equipo INFLAFI lo deja listo; tú solo confirma que nadie mueva el cable del soplador ni coloque mesas pegadas al inflable |
+| **Al montaje (antes de invitadas)** | Anclaje, soplador conectado, área perimetral libre | El equipo DENFLAB lo deja listo; tú solo confirma que nadie mueva el cable del soplador ni coloque mesas pegadas al inflable |
 | **Al llegar las invitadas** | Canasta de zapatos y coronas en la entrada, reglas explicadas | Dos minutos de "reglas del reino" contadas como juego evitan el 90% de las intervenciones posteriores |
 | **Primera hora** | Turnos por edad funcionando, supervisor activo | Es la hora de máxima energía; los turnos cortos (10 min) funcionan mejor aquí |
 | **Hora del pastel** | Castillo en pausa | Todas salen, nadie entra con comida; es el descanso natural del inflable y del supervisor |
 | **Última hora** | Niñas cansadas, brinco más torpe | El cansancio produce más tropiezos que la euforia; turnos más cortos y ojo más atento |
-| **Al desmontaje** | Área despejada de niñas | Cuando llegue el equipo de INFLAFI a desmontar, el castillo ya debe estar vacío y las niñas lejos del área |
+| **Al desmontaje** | Área despejada de niñas | Cuando llegue el equipo de DENFLAB a desmontar, el castillo ya debe estar vacío y las niñas lejos del área |
 
 ---
 
 ## Los Incidentes Menores Más Comunes (y Cómo Responder Sin Drama)
 
-Aun con todas las reglas en su lugar, en una fiesta de quince niñas van a pasar cosas menores — igual que pasarían en el parque, en el recreo o en la sala de tu casa. La diferencia entre una mamá tranquila y una tarde arruinada no es evitar el cien por ciento de los incidentes: es saber de antemano cuáles son los normales y qué hacer con cada uno. Esta tabla resume los cinco que el equipo de INFLAFI escucha con más frecuencia, ordenados de más a menos común.
+Aun con todas las reglas en su lugar, en una fiesta de quince niñas van a pasar cosas menores — igual que pasarían en el parque, en el recreo o en la sala de tu casa. La diferencia entre una mamá tranquila y una tarde arruinada no es evitar el cien por ciento de los incidentes: es saber de antemano cuáles son los normales y qué hacer con cada uno. Esta tabla resume los cinco que el equipo de DENFLAB escucha con más frecuencia, ordenados de más a menos común.
 
 | Incidente | Qué hacer en el momento | Contexto práctico |
 |---|---|---|
@@ -152,26 +152,26 @@ Todo lo anterior, comprimido en una lista que cabe en una foto de celular. Reví
 - **Calcetines antiderrapantes como recuerdo de fiesta.** Algunas mamás los dan en la entrada con el nombre de la festejada; resuelven el tema de los pies descalzos en pasto y son el souvenir más útil de la historia.
 - **Hidratación programada, no voluntaria.** Un "receso de limonada del reino" cada 45 minutos garantiza que todas beban agua sin que ninguna tenga que admitir que está cansada.
 - **Fotografía los turnos de las pequeñas.** Con menos niñas y menos caos dentro del inflable, los turnos de las de 3 a 5 años producen las mejores fotos individuales de la fiesta.
-- **Si dudas de tu espacio o de tu grupo de edades, pregunta antes de reservar.** El equipo de INFLAFI te dice honestamente si el Princesas es el modelo correcto o si tu mezcla de invitados pide otra configuración del [catálogo de inflables](/inflables).
+- **Si dudas de tu espacio o de tu grupo de edades, pregunta antes de reservar.** El equipo de DENFLAB te dice honestamente si el Princesas es el modelo correcto o si tu mezcla de invitados pide otra configuración del [catálogo de inflables](/inflables).
 
 ---
 
-## Qué Pone INFLAFI y Qué Te Toca a Ti: el Reparto de la Seguridad
+## Qué Pone DENFLAB y Qué Te Toca a Ti: el Reparto de la Seguridad
 
 Para cerrar la parte operativa, conviene dejar claro el reparto de responsabilidades — porque la seguridad de un inflable es un trabajo de dos equipos, y los problemas aparecen cuando uno asume que el otro cubre todo.
 
 | Responsabilidad | Quién la cubre | Contexto práctico |
 |---|---|---|
-| Montaje, inflado y anclaje completo | INFLAFI | El castillo se entrega inflado, anclado y revisado; nunca lo muevas ni lo re-ancles por tu cuenta |
-| Revisión de seguridad inicial | INFLAFI | Antes de retirarse, el equipo verifica anclas, soplador, costuras y área perimetral |
-| Instrucciones de soplador y clima | INFLAFI | En el montaje te explican el protocolo de lluvia y qué hacer si el soplador se detiene |
-| Disponibilidad durante la renta | INFLAFI | Cualquier duda a media fiesta se responde por WhatsApp o teléfono |
+| Montaje, inflado y anclaje completo | DENFLAB | El castillo se entrega inflado, anclado y revisado; nunca lo muevas ni lo re-ancles por tu cuenta |
+| Revisión de seguridad inicial | DENFLAB | Antes de retirarse, el equipo verifica anclas, soplador, costuras y área perimetral |
+| Instrucciones de soplador y clima | DENFLAB | En el montaje te explican el protocolo de lluvia y qué hacer si el soplador se detiene |
+| Disponibilidad durante la renta | DENFLAB | Cualquier duda a media fiesta se responde por WhatsApp o teléfono |
 | Supervisión activa de las niñas | Tú y tus adultos designados | El corazón de esta guía: turnos, entrada, accesorios y ojos sobre el brinco |
-| Reglas de edad y capacidad | Tú, con la asesoría del equipo | INFLAFI recomienda; la aplicación durante la fiesta es del anfitrión |
+| Reglas de edad y capacidad | Tú, con la asesoría del equipo | DENFLAB recomienda; la aplicación durante la fiesta es del anfitrión |
 | Pausas por pastel, comida y lluvia | Tú | Son decisiones de cronograma que solo el anfitrión puede ejecutar en el momento |
-| Desmontaje y retiro | INFLAFI | Tu única tarea: que el área esté despejada de niñas cuando llegue el equipo |
+| Desmontaje y retiro | DENFLAB | Tu única tarea: que el área esté despejada de niñas cuando llegue el equipo |
 
-> **La versión de una línea:** INFLAFI garantiza que el inflable esté perfecto; tú garantizas que el juego lo sea. Cuando los dos lados cumplen, la estadística es aburridísima — que es exactamente lo que quieres en seguridad infantil.
+> **La versión de una línea:** DENFLAB garantiza que el inflable esté perfecto; tú garantizas que el juego lo sea. Cuando los dos lados cumplen, la estadística es aburridísima — que es exactamente lo que quieres en seguridad infantil.
 
 ---
 
@@ -179,7 +179,7 @@ Para cerrar la parte operativa, conviene dejar claro el reparto de responsabilid
 
 ### ¿Cuántas niñas pueden estar dentro del Castillo de Princesas al mismo tiempo?
 
-Depende de las edades: caben cómodamente más niñas pequeñas que grandes, porque el espacio de brinco que ocupa cada una crece con su tamaño y su energía. La referencia práctica es que las niñas deben poder brincar sin chocar entre sí de manera constante. Si desde afuera parece un vagón de metro en hora pica, sobran niñas — recorta el turno y rota más rápido. El equipo de INFLAFI te da la recomendación exacta para tu grupo al momento de reservar.
+Depende de las edades: caben cómodamente más niñas pequeñas que grandes, porque el espacio de brinco que ocupa cada una crece con su tamaño y su energía. La referencia práctica es que las niñas deben poder brincar sin chocar entre sí de manera constante. Si desde afuera parece un vagón de metro en hora pica, sobran niñas — recorta el turno y rota más rápido. El equipo de DENFLAB te da la recomendación exacta para tu grupo al momento de reservar.
 
 ### ¿Una niña de 2 años puede entrar si su mamá entra con ella?
 
@@ -191,13 +191,13 @@ Los vestidos en sí no son el riesgo; el largo excesivo y los accesorios rígido
 
 ### ¿Qué hago si empieza a llover a media fiesta?
 
-Todas afuera de inmediato, sin drama — el desalojo de un inflable toma menos de un minuto. Protege el soplador según las indicaciones que el equipo te da en el montaje, y espera. Si la lluvia es un chubasco pasajero típico de la CDMX, en cuanto escampa y la superficie del inflable se seca por completo, el juego se reanuda. Si la lluvia se instala, el equipo de INFLAFI te orienta por WhatsApp sobre los pasos siguientes.
+Todas afuera de inmediato, sin drama — el desalojo de un inflable toma menos de un minuto. Protege el soplador según las indicaciones que el equipo te da en el montaje, y espera. Si la lluvia es un chubasco pasajero típico de la CDMX, en cuanto escampa y la superficie del inflable se seca por completo, el juego se reanuda. Si la lluvia se instala, el equipo de DENFLAB te orienta por WhatsApp sobre los pasos siguientes.
 
 ### ¿Puedo dejar que las niñas mayores de 9 años entren "solo un ratito"?
 
 El rango recomendado del Princesas es de 3 a 9 años. Una niña de 10 u 11 no va a romper el inflable, pero su peso y su fuerza de rebote cambian la dinámica para las demás. Si en tu fiesta hay un grupo grande de mayores de 9, la solución honesta no es hacer excepciones sino elegir el inflable correcto desde el inicio: hay modelos del catálogo diseñados para más edad y más intensidad, como los [inflables grandes](/renta-de-inflables-grandes).
 
-### ¿INFLAFI proporciona un supervisor durante la fiesta?
+### ¿DENFLAB proporciona un supervisor durante la fiesta?
 
 El servicio estándar incluye entrega, montaje, revisión de seguridad y desmontaje, con el equipo disponible por teléfono durante toda la renta. La supervisión activa durante el juego corre por parte de los adultos del evento — por eso esta guía insiste tanto en el adulto designado. Si tu evento necesita personal de apoyo adicional, coméntalo al cotizar y el equipo te orienta sobre las opciones.
 
@@ -220,7 +220,7 @@ Avisa de inmediato por WhatsApp. Los daños menores del uso normal son parte del
 
 ## Reserva el Castillo de Princesas con la Tranquilidad de Saber Cómo Cuidarlas
 
-Una fiesta segura no es una fiesta aburrida — es una fiesta donde las mamás también se sientan a comer pastel. Si ya tienes fecha para el cumpleaños, escríbenos y el equipo de INFLAFI te confirma disponibilidad, resuelve tus dudas de espacio y edades, y te cotiza el mismo día.
+Una fiesta segura no es una fiesta aburrida — es una fiesta donde las mamás también se sientan a comer pastel. Si ya tienes fecha para el cumpleaños, escríbenos y el equipo de DENFLAB te confirma disponibilidad, resuelve tus dudas de espacio y edades, y te cotiza el mismo día.
 
 **[Quiero rentar el Castillo de Princesas con asesoría de seguridad — WhatsApp](https://wa.me/5215539048634?text=Hola%2C%20quiero%20rentar%20el%20Castillo%20de%20Princesas%20y%20me%20gustar%C3%ADa%20asesor%C3%ADa%20sobre%20edades%20y%20seguridad%20para%20mi%20fiesta)**
 
@@ -230,4 +230,4 @@ Una fiesta segura no es una fiesta aburrida — es una fiesta donde las mamás t
 
 ---
 
-*INFLAFI — Renta de inflables en CDMX con montaje, anclaje y revisión de seguridad incluidos en cada servicio.*
+*DENFLAB — Renta de inflables en CDMX con montaje, anclaje y revisión de seguridad incluidos en cada servicio.*

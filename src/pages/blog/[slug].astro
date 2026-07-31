@@ -1,10 +1,10 @@
 ---
-// src/pages/blog/[slug].astro — Artículo individual del blog INFLAFI
+// src/pages/blog/[slug].astro — Artículo individual del blog DENFLAB
 // Ruta: /blog/<slug> — 40 artículos SEO (5 por modelo de inflable)
 import { getCollection, render } from 'astro:content'
 import PageLayout from '@layouts/PageLayout.astro'
 import CTABanner from '@components/CTABanner.astro'
-import { TAXONOMY, CONTACT, waUrl, WA_MESSAGES } from '@config/site'
+import { TAXONOMY, CONTACT, EXPERIENCE, waUrl, WA_MESSAGES } from '@config/site'
 
 export async function getStaticPaths() {
   const posts = await getCollection('blog', ({ data }) => !data.draft)
@@ -33,12 +33,12 @@ const fecha = post.data.pubDate.toLocaleDateString('es-MX', {
   <article class="post">
     <header class="post__header">
       <div class="post__meta">
-        <a class="post__chip" href="/blog">Blog INFLAFI</a>
+        <a class="post__chip" href="/blog">Blog DENFLAB</a>
         {cat && <a class="post__chip post__chip--cat" href={cat.href}>{post.data.model}</a>}
         <time datetime={post.data.pubDate.toISOString().slice(0, 10)}>{fecha}</time>
       </div>
       <h1 class="post__title">{post.data.title}</h1>
-      <p class="post__byline">Publicado por <strong>INFLAFI</strong> · Renta de Inflables CDMX</p>
+      <p class="post__byline">Publicado por <strong>DENFLAB</strong> · Renta de Inflables CDMX · {EXPERIENCE.label}</p>
     </header>
 
     <div class="post__body prose">
@@ -48,7 +48,7 @@ const fecha = post.data.pubDate.toLocaleDateString('es-MX', {
 
   <CTABanner
     heading={`¿Listo para rentar el ${post.data.model}?`}
-    desc="Escríbenos por WhatsApp con la fecha, la colonia y el número de niños — respondemos con precio y disponibilidad en minutos."
+    desc={`${EXPERIENCE.sentence} Escríbenos por WhatsApp con la fecha, la colonia y el número de niños — respondemos con precio y disponibilidad en minutos.`}
     variant="primary"
     btns={[
       { label: 'Escribir por WhatsApp', href: waUrl(WA_MESSAGES.cotizar), icon: 'wa', primary: true, external: true },

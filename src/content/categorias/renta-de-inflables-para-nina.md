@@ -1,19 +1,19 @@
 ---
-title: 'Renta de Inflables para Niña en CDMX — Castillo de Princesas | INFLAFI'
+title: 'Renta de Inflables para Niña en CDMX — Castillo de Princesas | DENFLAB'
 description: 'Renta del Castillo de Princesas en CDMX: 4×3.3×3 m, torres rosadas y coronas doradas. El inflable más fotografiado del catálogo. Para niñas de 3 a 9 años. Montaje incluido.'
 image: '/images/og/inflables-nina.jpg'
 breadcrumbLabel: 'Inflables para Niña'
 waMessage: 'Hola, me interesa cotizar el inflable Castillo de Princesas (4×3.3×3 m) para un evento en CDMX. ¿Está disponible?'
 hero:
-  badge: '1 modelo icónico · 4×3.3×3 m · El más fotografiado del catálogo'
+  badge: 'DENFLAB · +30 años · El modelo más fotografiado del catálogo'
   title: 'Inflables para Niña'
   accent: 'en Renta · CDMX'
-  subtitle: 'El Castillo de Princesas: cuatro metros de largo, torres rosadas y coronas doradas. El inflable más fotografiado del catálogo INFLAFI y el favorito para fiestas de niñas de 3 a 9 años en CDMX.'
+  subtitle: 'El Castillo de Princesas: cuatro metros de largo, torres rosadas y coronas doradas. El inflable más fotografiado del catálogo DENFLAB y el favorito para fiestas de niñas de 3 a 9 años en CDMX.'
   descRight:
-    - 'El Castillo de Princesas es el modelo más reconocible del catálogo INFLAFI: diseño de castillo medieval con torres en rosa intenso, detalles morados y coronas doradas que transforman cualquier jardín en un escenario de cuento. Con 4 metros de largo y 3.3 metros de base — el ancho más grande de la categoría mediana — tiene espacio para que 5 a 6 niñas brinquen simultáneamente sin apretarse.'
+    - 'El Castillo de Princesas es el modelo más reconocible de los más de 30 años de catálogo DENFLAB: diseño de castillo medieval con torres en rosa intenso, detalles morados y coronas doradas que transforman cualquier jardín en un escenario de cuento. Con 4 metros de largo y 3.3 metros de base — el ancho más grande de la categoría mediana — tiene espacio para que 5 a 6 niñas brinquen simultáneamente sin apretarse.'
     - 'Es el inflable más fotografiado porque hace innecesario cualquier otro elemento de decoración de gran formato: llega al jardín y ya es el centro visual del evento. Compatible con fiestas de princesas, Barbie, unicornios, colores pasteles y cualquier temática con paleta rosa o morada. Requiere espacio exterior mínimo de 5.5×4 m. El precio incluye soplador, anclas, traslado, montaje y desmontaje.'
   ctaText: '¡Cotizar el Castillo!'
-  ariaLabel: 'Renta de inflables para niña — Castillo de Princesas INFLAFI CDMX'
+  ariaLabel: 'Renta de inflables para niña — Castillo de Princesas DENFLAB CDMX'
 menuItems:
   - label: 'Castillo de Princesas'
     sub: 'Descripción completa del modelo'
@@ -63,7 +63,7 @@ detail:
   gallery:
     main:
       src: '/images/productos/castillo-princesas.jpg'
-      alt: 'Castillo de Princesas — vista frontal completa con torres · INFLAFI CDMX'
+      alt: 'Castillo de Princesas — vista frontal completa con torres · DENFLAB CDMX'
     thumbs:
       - src: '/images/inflables/ninas.jpg'
         alt: 'Castillo de Princesas — vista lateral y acceso'
@@ -83,7 +83,7 @@ featureSpecs:
     svgContent: '<path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" stroke-width="1.5"/>'
     label: 'El más fotografiado'
     value: 'Torres y coronas'
-    detail: 'El Castillo de Princesas es el inflable más fotografiado del catálogo INFLAFI. Las torres rosadas con coronas doradas crean el fondo perfecto para la sesión de fotos del evento — muchos papás lo rentan específicamente por las fotos.'
+    detail: 'El Castillo de Princesas es el inflable más fotografiado del catálogo DENFLAB. Las torres rosadas con coronas doradas crean el fondo perfecto para la sesión de fotos del evento — muchos papás lo rentan específicamente por las fotos.'
     tag: 'Favorito en Instagram'
   - gradient: 'linear-gradient(135deg, #7c3aed 0%, #a855f7 100%)'
     svgContent: '<circle cx="12" cy="8" r="5" stroke-width="1.5"/><path d="M3 21v-2a7 7 0 0 1 7-7h4a7 7 0 0 1 7 7v2" stroke-width="1.5"/>'
@@ -99,7 +99,7 @@ featureSpecs:
     tag: 'Base extra ancha · 3.3 m'
 panel:
   src: '/images/inflables/ninas.jpg'
-  alt: 'Castillo de Princesas en renta CDMX — INFLAFI'
+  alt: 'Castillo de Princesas en renta CDMX — DENFLAB'
   badge: 'Castillo de Princesas'
   dims: '4 × 3.3 × 3 m'
   cat: 'Categoría: Niñas'
@@ -166,7 +166,7 @@ scenarios:
     tag: 'Combo hermanos'
 cuandoCtaText: '¿Tu fiesta tiene una temática especial y no estás segura de que encaje con el Castillo? Escríbenos con el tema y te confirmamos en minutos.'
 otrasHeading:
-  eyebrow: 'Catálogo completo INFLAFI'
+  eyebrow: 'Catálogo completo DENFLAB'
   title: '¿Necesitas algo diferente al Castillo?'
   titleAccent: 'Aquí están el resto de opciones'
   body:
@@ -213,7 +213,7 @@ faqHeading:
     - 'Si tienes alguna duda adicional sobre colores, diseño o disponibilidad, escríbenos directamente — respondemos con fotos del modelo actual y disponibilidad de la fecha en minutos.'
 faqs:
   - question: '¿El Castillo de Princesas cabe en un interior?'
-    answer: 'No. Con 4×3.3×3 m de dimensiones, el Castillo de Princesas es del mismo tamaño que los inflables medianos y requiere exterior: jardín, terraza descubierta o quinta. El único modelo del catálogo INFLAFI que entra en interiores es el Micro Baby (2×2 m) de la categoría Chicos.'
+    answer: 'No. Con 4×3.3×3 m de dimensiones, el Castillo de Princesas es del mismo tamaño que los inflables medianos y requiere exterior: jardín, terraza descubierta o quinta. El único modelo del catálogo DENFLAB que entra en interiores es el Micro Baby (2×2 m) de la categoría Chicos.'
   - question: '¿Cuánto espacio libre necesito en el jardín?'
     answer: 'Mínimo 5.5×4 m de área completamente libre, más 1 metro de margen perimetral para circulación y el soplador. El ancho de 3.3 m del Castillo de Princesas es mayor que el de los modelos medianos estándar (2.5 m), por lo que requiere un poco más de espacio lateral. Si no estás segura de las medidas, mándanos fotos del jardín y verificamos antes de confirmar.'
   - question: '¿Pueden brincar también los niños en el Castillo de Princesas?'

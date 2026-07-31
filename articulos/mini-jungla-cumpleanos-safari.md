@@ -8,7 +8,7 @@ draft: false
 ---
 Todo empezó, como casi siempre, con una frase dicha desde el asiento trasero del coche: "Mamá, quiero que mi fiesta sea de safari". Y la mamá —que iba pensando en el pendiente del trabajo y en qué hacer de cenar— sintió esa mezcla exacta de ternura y vértigo que conocen todas las mamás de CDMX cuando el hijo pide una fiesta con tema. Porque una fiesta de safari suena preciosa hasta que hay que aterrizarla: qué se decora, qué se sirve, qué juegan los niños durante tres horas, y sobre todo, qué hace que el jardín de una casa en Del Valle se sienta como una expedición y no como una fiesta cualquiera con servilletas de animalitos.
 
-La respuesta corta es que una fiesta de safari se sostiene sobre un centro de gravedad, y ese centro es la Mini Jungla de INFLAFI. Un inflable de 4 × 2.5 × 2.8 metros, verde, con temática de selva y una rampa de subida suave que recibe a los exploradores desde los 3 años, hace en quince minutos de montaje lo que ninguna cantidad de guirnaldas logra: convierte el jardín en territorio salvaje. Todo lo demás —la decoración, los juegos, los snacks, el cronograma— se construye alrededor de esa pieza central, y esta guía te dice exactamente cómo.
+La respuesta corta es que una fiesta de safari se sostiene sobre un centro de gravedad, y ese centro es la Mini Jungla de DENFLAB. Un inflable de 4 × 2.5 × 2.8 metros, verde, con temática de selva y una rampa de subida suave que recibe a los exploradores desde los 3 años, hace en quince minutos de montaje lo que ninguna cantidad de guirnaldas logra: convierte el jardín en territorio salvaje. Todo lo demás —la decoración, los juegos, los snacks, el cronograma— se construye alrededor de esa pieza central, y esta guía te dice exactamente cómo.
 
 Aquí vas a encontrar el plan completo: la decoración por zonas con presupuesto realista, los cinco juegos de safari que funcionan con grupos reales, el menú temático que los niños sí se comen, el cronograma hora por hora de una fiesta de tres horas, y las respuestas a las preguntas que todas las mamás organizadoras se hacen. Es la guía que esa mamá del coche hubiera querido leer esa misma noche.
 
@@ -73,7 +73,7 @@ Este es el plan de vuelo de una fiesta safari de tres horas —el formato más c
 
 | Horario | Actividad | Contexto práctico |
 |---|---|---|
-| **–1:30 h** | Llega el equipo de INFLAFI y monta la Mini Jungla (10–15 min); se termina la decoración | El inflable debe estar inflado y probado antes del primer invitado: la llegada con la selva ya viva es parte del efecto |
+| **–1:30 h** | Llega el equipo de DENFLAB y monta la Mini Jungla (10–15 min); se termina la decoración | El inflable debe estar inflado y probado antes del primer invitado: la llegada con la selva ya viva es parte del efecto |
 | **0:00–0:20** | Llegada de invitados; credenciales de explorador; juego libre en el campamento | Los invitados nunca llegan puntuales todos: un arranque suave evita que los primeros se aburran |
 | **0:20–0:35** | El rescate de los animales perdidos | Involucra a todos a la vez y construye la expectativa de "abrir la selva" |
 | **0:35–1:20** | Inauguración de la Mini Jungla; turnos de 10 min por edades (pequeños primero) | Los de 3–5 años brincan frescos y confiados; guía de campo y paso del río para los que esperan |
@@ -88,12 +88,12 @@ Este es el plan de vuelo de una fiesta safari de tres horas —el formato más c
 
 ## Guía paso a paso: de la idea a la fiesta en dos semanas
 
-1. **Día 1 — Reserva la Mini Jungla.** Es el elemento con disponibilidad limitada de toda la lista: los sábados de temporada se agotan con más de una semana de anticipación. Escribe a INFLAFI con fecha, colonia y horario; el anticipo asegura tu fecha.
+1. **Día 1 — Reserva la Mini Jungla.** Es el elemento con disponibilidad limitada de toda la lista: los sábados de temporada se agotan con más de una semana de anticipación. Escribe a DENFLAB con fecha, colonia y horario; el anticipo asegura tu fecha.
 2. **Días 2–3 — Define lista de invitados y zona de la fiesta.** Verifica que el área de la Mini Jungla tenga superficie plana, contacto de 110 V cercano y espacio perimetral libre. Decide dónde va cada una de las cuatro zonas de decoración.
 3. **Días 4–7 — Compra la decoración y los materiales de juegos.** Un solo viaje al mercado de Jamaica o a la zona de mayoreo del centro resuelve plantas, globos, figuritas, binoculares y máscaras. Imprime en casa credenciales, guías de campo y rótulos.
 4. **Días 8–10 — Cierra el menú.** Encarga el pastel con una semana de margen, define los snacks temáticos y consigue frascos y contenedores para la mesa de provisiones.
 5. **Días 11–13 — Prepara los kits.** Arma los bolos, las credenciales con nombres, las medallas de la trivia. Confirma asistencias y comparte en el grupo de WhatsApp las reglas básicas del inflable.
-6. **Día de la fiesta — Ejecuta el cronograma.** Esconde las figuritas antes de que llegue nadie, recibe al equipo de INFLAFI hora y media antes, designa al adulto supervisor del inflable, y a disfrutar: el safari se maneja solo.
+6. **Día de la fiesta — Ejecuta el cronograma.** Esconde las figuritas antes de que llegue nadie, recibe al equipo de DENFLAB hora y media antes, designa al adulto supervisor del inflable, y a disfrutar: el safari se maneja solo.
 
 ---
 
@@ -107,7 +107,7 @@ Este es el plan de vuelo de una fiesta safari de tres horas —el formato más c
 
 **Asigna el rol de fotógrafo.** Si nadie es responsable de las fotos, todas quedan a medias. Una tía con buen teléfono y la lista de los cinco momentos clave (llegada, rescate, inflable, pastel, grupal frente a la Mini Jungla) resuelve el álbum completo.
 
-**Considera un paquete si quieres delegar más.** Si además del inflable quieres mesas, sillas o servicios adicionales coordinados, revisa los [paquetes para fiestas infantiles](/paquetes-para-fiestas-infantiles) de INFLAFI: consolidar proveedores es la decisión antifatiga por excelencia.
+**Considera un paquete si quieres delegar más.** Si además del inflable quieres mesas, sillas o servicios adicionales coordinados, revisa los [paquetes para fiestas infantiles](/paquetes-para-fiestas-infantiles) de DENFLAB: consolidar proveedores es la decisión antifatiga por excelencia.
 
 **Guarda las figuritas sobrantes para la próxima.** Las figuras de animales, los binoculares y las medallas no caducan: la caja de "material de safari" sirve para la kermés, la siguiente fiesta o las tardes de juego en casa. La inversión rinde más allá del evento.
 
@@ -125,7 +125,7 @@ Este es el plan de vuelo de una fiesta safari de tres horas —el formato más c
 
 ## Tabla de presupuesto total del safari
 
-Para la mamá que necesita el número completo antes de comprometerse, este es el presupuesto integral de la fiesta safari de esta guía, para 20–25 invitados, sin contar el inflable (cuyo precio se cotiza directo con INFLAFI por WhatsApp).
+Para la mamá que necesita el número completo antes de comprometerse, este es el presupuesto integral de la fiesta safari de esta guía, para 20–25 invitados, sin contar el inflable (cuyo precio se cotiza directo con DENFLAB por WhatsApp).
 
 | Concepto | Rango estimado | Contexto práctico |
 |---|---|---|
@@ -143,7 +143,7 @@ Para la mamá que necesita el número completo antes de comprometerse, este es e
 
 ## Qué delegar y qué hacer en casa: la división inteligente del trabajo
 
-**Delega el inflable completo.** Montaje, soplador, anclaje y desmontaje son de INFLAFI de principio a fin. Tu única tarea es tener el espacio despejado y el contacto eléctrico identificado.
+**Delega el inflable completo.** Montaje, soplador, anclaje y desmontaje son de DENFLAB de principio a fin. Tu única tarea es tener el espacio despejado y el contacto eléctrico identificado.
 
 **Delega el pastel si el fondant te quita el sueño.** Un pastel temático encargado con una semana de anticipación cuesta menos que el estrés de hornearlo la madrugada del sábado.
 
@@ -163,11 +163,11 @@ El punto dulce es de 3 a 8 años. La Mini Jungla recibe desde los 3 años gracia
 
 ### ¿Cuánto cuesta en total una fiesta safari como la de esta guía?
 
-La decoración completa de las cuatro zonas, los materiales de los cinco juegos y los extras temáticos del menú se resuelven en un rango de 2,000 a 4,500 pesos según cuánto hagas en casa, sin contar comida principal y pastel. El costo de la Mini Jungla depende de fecha, colonia y duración: cotízalo directo por WhatsApp con INFLAFI, porque es la única fuente de precio real y la cotización no compromete a nada.
+La decoración completa de las cuatro zonas, los materiales de los cinco juegos y los extras temáticos del menú se resuelven en un rango de 2,000 a 4,500 pesos según cuánto hagas en casa, sin contar comida principal y pastel. El costo de la Mini Jungla depende de fecha, colonia y duración: cotízalo directo por WhatsApp con DENFLAB, porque es la única fuente de precio real y la cotización no compromete a nada.
 
 ### ¿Qué pasa con el safari si llueve?
 
-El plan B tiene dos niveles. Lluvia ligera pasajera: se pausa el inflable, se secan las superficies y se adelanta la comida o el pastel mientras escampa. Lluvia fuerte: los juegos de mesa (guía de campo, máscaras, trivia) migran bajo techo y el inflable se reanuda si el clima lo permite. Al reservar, pregunta a INFLAFI por su política de reprogramación por clima para tener el escenario completo claro.
+El plan B tiene dos niveles. Lluvia ligera pasajera: se pausa el inflable, se secan las superficies y se adelanta la comida o el pastel mientras escampa. Lluvia fuerte: los juegos de mesa (guía de campo, máscaras, trivia) migran bajo techo y el inflable se reanuda si el clima lo permite. Al reservar, pregunta a DENFLAB por su política de reprogramación por clima para tener el escenario completo claro.
 
 ### ¿La Mini Jungla cabe en el jardín de una casa típica?
 
@@ -183,7 +183,7 @@ Con esta guía, honestamente no. La Mini Jungla entretiene por sí sola, los cin
 
 ### ¿Puedo hacer el safari en un salón de fiestas en lugar de mi jardín?
 
-Sí, siempre que el salón tenga área exterior con superficie plana, espacio suficiente para la huella del inflable más su perímetro, y contacto de 110 V disponible. Muchos salones de CDMX aceptan proveedores externos de inflables sin problema, pero confírmalo por escrito al apartar el salón y comparte la dirección exacta con INFLAFI al cotizar, para coordinar el acceso del equipo el día del evento.
+Sí, siempre que el salón tenga área exterior con superficie plana, espacio suficiente para la huella del inflable más su perímetro, y contacto de 110 V disponible. Muchos salones de CDMX aceptan proveedores externos de inflables sin problema, pero confírmalo por escrito al apartar el salón y comparte la dirección exacta con DENFLAB al cotizar, para coordinar el acceso del equipo el día del evento.
 
 ---
 
@@ -221,7 +221,7 @@ Una fiesta safari memorable no es cuestión de presupuesto: es cuestión de un c
 
 [**Cotizar la Mini Jungla para mi fiesta safari →**](https://wa.me/5215539048634?text=Hola%2C%20estoy%20organizando%20un%20cumplea%C3%B1os%20con%20tema%20safari%20en%20CDMX%20y%20quiero%20rentar%20la%20Mini%20Jungla.%20%C2%BFMe%20pueden%20dar%20disponibilidad%20y%20precio%20para%20mi%20fecha%3F)
 
-Comparte fecha, colonia y edades de los invitados: el equipo de INFLAFI te confirma disponibilidad y te orienta sobre la logística completa del inflable para tu safari.
+Comparte fecha, colonia y edades de los invitados: el equipo de DENFLAB te confirma disponibilidad y te orienta sobre la logística completa del inflable para tu safari.
 
 **Teléfono:** 55 3904 8634 | **Correo:** contacto@renta-de-inflables.com
 
@@ -229,4 +229,4 @@ Horario de atención: **Lunes a Viernes 9:00–19:00 | Sábados 9:00–17:00**
 
 ---
 
-*La Mini Jungla (4 × 2.5 × 2.8 m, temática selva, rampa de subida suave, desde 3 años, 4–5 niños simultáneos) requiere superficie plana exterior y corriente de 110 V. Montaje, soplador y desmontaje siempre incluidos. INFLAFI atiende toda la CDMX: Coyoacán, Del Valle, Tlalpan, Pedregal, Polanco, Nápoles, Satélite y zonas aledañas.*
+*La Mini Jungla (4 × 2.5 × 2.8 m, temática selva, rampa de subida suave, desde 3 años, 4–5 niños simultáneos) requiere superficie plana exterior y corriente de 110 V. Montaje, soplador y desmontaje siempre incluidos. DENFLAB atiende toda la CDMX: Coyoacán, Del Valle, Tlalpan, Pedregal, Polanco, Nápoles, Satélite y zonas aledañas.*

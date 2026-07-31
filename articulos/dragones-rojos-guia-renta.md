@@ -6,9 +6,9 @@ category: medianos
 pubDate: 2026-07-09
 draft: false
 ---
-Hay un momento exacto en el que la fiesta deja de ser una reunión de adultos con niños en pijama de personaje y se convierte en algo que los chamados van a contar en la escuela el lunes. Ese momento, si has contratado bien, ocurre cuando la camioneta de INFLAFI dobla la esquina y el equipo baja el bulto enrollado que es, todavía, un misterio para los invitados. Entonces alguien conecta el soplador, el plástico rojo empieza a cobrar forma, y en cuestión de diez minutos se levanta frente al jardín una estructura de casi dos metros y medio de altura cubierta de dragones en escarlata que parece sacada de la portada de un videojuego épico. No hay niño de cinco a diez años en la Ciudad de México que resista ese espectáculo con serenidad. El cumpleañero abre los ojos como platos. Los invitados ya se están quitando los tenis.
+Hay un momento exacto en el que la fiesta deja de ser una reunión de adultos con niños en pijama de personaje y se convierte en algo que los chamados van a contar en la escuela el lunes. Ese momento, si has contratado bien, ocurre cuando la camioneta de DENFLAB dobla la esquina y el equipo baja el bulto enrollado que es, todavía, un misterio para los invitados. Entonces alguien conecta el soplador, el plástico rojo empieza a cobrar forma, y en cuestión de diez minutos se levanta frente al jardín una estructura de casi dos metros y medio de altura cubierta de dragones en escarlata que parece sacada de la portada de un videojuego épico. No hay niño de cinco a diez años en la Ciudad de México que resista ese espectáculo con serenidad. El cumpleañero abre los ojos como platos. Los invitados ya se están quitando los tenis.
 
-Eso es lo que hace la elección correcta de inflable: cambia el tono de toda la tarde. No es decoración de fondo, es el eje alrededor del cual gira la energía del evento. Y dentro del catálogo de inflables medianos de INFLAFI, los Dragones Rojos cumplen esa función mejor que cualquier otro modelo para niños en el rango de cinco a diez años: son visualmente memorables, tienen capacidad para grupos rotativos, y su diseño es lo suficientemente versátil para funcionar con temáticas de dragones, dinosaurios, héroes de acción, Pokémon, Dungeons & Dragons junior, o simplemente para el papá que quiere que la fiesta de su hijo sea "épica" sin saber exactamente qué quiere decir con eso.
+Eso es lo que hace la elección correcta de inflable: cambia el tono de toda la tarde. No es decoración de fondo, es el eje alrededor del cual gira la energía del evento. Y dentro del catálogo de inflables medianos de DENFLAB, los Dragones Rojos cumplen esa función mejor que cualquier otro modelo para niños en el rango de cinco a diez años: son visualmente memorables, tienen capacidad para grupos rotativos, y su diseño es lo suficientemente versátil para funcionar con temáticas de dragones, dinosaurios, héroes de acción, Pokémon, Dungeons & Dragons junior, o simplemente para el papá que quiere que la fiesta de su hijo sea "épica" sin saber exactamente qué quiere decir con eso.
 
 Esta guía existe para que llegues a tu evento con cero sorpresas y toda la información que necesitas: medidas reales, comparativas honestas con los otros medianos del catálogo, los errores que cometen el 40% de las familias al reservar un inflable mediano en CDMX, y el proceso de renta paso a paso con los montos y tiempos exactos. Si al final tienes preguntas que esta guía no resuelve, el WhatsApp está al pie de la página.
 
@@ -16,7 +16,7 @@ Esta guía existe para que llegues a tu evento con cero sorpresas y toda la info
 
 ## ¿Qué son los Dragones Rojos y qué los hace distintos de los otros medianos?
 
-Los Dragones Rojos es el nombre del inflable mediano de rango alto dentro del catálogo de INFLAFI. "Mediano" en términos de renta de inflables no significa modesto: significa que está dimensionado para jardines estándar de casa en CDMX, que su capacidad está optimizada para grupos de entre seis y ocho niños simultáneos, y que su huella en el suelo —cuatro metros de largo por dos y medio de ancho— es la que cabe con margen en la mayoría de los jardines de colonias como Del Valle, Narvarte, Coyoacán o Pedregal.
+Los Dragones Rojos es el nombre del inflable mediano de rango alto dentro del catálogo de DENFLAB. "Mediano" en términos de renta de inflables no significa modesto: significa que está dimensionado para jardines estándar de casa en CDMX, que su capacidad está optimizada para grupos de entre seis y ocho niños simultáneos, y que su huella en el suelo —cuatro metros de largo por dos y medio de ancho— es la que cabe con margen en la mayoría de los jardines de colonias como Del Valle, Narvarte, Coyoacán o Pedregal.
 
 Lo que distingue a los Dragones Rojos dentro del grupo de medianos es triple. Primero, su impacto visual: el rojo intenso con dragones estampados en ambos lados es el diseño más llamativo del segmento, y eso importa porque el inflable es el primer elemento que un invitado ve al llegar. Segundo, su altura: con 2.5 metros de techo inflado, da a los niños de edad escolar la sensación de estar en un espacio real, no de gatear en un cilindro aplastado. Tercero, su versatilidad temática: mientras que la Mini Jungla tiene un nicho muy específico (naturaleza, animales, verde) y los Gusanitos funcionan mejor como solución de alta capacidad sin temática particular, los Dragones Rojos encajan en casi cualquier fiesta que tenga una nota de aventura, energía o épica —que en la práctica es la mayoría de los cumpleaños de niños de seis a nueve años.
 
@@ -41,7 +41,7 @@ Lo que distingue a los Dragones Rojos dentro del grupo de medianos es triple. Pr
 
 ## Tabla Comparativa: Dragones Rojos vs. Mini Jungla vs. Gusanitos
 
-Los tres son inflables medianos del catálogo INFLAFI. Aquí la comparativa real para que elijas sin dudar (y si tu duda es específicamente entre los dos medianos con temática, tenemos una [comparativa a fondo de Dragones Rojos vs. Mini Jungla](/blog/dragones-rojos-vs-mini-jungla) con escenarios de decisión):
+Los tres son inflables medianos del catálogo DENFLAB. Aquí la comparativa real para que elijas sin dudar (y si tu duda es específicamente entre los dos medianos con temática, tenemos una [comparativa a fondo de Dragones Rojos vs. Mini Jungla](/blog/dragones-rojos-vs-mini-jungla) con escenarios de decisión):
 
 | Criterio | Dragones Rojos | Mini Jungla | Gusanitos |
 |---|---|---|---|
@@ -85,13 +85,13 @@ Fin de año, Día del Niño, Semana Santa, posadas: cualquier reunión familiar 
 
 Esta sección es la que la mayoría de los sitios web de renta de inflables omiten porque compromete a ser honesto. Aquí va:
 
-**El espacio siempre es más pequeño de lo que recuerdas.** La estadística interna de INFLAFI muestra que aproximadamente uno de cada cuatro clientes que dicen tener "suficiente espacio" necesitan ajustar la posición del inflable o mover muebles de jardín el día del evento. Antes de reservar, mide el jardín con cinta métrica —no a ojo, no en pasos. El requerimiento mínimo de 5.5 × 4 metros no incluye sillas, mesas de buffet, ni el espacio que los adultos van a ocupar de pie. Mide el espacio libre real.
+**El espacio siempre es más pequeño de lo que recuerdas.** La estadística interna de DENFLAB muestra que aproximadamente uno de cada cuatro clientes que dicen tener "suficiente espacio" necesitan ajustar la posición del inflable o mover muebles de jardín el día del evento. Antes de reservar, mide el jardín con cinta métrica —no a ojo, no en pasos. El requerimiento mínimo de 5.5 × 4 metros no incluye sillas, mesas de buffet, ni el espacio que los adultos van a ocupar de pie. Mide el espacio libre real.
 
-**El soplador hace ruido.** No es ensordecedor, pero es audible. Si tu evento tiene música ambiente o está cerca de una zona de bebés durmiendo, hay que planear la ubicación del soplador para que apunte en la dirección correcta. El equipo de INFLAFI lo posiciona con criterio, pero si tienes restricciones específicas, comunícalas al momento de reservar.
+**El soplador hace ruido.** No es ensordecedor, pero es audible. Si tu evento tiene música ambiente o está cerca de una zona de bebés durmiendo, hay que planear la ubicación del soplador para que apunte en la dirección correcta. El equipo de DENFLAB lo posiciona con criterio, pero si tienes restricciones específicas, comunícalas al momento de reservar.
 
 **El sol de las 2 pm en CDMX calienta el PVC.** En verano, la superficie exterior del inflable puede calentarse bajo el sol directo. Esto no representa un riesgo para los niños que están dentro —el interior es más fresco porque el aire circula—, pero si el evento es al mediodía en agosto, considera colocar el inflable bajo sombra parcial si el jardín lo permite. Un toldo de jardín o la sombra de un árbol hacen diferencia.
 
-**La "capacidad máxima" es un límite real, no una sugerencia conservadora.** Cuando INFLAFI dice 6 a 8 niños, eso está calibrado para que los niños dentro del inflable tengan espacio real para saltar sin colisionar. Meter 12 niños porque "todos quieren entrar al mismo tiempo" no solo es menos seguro: también arruina la diversión porque nadie puede moverse. Organiza turnos rotativos y la experiencia de cada niño mejora notablemente. El protocolo completo de turnos, orden en el tobogán y mezcla de edades está en la [guía de seguridad de los Dragones Rojos](/blog/dragones-rojos-guia-seguridad).
+**La "capacidad máxima" es un límite real, no una sugerencia conservadora.** Cuando DENFLAB dice 6 a 8 niños, eso está calibrado para que los niños dentro del inflable tengan espacio real para saltar sin colisionar. Meter 12 niños porque "todos quieren entrar al mismo tiempo" no solo es menos seguro: también arruina la diversión porque nadie puede moverse. Organiza turnos rotativos y la experiencia de cada niño mejora notablemente. El protocolo completo de turnos, orden en el tobogán y mezcla de edades está en la [guía de seguridad de los Dragones Rojos](/blog/dragones-rojos-guia-seguridad).
 
 ---
 
@@ -99,8 +99,8 @@ Esta sección es la que la mayoría de los sitios web de renta de inflables omit
 
 | Error | Por qué ocurre | Cómo evitarlo |
 |---|---|---|
-| Reservar sin medir el espacio | El jardín se ve grande en la memoria | Mide con cinta métrica antes de llamar; pide ayuda a INFLAFI si tienes dudas |
-| Elegir por precio, no por especificación | La diferencia entre modelos parece mínima hasta el día del evento | Usa la tabla comparativa de esta guía; consulta con el asesor de INFLAFI para tu caso específico |
+| Reservar sin medir el espacio | El jardín se ve grande en la memoria | Mide con cinta métrica antes de llamar; pide ayuda a DENFLAB si tienes dudas |
+| Elegir por precio, no por especificación | La diferencia entre modelos parece mínima hasta el día del evento | Usa la tabla comparativa de esta guía; consulta con el asesor de DENFLAB para tu caso específico |
 | Ignorar la edad de los niños | Se asume que "un inflable es un inflable" | Los Dragones Rojos están calibrados para 5–10 años; para menores de 5, el Micro Baby es la opción correcta |
 | No avisar sobre el tipo de suelo | Se asume que el equipo traerá el sistema de anclaje correcto | Sí lo trae, pero si hay piso de concreto o azulejo inusual, avisa al reservar para preparación óptima |
 | Reservar el día anterior | Las fechas populares se agotan 2–3 semanas antes | Reserva con mínimo una semana de anticipación; en temporada alta (Día del Niño, fin de año escolar), con 2–3 semanas |
@@ -108,13 +108,13 @@ Esta sección es la que la mayoría de los sitios web de renta de inflables omit
 
 ---
 
-## Cómo Combinar los Dragones Rojos con Otros Servicios INFLAFI
+## Cómo Combinar los Dragones Rojos con Otros Servicios DENFLAB
 
 Los Dragones Rojos funcionan como pieza central, pero la experiencia puede arquitectarse de manera más completa con otros elementos del catálogo:
 
 **Tobogán Extrem como complemento para niños mayores.** Si en el evento hay niños de diez a catorce años que ya se sienten "muy grandes" para el inflable mediano, el Extrem ofrece el nivel de adrenalina que ese grupo busca. Dos inflables, dos grupos de edad, cero conflictos por el espacio.
 
-**Pantalla inflable para cine de jardín nocturno.** Una tendencia que está creciendo en CDMX: fiesta con inflable por la tarde, y cuando el sol baja y los niños se calman, la pantalla inflable convierte el jardín en cine al aire libre. Los Dragones Rojos y la pantalla requieren circuitos eléctricos separados, algo que el equipo de INFLAFI coordina al planear la instalación.
+**Pantalla inflable para cine de jardín nocturno.** Una tendencia que está creciendo en CDMX: fiesta con inflable por la tarde, y cuando el sol baja y los niños se calman, la pantalla inflable convierte el jardín en cine al aire libre. Los Dragones Rojos y la pantalla requieren circuitos eléctricos separados, algo que el equipo de DENFLAB coordina al planear la instalación.
 
 **Micro Baby para los hermanos menores.** Si en la fiesta hay niños de dos a cuatro años que son hermanos de los invitados principales, el Micro Baby instalado en un rincón del jardín les da su propio espacio sin mezclarse con los saltos más intensos de los mayores en los Dragones Rojos.
 
@@ -130,7 +130,7 @@ Escríbenos por WhatsApp al **55 3904 8634** con la siguiente información:
 - Número aproximado de niños esperados y rango de edades
 - Dimensiones del jardín o espacio exterior disponible
 
-Con esos datos, el asesor de INFLAFI confirma disponibilidad, costo total y logística de entrega.
+Con esos datos, el asesor de DENFLAB confirma disponibilidad, costo total y logística de entrega.
 
 ### Paso 2 — Reserva con anticipo del 30%
 
@@ -138,11 +138,11 @@ Una vez acordadas las condiciones, el **30% del total** reserva tu fecha de form
 
 ### Paso 3 — Día del evento: pago del 70% restante + montaje
 
-El equipo de INFLAFI llega **30 minutos antes del horario contratado**. El **70% restante se liquida antes de iniciar el montaje**, que toma entre 10 y 15 minutos. Una vez inflado, el equipo explica al responsable del evento las reglas de seguridad, la capacidad máxima y el manejo del soplador.
+El equipo de DENFLAB llega **30 minutos antes del horario contratado**. El **70% restante se liquida antes de iniciar el montaje**, que toma entre 10 y 15 minutos. Una vez inflado, el equipo explica al responsable del evento las reglas de seguridad, la capacidad máxima y el manejo del soplador.
 
 ### Paso 4 — Durante la renta
 
-El soplador permanece encendido durante toda la duración contratada. Si necesitas comunicarte con el equipo durante el evento, INFLAFI está disponible por WhatsApp en horario de operación.
+El soplador permanece encendido durante toda la duración contratada. Si necesitas comunicarte con el equipo durante el evento, DENFLAB está disponible por WhatsApp en horario de operación.
 
 ### Paso 5 — Desmontaje y retiro
 
@@ -160,11 +160,11 @@ Antes de reservar, verifica que tu espacio cumple con los siguientes puntos:
 - [ ] **Sin obstáculos en los 75 cm de margen perimetral.** Esto incluye macetas grandes, muebles de jardín, bardas con salientes, o escalones. El inflable necesita espacio para las anclas y para que el soplador ventile correctamente.
 - [ ] **Superficie firme y relativamente plana.** El inflable puede instalarse sobre pasto, concreto, adoquín o cerámica exterior. Superficies con desnivel mayor a 10 cm requieren nivelación; avisa al reservar.
 - [ ] **Toma eléctrica de 110 V a máximo 15 metros del punto de instalación.** Si la toma más cercana está más lejos, comunícalo para coordinar la extensión adecuada.
-- [ ] **Acceso para el equipo de instalación.** La camioneta de INFLAFI necesita acceso vehicular cercano o un recorrido a pie menor a 30 metros para transportar el equipo. Para edificios con elevador, verifica que el bulto enrollado (aprox. 1.5 m de largo) quepa en la cabina.
+- [ ] **Acceso para el equipo de instalación.** La camioneta de DENFLAB necesita acceso vehicular cercano o un recorrido a pie menor a 30 metros para transportar el equipo. Para edificios con elevador, verifica que el bulto enrollado (aprox. 1.5 m de largo) quepa en la cabina.
 - [ ] **Solo exterior.** Los Dragones Rojos no se instalan en interiores, salones de eventos techados, o espacios sin ventilación natural suficiente.
 - [ ] **Sin árboles con ramas bajas sobre el área de instalación.** Las ramas a menos de 3 metros de altura sobre el espacio del inflable representan riesgo de perforación y deben despejarse.
 
-> **Tip de insider:** si no estás seguro de si tu jardín cumple con las medidas, toma una foto desde la esquina del espacio con un objeto de referencia (una persona de pie, una silla estándar) y envíala por WhatsApp a INFLAFI. El equipo puede evaluarla en minutos y darte una opinión antes de que reserves.
+> **Tip de insider:** si no estás seguro de si tu jardín cumple con las medidas, toma una foto desde la esquina del espacio con un objeto de referencia (una persona de pie, una silla estándar) y envíala por WhatsApp a DENFLAB. El equipo puede evaluarla en minutos y darte una opinión antes de que reserves.
 
 ---
 
@@ -174,13 +174,13 @@ Antes de reservar, verifica que tu espacio cumple con los siguientes puntos:
 Depende de las dimensiones de la terraza. Si tiene al menos 5.5 × 4 metros de espacio libre y acceso para el equipo de instalación (escalera o elevador que permita subir el equipo), es posible. Lo importante es confirmar medidas antes de reservar. Escríbenos con las dimensiones exactas y una foto del espacio para evaluarlo sin compromiso.
 
 **¿Qué pasa si llueve el día de la fiesta?**
-Los Dragones Rojos son de uso exclusivo exterior, por lo que no operamos bajo lluvia intensa. En caso de lluvia, INFLAFI coordina con el cliente la posibilidad de reprogramar la renta sin penalización, siempre que la cancelación se notifique con anticipación razonable. Consulta los términos exactos al momento de reservar.
+Los Dragones Rojos son de uso exclusivo exterior, por lo que no operamos bajo lluvia intensa. En caso de lluvia, DENFLAB coordina con el cliente la posibilidad de reprogramar la renta sin penalización, siempre que la cancelación se notifique con anticipación razonable. Consulta los términos exactos al momento de reservar.
 
 **¿Cuántos niños pueden usar el inflable en total durante el evento?**
 La capacidad simultánea es de 6 a 8 niños, pero organizando turnos rotativos de 10 a 15 minutos, en 4 horas de renta pueden disfrutarlo entre 90 y 120 niños distintos. Para eventos con más de 30 niños, considera organizar un sistema de turnos con un adulto coordinador.
 
 **¿El inflable incluye supervisión?**
-No. INFLAFI incluye entrega, montaje, el soplador en funcionamiento y desmontaje, pero la supervisión de los niños durante el evento es responsabilidad del cliente. Para kermeses o eventos grandes, recomendamos designar uno o dos adultos como encargados del inflable.
+No. DENFLAB incluye entrega, montaje, el soplador en funcionamiento y desmontaje, pero la supervisión de los niños durante el evento es responsabilidad del cliente. Para kermeses o eventos grandes, recomendamos designar uno o dos adultos como encargados del inflable.
 
 **¿Puedo decorar el inflable con globos o papel?**
 No se recomienda adherir ningún elemento al inflable con cinta adhesiva, tachuelas, grapas o cualquier fijación que pueda perforar o dañar el material. Puedes colocar decoración en el área alrededor del inflable, pero no sobre la superficie del mismo.
@@ -189,7 +189,7 @@ No se recomienda adherir ningún elemento al inflable con cinta adhesiva, tachue
 El soplador emite un sonido continuo comparable al de una aspiradora doméstica —perceptible pero no ensordecedor. En eventos con música, generalmente no representa un problema porque la música compite bien con ese nivel de ruido. Si el evento tiene zona de bebés durmiendo, avisa al reservar para posicionar el soplador en la dirección menos invasiva.
 
 **¿Qué hago si el inflable pierde presión durante la fiesta?**
-El inflable mantiene su forma mientras el soplador esté encendido. Si notas que pierde presión con el soplador operando, verifica primero que no se haya desconectado accidentalmente y luego comunícate con INFLAFI por WhatsApp. El equipo te asesora en tiempo real para resolver cualquier situación.
+El inflable mantiene su forma mientras el soplador esté encendido. Si notas que pierde presión con el soplador operando, verifica primero que no se haya desconectado accidentalmente y luego comunícate con DENFLAB por WhatsApp. El equipo te asesora en tiempo real para resolver cualquier situación.
 
 **¿Con cuánto tiempo de anticipación debo reservar?**
 Para fechas regulares, recomendamos un mínimo de 7 días de anticipación. Para temporada alta —Día del Niño (30 de abril), fin de año escolar (junio), fines de semana de diciembre, Semana Santa— las fechas pueden agotarse con 2 a 3 semanas de anticipación. Si tu evento es pronto, escríbenos de todos modos: si hay disponibilidad, la confirmamos en el día.
@@ -198,7 +198,7 @@ Para fechas regulares, recomendamos un mínimo de 7 días de anticipación. Para
 
 ## Zonas de Cobertura en CDMX
 
-INFLAFI opera en toda la Ciudad de México, con cobertura regular en las siguientes zonas:
+DENFLAB opera en toda la Ciudad de México, con cobertura regular en las siguientes zonas:
 
 | Zona | Colonias representativas |
 |---|---|
@@ -229,7 +229,7 @@ Si llegaste hasta aquí, ya tienes todo lo que necesitas para tomar la decisión
 
 ¿Ya mediste el jardín y confirmaste que tienes el espacio? Entonces el siguiente paso es simple:
 
-**[Reservar mi Dragón Rojo — WhatsApp directo](https://wa.me/5215539048634?text=Hola%20INFLAFI%2C%20ya%20medí%20mi%20jardín%20y%20quiero%20reservar%20los%20Dragones%20Rojos.%20Fecha%3A%20[escribe%20tu%20fecha].%20Colonia%3A%20[escribe%20tu%20colonia])**
+**[Reservar mi Dragón Rojo — WhatsApp directo](https://wa.me/5215539048634?text=Hola%20DENFLAB%2C%20ya%20medí%20mi%20jardín%20y%20quiero%20reservar%20los%20Dragones%20Rojos.%20Fecha%3A%20[escribe%20tu%20fecha].%20Colonia%3A%20[escribe%20tu%20colonia])**
 
 Entrega, montaje y desmontaje incluidos. Sin sorpresas el día del evento.
 
@@ -246,4 +246,4 @@ Entrega, montaje y desmontaje incluidos. Sin sorpresas el día del evento.
 
 ---
 
-*INFLAFI — Renta de Inflables en CDMX | Dragones Rojos y más de 10 modelos disponibles*
+*DENFLAB — Renta de Inflables en CDMX | Dragones Rojos y más de 10 modelos disponibles*

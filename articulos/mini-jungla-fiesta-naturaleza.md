@@ -10,7 +10,7 @@ Pregúntale a cualquier adulto cuál es el recuerdo más vívido de sus fiestas 
 
 Los animales ocupan un lugar particular en la imaginación infantil. No como mascotas ni como ilustraciones de libro de texto, sino como habitantes de un mundo paralelo y fascinante donde las reglas son distintas, donde el más fuerte rugía en la oscuridad y el más ágil volaba entre los árboles. La selva, en la mente de un niño de cuatro o seis u ocho años, no es un ecosistema tropical: es el escenario de todas las historias donde algo importante está por suceder. Es el lugar donde Simba creció. Donde Mowgli aprendió a ser él mismo. Donde los exploradores descubrían lo que nadie había visto antes.
 
-Cuando pones la Mini Jungla de INFLAFI en el centro del cumpleaños de tu hijo, no estás rentando un inflable. Estás construyendo ese escenario. Estás dándole a tu hijo y a sus amigos el portal hacia esa dimensión donde la aventura es posible y donde la selva los espera. Esta guía es para la mamá creativa que sabe que las fiestas con personalidad y narrativa son las que dejan huella, y que quiere saber exactamente cómo construir esa experiencia de principio a fin.
+Cuando pones la Mini Jungla de DENFLAB en el centro del cumpleaños de tu hijo, no estás rentando un inflable. Estás construyendo ese escenario. Estás dándole a tu hijo y a sus amigos el portal hacia esa dimensión donde la aventura es posible y donde la selva los espera. Esta guía es para la mamá creativa que sabe que las fiestas con personalidad y narrativa son las que dejan huella, y que quiere saber exactamente cómo construir esa experiencia de principio a fin.
 
 ---
 
@@ -20,7 +20,7 @@ Hay algo en los animales —especialmente los grandes, los salvajes, los que hab
 
 La selva como escenario amplifica ese asombro funcional porque es un espacio donde todo coexiste: el peligro y la belleza, la sombra y la luz que se filtra entre las hojas, los sonidos que vienen de todas partes. Es, en términos narrativos, el espacio perfecto para una aventura de cumpleaños porque no tiene un solo tipo de historia: puede ser una misión de rescate, una expedición científica, una celebración tribal, un día de juego libre con tus amigos más cercanos entre los árboles.
 
-La Mini Jungla de INFLAFI trae esa narrativa al jardín de tu casa en formato físico, tridimensional, habitable. El verde intenso del vinilo, los leones y las jirafas y los monos impresos con detalle, los 2.8 metros de altura que hacen que el inflable sea más alto que cualquier adulto en la fiesta: todo eso crea un objeto que los niños no solo usan sino que incorporan a sus juegos imaginativos de maneras que ningún inflable genérico puede igualar.
+La Mini Jungla de DENFLAB trae esa narrativa al jardín de tu casa en formato físico, tridimensional, habitable. El verde intenso del vinilo, los leones y las jirafas y los monos impresos con detalle, los 2.8 metros de altura que hacen que el inflable sea más alto que cualquier adulto en la fiesta: todo eso crea un objeto que los niños no solo usan sino que incorporan a sus juegos imaginativos de maneras que ningún inflable genérico puede igualar.
 
 ---
 
@@ -235,7 +235,7 @@ Para involucrar al niño de manera práctica: pídele que nombre su selva (puede
 
 ## Haz que esta fiesta suceda
 
-Una fiesta de selva con la Mini Jungla de INFLAFI no es una fiesta costosa. Es una fiesta bien pensada. La diferencia entre un cumpleaños que se olvida en tres semanas y uno que el niño recuerda a los veinte años no está en el presupuesto: está en la intención y en la coherencia con la que se ejecuta.
+Una fiesta de selva con la Mini Jungla de DENFLAB no es una fiesta costosa. Es una fiesta bien pensada. La diferencia entre un cumpleaños que se olvida en tres semanas y uno que el niño recuerda a los veinte años no está en el presupuesto: está en la intención y en la coherencia con la que se ejecuta.
 
 La Mini Jungla pone el escenario. La narrativa es tuya.
 
@@ -243,7 +243,7 @@ La Mini Jungla pone el escenario. La narrativa es tuya.
 
 Disponibilidad limitada en fines de semana. Reserva con mínimo una semana de anticipación para asegurar tu fecha.
 
-¿Tienes preguntas específicas sobre la decoración o las actividades? Escríbenos: el equipo de INFLAFI ha ayudado a organizar cientos de fiestas de selva en CDMX y tiene respuestas para todo.
+¿Tienes preguntas específicas sobre la decoración o las actividades? Escríbenos: el equipo de DENFLAB ha ayudado a organizar cientos de fiestas de selva en CDMX y tiene respuestas para todo.
 
 **Teléfono:** 55 3904 8634 | **Correo:** contacto@renta-de-inflables.com
 
@@ -251,6 +251,6 @@ Horario de atención: **Lunes a Viernes 9:00–19:00 | Sábados 9:00–17:00**
 
 ---
 
-*INFLAFI opera en toda la CDMX: Polanco, Lomas de Chapultepec, Santa Fe, Miguel Hidalgo, Coyoacán, Del Valle, Tlalpan, Nápoles, Pedregal, Satélite y zonas aledañas. Montaje, soplador y desmontaje siempre incluidos. Anticipo del 30% para reservar, saldo del 70% el día del evento.*
+*DENFLAB opera en toda la CDMX: Polanco, Lomas de Chapultepec, Santa Fe, Miguel Hidalgo, Coyoacán, Del Valle, Tlalpan, Nápoles, Pedregal, Satélite y zonas aledañas. Montaje, soplador y desmontaje siempre incluidos. Anticipo del 30% para reservar, saldo del 70% el día del evento.*
 
-[**Reservar ahora — que la aventura comience →**](https://wa.me/5215539048634?text=Quiero%20reservar%20la%20Mini%20Jungla%20de%20INFLAFI%20para%20una%20fiesta%20de%20selva.%20El%20evento%20es%20el%20d%C3%ADa%20__%20en%20la%20colonia%20__.%20%C2%BFEst%C3%A1%20disponible%3F)
+[**Reservar ahora — que la aventura comience →**](https://wa.me/5215539048634?text=Quiero%20reservar%20la%20Mini%20Jungla%20de%20DENFLAB%20para%20una%20fiesta%20de%20selva.%20El%20evento%20es%20el%20d%C3%ADa%20__%20en%20la%20colonia%20__.%20%C2%BFEst%C3%A1%20disponible%3F)

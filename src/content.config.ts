@@ -1,4 +1,4 @@
-// content.config.ts — Content Collections para INFLAFI / renta-de-inflables.com
+// content.config.ts — Content Collections para DENFLAB / renta-de-inflables.com
 // Canónico: raíz del proyecto (no src/content/config.ts).
 import { defineCollection, z } from 'astro:content';
 import { glob } from 'astro/loaders';
