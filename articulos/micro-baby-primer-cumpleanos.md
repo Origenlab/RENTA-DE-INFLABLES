@@ -232,7 +232,7 @@ Atendemos Polanco, Lomas de Chapultepec, Santa Fe, Miguel Hidalgo, Coyoacán, De
 
 [![Escríbenos por WhatsApp](https://img.shields.io/badge/WhatsApp-Consulta%20sobre%20el%20Micro%20Baby-25D366?style=for-the-badge&logo=whatsapp)](https://wa.me/5215539048634?text=Hola%2C%20quiero%20informaci%C3%B3n%20sobre%20el%20Micro%20Baby%20para%20el%20primer%20cumplea%C3%B1os%20de%20mi%20beb%C3%A9)
 
-**WhatsApp:** [55 4886 1621](https://wa.me/5215539048634?text=Hola%2C%20quiero%20informaci%C3%B3n%20sobre%20el%20Micro%20Baby%20para%20el%20primer%20cumplea%C3%B1os%20de%20mi%20beb%C3%A9)  
+**WhatsApp:** [55 3904 8634](https://wa.me/5215539048634?text=Hola%2C%20quiero%20informaci%C3%B3n%20sobre%20el%20Micro%20Baby%20para%20el%20primer%20cumplea%C3%B1os%20de%20mi%20beb%C3%A9)  
 **Correo:** contacto@renta-de-inflables.com  
 **Horario de atención:** Lunes a viernes de 9:00 a 19:00 | Sábados de 9:00 a 17:00
 

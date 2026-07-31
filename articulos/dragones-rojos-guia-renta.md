@@ -124,7 +124,7 @@ Los Dragones Rojos funcionan como pieza central, pero la experiencia puede arqui
 
 ### Paso 1 — Primer contacto (con al menos 7 días de anticipación)
 
-Escríbenos por WhatsApp al **55 4886 1621** con la siguiente información:
+Escríbenos por WhatsApp al **55 3904 8634** con la siguiente información:
 - Fecha y horario del evento (hora de inicio de la fiesta)
 - Dirección completa (colonia, alcaldía o municipio)
 - Número aproximado de niños esperados y rango de edades
@@ -221,7 +221,7 @@ Si llegaste hasta aquí, ya tienes todo lo que necesitas para tomar la decisión
 
 [![Cotizar por WhatsApp](https://img.shields.io/badge/WhatsApp-Cotizar%20Dragones%20Rojos-25D366?style=for-the-badge&logo=whatsapp)](https://wa.me/5215539048634?text=Hola%2C%20quiero%20cotizar%20los%20Dragones%20Rojos%20para%20mi%20evento%20en%20CDMX.%20¿Tienen%20disponibilidad?)
 
-**WhatsApp:** [55 4886 1621](https://wa.me/5215539048634?text=Hola%2C%20quiero%20cotizar%20los%20Dragones%20Rojos%20para%20mi%20evento%20en%20CDMX.%20¿Tienen%20disponibilidad?)
+**WhatsApp:** [55 3904 8634](https://wa.me/5215539048634?text=Hola%2C%20quiero%20cotizar%20los%20Dragones%20Rojos%20para%20mi%20evento%20en%20CDMX.%20¿Tienen%20disponibilidad?)
 **Correo:** contacto@renta-de-inflables.com
 **Horario de atención:** Lun–Vie 9:00–19:00 | Sáb 9:00–17:00
 

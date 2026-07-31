@@ -292,7 +292,7 @@ Si llegaste hasta aquí, ya tienes toda la información que necesitas para tomar
 
 ## Datos de contacto INFLAFI
 
-- **WhatsApp:** [55 4886 1621](https://wa.me/5215539048634)
+- **WhatsApp:** [55 3904 8634](https://wa.me/5215539048634)
 - **Correo:** contacto@renta-de-inflables.com
 - **Horario de atención:** Lun–Vie 9:00–19:00 | Sáb 9:00–17:00
 - **Cobertura:** Ciudad de México · Naucalpan · Tlalnepantla

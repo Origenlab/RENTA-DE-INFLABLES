@@ -221,9 +221,9 @@ El proceso completo es el mismo para cualquiera de los tres: anticipo del 30% pa
 
 Gusanitos para el espacio, Dragones Rojos para el tobogán, Mini Jungla para los pequeños y la temática. Tu fiesta ya sabe cuál de los tres le toca — solo falta apartarlo.
 
-¿Prefieres hablar directamente? Llama al **55 4886 1621** o escribe a **contacto@renta-de-inflables.com**.
+¿Prefieres hablar directamente? Llama al **55 3904 8634** o escribe a **contacto@renta-de-inflables.com**.
 
-**Teléfono:** 55 4886 1621 | **Correo:** contacto@renta-de-inflables.com
+**Teléfono:** 55 3904 8634 | **Correo:** contacto@renta-de-inflables.com
 
 Horario de atención: **Lunes a Viernes 9:00–19:00 | Sábados 9:00–17:00**
 

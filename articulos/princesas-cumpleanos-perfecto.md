@@ -208,7 +208,7 @@ El equipo INFLAFI puede orientarte desde la primera llamada: qué temática va m
 | Canal | Dato |
 |---|---|
 | WhatsApp | [55 3904 8634](https://wa.me/5215539048634?text=Hola%2C%20quiero%20hacer%20un%20cumplea%C3%B1os%20de%20princesas%20inolvidable) |
-| Teléfono | 55 4886 1621 |
+| Teléfono | 55 3904 8634 |
 | Correo | contacto@renta-de-inflables.com |
 | Horario | Lun–Vie 9:00–19:00 \| Sáb 9:00–17:00 |
 | Zona de servicio | CDMX: Polanco, Lomas, Santa Fe, Miguel Hidalgo, Coyoacán, Del Valle, Tlalpan, Nápoles, Pedregal y más |

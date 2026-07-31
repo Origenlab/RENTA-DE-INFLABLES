@@ -254,7 +254,7 @@ Si llegaste hasta aquí, ya tienes todo lo que necesitas para tomar la mejor dec
 
 [**Cotizar la Mini Jungla por WhatsApp →**](https://wa.me/5215539048634?text=Hola%2C%20me%20interesa%20rentar%20la%20Mini%20Jungla%20para%20un%20evento%20en%20CDMX.%20%C2%BFMe%20pueden%20dar%20informaci%C3%B3n%20y%20disponibilidad%3F)
 
-¿Prefieres hablar directamente? Llama al **55 4886 1621** o escribe a **contacto@renta-de-inflables.com**.
+¿Prefieres hablar directamente? Llama al **55 3904 8634** o escribe a **contacto@renta-de-inflables.com**.
 
 Horario de atención: **Lunes a Viernes 9:00–19:00 | Sábados 9:00–17:00**
 

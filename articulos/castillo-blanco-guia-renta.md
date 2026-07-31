@@ -214,7 +214,7 @@ Comunícate con el equipo de INFLAFI vía WhatsApp o teléfono. En esta primera 
 
 [Escríbenos por WhatsApp para consultar disponibilidad](https://wa.me/5215539048634?text=Hola%2C%20me%20interesa%20el%20Castillo%20Blanco%20para%20mi%20evento)
 
-**Teléfono:** 55 4886 1621 | Lun–Vie 9:00–19:00 | Sáb 9:00–17:00
+**Teléfono:** 55 3904 8634 | Lun–Vie 9:00–19:00 | Sáb 9:00–17:00
 
 ### Paso 2: Reserva con anticipo del 30%
 
@@ -286,7 +286,7 @@ El equipo de INFLAFI está listo para asesorarte sobre disponibilidad, coordinac
 
 O contáctanos directamente:
 
-- **Teléfono:** 55 4886 1621
+- **Teléfono:** 55 3904 8634
 - **Correo:** contacto@renta-de-inflables.com
 - **Horario:** Lun–Vie 9:00–19:00 | Sáb 9:00–17:00
 - **Zona de servicio:** CDMX — Polanco, Lomas, Santa Fe, Miguel Hidalgo, Coyoacán, Del Valle, Tlalpan, Nápoles, Pedregal y zonas aledañas

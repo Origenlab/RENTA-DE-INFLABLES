@@ -223,7 +223,7 @@ Ya tienes el criterio completo: la Mini Jungla para pequeños, temáticas y jard
 
 Comparte la fecha, la colonia y las edades de los niños: el equipo de INFLAFI te confirma cuál de los dos —o si la combinación de ambos— es la mejor opción para tu evento.
 
-**Teléfono:** 55 4886 1621 | **Correo:** contacto@renta-de-inflables.com
+**Teléfono:** 55 3904 8634 | **Correo:** contacto@renta-de-inflables.com
 
 Horario de atención: **Lunes a Viernes 9:00–19:00 | Sábados 9:00–17:00**
 

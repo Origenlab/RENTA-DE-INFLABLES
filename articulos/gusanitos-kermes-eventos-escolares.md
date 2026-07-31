@@ -234,7 +234,7 @@ La diferencia entre el inflable que recaudó más que los tacos y el que rebasó
 
 Comparte la fecha, el plantel, el horario del evento y el número aproximado de alumnos: el equipo de INFLAFI te manda la información técnica para la dirección y te orienta sobre la logística completa.
 
-**Teléfono:** 55 4886 1621 | **Correo:** contacto@renta-de-inflables.com
+**Teléfono:** 55 3904 8634 | **Correo:** contacto@renta-de-inflables.com
 
 Horario de atención: **Lunes a Viernes 9:00–19:00 | Sábados 9:00–17:00**
 

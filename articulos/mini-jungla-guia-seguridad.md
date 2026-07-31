@@ -224,7 +224,7 @@ La disponibilidad de fines de semana es limitada, especialmente en temporada de 
 
 Rampa suave, turnos por edad, supervisor con nombre: tres decisiones tomadas a tiempo, y hasta el invitado más chiquito de la fiesta brinca con la libertad que la Mini Jungla le prometió.
 
-**Teléfono:** 55 4886 1621 | **Correo:** contacto@renta-de-inflables.com
+**Teléfono:** 55 3904 8634 | **Correo:** contacto@renta-de-inflables.com
 
 Horario de atención: **Lunes a Viernes 9:00–19:00 | Sábados 9:00–17:00**
 

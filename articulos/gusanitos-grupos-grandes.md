@@ -238,7 +238,7 @@ Los Gusanitos son la respuesta a esa matemática cuando el grupo es grande. No s
 
 ¿Organizas una kermés escolar, una posada grande o un evento institucional? Cuéntanos el detalle de tu evento. El equipo de INFLAFI tiene experiencia con eventos de todos los tamaños y puede orientarte sobre el sistema de turnos, los requerimientos de espacio y la logística completa.
 
-**Teléfono:** 55 4886 1621 | **Correo:** contacto@renta-de-inflables.com
+**Teléfono:** 55 3904 8634 | **Correo:** contacto@renta-de-inflables.com
 
 Horario de atención: **Lunes a Viernes 9:00–19:00 | Sábados 9:00–17:00**
 

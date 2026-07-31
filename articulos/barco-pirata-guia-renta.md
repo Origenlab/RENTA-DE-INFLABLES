@@ -205,7 +205,7 @@ Un detalle que pocas familias consideran: en eventos formales con fotografía pr
 
 El proceso de renta con INFLAFI está diseñado para ser directo y sin sorpresas. Aquí está cada paso:
 
-**1. Consulta inicial.** Contáctanos por WhatsApp al [52 1 55 3904 8634](https://wa.me/5215539048634?text=Hola%20INFLAFI%2C%20me%20interesa%20rentar%20el%20Barco%20Pirata.%20¿Pueden%20darme%20información%20de%20disponibilidad%20y%20precio%3F) o por teléfono al 55 4886 1621. Es el momento de confirmar disponibilidad para tu fecha, verificar que tu colonia está dentro de la zona de cobertura, y hacer las preguntas sobre espacio y logística que necesites resolver.
+**1. Consulta inicial.** Contáctanos por WhatsApp al [52 1 55 3904 8634](https://wa.me/5215539048634?text=Hola%20INFLAFI%2C%20me%20interesa%20rentar%20el%20Barco%20Pirata.%20¿Pueden%20darme%20información%20de%20disponibilidad%20y%20precio%3F) o por teléfono al 55 3904 8634. Es el momento de confirmar disponibilidad para tu fecha, verificar que tu colonia está dentro de la zona de cobertura, y hacer las preguntas sobre espacio y logística que necesites resolver.
 
 **2. Verificación de espacio.** Comparte las medidas de tu jardín y la dirección del evento. En casos con dudas razonables sobre el espacio disponible, nuestro equipo puede orientarte sobre cómo verificar correctamente.
 
@@ -221,7 +221,7 @@ El proceso de renta con INFLAFI está diseñado para ser directo y sin sorpresas
 
 **Datos de contacto completos:**
 - WhatsApp: [52 1 55 3904 8634](https://wa.me/5215539048634?text=Hola%20INFLAFI%2C%20me%20interesa%20rentar%20el%20Barco%20Pirata.%20¿Pueden%20darme%20información%20de%20disponibilidad%20y%20precio%3F)
-- Teléfono: 55 4886 1621
+- Teléfono: 55 3904 8634
 - Correo: contacto@renta-de-inflables.com
 - Horario de atención: Lunes a Viernes 9:00–19:00 | Sábado 9:00–17:00
 
@@ -317,7 +317,7 @@ Las fechas de fin de semana se agotan con semanas de anticipación. Si tienes un
 
 [**Consultar disponibilidad del Barco Pirata →**](https://wa.me/5215539048634?text=Hola%20INFLAFI%2C%20quiero%20reservar%20el%20Barco%20Pirata.%20Mi%20evento%20es%20el%20día%20______%20en%20la%20colonia%20______.%20¿Tienen%20disponibilidad%3F)
 
-Si prefieres hablar directamente, llámanos al **55 4886 1621** en horario de atención: Lunes a Viernes 9:00–19:00 | Sábado 9:00–17:00. También puedes escribirnos a contacto@renta-de-inflables.com.
+Si prefieres hablar directamente, llámanos al **55 3904 8634** en horario de atención: Lunes a Viernes 9:00–19:00 | Sábado 9:00–17:00. También puedes escribirnos a contacto@renta-de-inflables.com.
 
 ---
 

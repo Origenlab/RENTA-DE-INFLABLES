@@ -259,7 +259,7 @@ La diferencia entre una kermés que fluye y una que genera estrés está, en gra
 
 ¿Organizas una kermés escolar, una posada grande o un evento de comunidad? Cuéntanos el detalle de tu evento y te ayudamos a planificar la logística del inflable desde la reserva hasta la gestión de turnos el día del evento.
 
-**Teléfono:** 55 4886 1621 | **Correo:** contacto@renta-de-inflables.com
+**Teléfono:** 55 3904 8634 | **Correo:** contacto@renta-de-inflables.com
 
 Horario de atención: **Lunes a Viernes 9:00–19:00 | Sábados 9:00–17:00**
 

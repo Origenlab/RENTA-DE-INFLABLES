@@ -227,7 +227,7 @@ El Castillo Blanco de INFLAFI está disponible para bodas, XV años, bautizos y 
 
 **[Cotiza el Castillo Blanco para tu boda ahora](https://wa.me/5215539048634?text=Hola%2C%20quiero%20cotizar%20el%20Castillo%20Blanco%20para%20mi%20boda)** — respuesta en horario de atención, sin compromiso.
 
-O si prefieres hablar directamente: **55 4886 1621** | Lun–Vie 9:00–19:00 | Sáb 9:00–17:00 | [contacto@renta-de-inflables.com](mailto:contacto@renta-de-inflables.com)
+O si prefieres hablar directamente: **55 3904 8634** | Lun–Vie 9:00–19:00 | Sáb 9:00–17:00 | [contacto@renta-de-inflables.com](mailto:contacto@renta-de-inflables.com)
 
 ---
 

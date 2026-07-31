@@ -232,7 +232,7 @@ Polanco · Lomas de Chapultepec · Santa Fe · Miguel Hidalgo · Coyoacán · De
 - Lunes a Viernes: 9:00 — 19:00 hrs
 - Sábados: 9:00 — 17:00 hrs
 
-**Teléfono:** 55 4886 1621
+**Teléfono:** 55 3904 8634
 **Correo:** contacto@renta-de-inflables.com
 
 ---

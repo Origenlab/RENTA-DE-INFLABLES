@@ -92,7 +92,7 @@ Una sola llamada, un solo equipo, todo en rosa. Escríbenos por WhatsApp para co
 ## Proceso de Renta
 
 ### 1. Cotiza por WhatsApp
-Escríbenos al [55 4886 1621](https://wa.me/5215539048634) con:
+Escríbenos al [55 3904 8634](https://wa.me/5215539048634) con:
 - Fecha y horario
 - Dirección del evento (colonia y alcaldía)
 - Número de niñas y edades
@@ -141,7 +141,7 @@ Para niñas de 1–3 años, el Micro Baby es una mejor opción de seguridad. Par
 
 ## Reserva el Castillo de Princesas
 
-📱 **WhatsApp:** [55 4886 1621](https://wa.me/5215539048634?text=Hola%2C%20quiero%20cotizar%20el%20Castillo%20de%20Princesas%20para%20el%20cumplea%C3%B1os%20de%20mi%20hija%20en%20CDMX)
+📱 **WhatsApp:** [55 3904 8634](https://wa.me/5215539048634?text=Hola%2C%20quiero%20cotizar%20el%20Castillo%20de%20Princesas%20para%20el%20cumplea%C3%B1os%20de%20mi%20hija%20en%20CDMX)
 📧 **Correo:** contacto@renta-de-inflables.com
 🕐 **Horario:** Lun–Vie 9:00–19:00 | Sáb 9:00–17:00
 

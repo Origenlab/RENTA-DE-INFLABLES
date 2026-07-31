@@ -277,7 +277,7 @@ Los fines de semana en temporada alta se llenan con semanas de anticipación. Si
 
 [**Quiero reservar el Extrem para mi fiesta →**](https://wa.me/5215539048634?text=Hola%2C%20me%20interesa%20rentar%20el%20Extrem%20con%20tobog%C3%A1n.%20Mi%20evento%20es%20el%20d%C3%ADa%3A%20__%20en%20la%20colonia%3A%20__.%20Me%20pueden%20dar%20informes%20y%20disponibilidad%3F)
 
-O si prefieres llamar: **55 4886 1621**
+O si prefieres llamar: **55 3904 8634**
 Correo: contacto@renta-de-inflables.com
 Horario de atención: Lun–Vie 9:00–19:00 | Sáb 9:00–17:00
 
@@ -351,7 +351,7 @@ La reserva es simple. El equipo es profesional. El resultado habla por sí solo 
 
 [**Reservar el Extrem — Escribir por WhatsApp ahora →**](https://wa.me/5215539048634?text=Hola%2C%20quiero%20informes%20para%20rentar%20el%20Extrem%20(inflable%20con%20tobog%C3%A1n)%20para%20un%20evento%20en%20CDMX.%20Por%20favor%20ind%C3%ADquenme%20disponibilidad%20y%20precio.)
 
-**INFLAFI** · Teléfono: **55 4886 1621** · contacto@renta-de-inflables.com
+**INFLAFI** · Teléfono: **55 3904 8634** · contacto@renta-de-inflables.com
 Atención: Lun–Vie 9:00–19:00 | Sáb 9:00–17:00
 Servicio en toda la CDMX: Polanco, Lomas, Santa Fe, Miguel Hidalgo, Coyoacán, Del Valle, Tlalpan, Nápoles, Pedregal y más.
 

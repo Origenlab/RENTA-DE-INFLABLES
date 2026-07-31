@@ -242,7 +242,7 @@ Las fechas de fin de semana en CDMX se agotan semanas antes, especialmente en te
 [**Quiero reservar el Extrem para mi evento →**](https://wa.me/5215539048634?text=Hola%2C%20me%20interesa%20rentar%20el%20Extrem%20para%20un%20evento.%20%C2%BFTienen%20disponibilidad%3F)
 
 O si prefieres hablar directamente:
-- **Teléfono:** 55 4886 1621
+- **Teléfono:** 55 3904 8634
 - **Correo:** contacto@renta-de-inflables.com
 - **Horario de atención:** Lunes a Viernes 9:00–19:00 | Sábados 9:00–17:00
 

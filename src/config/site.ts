@@ -84,9 +84,9 @@ export const KEYWORDS = [
 
 // ── CONTACT — NAP ─────────────────────────────────────────────────────────────
 export const CONTACT = {
-  phone: '55 4886 1621',
-  phoneE164: '+525548861621',
-  phoneRaw: '+525548861621',
+  phone: '55 3904 8634',
+  phoneE164: '+525539048634',
+  phoneRaw: '+525539048634',
   whatsapp: '5215539048634',
   email: 'contacto@renta-de-inflables.com',
   street: 'Juán Vázquez de Mella 481, Piso 2',

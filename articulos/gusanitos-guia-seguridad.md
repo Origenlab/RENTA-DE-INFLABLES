@@ -223,7 +223,7 @@ El montaje con anclaje completo, el soplador y el desmontaje van siempre incluid
 
 Seis adentro, edades parejas, un adulto que solo mira el inflable. Con eso resuelto, lo único que queda es lo importante: una tarde entera de niños brincando felices.
 
-**Teléfono:** 55 4886 1621 | **Correo:** contacto@renta-de-inflables.com
+**Teléfono:** 55 3904 8634 | **Correo:** contacto@renta-de-inflables.com
 
 Horario de atención: **Lunes a Viernes 9:00–19:00 | Sábados 9:00–17:00**
 

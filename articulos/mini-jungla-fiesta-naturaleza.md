@@ -245,7 +245,7 @@ Disponibilidad limitada en fines de semana. Reserva con mínimo una semana de an
 
 ¿Tienes preguntas específicas sobre la decoración o las actividades? Escríbenos: el equipo de INFLAFI ha ayudado a organizar cientos de fiestas de selva en CDMX y tiene respuestas para todo.
 
-**Teléfono:** 55 4886 1621 | **Correo:** contacto@renta-de-inflables.com
+**Teléfono:** 55 3904 8634 | **Correo:** contacto@renta-de-inflables.com
 
 Horario de atención: **Lunes a Viernes 9:00–19:00 | Sábados 9:00–17:00**
 

@@ -116,7 +116,7 @@ El Barco Pirata es el inflable de mayor demanda del catálogo para fiestas con g
 
 ## Zarpa la Aventura — Resérvalo Hoy
 
-📱 **WhatsApp:** [55 4886 1621](https://wa.me/5215539048634?text=Hola%2C%20quiero%20cotizar%20el%20Barco%20Pirata%20para%20la%20fiesta%20de%20mi%20hijo%20en%20CDMX)
+📱 **WhatsApp:** [55 3904 8634](https://wa.me/5215539048634?text=Hola%2C%20quiero%20cotizar%20el%20Barco%20Pirata%20para%20la%20fiesta%20de%20mi%20hijo%20en%20CDMX)
 📧 **Correo:** contacto@renta-de-inflables.com
 🌐 **Web:** renta-de-inflables.com
 

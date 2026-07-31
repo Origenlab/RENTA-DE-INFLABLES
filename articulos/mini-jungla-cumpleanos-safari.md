@@ -223,7 +223,7 @@ Una fiesta safari memorable no es cuestión de presupuesto: es cuestión de un c
 
 Comparte fecha, colonia y edades de los invitados: el equipo de INFLAFI te confirma disponibilidad y te orienta sobre la logística completa del inflable para tu safari.
 
-**Teléfono:** 55 4886 1621 | **Correo:** contacto@renta-de-inflables.com
+**Teléfono:** 55 3904 8634 | **Correo:** contacto@renta-de-inflables.com
 
 Horario de atención: **Lunes a Viernes 9:00–19:00 | Sábados 9:00–17:00**
 
