@@ -8,7 +8,7 @@ draft: false
 ---
 La junta del comité de la kermés empezó a las 7:30 de la noche en el aula de tercero, con nueve mamás, dos papás y la maestra coordinadora alrededor de un pizarrón donde ya estaban anotados los puestos de comida, la rifa y el sonido. Entonces alguien dijo la palabra "inflable" y la junta se partió en dos. La mitad recordaba la kermés de hace tres años, cuando el inflable fue el puesto más exitoso del evento y recaudó más que la venta de tacos. La otra mitad recordaba la del año pasado en otra escuela: la cola interminable, los niños llorando, el papá improvisado de guardia que terminó rebasado. Las dos mitades tenían razón. Un inflable en una kermés es la mejor atracción del evento o su principal dolor de cabeza — y la diferencia no está en el inflable, sino en la operación.
 
-Los Gusanitos de DENFLAB son el inflable mediano que más kermeses y ferias escolares atiende en CDMX, y no por casualidad. Con 4 × 3.3 × 3 metros son el mediano más ancho del catálogo; su diseño circular produce la mayor superficie de brinco de la categoría; reciben de 5 a 6 niños simultáneos de 4 a 10 años —el rango casi exacto de una primaria—; y su diseño de colores vivos sin personajes no compite con la identidad gráfica del evento ni excluye a ningún niño por gustos o edad. Son, en términos operativos, el inflable diseñado para procesar flujo continuo de niños durante horas.
+Los Gusanitos de DENFLAB son el inflable mediano que más kermeses y ferias escolares atiende en CDMX, y no por casualidad. Con 5 × 4.5 × 2.8 metros son el mediano más ancho del catálogo; su diseño circular produce la mayor superficie de brinco de la categoría; reciben de 5 a 6 niños simultáneos de 4 a 10 años —el rango casi exacto de una primaria—; y su diseño de colores vivos sin personajes no compite con la identidad gráfica del evento ni excluye a ningún niño por gustos o edad. Son, en términos operativos, el inflable diseñado para procesar flujo continuo de niños durante horas.
 
 Esta guía convierte la experiencia de decenas de eventos escolares en un manual accionable: cómo funciona el flujo continuo con boletos y turnos, qué requisitos debe cumplir el plantel, cómo resolver la corriente eléctrica —el punto que más kermeses complica—, la tabla de planeación completa del evento, y las respuestas a las preguntas que los comités hacen siempre. Es el documento para llevar impreso a la próxima junta de las 7:30.
 
@@ -69,7 +69,7 @@ Para la fila, dos trucos de operador experimentado. Primero, fila por rangos de 
 
 ## Requisitos del plantel: lo que la escuela debe tener y verificar
 
-**Espacio.** Los Gusanitos ocupan una huella de 4 × 3.3 metros y necesitan perímetro libre alrededor para circulación, fila y anclaje, más el espacio de la zona de espera. En la práctica, un rectángulo despejado de patio con margen generoso alrededor del inflable resuelve el requisito; el punto crítico es que la fila y los mirones no invadan el perímetro de seguridad, para lo cual una cinta o unas vallas ligeras hacen maravillas. La superficie debe ser plana —el patio de concreto típico de las escuelas de CDMX es ideal— y estar libre de tapas de registro levantadas, piedras o varillas expuestas.
+**Espacio.** Los Gusanitos ocupan una huella de 5 × 4.5 metros y necesitan perímetro libre alrededor para circulación, fila y anclaje, más el espacio de la zona de espera. En la práctica, un rectángulo despejado de patio con margen generoso alrededor del inflable resuelve el requisito; el punto crítico es que la fila y los mirones no invadan el perímetro de seguridad, para lo cual una cinta o unas vallas ligeras hacen maravillas. La superficie debe ser plana —el patio de concreto típico de las escuelas de CDMX es ideal— y estar libre de tapas de registro levantadas, piedras o varillas expuestas.
 
 **Altura libre.** Con 3 metros de altura inflada, hay que verificar lo que hay arriba: lonarias, cables tendidos entre edificios, ramas de los árboles del patio. Es el requisito que nadie revisa hasta que el equipo de instalación señala el cable de la lona a 2.8 metros. Un vistazo hacia arriba en la visita de planeación ahorra reacomodos de último minuto.
 
@@ -104,7 +104,7 @@ Las cuatro reglas de oro de la electricidad en kermés: primero, designa para el
 
 ## Tips de veteranos de kermés
 
-**Pongan el inflable donde se vea desde la entrada.** Los Gusanitos inflados, con sus 3 metros de altura y colores vivos, son el mejor cartel publicitario del puesto: las familias que los ven al llegar compran los boletos de una vez.
+**Pongan el inflable donde se vea desde la entrada.** Los Gusanitos inflados, con sus 2.8 metros de altura y colores vivos, son el mejor cartel publicitario del puesto: las familias que los ven al llegar compran los boletos de una vez.
 
 **Vendan el boleto del inflable en la taquilla general, no en el puesto.** Menos efectivo circulando, menos discusiones en la fila, mejor conteo al final.
 
@@ -240,4 +240,4 @@ Horario de atención: **Lunes a Viernes 9:00–19:00 | Sábados 9:00–17:00**
 
 ---
 
-*Los Gusanitos (4 × 3.3 × 3 m, diseño circular, mayor superficie de brinco de los medianos, 5–6 niños simultáneos, 4 a 10 años) requieren superficie plana, espacio perimetral libre y corriente de 110 V. Montaje con anclaje, soplador y desmontaje siempre incluidos. DENFLAB atiende escuelas y eventos comunitarios en toda la CDMX y zonas aledañas.*
+*Los Gusanitos (5 × 4.5 × 2.8 m, diseño circular, mayor superficie de brinco de los medianos, 5–6 niños simultáneos, 4 a 10 años) requieren superficie plana, espacio perimetral libre y corriente de 110 V. Montaje con anclaje, soplador y desmontaje siempre incluidos. DENFLAB atiende escuelas y eventos comunitarios en toda la CDMX y zonas aledañas.*

@@ -129,7 +129,7 @@ El Paquete Princesas es una sola llamada.
 
 | Servicio incluido | Detalle |
 |---|---|
-| Castillo de Princesas | Inflable 4 × 3.3 × 3 m — vinilo rosa y lila con coronas y estrellas |
+| Castillo de Princesas | Inflable 5 × 4 × 3 m — vinilo rosa y lila con coronas y estrellas |
 | Decoración coordinada | Ambientación temática en rosa y lavanda para el área del festejo |
 | Pintacaritas profesional | Artista con diseños de princesas: tiaras, mariposas, flores, estrellas |
 | Mesa de dulces temática | Personalizada con nombre y edad de la festejada |

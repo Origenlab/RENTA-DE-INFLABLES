@@ -40,8 +40,8 @@ Cada una de esas decisiones de diseño tiene una razón de seguridad. No son car
 
 | Opción | Costo aproximado | Seguridad para 1–4 años | Espacio requerido | Adecuación por edad | Montaje / logística | Nota clave |
 |---|---|---|---|---|---|---|
-| **Micro Baby (DENFLAB)** | Incluido en renta | Alta — diseño específico para la edad | 3×3 m mínimo (funciona en interiores) | Óptima (1–4 años) | 5 min, incluido en el servicio | Único modelo apto para interiores del catálogo |
-| **Inflable estándar / castillo mediano** | Precio similar o mayor | Baja para menores de 4 años | 6×6 m o más, solo exteriores | Diseñado para 5+ años | 20–40 min, requiere anclas y espacio abierto | Riesgo real por rebote y visibilidad limitada |
+| **Micro Baby (DENFLAB)** | Incluido en renta | Alta — diseño específico para la edad | 4×4 m mínimo (funciona en interiores altos) | Óptima (1–4 años) | 5 min, incluido en el servicio | Único modelo apto para interiores del catálogo |
+| **Inflable estándar / castillo mediano** | Precio similar o mayor | Baja para menores de 4 años | 7×4.5 m o más, solo exteriores | Diseñado para 5+ años | 20–40 min, requiere anclas y espacio abierto | Riesgo real por rebote y visibilidad limitada |
 | **Pelotero de plástico rentado** | Similar | Media — depende del mantenimiento | 2×2 m | Aceptable para 1–3 años | Sin montaje, solo colocación | Bolas difíciles de higienizar; no dinámico |
 | **Área de juegos de foam / tapetes** | Más bajo | Alta — sin movimiento | Variable | Buena para 0–2 años | Simple, sin instalación | Pasivo; los niños pierden interés rápido |
 | **Salón de kermés con área infantil** | Alto (salón completo) | Variable — mezcla de edades | Todo el salón rentado | Solo si hay zona separada | Sin control propio | Caro para fiesta íntima; la zona infantil suele ser improvisada |
@@ -71,8 +71,8 @@ Cuando un papá o una mamá ve el Micro Baby por primera vez, la reacción más 
 
 | Especificación técnica | Valor | Por qué importa en tu fiesta |
 |---|---|---|
-| Dimensiones del inflable | 2×2×2 m | Cabe en una sala grande, en un jardín pequeño o en un cuarto de servicio despejado |
-| Espacio mínimo total requerido | 3×3 m | Un metro perimetral de margen para que los adultos caminen alrededor sin tropezar |
+| Dimensiones del inflable | 2×2×3 m | Cabe en un jardín pequeño, un salón o cualquier espacio techado con 4 m de altura libre |
+| Espacio mínimo total requerido | 4×4 m | Un metro perimetral de margen por cada lado para que los adultos caminen alrededor sin tropezar |
 | Rango de edad recomendado | 1 a 4 años | Sin excepciones hacia arriba: niños mayores rompen el equilibrio del espacio |
 | Capacidad simultánea | 4 a 6 niños supervisados | Suficiente para los primos pequeños y el homenajeado sin saturar el espacio |
 | Tiempo de montaje | Menos de 5 minutos | El equipo llega, conecta, infla y está listo antes de que los invitados noten que llegó |
@@ -97,7 +97,7 @@ Los baby showers se llenan de niños que nadie invitó directamente pero que vie
 
 ### 3. El Departamento Sin Jardín en Polanco, Lomas o Santa Fe
 
-Esta es quizá la situación más frecuente y la que más papás no saben cómo resolver. Viven en un departamento de 90 metros cuadrados en una colonia como Polanco, Lomas de Chapultepec o Santa Fe. Quieren hacer la fiesta en casa porque el bebé está más cómodo en su espacio. Pero asumen que un inflable es imposible sin jardín. El Micro Baby demuestra que no: con un espacio de 3×3 metros despejado — que en la mayoría de los departamentos es la sala o el comedor sin mesa — el inflable entra, se infla, funciona y se desmonta sin rayar el piso ni sobrecargar la instalación eléctrica. Es la única razón por la que existe este modelo en el catálogo. Si tu fiesta será bajo techo, la [guía de fiestas en interiores con el Micro Baby](/blog/micro-baby-fiestas-en-interiores) detalla requisitos de altura de techo, corriente y ruido para cada tipo de espacio en CDMX.
+Esta es quizá la situación más frecuente y la que más papás no saben cómo resolver. Viven en un departamento de 90 metros cuadrados en una colonia como Polanco, Lomas de Chapultepec o Santa Fe. Quieren hacer la fiesta en casa porque el bebé está más cómodo en su espacio. Pero asumen que un inflable es imposible sin jardín. El Micro Baby demuestra que no: con un espacio de 4×4 metros despejado y 4 metros de altura libre — el salón de usos múltiples del edificio, un loft o una terraza techada alta — el inflable entra, se infla, funciona y se desmonta sin rayar el piso ni sobrecargar la instalación eléctrica. Es la única razón por la que existe este modelo en el catálogo. Si tu fiesta será bajo techo, la [guía de fiestas en interiores con el Micro Baby](/blog/micro-baby-fiestas-en-interiores) detalla requisitos de altura de techo, corriente y ruido para cada tipo de espacio en CDMX.
 
 ### 4. La Boda Familiar con Muchos Niños Pequeños
 

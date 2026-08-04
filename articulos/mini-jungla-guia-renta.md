@@ -14,13 +14,13 @@ Esta guía existe para que tomes la decisión correcta: no la más barata ni la 
 
 ---
 
-## ¿Qué hace diferente a la Mini Jungla? La altura que nadie menciona
+## ¿Qué hace diferente a la Mini Jungla? La rampa que nadie menciona
 
-Cuando los papás comparan inflables medianos, el primer número que miran es el largo. Cuatro metros. Esa cifra es la misma en la Mini Jungla, en los Dragones Rojos y en los Gusanitos. Y ahí es donde muchos se equivocan: asumen que todos los medianos de cuatro metros de largo son equivalentes. No lo son.
+Cuando los papás comparan inflables medianos, el primer número que miran es el largo. Cinco metros. Esa cifra es la misma en la Mini Jungla, en los Dragones Rojos y en los Gusanitos. Y ahí es donde muchos se equivocan: asumen que todos los medianos de cinco metros de largo son equivalentes. No lo son.
 
-La Mini Jungla tiene **2.8 metros de altura**: el inflable mediano más alto del catálogo de DENFLAB. Para contextualizar ese número: la estatura promedio de un adulto en México ronda los 1.65–1.70 metros. La Mini Jungla supera ese número por más de un metro. Vista desde afuera, no parece un accesorio de fiesta sino una instalación volumétrica. Vista desde adentro, es un espacio donde los niños de hasta diez años brincan sin sentir que el techo los aplasta, donde hay expansión vertical genuina y donde el rebote se siente generoso y libre.
+La Mini Jungla tiene **la rampa de subida más suave del catálogo** y **2.5 metros de altura**: la más contenida de los tres medianos. Esa combinación es justo lo que la hace el único mediano apto desde los 3 años — un niño pequeño sube solo, sin que un adulto tenga que cargarlo, y los papás lo siguen con la vista desde fuera sin perderlo detrás de una pared alta. Vista desde adentro sigue siendo un espacio amplio: 5 metros de largo dan superficie de brinco de sobra para 4 o 5 niños al mismo tiempo.
 
-Esa altura también explica su impacto visual en el jardín. Un inflable de 2.8 metros en un espacio abierto de CDMX es visible desde la calle, desde la ventana del departamento de enfrente, desde el otro extremo del área común de un fraccionamiento. Se convierte automáticamente en el punto focal del evento. Los invitados que llegan y lo ven al fondo ya saben que están en el lugar correcto.
+Su impacto visual en el jardín viene del diseño, no de la altura. Un inflable verde de 5 metros con leones, jirafas y monos impresos es visible desde la calle, desde la ventana del departamento de enfrente, desde el otro extremo del área común de un fraccionamiento. Se convierte automáticamente en el punto focal del evento. Los invitados que llegan y lo ven al fondo ya saben que están en el lugar correcto.
 
 El diseño temático es el segundo diferenciador clave. Mientras otros medianos del catálogo optan por colores vivos pero genéricos, o por temáticas que no todos los niños reconocen, la Mini Jungla apuesta por un universo universal: la selva. Leones, jirafas, elefantes, monos. Animales que los niños de cuatro a diez años no solo reconocen sino que ya tienen contextualizados en libros, en películas, en sus juguetes. El inflable no funciona como un fondo neutro sino como un personaje activo dentro de la fiesta.
 
@@ -32,10 +32,10 @@ La siguiente tabla reúne todos los datos técnicos de la Mini Jungla con notas 
 
 | Especificación | Dato | Nota contextual |
 |---|---|---|
-| **Largo** | 4.0 m | Equivale al largo de un auto compacto. Suficiente para que varios niños brinquen al mismo tiempo sin chocarse constantemente. |
-| **Ancho** | 2.5 m | El más angosto de los tres medianos, lo que lo hace ideal para jardines largos y estrechos donde la huella de 4.8 m de los Gusanitos no entra. |
-| **Altura** | 2.8 m | La más alta de todos los inflables medianos del catálogo. Un adulto promedio queda a más de un metro del techo interior. El brinco tiene expansión real. |
-| **Espacio mínimo total** | 5.5 × 4 m | Incluye el perímetro de seguridad obligatorio alrededor del inflable. Mide tu espacio disponible, no el inflable en sí. |
+| **Largo** | 5.0 m | Equivale al largo de un auto mediano. Suficiente para que varios niños brinquen al mismo tiempo sin chocarse constantemente. |
+| **Ancho** | 2.5 m | El más angosto de los tres medianos, lo que lo hace ideal para jardines largos y estrechos donde los 4.5 m de ancho de los Gusanitos no entran. |
+| **Altura** | 2.5 m | La más contenida de los tres medianos. Facilita la supervisión desde fuera y reduce la altura libre necesaria sobre el inflable a 3.5 m. |
+| **Espacio mínimo total** | 7 × 4.5 m | Incluye el perímetro de seguridad obligatorio alrededor del inflable. Mide tu espacio disponible, no el inflable en sí. |
 | **Edad recomendada** | 4 a 10 años | El rango más versátil de los medianos: funciona tanto para preescolar como para primaria baja y media sin mezclar edades extremas. |
 | **Capacidad simultánea** | 6 a 8 niños | El número óptimo para que el brinco sea seguro y disfrutable. Más de 8 niños reduce el espacio por niño a niveles incómodos y eleva el riesgo de golpes. |
 | **Uso** | Solo exterior | Requiere superficie plana: pasto, cemento o piso de concreto. No apto para interior sin techo con altura libre mínima de 3.5 m. |
@@ -47,14 +47,14 @@ La siguiente tabla reúne todos los datos técnicos de la Mini Jungla con notas 
 
 ## Comparativa exhaustiva: Mini Jungla vs. Dragones Rojos vs. Gusanitos
 
-Los tres inflables medianos del catálogo DENFLAB comparten el mismo largo de cuatro metros y rangos de precio comparables, pero sus diferencias son sustanciales y cambian radicalmente la experiencia del evento. Esta tabla está diseñada para elegir con información real, no con suposiciones.
+Los tres inflables medianos del catálogo DENFLAB comparten el mismo largo de cinco metros y rangos de precio comparables, pero sus diferencias son sustanciales y cambian radicalmente la experiencia del evento. Esta tabla está diseñada para elegir con información real, no con suposiciones.
 
 | Característica | Mini Jungla | Dragones Rojos | Gusanitos |
 |---|---|---|---|
-| **Largo** | 4.0 m | 4.0 m | 4.0 m |
-| **Ancho** | 2.5 m | 2.5 m | 3.3 m ⬆ |
-| **Altura** | **2.8 m** ⬆ | ~2.5 m | 3.0 m |
-| **Espacio mínimo** | 5.5 × 4 m | 5.5 × 4 m | 5.5 × 4.8 m |
+| **Largo** | 5.0 m | 5.0 m | 5.0 m |
+| **Ancho** | 2.5 m | 2.5 m | 4.5 m ⬆ |
+| **Altura** | 2.5 m | **2.8 m** ⬆ | 2.8 m |
+| **Espacio mínimo** | 7 × 4.5 m | 7 × 4.5 m | 7 × 6.5 m |
 | **Capacidad simultánea** | 6–8 niños | 6–8 niños | **8–10 niños** ⬆ |
 | **Temática** | Selva / animales | Dragones / fantasía | Genérica / colores vivos |
 | **Edad recomendada** | 4–10 años | 4–10 años | 5–12 años |
@@ -121,7 +121,7 @@ Hay información que solo se aprende después de haber organizado docenas de eve
 
 **El soplador necesita electricidad constante y eso tiene implicaciones reales.** El inflable requiere el soplador encendido durante todo el tiempo de uso. Si hay un corte de luz en la colonia —algo no infrecuente en algunas zonas de CDMX en verano— el inflable se desinfla gradualmente. No es un peligro inmediato, pero puede interrumpir la fiesta. La recomendación: tener una extensión de buena calidad ya tendida, y saber exactamente dónde está el tablero de la casa para reiniciar el circuito si algo falla. No dejes ese detalle para cuando ocurra el problema.
 
-**Cuatro metros de largo es más pequeño de lo que parece en el catálogo, y más grande de lo que parece en persona.** Los papás que ven la medida en pantalla tienden a sobreestimar el tamaño; los que llegan al evento tienden a sorprenderse positivamente. La razón es la altura: un inflable de cuatro metros de largo pero 2.8 metros de altura tiene una presencia volumétrica que las medidas en papel no transmiten. El volumen es lo que impresiona, no el área de la planta.
+**Cinco metros de largo es más pequeño de lo que parece en el catálogo, y más grande de lo que parece en persona.** Los papás que ven la medida en pantalla tienden a sobreestimar el tamaño; los que llegan al evento tienden a sorprenderse positivamente. La razón es el volumen: un inflable de cinco metros de largo y 2.5 metros de altura tiene una presencia volumétrica que las medidas en papel no transmiten. El volumen es lo que impresiona, no el área de la planta.
 
 **Los 6–8 niños simultáneos son el máximo, no el objetivo.** En una fiesta con 20 niños invitados, la tentación es meter a todos al mismo tiempo. Resiste esa tentación. Ocho niños brincando con espacio producen más alegría —y menos llantos por golpes— que doce niños apretujados. Los turnos de 10–15 minutos bien organizados son la solución correcta y, paradójicamente, generan más entusiasmo porque los niños en espera anticipan su turno.
 
@@ -133,9 +133,9 @@ Hay información que solo se aprende después de haber organizado docenas de eve
 
 ## Errores comunes al elegir entre los inflables medianos
 
-**Error 1: Elegir el inflable más grande por defecto.** "Más grande es mejor" es una lógica que no siempre aplica. Si tu espacio disponible es justo, la Mini Jungla —con su ancho de 2.5 m frente a los 3.3 m de los Gusanitos— puede ser la única opción viable para jardines estrechos. Forzar un inflable más ancho en un espacio insuficiente compromete la seguridad y la comodidad del evento completo.
+**Error 1: Elegir el inflable más grande por defecto.** "Más grande es mejor" es una lógica que no siempre aplica. Si tu espacio disponible es justo, la Mini Jungla —con su ancho de 2.5 m frente a los 4.5 m de los Gusanitos— puede ser la única opción viable para jardines estrechos. Forzar un inflable más ancho en un espacio insuficiente compromete la seguridad y la comodidad del evento completo.
 
-**Error 2: No medir el acceso al área del evento.** Un inflable de 4 metros necesita entrar al jardín por algún lugar. El inflable se transporta desinflado y se arma en el lugar, así que no es el volumen final lo que importa sino el peso y las dimensiones del paquete enrollado. Si hay escaleras empinadas, un pasillo muy estrecho, una reja de acceso ajustada o algún obstáculo fijo, conviene mencionarlo al reservar para que el equipo de DENFLAB llegue preparado con el equipo adecuado.
+**Error 2: No medir el acceso al área del evento.** Un inflable de 5 metros necesita entrar al jardín por algún lugar. El inflable se transporta desinflado y se arma en el lugar, así que no es el volumen final lo que importa sino el peso y las dimensiones del paquete enrollado. Si hay escaleras empinadas, un pasillo muy estrecho, una reja de acceso ajustada o algún obstáculo fijo, conviene mencionarlo al reservar para que el equipo de DENFLAB llegue preparado con el equipo adecuado.
 
 **Error 3: Ignorar la temática cuando la hay.** Si la fiesta tiene una temática muy específica y eliges la Mini Jungla sin integrarla conscientemente a la decoración, el inflable puede parecer un elemento ajeno. No es un error catastrófico, pero sí una oportunidad perdida. Siempre es mejor elegir el inflable que complementa mejor la temática general, o adaptar la decoración para que el inflable sea el protagonista y no un extra.
 
@@ -175,7 +175,7 @@ Rentar la Mini Jungla con DENFLAB es un proceso diseñado para no complicarle la
 
 **Paso 1 — Verificar disponibilidad (10 minutos).** Contacta a DENFLAB vía WhatsApp o teléfono con la fecha del evento, la colonia y el tipo de espacio disponible. El equipo confirma disponibilidad en el mismo día en horario hábil.
 
-**Paso 2 — Confirmar el espacio (mismo día o día siguiente).** El equipo de DENFLAB te preguntará las medidas del área disponible. Ten a la mano una cinta métrica. El espacio mínimo requerido es 5.5 × 4 metros libres con acceso a contacto eléctrico estándar de 110 V.
+**Paso 2 — Confirmar el espacio (mismo día o día siguiente).** El equipo de DENFLAB te preguntará las medidas del área disponible. Ten a la mano una cinta métrica. El espacio mínimo requerido es 7 × 4.5 metros libres con acceso a contacto eléctrico estándar de 110 V.
 
 **Paso 3 — Reservar con anticipo del 30%.** Una vez confirmado el inflable y el horario, se paga el 30% del total para asegurar la fecha. Este pago garantiza la disponibilidad del equipo y del inflable específico elegido.
 
@@ -193,7 +193,7 @@ Rentar la Mini Jungla con DENFLAB es un proceso diseñado para no complicarle la
 
 Antes de que llegue el equipo de DENFLAB, revisa esta lista para asegurar una instalación sin contratiempos:
 
-- [ ] El área disponible mide al menos **5.5 × 4 metros** libres de muebles, macetas y obstáculos
+- [ ] El área disponible mide al menos **7 × 4.5 metros** libres de muebles, macetas y obstáculos
 - [ ] El piso está limpio de piedras, clavos, fragmentos metálicos, raíces o cualquier objeto que pueda perforar el vinilo
 - [ ] Hay un **contacto eléctrico de 110 V** a no más de 20 metros del área de instalación
 - [ ] El acceso al jardín o área exterior está despejado para el ingreso del equipo con el inflable desinfaldo
@@ -216,7 +216,7 @@ La edad recomendada es desde los 4 años. Un niño de 3 años bien desarrollado 
 La Mini Jungla es de uso exterior únicamente. Si hay lluvia ligera sin riesgo eléctrico puede continuar operando. Con lluvia fuerte o tormenta eléctrica, debe apagarse y desconectarse por seguridad. DENFLAB tiene políticas claras de cancelación y reprogramación por clima adverso: consúltalas al momento de reservar.
 
 **¿Puedo instalarlo en el estacionamiento de mi edificio?**
-Sí, siempre que el piso sea plano, el área sea suficiente (5.5 × 4 m) y haya acceso a corriente eléctrica. Los estacionamientos techados con techo bajo no son viables por la altura de 2.8 metros del inflable inflado. Un estacionamiento al aire libre o con techo libre a más de 3.5 metros funciona perfectamente.
+Sí, siempre que el piso sea plano, el área sea suficiente (7 × 4.5 m) y haya acceso a corriente eléctrica. Los estacionamientos techados con techo bajo no son viables por la altura de 2.5 metros del inflable inflado. Un estacionamiento al aire libre o con techo libre a más de 3.5 metros funciona perfectamente.
 
 **¿Cuánto tiempo puedo tener el inflable?**
 El tiempo estándar de renta cubre el día del evento. Si necesitas un horario extendido o mayor flexibilidad, consúltalo con DENFLAB al momento de reservar: existen opciones para distintas duraciones.
@@ -248,7 +248,7 @@ La Mini Jungla por sí sola es suficiente para entretener a los niños durante t
 
 ## Reserva tu Mini Jungla hoy
 
-Si llegaste hasta aquí, ya tienes todo lo que necesitas para tomar la mejor decisión. La Mini Jungla es el inflable mediano más fotogénico, más alto y más versátil del catálogo de DENFLAB. Es la pieza que convierte un cumpleaños ordinario en una expedición que los niños recuerdan.
+Si llegaste hasta aquí, ya tienes todo lo que necesitas para tomar la mejor decisión. La Mini Jungla es el inflable mediano más fotogénico y más versátil del catálogo de DENFLAB. Es la pieza que convierte un cumpleaños ordinario en una expedición que los niños recuerdan.
 
 **La disponibilidad en fines de semana es limitada.** Los inflables medianos tienen alta demanda en temporada de fiestas. Reservar con al menos una semana de anticipación garantiza el inflable y el horario que necesitas.
 
@@ -260,6 +260,6 @@ Horario de atención: **Lunes a Viernes 9:00–19:00 | Sábados 9:00–17:00**
 
 ---
 
-*La Mini Jungla requiere un espacio mínimo de 5.5 × 4 metros libres, superficie plana exterior y acceso a corriente eléctrica de 110 V. Montaje, soplador y desmontaje siempre incluidos en el precio. Anticipo del 30% para reservar, saldo del 70% el día del evento. DENFLAB atiende toda la CDMX: Polanco, Lomas de Chapultepec, Santa Fe, Miguel Hidalgo, Coyoacán, Del Valle, Tlalpan, Nápoles, Pedregal, Satélite y zonas aledañas.*
+*La Mini Jungla requiere un espacio mínimo de 7 × 4.5 metros libres, superficie plana exterior y acceso a corriente eléctrica de 110 V. Montaje, soplador y desmontaje siempre incluidos en el precio. Anticipo del 30% para reservar, saldo del 70% el día del evento. DENFLAB atiende toda la CDMX: Polanco, Lomas de Chapultepec, Santa Fe, Miguel Hidalgo, Coyoacán, Del Valle, Tlalpan, Nápoles, Pedregal, Satélite y zonas aledañas.*
 
 [**Reservar ahora — disponibilidad limitada →**](https://wa.me/5215539048634?text=Quiero%20reservar%20la%20Mini%20Jungla%20de%20DENFLAB.%20Mi%20evento%20es%20el%20d%C3%ADa%20__%20en%20la%20colonia%20__.%20%C2%BFEst%C3%A1%20disponible%3F)

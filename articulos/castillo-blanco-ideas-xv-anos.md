@@ -8,7 +8,7 @@ draft: false
 ---
 En todos los XV años hay un momento que ningún cronograma imprime pero que siempre llega: el vals terminó hace una hora, el banquete va por el postre, los adultos entraron en modo sobremesa — y los primos de la quinceañera, esa tribu de niños de cinco a doce años que llegó impecable a la iglesia, ya se aflojó las corbatas de moño y empezó a inventar juegos con las sillas del salón. Al mismo tiempo, en el otro extremo del jardín, la quinceañera y sus amigas viven su noche perfecta, hasta que alguien propone la idea que a los quince años suena irresistible precisamente porque es "de niños": brincar en el castillo. Y entonces pasa algo que nadie planeó pero que termina en las mejores fotos del álbum — la quinceañera, con su vestido de tul recogido en las manos y descalza, muerta de risa en la entrada de un castillo blanco y dorado que combina con su vestido como si el diseñador de ambos hubiera sido el mismo.
 
-Esa escena no es hipotética: es lo que pasa, con variaciones mínimas, cada vez que el Castillo Blanco de DENFLAB se instala en unos XV años. Y es la razón por la que este inflable — 5 × 4 × 3.5 metros de blanco y dorado, el más espacioso del catálogo — se ha vuelto una pieza recurrente en los quince de la Ciudad de México: es el único inflable que puede convivir con un vestido de quinceañera, una decoración formal y un fotógrafo profesional sin desentonar en un solo encuadre, y al mismo tiempo resuelve el problema real de la fiesta, que es qué hacen los invitados de menos de trece años durante las seis horas que dura la celebración.
+Esa escena no es hipotética: es lo que pasa, con variaciones mínimas, cada vez que el Castillo Blanco de DENFLAB se instala en unos XV años. Y es la razón por la que este inflable — 5 × 7 × 4 metros de blanco y dorado, el más espacioso del catálogo — se ha vuelto una pieza recurrente en los quince de la Ciudad de México: es el único inflable que puede convivir con un vestido de quinceañera, una decoración formal y un fotógrafo profesional sin desentonar en un solo encuadre, y al mismo tiempo resuelve el problema real de la fiesta, que es qué hacen los invitados de menos de trece años durante las seis horas que dura la celebración.
 
 Esta guía junta todo lo que una familia (o una quinceañera con opiniones claras, que son la mayoría) necesita para integrar el Castillo Blanco a unos XV: por qué funciona con la estética del evento, cómo acomodar el momento del inflable respecto al vals y el protocolo, las fotos que hay que planear, la convivencia entre niños y adolescentes, y un cronograma tipo con tabla de plan. La logística fina con el salón o jardín de eventos — montaje, corriente, layout — tiene su propia guía en [Castillo Blanco en venues de eventos](/blog/castillo-blanco-guia-eventos); aquí nos concentramos en el diseño de la experiencia.
 
@@ -135,7 +135,7 @@ El Castillo Blanco llega neutro a propósito — y esa neutralidad es un lienzo.
 Si la lectura completa quedó para después y necesitas la ruta ejecutiva, estos seis pasos condensan todo el proceso del castillo en unos XV.
 
 1. **Confirma fecha y venue primero, castillo inmediatamente después.** El Castillo Blanco compite por los mismos sábados que las bodas de temporada; con la fecha del venue en la mano, el siguiente WhatsApp es a DENFLAB.
-2. **Manda fotos del área exterior del venue al cotizar.** El equipo confirma que los 5 × 4 × 3.5 metros del castillo caben con margen de seguridad, y de una vez sugiere la mejor ubicación en el layout.
+2. **Manda fotos del área exterior del venue al cotizar.** El equipo confirma que los 5 × 7 × 4 metros del castillo caben con margen de seguridad, y de una vez sugiere la mejor ubicación en el layout.
 3. **Reserva con el 30% y conecta a DENFLAB con tu coordinador.** A partir de ese momento, la logística técnica — montaje, corriente, desmontaje — deja de ser tu tema.
 4. **Diseña los bloques del cronograma con tu maestro de ceremonias.** Castillo abierto en cóctel y banquete, cerrado en protocolo, reservado para la sesión de fotos, bloques alternados de niños y adolescentes en la fiesta libre.
 5. **Suma el castillo al plan de luz y a la shot list del fotógrafo.** El wash del color del vestido y las cinco tomas planeadas de esta guía son los dos multiplicadores baratos del resultado.
@@ -175,7 +175,7 @@ Puede, y es la foto de la noche — con tres cuidados: sin zapatillas ni tacones
 
 ### ¿Cuántos niños puede atender durante todo el evento?
 
-Al ser el inflable más espacioso del catálogo (5 × 4 × 3.5 m), el Castillo Blanco maneja con comodidad la población infantil típica de unos XV — que suele estar entre diez y veinticinco niños — mediante turnos por edad a lo largo de las horas del evento. Como no todos los niños quieren brincar al mismo tiempo (comen, bailan, van al photobooth), la rotación natural hace que casi nunca haya fila. Dinos cuántos niños esperas al cotizar y el equipo te confirma el esquema de turnos recomendado.
+Al ser el inflable más espacioso del catálogo (5 × 7 × 4 m), el Castillo Blanco maneja con comodidad la población infantil típica de unos XV — que suele estar entre diez y veinticinco niños — mediante turnos por edad a lo largo de las horas del evento. Como no todos los niños quieren brincar al mismo tiempo (comen, bailan, van al photobooth), la rotación natural hace que casi nunca haya fila. Dinos cuántos niños esperas al cotizar y el equipo te confirma el esquema de turnos recomendado.
 
 ### ¿Qué pasa con el inflable durante el vals y el protocolo?
 
@@ -183,7 +183,7 @@ Se pausa por completo: sin niños adentro y con el cierre anunciado por el maest
 
 ### ¿Funciona en salón, o solo en jardín?
 
-El Castillo Blanco es de instalación exterior: necesita jardín, terraza amplia descubierta o el área al aire libre del venue, con espacio para sus 5 × 4 metros de base más margen de seguridad, altura libre y un contacto de 110 V. La mayoría de los salones de XV en CDMX tienen jardín o explanada que cumple de sobra — mándanos fotos del espacio por WhatsApp y te confirmamos en el día. La coordinación completa con el venue está paso a paso en nuestra [guía de eventos](/blog/castillo-blanco-guia-eventos).
+El Castillo Blanco es de instalación exterior: necesita jardín, terraza amplia descubierta o el área al aire libre del venue, con espacio para sus 5 × 7 metros de base más margen de seguridad, altura libre y un contacto de 110 V. La mayoría de los salones de XV en CDMX tienen jardín o explanada que cumple de sobra — mándanos fotos del espacio por WhatsApp y te confirmamos en el día. La coordinación completa con el venue está paso a paso en nuestra [guía de eventos](/blog/castillo-blanco-guia-eventos).
 
 ### ¿Con cuánto tiempo debo reservar para unos XV?
 

@@ -8,7 +8,7 @@ draft: false
 ---
 Hay un momento que los papás que lo han vivido recuerdan con exactitud fotográfica: la camioneta de DENFLAB da vuelta a la calle, los asistentes bajan el bulto enrollado de vinilo naranja y negro, y los niños que ya estaban en el jardín se detienen en seco. El Barco Pirata todavía no es nada — es una lona gigante en el suelo. Pero veinticinco minutos después, cuando el soplador ha terminado su trabajo y las velas infladas se elevan casi tres metros sobre el pasto, el jardín familiar ha dejado de ser un jardín. Es un muelle imaginario en algún punto del Caribe, y los niños lo saben antes de que ningún adulto se los diga.
 
-Eso es lo primero que hay que entender del Barco Pirata: no es solo el inflable más grande del catálogo DENFLAB. Es, por mucho, el que produce el efecto visual más potente de toda la línea. Siete metros de largo en un jardín residencial lo cambian todo — la escala de referencia del espacio, la jerarquía del evento, la fotografía de la tarde. Un castillo inflable en un jardín parece un accesorio. Un barco pirata de siete metros parece la razón por la que se armó la fiesta.
+Eso es lo primero que hay que entender del Barco Pirata: no es solo el inflable más imponente del catálogo DENFLAB. Es, por mucho, el que produce el efecto visual más potente de toda la línea. Siete metros de largo en un jardín residencial lo cambian todo — la escala de referencia del espacio, la jerarquía del evento, la fotografía de la tarde. Un castillo inflable en un jardín parece un accesorio. Un barco pirata de seis metros con mástil parece la razón por la que se armó la fiesta.
 
 La segunda cosa que hay que entender es que ese tamaño tiene consecuencias prácticas que muy poca gente considera cuando hace la reserva. Esta guía existe para que tú no seas de esas personas. Aquí vas a encontrar todo lo que los papás más experimentados ya saben — y lo que la mayoría descubre tarde, cuando el inflable ya está a punto de llegar.
 
@@ -16,7 +16,7 @@ La segunda cosa que hay que entender es que ese tamaño tiene consecuencias prá
 
 ## El Barco Pirata en Números: Por Qué los 7 Metros Importan Más de lo que Parece
 
-El mercado de inflables en CDMX está lleno de opciones medianas: cuatro metros, cuatro y medio, cinco. Son inflables funcionales, accesibles, fáciles de instalar en cualquier jardín con un mínimo de espacio libre. El Barco Pirata no juega en esa categoría. Con siete metros de longitud es el inflable más largo del catálogo DENFLAB y uno de los más grandes disponibles para renta residencial en la ciudad.
+El mercado de inflables en CDMX está lleno de opciones medianas: cuatro metros, cuatro y medio, cinco. Son inflables funcionales, accesibles, fáciles de instalar en cualquier jardín con un mínimo de espacio libre. El Barco Pirata no juega en esa categoría. Con seis metros de eslora y 3.8 de altura es el inflable más imponente del catálogo DENFLAB y uno de los más grandes disponibles para renta residencial en la ciudad.
 
 Pero los números que importan no son solo los de las dimensiones físicas del inflable. Son los números que se generan en la interacción entre el tamaño, la capacidad y la duración del evento. Un inflable que admite hasta quince niños simultáneos, en una fiesta de cuarenta invitados con cuatro horas de tiempo activo, puede llegar a atender a todos con una coordinación razonable. Eso es eficiencia de evento — y es una de las razones por las que el Barco Pirata tiene sentido en fiestas grandes aunque su costo sea mayor al de un inflable estándar.
 
@@ -28,10 +28,10 @@ La capacidad de 10 a 15 niños simultáneos es la mayor de todo el catálogo DEN
 
 | Especificación | Dato | Contexto práctico |
 |---|---|---|
-| **Longitud** | 7 metros | El más largo del catálogo DENFLAB; produce un impacto visual único en cualquier jardín |
-| **Ancho** | 3 metros | Permite circulación interior cómoda sin aglomeraciones |
-| **Altura** | 3 metros | Las velas infladas son visibles por encima de la mayoría de bardas residenciales |
-| **Espacio mínimo requerido** | 8.5 × 4.5 m | Incluye 75 cm de holgura perimetral para anclaje seguro y circulación de supervisores |
+| **Longitud** | 6 metros | El de mayor impacto visual del catálogo DENFLAB en cualquier jardín |
+| **Ancho** | 3.8 metros | Permite circulación interior cómoda sin aglomeraciones |
+| **Altura** | 3.8 metros | Las velas infladas son visibles por encima de la mayoría de bardas residenciales |
+| **Espacio mínimo requerido** | 8 × 5.8 m | Incluye 1 m de holgura perimetral por cada lado para anclaje seguro y circulación de supervisores |
 | **Tipo de superficie** | Solo exterior | Requiere jardín, pasto o área cementada plana al aire libre — no aplica en interiores ni azoteas sin acceso vehicular |
 | **Edad recomendada** | 5 a 14 años | Por debajo de 5 años el inflable es demasiado grande; por encima de 14 el peso y la dinámica cambia |
 | **Capacidad simultánea** | 10 a 15 niños | La mayor del catálogo DENFLAB; ideal para grupos numerosos con esquema de turnos |
@@ -41,7 +41,7 @@ La capacidad de 10 a 15 niños simultáneos es la mayor de todo el catálogo DEN
 | **Condición climática** | Uso con cielo despejado | Se suspende con lluvia o vientos superiores a 40 km/h por protocolo de seguridad |
 | **Diseño** | Barco pirata con velas, cañones y bandera Jolly Roger | Temática coherente de alta calidad; estampado en vinilo resistente a UV |
 
-> **Nota sobre el espacio mínimo:** Los 8.5 × 4.5 metros no son negociables desde el punto de vista de la seguridad. La holgura perimetral permite que los niños entren y salgan sin riesgo de golpearse con bardas o muebles, y que los supervisores adultos caminen alrededor del inflable en todo momento. Un jardín que mide exactamente 7 × 3 metros **no es suficiente** aunque "parezca que cabe".
+> **Nota sobre el espacio mínimo:** Los 8 × 5.8 metros no son negociables desde el punto de vista de la seguridad. La holgura perimetral permite que los niños entren y salgan sin riesgo de golpearse con bardas o muebles, y que los supervisores adultos caminen alrededor del inflable en todo momento. Un jardín que mide exactamente 6 × 3.8 metros **no es suficiente** aunque "parezca que cabe".
 
 ---
 
@@ -51,19 +51,19 @@ Ambos son los inflables más grandes del catálogo DENFLAB y con frecuencia gene
 
 | Variable | Barco Pirata | Extrem | ¿Qué considerar? |
 |---|---|---|---|
-| **Dimensiones** | 7 × 3 × 3 m | Consultar ficha técnica | El Barco Pirata es el más largo del catálogo |
+| **Dimensiones** | 6 × 3.8 × 3.8 m | 7 × 4.5 × 3.5 m | El Extrem es el más largo del catálogo; el Barco Pirata, el más alto de la categoría grande |
 | **Capacidad simultánea** | 10–15 niños | Menor capacidad | Para grupos muy numerosos, el Barco Pirata rota más niños por hora |
 | **Temática visual** | Piratas — aventura, narrativa, inmersión | Deportiva / acción genérica | La temática pirata funciona mejor para fiestas temáticas coherentes |
 | **Rango de edad** | 5 a 14 años | Rango diferente | El Barco Pirata tiene mayor versatilidad de edad |
 | **Tipo de actividad** | Exploración, escalada, tobogán interior, juego narrativo | Actividad física intensa | El Barco Pirata fomenta más el juego imaginativo |
-| **Requisito de espacio** | 8.5 × 4.5 m mínimo | Menor espacio | Si el jardín es justo, el Extrem puede ser más viable |
+| **Requisito de espacio** | 8 × 5.8 m mínimo | Mayor espacio (9 × 6.5 m) | Si el jardín es justo, el Barco Pirata puede ser más viable |
 | **Efecto visual** | Extraordinario — domina cualquier jardín | Alto, pero más convencional | El Barco Pirata es el elemento central de la fiesta; el Extrem es un atractivo más |
 | **Ideal para** | Fiestas temáticas, kermés, eventos grandes, primera comunión con temática | Eventos deportivos, grupos mixtos sin temática específica | La elección correcta depende de la narrativa de la fiesta |
 | **Fotografía** | Excepcional — las velas son icónicas | Buena | Si las fotos importan, el Barco Pirata gana por lejos |
 | **Combinación recomendada** | Puede combinarse con área de descanso y juegos de mesa pirata | Puede combinarse con circuito deportivo | El Barco Pirata es difícilmente la elección equivocada si hay espacio |
 
 **¿Cuándo elegir el Barco Pirata?**
-- Tienes un jardín de al menos 8.5 × 4.5 metros disponibles.
+- Tienes un jardín de al menos 8 × 5.8 metros disponibles.
 - La fiesta tiene temática pirata, aventura, o simplemente quieres el mayor impacto visual posible.
 - El grupo es numeroso (más de 25 niños invitados) y necesitas capacidad de rotación alta.
 - El evento es una kermés escolar o comunitaria donde la atracción principal necesita ser visible y magnética.
@@ -73,7 +73,7 @@ Ambos son los inflables más grandes del catálogo DENFLAB y con frecuencia gene
 - El grupo de niños tiene un rango de edad muy estrecho que no se alinea con 5–14 años.
 - No hay posibilidad de acceso vehicular al jardín para la instalación.
 
-> **Consejo de insider:** Muchos papás consultan primero el precio y después el espacio. El orden correcto es al revés — primero confirma que tu jardín cumple los 8.5 × 4.5 metros, y después habla de precio. Rentar el Barco Pirata para un espacio insuficiente es el error más caro que existe en esta categoría.
+> **Consejo de insider:** Muchos papás consultan primero el precio y después el espacio. El orden correcto es al revés — primero confirma que tu jardín cumple los 8 × 5.8 metros, y después habla de precio. Rentar el Barco Pirata para un espacio insuficiente es el error más caro que existe en esta categoría.
 
 ---
 
@@ -99,7 +99,7 @@ Una de las preguntas más frecuentes — y menos bien respondida en la industria
 
 **Fiestas de cumpleaños con temática pirata.** Esto es tan obvio que casi no necesita explicación, pero vale la pena decirlo: cuando la temática de la fiesta es piratas, el Barco Pirata no es una opción — es la opción. No hay ningún otro elemento decorativo o de entretenimiento que produzca el mismo nivel de coherencia visual y narrativa. Las velas, los cañones y la bandera Jolly Roger hacen que todo el resto de la decoración se alinee de manera natural. Si quieres construir la fiesta temática completa alrededor del inflable — mesa, dulceros, búsqueda del tesoro y presupuesto DIY —, la guía de [decoración de fiesta pirata con el Barco Pirata como pieza central](/blog/barco-pirata-decoracion-fiesta) tiene el plan entero.
 
-**Kermés escolares y eventos comunitarios.** El Barco Pirata es la elección clásica para kermés porque combina la mayor capacidad del catálogo con el mayor atractivo visual. En un evento donde hay múltiples stands y atracciones compitiendo por la atención de los niños, un inflable de siete metros con temática pirata gana siempre. Es la atracción magnética que organiza el flujo del evento.
+**Kermés escolares y eventos comunitarios.** El Barco Pirata es la elección clásica para kermés porque combina la mayor capacidad del catálogo con el mayor atractivo visual. En un evento donde hay múltiples stands y atracciones compitiendo por la atención de los niños, un inflable de seis metros con temática pirata gana siempre. Es la atracción magnética que organiza el flujo del evento.
 
 **Primeras comuniones con un toque de diversión.** Cada vez más familias optan por combinar la solemnidad del evento con una zona de juegos para los niños invitados. El Barco Pirata, instalado en un jardín amplio separado del área de mesas y recepción, permite que los adultos celebren con calma mientras los niños tienen su propio espacio de entretenimiento de primer nivel.
 
@@ -107,7 +107,7 @@ Una de las preguntas más frecuentes — y menos bien respondida en la industria
 
 ### Cuándo no es la elección correcta — honestidad sin filtros
 
-**Jardines de menos de 8.5 × 4.5 metros.** Este es el límite duro. No hay negociación posible. Un jardín que mide 7 × 4 metros se ve suficiente en el plano, pero en la práctica no deja holgura de seguridad perimetral. Si tu espacio no alcanza, la respuesta correcta es elegir otro inflable — no intentar "hacer que quepa".
+**Jardines de menos de 8 × 5.8 metros.** Este es el límite duro. No hay negociación posible. Un jardín que mide 7 × 4.5 metros se ve suficiente en el plano, pero en la práctica no deja holgura de seguridad perimetral. Si tu espacio no alcanza, la respuesta correcta es elegir otro inflable — no intentar "hacer que quepa".
 
 **Eventos en interiores o azoteas.** El Barco Pirata es de uso exclusivamente exterior. La altura de tres metros hace imposible su instalación en salones convencionales, y las azoteas plantean problemas adicionales de acceso para la camioneta de instalación y de seguridad estructural.
 
@@ -235,7 +235,7 @@ Este es el checklist más detallado del catálogo. Si checas cada punto antes de
 
 ### Semana previa al evento
 
-- [ ] Medidas del jardín confirmadas: mínimo 8.5 × 4.5 m de espacio libre
+- [ ] Medidas del jardín confirmadas: mínimo 8 × 5.8 m de espacio libre
 - [ ] Obstáculos perimetrales identificados y removibles (muebles de jardín, plantas en maceta, juguetes)
 - [ ] Acceso vehicular a la propiedad confirmado (portón, calle sin obstrucciones, permiso de guardia si aplica)
 - [ ] Toma eléctrica de 110 V accesible dentro de 15 metros del área de instalación

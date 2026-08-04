@@ -126,6 +126,69 @@ export const CONTACT = {
   },
 } as const;
 
+// ── INFLABLES — medidas oficiales y espacio mínimo (SSoT) ─────────────────────
+// FUENTE ÚNICA DE VERDAD de las medidas del equipo. Entregadas por el dueño del
+// negocio (2026-08). Mandan sobre cualquier cifra que aparezca en páginas o
+// artículos: si una medida cambia, se cambia AQUÍ y se propaga.
+//
+// FÓRMULA ÚNICA del espacio mínimo de instalación:
+//   ancho libre  = ancho del inflable + 1 m por cada lado  → +2 m
+//   largo libre  = largo del inflable + 1 m por cada lado  → +2 m
+//   altura libre = alto del inflable + 1 m
+// El metro libre por lado cubre el soplador, el anclaje y la circulación de los
+// supervisores. No es negociable: por debajo de esa medida no se instala.
+//
+// ⚠️ Castillo Blanco: el dueño lo entregó como "5 × 7 × 4", es decir con el ANCHO
+// mayor que el LARGO. Se aplica literal — pendiente de confirmación del dueño.
+export type InflableSpec = {
+  slug: string;
+  name: string;
+  category: 'chicos' | 'medianos' | 'grandes' | 'ninas' | 'bodas';
+  /** Largo del inflable en metros */
+  largo: number;
+  /** Ancho del inflable en metros */
+  ancho: number;
+  /** Alto del inflable en metros */
+  alto: number;
+  /** Etiqueta canónica largo×ancho×alto */
+  dims: string;
+  /** Espacio mínimo de piso (largo+2 × ancho+2) */
+  espacioMinimo: string;
+  /** Altura libre requerida (alto+1) */
+  alturaLibre: string;
+};
+
+export const INFLABLES_SPECS: readonly InflableSpec[] = [
+  { slug: 'micro-baby',      name: 'Micro Baby',      category: 'chicos',   largo: 2,   ancho: 2,   alto: 3,   dims: '2×2×3 m',       espacioMinimo: '4×4 m',   alturaLibre: '4 m'   },
+  { slug: 'dragones-rojos',  name: 'Dragones Rojos',  category: 'medianos', largo: 5,   ancho: 2.5, alto: 2.8, dims: '5×2.5×2.8 m',   espacioMinimo: '7×4.5 m', alturaLibre: '3.8 m' },
+  { slug: 'mini-jungla',     name: 'Mini Jungla',     category: 'medianos', largo: 5,   ancho: 2.5, alto: 2.5, dims: '5×2.5×2.5 m',   espacioMinimo: '7×4.5 m', alturaLibre: '3.5 m' },
+  { slug: 'gusanitos',       name: 'Gusanitos',       category: 'medianos', largo: 5,   ancho: 4.5, alto: 2.8, dims: '5×4.5×2.8 m',   espacioMinimo: '7×6.5 m', alturaLibre: '3.8 m' },
+  { slug: 'princesas',       name: 'Princesas',       category: 'ninas',    largo: 5,   ancho: 4,   alto: 3,   dims: '5×4×3 m',       espacioMinimo: '7×6 m',   alturaLibre: '4 m'   },
+  { slug: 'barco-pirata',    name: 'Barco Pirata',    category: 'grandes',  largo: 6,   ancho: 3.8, alto: 3.8, dims: '6×3.8×3.8 m',   espacioMinimo: '8×5.8 m', alturaLibre: '4.8 m' },
+  { slug: 'extrem',          name: 'Extrem',          category: 'grandes',  largo: 7,   ancho: 4.5, alto: 3.5, dims: '7×4.5×3.5 m',   espacioMinimo: '9×6.5 m', alturaLibre: '4.5 m' },
+  { slug: 'castillo-blanco', name: 'Castillo Blanco', category: 'bodas',    largo: 5,   ancho: 7,   alto: 4,   dims: '5×7×4 m',       espacioMinimo: '7×9 m',   alturaLibre: '5 m'   },
+] as const;
+
+/** Margen libre por lado, en metros. Base de la fórmula del espacio mínimo. */
+export const MARGEN_LIBRE_M = 1;
+
+/** Devuelve la ficha canónica de un modelo por slug. */
+export function inflableSpec(slug: string): InflableSpec | undefined {
+  return INFLABLES_SPECS.find((i) => i.slug === slug);
+}
+
+/** Recalcula el espacio mínimo desde las medidas (largo+2 × ancho+2). */
+export function espacioMinimo(spec: InflableSpec): string {
+  const l = spec.largo + MARGEN_LIBRE_M * 2;
+  const a = spec.ancho + MARGEN_LIBRE_M * 2;
+  return `${l}×${a} m`;
+}
+
+/** Recalcula la altura libre desde el alto (alto+1). */
+export function alturaLibre(spec: InflableSpec): string {
+  return `${spec.alto + MARGEN_LIBRE_M} m`;
+}
+
 // ── TAXONOMY — categorías de inflables y servicios ────────────────────────────
 export const TAXONOMY = {
   categories: [

@@ -91,7 +91,7 @@ Los papás que han organizado graduaciones con el Extrem coinciden en algo: es e
 
 ## Cómo Diseñar la Fiesta Completa Alrededor del Extrem
 
-El Extrem requiere un espacio mínimo de 6.3 × 4.8 metros, pero conviene planear una zona más amplia: el espacio alrededor del inflable es parte de la experiencia. Los niños que esperan turno necesitan espacio para moverse sin estorbarse con los que están dentro, y el área de aterrizaje del tobogán tiene que estar completamente despejada.
+El Extrem requiere un espacio mínimo de 9 × 6.5 metros, pero conviene planear una zona más amplia: el espacio alrededor del inflable es parte de la experiencia. Los niños que esperan turno necesitan espacio para moverse sin estorbarse con los que están dentro, y el área de aterrizaje del tobogán tiene que estar completamente despejada.
 
 **Posicionamiento dentro del espacio exterior:**
 
@@ -220,8 +220,8 @@ Para cualquier combinación, el equipo de DENFLAB asesora sobre la distribución
 
 | Especificación | Dato |
 |---|---|
-| Dimensiones del inflable | 4.8 × 3.3 × 3 m |
-| Espacio mínimo requerido | 6.3 × 4.8 m (exterior) |
+| Dimensiones del inflable | 7 × 4.5 × 3.5 m |
+| Espacio mínimo requerido | 9 × 6.5 m (exterior) |
 | Altura de la plataforma del tobogán | ~2.5 m |
 | Capacidad simultánea | 8–12 niños |
 | Edad recomendada | 6 a 14 años |

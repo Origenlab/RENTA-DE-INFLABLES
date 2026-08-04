@@ -8,7 +8,7 @@ draft: false
 ---
 Todos los papás de un niño de 10 años conocen esta escena, o están a punto de conocerla. Le preguntas qué quiere para su cumpleaños y la respuesta llega con ese encogimiento de hombros que solo dominan los preadolescentes: "no sé... pero castillo inflable no, eso es de bebés". Y ahí está el problema en una frase. El mismo niño que a los 5 años gritó de felicidad al ver un inflable en el jardín, hoy lo considera — con la crueldad taxonómica de su edad — cosa de chiquitos. No es capricho: es desarrollo. A partir de los 8 años, los niños dejan de buscar estimulación y empiezan a buscar desafío. Quieren medirse, competir, lograr cosas que den un poquito de miedo. Y una fiesta que no ofrece nada de eso los pierde en la primera media hora, directo al celular o a la esquina del jardín con cara de "cuánto falta".
 
-El Extrem existe exactamente para ese niño. Con sus 4.8 × 3.3 × 3 metros, su área de brinco amplia y sobre todo su tobogán de altura, es el inflable del catálogo DENFLAB diseñado para niños de 5 años en adelante — y su punto dulce, el rango donde ningún otro modelo lo alcanza, es la franja de los 8 a los 12. La razón es simple: el tobogán no es un juego, es un reto. Subes por tu propio esfuerzo, decides lanzarte desde la altura, y bajas con una descarga de adrenalina que pide repetición inmediata. Esa estructura — esfuerzo, decisión, recompensa — es exactamente el lenguaje que los preadolescentes entienden y respetan.
+El Extrem existe exactamente para ese niño. Con sus 7 × 4.5 × 3.5 metros, su área de brinco amplia y sobre todo su tobogán de altura, es el inflable del catálogo DENFLAB diseñado para niños de 5 años en adelante — y su punto dulce, el rango donde ningún otro modelo lo alcanza, es la franja de los 8 a los 12. La razón es simple: el tobogán no es un juego, es un reto. Subes por tu propio esfuerzo, decides lanzarte desde la altura, y bajas con una descarga de adrenalina que pide repetición inmediata. Esa estructura — esfuerzo, decisión, recompensa — es exactamente el lenguaje que los preadolescentes entienden y respetan.
 
 Pero hay que decir la verdad completa: el inflable correcto es la mitad de la fórmula. La otra mitad es cómo lo usas. Un Extrem parado en el jardín "para que jueguen" funciona bien; un Extrem convertido en el eje de retos, torneos y dinámicas diseñadas para esa edad funciona de manera espectacular. Esta guía te da las dos mitades: el porqué del inflable y el cómo de la fiesta — dinámicas por edad, cronograma probado y los trucos para que hasta el invitado más "ya estoy grande para esto" termine formado en la fila del tobogán.
 
@@ -28,7 +28,7 @@ Ahí es donde el Extrem cambia el partido. Su diseño no tiene temática infanti
 
 | Especificación | Dato | Contexto práctico para 8–12 años |
 |---|---|---|
-| **Dimensiones** | 4.8 × 3.3 × 3 m | Suficiente escala para que no se sienta "de niños chiquitos"; entra en jardines medianos de CDMX |
+| **Dimensiones** | 7 × 4.5 × 3.5 m | El modelo más largo del catálogo; pide jardín amplio o quinta |
 | **Elemento clave** | Área de brinco amplia + tobogán de altura | El circuito completo sostiene sesiones largas sin aburrimiento |
 | **Edad recomendada** | 5 años en adelante | El rango 8–12 es donde el modelo rinde su máximo: autonomía total y apetito de reto |
 | **Categoría** | Grande | El formato con presencia suficiente para impresionar a un público difícil de impresionar |

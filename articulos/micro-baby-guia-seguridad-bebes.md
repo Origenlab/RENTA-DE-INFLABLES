@@ -18,7 +18,7 @@ Esta guía recorre cada una de esas decisiones con el detalle que merecen. Al fi
 
 Un niño de ocho años que tropieza dentro de un inflable se ríe, se levanta y sigue. Un bebé de 15 meses que recibe el impacto lateral de otro niño puede no saber ni cómo meter las manos. Esa asimetría lo cambia todo: entre 1 y 4 años, los niños están construyendo el equilibrio, la coordinación y —esto se olvida siempre— la capacidad de *anticipar* lo que van a hacer los demás. Un bebé no ve venir al niño que brinca hacia él. No calcula trayectorias. No entiende todavía la regla de "espera tu turno" como algo más que un sonido que hacen los adultos.
 
-El Micro Baby responde a esa realidad con diseño: dos metros de altura para que un adulto vea todo el interior desde afuera sin agacharse, paredes laterales suaves sin esquinas duras, entrada a nivel de piso para que un niño de un año entre y salga solo, y una capacidad deliberadamente limitada a 4–6 niños para que siempre haya aire entre los cuerpos. Pero el diseño solo pone la mitad de la seguridad. La otra mitad la ponen los adultos, y esa mitad es la que vamos a detallar.
+El Micro Baby responde a esa realidad con diseño: tres metros de altura con paredes bajas para que un adulto vea todo el interior desde afuera sin agacharse, paredes laterales suaves sin esquinas duras, entrada a nivel de piso para que un niño de un año entre y salga solo, y una capacidad deliberadamente limitada a 4–6 niños para que siempre haya aire entre los cuerpos. Pero el diseño solo pone la mitad de la seguridad. La otra mitad la ponen los adultos, y esa mitad es la que vamos a detallar.
 
 Hay además un factor específico de esta edad que ningún inflable puede resolver por sí mismo: los bebés no avisan cuando ya no pueden más. Un niño de 7 años sale del inflable cuando se cansa. Uno de 2 años sigue brincando hasta que el cuerpo le falla, y entonces llora, se cae más, o se desploma en el peor lugar posible: en medio de la zona de salto. Detectar el cansancio *antes* del colapso es una habilidad de supervisión que esta guía te va a enseñar.
 
@@ -148,7 +148,7 @@ El criterio técnico no es la fecha de nacimiento sino la marcha estable: el beb
 
 ### ¿Puedo entrar yo al inflable con mi bebé?
 
-La recomendación general es no: un adulto de 70 kilos deforma la superficie y genera rebotes desproporcionados para los cuerpos pequeños que están adentro. La excepción razonable es el primer contacto de un bebé de 12–15 meses con el inflable vacío — un adulto sentado en la entrada, sin brincar, dándole confianza los primeros minutos. En cuanto el bebé agarra ritmo, el adulto sale y supervisa desde afuera, que para eso el Micro Baby mide dos metros de alto y se ve todo el interior de pie.
+La recomendación general es no: un adulto de 70 kilos deforma la superficie y genera rebotes desproporcionados para los cuerpos pequeños que están adentro. La excepción razonable es el primer contacto de un bebé de 12–15 meses con el inflable vacío — un adulto sentado en la entrada, sin brincar, dándole confianza los primeros minutos. En cuanto el bebé agarra ritmo, el adulto sale y supervisa desde afuera, que para eso el Micro Baby tiene paredes bajas y se ve todo el interior de pie.
 
 ### ¿Cuántos adultos necesito para supervisar una fiesta de 15 bebés?
 

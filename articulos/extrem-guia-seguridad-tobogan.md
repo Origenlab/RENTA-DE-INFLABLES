@@ -16,7 +16,7 @@ En DENFLAB hemos montado el Extrem en cientos de eventos por toda la CDMX, y la 
 
 ## Por Qué un Tobogán de Altura Exige Su Propio Protocolo
 
-Un inflable de brinco plano tiene una dinámica de riesgo sencilla: todos los niños están al mismo nivel, sobre la misma superficie acolchada, y el único punto de atención real es que no se empujen entre sí. El Extrem es diferente porque introduce la variable vertical. Su estructura de 4.8 × 3.3 × 3 metros combina un área de brinco amplia con un tobogán de altura, y esa combinación — que es exactamente lo que lo hace el inflable favorito de los niños de 5 años en adelante — genera tres zonas con dinámicas distintas: la zona de brinco, la rampa de subida con su plataforma, y el canal de descenso con su área de aterrizaje.
+Un inflable de brinco plano tiene una dinámica de riesgo sencilla: todos los niños están al mismo nivel, sobre la misma superficie acolchada, y el único punto de atención real es que no se empujen entre sí. El Extrem es diferente porque introduce la variable vertical. Su estructura de 7 × 4.5 × 3.5 metros combina un área de brinco amplia con un tobogán de altura, y esa combinación — que es exactamente lo que lo hace el inflable favorito de los niños de 5 años en adelante — genera tres zonas con dinámicas distintas: la zona de brinco, la rampa de subida con su plataforma, y el canal de descenso con su área de aterrizaje.
 
 Cada zona tiene su propio patrón de uso y su propio punto de vigilancia. En la zona de brinco, el riesgo es el clásico de cualquier inflable: exceso de niños o choques entre tamaños muy dispares. En la rampa y la plataforma, el punto crítico es el orden: quién sube, cuándo, y que nadie se lance mientras el anterior no haya despejado. Y en la salida del tobogán, el punto ciego más común de todos: niños que aterrizan y se quedan sentados celebrando justo donde el siguiente va a caer.
 
@@ -28,7 +28,7 @@ Entender esta anatomía es el 80% del trabajo de seguridad. El 20% restante es a
 
 | Especificación | Dato | Contexto práctico de seguridad |
 |---|---|---|
-| **Dimensiones** | 4.8 × 3.3 × 3 m | La altura de 3 metros exige verificar que no haya ramas ni cables sobre el área de instalación |
+| **Dimensiones** | 7 × 4.5 × 3.5 m | La altura de 3.5 metros exige verificar que no haya ramas ni cables sobre el área de instalación |
 | **Categoría** | Grande | Requiere holgura perimetral libre en todos los lados para circulación de supervisores |
 | **Elemento principal** | Área de brinco amplia + tobogán de altura | Tres zonas de vigilancia distintas: brinco, subida/plataforma y salida del tobogán |
 | **Edad mínima** | 5 años | Antes de esa edad faltan la coordinación para subir la rampa y la comprensión de instrucciones |
@@ -92,7 +92,7 @@ Todo lo anterior gestiona el comportamiento de los usuarios. Esta sección gesti
 
 **Lluvia.** La regla es binaria: con lluvia activa, el tobogán no se usa. Punto. Una superficie de vinilo mojada multiplica la velocidad de descenso y elimina la tracción en la rampa de subida; lo que en seco es un juego controlado, en mojado se vuelve impredecible. Si cae un chubasco vespertino típico, se saca a los niños, se espera a que pase, y el equipo evalúa si la superficie puede secarse para reanudar. Muchos aguaceros de la ciudad duran menos de una hora — la fiesta no se arruina, solo hace pausa.
 
-**Viento.** Menos intuitivo que la lluvia pero igual de serio. Un inflable de 3 metros de altura presenta una superficie considerable al viento, y las rachas fuertes comprometen la estabilidad de cualquier estructura inflable, por bien anclada que esté. El protocolo de DENFLAB establece la suspensión del uso cuando el viento se vuelve fuerte y sostenido — en la práctica, si las ramas de los árboles se agitan con violencia y los manteles se vuelan, es momento de vaciar el inflable y esperar. La decisión conservadora siempre es la correcta: ningún turno de tobogán vale un riesgo estructural.
+**Viento.** Menos intuitivo que la lluvia pero igual de serio. Un inflable de 3.5 metros de altura presenta una superficie considerable al viento, y las rachas fuertes comprometen la estabilidad de cualquier estructura inflable, por bien anclada que esté. El protocolo de DENFLAB establece la suspensión del uso cuando el viento se vuelve fuerte y sostenido — en la práctica, si las ramas de los árboles se agitan con violencia y los manteles se vuelan, es momento de vaciar el inflable y esperar. La decisión conservadora siempre es la correcta: ningún turno de tobogán vale un riesgo estructural.
 
 **Anclaje.** El Extrem se ancla perimetralmente durante el montaje, y ese sistema lo instala y verifica el equipo de DENFLAB antes de entregar el inflable listo. Las reglas para el anfitrión son tres: no mover ni "ajustar" ningún punto de anclaje durante el evento, no colgar decoración pesada de la estructura, y avisar de inmediato si algún elemento del anclaje se ve suelto o desplazado. El anclaje no es la parte glamorosa del inflable, pero es la que sostiene todo lo demás — literalmente.
 

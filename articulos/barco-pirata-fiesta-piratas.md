@@ -1,6 +1,6 @@
 ---
 title: "Barco Pirata: La Aventura en Alta Mar para el Cumpleaños más Épico de tu Hijo en CDMX"
-description: "Un barco pirata de 7 metros inflado en el jardín, con velas, cañones y bandera Jolly Roger: la fiesta de aventura en alta mar que tu hijo va a contar en la escuela el lunes. Guía de DENFLAB para organizarla en CDMX."
+description: "Un barco pirata de 6 metros inflado en el jardín, con velas, cañones y bandera Jolly Roger: la fiesta de aventura en alta mar que tu hijo va a contar en la escuela el lunes. Guía de DENFLAB para organizarla en CDMX."
 model: "Barco Pirata"
 category: grandes
 pubDate: 2026-07-09
@@ -8,7 +8,7 @@ draft: false
 ---
 ## El Barco Ha Llegado al Puerto
 
-Son las 10 de la mañana del sábado. La camioneta de DENFLAB entra al jardín. Los niños que ya llegaron a la fiesta se asoman desde la terraza. El equipo empieza a desdoblar el vinilo. En 20 minutos, hay un barco pirata de 7 metros inflado en el jardín, con velas, cañones y la bandera Jolly Roger en la popa.
+Son las 10 de la mañana del sábado. La camioneta de DENFLAB entra al jardín. Los niños que ya llegaron a la fiesta se asoman desde la terraza. El equipo empieza a desdoblar el vinilo. En 20 minutos, hay un barco pirata de 6 metros inflado en el jardín, con velas, cañones y la bandera Jolly Roger en la popa.
 
 El cumpleañero no necesita decoración adicional. El Barco Pirata es la decoración.
 
@@ -67,13 +67,13 @@ Designa a un niño (el cumpleañero) como Capitán del Barco por los primeros 5 
 
 ## El Barco Pirata como Fondo para Fotos
 
-A diferencia de los inflables medianos, el Barco Pirata tiene dimensiones que lo hacen visible de fondo en prácticamente cualquier foto tomada en el jardín. Los papás que cuidan el álbum de recuerdos saben la diferencia entre una foto con fondo de jardín genérico y una foto con un barco pirata de 7 metros como backdrop.
+A diferencia de los inflables medianos, el Barco Pirata tiene dimensiones que lo hacen visible de fondo en prácticamente cualquier foto tomada en el jardín. Los papás que cuidan el álbum de recuerdos saben la diferencia entre una foto con fondo de jardín genérico y una foto con un barco pirata de 6 metros como backdrop.
 
 **Tips para fotografiar el evento con el Barco Pirata:**
 - El ángulo de 3/4 (desde una esquina, no de frente) muestra tanto la eslora como la altura del inflable
 - Las fotos con niños dentro y adultos afuera en la boca de acceso dan escala al tamaño real
 - La hora dorada (1–2 horas antes del atardecer) hace que el vinilo brille especialmente bien
-- Una foto cenital desde el segundo piso o una silla alta muestra los 7 metros completos
+- Una foto cenital desde el segundo piso o una silla alta muestra los 6 metros completos
 
 ---
 
@@ -126,7 +126,7 @@ El Barco Pirata es el inflable de mayor demanda del catálogo para fiestas con g
 
 ## Artículos relacionados
 
-- [Barco Pirata: la guía completa del inflable de 7 metros](/blog/barco-pirata-guia-renta)
+- [Barco Pirata: la guía completa del inflable de 6 metros](/blog/barco-pirata-guia-renta)
 - [Decoración de fiesta pirata con el Barco Pirata como pieza central](/blog/barco-pirata-decoracion-fiesta)
 - [Guía de seguridad del Barco Pirata](/blog/barco-pirata-guia-seguridad)
 - [¿Qué inflable grande rentar en CDMX? Barco Pirata vs Extrem vs Castillo Blanco](/blog/barco-pirata-vs-inflables-grandes)

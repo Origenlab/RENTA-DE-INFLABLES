@@ -10,17 +10,17 @@ El momento ocurre siempre de la misma manera y siempre produce el mismo malestar
 
 Este escenario no es una exageración. Es la realidad de decenas de fiestas infantiles en la CDMX cada fin de semana, y la causa casi siempre es la misma: se eligió el inflable sin hacer el cálculo correcto entre el número de niños invitados y la capacidad real del equipo. Se pensó en la temática, en el precio, en el color, pero no en la matemática básica del entretenimiento grupal. Y esa matemática tiene consecuencias directas en la experiencia de los niños, en el estrés de los adultos y en la calidad del evento completo.
 
-Los Gusanitos existen para resolver exactamente ese problema. Son el inflable mediano más ancho —3.3 metros— y más alto —3 metros— del catálogo de DENFLAB, y su capacidad de 8 a 10 niños simultáneos los convierte en la única opción correcta cuando el número de invitados es grande y la prioridad es que todos los niños tengan acceso real al inflable sin esperas desesperantes. Esta guía te explica todo: por qué los Gusanitos son una categoría aparte dentro de los medianos, para qué tipo de eventos son la elección obvia, y cómo sacarles el máximo provecho.
+Los Gusanitos existen para resolver exactamente ese problema. Son el inflable mediano más ancho —4.5 metros— y, junto con los Dragones Rojos, el más alto —2.8 metros— del catálogo de DENFLAB, y su capacidad de 8 a 10 niños simultáneos los convierte en la única opción correcta cuando el número de invitados es grande y la prioridad es que todos los niños tengan acceso real al inflable sin esperas desesperantes. Esta guía te explica todo: por qué los Gusanitos son una categoría aparte dentro de los medianos, para qué tipo de eventos son la elección obvia, y cómo sacarles el máximo provecho.
 
 ---
 
 ## Los Gusanitos: el mediano que juega en otra liga
 
-Cuando DENFLAB habla de inflables medianos, habla de una categoría que comparte el largo de cuatro metros pero donde las diferencias de ancho y altura son decisivas para la experiencia real del evento. Los Gusanitos son el extremo superior de esa categoría: los más anchos, los más altos y los de mayor capacidad de todos los medianos del catálogo.
+Cuando DENFLAB habla de inflables medianos, habla de una categoría que comparte el largo de cinco metros pero donde las diferencias de ancho y altura son decisivas para la experiencia real del evento. Los Gusanitos son el extremo superior de esa categoría: los más anchos y los de mayor capacidad de todos los medianos del catálogo.
 
-Con **3.3 metros de ancho** —frente a los 2.5 metros de la Mini Jungla y los Dragones Rojos— el interior de los Gusanitos tiene un 32% más de superficie de juego. Eso no es un número abstracto: en la práctica significa que dos niños pueden brincar en paralelo sin interferirse, que hay espacio real para movimiento lateral, que los grupos de tres o cuatro amigos pueden jugar juntos sin que el espacio los fuerce a una sola línea de rebote.
+Con **4.5 metros de ancho** —frente a los 2.5 metros de la Mini Jungla y los Dragones Rojos— el interior de los Gusanitos tiene un 80% más de superficie de juego. Eso no es un número abstracto: en la práctica significa que dos niños pueden brincar en paralelo sin interferirse, que hay espacio real para movimiento lateral, que los grupos de tres o cuatro amigos pueden jugar juntos sin que el espacio los fuerce a una sola línea de rebote.
 
-Con **3 metros de altura** los Gusanitos son también el inflable mediano más alto del catálogo, por encima de los 2.8 metros de la Mini Jungla. Esa diferencia de 20 centímetros en altura se traduce en una experiencia de brinco más abierta y menos comprimida, especialmente para los niños más altos del rango de edad recomendado —de 5 a 12 años— que en otros inflables empiezan a sentir el techo cerca.
+Con **2.8 metros de altura** los Gusanitos empatan con los Dragones Rojos como el inflable mediano más alto del catálogo, por encima de los 2.5 metros de la Mini Jungla. Esa diferencia de 30 centímetros en altura se traduce en una experiencia de brinco más abierta y menos comprimida, especialmente para los niños más altos del rango de edad recomendado —de 5 a 12 años— que en otros inflables empiezan a sentir el techo cerca.
 
 Y la capacidad: **8 a 10 niños simultáneos**. En un evento con 30 niños, la diferencia entre un inflable que admite 6 y uno que admite 10 es la diferencia entre dos turnos de espera y uno. La diferencia entre colas de 15 minutos y colas de 8. La diferencia entre una fiesta donde los niños esperan más de lo que brincan y una donde todos sienten que tuvieron acceso real.
 
@@ -32,18 +32,18 @@ Esta tabla reúne todos los datos técnicos de los Gusanitos con notas contextua
 
 | Especificación | Dato | Nota contextual |
 |---|---|---|
-| **Largo** | 4.0 m | El mismo que todos los medianos. El largo no es el diferenciador de los Gusanitos. |
-| **Ancho** | 3.3 m | El más ancho de todos los inflables medianos del catálogo: 32% más espacio lateral que los otros medianos. Cambia radicalmente la experiencia de brinco grupal. |
-| **Altura** | 3.0 m | El más alto del catálogo de medianos. Un adulto promedio queda a más de 1.3 metros del techo interior. |
-| **Espacio mínimo total** | 5.5 × 4.8 m | El perímetro de seguridad más amplio de los medianos. Antes de reservar, mide tu espacio disponible con precisión: los 4.8 m de ancho son el requerimiento crítico. |
+| **Largo** | 5.0 m | El mismo que todos los medianos. El largo no es el diferenciador de los Gusanitos. |
+| **Ancho** | 4.5 m | El más ancho de todos los inflables medianos del catálogo: 80% más espacio lateral que los otros medianos. Cambia radicalmente la experiencia de brinco grupal. |
+| **Altura** | 2.8 m | Empatado con los Dragones Rojos como el más alto de los medianos. Un adulto promedio queda a más de un metro del techo interior. |
+| **Espacio mínimo total** | 7 × 6.5 m | El perímetro de seguridad más amplio de los medianos. Antes de reservar, mide tu espacio disponible con precisión: los 6.5 m de ancho son el requerimiento crítico. |
 | **Edad recomendada** | 5 a 12 años | El rango de edad más amplio de los medianos. Funciona para preescolar superior hasta primaria alta sin mezclar edades extremas problemáticas. |
 | **Capacidad simultánea** | 8 a 10 niños | La mayor capacidad de todos los inflables medianos del catálogo. En eventos con muchos niños, esta cifra es el factor decisivo. |
-| **Uso** | Solo exterior | Requiere superficie plana y espacio suficiente. El requerimiento de ancho (4.8 m mínimo) es más restrictivo que en otros medianos. |
+| **Uso** | Solo exterior | Requiere superficie plana y espacio suficiente. El requerimiento de ancho (6.5 m mínimo) es más restrictivo que en otros medianos. |
 | **Diseño** | Colores vivos, genérico | Sin temática específica de personajes. La ventaja: es compatible con cualquier decoración sin crear conflictos visuales. |
 | **Tiempo de montaje** | 10 a 15 minutos | Igual que todos los inflables de la línea de medianos. |
 | **Soplador** | Incluido, 110 V | El soplador permanece encendido durante todo el tiempo de uso. Requiere contacto eléctrico estándar a no más de 20 metros. |
 
-*Nota crítica sobre el espacio: los 5.5 × 4.8 metros de espacio mínimo son el requerimiento más restrictivo de los tres medianos. Si tu espacio disponible mide menos de 4.8 metros de ancho, los Gusanitos no son la opción correcta independientemente de cuántos niños esperas. Mide primero, elige después.*
+*Nota crítica sobre el espacio: los 7 × 6.5 metros de espacio mínimo son el requerimiento más restrictivo de los tres medianos. Si tu espacio disponible mide menos de 6.5 metros de ancho, los Gusanitos no son la opción correcta independientemente de cuántos niños esperas. Mide primero, elige después.*
 
 ---
 
@@ -53,18 +53,18 @@ Esta tabla va más allá de las especificaciones básicas. Incluye métricas cal
 
 | Métrica | Mini Jungla | Dragones Rojos | Gusanitos |
 |---|---|---|---|
-| **Dimensiones** | 4 × 2.5 m | 4 × 2.5 m | 4 × 3.3 m |
-| **Altura** | 2.8 m | ~2.5 m | **3.0 m** ⬆ |
-| **Área de planta** | 10 m² | 10 m² | **13.2 m²** ⬆ |
+| **Dimensiones** | 5 × 2.5 m | 5 × 2.5 m | 5 × 4.5 m |
+| **Altura** | 2.5 m | **2.8 m** ⬆ | **2.8 m** ⬆ |
+| **Área de planta** | 12.5 m² | 12.5 m² | **22.5 m²** ⬆ |
 | **Capacidad máx.** | 8 niños | 8 niños | **10 niños** ⬆ |
-| **m² por niño (máx.)** | 1.25 m² | 1.25 m² | **1.32 m²** ⬆ |
-| **Espacio mínimo requerido** | 5.5 × 4 m | 5.5 × 4 m | 5.5 × 4.8 m |
+| **m² por niño (máx.)** | 1.56 m² | 1.56 m² | **2.25 m²** ⬆ |
+| **Espacio mínimo requerido** | 7 × 4.5 m | 7 × 4.5 m | 7 × 6.5 m |
 | **Temática** | Selva / animales | Dragones / fantasía | Genérica |
 | **Edad recomendada** | 4–10 años | 4–10 años | **5–12 años** ⬆ |
 | **Ideal para grupos** | 15–25 niños | 15–25 niños | **25–40 niños** ⬆ |
 | **Mejor para** | Fiestas temáticas medianas | Fiestas de fantasía | Kermés, posadas, grupos grandes |
 
-*Nota sobre m² por niño: la diferencia parece pequeña en el papel (1.25 vs. 1.32 m²), pero se amplifica cuando se traduce a niños reales brincando. La diferencia de 3.3 metros vs. 2.5 metros de ancho significa que los Gusanitos admiten movimiento lateral genuino; los otros medianos no.*
+*Nota sobre m² por niño: la diferencia parece moderada en el papel (1.56 vs. 2.25 m²), pero se amplifica cuando se traduce a niños reales brincando. La diferencia de 4.5 metros vs. 2.5 metros de ancho significa que los Gusanitos admiten movimiento lateral genuino; los otros medianos no.*
 
 > Si quieres el análisis completo de la categoría —con matriz de decisión por edad, espacio y número de niños—, la [comparativa Gusanitos vs. Dragones Rojos vs. Mini Jungla](/blog/gusanitos-vs-medianos-comparativa) pone los tres medianos frente a frente, y el duelo directo con el otro mediano estrella está en [Mini Jungla vs. Gusanitos](/blog/mini-jungla-vs-gusanitos).
 
@@ -157,7 +157,7 @@ Esta es la metodología que funciona en la práctica para eventos de 50 o más n
 
 Este es el checklist específico para los Gusanitos, que tiene requerimientos de espacio más amplios que los otros medianos.
 
-- [ ] El área disponible mide al menos **5.5 × 4.8 metros** libres — el requerimiento de 4.8 m de ancho es crítico y no negociable
+- [ ] El área disponible mide al menos **7 × 6.5 metros** libres — el requerimiento de 6.5 m de ancho es crítico y no negociable
 - [ ] El piso está limpio de piedras, clavos, fragmentos de material, raíces superficiales o cualquier objeto que pueda perforar el vinilo
 - [ ] Hay un **contacto eléctrico de 110 V** a no más de 20 metros del área de instalación con extensión disponible si es necesario
 - [ ] El acceso al área de instalación está despejado para el ingreso del equipo con el inflable desinflado
@@ -198,7 +198,7 @@ El proceso de renta de los Gusanitos para un evento grande tiene algunas conside
 
 **Paso 2 — Compartir el detalle del evento.** Al contactar a DENFLAB, comparte no solo la fecha y la colonia sino también el tipo de evento, el número estimado de niños y el formato de uso esperado (turnos organizados, uso libre, zona de un evento más grande). Esto permite al equipo de DENFLAB dar recomendaciones específicas para tu caso.
 
-**Paso 3 — Confirmar el espacio con medidas exactas.** Los Gusanitos requieren 5.5 × 4.8 metros de espacio libre. Verifica esta medida con cinta métrica, no a ojo. Un error en este paso puede resultar en que el inflable no quepa en el área planificada el día del evento.
+**Paso 3 — Confirmar el espacio con medidas exactas.** Los Gusanitos requieren 7 × 6.5 metros de espacio libre. Verifica esta medida con cinta métrica, no a ojo. Un error en este paso puede resultar en que el inflable no quepa en el área planificada el día del evento.
 
 **Paso 4 — Reservar con anticipo del 30%.** Una vez confirmadas las especificaciones, el 30% del total asegura la fecha y el inflable.
 
@@ -230,8 +230,8 @@ Los Gusanitos tienen la mayor capacidad de los medianos, pero la capacidad tiene
 **¿Puedo usar los Gusanitos con lluvia ligera?**
 Con lluvia ligera y sin riesgo eléctrico, el inflable puede seguir operando. Con lluvia fuerte, granizo o tormenta eléctrica, debe apagarse y desconectarse inmediatamente por seguridad. Para eventos institucionales o kermés, ten un plan de contingencia para clima adverso.
 
-**¿El espacio de 5.5 × 4.8 metros es negociable?**
-No. Ese es el espacio mínimo de seguridad requerido para una instalación correcta y segura de los Gusanitos. Instalarlo en un espacio más pequeño compromete la seguridad del inflable y de los niños que lo usan. Si tu espacio disponible es menor, la Mini Jungla o los Dragones Rojos —con requerimiento de 5.5 × 4 metros— son la alternativa correcta.
+**¿El espacio de 7 × 6.5 metros es negociable?**
+No. Ese es el espacio mínimo de seguridad requerido para una instalación correcta y segura de los Gusanitos. Instalarlo en un espacio más pequeño compromete la seguridad del inflable y de los niños que lo usan. Si tu espacio disponible es menor, la Mini Jungla o los Dragones Rojos —con requerimiento de 7 × 4.5 metros— son la alternativa correcta.
 
 **¿Cuánto tiempo antes del evento debo reservar para una kermés escolar?**
 Para eventos institucionales o de comunidad, reserva con mínimo dos semanas de anticipación. Para fechas de alta demanda —últimas semanas de noviembre, primera de diciembre para posadas; mayo y junio para fiestas de fin de ciclo escolar— tres semanas o más es lo prudente.
@@ -265,6 +265,6 @@ Horario de atención: **Lunes a Viernes 9:00–19:00 | Sábados 9:00–17:00**
 
 ---
 
-*Los Gusanitos requieren un espacio mínimo de 5.5 × 4.8 metros libres, superficie plana exterior y acceso a corriente eléctrica de 110 V. Montaje, soplador y desmontaje siempre incluidos. Anticipo del 30% para reservar, saldo del 70% el día del evento. DENFLAB opera en toda la CDMX: Polanco, Lomas, Santa Fe, Miguel Hidalgo, Coyoacán, Del Valle, Tlalpan, Nápoles, Pedregal, Satélite y zonas aledañas.*
+*Los Gusanitos requieren un espacio mínimo de 7 × 6.5 metros libres, superficie plana exterior y acceso a corriente eléctrica de 110 V. Montaje, soplador y desmontaje siempre incluidos. Anticipo del 30% para reservar, saldo del 70% el día del evento. DENFLAB opera en toda la CDMX: Polanco, Lomas, Santa Fe, Miguel Hidalgo, Coyoacán, Del Valle, Tlalpan, Nápoles, Pedregal, Satélite y zonas aledañas.*
 
 [**Reservar los Gusanitos — disponibilidad limitada →**](https://wa.me/5215539048634?text=Quiero%20reservar%20los%20Gusanitos%20de%20DENFLAB.%20Mi%20evento%20es%20el%20d%C3%ADa%20__%20en%20la%20colonia%20__%20y%20esperamos%20aproximadamente%20__%20ni%C3%B1os.%20%C2%BFEst%C3%A1%20disponible%3F)

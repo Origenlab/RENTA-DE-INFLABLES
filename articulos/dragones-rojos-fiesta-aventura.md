@@ -141,7 +141,7 @@ La conversación sobre seguridad en inflables está llena de extremos: o los pap
 
 ## Errores Comunes que Arruinan la Experiencia (y Cómo Evitarlos)
 
-**Error 1: Poner el inflable en un espacio demasiado justo.** El Dragones Rojos necesita un área de 5.5 × 4 metros —no para el inflable en sí, sino incluyendo el espacio de seguridad perimetral. Mide con cinta métrica antes de confirmar la reserva. Un jardín que "se ve grande" a veces tiene columnas, macetas o muebles que reducen el área disponible a menos de lo necesario.
+**Error 1: Poner el inflable en un espacio demasiado justo.** El Dragones Rojos necesita un área de 7 × 4.5 metros —no para el inflable en sí, sino incluyendo el espacio de seguridad perimetral. Mide con cinta métrica antes de confirmar la reserva. Un jardín que "se ve grande" a veces tiene columnas, macetas o muebles que reducen el área disponible a menos de lo necesario.
 
 **Error 2: Inflarlo con demasiada anticipación antes de que lleguen los niños.** DENFLAB llega con tiempo calculado para que el montaje (10-15 minutos) termine justo antes de la llegada de los invitados. Inflarlo una hora antes no añade nada —los niños no están presentes para el "momento wow" de verlo ya listo esperándolos.
 

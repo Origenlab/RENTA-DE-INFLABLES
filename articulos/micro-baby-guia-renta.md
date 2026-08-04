@@ -20,7 +20,7 @@ Esta guía te va a decir todo lo que necesitas saber antes de reservar: las espe
 
 Para entender por qué el Micro Baby tiene sentido, hay que entender el problema que resuelve. La Ciudad de México es una ciudad de departamentos, de salones rentados sin jardín, de terrazas donde mides cada centímetro antes de comprar un mueble. El mercado de renta de inflables en CDMX históricamente ha servido a familias con acceso a espacios exteriores amplios: jardines en Coyoacán, patios en casas de Tlalpan, áreas comunes en fraccionamientos del Estado de México. Para las familias que viven en colonias de alta densidad urbana —Polanco, Lomas, Nápoles, Del Valle, Condesa, Roma— el inflable tradicional simplemente no era una opción.
 
-El Micro Baby nació para cerrar esa brecha. Con una base de **2×2 metros** y **2 metros de altura**, es el único modelo en el catálogo completo de DENFLAB que está diseñado y certificado para uso en interiores. Eso significa que entra por puertas estándar, no compromete techos normales, no requiere anclaje al suelo o a paredes, y opera con una toma de corriente de 110 V estándar —la misma que tienes en cualquier sala de cualquier departamento de la ciudad.
+El Micro Baby nació para cerrar esa brecha. Con una base de **2×2 metros** y **3 metros de altura**, es el único modelo en el catálogo completo de DENFLAB que está diseñado y certificado para uso en interiores. Eso significa que entra por puertas estándar, no compromete techos normales, no requiere anclaje al suelo o a paredes, y opera con una toma de corriente de 110 V estándar —la misma que tienes en cualquier sala de cualquier departamento de la ciudad.
 
 Pero la magia del Micro Baby no está solo en sus dimensiones. Está en sus proporciones. El rango de edad recomendado —1 a 4 años— no es arbitrario. La altura de las paredes laterales, la profundidad de la zona de salto, la anchura de la entrada: todo está calibrado para que un niño que acaba de aprender a caminar pueda entrar solo, saltar con seguridad, y salir sin ayuda. Un adulto puede supervisar desde afuera sin tener que agacharse en posiciones incómodas. Los materiales son PVC reforzado con costuras dobles, sin esquinas duras, sin bordes que puedan raspar. Es, en el sentido más literal del término, un inflable diseñado para bebés.
 
@@ -34,7 +34,7 @@ La capacidad de 4 a 6 niños simultáneos es un dato que vale la pena entender b
 |---|---|---|
 | Dimensiones (base) | 2 × 2 m | El espacio de salto real: equivale a un cuarto pequeño. Más de lo que parece al medir en papel. |
 | Altura total inflado | 2 m | Permite que un adulto supervise desde afuera sin agacharse. No compromete techos de 2.5 m o más. |
-| Espacio mínimo necesario | 3 × 3 m | El margen de 50 cm por cada lado es para el soplador, el acceso y que los niños puedan salir sin tropezar con las paredes del cuarto. |
+| Espacio mínimo necesario | 4 × 4 m | El margen de 1 metro por cada lado es para el soplador, el acceso y que los niños puedan salir sin tropezar con las paredes del cuarto. Altura libre: 4 m. |
 | Edad recomendada | 1 a 4 años | Niños que ya caminan de forma estable. No apto para bebés que no caminan solos todavía. |
 | Capacidad operativa | 4–6 niños | Simultáneos, con supervisión adulta. Es el rango confortable, no el límite estructural. |
 | Montaje | Interior y exterior | El único modelo del catálogo DENFLAB apto para ambos ambientes. En exterior también funciona sin anclas. |
@@ -51,7 +51,7 @@ La capacidad de 4 a 6 niños simultáneos es un dato que vale la pena entender b
 
 Cuando dices "inflable de fiesta" en Ciudad de México, la mayoría de la gente imagina un jardín. Un jardín verde, amplio, con luz natural y niños corriendo por todos lados. Esa imagen existe —y DENFLAB la cubre con varios modelos del catálogo— pero no refleja la realidad de la mayoría de las familias que viven dentro de la ciudad.
 
-Un departamento promedio en colonias como Nápoles, Escandon, Portales o Del Valle tiene sala-comedor integrado de 20 a 30 metros cuadrados. Una sala de fiestas rentada en un edificio residencial suele tener entre 40 y 80 metros cuadrados, sin jardín. Una terraza de departamento de gama media tiene entre 10 y 25 metros cuadrados. En todos estos escenarios, un inflable mediano —que requiere mínimo 5×5 m— no tiene cabida física. Pero el Micro Baby sí.
+Un departamento promedio en colonias como Nápoles, Escandon, Portales o Del Valle tiene sala-comedor integrado de 20 a 30 metros cuadrados. Una sala de fiestas rentada en un edificio residencial suele tener entre 40 y 80 metros cuadrados, sin jardín. Una terraza de departamento de gama media tiene entre 10 y 25 metros cuadrados. En todos estos escenarios, un inflable mediano —que requiere mínimo 7×4.5 m— no tiene cabida física. Pero el Micro Baby sí.
 
 Lo que esto significa en práctica es que el Micro Baby abre la posibilidad de tener una fiesta con inflable a familias que antes simplemente no podían considerarlo. Si tu caso es exactamente ese —departamento, salón techado o terraza cubierta—, tenemos una [guía completa de fiestas en interiores con el Micro Baby](/blog/micro-baby-fiestas-en-interiores) con los requisitos de techo, corriente y ruido espacio por espacio. Si vives en un departamento y tu hijo cumple un año, ya no tienes que elegir entre "fiesta sin juego físico" o "rentar un salón con jardín que está fuera de tu presupuesto". Puedes tener tu fiesta en casa, con el espacio que tienes, con el inflable que cabe.
 
@@ -65,11 +65,11 @@ El hecho de que no requiera anclas externas es crucial para el uso en interiores
 
 | Opción | Costo aprox. | Espacio requerido | Funciona en interior | Nivel de entretenimiento | Requiere armado propio | Riesgo/Edad 1–4 años |
 |---|---|---|---|---|---|---|
-| **Micro Baby (DENFLAB)** | Consultar | 3×3 m | ✅ Sí | Alto — movimiento físico real | No (DENFLAB lo instala) | Bajo — diseñado para esta edad |
+| **Micro Baby (DENFLAB)** | Consultar | 4×4 m | ✅ Sí | Alto — movimiento físico real | No (DENFLAB lo instala) | Bajo — diseñado para esta edad |
 | Pelotero portátil | $500–$1,500 compra | 2×2 m | ✅ Sí | Medio — las pelotas son el juego | Sí (papás lo arman) | Bajo, pero las pelotas se dispersan |
 | Área de juegos plástica | $2,000–$8,000 compra | 3×4 m | Parcialmente | Medio — juego variado | Sí (papás lo arman) | Medio — resbaladillas en interiores |
 | Salón de kermés / bouncehouse | $3,000–$8,000 renta | 6×6 m mínimo | ❌ No | Alto | No (el salón lo tiene fijo) | Medio — mezcla de edades frecuente |
-| Inflable mediano (otros modelos) | Consultar | 5×5 m mínimo | ❌ No | Alto | No (DENFLAB lo instala) | Medio — mejor para 4+ años |
+| Inflable mediano (otros modelos) | Consultar | 7×4.5 m mínimo | ❌ No | Alto | No (DENFLAB lo instala) | Medio — mejor para 4+ años |
 
 **Nota:** El Micro Baby no compite con alternativas de compra en costo total de propiedad —tiene la ventaja de que no necesitas guardarlo, mantenerlo ni repararlo. Lo rentas, lo disfrutas, y DENFLAB se lo lleva. Para una fiesta anual o semestral, la ecuación económica es claramente favorable a la renta.
 
@@ -115,7 +115,7 @@ Todos los proveedores dicen que sus inflables son "silenciosos". La verdad concr
 
 ### Cómo medir tu espacio de forma correcta
 
-El error más común: medir el cuarto y concluir que cabe porque el cuarto mide 3.5×4 m. El problema es lo que hay *en* ese cuarto: el sofá que no te vas a llevar, la mesa de centro, el buro, la planta. El espacio *libre* real puede ser considerablemente menor. La manera correcta de medir es despejar el área donde va el inflable, medir el espacio limpio resultante, y confirmar que tienes al menos **3×3 metros completamente libres**. Si tienes dudas, escríbele a DENFLAB con las medidas y fotos: el equipo puede confirmar antes de que hagas la reserva.
+El error más común: medir el cuarto y concluir que cabe porque el cuarto mide 3.5×4 m. El problema es lo que hay *en* ese cuarto: el sofá que no te vas a llevar, la mesa de centro, el buro, la planta. El espacio *libre* real puede ser considerablemente menor. La manera correcta de medir es despejar el área donde va el inflable, medir el espacio limpio resultante, y confirmar que tienes al menos **4×4 metros completamente libres**. Si tienes dudas, escríbele a DENFLAB con las medidas y fotos: el equipo puede confirmar antes de que hagas la reserva.
 
 ### Qué pasa si llueve (y nadie te lo dice completo)
 
@@ -182,7 +182,7 @@ El equipo de DENFLAB confirma el horario exacto de llegada y te hace preguntas l
 
 ### Paso 5: Llegada del equipo (30 minutos antes del evento)
 
-El equipo llega con todo el equipo necesario. No necesitas preparar nada más que el espacio limpio y despejado de 3×3 metros. El montaje toma menos de 5 minutos.
+El equipo llega con todo el equipo necesario. No necesitas preparar nada más que el espacio limpio y despejado de 4×4 metros, con 4 metros de altura libre. El montaje toma menos de 5 minutos.
 
 ### Paso 6: Pago del saldo restante (al inicio del evento)
 
@@ -201,7 +201,7 @@ El equipo regresa, desinfla, dobla y retira el inflable. Tú no haces nada. El e
 ## Preguntas Frecuentes (FAQ)
 
 **¿El Micro Baby realmente cabe en mi departamento?**
-Si tienes 3×3 metros de espacio libre —con el mobiliario que vas a mantener durante la fiesta— sí cabe. El inflable mismo mide 2×2 m; el metro extra por cada lado es para el soplador y para que los niños puedan entrar y salir sin chocar con las paredes del cuarto. Si tienes dudas con tus medidas específicas, escríbele al equipo de DENFLAB con fotos y dimensiones del espacio: hacen la evaluación sin costo y sin compromiso.
+Si tienes 4×4 metros de espacio libre y 4 metros de altura libre —con el mobiliario que vas a mantener durante la fiesta— sí cabe. El inflable mismo mide 2×2 m de base y 3 m de alto; el metro extra por cada lado es para el soplador y para que los niños puedan entrar y salir sin chocar con las paredes del cuarto. Si tienes dudas con tus medidas específicas, escríbele al equipo de DENFLAB con fotos y dimensiones del espacio: hacen la evaluación sin costo y sin compromiso.
 
 **¿Desde qué edad exactamente se puede usar?**
 El Micro Baby está diseñado para niños que ya caminan de forma estable, lo que en la mayoría de los casos ocurre entre los 12 y 14 meses. No es adecuado para bebés que aún no caminan solos, independientemente de su peso. El criterio no es la edad en el papel, sino la capacidad de moverse de forma autónoma y segura dentro del inflable.

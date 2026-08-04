@@ -64,7 +64,7 @@ Hay una tarea adicional que casi nadie menciona: vigilar el cansancio. Los accid
 
 La instalación segura de la Mini Jungla es responsabilidad del equipo de DENFLAB, y llega resuelta: anclaje perimetral completo sobre la superficie, soplador de 110 V probado en sitio, y verificación de funcionamiento antes de entregar el inflable listo. Lo que corresponde al anfitrión es el contexto: elegir bien la ubicación y saber reaccionar ante el clima.
 
-Sobre la ubicación, tres criterios: superficie plana y libre de piedras, tornillos o raíces que puedan dañar el fondo; distancia de ramas bajas, cables y tendederos considerando los 2.8 metros de altura del inflable; y un contacto eléctrico confiable a distancia razonable, con extensión de buen calibre si hace falta. Todo eso se decide antes del montaje, idealmente cuando confirmas la reserva.
+Sobre la ubicación, tres criterios: superficie plana y libre de piedras, tornillos o raíces que puedan dañar el fondo; distancia de ramas bajas, cables y tendederos considerando los 2.5 metros de altura del inflable; y un contacto eléctrico confiable a distancia razonable, con extensión de buen calibre si hace falta. Todo eso se decide antes del montaje, idealmente cuando confirmas la reserva.
 
 Sobre el clima, el protocolo es claro y conviene conocerlo de memoria. Con lluvia ligera y sin actividad eléctrica, el uso puede continuar con precaución, aunque la superficie mojada se vuelve resbalosa y lo prudente es pausar. Con lluvia fuerte, granizo o tormenta eléctrica, el inflable se desaloja de inmediato, se apaga el soplador y se desconecta. Con viento fuerte —ese viento de tarde de la CDMX que levanta polvo y tira macetas— se desaloja también aunque no llueva: el viento es el riesgo más subestimado en inflables. La regla operativa: primero salen los niños, después se apaga el equipo, y el inflable no se reocupa hasta que las condiciones vuelven a ser claramente normales.
 
@@ -112,7 +112,7 @@ Imprime o guarda esta lista y márcala el día del evento:
 
 - [ ] Área inspeccionada: sin piedras, objetos punzantes ni raíces expuestas
 - [ ] Perímetro libre: se puede caminar alrededor de todo el inflable
-- [ ] Altura libre verificada: sin ramas, cables ni tendederos sobre los 2.8 m del inflable
+- [ ] Altura libre verificada: sin ramas, cables ni tendederos sobre los 2.5 m del inflable
 - [ ] Contacto de 110 V confiable y cable del soplador protegido del paso de niños
 - [ ] Supervisor designado por nombre, con relevo definido si la fiesta dura más de 2 horas
 - [ ] Turnos por edad planeados: pequeños (3–5) separados de grandes (6–10)
@@ -230,4 +230,4 @@ Horario de atención: **Lunes a Viernes 9:00–19:00 | Sábados 9:00–17:00**
 
 ---
 
-*La Mini Jungla (4 × 2.5 × 2.8 m, desde 3 años, 4–5 niños simultáneos) requiere superficie plana exterior y corriente de 110 V. Montaje con anclaje completo, soplador y desmontaje siempre incluidos. DENFLAB atiende toda la CDMX y zonas aledañas.*
+*La Mini Jungla (5 × 2.5 × 2.5 m, desde 3 años, 4–5 niños simultáneos) requiere superficie plana exterior y corriente de 110 V. Montaje con anclaje completo, soplador y desmontaje siempre incluidos. DENFLAB atiende toda la CDMX y zonas aledañas.*

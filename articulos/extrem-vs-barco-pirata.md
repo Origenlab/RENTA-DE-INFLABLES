@@ -8,7 +8,7 @@ draft: false
 ---
 Hay una conversación que se repite casi todas las semanas en el WhatsApp de DENFLAB. Una mamá de Coyoacán, o un papá de Del Valle, escribe algo parecido a esto: "Hola, tengo el jardín, tengo la fecha, y no me decido entre el Extrem y el Barco Pirata. ¿Cuál está mejor?". Y la respuesta honesta, la que damos siempre, es que la pregunta está incompleta. No existe "el mejor" entre estos dos inflables — existe el mejor para tu jardín, para las edades de tus invitados y para el tipo de fiesta que quieres armar. Son los dos modelos grandes del catálogo, pero juegan papeles completamente distintos dentro de una fiesta.
 
-El Extrem es el atleta del catálogo: 4.8 metros de largo con un área de brinco amplia y un tobogán de altura que convierte el inflable en un circuito de adrenalina. El Barco Pirata es el escenógrafo: 7 metros de eslora con mástil y cañones decorativos que transforman cualquier jardín en un puerto del Caribe y funcionan como telón de fondo para las fotos de toda la tarde. Uno vende velocidad; el otro vende inmersión. Y aunque los dos cumplen de sobra como atracción central, elegir el equivocado para tu evento específico es la clase de error que se nota — no en el momento de la reserva, sino a media fiesta.
+El Extrem es el atleta del catálogo: 7 metros de largo con un área de brinco amplia y un tobogán de altura que convierte el inflable en un circuito de adrenalina. El Barco Pirata es el escenógrafo: 6 metros de eslora con mástil y cañones decorativos que transforman cualquier jardín en un puerto del Caribe y funcionan como telón de fondo para las fotos de toda la tarde. Uno vende velocidad; el otro vende inmersión. Y aunque los dos cumplen de sobra como atracción central, elegir el equivocado para tu evento específico es la clase de error que se nota — no en el momento de la reserva, sino a media fiesta.
 
 Esta guía existe para que esa decisión la tomes con datos y no con corazonadas. Vamos a comparar los dos modelos punto por punto: dimensiones, espacio real que necesitas, edades, tipo de juego, valor fotográfico y tipo de evento. Al final vas a saber exactamente cuál pedir — y si tu caso es de los que se resuelven mejor con una llamada, también te decimos cómo hacerla.
 
@@ -20,7 +20,7 @@ Antes de entrar a la tabla comparativa, vale la pena entender qué es cada infla
 
 El Extrem está construido alrededor de una idea: el movimiento continuo. Los niños entran, brincan en el área amplia, suben, se lanzan por el tobogán de altura y vuelven a empezar. Es un ciclo físico que se retroalimenta solo — cada descenso genera las ganas del siguiente. Por eso el Extrem funciona tan bien con niños de 5 años en adelante que ya dominan su cuerpo y buscan reto: no necesita temática, no necesita animador, no necesita que un adulto invente el juego. La arquitectura del inflable es el juego. Si quieres entender a fondo cómo funciona ese circuito, la [guía completa del Extrem](/blog/extrem-guia-renta) lo desglosa zona por zona.
 
-El Barco Pirata está construido alrededor de otra idea igual de poderosa: la narrativa. Sus 7 metros de largo, el mástil, los cañones decorativos — todo está diseñado para que los niños no solo brinquen, sino que jueguen a algo. Son tripulantes, capitanes, vigías. El brinco es el vehículo, pero la historia es el motor. Y hay un efecto secundario que las familias valoran muchísimo: como es el inflable más largo del catálogo, domina visualmente el jardín y aparece de fondo en prácticamente todas las fotos del evento. En la [guía completa del Barco Pirata](/blog/barco-pirata-guia-renta) está el detalle de por qué esos 7 metros importan más de lo que parece.
+El Barco Pirata está construido alrededor de otra idea igual de poderosa: la narrativa. Sus 6 metros de largo, el mástil, los cañones decorativos — todo está diseñado para que los niños no solo brinquen, sino que jueguen a algo. Son tripulantes, capitanes, vigías. El brinco es el vehículo, pero la historia es el motor. Y hay un efecto secundario que las familias valoran muchísimo: como es el inflable más alto del catálogo grande, domina visualmente el jardín y aparece de fondo en prácticamente todas las fotos del evento. En la [guía completa del Barco Pirata](/blog/barco-pirata-guia-renta) está el detalle de por qué esos 6 metros de eslora importan más de lo que parece.
 
 Ninguna de las dos filosofías es superior. Pero cada una brilla en contextos diferentes, y eso es lo que vamos a mapear a continuación.
 
@@ -30,13 +30,13 @@ Ninguna de las dos filosofías es superior. Pero cada una brilla en contextos di
 
 | Criterio | Extrem | Barco Pirata | Contexto práctico |
 |---|---|---|---|
-| **Dimensiones** | 4.8 × 3.3 × 3 m | 7 × 3 × 3 m | El Barco Pirata necesita un jardín notablemente más largo; el Extrem entra en más jardines residenciales de CDMX |
+| **Dimensiones** | 7 × 4.5 × 3.5 m | 6 × 3.8 × 3.8 m | El Extrem es el más largo del catálogo y pide el jardín más amplio; el Barco Pirata entra en más jardines residenciales de CDMX |
 | **Categoría** | Grande | Grande | Ambos son los formatos grandes del catálogo DENFLAB |
 | **Elemento distintivo** | Tobogán de altura + área de brinco amplia | Mástil y cañones decorativos, silueta de barco | El Extrem ofrece circuito físico; el Barco Pirata ofrece escenario temático |
 | **Edad recomendada** | 5 años en adelante | 6–8 niños por turno, escolares | El Extrem arranca un poco antes; el Barco Pirata rinde mejor con niños que ya juegan roles |
 | **Capacidad por turno** | Grupo mediano en rotación (confírmalo según edades) | 6–8 niños simultáneos | Con turnos bien administrados, ambos atienden fiestas numerosas a lo largo de la tarde |
 | **Tipo de juego** | Físico, competitivo, de repetición | Imaginativo, narrativo, de exploración | Niños deportistas → Extrem; niños fantasiosos → Barco Pirata |
-| **Impacto visual** | Alto — la altura del tobogán impone | Máximo — 7 metros dominan cualquier jardín | Si la foto de la fiesta es prioridad, el Barco Pirata es el telón de fondo natural |
+| **Impacto visual** | Alto — la altura del tobogán impone | Máximo — 6 metros de eslora y 3.8 de mástil dominan cualquier jardín | Si la foto de la fiesta es prioridad, el Barco Pirata es el telón de fondo natural |
 | **Temática** | Neutra, combina con cualquier decoración | Pirata, pide decoración coherente | El Extrem se adapta a fiestas de superhéroes, deportes o videojuegos sin fricción |
 | **Uso** | Solo exterior | Solo exterior | Ninguno de los dos es opción para salones cerrados o interiores |
 
@@ -46,9 +46,9 @@ Ninguna de las dos filosofías es superior. Pero cada una brilla en contextos di
 
 ## El Factor Espacio: la Variable que Decide Antes que Cualquier Otra
 
-Aquí está la verdad que ahorra más disgustos: en muchos jardines de la CDMX, la decisión entre Extrem y Barco Pirata no la tomas tú — la toma tu jardín. El Barco Pirata mide 7 metros de largo, y a eso hay que sumarle la holgura perimetral de seguridad en todos los lados para que los niños entren y salgan sin riesgo y para que los supervisores puedan circular alrededor. Un jardín que mide exactamente 7 metros no es un jardín donde cabe el Barco Pirata: es un jardín donde cabe apretado, y apretado no es una categoría aceptable cuando hablamos de niños brincando.
+Aquí está la verdad que ahorra más disgustos: en muchos jardines de la CDMX, la decisión entre Extrem y Barco Pirata no la tomas tú — la toma tu jardín. El Barco Pirata mide 6 metros de largo, y a eso hay que sumarle la holgura perimetral de seguridad en todos los lados para que los niños entren y salgan sin riesgo y para que los supervisores puedan circular alrededor. Un jardín que mide exactamente 6 metros no es un jardín donde cabe el Barco Pirata: es un jardín donde cabe apretado, y apretado no es una categoría aceptable cuando hablamos de niños brincando.
 
-El Extrem, con sus 4.8 × 3.3 metros, es sensiblemente más compacto en huella. Eso lo convierte en el grande "posible" para jardines medianos de colonias como Nápoles, Del Valle o Portales, donde los 7 metros del barco simplemente no entran con la holgura debida. Y ojo con un matiz: el Extrem compensa en vertical lo que cede en horizontal — sus 3 metros de altura con la plataforma del tobogán generan un impacto visual que no se siente "menor" en absoluto.
+El Barco Pirata, con sus 6 × 3.8 metros, es sensiblemente más compacto en huella que el Extrem. Eso lo convierte en el grande "posible" para jardines medianos de colonias como Nápoles, Del Valle o Portales, donde los 7 × 4.5 metros del Extrem simplemente no entran con la holgura debida. Y ojo con un matiz: el barco compensa en vertical lo que cede en horizontal — sus 3.8 metros de altura con el mástil generan un impacto visual que no se siente "menor" en absoluto.
 
 La recomendación operativa es simple y no tiene atajos: mide tu espacio libre real —el rectángulo despejado más grande, sin contar árboles, jardineras ni muebles— antes de enamorarte de cualquiera de los dos modelos. Si el espacio da para ambos, entonces sí, la decisión pasa a los criterios de edad y tipo de evento. Si solo da para el Extrem, la buena noticia es que no estás eligiendo un premio de consolación: estás eligiendo el único grande del catálogo con tobogán de altura. Puedes ver los dos modelos junto con el resto de la línea en la página de [inflables grandes de DENFLAB](/renta-de-inflables-grandes).
 
@@ -61,10 +61,10 @@ Esta matriz resume las combinaciones más comunes que atendemos en CDMX y cuál 
 | Tu escenario | Recomendación | Por qué | Contexto práctico |
 |---|---|---|---|
 | Jardín largo (9+ m libres), fiesta temática | **Barco Pirata** | La temática pirata con el barco real es imbatible | La decoración de toda la fiesta se alinea sola alrededor del inflable |
-| Jardín mediano (6–8 m libres) | **Extrem** | El Barco Pirata no entra con holgura segura | El tobogán mantiene el factor "wow" sin exigir 7 metros de largo |
+| Jardín mediano (6–8 m libres) | **Barco Pirata** | El Extrem no entra con holgura segura | El mástil mantiene el factor "wow" sin exigir 9 metros de largo |
 | Niños de 5 a 7 años en su mayoría | **Barco Pirata** | El juego imaginativo domina a esa edad | Los cañones y el mástil disparan horas de juego de roles |
 | Niños de 8 a 12 años en su mayoría | **Extrem** | A esa edad buscan reto físico, no cuento | El tobogán de altura es el reto que los preadolescentes respetan |
-| Kermés o evento escolar masivo | **Barco Pirata** | Máximo magnetismo visual entre varias atracciones | En un patio con 10 stands, el barco de 7 metros organiza el flujo solo |
+| Kermés o evento escolar masivo | **Barco Pirata** | Máximo magnetismo visual entre varias atracciones | En un patio con 10 stands, el barco de 6 metros organiza el flujo solo |
 | Fiesta sin temática definida | **Extrem** | Diseño neutro que combina con todo | No obliga a decorar en clave pirata para que se vea coherente |
 | Prioridad: fotos memorables | **Barco Pirata** | Es telón de fondo para fotos por diseño | Cada foto del evento sale con un barco pirata detrás |
 | Prioridad: que no paren de moverse | **Extrem** | El circuito brinco-subida-tobogán no satura | Los niños duran mucho más tiempo activos que en un inflable plano |
@@ -77,7 +77,7 @@ Esta matriz resume las combinaciones más comunes que atendemos en CDMX y cuál 
 
 Este es el proceso de decisión que aplicamos cuando una familia nos escribe indecisa. Funciona porque va eliminando opciones en el orden correcto — primero lo físico, después lo emocional.
 
-**Paso 1 — Mide tu espacio libre real.** Con cinta métrica, no a ojo. Necesitas el largo y ancho del rectángulo despejado más grande de tu jardín. Si el resultado no da para los 7 metros del Barco Pirata más su holgura perimetral, la decisión ya está tomada: Extrem. No sigas al paso 2 con la ilusión de "hacerlo caber".
+**Paso 1 — Mide tu espacio libre real.** Con cinta métrica, no a ojo. Necesitas el largo y ancho del rectángulo despejado más grande de tu jardín. Si el resultado no da para los 7 metros del Extrem más su holgura perimetral, la decisión ya está tomada: Barco Pirata. No sigas al paso 2 con la ilusión de "hacerlo caber".
 
 **Paso 2 — Define la edad dominante del grupo.** No la edad del festejado: la edad de la mayoría de los invitados. Si el 70% tiene entre 5 y 7 años, el juego narrativo del Barco Pirata les va a rendir más. Si el 70% tiene entre 8 y 12, el tobogán del Extrem es lo que va a mantenerlos enganchados toda la tarde.
 
@@ -110,7 +110,7 @@ Los números y las matrices ayudan, pero hay algo que solo se entiende viendo lo
 
 **Con el Extrem, la curva de energía es una meseta alta y sostenida.** La primera media hora es exploratoria: los niños prueban el brinco, los más audaces estrenan el tobogán y desbloquean al resto del grupo. De ahí en adelante, el circuito se administra prácticamente solo — brincar, subir, lanzarse, repetir — y la fila del tobogán se convierte en el centro social de la fiesta. Los niños no se aburren porque cada bajada es un pequeño evento, y la dinámica competitiva natural ("ahora de espaldas", "a ver quién llega más lejos") renueva el interés sin intervención adulta. El desgaste llega por cansancio físico genuino, no por aburrimiento, y eso suele coincidir muy bien con la hora del pastel.
 
-**Con el Barco Pirata, la curva es una historia con capítulos.** El arranque es explosivo — pocos momentos en una fiesta infantil se comparan con el instante en que un barco de 7 metros termina de inflarse frente a veinte niños. La primera hora es de conquista pura: todos quieren abordar. Después el juego muta, y aquí está la magia particular de este inflable: los niños empiezan a inventar tramas. El mástil se vuelve puesto de vigilancia, los cañones disparan contra barcos enemigos invisibles, alguien es nombrado capitán y alguien es el prisionero. Si el anfitrión alimenta esa narrativa con una búsqueda del tesoro o accesorios simples, el barco sostiene la fiesta completa sin repetirse.
+**Con el Barco Pirata, la curva es una historia con capítulos.** El arranque es explosivo — pocos momentos en una fiesta infantil se comparan con el instante en que un barco de 6 metros termina de inflarse frente a veinte niños. La primera hora es de conquista pura: todos quieren abordar. Después el juego muta, y aquí está la magia particular de este inflable: los niños empiezan a inventar tramas. El mástil se vuelve puesto de vigilancia, los cañones disparan contra barcos enemigos invisibles, alguien es nombrado capitán y alguien es el prisionero. Si el anfitrión alimenta esa narrativa con una búsqueda del tesoro o accesorios simples, el barco sostiene la fiesta completa sin repetirse.
 
 La conclusión práctica: si tu grupo necesita quemar energía física, el Extrem la quema mejor. Si tu grupo disfruta el juego de roles y quieres que la fiesta tenga argumento, el Barco Pirata es un escenario que ningún otro inflable del catálogo puede replicar.
 
@@ -124,7 +124,7 @@ Después de acompañar a muchas familias en esta decisión, hay patrones de erro
 
 **Error 2 — Elegir por la edad del festejado e ignorar la del grupo.** Que el cumpleañero tenga 10 años no significa que sus veinte invitados los tengan. Si la lista incluye una docena de primos de 4 a 6 años, un Extrem pensado para preadolescentes va a dejar a la mitad de la fiesta viendo desde afuera.
 
-**Error 3 — Asumir que "más grande" es automáticamente "mejor".** Los 7 metros del barco son un argumento poderoso, pero un inflable enorme en un jardín justo genera más problemas que impacto: circulación incómoda, supervisión difícil y cero espacio para el resto de la fiesta. El tamaño correcto siempre es relativo al espacio.
+**Error 3 — Asumir que "más grande" es automáticamente "mejor".** Los 6 metros del barco son un argumento poderoso, pero un inflable enorme en un jardín justo genera más problemas que impacto: circulación incómoda, supervisión difícil y cero espacio para el resto de la fiesta. El tamaño correcto siempre es relativo al espacio.
 
 **Error 4 — Decidir sin consultar disponibilidad.** Semanas de análisis cuidadoso se evaporan cuando llamas el jueves para el sábado y tu elegido ya está reservado. Consulta disponibilidad al inicio del proceso, no al final; apartar la fecha con anticipo te da certeza mientras terminas de organizar el resto.
 
@@ -180,7 +180,7 @@ Por supuesto. El tobogán del Extrem y el juego de roles del Barco Pirata no dis
 
 ## ¿Y el Tercero en Discordia? Dónde Queda el Castillo Blanco en Esta Comparación
 
-Una aclaración que evita confusiones frecuentes: el catálogo de DENFLAB tiene un tercer inflable de gran formato, el Castillo Blanco de 5 × 4 × 3.5 metros, y algunas familias lo meten a esta comparación por puro tamaño. Es un error de categoría. El Castillo Blanco no compite con el Extrem ni con el Barco Pirata porque juega en otra liga: es el modelo premium en blanco y dorado diseñado para bodas, XV años y eventos formales, donde la estética del inflable tiene que integrarse a una decoración elegante en lugar de dominarla con color.
+Una aclaración que evita confusiones frecuentes: el catálogo de DENFLAB tiene un tercer inflable de gran formato, el Castillo Blanco de 5 × 7 × 4 metros, y algunas familias lo meten a esta comparación por puro tamaño. Es un error de categoría. El Castillo Blanco no compite con el Extrem ni con el Barco Pirata porque juega en otra liga: es el modelo premium en blanco y dorado diseñado para bodas, XV años y eventos formales, donde la estética del inflable tiene que integrarse a una decoración elegante en lugar de dominarla con color.
 
 Si tu evento es un cumpleaños infantil, una kermés o una fiesta temática, tu comparación correcta es la de este artículo: Extrem contra Barco Pirata. Si tu evento es una boda con niños invitados, unos XV años o una celebración donde el fotógrafo profesional manda, entonces el Castillo Blanco entra a la conversación con argumentos propios — y esa comparación a tres bandas la desarrollamos completa en [¿qué inflable grande rentar en CDMX?](/blog/barco-pirata-vs-inflables-grandes), donde los tres formatos grandes se enfrentan evento por evento.
 
@@ -194,7 +194,7 @@ Si llegaste hasta aquí saltándote secciones (no te juzgamos: organizar una fie
 
 | Si tu situación es... | Tu inflable es... | Contexto práctico |
 |---|---|---|
-| Jardín de 9+ metros libres y fiesta temática | Barco Pirata | El escenario pirata de 7 metros no tiene rival en el catálogo |
+| Jardín de 9+ metros libres y fiesta temática | Barco Pirata | El escenario pirata de 6 metros no tiene rival en el catálogo |
 | Jardín mediano, niños activos | Extrem | El único grande con tobogán de altura, en huella más compacta |
 | Mayoría de invitados de 5 a 7 años | Barco Pirata | Juego imaginativo, capacidad 6–8 por turno bien administrada |
 | Mayoría de invitados de 8 a 12 años | Extrem | Adrenalina y reto físico que esa edad exige |
@@ -211,7 +211,7 @@ Un último apunte antes de las preguntas frecuentes, porque resume el espíritu 
 ## Artículos relacionados
 
 - [Extrem en CDMX: la guía definitiva del inflable con tobogán](/blog/extrem-guia-renta)
-- [Barco Pirata: la guía completa del inflable de 7 metros](/blog/barco-pirata-guia-renta)
+- [Barco Pirata: la guía completa del inflable de 6 metros](/blog/barco-pirata-guia-renta)
 - [El Extrem: cuando brincar ya no es suficiente](/blog/extrem-tobogan-adrenalina)
 - [¿Qué inflable grande rentar en CDMX? Barco Pirata vs Extrem vs Castillo Blanco](/blog/barco-pirata-vs-inflables-grandes)
 - [Extrem para fiestas de niños grandes: 8 a 12 años](/blog/extrem-fiestas-ninos-grandes)

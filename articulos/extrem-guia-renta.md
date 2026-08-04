@@ -7,7 +7,7 @@ pubDate: 2026-07-09
 draft: false
 ---
 
-Hay un momento exacto en una fiesta infantil en el que todo cambia. No es cuando llega el pastel, ni cuando el payaso saca su primer truco. Es cuando la camioneta de DENFLAB estaciona frente al jardín y dos personas comienzan a extender sobre el pasto una lona brillante, colorida, enorme. Los niños que estaban corriendo de un lado al otro se detienen en seco. Uno señala. Otro pregunta en voz alta "¿qué es eso?". Y entonces el soplador arranca con su zumbido característico, y en quince minutos exactos, donde antes había pasto plano hay una montaña de vinil inflado de casi tres metros de altura con un tobogán que baja desde las alturas como una promesa de adrenalina pura.
+Hay un momento exacto en una fiesta infantil en el que todo cambia. No es cuando llega el pastel, ni cuando el payaso saca su primer truco. Es cuando la camioneta de DENFLAB estaciona frente al jardín y dos personas comienzan a extender sobre el pasto una lona brillante, colorida, enorme. Los niños que estaban corriendo de un lado al otro se detienen en seco. Uno señala. Otro pregunta en voz alta "¿qué es eso?". Y entonces el soplador arranca con su zumbido característico, y en quince minutos exactos, donde antes había pasto plano hay una montaña de vinil inflado de tres metros y medio de altura con un tobogán que baja desde las alturas como una promesa de adrenalina pura.
 
 Eso es el Extrem. Y ese momento — el momento en que los niños lo ven aparecer y sus ojos se abren como platos — es exactamente la razón por la que existe esta guía.
 
@@ -33,8 +33,8 @@ La siguiente tabla reúne todos los datos técnicos del Extrem con notas context
 
 | Especificación | Valor | Nota contextual |
 |---|---|---|
-| **Dimensiones del inflable** | 4.8 m × 3.3 m × 3 m | La altura de 3 m equivale a un edificio de un piso. En términos visuales, domina cualquier jardín y se convierte en el punto focal natural de la fiesta. |
-| **Espacio mínimo requerido** | 6.3 m × 4.8 m | Incluye el margen de seguridad perimetral indispensable. Siempre mide el espacio libre sin contar bardas, árboles ni muebles del jardín. |
+| **Dimensiones del inflable** | 7 m × 4.5 m × 3.5 m | La altura de 3.5 m supera la de un piso completo. En términos visuales, domina cualquier jardín y se convierte en el punto focal natural de la fiesta. |
+| **Espacio mínimo requerido** | 9 m × 6.5 m | Incluye el margen de seguridad perimetral indispensable. Siempre mide el espacio libre sin contar bardas, árboles ni muebles del jardín. |
 | **Altura de la plataforma del tobogán** | ~2.5 m | Equivale a poco más que la cabeza de un adulto alto parado sobre otro adulto. Suficiente para que se sientan la altura y la adrenalina; diseñado para ser seguro en todo momento. |
 | **Edad recomendada** | 6 a 14 años | El rango no es arbitrario: a los 6 años los niños ya tienen la coordinación para subir la rampa y la comprensión para seguir instrucciones de seguridad. A los 14, el peso y tamaño empiezan a ser relevantes. |
 | **Capacidad simultánea** | 8 a 12 niños | El rango depende del tamaño de los niños. Para grupos de 6 a 8 años, 12 es totalmente manejable. Para niños de 10 a 14, se recomienda no pasar de 8 simultáneos para mantener fluidez en el circuito. |
@@ -43,7 +43,7 @@ La siguiente tabla reúne todos los datos técnicos del Extrem con notas context
 | **Alimentación eléctrica** | 110 V (soplador incluido) | El soplador debe permanecer encendido durante todo el uso. Requiere una toma de corriente estándar a máximo 15 metros del punto de instalación. |
 | **Instalación incluida** | Sí — siempre | Entrega, montaje, supervisión técnica al inicio y desmontaje al final siempre están incluidos. No hay cargos sorpresa. |
 
-> **Consejo práctico:** Antes de reservar, mide dos veces el espacio disponible. El error más común es medir solo las dimensiones del inflable (4.8 × 3.3 m) y olvidar los 75 cm de margen de seguridad perimetral que se necesitan en cada lado para el uso seguro.
+> **Consejo práctico:** Antes de reservar, mide dos veces el espacio disponible. El error más común es medir solo las dimensiones del inflable (7 × 4.5 m) y olvidar el metro de margen de seguridad perimetral que se necesita en cada lado para el uso seguro.
 
 ---
 
@@ -81,7 +81,7 @@ Una de las preguntas más frecuentes que recibimos es: "¿cuál me conviene más
 |---|---|---|---|
 | **Tobogán integrado** | Sí — 2.5 m de altura | No | No |
 | **Capacidad simultánea** | 8–12 niños | 10–15 niños | 8–12 niños |
-| **Espacio mínimo requerido** | 6.3 × 4.8 m | Mayor (verificar) | Mayor (verificar) |
+| **Espacio mínimo requerido** | 9 × 6.5 m | Menor (7 × 6.5 m) | Menor (8 × 5.8 m) |
 | **Edad ideal** | 6 a 14 años | 4 a 12 años | 4 a 12 años |
 | **Nivel de adrenalina** | Alto — circuito con altura | Medio | Medio |
 | **Ideal para** | Fiestas de niños mayores, cumpleaños de 8–12 años | Grupos grandes mixtos, eventos corporativos | Temática de piratas, niños más pequeños |
@@ -124,7 +124,7 @@ En cuanto al tipo de evento, el Extrem es perfecto para cumpleaños infantiles, 
 
 Esta sección es la que más valor tiene si estás considerando seriamente la renta. Aquí van los consejos de insider que generalmente no aparecen en ninguna página de producto.
 
-**El espacio "suficiente" y el espacio "ideal" no son lo mismo.** La ficha técnica dice 6.3 × 4.8 m como mínimo, y eso es verdad: el inflable cabe. Pero si tienes la posibilidad de ofrecer 7 × 5.5 m o más, la diferencia en la experiencia es notable. Más espacio perimetral permite que los niños que salen del tobogán no choquen con los que esperan turno, y facilita la supervisión del adulto responsable. El mínimo es el mínimo; el ideal es siempre un poco más.
+**El espacio "suficiente" y el espacio "ideal" no son lo mismo.** La ficha técnica dice 9 × 6.5 m como mínimo, y eso es verdad: el inflable cabe. Pero si tienes la posibilidad de ofrecer 10 × 7.5 m o más, la diferencia en la experiencia es notable. Más espacio perimetral permite que los niños que salen del tobogán no choquen con los que esperan turno, y facilita la supervisión del adulto responsable. El mínimo es el mínimo; el ideal es siempre un poco más.
 
 **El soplador nunca se apaga durante el evento.** Esto sorprende a varios papás que asumen que el inflable se infla una vez y listo. No: el soplador debe mantenerse encendido continuamente para compensar la pérdida natural de aire por las costuras y el movimiento. Necesitas una toma de corriente de 110 V a máximo 15 metros del punto de instalación. Antes de confirmar tu reserva, identifica físicamente esa toma. Si no la tienes accesible, necesitas una extensión de buena calidad — mínimo calibre 14 AWG.
 
@@ -204,9 +204,9 @@ Antes de confirmar tu reserva, recorre este checklist con metro en mano. No asum
 
 ### Dimensiones Mínimas Requeridas
 
-- Largo disponible libre: mínimo **6.3 metros**
-- Ancho disponible libre: mínimo **4.8 metros**
-- Altura libre sin ramas ni techado: mínimo **3.5 metros**
+- Largo disponible libre: mínimo **9 metros**
+- Ancho disponible libre: mínimo **6.5 metros**
+- Altura libre sin ramas ni techado: mínimo **4.5 metros**
 
 ### Cómo Medir Correctamente tu Jardín
 
@@ -214,7 +214,7 @@ Antes de confirmar tu reserva, recorre este checklist con metro en mano. No asum
 2. Mide el largo en línea recta de límite a límite (barda, muro o cerco).
 3. Repite la medición para el ancho perpendicular.
 4. Resta cualquier obstáculo fijo: árboles, macetones grandes, escalones, fuentes.
-5. El resultado neto debe ser igual o mayor que 6.3 × 4.8 m.
+5. El resultado neto debe ser igual o mayor que 9 × 6.5 m.
 6. Verifica que no haya ramas, cables ni salientes a menos de 3.5 m de altura sobre el área medida.
 
 ### Compatibilidad de Superficies
@@ -291,7 +291,7 @@ Sí, completamente. El rango de edad recomendado comienza en los 6 años precisa
 
 ### ¿Puede usarse en interiores — en un salón de fiestas o en un espacio techado?
 
-No. El Extrem es de uso exclusivo en exteriores. Esto se debe a sus dimensiones (3 metros de altura), a los requerimientos de ventilación del soplador y a que no existen salones residenciales estándar con las dimensiones libres necesarias para instalarlo de manera segura. Si tu evento es en interiores, consulta con nuestro equipo — tenemos otros modelos más compactos que pueden ser una opción viable.
+No. El Extrem es de uso exclusivo en exteriores. Esto se debe a sus dimensiones (3.5 metros de altura), a los requerimientos de ventilación del soplador y a que no existen salones residenciales estándar con las dimensiones libres necesarias para instalarlo de manera segura. Si tu evento es en interiores, consulta con nuestro equipo — tenemos otros modelos más compactos que pueden ser una opción viable.
 
 ### ¿Qué pasa si llueve el día de mi evento?
 

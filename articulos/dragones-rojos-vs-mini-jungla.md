@@ -6,9 +6,9 @@ category: medianos
 pubDate: 2026-07-09
 draft: false
 ---
-En el WhatsApp de DENFLAB hay una conversación que se repite tanto que ya casi tiene guion. Un papá de Coyoacán manda dos capturas de pantalla —una de los Dragones Rojos, otra de la Mini Jungla— seguidas de un mensaje de tres palabras: *"¿cuál está mejor?"*. Y la respuesta honesta, la que damos siempre antes de cualquier otra cosa, es una contrapregunta: *¿cuántos años tienen los niños y de qué es la fiesta?* Porque estos dos inflables, que en las fotos parecen primos hermanos —ambos medianos, ambos de 4 metros de largo, ambos con temática—, en realidad están diseñados para responder a fiestas distintas. Elegir entre ellos sin entender esa diferencia es como elegir entre dos películas por el color del póster.
+En el WhatsApp de DENFLAB hay una conversación que se repite tanto que ya casi tiene guion. Un papá de Coyoacán manda dos capturas de pantalla —una de los Dragones Rojos, otra de la Mini Jungla— seguidas de un mensaje de tres palabras: *"¿cuál está mejor?"*. Y la respuesta honesta, la que damos siempre antes de cualquier otra cosa, es una contrapregunta: *¿cuántos años tienen los niños y de qué es la fiesta?* Porque estos dos inflables, que en las fotos parecen primos hermanos —ambos medianos, ambos de 5 metros de largo, ambos con temática—, en realidad están diseñados para responder a fiestas distintas. Elegir entre ellos sin entender esa diferencia es como elegir entre dos películas por el color del póster.
 
-Los Dragones Rojos (4×2.5×2.5 m) son el mediano de la adrenalina: tobogán integrado, dragones escarlata en las paredes, y un rango de edad de 4 a 10 años que lo convierte en el rey de los cumpleaños de primaria. La Mini Jungla (4×2.5×2.8 m) es el mediano de la puerta de entrada: temática de selva, una rampa de subida suave en lugar de tobogán de descenso pronunciado, y una recomendación de edad *desde los 3 años* que ningún otro mediano del catálogo puede ofrecer. Mismo segmento, filosofías opuestas.
+Los Dragones Rojos (5×2.5×2.8 m) son el mediano de la adrenalina: tobogán integrado, dragones escarlata en las paredes, y un rango de edad de 4 a 10 años que lo convierte en el rey de los cumpleaños de primaria. La Mini Jungla (5×2.5×2.5 m) es el mediano de la puerta de entrada: temática de selva, una rampa de subida suave en lugar de tobogán de descenso pronunciado, y una recomendación de edad *desde los 3 años* que ningún otro mediano del catálogo puede ofrecer. Mismo segmento, filosofías opuestas.
 
 Esta comparativa pone los dos modelos frente a frente con todos los datos: dimensiones reales, tipo de juego, edades, capacidad, temática, escenarios donde cada uno gana y escenarios donde cada uno pierde. Al final vas a tener la respuesta a "¿cuál está mejor?" — que siempre fue "¿mejor para quién?".
 
@@ -16,9 +16,9 @@ Esta comparativa pone los dos modelos frente a frente con todos los datos: dimen
 
 ## Los Dos Contendientes en Corto
 
-**Dragones Rojos** es el inflable mediano de mayor impacto visual del catálogo DENFLAB. Rojo intenso, dragones estampados, 4 metros de largo por 2.5 de ancho y 2.5 de alto, con su arma secreta integrada: un tobogán. Esa combinación de zona de brinco más deslizada crea un circuito natural —subir, brincar, deslizarse, repetir— que mantiene a niños de 4 a 10 años en movimiento perpetuo, con capacidad para 4 a 10 niños según cómo organices los turnos. Su [guía completa de renta](/blog/dragones-rojos-guia-renta) detalla especificaciones y proceso.
+**Dragones Rojos** es el inflable mediano de mayor impacto visual del catálogo DENFLAB. Rojo intenso, dragones estampados, 5 metros de largo por 2.5 de ancho y 2.8 de alto —el mediano más alto del catálogo—, con su arma secreta integrada: un tobogán. Esa combinación de zona de brinco más deslizada crea un circuito natural —subir, brincar, deslizarse, repetir— que mantiene a niños de 4 a 10 años en movimiento perpetuo, con capacidad para 4 a 10 niños según cómo organices los turnos. Su [guía completa de renta](/blog/dragones-rojos-guia-renta) detalla especificaciones y proceso.
 
-**Mini Jungla** es el mediano pensado para que nadie se quede afuera. Verde selva, animales, 4 metros de largo por 2.5 de ancho y 2.8 de alto —fíjate: es *más alta* que los Dragones Rojos—, con una rampa de subida suave que un niño de 3 años puede escalar solo, a su ritmo, sin la exigencia física de un tobogán pronunciado. Capacidad de 4 a 5 niños simultáneos y recomendación desde los 3 años, lo que la convierte en el puente perfecto entre la etapa del Micro Baby y la de los medianos "de grandes". Su [guía completa](/blog/mini-jungla-guia-renta) profundiza en todos los detalles.
+**Mini Jungla** es el mediano pensado para que nadie se quede afuera. Verde selva, animales, 5 metros de largo por 2.5 de ancho y 2.5 de alto —fíjate: es *más baja* que los Dragones Rojos—, con una rampa de subida suave que un niño de 3 años puede escalar solo, a su ritmo, sin la exigencia física de un tobogán pronunciado. Capacidad de 4 a 5 niños simultáneos y recomendación desde los 3 años, lo que la convierte en el puente perfecto entre la etapa del Micro Baby y la de los medianos "de grandes". Su [guía completa](/blog/mini-jungla-guia-renta) profundiza en todos los detalles.
 
 La intuición rápida antes de las tablas: si tu grupo dominante tiene 6 a 9 años, los Dragones Rojos casi siempre ganan. Si tienes niños de 3 a 5 en cantidad importante, la Mini Jungla casi siempre gana. La zona de batalla real es el rango intermedio — y ahí es donde las tablas siguientes deciden.
 
@@ -30,8 +30,8 @@ Un dato de contexto que ayuda a relajar la decisión: ambos modelos comparten el
 
 | Criterio | Dragones Rojos | Mini Jungla | Contexto práctico |
 |---|---|---|---|
-| Dimensiones | 4 × 2.5 × 2.5 m | 4 × 2.5 × 2.8 m | Misma huella en el piso; la Mini Jungla es 30 cm más alta — revisa ramas y cables si tu jardín tiene obstáculos aéreos |
-| Espacio libre mínimo | 5.5 × 4 m | 5.5 × 4 m | Empate técnico: si te cabe uno, te cabe el otro |
+| Dimensiones | 5 × 2.5 × 2.8 m | 5 × 2.5 × 2.5 m | Misma huella en el piso; los Dragones Rojos son 30 cm más altos — revisa ramas y cables si tu jardín tiene obstáculos aéreos |
+| Espacio libre mínimo | 7 × 4.5 m | 7 × 4.5 m | Empate técnico: si te cabe uno, te cabe el otro |
 | Edad recomendada | 4 a 10 años | Desde 3 años | La diferencia decisiva: la Mini Jungla admite a los de 3; los Dragones exigen la madurez motriz del tobogán |
 | Capacidad simultánea | Hasta 6–8 en brinco, con turnos en tobogán | 4–5 niños | Los Dragones rotan más niños por hora en fiestas grandes |
 | Elemento estrella | Tobogán integrado | Rampa de subida suave | Tobogán = adrenalina y circuito; rampa = autonomía para pequeños |
@@ -41,7 +41,7 @@ Un dato de contexto que ayuda a relajar la decisión: ambos modelos comparten el
 | Compatibilidad con temáticas | Dragones, dinosaurios, caballeros, héroes, Pokémon | Safari, animales, selva, exploradores, dinosaurios | Los dinosaurios, curiosamente, funcionan en ambos |
 | Riesgo de conflicto entre edades | Mayor si entran menores de 4 | Menor: el diseño perdona la torpeza de los chiquitos | Con lista de invitados de edades mixtas, la Mini Jungla da menos sustos |
 
-> **Dato que sorprende a todos:** la Mini Jungla es más alta que los Dragones Rojos (2.8 m contra 2.5 m). En fotos frontales parecen del mismo tamaño, pero la jungla gana en presencia vertical. Si tu criterio era "el rojo se ve más grande", ahora ya sabes que es efecto óptico del color.
+> **Dato que sorprende a todos:** los Dragones Rojos son más altos que la Mini Jungla (2.8 m contra 2.5 m). En fotos frontales parecen del mismo tamaño, pero el rojo gana en presencia vertical. Si tu criterio era "las dos se ven igual", ahora ya sabes que hay 30 cm de diferencia.
 
 ---
 
@@ -82,7 +82,7 @@ Traducción práctica: el tobogán es un juego de *emoción*, la rampa es un jue
 
 Y de paso, los errores clásicos que vemos al comparar estos dos modelos — para que no los repitas:
 
-- **Elegir por la foto de portada:** el rojo fotografía más "grande", pero ya sabes que la Mini Jungla es 30 cm más alta. Las decisiones se toman con las tablas, no con el thumbnail.
+- **Elegir por la foto de portada:** el rojo fotografía más "grande", y además lo es: 30 cm más alto que la Mini Jungla. Las decisiones se toman con las tablas, no con el thumbnail.
 - **Comprar la opinión del festejado sin auditar a los invitados:** el niño de 5 años que pide "el del tobogán" no sabe que la mitad de su lista tiene 3 años. Tú sí.
 - **Suponer que "mediano" significa lo mismo en todos lados:** en el mercado de renta de la CDMX hay "medianos" de todos los tamaños; compara siempre dimensiones numéricas, no etiquetas.
 - **Dejar la temática para el final:** si la fiesta ya tiene decoración de safari comprada, la comparativa se acabó antes de empezar — y no pasa nada, esa también es una forma válida de decidir.
@@ -126,7 +126,7 @@ La lectura entre líneas: los Dragones Rojos sostienen una fiesta más larga y m
 
 ## Tips Concretos para Cualquiera de los Dos
 
-- **El espacio requerido es idéntico (5.5×4 m libres), así que mide una sola vez** con cinta métrica y tendrás la respuesta para ambos modelos. Recuerda restar macetas, muebles de jardín y el radio de las ramas bajas.
+- **El espacio requerido es idéntico (7×4.5 m libres), así que mide una sola vez** con cinta métrica y tendrás la respuesta para ambos modelos. Recuerda restar macetas, muebles de jardín y el radio de las ramas bajas.
 - **Si eliges Dragones Rojos con niños de 4 años en la lista,** asigna un adulto a la salida del tobogán durante toda la fiesta: es el punto donde los chiquitos necesitan una mano, como detalla la [guía de seguridad de los Dragones Rojos](/blog/dragones-rojos-guia-seguridad).
 - **Si eliges Mini Jungla con niños de 8+ en la lista,** prepara dinámicas paralelas (carreras de relevos hacia la rampa, búsqueda del tesoro por el jardín) para que los grandes no agoten el interés en la primera hora.
 - **Los dos son de uso exclusivo exterior:** jardín, patio o terraza abierta amplia. Para eventos bajo techo, el único camino del catálogo es el [Micro Baby en interiores](/blog/micro-baby-fiestas-en-interiores).
@@ -160,7 +160,7 @@ El rango recomendado de los medianos llega a los 10 años por peso y dinámica d
 
 ### ¿Puedo rentar los dos para el mismo evento?
 
-Sí, y en eventos grandes —kermeses, reuniones familiares numerosas, festivales escolares— es una configuración espectacular: la Mini Jungla como zona de pequeños y los Dragones Rojos como circuito de grandes, cada uno con su público natural y cero conflictos de edad. Necesitas espacio para ambos (cada uno con sus 5.5×4 metros libres) y dos tomas de corriente. Consulta disponibilidad conjunta con anticipación porque son de los modelos más solicitados del catálogo.
+Sí, y en eventos grandes —kermeses, reuniones familiares numerosas, festivales escolares— es una configuración espectacular: la Mini Jungla como zona de pequeños y los Dragones Rojos como circuito de grandes, cada uno con su público natural y cero conflictos de edad. Necesitas espacio para ambos (cada uno con sus 7×4.5 metros libres) y dos tomas de corriente. Consulta disponibilidad conjunta con anticipación porque son de los modelos más solicitados del catálogo.
 
 ### ¿Cuál aguanta mejor una kermés de todo el día?
 
@@ -174,10 +174,10 @@ Pregunta real y frecuente. Nuestra experiencia: gana la edad de los invitados, s
 
 ## Requisitos de Espacio e Instalación: Idénticos para Ambos
 
-Aquí viene la buena noticia logística de esta comparativa: como ambos modelos comparten huella (4×2.5 m de base) y requisito de espacio libre (5.5×4 m), la verificación de tu jardín se hace una sola vez y sirve para los dos. El checklist:
+Aquí viene la buena noticia logística de esta comparativa: como ambos modelos comparten huella (5×2.5 m de base) y requisito de espacio libre (7×4.5 m), la verificación de tu jardín se hace una sola vez y sirve para los dos. El checklist:
 
-- [ ] **Rectángulo libre de 5.5×4 m medido con cinta métrica** — no a pasos ni de memoria; descuenta jardineras, muebles fijos y macetas grandes
-- [ ] **Altura libre sin obstáculos:** ninguna rama, cable o tendedero a menos de 3 m sobre el área — recuerda que la Mini Jungla sube a 2.8 m
+- [ ] **Rectángulo libre de 7×4.5 m medido con cinta métrica** — no a pasos ni de memoria; descuenta jardineras, muebles fijos y macetas grandes
+- [ ] **Altura libre sin obstáculos:** ninguna rama, cable o tendedero a menos de 3.8 m sobre el área — recuerda que los Dragones Rojos suben a 2.8 m
 - [ ] **Superficie firme y razonablemente plana:** pasto, concreto, adoquín o cerámica exterior; desniveles mayores a 10 cm se avisan al reservar
 - [ ] **Toma de corriente de 110 V a máximo 15 m** del punto de instalación; extensiones de mayor distancia se coordinan previamente
 - [ ] **Acceso para el equipo:** camioneta razonablemente cerca y recorrido a pie menor a 30 m con el bulto enrollado

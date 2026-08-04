@@ -244,6 +244,6 @@ Horario de atención: **Lunes a Viernes 9:00–19:00 | Sábados 9:00–17:00**
 
 ---
 
-*Los Gusanitos requieren un espacio mínimo de 5.5 × 4.8 metros libres, superficie plana exterior y acceso a corriente eléctrica de 110 V. Montaje, soplador y desmontaje siempre incluidos en el precio. Anticipo del 30% para reservar, saldo del 70% el día del evento. DENFLAB opera en toda la CDMX: Polanco, Lomas de Chapultepec, Santa Fe, Miguel Hidalgo, Coyoacán, Del Valle, Tlalpan, Nápoles, Pedregal, Satélite y zonas aledañas.*
+*Los Gusanitos requieren un espacio mínimo de 7 × 6.5 metros libres, superficie plana exterior y acceso a corriente eléctrica de 110 V. Montaje, soplador y desmontaje siempre incluidos en el precio. Anticipo del 30% para reservar, saldo del 70% el día del evento. DENFLAB opera en toda la CDMX: Polanco, Lomas de Chapultepec, Santa Fe, Miguel Hidalgo, Coyoacán, Del Valle, Tlalpan, Nápoles, Pedregal, Satélite y zonas aledañas.*
 
 [**Reservar los Gusanitos — disponibilidad limitada en fines de semana →**](https://wa.me/5215539048634?text=Quiero%20reservar%20los%20Gusanitos%20de%20DENFLAB%20para%20un%20evento%20grande.%20Tenemos%20aproximadamente%20__%20ni%C3%B1os%20y%20el%20evento%20es%20el%20d%C3%ADa%20__%20en%20__%20colonia.%20%C2%BFEst%C3%A1%20disponible%3F)

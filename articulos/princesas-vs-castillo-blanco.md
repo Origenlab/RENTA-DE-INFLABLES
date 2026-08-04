@@ -18,7 +18,7 @@ La respuesta corta, para quien tiene prisa: si el evento es un cumpleaños infan
 
 El Castillo de Princesas es un inflable temático en el sentido más puro del término. Su vinilo rosado, sus torres y sus coronas no intentan ser discretos: intentan ser el centro absoluto de la atención de un grupo de niñas de entre 3 y 9 años. Es, no por casualidad, el inflable más fotografiado de todo el catálogo DENFLAB — el que más aparece en historias de Instagram, en álbumes familiares y en las fotos que las mamás se mandan unas a otras cuando están planeando la siguiente fiesta. Su trabajo es generar emoción inmediata en su público, y lo hace desde el primer segundo en que una niña lo ve desde la puerta del jardín.
 
-El Castillo Blanco parte de la filosofía opuesta. Con sus 5 × 4 × 3.5 metros es el inflable más espacioso del catálogo, pero su diseño blanco y dorado renuncia deliberadamente al protagonismo visual. No tiene personajes, no tiene colores brillantes, no tiene temática infantil reconocible. Su trabajo no es emocionar a primera vista: es integrarse a la estética de un evento formal sin romperla, entretener a los niños invitados sin aparecer como una mancha de color en las fotos profesionales, y verse elegante bajo la iluminación cálida de una recepción nocturna. Es un inflable que fue pensado para adultos que organizan eventos, no para niños que piden inflables.
+El Castillo Blanco parte de la filosofía opuesta. Con sus 5 × 7 × 4 metros es el inflable más espacioso del catálogo, pero su diseño blanco y dorado renuncia deliberadamente al protagonismo visual. No tiene personajes, no tiene colores brillantes, no tiene temática infantil reconocible. Su trabajo no es emocionar a primera vista: es integrarse a la estética de un evento formal sin romperla, entretener a los niños invitados sin aparecer como una mancha de color en las fotos profesionales, y verse elegante bajo la iluminación cálida de una recepción nocturna. Es un inflable que fue pensado para adultos que organizan eventos, no para niños que piden inflables.
 
 Entender esta diferencia de filosofía resuelve el 90% de las dudas. Los dos son castillos, los dos son de DENFLAB, los dos incluyen entrega, montaje y desmontaje en CDMX. Pero uno está diseñado para ser la fiesta y el otro está diseñado para servir a la fiesta. Esa distinción, que parece sutil, define todo lo demás.
 
@@ -28,7 +28,7 @@ Entender esta diferencia de filosofía resuelve el 90% de las dudas. Los dos son
 
 | Criterio | Castillo de Princesas | Castillo Blanco | Contexto práctico |
 |---|---|---|---|
-| **Dimensiones** | 4 × 3.3 × 3 m | 5 × 4 × 3.5 m | El Blanco es el más espacioso del catálogo; necesita más jardín |
+| **Dimensiones** | 5 × 4 × 3 m | 5 × 7 × 4 m | El Blanco es el más espacioso del catálogo; necesita más jardín |
 | **Paleta de color** | Rosado con torres y coronas | Blanco y dorado premium | El rosado emociona a las niñas; el blanco convive con cualquier decoración formal |
 | **Público ideal** | Niñas de 3 a 9 años | Invitados infantiles de eventos de adultos | El Princesas tiene dueña; el Blanco tiene anfitriones |
 | **Tipo de evento** | Cumpleaños infantil, fiesta temática | Boda, XV años, bautizo, evento formal | La regla: ¿quién sopla las velas define el castillo? Casi siempre sí |
@@ -69,7 +69,7 @@ Para quien ya está midiendo el jardín o llenando el formulario mental de la re
 
 | Especificación | Dato | Contexto práctico |
 |---|---|---|
-| **Dimensiones** | 4 × 3.3 × 3 m (largo × ancho × alto) | Cabe con holgura en la mayoría de los jardines residenciales de CDMX |
+| **Dimensiones** | 5 × 4 × 3 m (largo × ancho × alto) | Cabe con holgura en la mayoría de los jardines residenciales de CDMX |
 | **Categoría** | Inflable para niñas | El buque insignia de la línea temática femenina del catálogo |
 | **Diseño** | Castillo rosado con torres y coronas | La estética hace la mitad del trabajo de decoración de la fiesta |
 | **Edad recomendada** | Niñas de 3 a 9 años | El rango donde el juego simbólico de princesas está en su punto máximo |
@@ -81,7 +81,7 @@ Para quien ya está midiendo el jardín o llenando el formulario mental de la re
 
 | Especificación | Dato | Contexto práctico |
 |---|---|---|
-| **Dimensiones** | 5 × 4 × 3.5 m (largo × ancho × alto) | El más espacioso del catálogo; verifica el área del venue antes de reservar |
+| **Dimensiones** | 5 × 7 × 4 m (largo × ancho × alto) | El más espacioso del catálogo; verifica el área del venue antes de reservar |
 | **Categoría** | Inflable para bodas y XV años | Única pieza del catálogo diseñada para eventos formales |
 | **Diseño** | Blanco y dorado premium, elegante y neutro | Sin personajes ni colores que compitan con la decoración del evento |
 | **Público** | Niños invitados de eventos de adultos | Absorbe grupos heterogéneos de edades mediante turnos |
@@ -146,7 +146,7 @@ Hay un ejercicio que el equipo de DENFLAB recomienda cuando la decisión sigue e
 ## Guía Paso a Paso para Decidir y Reservar
 
 1. **Define el tipo de evento.** Cumpleaños infantil de niña de 3 a 9 años → Castillo de Princesas. Evento formal de adultos con niños invitados → Castillo Blanco. Si estás en un escenario gris, usa la tabla anterior o pregúntanos directamente.
-2. **Mide tu espacio.** El Princesas necesita un área que acomode sus 4 × 3.3 metros de base más margen perimetral de seguridad; el Blanco necesita acomodar 5 × 4 metros más margen. Ambos son de uso exterior y necesitan altura libre por encima de sus 3 y 3.5 metros respectivos.
+2. **Mide tu espacio.** El Princesas necesita un área que acomode sus 5 × 4 metros de base más margen perimetral de seguridad; el Blanco necesita acomodar 5 × 7 metros más margen. Ambos son de uso exterior y necesitan altura libre por encima de sus 3 y 4 metros respectivos.
 3. **Verifica la corriente.** Ambos castillos incluyen soplador de 110 V que debe permanecer encendido durante todo el evento. Confirma que hay un contacto disponible cerca del área de instalación.
 4. **Escribe por WhatsApp con los datos completos.** Fecha, horario, colonia y alcaldía, tipo de evento, número aproximado de niños y sus edades. Con eso el equipo confirma disponibilidad y te cotiza — los precios siempre se dan por WhatsApp porque dependen de la fecha y la zona.
 5. **Reserva con el 30% de anticipo.** El saldo se liquida el día del evento. Los dos castillos tienen alta demanda de fin de semana — el Princesas en temporada de cumpleaños (marzo a julio) y el Blanco en temporada de bodas (primavera y fin de año) — así que reservar con semanas de anticipación no es paranoia, es estrategia.
@@ -179,7 +179,7 @@ Técnicamente sí, y ha pasado. Pero conviene entender la consecuencia: un casti
 
 ### ¿Cuál de los dos tiene más capacidad de niños?
 
-El Castillo Blanco, por ser el más espacioso del catálogo (5 × 4 × 3.5 m contra 4 × 3.3 × 3 m del Princesas). Para eventos con muchos niños invitados — bodas grandes, XV años con familias numerosas — esa capacidad extra se traduce en turnos más largos y menos filas. Para un cumpleaños de 10 a 15 niñas, la capacidad del Princesas es perfectamente suficiente.
+El Castillo Blanco, por ser el más espacioso del catálogo (5 × 7 × 4 m contra 5 × 4 × 3 m del Princesas). Para eventos con muchos niños invitados — bodas grandes, XV años con familias numerosas — esa capacidad extra se traduce en turnos más largos y menos filas. Para un cumpleaños de 10 a 15 niñas, la capacidad del Princesas es perfectamente suficiente.
 
 ### ¿Pueden rentarse los dos castillos para el mismo evento?
 

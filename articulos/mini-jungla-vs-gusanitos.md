@@ -6,7 +6,7 @@ category: medianos
 pubDate: 2026-07-09
 draft: false
 ---
-Son las once de la noche de un martes y una mamá en Coyoacán tiene dos pestañas abiertas en el teléfono. En una está la Mini Jungla: verde, con animales de selva y una rampa de subida que se ve amable hasta en la foto. En la otra están los Gusanitos: un diseño circular de colores vivos que parece más ancho, más abierto, con más espacio para brincar. La fiesta es en dos sábados. El jardín ya está medido. El grupo de invitados ya está confirmado. Y sin embargo, la decisión no avanza, porque los dos inflables miden cuatro metros de largo, los dos son medianos, los dos se ven increíbles — y nadie le ha explicado en qué se diferencian de verdad.
+Son las once de la noche de un martes y una mamá en Coyoacán tiene dos pestañas abiertas en el teléfono. En una está la Mini Jungla: verde, con animales de selva y una rampa de subida que se ve amable hasta en la foto. En la otra están los Gusanitos: un diseño circular de colores vivos que parece más ancho, más abierto, con más espacio para brincar. La fiesta es en dos sábados. El jardín ya está medido. El grupo de invitados ya está confirmado. Y sin embargo, la decisión no avanza, porque los dos inflables miden cinco metros de largo, los dos son medianos, los dos se ven increíbles — y nadie le ha explicado en qué se diferencian de verdad.
 
 Esa mamá tiene razón en detenerse. La elección entre la Mini Jungla y los Gusanitos no es una cuestión de gusto estético: son dos inflables medianos que resuelven problemas distintos, para grupos distintos, en fiestas distintas. Elegir bien significa que los niños brincan felices toda la tarde; elegir mal significa turnos incómodos, niños pequeños intimidados o niños grandes aburridos. Y como los dos comparten categoría y rango de precio comparable, el error no se nota en la cotización — se nota el día del evento.
 
@@ -18,9 +18,9 @@ Esta guía existe para resolver esa duda de una vez. Vamos a poner los dos infla
 
 Lo primero que hay que entender es que DENFLAB no tiene dos inflables medianos parecidos por accidente. La Mini Jungla y los Gusanitos existen en el mismo catálogo porque atienden necesidades que casi nunca se superponen, aunque desde afuera parezcan intercambiables.
 
-La Mini Jungla es el inflable mediano con la edad de entrada más baja del catálogo: está pensado desde los 3 años. Su rampa de subida suave es la razón: un niño de tres años que todavía no domina escalones altos puede entrar y salir por su propio pie, sin que un adulto tenga que cargarlo. Su temática de selva —animales, verde intenso, narrativa visual— lo convierte además en el mediano más fotogénico y el que mejor sostiene una fiesta temática. Su formato es compacto: 4 metros de largo por 2.5 de ancho, con 2.8 metros de altura, y una capacidad cómoda de 4 a 5 niños simultáneos.
+La Mini Jungla es el inflable mediano con la edad de entrada más baja del catálogo: está pensado desde los 3 años. Su rampa de subida suave es la razón: un niño de tres años que todavía no domina escalones altos puede entrar y salir por su propio pie, sin que un adulto tenga que cargarlo. Su temática de selva —animales, verde intenso, narrativa visual— lo convierte además en el mediano más fotogénico y el que mejor sostiene una fiesta temática. Su formato es compacto: 5 metros de largo por 2.5 de ancho, con 2.5 metros de altura, y una capacidad cómoda de 4 a 5 niños simultáneos.
 
-Los Gusanitos son otra cosa. Con 3.3 metros de ancho son el mediano más ancho del catálogo, y su diseño circular —sin esquinas muertas, con el área de brinco distribuida alrededor— produce la mayor superficie de brinco de toda la categoría de medianos. Están pensados para niños de 4 a 10 años y admiten de 5 a 6 niños simultáneos con espacio real para moverse. No tienen temática de personajes: tienen colores vivos que funcionan con cualquier decoración. Son el mediano de la eficiencia, no el de la narrativa.
+Los Gusanitos son otra cosa. Con 4.5 metros de ancho son el mediano más ancho del catálogo, y su diseño circular —sin esquinas muertas, con el área de brinco distribuida alrededor— produce la mayor superficie de brinco de toda la categoría de medianos. Están pensados para niños de 4 a 10 años y admiten de 5 a 6 niños simultáneos con espacio real para moverse. No tienen temática de personajes: tienen colores vivos que funcionan con cualquier decoración. Son el mediano de la eficiencia, no el de la narrativa.
 
 En resumen: la Mini Jungla gana cuando el grupo incluye niños muy pequeños o cuando la fiesta tiene temática. Los Gusanitos ganan cuando el grupo es más numeroso, más grande de edad, o cuando lo que importa es que todos brinquen mucho. El resto de esta guía desarrolla exactamente cuándo aplica cada caso.
 
@@ -32,9 +32,9 @@ Esta tabla pone los dos inflables lado a lado con los datos del catálogo DENFLA
 
 | Variable | Mini Jungla | Gusanitos | Contexto práctico |
 |---|---|---|---|
-| **Dimensiones** | 4 × 2.5 × 2.8 m | 4 × 3.3 × 3 m | Mismo largo, pero los Gusanitos son 80 cm más anchos: si tu jardín es angosto, esa diferencia decide sola. |
-| **Ancho** | 2.5 m | 3.3 m | La Mini Jungla entra en jardines largos y estrechos donde los Gusanitos no caben con perímetro de seguridad. |
-| **Altura** | 2.8 m | 3 m | Ambos superan por mucho la estatura de un adulto; verifica ramas, cables y tendederos antes de elegir la ubicación. |
+| **Dimensiones** | 5 × 2.5 × 2.5 m | 5 × 4.5 × 2.8 m | Mismo largo, pero los Gusanitos son 2 metros más anchos: si tu jardín es angosto, esa diferencia decide sola. |
+| **Ancho** | 2.5 m | 4.5 m | La Mini Jungla entra en jardines largos y estrechos donde los Gusanitos no caben con perímetro de seguridad. |
+| **Altura** | 2.5 m | 2.8 m | Ambos superan por mucho la estatura de un adulto; verifica ramas, cables y tendederos antes de elegir la ubicación. |
 | **Edad recomendada** | Desde 3 años | 4 a 10 años | Si hay niños de 3 años en la lista, la Mini Jungla es la única opción de los dos que los recibe con seguridad. |
 | **Capacidad simultánea** | 4–5 niños | 5–6 niños | Un niño más por turno parece poco, pero en una fiesta de 3 horas se traduce en muchos turnos adicionales. |
 | **Elemento distintivo** | Rampa de subida suave | Diseño circular, mayor superficie de brinco | La rampa facilita la entrada de los pequeños; el círculo maximiza el espacio de rebote para los grandes. |
@@ -60,7 +60,7 @@ La contraparte es honesta: la Mini Jungla tiene una capacidad de 4 a 5 niños si
 
 El diseño circular de los Gusanitos no es una decisión estética: es una decisión de ingeniería del juego. En un inflable rectangular convencional, los niños tienden a alinearse y brincar en una sola dirección, y las esquinas se convierten en zonas muertas donde nadie juega pero contra las que todos chocan. En un diseño circular, el espacio se usa completo: los niños se distribuyen alrededor, el movimiento fluye en todas direcciones y la superficie útil de brinco por niño es mayor aunque las medidas exteriores parezcan comparables.
 
-A eso se suma el ancho: 3.3 metros contra los 2.5 de la Mini Jungla. Esos 80 centímetros adicionales son la diferencia entre dos niños que pueden brincar en paralelo sin tocarse y dos niños que se estorban a cada rebote. Para grupos de 5 a 6 niños simultáneos —la capacidad de los Gusanitos según el catálogo— ese margen lateral es lo que mantiene el juego fluido y reduce los choques involuntarios, que son la causa número uno de llantos en cualquier inflable.
+A eso se suma el ancho: 4.5 metros contra los 2.5 de la Mini Jungla. Esos 2 metros adicionales son la diferencia entre dos niños que pueden brincar en paralelo sin tocarse y dos niños que se estorban a cada rebote. Para grupos de 5 a 6 niños simultáneos —la capacidad de los Gusanitos según el catálogo— ese margen lateral es lo que mantiene el juego fluido y reduce los choques involuntarios, que son la causa número uno de llantos en cualquier inflable.
 
 El rango de edad de 4 a 10 años también dice algo importante: los Gusanitos están diseñados para el corazón de la edad de primaria, donde los niños brincan más fuerte, más tiempo y en grupos más grandes. Si tu fiesta es de un niño de 7 años con quince compañeros de salón, los Gusanitos son casi siempre la respuesta correcta. La [guía completa de los Gusanitos](/blog/gusanitos-guia-renta) desarrolla a fondo la logística de turnos para grupos numerosos.
 
@@ -76,7 +76,7 @@ Las especificaciones son necesarias pero abstractas. Estos son los seis escenari
 | **Cumpleaños de 7 a 10 años, grupo de primaria** | Gusanitos | Mayor superficie de brinco y capacidad de 5–6 niños: el grupo rota menos y brinca más. |
 | **Fiesta temática de selva, safari o animales** | Mini Jungla | El inflable es la decoración: sostiene la narrativa completa de la fiesta sin gastar más. |
 | **Reunión familiar con niños de 4 a 10 años mezclados** | Gusanitos | El rango amplio de edad y el diseño sin personajes recibe a todos sin que nadie lo sienta "de bebés". |
-| **Jardín angosto (menos de 4.5 m de ancho libre)** | Mini Jungla | Con 2.5 m de ancho, es el mediano que entra donde los Gusanitos ya no caben con perímetro de seguridad. |
+| **Jardín angosto (menos de 6.5 m de ancho libre)** | Mini Jungla | Con 2.5 m de ancho, es el mediano que entra donde los Gusanitos ya no caben con perímetro de seguridad. |
 | **Prioridad: máximo tiempo de brinco por niño** | Gusanitos | La mayor superficie de brinco de los medianos y un niño más por turno suman minutos reales de juego. |
 
 > **Consejo de insider:** si tu lista de invitados mezcla niños de 3 años con niños de 9, la respuesta no siempre es un solo inflable. Muchas familias en CDMX resuelven ese evento con un mediano más un inflable chico como el Micro Baby para los más pequeños. Pregunta por esa combinación al cotizar.
@@ -87,7 +87,7 @@ Las especificaciones son necesarias pero abstractas. Estos son los seis escenari
 
 Si después de todo lo anterior sigues indeciso, este proceso de cinco pasos resuelve la elección de manera sistemática. Es el mismo orden de preguntas que el equipo de DENFLAB usa cuando un cliente pide orientación.
 
-1. **Mide el ancho libre de tu espacio.** Si tienes menos de 4.5 metros de ancho disponibles contando perímetro de seguridad, la decisión ya está tomada: Mini Jungla. No sigas al paso dos hasta tener este dato con cinta métrica, no a ojo.
+1. **Mide el ancho libre de tu espacio.** Si tienes menos de 6.5 metros de ancho disponibles contando perímetro de seguridad, la decisión ya está tomada: Mini Jungla. No sigas al paso dos hasta tener este dato con cinta métrica, no a ojo.
 2. **Revisa la edad del niño más pequeño de la lista.** Si hay invitados de 3 años que van a querer brincar —y siempre quieren—, la Mini Jungla es el único de los dos que los recibe. Si el más pequeño tiene 4 o más, ambos siguen en la mesa.
 3. **Cuenta a los niños del rango 7–10 años.** Si son más de la mitad de la lista, los Gusanitos van a dar mejor experiencia: más espacio de rebote, turnos con un niño más, y un diseño que los grandes no perciben como infantil.
 4. **Define si la fiesta tiene temática.** Selva, safari, animales, dinosaurios, El Rey León: Mini Jungla sin dudarlo, porque el inflable hace el 60% de la decoración. Sin temática o con temática ajena a la naturaleza: los Gusanitos combinan con todo.
@@ -130,7 +130,7 @@ Para cerrar la comparación desde el ángulo del evento —y no solo del inflabl
 | **Posada familiar** | Bueno | Ideal | Edades mezcladas de 4 a 10 y decoración navideña: los colores neutros ganan |
 | **Kermés o feria escolar** | Bueno | Ideal | Flujo continuo de niños: la capacidad y el diseño sin personajes mandan |
 | **Baby shower o bautizo con zona infantil** | Ideal | Bueno | Suele haber pequeños de 3 años entre los invitados |
-| **Evento en jardín angosto** | Ideal | Inviable | Con menos de 4.5 m de ancho libre no hay debate posible |
+| **Evento en jardín angosto** | Ideal | Inviable | Con menos de 6.5 m de ancho libre no hay debate posible |
 | **Evento de más de 25 niños** | Bueno con turnos | Ideal | Un niño más por turno y más superficie amortiguan la lista larga |
 | **Sesión de fotos / contenido de redes** | Ideal | Bueno | El verde con animales produce el fondo más fotogénico de los medianos |
 
@@ -176,7 +176,7 @@ La edad recomendada de los Gusanitos es de 4 a 10 años y conviene respetarla. U
 
 ### ¿Cuál se ve más grande e impresionante en el jardín?
 
-Los Gusanitos, por volumen: 3.3 metros de ancho y 3 de altura producen una presencia física mayor. La Mini Jungla, por diseño: su temática de selva con animales genera más impacto visual y más fotografías, aunque su huella sea más compacta. Si tu métrica es "que se vea la fiesta desde la calle", Gusanitos; si es "que las fotos queden espectaculares", Mini Jungla.
+Los Gusanitos, por volumen: 4.5 metros de ancho y 2.8 de altura producen una presencia física mayor. La Mini Jungla, por diseño: su temática de selva con animales genera más impacto visual y más fotografías, aunque su huella sea más compacta. Si tu métrica es "que se vea la fiesta desde la calle", Gusanitos; si es "que las fotos queden espectaculares", Mini Jungla.
 
 ### ¿Puedo rentar los dos para el mismo evento?
 
@@ -229,4 +229,4 @@ Horario de atención: **Lunes a Viernes 9:00–19:00 | Sábados 9:00–17:00**
 
 ---
 
-*La Mini Jungla (4 × 2.5 × 2.8 m, desde 3 años) y los Gusanitos (4 × 3.3 × 3 m, 4 a 10 años) requieren superficie plana exterior y corriente eléctrica de 110 V. Montaje, soplador y desmontaje siempre incluidos. DENFLAB atiende toda la CDMX: Polanco, Lomas de Chapultepec, Santa Fe, Coyoacán, Del Valle, Tlalpan, Nápoles, Pedregal, Satélite y zonas aledañas.*
+*La Mini Jungla (5 × 2.5 × 2.5 m, desde 3 años) y los Gusanitos (5 × 4.5 × 2.8 m, 4 a 10 años) requieren superficie plana exterior y corriente eléctrica de 110 V. Montaje, soplador y desmontaje siempre incluidos. DENFLAB atiende toda la CDMX: Polanco, Lomas de Chapultepec, Santa Fe, Coyoacán, Del Valle, Tlalpan, Nápoles, Pedregal, Satélite y zonas aledañas.*

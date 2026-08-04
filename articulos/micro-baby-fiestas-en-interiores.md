@@ -8,7 +8,7 @@ draft: false
 ---
 Son las 4 de la tarde de un sábado de julio en la colonia Nápoles. Afuera, el cielo de la Ciudad de México hace lo que hace todos los sábados de julio a las 4 de la tarde: se pone negro y suelta un aguacero de proporciones bíblicas. En tres jardines de la ciudad, tres fiestas infantiles se están mudando de emergencia bajo techo, con papás cargando mesas y niños desconcertados. Pero en un departamento del quinto piso, a dos cuadras de ahí, hay una fiesta de dos años donde nadie ha volteado siquiera a ver la ventana. En la sala, entre el comedor arrimado a la pared y el sillón cubierto con una manta de colores, un inflable de dos por dos metros lleva una hora recibiendo bebés en calcetines. La lluvia es, literalmente, el problema de otros.
 
-Esa es la propuesta de valor del [Micro Baby](/blog/micro-baby-guia-renta) en su versión más pura: es el único inflable del catálogo DENFLAB —y uno de los muy pocos en toda la CDMX— genuinamente apto para interiores. Con 2×2 metros de base y 2 metros de altura, entra por puertas estándar, opera bajo techos normales, no requiere anclaje al piso y funciona con la misma toma de corriente donde conectas la aspiradora. Para una ciudad donde la mayoría de las familias vive en departamento y donde el jardín propio es un lujo estadístico, eso no es un detalle técnico: es la diferencia entre poder tener fiesta con inflable o no poder.
+Esa es la propuesta de valor del [Micro Baby](/blog/micro-baby-guia-renta) en su versión más pura: es el único inflable del catálogo DENFLAB —y uno de los muy pocos en toda la CDMX— genuinamente apto para interiores. Con 2×2 metros de base y 3 metros de altura, entra desmontado por puertas estándar, opera bajo cualquier techo con 4 metros de altura libre, no requiere anclaje al piso y funciona con la misma toma de corriente donde conectas la aspiradora. Para una ciudad donde la mayoría de las familias vive en departamento y donde el jardín propio es un lujo estadístico, eso no es un detalle técnico: es la diferencia entre poder tener fiesta con inflable o no poder.
 
 Pero "apto para interiores" no significa "apto para cualquier interior". Hay salones donde funciona de maravilla y salas donde honestamente no cabe, techos que sobran y techos que rozan, sopladores que nadie escucha y vecinos que sí. Esta guía recorre cada escenario real de la CDMX —departamento, salón de fiestas, salón de usos múltiples de condominio, terraza techada— con las medidas, los requisitos y los trucos que hacen que la fiesta bajo techo salga impecable.
 
@@ -16,7 +16,7 @@ Pero "apto para interiores" no significa "apto para cualquier interior". Hay sal
 
 ## Por Qué Solo el Micro Baby Puede Vivir Bajo Techo
 
-Vale la pena entender el porqué, porque explica también los límites. Un inflable mediano como los Dragones Rojos mide 2.5 metros de altura inflado y necesita anclaje al suelo con estacas o sacos de arena, más un perímetro de seguridad amplio: es un habitante de jardines. El Micro Baby fue diseñado desde cero con la lógica opuesta: su altura de 2 metros deja aire libre bajo cualquier techo residencial de 2.4–2.6 metros, su peso propio con el soplador operando lo mantiene estable sin una sola estaca, y su huella de 2×2 metros más márgenes cabe en el espacio que ocupa un comedor de seis sillas.
+Vale la pena entender el porqué, porque explica también los límites. Un inflable mediano como los Dragones Rojos mide 2.8 metros de altura inflado y necesita anclaje al suelo con estacas o sacos de arena, más un perímetro de seguridad amplio: es un habitante de jardines. El Micro Baby fue diseñado desde cero con la lógica opuesta: su altura de 3 metros pide 4 metros de altura libre —la de un salón, una bodega, un gimnasio o una terraza techada alta, no la de una sala de departamento estándar—, su peso propio con el soplador operando lo mantiene estable sin una sola estaca, y su huella de 2×2 metros más márgenes cabe en el espacio que ocupa un comedor de seis sillas.
 
 El otro factor decisivo es el soplador. Los inflables grandes usan sopladores potentes que suenan como aspiradora industrial; el del Micro Baby es un equipo de 100 W —consume menos que una secadora de pelo— que opera alrededor de los 65 decibeles, el volumen de una conversación normal. En un interior con música de fiesta, desaparece del paisaje sonoro. Esa combinación de tamaño, autonomía de anclaje y silencio relativo es lo que ningún otro modelo del catálogo puede replicar, y es la razón por la que la respuesta a "¿tienen inflables para salón techado?" siempre empieza con este modelo. Puedes ver el detalle completo del modelo en la categoría de [inflables chicos](/renta-de-inflables-chicos).
 
@@ -28,8 +28,8 @@ La contraparte honesta: el Micro Baby está calibrado para niños de 1 a 4 años
 
 | Requisito | Mínimo indispensable | Ideal | Contexto práctico |
 |---|---|---|---|
-| Espacio libre en piso | 3×3 m | 3.5×3.5 m | El inflable mide 2×2; el margen es para el soplador, la entrada de los niños y que nadie salga rebotado contra un mueble |
-| Altura de techo | 2.3 m | 2.5 m o más | El inflable mide 2 m inflado; techos estándar de departamento (2.4–2.6 m) funcionan; cuidado con plafones bajos y lámparas colgantes |
+| Espacio libre en piso | 4×4 m | 4.5×4.5 m | El inflable mide 2×2; el margen es para el soplador, la entrada de los niños y que nadie salga rebotado contra un mueble |
+| Altura de techo | 4 m | 4.5 m o más | El inflable mide 3 m inflado y necesita 1 m libre encima; los techos estándar de departamento (2.4–2.6 m) NO alcanzan — hace falta salón, bodega, gimnasio o terraza techada alta |
 | Ancho de puerta de acceso | Puerta estándar (0.90 m) | Acceso directo sin escaleras estrechas | El Micro Baby viaja doblado en un bulto compacto; entra por puertas normales y cabe en elevadores comunes |
 | Toma de corriente | 110 V a menos de 5 m | Toma exclusiva, sin multicontacto saturado | El soplador consume 100 W; cualquier circuito doméstico lo soporta sin parpadear |
 | Ventilación | Una ventana practicable en el espacio | Ventilación cruzada o ventilador adicional | Los niños generan calor; en verano, el aire en movimiento cambia por completo la experiencia |
@@ -46,14 +46,14 @@ Esta tabla nace de cientos de instalaciones reales en la ciudad. Busca tu caso.
 
 | Espacio típico | ¿Aplica? | Qué verificar | Contexto práctico |
 |---|---|---|---|
-| Sala-comedor de departamento (20–30 m²) | Sí, moviendo muebles | Que queden 3×3 m libres tras arrimar comedor y sillones | El escenario más común; medir el espacio *despejado*, no el cuarto |
+| Sala-comedor de departamento (20–30 m²) | Solo con techo de 4 m o más | Altura libre real sobre el punto del inflable, además de 4×4 m despejados | Los lofts y las dobles alturas funcionan; la sala de techo estándar no |
 | Salón de fiestas infantiles comercial | Sí, casi siempre | Autorización del salón y toma de corriente cercana | Muchos salones lo reciben con gusto; confirma por escrito con el administrador |
 | Salón de usos múltiples de condominio | Sí | Reglamento del condominio y horario permitido | Verifica con el administrador *antes* de pagar el anticipo, no el día del evento |
 | Terraza techada de departamento | Sí, con matices | Altura del techo de la terraza y protección real contra lluvia lateral | Si el agua entra de lado con viento, aplican las reglas de exteriores |
 | Cochera techada de casa | Sí | Piso plano, sin manchas de aceite, coche afuera | Solución muy socorrida en casas sin jardín; funciona sorprendentemente bien |
 | Roof garden techado | Depende | Acceso (elevador o escaleras), altura del techo, reglamento | El bulto sube por elevador estándar; escaleras de caracol pueden complicarlo |
 | Departamento tipo loft con doble altura | Sí, sobrado | Solo el espacio de piso | El techo alto elimina la única restricción vertical |
-| Sala pequeña (menos de 3×3 m libres) | No | — | Forzarlo contra muebles es el único escenario donde el interior se vuelve mala idea |
+| Sala pequeña (menos de 4×4 m libres) | No | — | Forzarlo contra muebles es el único escenario donde el interior se vuelve mala idea |
 | Pasillo o recibidor amplio de edificio | No, generalmente | — | Las áreas comunes de paso rara vez están permitidas y bloquean circulación |
 
 ---
@@ -98,8 +98,8 @@ La conclusión práctica: en temporada de lluvias, el interior gana casi siempre
 
 ## Guía Paso a Paso para Montar tu Fiesta Interior
 
-1. **Elige el punto exacto del inflable.** El criterio: 3×3 metros libres, techo despejado arriba, lejos de la mesa del pastel y de la puerta de entrada del departamento. Un rincón de la sala contra dos paredes suele ser óptimo.
-2. **Mide con cinta métrica y mira hacia arriba.** Piso: mínimo 3×3 libres tras mover muebles. Techo: nada colgando a menos de 2.3 metros sobre la zona del inflable.
+1. **Elige el punto exacto del inflable.** El criterio: 4×4 metros libres, 4 metros de altura libre arriba, lejos de la mesa del pastel y de la puerta de entrada del departamento. Un rincón de la sala contra dos paredes suele ser óptimo.
+2. **Mide con cinta métrica y mira hacia arriba.** Piso: mínimo 4×4 libres tras mover muebles. Techo: 4 metros de altura libre, sin lámparas ni vigas sobre la zona del inflable.
 3. **Localiza la toma de corriente.** Debe estar a menos de 5 metros del punto elegido. Si vas a usar extensión, que sea de buen calibre y que el cable corra pegado a la pared, nunca cruzando la zona de paso de los niños.
 4. **Confirma permisos si el espacio no es tuyo.** Salón de fiestas, salón de condominio, roof garden: pide la autorización por escrito (un WhatsApp del administrador basta) antes de pagar el anticipo.
 5. **Reserva con DENFLAB indicando que es interior.** Ese dato ayuda al equipo a preparar la logística: acceso al edificio, elevador o escaleras, piso del departamento y horario del montaje.
@@ -129,7 +129,7 @@ La conclusión práctica: en temporada de lluvias, el interior gana casi siempre
 
 ### ¿De verdad cabe en un departamento normal de la CDMX?
 
-Sí, y la palabra clave es "despejado". Una sala-comedor típica de 25 m² tiene de sobra los 3×3 metros necesarios una vez que arrimas el comedor a la pared y recorres el sillón. Cientos de fiestas en departamentos de Nápoles, Del Valle, Roma, Condesa y Polanco lo confirman cada mes. Si tu caso te genera duda, mándanos por WhatsApp las medidas y un par de fotos del espacio: el equipo te confirma la viabilidad sin costo antes de que reserves.
+Depende de la altura del techo, y esa es la parte que hay que medir primero. En piso, una sala-comedor típica de 25 m² tiene de sobra los 4×4 metros necesarios una vez que arrimas el comedor a la pared y recorres el sillón. En altura, el Micro Baby mide 3 metros inflados y pide 4 metros libres: eso lo cumplen los lofts, las dobles alturas, los salones de usos múltiples del condominio y las terrazas techadas altas, pero no una sala con techo de 2.4–2.6 m. Si tu caso te genera duda, mándanos por WhatsApp las medidas y un par de fotos del espacio: el equipo te confirma la viabilidad sin costo antes de que reserves.
 
 ### ¿El inflable daña el piso de duela o la loseta?
 
@@ -163,7 +163,7 @@ El proceso general de DENFLAB aplica igual bajo techo, pero hay tres datos extra
 
 **1. Contacto inicial por WhatsApp con el "kit interior".** Además de fecha y colonia, incluye: piso del departamento o nivel del salón, si hay elevador o escaleras, y el tipo de espacio (sala, salón de fiestas, salón de condominio, terraza techada). Con eso el equipo planea el acceso completo.
 
-**2. Verificación de medidas.** Manda las medidas del espacio libre (mínimo 3×3 m) y la altura del techo sobre el punto elegido. Ante cualquier duda, dos fotos del espacio con una silla como referencia resuelven la evaluación en minutos, sin costo.
+**2. Verificación de medidas.** Manda las medidas del espacio libre (mínimo 4×4 m) y la altura del techo sobre el punto elegido (mínimo 4 m). Ante cualquier duda, dos fotos del espacio con una silla como referencia resuelven la evaluación en minutos, sin costo.
 
 **3. Permisos de terceros, si aplican.** Salón rentado o área común de condominio: consigue la autorización por escrito antes de pagar el anticipo. Si el lugar pide datos o carta del proveedor, DENFLAB te los facilita.
 
@@ -179,8 +179,8 @@ El proceso general de DENFLAB aplica igual bajo techo, pero hay tres datos extra
 
 **Una semana antes:**
 
-- [ ] Espacio libre de 3×3 m confirmado con cinta métrica (con los muebles ya en su posición de fiesta)
-- [ ] Altura libre verificada sobre el punto del inflable: mínimo 2.3 m sin lámparas ni vigas
+- [ ] Espacio libre de 4×4 m confirmado con cinta métrica (con los muebles ya en su posición de fiesta)
+- [ ] Altura libre verificada sobre el punto del inflable: mínimo 4 m sin lámparas ni vigas
 - [ ] Toma de corriente identificada a menos de 5 m del punto
 - [ ] Autorización del salón o condominio por escrito, si aplica
 - [ ] Aviso amable a los vecinos inmediatos (y de paso, invitación al pastel)

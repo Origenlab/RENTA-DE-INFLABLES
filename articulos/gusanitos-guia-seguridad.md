@@ -8,7 +8,7 @@ draft: false
 ---
 A las 4:20 de la tarde, en una posada familiar en la Nápoles, el tío que "estaba viendo el inflable" fue por un refresco. Tardó cuatro minutos. Cuando regresó, dentro de los Gusanitos había nueve niños en lugar de seis, dos de ellos jugando luchitas en el centro, y una niña de cinco años llorando en la esquina porque alguien le había caído encima al brincar. Nadie se lastimó de gravedad ese día — pero la fiesta cambió de temperatura, la mamá de la niña se quiso ir, y el tío pasó el resto de la tarde disculpándose. Cuatro minutos. Eso es todo lo que tarda un inflable lleno en pasar de fiesta a incidente cuando el grupo es grande y la supervisión es informal.
 
-Los Gusanitos de DENFLAB son el inflable mediano de mayor capacidad del catálogo: 4 × 3.3 × 3 metros, el más ancho de su categoría, con un diseño circular que produce la mayor superficie de brinco de todos los medianos y una capacidad de 5 a 6 niños simultáneos de 4 a 10 años. Esa capacidad es su gran virtud —es el mediano que eligen las posadas, las kermeses y los cumpleaños con lista larga— y es también la razón por la que su seguridad merece una guía propia. Porque el riesgo de un inflable no crece con su tamaño: crece con la cantidad de niños que orbitan a su alrededor. Y los Gusanitos, por definición, siempre orbitan muchos.
+Los Gusanitos de DENFLAB son el inflable mediano de mayor capacidad del catálogo: 5 × 4.5 × 2.8 metros, el más ancho de su categoría, con un diseño circular que produce la mayor superficie de brinco de todos los medianos y una capacidad de 5 a 6 niños simultáneos de 4 a 10 años. Esa capacidad es su gran virtud —es el mediano que eligen las posadas, las kermeses y los cumpleaños con lista larga— y es también la razón por la que su seguridad merece una guía propia. Porque el riesgo de un inflable no crece con su tamaño: crece con la cantidad de niños que orbitan a su alrededor. Y los Gusanitos, por definición, siempre orbitan muchos.
 
 Esta guía está escrita para el anfitrión de eventos con grupos grandes: la densidad segura dentro del inflable, la gestión de turnos que evita las colas caóticas, el rol del supervisor como puesto de tiempo completo, el protocolo de clima y anclaje, y las tablas y checklists para operar todo sin memorizar nada. Léela antes de tu evento y el tío del refresco nunca será parte de tu historia.
 
@@ -65,7 +65,7 @@ Un truco que usan los organizadores experimentados: dale al supervisor una ident
 
 ## Clima, anclaje y electricidad: el triángulo técnico
 
-**El anclaje llega resuelto, el contexto no.** El equipo de DENFLAB instala los Gusanitos con anclaje perimetral completo sobre la superficie y prueba el equipo antes de entregarlo funcionando. Lo que corresponde al anfitrión es el terreno: superficie plana, sin pendiente notoria, sin objetos punzantes, y con espacio libre alrededor de todo el perímetro para circulación y para que el anclaje trabaje. Con 3.3 metros de ancho —el mayor de los medianos—, los Gusanitos piden ese margen con más razón que ningún otro de su categoría.
+**El anclaje llega resuelto, el contexto no.** El equipo de DENFLAB instala los Gusanitos con anclaje perimetral completo sobre la superficie y prueba el equipo antes de entregarlo funcionando. Lo que corresponde al anfitrión es el terreno: superficie plana, sin pendiente notoria, sin objetos punzantes, y con espacio libre alrededor de todo el perímetro para circulación y para que el anclaje trabaje. Con 4.5 metros de ancho —el mayor de los medianos—, los Gusanitos piden ese margen con más razón que ningún otro de su categoría.
 
 **El viento es el riesgo más subestimado.** La lluvia avisa; el viento no. Las rachas de tarde de la CDMX —esas que llegan de golpe entre abril y junio— son el motivo de desalojo más frecuente de la temporada. La regla es simple y no admite matices: con viento fuerte, los niños salen primero, el soplador se apaga después, y el inflable no se reocupa hasta que el aire vuelve a la calma. Con lluvia fuerte o tormenta eléctrica, lo mismo más la desconexión del equipo.
 
@@ -75,7 +75,7 @@ Un truco que usan los organizadores experimentados: dale al supervisor una ident
 
 ## Checklist de seguridad de los Gusanitos para eventos grandes
 
-- [ ] Espacio verificado con cinta métrica: huella de 4 × 3.3 m más perímetro libre alrededor
+- [ ] Espacio verificado con cinta métrica: huella de 5 × 4.5 m más perímetro libre alrededor (7 × 6.5 m en total)
 - [ ] Piso inspeccionado: sin piedras, vidrios, tornillos ni raíces expuestas
 - [ ] Altura libre confirmada: sin ramas ni cables sobre los 3 metros del inflable
 - [ ] Contacto de 110 V confiable, extensión de buen calibre y cable protegido del paso
@@ -229,4 +229,4 @@ Horario de atención: **Lunes a Viernes 9:00–19:00 | Sábados 9:00–17:00**
 
 ---
 
-*Los Gusanitos (4 × 3.3 × 3 m, diseño circular, mayor superficie de brinco de los medianos, 5–6 niños simultáneos, 4 a 10 años) requieren superficie plana exterior y corriente de 110 V. Montaje con anclaje completo, soplador y desmontaje siempre incluidos. DENFLAB atiende toda la CDMX y zonas aledañas.*
+*Los Gusanitos (5 × 4.5 × 2.8 m, diseño circular, mayor superficie de brinco de los medianos, 5–6 niños simultáneos, 4 a 10 años) requieren superficie plana exterior y corriente de 110 V. Montaje con anclaje completo, soplador y desmontaje siempre incluidos. DENFLAB atiende toda la CDMX y zonas aledañas.*

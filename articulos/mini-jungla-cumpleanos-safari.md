@@ -8,7 +8,7 @@ draft: false
 ---
 Todo empezó, como casi siempre, con una frase dicha desde el asiento trasero del coche: "Mamá, quiero que mi fiesta sea de safari". Y la mamá —que iba pensando en el pendiente del trabajo y en qué hacer de cenar— sintió esa mezcla exacta de ternura y vértigo que conocen todas las mamás de CDMX cuando el hijo pide una fiesta con tema. Porque una fiesta de safari suena preciosa hasta que hay que aterrizarla: qué se decora, qué se sirve, qué juegan los niños durante tres horas, y sobre todo, qué hace que el jardín de una casa en Del Valle se sienta como una expedición y no como una fiesta cualquiera con servilletas de animalitos.
 
-La respuesta corta es que una fiesta de safari se sostiene sobre un centro de gravedad, y ese centro es la Mini Jungla de DENFLAB. Un inflable de 4 × 2.5 × 2.8 metros, verde, con temática de selva y una rampa de subida suave que recibe a los exploradores desde los 3 años, hace en quince minutos de montaje lo que ninguna cantidad de guirnaldas logra: convierte el jardín en territorio salvaje. Todo lo demás —la decoración, los juegos, los snacks, el cronograma— se construye alrededor de esa pieza central, y esta guía te dice exactamente cómo.
+La respuesta corta es que una fiesta de safari se sostiene sobre un centro de gravedad, y ese centro es la Mini Jungla de DENFLAB. Un inflable de 5 × 2.5 × 2.5 metros, verde, con temática de selva y una rampa de subida suave que recibe a los exploradores desde los 3 años, hace en quince minutos de montaje lo que ninguna cantidad de guirnaldas logra: convierte el jardín en territorio salvaje. Todo lo demás —la decoración, los juegos, los snacks, el cronograma— se construye alrededor de esa pieza central, y esta guía te dice exactamente cómo.
 
 Aquí vas a encontrar el plan completo: la decoración por zonas con presupuesto realista, los cinco juegos de safari que funcionan con grupos reales, el menú temático que los niños sí se comen, el cronograma hora por hora de una fiesta de tres horas, y las respuestas a las preguntas que todas las mamás organizadoras se hacen. Es la guía que esa mamá del coche hubiera querido leer esa misma noche.
 
@@ -171,7 +171,7 @@ El plan B tiene dos niveles. Lluvia ligera pasajera: se pausa el inflable, se se
 
 ### ¿La Mini Jungla cabe en el jardín de una casa típica?
 
-Con 4 × 2.5 metros de huella y 2.8 de altura, la Mini Jungla es el mediano más compatible con jardines de casas y fraccionamientos de CDMX, incluidos los angostos. Necesitas espacio perimetral libre adicional para circulación y anclaje, superficie plana y un contacto de 110 V. Mide tu espacio con cinta antes de reservar y comparte las medidas al cotizar: el equipo te confirma la viabilidad en minutos.
+Con 5 × 2.5 metros de huella y 2.5 de altura, la Mini Jungla es el mediano más compatible con jardines de casas y fraccionamientos de CDMX, incluidos los angostos. Necesitas espacio perimetral libre adicional para circulación y anclaje, superficie plana y un contacto de 110 V. Mide tu espacio con cinta antes de reservar y comparte las medidas al cotizar: el equipo te confirma la viabilidad en minutos.
 
 ### ¿Cuántos niños pueden usar el inflable durante la fiesta?
 
@@ -229,4 +229,4 @@ Horario de atención: **Lunes a Viernes 9:00–19:00 | Sábados 9:00–17:00**
 
 ---
 
-*La Mini Jungla (4 × 2.5 × 2.8 m, temática selva, rampa de subida suave, desde 3 años, 4–5 niños simultáneos) requiere superficie plana exterior y corriente de 110 V. Montaje, soplador y desmontaje siempre incluidos. DENFLAB atiende toda la CDMX: Coyoacán, Del Valle, Tlalpan, Pedregal, Polanco, Nápoles, Satélite y zonas aledañas.*
+*La Mini Jungla (5 × 2.5 × 2.5 m, temática selva, rampa de subida suave, desde 3 años, 4–5 niños simultáneos) requiere superficie plana exterior y corriente de 110 V. Montaje, soplador y desmontaje siempre incluidos. DENFLAB atiende toda la CDMX: Coyoacán, Del Valle, Tlalpan, Pedregal, Polanco, Nápoles, Satélite y zonas aledañas.*

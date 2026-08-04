@@ -20,7 +20,7 @@ Dentro del mundo de la renta de inflables, existe una distinción fundamental qu
 
 El Castillo Blanco nació de esta necesidad. Su diseño blanco y dorado no es un accidente comercial; es una decisión deliberada de posicionamiento. La ausencia de personajes con licencia —sin princesas de franquicia, sin superhéroes, sin animales de caricatura— lo libera de cualquier asociación de marca que pueda chocar con la identidad visual del evento. Esto importa más de lo que parece: un inflable con un personaje de caricatura en medio de una boda de autor con paleta cream y terracota es una disonancia visual que ningún filtro de edición puede corregir.
 
-Además, el Castillo Blanco es el inflable más alto y más ancho del catálogo de DENFLAB: 3.5 metros de altura y 4 metros de ancho, con 5 metros de largo. Estas dimensiones no son solo una especificación técnica — son una declaración de presencia. Un inflable que apenas llega a la cintura de un adulto puede parecer un añadido improvisado. Uno que alcanza casi el techo de una carpa o que tiene presencia visual propia dentro de un jardín dice algo completamente distinto: que fue planeado, que pertenece ahí, que es parte del evento.
+Además, el Castillo Blanco es el inflable más alto y más ancho del catálogo de DENFLAB: 4 metros de altura y 7 metros de ancho, con 5 metros de largo. Estas dimensiones no son solo una especificación técnica — son una declaración de presencia. Un inflable que apenas llega a la cintura de un adulto puede parecer un añadido improvisado. Uno que alcanza casi el techo de una carpa o que tiene presencia visual propia dentro de un jardín dice algo completamente distinto: que fue planeado, que pertenece ahí, que es parte del evento.
 
 ---
 
@@ -30,9 +30,9 @@ Antes de avanzar a la logística de coordinación con tu venue, conviene tener c
 
 | Especificación | Detalle | Nota práctica |
 |---|---|---|
-| **Dimensiones del inflable** | 5 m (largo) × 4 m (ancho) × 3.5 m (alto) | El más alto y ancho del catálogo DENFLAB |
-| **Espacio mínimo requerido** | 6.5 m × 5.5 m | Incluye margen de seguridad alrededor del inflable |
-| **Altura libre necesaria** | Mínimo 4 m | Considerar estructuras de carpa, pérgolas, árboles |
+| **Dimensiones del inflable** | 5 m (largo) × 7 m (ancho) × 4 m (alto) | El más alto y ancho del catálogo DENFLAB |
+| **Espacio mínimo requerido** | 7 m × 9 m | Incluye 1 m de margen de seguridad por cada lado del inflable |
+| **Altura libre necesaria** | Mínimo 5 m | Considerar estructuras de carpa, pérgolas, árboles |
 | **Capacidad simultánea** | 8 a 10 niños | Rango seguro para uso continuo durante el evento |
 | **Edad recomendada** | 3 a 12 años | Requiere supervisión de adulto para menores de 4 años |
 | **Tipo de superficie** | Solo exterior | Césped, piso de concreto, terrazas abiertas |
@@ -44,7 +44,7 @@ Antes de avanzar a la logística de coordinación con tu venue, conviene tener c
 | **Categoría** | Inflables para bodas y eventos formales | El único en su categoría en el catálogo |
 | **Anticipo para reservar** | 30% del costo total | Saldo del 70% se liquida el día del evento |
 
-> **Nota importante sobre el espacio:** Los 6.5 × 5.5 m son el mínimo absoluto. Para un evento donde el inflable esté integrado visualmente —es decir, donde pueda ser fotografiado sin que parezca comprimido— se recomienda disponer de un área de al menos 8 × 7 m. Esto permite colocar una pequeña área de supervisión con sillas o una mesa de snacks para niños sin que todo parezca saturado.
+> **Nota importante sobre el espacio:** Los 7 × 9 m son el mínimo absoluto. Para un evento donde el inflable esté integrado visualmente —es decir, donde pueda ser fotografiado sin que parezca comprimido— se recomienda disponer de un área de al menos 9 × 11 m. Esto permite colocar una pequeña área de supervisión con sillas o una mesa de snacks para niños sin que todo parezca saturado.
 
 ---
 
@@ -60,7 +60,7 @@ Para entender por qué el Castillo Blanco es la única opción viable para event
 | **Integración en fiestas infantiles** | Buena | Excelente | Excelente |
 | **Personajes de franquicia** | Ninguno | Sí (princesas) | Sí (piratas) |
 | **Impacto visual en foto de adultos** | Neutro o positivo | Disonante | Disonante |
-| **Dimensiones** | 5×4×3.5 m | Menores | Menores |
+| **Dimensiones** | 5×7×4 m | Menores | Menores |
 | **Ideal para** | Bodas, XV años, eventos corporativos | Fiestas temáticas de princesas | Fiestas de aventura y piratas |
 
 > **Lectura de la tabla:** "Integración" evalúa qué tan bien convive el inflable con la estética de adultos del evento sin romper la coherencia visual. Un inflable "no recomendado" para bodas no es un producto inferior — simplemente está diseñado para un contexto diferente donde brilla con toda su potencia. El análisis completo de por qué existe esta categoría — y cómo se compara el Castillo Blanco contra los temáticos y los medianos — está en [Castillo Blanco vs. inflables infantiles](/blog/castillo-blanco-vs-inflables-infantiles). Y si estás dudando específicamente entre los dos castillos del catálogo, la [comparativa Princesas vs. Castillo Blanco](/blog/princesas-vs-castillo-blanco) resuelve la elección en cinco minutos.
@@ -115,7 +115,7 @@ La coordinación es la clave que separa un inflable bien integrado de uno que pa
 
 ### Con el Venue
 
-Lo primero es confirmar que el venue tiene el espacio exterior necesario. Los 6.5 × 5.5 m mínimos deben medirse en el área real disponible, considerando que no interfieran con las rutas de circulación de meseros, la entrada de invitados, ni el área de cena al aire libre si la hay. También es indispensable confirmar:
+Lo primero es confirmar que el venue tiene el espacio exterior necesario. Los 7 × 9 m mínimos deben medirse en el área real disponible, considerando que no interfieran con las rutas de circulación de meseros, la entrada de invitados, ni el área de cena al aire libre si la hay. También es indispensable confirmar:
 
 - **Acceso eléctrico:** El soplador de 110 V necesita un contacto a no más de 20 metros. Si el venue no tiene contactos al exterior, se necesita extensión o coordinación previa.
 - **Tipo de piso:** El sistema de anclas incluido funciona con estacas en césped y sacos de arena en concreto o mármol. El equipo de DENFLAB llega preparado para ambas superficies, pero es útil confirmarlo antes.
@@ -168,8 +168,8 @@ Este checklist está diseñado para ser compartido directamente con tu wedding p
 
 ### Requerimientos técnicos mínimos
 
-- Área libre de 6.5 m × 5.5 m en exterior
-- Altura libre mínima de 4 m (sin obstrucciones: ramas, cables, estructura de carpa)
+- Área libre de 7 m × 9 m en exterior
+- Altura libre mínima de 5 m (sin obstrucciones: ramas, cables, estructura de carpa)
 - Contacto eléctrico de 110 V a menos de 20 m del área designada
 - Acceso vehicular para la camioneta de entrega (generalmente hasta 30 minutos antes del evento)
 - Superficie: césped o concreto/loseta (no aplica en interiores)
@@ -238,7 +238,7 @@ El 70% restante se liquida el día del evento, antes o durante el montaje, segú
 
 ### ¿El Castillo Blanco puede usarse en interiores?
 
-No. El Castillo Blanco es exclusivamente para uso en exterior. Sus dimensiones (5 × 4 × 3.5 m) y los requerimientos del soplador hacen inviable su uso en espacios cerrados. Si tu venue no tiene un área exterior adecuada, el equipo de DENFLAB puede orientarte sobre alternativas.
+No. El Castillo Blanco es exclusivamente para uso en exterior. Sus dimensiones (5 × 7 × 4 m) y los requerimientos del soplador hacen inviable su uso en espacios cerrados. Si tu venue no tiene un área exterior adecuada, el equipo de DENFLAB puede orientarte sobre alternativas.
 
 ### ¿Qué pasa si llueve el día del evento?
 

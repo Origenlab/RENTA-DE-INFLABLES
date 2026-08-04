@@ -22,7 +22,7 @@ const FAQS_DATA: FaqItem[] = [
   { question: '¿En qué zonas de CDMX hacen entregas?', answer: 'Cubrimos toda la Ciudad de México y zona metropolitana. La entrega y recogida siempre están incluidas en el precio.' },
   { question: '¿Cuánto tiempo dura la renta de un inflable?', answer: 'Los paquetes estándar incluyen 4 a 6 horas. Podemos extender la renta con costo adicional. Consúltanos por WhatsApp.' },
   { question: '¿Los inflables son seguros para niños pequeños?', answer: 'Sí. Todos nuestros inflables están certificados y desinfectados. Para menores de 3 años recomendamos los modelos chicos con supervisión constante de adultos.' },
-  { question: '¿Cuánto espacio necesito para instalar el inflable?', answer: 'Depende del modelo: los pequeños requieren ~3×3 m y los grandes hasta 6×6 m. Te enviamos las medidas exactas al confirmar tu reserva.' },
+  { question: '¿Cuánto espacio necesito para instalar el inflable?', answer: 'Depende del modelo: los pequeños requieren ~4×4 m y los grandes hasta 9×6.5 m. Te enviamos las medidas exactas al confirmar tu reserva.' },
   { question: '¿Cómo reservo?', answer: 'Escríbenos por WhatsApp o llámanos. Pedimos un anticipo del 30% para asegurar tu fecha. El saldo se paga el día del evento.' },
 ]
 
@@ -120,38 +120,38 @@ interface InflableItem {
 }
 const INFLABLES: InflableItem[] = [
   {
-    name: 'Micro Baby', category: 'Chico', dims: '2×2×2 m', image: '/images/productos/micro-baby.jpg',
+    name: 'Micro Baby', category: 'Chico', dims: '2×2×3 m', image: '/images/productos/micro-baby.jpg',
     body: [
       'El Micro Baby está diseñado para el segmento más exigente en términos de seguridad: niños de 1 a 4 años. Base de 2×2 metros, paredes de relleno suave sin esquinas pronunciadas y una entrada de acceso de apenas 30 cm de altura que impide que los más pequeños caigan sin apoyo. Es el único modelo del catálogo apto para instalación en interior sin requisito de anclaje externo.',
-      'La instalación tarda menos de 5 minutos y no requiere herramienta ni espacio de maniobra adicional. Funciona en salas, terrazas pequeñas o cuartos despejados con mínimo 2.5 m de altura libre. Para primeros cumpleaños, baby showers y eventos donde la diversión de los más chiquitos no puede depender del clima exterior.',
+      'La instalación tarda menos de 5 minutos y no requiere herramienta ni espacio de maniobra adicional. Funciona en salas de techo alto, terrazas y salones despejados con mínimo 4 m de altura libre. Para primeros cumpleaños, baby showers y eventos donde la diversión de los más chiquitos no puede depender del clima exterior.',
     ],
     points: [
       'Edad recomendada: 1 a 4 años',
-      'Base 2×2 m — válido para interiores',
+      'Base 2×2 m — interiores con 4 m de altura libre',
       'Sin anclas — instalación en menos de 5 min',
       'Paredes de relleno suave, sin bordes expuestos',
-      'Altura libre mínima requerida: 2.5 m',
+      'Altura libre mínima requerida: 4 m',
     ],
   },
   {
-    name: 'Dragones Rojos', category: 'Mediano', dims: '4×2.5×2.5 m', image: '/images/productos/dragones-rojos.jpg',
+    name: 'Dragones Rojos', category: 'Mediano', dims: '5×2.5×2.8 m', image: '/images/productos/dragones-rojos.jpg',
     body: [
-      'Los Dragones Rojos tienen uno de los perfiles más reconocibles del catálogo: dos dragones frontales a 2.5 metros de altura que se distinguen desde la entrada y convierten el montaje en un elemento de decoración por sí mismo. Con 4 metros de largo ofrece superficie de brinco amplia para 4 a 5 niños simultáneos, más un tobogán de salida integrado en la parte posterior.',
-      'Diseñado para niños de 4 a 10 años que ya saltan con fuerza y necesitan más espacio que los modelos compactos. Requiere área exterior de 5×3.5 metros mínimo y una toma de corriente a no más de 15 metros. El soplador y las anclas están incluidos en la renta. La instalación completa toma entre 10 y 15 minutos.',
+      'Los Dragones Rojos tienen uno de los perfiles más reconocibles del catálogo: dos dragones frontales a 2.8 metros de altura que se distinguen desde la entrada y convierten el montaje en un elemento de decoración por sí mismo. Con 5 metros de largo ofrece superficie de brinco amplia para 4 a 5 niños simultáneos, más un tobogán de salida integrado en la parte posterior.',
+      'Diseñado para niños de 4 a 10 años que ya saltan con fuerza y necesitan más espacio que los modelos compactos. Requiere área exterior de 7×4.5 metros mínimo y una toma de corriente a no más de 15 metros. El soplador y las anclas están incluidos en la renta. La instalación completa toma entre 10 y 15 minutos.',
     ],
     points: [
       'Edad recomendada: 4 a 10 años',
       'Capacidad simultánea: 4 a 5 niños',
       'Tobogán de salida integrado en la popa',
-      'Espacio mínimo requerido: 5×3.5 m exterior',
+      'Espacio mínimo requerido: 7×4.5 m exterior',
       'Soplador y anclas incluidos en la renta',
     ],
   },
   {
-    name: 'Mini Jungla', category: 'Mediano', dims: '4×2.5×2.8 m', image: '/images/productos/mini-jungla.jpg',
+    name: 'Mini Jungla', category: 'Mediano', dims: '5×2.5×2.5 m', image: '/images/productos/mini-jungla.jpg',
     body: [
-      'La Mini Jungla es el modelo temático más solicitado del catálogo mediano. Con fauna tropical, palmeras y colores de selva impresos en toda la superficie, genera un ambiente inmersivo que hace que los niños jueguen como si estuvieran en expedición, no solo brincando. Sus 2.8 metros de altura le dan presencia visual sin ocupar más espacio que los otros medianos.',
-      'La rampa de acceso tiene pendiente reducida, lo que la hace utilizable desde los 3 años sin necesidad de asistencia del adulto. Capacidad cómoda para 4 a 5 niños brincando al mismo tiempo. Funciona en jardines medianos, quintas, salones de fiestas con terraza y patios con al menos 5×3.5 metros libres.',
+      'La Mini Jungla es el modelo temático más solicitado del catálogo mediano. Con fauna tropical, palmeras y colores de selva impresos en toda la superficie, genera un ambiente inmersivo que hace que los niños jueguen como si estuvieran en expedición, no solo brincando. Sus 2.5 metros de altura y su rampa de pendiente reducida la hacen el mediano más accesible para los más pequeños.',
+      'La rampa de acceso tiene pendiente reducida, lo que la hace utilizable desde los 3 años sin necesidad de asistencia del adulto. Capacidad cómoda para 4 a 5 niños brincando al mismo tiempo. Funciona en jardines medianos, quintas, salones de fiestas con terraza y patios con al menos 7×4.5 metros libres.',
     ],
     points: [
       'Edad recomendada: 3 a 9 años',
@@ -162,52 +162,52 @@ const INFLABLES: InflableItem[] = [
     ],
   },
   {
-    name: 'Gusanitos', category: 'Mediano', dims: '4×3.3×3 m', image: '/images/productos/gusanitos.jpg',
+    name: 'Gusanitos', category: 'Mediano', dims: '5×4.5×2.8 m', image: '/images/productos/gusanitos.jpg',
     body: [
-      'Los Gusanitos son el modelo más ancho del catálogo mediano: 3.3 metros contra los 2.5 de los otros medianos. Esa diferencia de 80 cm se traduce en mayor superficie de brinco y menor concentración de movimiento en el centro, lo que permite que más niños salten al mismo tiempo sin interferirse. El diseño de gusano en colores brillantes es uno de los más fotografiados en fiestas de jardín.',
-      'Funciona especialmente bien en grupos con rango de edad amplio: niños de 4 y de 10 años pueden usar el mismo inflable sin que los mayores dominen el espacio. La distribución circular del peso reduce el efecto trampolín que se genera en los diseños rectangulares. Espacio mínimo requerido: 5×4 metros.',
+      'Los Gusanitos son el modelo más ancho del catálogo mediano: 4.5 metros contra los 2.5 de los otros medianos. Esa diferencia de 2 metros se traduce en mayor superficie de brinco y menor concentración de movimiento en el centro, lo que permite que más niños salten al mismo tiempo sin interferirse. El diseño de gusano en colores brillantes es uno de los más fotografiados en fiestas de jardín.',
+      'Funciona especialmente bien en grupos con rango de edad amplio: niños de 4 y de 10 años pueden usar el mismo inflable sin que los mayores dominen el espacio. La distribución circular del peso reduce el efecto trampolín que se genera en los diseños rectangulares. Espacio mínimo requerido: 7×6.5 metros.',
     ],
     points: [
       'Edad recomendada: 4 a 10 años',
-      'El más ancho del catálogo mediano — 3.3 m',
+      'El más ancho del catálogo mediano — 4.5 m',
       'Capacidad simultánea: 5 a 6 niños',
       'Distribución circular del peso — uso más equitativo',
       'Soplador incluido en la renta',
     ],
   },
   {
-    name: 'Extrem', category: 'Grande', dims: '4.8×3.3×3 m', image: '/images/productos/extrem.jpg',
+    name: 'Extrem', category: 'Grande', dims: '7×4.5×3.5 m', image: '/images/productos/extrem.jpg',
     body: [
-      'El Extrem combina dos funciones que los brincolines estándar no tienen: área de brinco amplia en la base y tobogán de altura integrado para deslizarse. Con 4.8 metros de largo y 3 metros de alto es el modelo con mayor volumen del catálogo grande y el que mayor impacto visual genera a la entrada del evento. Los niños alternan entre brincar y tirarse por el tobogán, lo que distribuye el flujo de uso de forma más ordenada que un brincolin sin tobogán.',
-      'Recomendado para niños de 5 años en adelante — la altura del tobogán requiere coordinación que los menores de esa edad aún no tienen consolidada. Necesita espacio exterior de al menos 6×4 metros y acceso a una toma de corriente. Soplador y anclas de seguridad incluidos. Uso exclusivamente en exterior.',
+      'El Extrem combina dos funciones que los brincolines estándar no tienen: área de brinco amplia en la base y tobogán de altura integrado para deslizarse. Con 7 metros de largo y 3.5 metros de alto es el modelo más largo del catálogo y el que mayor impacto visual genera a la entrada del evento. Los niños alternan entre brincar y tirarse por el tobogán, lo que distribuye el flujo de uso de forma más ordenada que un brincolin sin tobogán.',
+      'Recomendado para niños de 5 años en adelante — la altura del tobogán requiere coordinación que los menores de esa edad aún no tienen consolidada. Necesita espacio exterior de al menos 9×6.5 metros y acceso a una toma de corriente. Soplador y anclas de seguridad incluidos. Uso exclusivamente en exterior.',
     ],
     points: [
       'Edad recomendada: 5 años en adelante',
       'Tobogán de altura integrado — brinco y deslizamiento',
-      'Espacio mínimo requerido: 6×4 m — solo exterior',
-      'Mayor volumen del catálogo grande',
+      'Espacio mínimo requerido: 9×6.5 m — solo exterior',
+      'El modelo más largo del catálogo — 7 m',
       'Soplador y anclas de seguridad incluidos',
     ],
   },
   {
-    name: 'Barco Pirata', category: 'Grande', dims: '7×3×3 m', image: '/images/productos/barco-pirata.jpg',
+    name: 'Barco Pirata', category: 'Grande', dims: '6×3.8×3.8 m', image: '/images/productos/barco-pirata.jpg',
     body: [
-      'El Barco Pirata es el modelo más largo del catálogo: 7 metros de eslora con mástil, cañones decorativos y paleta de colores de bandera pirata. A esa escala, el inflable deja de ser solo un juego y se convierte en el tema central del evento — la decoración, la fotografía y la atención de los invitados se organizan a su alrededor. Los coordinadores de evento lo solicitan específicamente porque reduce la necesidad de inversión en decoración adicional.',
-      'Capacidad para 6 a 8 niños simultáneamente. Pensado para eventos en jardines amplios, salones con acceso exterior, quintas y áreas infantiles corporativas. Espacio mínimo requerido: 8×4 metros. Indicado para cumpleaños grandes, kermeses, fiestas temáticas de piratas y activaciones de marca con zona infantil.',
+      'El Barco Pirata es el modelo más temático del catálogo: 6 metros de eslora con mástil, cañones decorativos y paleta de colores de bandera pirata. A esa escala, el inflable deja de ser solo un juego y se convierte en el tema central del evento — la decoración, la fotografía y la atención de los invitados se organizan a su alrededor. Los coordinadores de evento lo solicitan específicamente porque reduce la necesidad de inversión en decoración adicional.',
+      'Capacidad para 6 a 8 niños simultáneamente. Pensado para eventos en jardines amplios, salones con acceso exterior, quintas y áreas infantiles corporativas. Espacio mínimo requerido: 8×5.8 metros. Indicado para cumpleaños grandes, kermeses, fiestas temáticas de piratas y activaciones de marca con zona infantil.',
     ],
     points: [
       'Edad recomendada: 4 a 12 años',
-      'El más largo del catálogo — 7 m de eslora',
+      '6 m de eslora con mástil — 3.8 m de alto',
       'Capacidad simultánea: 6 a 8 niños',
       'Mástil, cañones y temática pirata completa',
-      'Espacio mínimo requerido: 8×4 m exterior',
+      'Espacio mínimo requerido: 8×5.8 m exterior',
     ],
   },
   {
-    name: 'Princesas', category: 'Niñas', dims: '4×3.3×3 m', image: '/images/productos/princesas.jpg',
+    name: 'Princesas', category: 'Niñas', dims: '5×4×3 m', image: '/images/productos/princesas.jpg',
     body: [
-      'El inflable Princesas tiene el nivel de detalle visual más alto del catálogo de niñas: torres con coronas, escudos decorativos y paleta en rosas y lilas que mantiene coherencia con los esquemas de color habituales en fiestas de princesas, hadas y cuentos. Con 4 metros de largo y 3.3 de ancho ofrece la misma superficie de brinco que los Gusanitos, el modelo mediano de mayor amplitud.',
-      'Diseñado para niñas de 3 a 9 años con capacidad para 4 a 5 simultáneamente. Es uno de los modelos más fotografiados del catálogo — aparece en el fondo de la mayoría de las fotos del evento y combina con cualquier montaje en tonos pastel. Funciona en jardines medianos y espacios con mínimo 5×4 metros libres.',
+      'El inflable Princesas tiene el nivel de detalle visual más alto del catálogo de niñas: torres con coronas, escudos decorativos y paleta en rosas y lilas que mantiene coherencia con los esquemas de color habituales en fiestas de princesas, hadas y cuentos. Con 5 metros de largo y 4 de ancho ofrece una superficie de brinco comparable a la de los Gusanitos, el modelo mediano de mayor amplitud.',
+      'Diseñado para niñas de 3 a 9 años con capacidad para 4 a 5 simultáneamente. Es uno de los modelos más fotografiados del catálogo — aparece en el fondo de la mayoría de las fotos del evento y combina con cualquier montaje en tonos pastel. Funciona en jardines medianos y espacios con mínimo 7×6 metros libres.',
     ],
     points: [
       'Edad recomendada: 3 a 9 años',
@@ -218,14 +218,14 @@ const INFLABLES: InflableItem[] = [
     ],
   },
   {
-    name: 'Castillo Blanco', category: 'Bodas', dims: '5×4×3.5 m', image: '/images/productos/castillo-blanco.jpg',
+    name: 'Castillo Blanco', category: 'Bodas', dims: '5×7×4 m', image: '/images/productos/castillo-blanco.jpg',
     body: [
       'El Castillo Blanco resuelve un problema concreto en bodas y eventos formales: los niños necesitan una zona de entretenimiento, pero un inflable de colores estridentes no es compatible con la estética del evento. Diseño completamente blanco con detalles dorados — neutro frente a cualquier paleta de decoración y compatible con bodas, XV años, bautizos y primeras comuniones.',
-      'Con 5×4 metros es el modelo más espacioso del catálogo y el que mayor capacidad tiene: hasta 8 niños o adolescentes al mismo tiempo. Pensado para que coordinadores de boda y wedding planners puedan incluirlo en el presupuesto sin que el inflable compita visualmente con la decoración principal del evento.',
+      'Con 5×7 metros de base es el modelo más espacioso del catálogo y el que mayor capacidad tiene: hasta 8 niños o adolescentes al mismo tiempo. Pensado para que coordinadores de boda y wedding planners puedan incluirlo en el presupuesto sin que el inflable compita visualmente con la decoración principal del evento.',
     ],
     points: [
       'Para niños, adolescentes y adultos jóvenes',
-      'El más espacioso del catálogo — 5×4 m de base',
+      'El más espacioso del catálogo — 5×7 m de base',
       'Diseño blanco y dorado — neutro frente a cualquier estética',
       'Indicado para bodas, XV años, bautizos y comuniones',
       'Compatible con coordinadores de boda y wedding planners',

@@ -20,8 +20,8 @@ Antes de entrar a los planes por edad, los datos duros del protagonista — porq
 
 | Especificación | Dato | Contexto práctico para tu plan |
 |---|---|---|
-| Dimensiones | 4 × 2.5 × 2.5 m | Mediano con presencia: domina el jardín sin devorarlo |
-| Espacio libre mínimo | 5.5 × 4 m | Mide con cinta antes de reservar; el margen perimetral no es decorativo |
+| Dimensiones | 5 × 2.5 × 2.8 m | Mediano con presencia: domina el jardín sin devorarlo |
+| Espacio libre mínimo | 7 × 4.5 m | Mide con cinta antes de reservar; el margen perimetral no es decorativo |
 | Elemento estrella | Tobogán integrado | El eje de todas las dinámicas de esta guía, de los relevos a la vuelta rápida |
 | Edad recomendada | 4 a 10 años | Tres franjas de niño distintas adentro del mismo rango — de eso trata este artículo |
 | Capacidad simultánea | 6–8 niños (5–6 con los de 9–10) | Define el tamaño de tus equipos y la duración de los turnos |
@@ -201,7 +201,7 @@ Suéltalas sin culpa. Las dinámicas son andamios, no jaulas: si los niños enco
 
 **1. Escribe por WhatsApp con la edad del grupo como primer dato.** "Niños de 6 a 8, unos 18 invitados" vale más que cualquier otra información: define capacidad recomendada, esquema de turnos y hasta el horario ideal de la fiesta.
 
-**2. Confirma espacio y disponibilidad.** Los Dragones Rojos necesitan 5.5×4 m libres en exterior; manda medidas de cinta métrica y fotos si hay dudas. El equipo confirma disponibilidad y precio el mismo día en horario de atención.
+**2. Confirma espacio y disponibilidad.** Los Dragones Rojos necesitan 7×4.5 m libres en exterior; manda medidas de cinta métrica y fotos si hay dudas. El equipo confirma disponibilidad y precio el mismo día en horario de atención.
 
 **3. Reserva con el 30% de anticipo.** Fecha bloqueada por transferencia. Para Día del Niño, cierres de ciclo escolar y fines de semana de diciembre, reserva con 2 a 3 semanas de anticipación — esta franja de edad concentra la demanda del calendario.
 

@@ -8,7 +8,7 @@ draft: false
 ---
 En el grupo de WhatsApp de las mamás del salón, la pregunta apareció un miércoles a las 9 de la noche: "¿Alguien ha rentado inflable? ¿Cuál me recomiendan para el cumple de Regina?". En los siguientes veinte minutos llegaron tres respuestas, cada una con una recomendación distinta y las tres con la misma frase de cierre: "a nosotros nos funcionó increíble". Una había rentado los Gusanitos para una posada de veinte primos. Otra, la Mini Jungla para un cumpleaños de cuatro años con tema de animales. La tercera, los Dragones Rojos para un niño de siete obsesionado con el tobogán. Las tres tenían razón — y ninguna respuesta le servía directamente a la mamá de Regina, porque su fiesta no se parecía a ninguna de las tres.
 
-Ese es el problema real de elegir un inflable mediano en CDMX: los tres modelos del catálogo DENFLAB —Gusanitos, Dragones Rojos y Mini Jungla— comparten el mismo largo de cuatro metros y la misma categoría de precio, pero son tres respuestas a tres preguntas diferentes. Uno maximiza la superficie de brinco. Otro integra un tobogán. El tercero recibe a los más pequeños y sostiene fiestas temáticas completas. Recomendarlos "en general" es como recomendar un coche sin preguntar cuántos van a subirse ni a dónde van.
+Ese es el problema real de elegir un inflable mediano en CDMX: los tres modelos del catálogo DENFLAB —Gusanitos, Dragones Rojos y Mini Jungla— comparten el mismo largo de cinco metros y la misma categoría de precio, pero son tres respuestas a tres preguntas diferentes. Uno maximiza la superficie de brinco. Otro integra un tobogán. El tercero recibe a los más pequeños y sostiene fiestas temáticas completas. Recomendarlos "en general" es como recomendar un coche sin preguntar cuántos van a subirse ni a dónde van.
 
 Esta comparativa existe para que elijas con método y no con testimonios sueltos. Vas a encontrar la tabla maestra con las especificaciones de los tres frente a frente, el análisis de qué hace único a cada uno, una matriz de decisión por edad, espacio y número de niños, y los escenarios reales donde cada modelo es la respuesta correcta. Al terminar, vas a poder contestar la pregunta del grupo de WhatsApp — la tuya y la de las demás.
 
@@ -18,11 +18,11 @@ Esta comparativa existe para que elijas con método y no con testimonios sueltos
 
 Antes de las tablas, el mapa conceptual. Los tres inflables medianos de DENFLAB se resumen así:
 
-**Los Gusanitos son el mediano del espacio.** Con 4 × 3.3 × 3 metros son el mediano más ancho del catálogo, y su diseño circular —sin esquinas muertas, con el juego fluyendo en todas direcciones— produce la mayor superficie de brinco de la categoría. Reciben de 5 a 6 niños simultáneos de 4 a 10 años, y su diseño de colores vivos sin personajes combina con cualquier decoración. Son la elección de la eficiencia: más niños brincando más tiempo. La [guía completa de los Gusanitos](/blog/gusanitos-guia-renta) desarrolla su lógica a fondo.
+**Los Gusanitos son el mediano del espacio.** Con 5 × 4.5 × 2.8 metros son el mediano más ancho del catálogo, y su diseño circular —sin esquinas muertas, con el juego fluyendo en todas direcciones— produce la mayor superficie de brinco de la categoría. Reciben de 5 a 6 niños simultáneos de 4 a 10 años, y su diseño de colores vivos sin personajes combina con cualquier decoración. Son la elección de la eficiencia: más niños brincando más tiempo. La [guía completa de los Gusanitos](/blog/gusanitos-guia-renta) desarrolla su lógica a fondo.
 
-**Los Dragones Rojos son el mediano de la emoción.** Con 4 × 2.5 × 2.5 metros son los más compactos de los tres, pero traen lo que ninguno de los otros dos tiene: un tobogán integrado. Para niños de 4 a 10 años, el tobogán convierte el brinco en circuito —subir, deslizarse, volver a empezar— y su diseño de dragones aporta una narrativa de aventura y fantasía que a los niños de primaria les encanta. Son la elección de la adrenalina en formato mediano.
+**Los Dragones Rojos son el mediano de la emoción.** Con 5 × 2.5 × 2.8 metros son los más compactos de los tres, pero traen lo que ninguno de los otros dos tiene: un tobogán integrado. Para niños de 4 a 10 años, el tobogán convierte el brinco en circuito —subir, deslizarse, volver a empezar— y su diseño de dragones aporta una narrativa de aventura y fantasía que a los niños de primaria les encanta. Son la elección de la adrenalina en formato mediano.
 
-**La Mini Jungla es el mediano de los pequeños y de la temática.** Con 4 × 2.5 × 2.8 metros y capacidad de 4 a 5 niños, es el único mediano del catálogo que recibe desde los 3 años, gracias a su rampa de subida suave. Su diseño de selva con animales la convierte además en el ancla visual perfecta de fiestas temáticas de safari, naturaleza o animales. Es la elección de la inclusión y de la fotografía.
+**La Mini Jungla es el mediano de los pequeños y de la temática.** Con 5 × 2.5 × 2.5 metros y capacidad de 4 a 5 niños, es el único mediano del catálogo que recibe desde los 3 años, gracias a su rampa de subida suave. Su diseño de selva con animales la convierte además en el ancla visual perfecta de fiestas temáticas de safari, naturaleza o animales. Es la elección de la inclusión y de la fotografía.
 
 Tres herramientas, tres trabajos. La pregunta nunca es "¿cuál es mejor?" sino "¿cuál es el trabajo de mi fiesta?".
 
@@ -34,13 +34,13 @@ Todos los datos provienen del catálogo DENFLAB. La columna de contexto práctic
 
 | Variable | Gusanitos | Dragones Rojos | Mini Jungla | Contexto práctico |
 |---|---|---|---|---|
-| **Dimensiones** | 4 × 3.3 × 3 m | 4 × 2.5 × 2.5 m | 4 × 2.5 × 2.8 m | El largo empata; el ancho decide: los Gusanitos piden 80 cm más de jardín que los otros dos |
+| **Dimensiones** | 5 × 4.5 × 2.8 m | 5 × 2.5 × 2.8 m | 5 × 2.5 × 2.5 m | El largo empata; el ancho decide: los Gusanitos piden 2 metros más de jardín que los otros dos |
 | **Edad recomendada** | 4 a 10 años | 4 a 10 años | Desde 3 años | Si hay invitados de 3 años, la Mini Jungla es la única puerta de entrada segura |
 | **Capacidad simultánea** | 5–6 niños | 4–5 niños (con tobogán en rotación) | 4–5 niños | Un niño más por turno en los Gusanitos = decenas de turnos extra en una fiesta larga |
 | **Elemento distintivo** | Diseño circular, mayor superficie de brinco | Tobogán integrado | Rampa de subida suave | Espacio, emoción o accesibilidad: este renglón es el corazón de la decisión |
 | **Temática** | Colores vivos, sin personajes | Dragones, fantasía y aventura | Selva y animales | Neutralidad total, narrativa épica o escenario fotogénico |
 | **Tipo de juego** | Brinco libre en todas direcciones | Circuito: brincar, subir, deslizarse | Brinco + juego imaginativo | El tobogán ordena el juego en flujo; el círculo lo libera; la selva lo narra |
-| **Compatibilidad con jardines angostos** | Baja (requiere más ancho) | Alta | Alta | Con menos de 4.5 m de ancho libre, los Gusanitos quedan fuera |
+| **Compatibilidad con jardines angostos** | Baja (requiere más ancho) | Alta | Alta | Con menos de 6.5 m de ancho libre, los Gusanitos quedan fuera |
 | **Uso** | Exterior, 110 V | Exterior, 110 V | Exterior, 110 V | Los tres usan soplador continuo: contacto eléctrico confiable es requisito universal |
 
 > **Nota sobre el precio:** los tres pertenecen a la misma categoría de medianos y manejan rangos comparables. El precio exacto depende de fecha, colonia y duración, y la única cotización real es la del equipo de DENFLAB por WhatsApp. Elegir entre los tres por precio es elegir por la variable menos diferenciadora de toda la tabla.
@@ -80,7 +80,7 @@ Esta matriz cruza las tres variables que de verdad deciden la elección. Encuent
 
 ## Guía paso a paso: elige tu mediano en cinco pasos
 
-1. **Mide el ancho libre de tu espacio con cinta métrica.** Menos de 4.5 metros de ancho libre: descarta los Gusanitos y sigue con dos candidatos. Este paso va primero porque es el único eliminatorio por completo.
+1. **Mide el ancho libre de tu espacio con cinta métrica.** Menos de 6.5 metros de ancho libre: descarta los Gusanitos y sigue con dos candidatos. Este paso va primero porque es el único eliminatorio por completo.
 2. **Anota la edad del invitado más chico y la del más grande.** Con niños de 3 años, la Mini Jungla toma la delantera automáticamente. Sin menores de 4, los tres siguen vivos.
 3. **Cuenta a los niños confirmados.** Hasta 15 invitados, cualquiera de los tres procesa bien la fiesta con turnos. De 15 a 25, los Gusanitos empiezan a justificarse solos. Más de 25, considera los Gusanitos o una combinación de dos inflables.
 4. **Pregunta al festejado qué quiere: brincar, deslizarse o explorar.** Su respuesta mapea directo: brincar mucho → Gusanitos; deslizarse → Dragones Rojos; selva y animales → Mini Jungla. Es el paso que más papás se saltan y el que más felicidad garantiza.
@@ -178,11 +178,11 @@ Sí, dentro de su rango recomendado de 4 a 10 años y con las reglas de siempre:
 
 ### ¿Y si mi espacio no da ni para el mediano más compacto?
 
-Entonces la categoría correcta es otra, no un mediano forzado. El Micro Baby (2 × 2 × 2 m, de 1 a 4 años) cabe incluso en interiores y resuelve fiestas de pequeños en departamentos y salones. Forzar un inflable en un espacio insuficiente compromete el perímetro de seguridad, y esa es la única línea que nunca se cruza. Comparte tus medidas al cotizar y el equipo te dirá con honestidad qué cabe y qué no.
+Entonces la categoría correcta es otra, no un mediano forzado. El Micro Baby (2 × 2 × 3 m, de 1 a 4 años) cabe incluso en interiores altos y resuelve fiestas de pequeños en departamentos y salones. Forzar un inflable en un espacio insuficiente compromete el perímetro de seguridad, y esa es la única línea que nunca se cruza. Comparte tus medidas al cotizar y el equipo te dirá con honestidad qué cabe y qué no.
 
 ### ¿Y si mi fiesta ya superó a los medianos por arriba?
 
-También pasa: niños de 10 años en adelante, listas de 40 invitados, eventos donde el inflable debe ser el espectáculo central. Ahí la categoría correcta son los grandes: el Extrem con su área de brinco amplia más tobogán de altura para los que buscan intensidad, o el Barco Pirata de 7 metros para el máximo impacto visual y capacidad. La lógica de decisión es la misma de esta guía —edad, espacio, número—, solo que con números más grandes.
+También pasa: niños de 10 años en adelante, listas de 40 invitados, eventos donde el inflable debe ser el espectáculo central. Ahí la categoría correcta son los grandes: el Extrem con su área de brinco amplia más tobogán de altura para los que buscan intensidad, o el Barco Pirata de 6 metros para el máximo impacto visual y capacidad. La lógica de decisión es la misma de esta guía —edad, espacio, número—, solo que con números más grandes.
 
 ---
 
@@ -229,4 +229,4 @@ Horario de atención: **Lunes a Viernes 9:00–19:00 | Sábados 9:00–17:00**
 
 ---
 
-*Los Gusanitos (4 × 3.3 × 3 m, 4–10 años, 5–6 niños), los Dragones Rojos (4 × 2.5 × 2.5 m, tobogán integrado, 4–10 años) y la Mini Jungla (4 × 2.5 × 2.8 m, desde 3 años) requieren superficie plana exterior y corriente de 110 V. Montaje, soplador y desmontaje siempre incluidos. DENFLAB atiende toda la CDMX y zonas aledañas.*
+*Los Gusanitos (5 × 4.5 × 2.8 m, 4–10 años, 5–6 niños), los Dragones Rojos (5 × 2.5 × 2.8 m, tobogán integrado, 4–10 años) y la Mini Jungla (5 × 2.5 × 2.5 m, desde 3 años) requieren superficie plana exterior y corriente de 110 V. Montaje, soplador y desmontaje siempre incluidos. DENFLAB atiende toda la CDMX y zonas aledañas.*

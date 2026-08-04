@@ -1,6 +1,6 @@
 ---
 title: "Renta del Castillo de Princesas: La Guía Completa para el Cumpleaños de Niña en CDMX"
-description: "El Castillo de Princesas es el inflable más solicitado y fotografiado del catálogo DENFLAB para fiestas de niña: 4×3.3×3 m en rosa, lila y morado. Guía completa para rentarlo en CDMX: specs, espacio requerido y proceso de reserva."
+description: "El Castillo de Princesas es el inflable más solicitado y fotografiado del catálogo DENFLAB para fiestas de niña: 5×4×3 m en rosa, lila y morado. Guía completa para rentarlo en CDMX: specs, espacio requerido y proceso de reserva."
 model: "Princesas"
 category: ninas
 pubDate: 2026-07-09
@@ -8,7 +8,7 @@ draft: false
 ---
 ## El Castillo de Princesas: El Inflable Más Fotografiado del Catálogo
 
-El Castillo de Princesas (modelo Princesas) es el inflable más solicitado del catálogo DENFLAB para fiestas de niña. Con **4 metros de largo, 3.3 metros de ancho y 3 metros de altura**, sus colores rosa, lila y morado con coronas, estrellas y siluetas de castillo hacen de él el elemento más visual de cualquier fiesta de niñas.
+El Castillo de Princesas (modelo Princesas) es el inflable más solicitado del catálogo DENFLAB para fiestas de niña. Con **5 metros de largo, 4 metros de ancho y 3 metros de altura**, sus colores rosa, lila y morado con coronas, estrellas y siluetas de castillo hacen de él el elemento más visual de cualquier fiesta de niñas.
 
 Es literalmente el inflable más fotografiado del catálogo — aparece en más historias de Instagram y álbumes de cumpleaños que cualquier otro modelo.
 
@@ -18,9 +18,9 @@ Es literalmente el inflable más fotografiado del catálogo — aparece en más 
 
 | Característica       | Detalle                                   |
 |----------------------|-------------------------------------------|
-| Dimensiones (base)   | 4 × 3.3 m                                 |
+| Dimensiones (base)   | 5 × 4 m                                   |
 | Altura inflado       | 3 m                                       |
-| Espacio mínimo total | 5.5 × 4.8 m (margen lateral incluido)     |
+| Espacio mínimo total | 7 × 6 m (margen lateral incluido)         |
 | Edad recomendada     | 3 a 10 años                               |
 | Capacidad            | 6 a 8 niñas simultáneas                   |
 | Instalación          | Solo exterior (jardín, terraza amplia)    |
@@ -51,12 +51,12 @@ El Castillo de Princesas no es solo un elemento de entretenimiento — es parte 
 
 | Característica        | Castillo Princesas | Gusanitos        | Mini Jungla     |
 |-----------------------|:------------------:|:----------------:|:---------------:|
-| Dimensiones base      | 4 × 3.3 m          | 4 × 3.3 m        | 4 × 2.5 m       |
-| Altura                | 3 m                | 3 m              | 2.8 m           |
+| Dimensiones base      | 5 × 4 m            | 5 × 4.5 m        | 5 × 2.5 m       |
+| Altura                | 3 m                | 2.8 m            | 2.5 m           |
 | Temática              | Princesas/rosa     | Genérico         | Animales/verde  |
 | Capacidad             | 6–8 niñas          | 8–10 niños       | 6–8 niños       |
 | Mejor para            | Fiestas de niña    | Grupos grandes   | Naturaleza      |
-| Espacio mínimo        | 5.5 × 4.8 m        | 5.5 × 4.8 m      | 5.5 × 4 m       |
+| Espacio mínimo        | 7 × 6 m            | 7 × 6.5 m        | 7 × 4.5 m       |
 
 ---
 
@@ -79,7 +79,7 @@ El Castillo de Princesas no es solo un elemento de entretenimiento — es parte 
 
 Si quieres delegar toda la logística de entretenimiento y decoración, DENFLAB ofrece el **Paquete Princesas**, que incluye:
 
-- ✅ Castillo de Princesas (4×3.3×3 m) — rosa y lila
+- ✅ Castillo de Princesas (5×4×3 m) — rosa y lila
 - ✅ Decoración coordinada en rosa y lavanda
 - ✅ Pintacaritas con diseños de mariposas, coronas y princesas
 - ✅ Mesa de dulces temática con nombre y edad de la festejada

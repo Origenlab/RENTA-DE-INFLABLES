@@ -8,7 +8,7 @@ draft: false
 ---
 La primera vez que un wedding planner ve el Castillo Blanco montado en un jardín de eventos, suele hacer la misma pregunta que quizás tú te estás haciendo ahora: ¿por qué alguien diseñaría un inflable sin colores? Los inflables, después de todo, son criaturas de colores primarios — rojos de dragón, rosas de princesa, azules de océano pirata. Un inflable blanco y dorado parece, a primera vista, un contrasentido comercial: el producto menos llamativo de una industria construida sobre llamar la atención. Y sin embargo, ese mismo planner, tres horas después, cuando la luz cálida de la recepción cae sobre el vinilo blanco y el castillo aparece en el fondo de las fotos del banquete como si fuera parte del mobiliario del venue, entiende exactamente por qué existe. El Castillo Blanco no fue diseñado para llamar la atención. Fue diseñado para no robarla.
 
-Esa es la diferencia de fondo entre el Castillo Blanco y todos los demás inflables del catálogo DENFLAB, y es la diferencia que este artículo va a desmenuzar. Porque la pregunta "¿qué inflable rento?" tiene una respuesta distinta según quién sea el protagonista del evento. Cuando el protagonista es un niño — su cumpleaños, su fiesta, sus amigos — el inflable correcto es uno temático que lo emocione: un [Barco Pirata](/blog/barco-pirata-guia-renta) de siete metros, un castillo rosado de princesas, unos dragones rojos con tobogán. Pero cuando los protagonistas son adultos — una boda, unos XV años, un bautizo con banquete — y los niños son invitados a los que hay que atender sin que su entretenimiento se coma la estética del evento, se necesita otra cosa. Se necesita, literalmente, otra categoría de producto.
+Esa es la diferencia de fondo entre el Castillo Blanco y todos los demás inflables del catálogo DENFLAB, y es la diferencia que este artículo va a desmenuzar. Porque la pregunta "¿qué inflable rento?" tiene una respuesta distinta según quién sea el protagonista del evento. Cuando el protagonista es un niño — su cumpleaños, su fiesta, sus amigos — el inflable correcto es uno temático que lo emocione: un [Barco Pirata](/blog/barco-pirata-guia-renta) de seis metros, un castillo rosado de princesas, unos dragones rojos con tobogán. Pero cuando los protagonistas son adultos — una boda, unos XV años, un bautizo con banquete — y los niños son invitados a los que hay que atender sin que su entretenimiento se coma la estética del evento, se necesita otra cosa. Se necesita, literalmente, otra categoría de producto.
 
 Esta guía compara el Castillo Blanco contra los inflables infantiles del catálogo — el Castillo de Princesas como su contraparte natural, y los medianos como referencia de tamaño — para que entiendas no solo cuál elegir, sino por qué la elección importa más de lo que parece cuando hay un fotógrafo profesional cobrando por hora.
 
@@ -18,7 +18,7 @@ Esta guía compara el Castillo Blanco contra los inflables infantiles del catál
 
 Durante años, la renta de inflables en CDMX operó con una sola lógica: los inflables son para fiestas infantiles, y si un evento de adultos quería entretener niños, rentaba un inflable infantil y aceptaba las consecuencias visuales. Las consecuencias eran predecibles — un castillo rosa chicle o un dragón rojo brillante plantado en medio de una recepción con paleta champagne, apareciendo en cada foto panorámica como una intrusión de feria en un evento de autor.
 
-El Castillo Blanco de DENFLAB nació para cerrar esa brecha. Sus decisiones de diseño solo tienen sentido leídas desde la lógica del evento formal: paleta blanca con acentos dorados que dialoga con las paletas clásicas de bodas y XV años mexicanos; cero personajes, cero temática infantil reconocible, cero colores que compitan con la decoración; y las dimensiones más generosas del catálogo — 5 × 4 × 3.5 metros, el más espacioso de toda la línea — porque un evento formal no tiene un grupo de amiguitos de la misma edad, tiene a todos los niños de todas las familias invitadas, desde el sobrino de cuatro años hasta la prima de doce.
+El Castillo Blanco de DENFLAB nació para cerrar esa brecha. Sus decisiones de diseño solo tienen sentido leídas desde la lógica del evento formal: paleta blanca con acentos dorados que dialoga con las paletas clásicas de bodas y XV años mexicanos; cero personajes, cero temática infantil reconocible, cero colores que compitan con la decoración; y las dimensiones más generosas del catálogo — 5 × 7 × 4 metros, el más espacioso de toda la línea — porque un evento formal no tiene un grupo de amiguitos de la misma edad, tiene a todos los niños de todas las familias invitadas, desde el sobrino de cuatro años hasta la prima de doce.
 
 Es una categoría con reglas propias. Un inflable infantil se evalúa por cuánta emoción genera en el niño festejado. Un inflable para eventos formales se evalúa por tres criterios completamente distintos: cómo se ve en la fotografía profesional del evento, qué tan bien atiende a un grupo heterogéneo de niños invitados durante muchas horas, y cuánta carga logística le quita (o le suma) a los anfitriones y su wedding planner. En los tres criterios, el diseño del Castillo Blanco es la respuesta a una pregunta que los inflables temáticos nunca tuvieron que hacerse.
 
@@ -30,7 +30,7 @@ La comparación más ilustrativa es contra el otro castillo del catálogo, porqu
 
 | Criterio | Castillo Blanco | Castillo de Princesas | Contexto práctico |
 |---|---|---|---|
-| **Dimensiones** | 5 × 4 × 3.5 m | 4 × 3.3 × 3 m | El Blanco es el más espacioso del catálogo; atiende grupos grandes y heterogéneos |
+| **Dimensiones** | 5 × 7 × 4 m | 5 × 4 × 3 m | El Blanco es el más espacioso del catálogo; atiende grupos grandes y heterogéneos |
 | **Paleta** | Blanco y dorado premium | Rosado con torres y coronas | El blanco convive con cualquier decoración formal; el rosado es una declaración temática |
 | **Público de diseño** | Niños invitados de eventos de adultos | Niñas de 3 a 9 años | El Princesas emociona a su dueña; el Blanco atiende a los hijos de todos los invitados |
 | **Evento natural** | Boda, XV años, bautizo, comunión | Cumpleaños infantil de niña | La pregunta clave: ¿el festejado tiene menos de 10 años? |
@@ -48,7 +48,7 @@ La segunda comparación relevante es de escala y logística: ¿por qué no renta
 
 | Criterio | Castillo Blanco | Medianos (Gusanitos, Mini Jungla, Dragones Rojos) | Contexto práctico |
 |---|---|---|---|
-| **Dimensiones** | 5 × 4 × 3.5 m | Alrededor de 4 × 2.5–3.3 × 2.5–3 m | En un jardín de eventos amplio, un mediano se ve pequeño y desproporcionado con el espacio |
+| **Dimensiones** | 5 × 7 × 4 m | Alrededor de 5 × 2.5–4.5 × 2.5–2.8 m | En un jardín de eventos amplio, un mediano se ve pequeño y desproporcionado con el espacio |
 | **Estética** | Blanco y dorado neutro | Temáticas infantiles: dragones, selva, diseño circular colorido | Un dragón rojo en la foto panorámica de una boda es exactamente el problema que el Blanco evita |
 | **Rango de niños atendidos** | Grupos heterogéneos de eventos familiares | Núcleos de 4 a 10 años según modelo | En una boda hay desde primos de 3 hasta de 12; el espacio extra del Blanco absorbe esa mezcla con turnos |
 | **Duración típica del evento** | Recepciones largas (6+ horas) | Fiestas infantiles de 3–4 horas | La rotación de niños en un evento largo exige la capacidad del inflable más espacioso |
@@ -85,7 +85,7 @@ Cuando la decisión avanza, la conversación cambia de "por qué" a "cómo", y a
 
 | Especificación | Dato | Contexto práctico |
 |---|---|---|
-| **Dimensiones** | 5 × 4 × 3.5 m (largo × ancho × alto) | El más espacioso del catálogo DENFLAB; confirma el área del venue antes de reservar |
+| **Dimensiones** | 5 × 7 × 4 m (largo × ancho × alto) | El más espacioso del catálogo DENFLAB; confirma el área del venue antes de reservar |
 | **Categoría** | Inflable para bodas y XV años | Diseño creado específicamente para eventos formales |
 | **Estética** | Blanco y dorado premium, elegante y neutro | Sin personajes ni licencias; compatible con paletas cream, champagne y pastel |
 | **Instalación** | Exterior: césped, concreto o loseta | Anclaje con estacas o sacos de arena según superficie, sin dañar el piso del venue |
@@ -115,7 +115,7 @@ La comparación abstracta se vuelve concreta cuando la sigues a lo largo de un e
 1. **Identifica al protagonista del evento.** ¿Festejado menor de 10 años? Inflable temático infantil — Princesas para niñas, y para niños las opciones de [inflables para niños](/renta-de-inflables-para-ninos). ¿Festejados adultos o quinceañera? Sigue al paso 2. Esta primera pregunta filtra el 90% de los casos sin necesidad de más análisis.
 2. **Confirma que habrá niños invitados en número relevante.** Con 8 o más niños entre 3 y 12 años, el entretenimiento infantil estructurado deja de ser opcional — es la diferencia entre papás presentes y papás supervisando.
 3. **Evalúa la estética de tu evento.** Si hay decoración formal, fotografía profesional o wedding planner, la neutralidad del Castillo Blanco es la elección segura. Si el evento es una comida familiar relajada sin producción visual, un inflable temático puede funcionar sin fricción.
-4. **Mide el espacio exterior del venue.** El Castillo Blanco necesita acomodar sus 5 × 4 metros de base más margen perimetral de seguridad, altura libre sobre sus 3.5 metros y un contacto de 110 V accesible. Fotos y medidas por WhatsApp bastan para que el equipo confirme viabilidad.
+4. **Mide el espacio exterior del venue.** El Castillo Blanco necesita acomodar sus 5 × 7 metros de base más margen perimetral de seguridad, altura libre sobre sus 4 metros y un contacto de 110 V accesible. Fotos y medidas por WhatsApp bastan para que el equipo confirme viabilidad.
 5. **Cotiza con fecha y zona.** Los precios se dan siempre por WhatsApp, personalizados por fecha, colonia y duración. El anticipo del 30% asegura la fecha; entrega, montaje y desmontaje van incluidos siempre.
 
 > **Atajo honesto:** si después de los cinco pasos sigues indeciso, describe tu evento en un mensaje — tipo de celebración, venue, número y edades de los niños — y deja que el equipo haga la recomendación. Ha visto suficientes eventos de ambas categorías para responder en minutos lo que esta guía tarda páginas en explicar.

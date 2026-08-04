@@ -20,7 +20,7 @@ Hay algo en los animales —especialmente los grandes, los salvajes, los que hab
 
 La selva como escenario amplifica ese asombro funcional porque es un espacio donde todo coexiste: el peligro y la belleza, la sombra y la luz que se filtra entre las hojas, los sonidos que vienen de todas partes. Es, en términos narrativos, el espacio perfecto para una aventura de cumpleaños porque no tiene un solo tipo de historia: puede ser una misión de rescate, una expedición científica, una celebración tribal, un día de juego libre con tus amigos más cercanos entre los árboles.
 
-La Mini Jungla de DENFLAB trae esa narrativa al jardín de tu casa en formato físico, tridimensional, habitable. El verde intenso del vinilo, los leones y las jirafas y los monos impresos con detalle, los 2.8 metros de altura que hacen que el inflable sea más alto que cualquier adulto en la fiesta: todo eso crea un objeto que los niños no solo usan sino que incorporan a sus juegos imaginativos de maneras que ningún inflable genérico puede igualar.
+La Mini Jungla de DENFLAB trae esa narrativa al jardín de tu casa en formato físico, tridimensional, habitable. El verde intenso del vinilo, los leones y las jirafas y los monos impresos con detalle, los 2.5 metros de altura que hacen que el inflable sea más alto que cualquier adulto en la fiesta: todo eso crea un objeto que los niños no solo usan sino que incorporan a sus juegos imaginativos de maneras que ningún inflable genérico puede igualar.
 
 ---
 

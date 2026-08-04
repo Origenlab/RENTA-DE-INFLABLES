@@ -8,7 +8,7 @@ draft: false
 ---
 La escena se repite cada semana en el WhatsApp de DENFLAB. Una mamá escribe desde Del Valle: su hija cumple dos años, pero los primos que vienen a la fiesta tienen cinco, siete y nueve. El jardín de la abuela mide como seis por cinco metros —"como", porque nadie lo ha medido con cinta—, el presupuesto tiene un techo claro, y la pregunta que lo resume todo llega en un solo mensaje: *"¿me conviene el chiquito o uno mediano?"*. Es la pregunta más frecuente de todo el catálogo, y también la que más consecuencias tiene si se responde mal. Un inflable demasiado pequeño deja a los niños grandes aburridos y merodeando peligrosamente cerca de los bebés; uno demasiado grande convierte a los más chicos en espectadores de una fiesta que en teoría era suya.
 
-Esta guía existe para responder esa pregunta con honestidad, sin empujarte hacia el modelo más caro ni hacia el más conveniente para el proveedor. Vamos a comparar el [Micro Baby](/blog/micro-baby-guia-renta) —el único inflable chico del catálogo, 2×2×2 metros, diseñado para niños de 1 a 4 años— contra los tres medianos de DENFLAB: los Dragones Rojos, la Mini Jungla y los Gusanitos. Al final vas a saber exactamente cuál conviene para tu caso, y —quizá más importante— cuándo el Micro Baby, con todo y su encanto, **no** es la elección correcta.
+Esta guía existe para responder esa pregunta con honestidad, sin empujarte hacia el modelo más caro ni hacia el más conveniente para el proveedor. Vamos a comparar el [Micro Baby](/blog/micro-baby-guia-renta) —el único inflable chico del catálogo, 2×2×3 metros, diseñado para niños de 1 a 4 años— contra los tres medianos de DENFLAB: los Dragones Rojos, la Mini Jungla y los Gusanitos. Al final vas a saber exactamente cuál conviene para tu caso, y —quizá más importante— cuándo el Micro Baby, con todo y su encanto, **no** es la elección correcta.
 
 Porque esa es la verdad que pocos proveedores dicen en voz alta: no hay inflable perfecto. Hay inflables correctos para cada combinación de edades, espacio y tipo de evento. Vamos a encontrar el tuyo.
 
@@ -20,7 +20,7 @@ Antes de ver una sola tabla, hay tres preguntas que resuelven el 90% de los caso
 
 **Primera: ¿cuántos años tiene el niño más chico que va a usar el inflable — y cuántos el más grande?** No la edad del cumpleañero: la edad de *todos* los que van a querer entrar. El Micro Baby está calibrado para niños de 1 a 4 años que ya caminan solos. Los medianos —Dragones Rojos, Mini Jungla, Gusanitos— cubren desde los 3 o 4 años hasta los 10. Si tu lista de invitados cruza esa frontera en ambas direcciones, ya sabes que ningún inflable único va a dejar a todos contentos, y eso cambia la estrategia completa.
 
-**Segunda: ¿cuánto espacio libre real tienes?** El Micro Baby necesita apenas 3×3 metros despejados y es el único modelo del catálogo que funciona en interiores. Los medianos necesitan mínimo 5.5×4 metros de espacio libre exterior —no de jardín total, de espacio *libre*— más una toma de corriente a distancia razonable. Un departamento en Nápoles y una casa con jardín en Coyoacán son universos distintos, y el catálogo lo refleja.
+**Segunda: ¿cuánto espacio libre real tienes?** El Micro Baby necesita apenas 4×4 metros despejados (más 4 metros de altura libre) y es el único modelo del catálogo que funciona bajo techo. Los medianos necesitan mínimo 7×4.5 metros de espacio libre exterior —no de jardín total, de espacio *libre*— más una toma de corriente a distancia razonable. Un departamento en Nápoles y una casa con jardín en Coyoacán son universos distintos, y el catálogo lo refleja.
 
 **Tercera: ¿qué papel juega el inflable en tu fiesta?** En un primer cumpleaños, el inflable es una zona suave de juego para bebés mientras los adultos conviven. En una fiesta de siete años, el inflable *es* la fiesta: el centro de gravedad de tres horas de energía infantil. Son funciones diferentes que piden herramientas diferentes.
 
@@ -32,8 +32,8 @@ Esta es la tabla que resuelve la mayoría de las dudas. Guárdala, compártela c
 
 | Criterio | Micro Baby | Dragones Rojos | Mini Jungla | Gusanitos | Contexto práctico |
 |---|---|---|---|---|---|
-| Dimensiones | 2×2×2 m | 4×2.5×2.5 m | 4×2.5×2.8 m | 4×3.3×3 m | El Micro Baby ocupa la cuarta parte de huella que un mediano; los Gusanitos son el mediano más ancho |
-| Espacio libre mínimo | 3×3 m | 5.5×4 m | 5.5×4 m | 5.5×4.8 m | Mide con cinta métrica el rectángulo libre, no el jardín completo |
+| Dimensiones | 2×2×3 m | 5×2.5×2.8 m | 5×2.5×2.5 m | 5×4.5×2.8 m | El Micro Baby ocupa una fracción de la huella de un mediano; los Gusanitos son el mediano más ancho |
+| Espacio libre mínimo | 4×4 m | 7×4.5 m | 7×4.5 m | 7×6.5 m | Mide con cinta métrica el rectángulo libre, no el jardín completo |
 | Edad recomendada | 1 a 4 años | 4 a 10 años | Desde 3 años | 4 a 10 años | La Mini Jungla es el mediano que más abajo llega en edad gracias a su rampa suave |
 | Capacidad simultánea | 4–6 niños | 6–8 niños | 4–5 niños | 5–6 niños | Los Gusanitos ofrecen la mayor superficie de brinco del segmento mediano por su diseño circular |
 | ¿Interior? | Sí — único del catálogo | No | No | No | Si tu evento es en departamento o salón techado, la decisión ya está tomada |
@@ -46,7 +46,7 @@ Esta es la tabla que resuelve la mayoría de las dudas. Guárdala, compártela c
 
 ## Cuándo el Micro Baby es la Elección Correcta
 
-**Cuando el grupo central tiene entre 1 y 4 años.** Si el cumpleañero tiene uno o dos años y la mayoría de los invitados infantiles está en esa franja, el Micro Baby no es la opción económica: es la opción *técnica*. Sus paredes suaves, su entrada baja y su altura de dos metros están calibradas para cuerpos que apenas dominan el arte de caminar. Un mediano para ese grupo sería como darle una bicicleta de montaña a alguien que apenas suelta las rueditas.
+**Cuando el grupo central tiene entre 1 y 4 años.** Si el cumpleañero tiene uno o dos años y la mayoría de los invitados infantiles está en esa franja, el Micro Baby no es la opción económica: es la opción *técnica*. Sus paredes suaves, su entrada baja y su base de dos por dos metros están calibradas para cuerpos que apenas dominan el arte de caminar. Un mediano para ese grupo sería como darle una bicicleta de montaña a alguien que apenas suelta las rueditas.
 
 **Cuando el evento es en interior.** Departamento, salón de usos múltiples, terraza techada: el Micro Baby es el único modelo del catálogo DENFLAB que entra por una puerta estándar, opera bajo techos de 2.5 metros y no requiere anclaje al suelo. Los medianos son de uso exclusivo exterior, sin excepciones ni negociaciones. Si tu realidad es urbana y vertical, tienes exactamente una opción — y por fortuna es muy buena. Puedes profundizar en la [guía completa del Micro Baby](/blog/micro-baby-guia-renta) o explorar la categoría de [inflables chicos](/renta-de-inflables-chicos).
 
@@ -74,7 +74,7 @@ Aquí es donde esta guía se gana tu confianza, porque vamos a decirte cuándo *
 
 1. **Haz la lista de edades.** Escribe la edad de cada niño que asistirá. No estimes: pregunta. La distribución real de edades es el dato más importante de toda la decisión.
 2. **Identifica la franja dominante.** Si el 70% o más tiene entre 1 y 4 años, el Micro Baby es tu candidato. Si el 70% o más tiene entre 4 y 10, ve directo a los medianos. Si está partido a la mitad, considera dos inflables o elige el mediano con supervisión reforzada para los chicos.
-3. **Mide el espacio libre con cinta métrica.** Rectángulo despejado real, descontando muebles, árboles, jardineras. Menos de 5.5×4 m exteriores descarta a los medianos automáticamente.
+3. **Mide el espacio libre con cinta métrica.** Rectángulo despejado real, descontando muebles, árboles, jardineras. Menos de 7×4.5 m exteriores descarta a los medianos automáticamente.
 4. **Define interior o exterior.** Interior = Micro Baby, sin más vueltas. Exterior amplio = todos los modelos compiten.
 5. **Decide el papel del inflable.** ¿Zona de contención suave o protagonista de la fiesta? Complemento = Micro Baby; protagonista = mediano.
 6. **Cruza los resultados.** Si los pasos 2, 4 y 5 apuntan al mismo modelo, ya terminaste. Si se contradicen, la edad gana siempre: es el criterio de seguridad.
@@ -88,10 +88,10 @@ Aquí es donde esta guía se gana tu confianza, porque vamos a decirte cuándo *
 |---|---|---|---|---|
 | Primer cumpleaños en departamento | 1–3 años | Sala 4×4 m | Micro Baby | Único modelo interior; paredes suaves para bebés |
 | Cumpleaños de 3 años en jardín chico | 2–5 años | Jardín 5×4 m | Micro Baby | La Mini Jungla ya no cabe con margen; los chicos dominan la lista |
-| Cumpleaños de 6 años en jardín estándar | 4–9 años | Jardín 7×5 m | Dragones Rojos | Tobogán integrado; rango 4–10 cubre a todos los invitados |
-| Fiesta con temática de animales, niños desde 3 | 3–8 años | Jardín 7×5 m | Mini Jungla | Rampa suave apta desde 3 años; temática selva coherente |
-| Reunión familiar con 20+ niños de 4 a 10 | 4–10 años | Jardín 8×6 m | Gusanitos | El mediano más ancho: mayor superficie de brinco y rotación |
-| Bautizo con bebés y primos grandes | 1–9 años | Jardín 10×6 m | Micro Baby + mediano | Dos zonas, dos edades, cero conflictos |
+| Cumpleaños de 6 años en jardín estándar | 4–9 años | Jardín 8×5 m | Dragones Rojos | Tobogán integrado; rango 4–10 cubre a todos los invitados |
+| Fiesta con temática de animales, niños desde 3 | 3–8 años | Jardín 8×5 m | Mini Jungla | Rampa suave apta desde 3 años; temática selva coherente |
+| Reunión familiar con 20+ niños de 4 a 10 | 4–10 años | Jardín 8×7 m | Gusanitos | El mediano más ancho: mayor superficie de brinco y rotación |
+| Bautizo con bebés y primos grandes | 1–9 años | Jardín 12×7 m | Micro Baby + mediano | Dos zonas, dos edades, cero conflictos |
 | Baby shower con hermanitos | 1–4 años | Salón techado | Micro Baby | Zona de contención silenciosa mientras los adultos celebran |
 
 > **Tip de organizador:** cuando dudes entre dos escenarios de esta tabla, elige pensando en el niño más vulnerable de tu lista, no en el más entusiasta. El niño de 8 años se divierte en cualquier inflable; el de 18 meses solo está seguro en uno diseñado para él.
@@ -139,9 +139,9 @@ Cambia muchísimo, y es el factor que más gente olvida al comparar. El Micro Ba
 
 La estrategia de los papás experimentados en temporada de lluvias: fiesta que arranca temprano (los aguaceros capitalinos prefieren la tarde), inflable mediano usado intensivamente las primeras dos horas, y plan B de entretenimiento bajo techo para el cierre. Si esa gimnasia no te convence, ya sabes qué modelo te deja dormir tranquilo.
 
-### Mi jardín mide exactamente 5.5×4 metros. ¿Me arriesgo con un mediano?
+### Mi jardín mide exactamente 7×4.5 metros. ¿Me arriesgo con un mediano?
 
-Si esos 5.5×4 son de espacio *libre* medido con cinta —sin macetas, sin muebles, sin ramas bajas—, sí cabe un Dragones Rojos o una Mini Jungla, justo. Si son las medidas del jardín total con cosas adentro, no. La forma más rápida de salir de la duda: manda una foto del espacio con una silla como referencia de escala por WhatsApp, y el equipo de DENFLAB te confirma antes de que pagues nada.
+Si esos 7×4.5 son de espacio *libre* medido con cinta —sin macetas, sin muebles, sin ramas bajas—, sí cabe un Dragones Rojos o una Mini Jungla, justo. Si son las medidas del jardín total con cosas adentro, no. La forma más rápida de salir de la duda: manda una foto del espacio con una silla como referencia de escala por WhatsApp, y el equipo de DENFLAB te confirma antes de que pagues nada.
 
 ---
 
